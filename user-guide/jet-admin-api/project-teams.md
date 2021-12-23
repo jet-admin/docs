@@ -88,6 +88,66 @@ Return response as pages (0 or 1)
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/groups/:uid/" method="get" summary="Get detail project team" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="PROJECT_NAME" type="string" %}
+Unique project name (can be taken from Jet Admin project URL)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="Authorization" type="string" %}
+Token authentication, example: 
+
+\
+
+
+
+
+`Authorization: ProjectToken f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="_paginate" type="number" %}
+Return response as pages (0 or 1)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="search" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="number" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="uid" type="string" %}
+Team uid
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Default" %}
+```javascript
+    {
+        id: 35091
+        name: "Sales"
+        description: ""
+        super_group: false
+        project_permissions: [
+            {
+                id: 525
+                permission_type: "model"
+                permission_object: "jet_bridge.users_user"
+                permission_actions: "r"
+                date_add: "2019-03-22T19:03:02.425689+03:00"
+            }
+        ],
+        properties: {
+            industry: "EdTech"
+        }
+    }
+```
+{% endswagger-response %}
+{% endswagger %}
+
 {% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/groups/" method="post" summary="Create new project team" %}
 {% swagger-description %}
 
@@ -244,7 +304,7 @@ Token authentication, example:
 
 ## For projects with multiple environments
 
-{% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/:ENVIRONMENT_NAME/groups/" method="get" summary="Get list of all project teams" %}
+{% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/:ENVIRONMENT_NAME/groups/" method="get" summary="Get list of all environments teams" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -332,6 +392,70 @@ Return response as pages (0 or 1)
       }
    ]
 }
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/:ENVIRONMENT_NAME/groups/:uid/" method="get" summary="Get detail environment team" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="ENVIRONMENT_NAME" type="string" %}
+Environment name in URL
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="PROJECT_NAME" type="string" %}
+Unique project name (can be taken from Jet Admin project URL)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="Authorization" type="string" %}
+Token authentication, example: 
+
+\
+
+
+
+
+`Authorization: ProjectToken f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="_paginate" type="string" %}
+Return response as pages (0 or 1)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="search" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="number" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="uid" type="string" %}
+Team uid
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Default" %}
+```javascript
+    {
+        id: 35091
+        name: "Sales"
+        description: ""
+        super_group: false
+        project_permissions: [
+            {
+                id: 525
+                permission_type: "model"
+                permission_object: "jet_bridge.users_user"
+                permission_actions: "r"
+                date_add: "2019-03-22T19:03:02.425689+03:00"
+            }
+        ],
+        properties: {
+            industry: "EdTech"
+        }
+    }
 ```
 {% endswagger-response %}
 {% endswagger %}
