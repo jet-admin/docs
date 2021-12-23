@@ -20,7 +20,15 @@ Token authentication, example:
 `Authorization: ProjectToken f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="" %}
+{% swagger-parameter in="query" name="_paginate" type="number" %}
+Return response as pages (0 or 1)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="search" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
 ```javascript
 [
     {
@@ -42,6 +50,36 @@ Token authentication, example:
         }
     }
 ]
+```
+{% endswagger-response %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+   "count":4,
+   "next":null,
+   "previous":null,
+   "results":[
+      {
+         "id":35091,
+         "name":"Sales",
+         "description":"",
+         "super_group":false,
+         "project_permissions":[
+            {
+               "id":525,
+               "permission_type":"model",
+               "permission_object":"jet_bridge.users_user",
+               "permission_actions":"r",
+               "date_add":"2019-03-22T19:03:02.425689+03:00"
+            }
+         ],
+         "properties":{
+            "industry":"EdTech"
+         }
+      }
+   ]
+}
 ```
 {% endswagger-response %}
 {% endswagger %}
