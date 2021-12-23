@@ -28,7 +28,7 @@ Return response as pages (0 or 1)
 
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="" %}
+{% swagger-response status="200: OK" description="Default" %}
 ```javascript
 [
     {
@@ -53,10 +53,10 @@ Return response as pages (0 or 1)
 ```
 {% endswagger-response %}
 
-{% swagger-response status="200: OK" description="" %}
+{% swagger-response status="200: OK" description="Paginated" %}
 ```javascript
 {
-   "count":4,
+   "count":1,
    "next":null,
    "previous":null,
    "results":[
