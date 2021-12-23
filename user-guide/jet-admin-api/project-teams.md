@@ -28,6 +28,10 @@ Return response as pages (0 or 1)
 
 {% endswagger-parameter %}
 
+{% swagger-parameter in="query" name="page" type="number" %}
+
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Default" %}
 ```javascript
 [
@@ -269,6 +273,10 @@ Return response as pages (0 or 1)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="search" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="number" %}
 
 {% endswagger-parameter %}
 
