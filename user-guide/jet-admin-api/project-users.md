@@ -251,7 +251,15 @@ Token authentication, example:
 `Authorization: ProjectToken f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="" %}
+{% swagger-parameter in="query" name="_paginate" type="string" %}
+Return response as pages (0 or 1)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="search" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
 ```javascript
 {
     id: 1504,
@@ -277,6 +285,45 @@ Token authentication, example:
     },
     date_add: "2018-09-30T16:58:52.067471+03:00"
 }
+```
+{% endswagger-response %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+   "count":1,
+   "next":null,
+   "previous":null,
+   "results":[
+      {
+         "id":1504,
+         "user":{
+            "username":"a.svetlov@geex-arts.com",
+            "first_name":"Anton",
+            "last_name":"Svetlov",
+            "email":"a.svetlov@geex-arts.com",
+            "photo":"https://api.jetadmin.io/media/user/photo/2018/10/09/18402150_1144874585658871_7416256167591393723_o.jpg",
+            "uid":"28c9bc6d-1f80-4898-93d3-154fa66b22ac"
+         },
+         "user_email":null,
+         "group":{
+            "id":1491,
+            "name":"Administrators",
+            "description":"",
+            "super_group":true,
+            "project_permissions":[
+               
+            ],
+            "properties":{
+               
+            }
+         },
+         "properties":{
+            "office":"Dubai"
+         },
+         "date_add":"2018-09-30T16:58:52.067471+03:00"
+      }
+   ]
 ```
 {% endswagger-response %}
 {% endswagger %}
