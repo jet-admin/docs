@@ -10,9 +10,9 @@ Jet Admin is an **app builder** that allows you to create **Client Portals**, **
 
 ## Building a Business App?
 
-This **3 min video** will walk you through the process of building a business app from scratch:
+This **2 min video** will explain what Jet Admin is and what you can build with it:
 
-{% embed url="https://youtu.be/RDM_lm6x5Uc" %}
+{% embed url="https://youtu.be/ktkbSKQkQq8" %}
 
 ## Building a Portal?
 
