@@ -1,4 +1,4 @@
-# Superuser acess
+# Superuser access
 
 Normally you don't need to have access to **Jet Admin** database with project and users configuration, but if somehow need to modify it you can get superuser access to built-it admin panel over **Jet Admin** instance.
 
