@@ -4,7 +4,7 @@
 
 * Command-line experience
 * Docker installed
-* License key (concat our sales)
+* License key (contact our sales)
 
 {% hint style="info" %}
 Access to **gitlab.com/jet-admin/jet-onpremise** is necessary before installing. [Contact](https://www.jetadmin.io/contact) our sales to get access to get On-premise license or start trial.
