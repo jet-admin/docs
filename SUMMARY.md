@@ -141,6 +141,7 @@
     * [Okta SSO](user-guide/security-and-privacy/sign-in-sign-up/okta-sso.md)
     * [Google SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/google-oauth-2.0.md)
     * [Google SSO SAML2](user-guide/security-and-privacy/sign-in-sign-up/google-sso-saml2.md)
+    * [Custom SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/custom-sso-oauth-2.0.md)
   * [Roles in Permissions](user-guide/security-and-privacy/create-and-manage-a-team.md)
   * [User-specific Permissions](user-guide/security-and-privacy/user-and-team-properties.md)
   * [Sharing your app](user-guide/security-and-privacy/sharing-your-app.md)
