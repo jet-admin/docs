@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/dtjfyt.png)
 
-### Choosing files to import
+### Connecting Google Sheets
 
 You can choose multiple files to import, for that, click "Add a file" as shown on the screenshot.
 

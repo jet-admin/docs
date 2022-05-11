@@ -1,22 +1,35 @@
 # Airtable
 
-Connect to Airtable to turn your spreadsheets into a full-fledged internal tools or customer portals.
+In this article, we'll review the integration with Airtable, and its characteristics and will go through the steps necessary to connect it to Jet Admin
 
-### 1. Add Airtable resource
+### Connecting Airtable
 
-Simply select Airtable from the list of resources in the welcome popup right after creating your project to get started:
+You can connect to Airtable from the data tab on the left menu bar or from the data section within a UI component. You'll need to enter a valid API key (1) and choose a base (2).
 
-![](<../../.gitbook/assets/Запись экрана 2021-05-16 в 10.44.48.gif>)
+{% hint style="info" %}
+Unlike in Airtable, in Jet Admin you can link between bases
+{% endhint %}
 
-### 2. Enter an API key
+![](../../.gitbook/assets/dtnxcfy.png)
 
-You can obtain your API key by following this [link](https://airtable.com/account) according to the following steps:
+### Entering an API key
+
+You can obtain your API key by following this [link](https://airtable.com/account) and following these steps:
 
 ![](<../../.gitbook/assets/Запись экрана 2021-05-16 в 10.14.40.gif>)
 
-### 3. Pick your bases
+### Choosing connection mode&#x20;
 
-Just choose your base that you want to allow Jet to work in order to build your application:
+After that, you need to choose how you'd like your Airtable to be integrated with Jet Admin. You can either connect directly or **sync it** with Jet's internal database to get extended functionality.&#x20;
 
-![](../../.gitbook/assets/testgif17.gif)
+If you want to be able to **combine your Airtable data** with data from other data sources, such as Firebase, Google Sheets, or even REST API within the same tables, you should choose the **"Sync" connection** for Google Sheets. You can learn more about it here:
 
+{% content-ref url="../data-blending.md" %}
+[data-blending.md](../data-blending.md)
+{% endcontent-ref %}
+
+![](../../.gitbook/assets/ilhj.JPG)
+
+After having connected your Airtable, you'll be prompted to choose pages you want Jet Admin to generate **an admin panel (CRUD pages)** for. If you don't want an admin panel to be generated at all, leave all the boxes empty.
+
+![](../../.gitbook/assets/xtfmcnyu.png)
