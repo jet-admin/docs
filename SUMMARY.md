@@ -159,6 +159,7 @@
   * [Teams API](user-guide/jet-admin-api/project-teams.md)
   * [Projects API](user-guide/jet-admin-api/projects-api.md)
   * [HTTP requests API](user-guide/jet-admin-api/http-requests-api.md)
+* [💠 Data Blending](user-guide/data-blending.md)
 
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
 
