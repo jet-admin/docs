@@ -20,7 +20,7 @@ Choose the sync connection to unlock all the features listed above. Under the ho
 
 ![The dialog window to choose the connection type](../.gitbook/assets/dtnxb-min.png)
 
-## Blending data
+## Blending the data
 
 To demonstrate how the data blending works, we'll use two data sources: Airtable and Google Sheets, where the former contains the `Order` table and the latter - the `Customers` table. Notice that the `Customer ID` column in the `Orders` table refers to the `ID` in the `Customers` table.
 

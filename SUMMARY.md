@@ -45,10 +45,10 @@
 
 * [🦄 Jet UI](user-guide/jet-ui/README.md)
   * [Builder](user-guide/jet-ui/builder.md)
-  * [Data](user-guide/jet-ui/data.md)
   * [Layout & Branding](user-guide/jet-ui/layouts-and-branding.md)
   * [Preview & Publish](user-guide/jet-ui/preview-and-publish.md)
   * [Settings](user-guide/jet-ui/settings.md)
+  * [Data](user-guide/jet-ui/data.md)
 * [🧰 Data Sources](user-guide/integrations/README.md)
   * [Database Integration](user-guide/integrations/postgresql-integration/README.md)
     * [Instant Installation](user-guide/integrations/postgresql-integration/instant-cloud.md)

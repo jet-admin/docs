@@ -15,3 +15,9 @@ Then you need to sign in to your Google Account with the spreadsheets, choose th
 Once you've added Google Sheet to Jet Admin, you'll be able to see your Collections of data we obtained from your resource, such as Users. Select the collections for which Jet Admin should automatically generate an Admin Panel:
 
 ![](../../.gitbook/assets/testgif16.gif)
+
+If you want to combine your Google Sheets data with data from other data sources, such as Firebase, Airtable, or even REST API within the same table, you should use the "Sync" connection for Google Sheets. You can learn more about it here:
+
+{% content-ref url="../data-blending.md" %}
+[data-blending.md](../data-blending.md)
+{% endcontent-ref %}
