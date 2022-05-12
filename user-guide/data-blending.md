@@ -69,6 +69,14 @@ In the sync tab, you can:
 
 ![](../.gitbook/assets/xtfmyt.png)
 
+The last **sync date and time** are displayed along with the sync status:
+
+![](../.gitbook/assets/xncvgyn.png)
+
+You can further investigate the **syncing logs** and **console** by clicking on that time:
+
+![](../.gitbook/assets/ugkhji.JPG)
+
 To learn more about using SQL queries in Jet Admin, please refer to this page:
 
 {% content-ref url="../getting-started/part-2-intermediate/reading-data-from-sql.md" %}
