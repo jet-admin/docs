@@ -1,4 +1,4 @@
-# Preview & Publish
+# ▶ Preview & Publish
 
 ## Builder/User/Preview modes
 
@@ -10,11 +10,11 @@ There are three operational modes in Jet Admin: the **Builder mode**, **** the *
 After creating an account, you'll automatically get into the Builder mode with the Administrator permissions.
 {% endhint %}
 
-![](../../.gitbook/assets/mcgnvyn.JPG)
+![](../.gitbook/assets/mcgnvyn.JPG)
 
 **User mode**, on the other hand, allows end-users to perform their daily operations in the app. For that, all the changes that have been made in the app have to be published, generating a new page with a new `.../app/...` URL. In this mode, users don't have access to any customization features but can interact with the data according to their permissions.
 
-![](../../.gitbook/assets/fmxyju.JPG)
+![](../.gitbook/assets/fmxyju.JPG)
 
 **Preview mode** is designed for the builders to quickly preview the app in a user-mode without having to publish an app.
 
@@ -25,13 +25,13 @@ Within the preview mode, a user can:
 * **Publish** an app
 * **Impersonate** a specific user
 
-![](../../.gitbook/assets/tdjsyu.png)
+![](../.gitbook/assets/tdjsyu.png)
 
 ### Reviewing changes
 
 By clicking on the **"N changes"** label, drill down into the changes history. Here you can view the logs **(2)** and granularly discard changes for broader categories **(1)** or for individual collections, resources, settings, etc. **(3)**
 
-![](../../.gitbook/assets/xncffy.png)
+![](../.gitbook/assets/xncffy.png)
 
 ### Impersonating users
 
@@ -39,5 +39,5 @@ When building an app, it's usually difficult to get the right idea of how page p
 
 The impersonation feature allows you quickly **preview** an app **through the eyes** of a particular user. In the example case below, we've denied access to the `Customers` page and set the user to see only records where `Customer ID = 1` the `Orders` table.
 
-![](../../.gitbook/assets/dtjfhy.gif)
+![](../.gitbook/assets/dtjfhy.gif)
 
