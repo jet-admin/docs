@@ -150,6 +150,7 @@
   * [Approval Workflow](user-guide/workflow/task-approval.md)
   * [Actions Workflow](user-guide/workflow/actions-workflow.md)
   * [Action Sequences](user-guide/workflow/action-sequences.md)
+* [💠 Data Blending](user-guide/data-blending.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
   * [Environments](user-guide/project-settings/environments.md)
   * [Manage your subscription](user-guide/project-settings/manage-your-subscription.md)
@@ -160,7 +161,6 @@
   * [Teams API](user-guide/jet-admin-api/project-teams.md)
   * [Projects API](user-guide/jet-admin-api/projects-api.md)
   * [HTTP requests API](user-guide/jet-admin-api/http-requests-api.md)
-* [💠 Data Blending](user-guide/data-blending.md)
 
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
 
