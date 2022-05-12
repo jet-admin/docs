@@ -26,7 +26,7 @@ To demonstrate how the data blending works, we'll use two data sources: Airtable
 
 ![](../.gitbook/assets/dtzhy.png)
 
-Once you've connected your data sources, proceed to the data section and pick a data source where you want to perform the blending _(you can choose either one, it's just a matter of convenience)_
+Once you've connected your data sources (read more on particular integrations here), proceed to the data section and pick a data source where you want to perform the blending _(you can choose either one, it's just a matter of convenience)_
 
 ![](../.gitbook/assets/dhtffyu.png)
 
