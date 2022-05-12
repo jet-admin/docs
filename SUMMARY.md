@@ -45,7 +45,7 @@
 
 * [🦄 Jet UI](user-guide/jet-ui/README.md)
   * [Builder](user-guide/jet-ui/builder.md)
-  * [Layout & Branding](user-guide/jet-ui/layouts-and-branding.md)
+  * [App settings](user-guide/jet-ui/layouts-and-branding.md)
   * [Preview & Publish](user-guide/jet-ui/preview-and-publish.md)
   * [Settings](user-guide/jet-ui/settings.md)
   * [Data](user-guide/jet-ui/data.md)
