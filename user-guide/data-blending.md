@@ -20,6 +20,10 @@ Choose the sync connection to unlock all the features listed above. Under the ho
 
 ![The dialog window to choose the connection type](../.gitbook/assets/dtnxb-min.png)
 
+{% hint style="warning" %}
+At the moment, the sync connection is available for a limited number of integrations. If you want us to prioritize a specific data source, please let us know in the support chat
+{% endhint %}
+
 ## Blending the data
 
 To demonstrate how the data blending works, we'll use two data sources: Airtable and Google Sheets, where the former contains the `Order` table and the latter - the `Customers` table. Notice that the `Customer ID` column in the `Orders` table refers to the `ID` in the `Customers` table.
@@ -44,9 +48,26 @@ And after writing and running our query, we get the resulting table, containing 
 
 After saving changes, we get a collection with joined data that we can later use in the interface.
 
-{% hint style="warning" %}
-At the moment, the sync connection is available for a limited number of integrations. If you want us to prioritize a specific data source, please let us know in the support chat.
+## Sync options
+
+The sync parameters can be changed in the **Sync options** tab. To get there, click the three dots in the top left corner of your data source page:
+
+![](../.gitbook/assets/xcngh.png)
+
+The syncing consist of two parts: the `Data source` - `Jet tables` connection (referred to as **External updates**) and the `Jet tables` - `Interface` connection (referred to as **Internal updates**). The latter pair is syncing in real-time while the former one's syncing interval can be changed
+
+{% hint style="info" %}
+At the moment, the external updates interval can only be set on the side of Jet Admin, so if you need to change it, reach out to client support
 {% endhint %}
+
+In the sync tab, you can:
+
+* View the **status** (could be <mark style="color:green;">active</mark> or <mark style="color:yellow;">paused</mark>) (1)
+* Control the sync: **pause it** or perform a **manual sync** - Sync now (2)
+* View the **Internal updates interval** (3)
+* View the **external updates interval** (4)
+
+![](../.gitbook/assets/xtfmyt.png)
 
 To learn more about using SQL queries in Jet Admin, please refer to this page:
 
