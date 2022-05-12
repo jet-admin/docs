@@ -37,7 +37,7 @@ By clicking on the **"N changes"** label, drill down into the changes history. H
 
 When building an app, it's usually difficult to get the right idea of how page permissions, dynamic filters, or conditional visibility that's been configured will transform into the end-user experience.&#x20;
 
-The impersonation feature allows you quickly **preview** an app **through the eyes** of a particular user. In the example case below, we've denied access to the `Customers` page and set the user to see only records where `Customer ID = 1` the `Orders` table.
+The impersonation feature allows you to quickly **preview** an app **through the eyes** of a particular user. In the example case below, we've denied access for Michael to the `Customers` page and set the user to see only records where `Customer ID = 1` the `Orders` table.
 
-![](../.gitbook/assets/dtjfhy.gif)
+![](../.gitbook/assets/ftjgyu.gif)
 
