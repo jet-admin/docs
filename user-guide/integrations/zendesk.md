@@ -6,7 +6,7 @@ description: Connecting Zendesk to Jet Admin
 
 ### 1. Get Zendesk API Token
 
-First you need to sign up for [Zendesk ](https://www.zendesk.com)and create an account. Complete the account creation process to get started.&#x20;
+First you need to sign up for [Zendesk ](https://www.zendesk.com/)and create an account. Complete the account creation process to get started.&#x20;
 
 Find your API Token __ under the API section of the Channels tab in Settings. Make sure to copy and store this token. Zendesk won't show it again after you click Save or leave this page.
 

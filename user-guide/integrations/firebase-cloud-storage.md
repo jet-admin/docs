@@ -4,7 +4,7 @@ Before you can use Firebase Cloud storage, you need to obtain a service token ke
 
 ### Get Firebase Storage JSON Key <a href="#1-get-firebase-key" id="1-get-firebase-key"></a>
 
-To get the JSON key you need to add Firebase to your Google project. First, go to [Firebase](https://firebase.google.com) and just click **Get Started**.
+To get the JSON key you need to add Firebase to your Google project. First, go to [Firebase](https://firebase.google.com/) and just click **Get Started**.
 
 ![](<../../.gitbook/assets/image (791).png>)
 

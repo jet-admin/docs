@@ -12,7 +12,7 @@ Once you have created the project and selected the Rest API resource, you also s
 
 ### 1. Google API Console
 
-Visit the [Google API Console](https://console.developers.google.com) to obtain OAuth 2.0 credentials such as a `Client ID` and `Client secret` that are known to both Google and Jet Admin.
+Visit the [Google API Console](https://console.developers.google.com/) to obtain OAuth 2.0 credentials such as a `Client ID` and `Client secret` that are known to both Google and Jet Admin.
 
 ### 2. Create a new project
 

@@ -6,7 +6,7 @@ In this article, we'll review the integration with Firebase, and its characteris
 
 You can connect to Firebase from the new app flow, from the data tab on the left menu bar, or from the data section within a UI component.
 
-Then, you'll need to provide a **service token** to allow your Firebase to interact with Jet. You can either copy and paste a JSON snippet (1) or upload it as a file (2):
+Then, you'll need to provide a **service token** to allow your Firebase to interact with Jet. You can either copy and paste a JSON snippet **(1)** or upload it as a file **(2)**:
 
 ![](../../../.gitbook/assets/xngfhy.png)
 

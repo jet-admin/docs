@@ -6,7 +6,7 @@ description: Connecting Stripe to Jet Admin
 
 ### 1. Get Your Secret API Key
 
-To get your Secret API Key you need to sign up in [Stripe](https://stripe.com). Then you need to find your Secret API Key:
+To get your Secret API Key you need to sign up in [Stripe](https://stripe.com/). Then you need to find your Secret API Key:
 
 ![](<../../.gitbook/assets/GIF (121).gif>)
 

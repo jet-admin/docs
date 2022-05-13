@@ -14,11 +14,11 @@ A high-level walkthrough of the different parts of the builder environment. Here
 [layouts-and-branding.md](layouts-and-branding.md)
 {% endcontent-ref %}
 
-{% content-ref url="preview-and-publish.md" %}
-[preview-and-publish.md](preview-and-publish.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="settings.md" %}
-[settings.md](settings.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 

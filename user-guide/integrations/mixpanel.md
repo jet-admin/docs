@@ -6,7 +6,7 @@ description: Connecting Mixpanel to Jet Admin
 
 ### 1. Get Mixpanel API Secret Key
 
-First you need to sign up for [Mixpanel](https://mixpanel.com) and create an account. Complete the account creation process to get started.&#x20;
+First you need to sign up for [Mixpanel](https://mixpanel.com/) and create an account. Complete the account creation process to get started.&#x20;
 
 ![](<../../.gitbook/assets/GIF (173).gif>)
 
