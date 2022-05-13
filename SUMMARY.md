@@ -62,7 +62,7 @@
   * [Google Cloud Storage](user-guide/integrations/google-cloud-storage.md)
   * [Firebase](user-guide/integrations/firebase-firestore/README.md)
     * [Firestore](user-guide/integrations/firebase-firestore/firestore.md)
-    * [Realtime Database](user-guide/integrations/firebase-firestore/realtime-database.md)
+    * [Realtime DB](user-guide/integrations/firebase-firestore/realtime-database.md)
   * [Firebase Cloud Storage](user-guide/integrations/firebase-cloud-storage.md)
   * [GraphQL](user-guide/integrations/graphql.md)
   * [Google Sheets](user-guide/integrations/google-sheets.md)

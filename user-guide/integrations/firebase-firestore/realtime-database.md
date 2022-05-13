@@ -1,10 +1,4 @@
-# Realtime Database
-
-The process of integrating Realtime Database with JetAdmin is identical to the integration with Firestore.
-
-{% content-ref url="./" %}
-[.](./)
-{% endcontent-ref %}
+# Realtime DB
 
 ### Preparing your data with RealtimeDB Builder
 

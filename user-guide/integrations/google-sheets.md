@@ -1,6 +1,6 @@
 # Google Sheets
 
-**Google Sheets** is one of the most popular databases that is often also used as a user interface. Connecting Google Sheets to Jet Admin doesn't require any coding. You can connect to Google Sheets from the data tab on the left menu bar or from the data section within a UI component.
+**Google Sheets** is one of the most popular databases that is often also used as a user interface. Connecting Google Sheets to Jet Admin doesn't require any coding.&#x20;
 
 ![](../../.gitbook/assets/dtjfyt.png)
 
