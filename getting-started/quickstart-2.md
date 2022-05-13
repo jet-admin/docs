@@ -21,5 +21,5 @@ If you want to save time building your app, you can apply one of the **templates
 ![](../.gitbook/assets/fykcgj.JPG)
 
 {% hint style="danger" %}
-It's crucial to correctly **bind your own data** to UI components composing a template later on. Learn more about it in the [**Values**](../user-guide/parameters/) section.
+For the template to become a functional app, It's crucial to **correctly bind** your own data and **set relations** between to UI components composing a template. Learn more about it in the [**Values**](../user-guide/parameters/) section.
 {% endhint %}
