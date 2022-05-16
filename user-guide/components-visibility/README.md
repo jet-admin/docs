@@ -22,6 +22,8 @@ Conditional visibility **can be accessed** within any UI component by proceeding
 
 ![](../../.gitbook/assets/rhbgt.gif)
 
+Dive deeper into conditional visibility **setup** and **use-cases** here:
+
 {% content-ref url="conditional-visibility.md" %}
 [conditional-visibility.md](conditional-visibility.md)
 {% endcontent-ref %}
@@ -32,7 +34,13 @@ But what if you want to still show the value of a UI component, but make it **un
 
 ![](../../.gitbook/assets/zdfbt.png)
 
-Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or to certain Teams/Users. With conditional add, edit & delete you can do this.
+Dive deeper into conditional disable **setup** and **use-cases** here:
+
+{% content-ref url="conditional-disable.md" %}
+[conditional-disable.md](conditional-disable.md)
+{% endcontent-ref %}
+
+Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or to certain Teams/Users. With conditional add, edit & delete you can do this:
 
 {% content-ref url="conditional-add-edit-and-delete.md" %}
 [conditional-add-edit-and-delete.md](conditional-add-edit-and-delete.md)
