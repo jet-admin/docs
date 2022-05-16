@@ -4,11 +4,11 @@ description: Hide or show things based on different conditions
 
 # ℹ Conditionals
 
-Jet Admin allows you to use conditional logic in your app and apply it to UI components and dynamic values. There are several ways to implement it:
+Jet Admin allows you to use **conditional logic** in your app and apply it to UI components and dynamic values. There are several ways to implement it depending on the use-case:
 
 ### Formulas
 
-You can use logical expressions, such as `If`, `Else`, `Or` to transform dynamic values. These logical expressions live in Jet in the form of **Formulas**, that can be found in the Dynamic data modal pop-up:
+You can use logical expressions, such as `If`, `Else`, `Or` to transform **dynamic values**. These logical expressions live in Jet in the form of **Formulas**, that can be found in the Dynamic data modal pop-up:
 
 ![](../../.gitbook/assets/btftnf.png)
 
