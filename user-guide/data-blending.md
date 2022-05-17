@@ -21,7 +21,7 @@ Choose the sync connection to unlock all the features listed above. Under the ho
 ![The dialog window to choose the connection type](../.gitbook/assets/dtnxb-min.png)
 
 {% hint style="warning" %}
-At the moment, the sync connection is available for a limited number of integrations. If you want us to prioritize a specific data source, please let us know in the support chat
+At the moment, the sync connection is available for a **limited number of integrations**. If you want us to prioritize a specific data source, please let us know in the support chat
 {% endhint %}
 
 ## Blending the data
