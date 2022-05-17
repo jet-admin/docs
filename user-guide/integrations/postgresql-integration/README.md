@@ -32,6 +32,12 @@ An example of database deployment on Heroku and further Instant method integrati
 [database-heroku-deployment.md](../../../jet-bridge-deployment/database-heroku-deployment.md)
 {% endcontent-ref %}
 
+### Connect through SSH
+
+You can use SHH to **safely integrate** with databases in Jet. Simply enable the toggle here and paste the credentials:
+
+![](../../../.gitbook/assets/dxjctyj.png)
+
 ### Make a SQL queries
 
 Using Database integration you can make simple or [SQL queries](../../data/make-a-sql-query.md) to your database:
