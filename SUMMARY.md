@@ -52,6 +52,7 @@
     * [Instant Installation](user-guide/integrations/postgresql-integration/instant-cloud.md)
     * [Docker Installation](user-guide/integrations/postgresql-integration/docker-installation.md)
     * [Python app Installation](user-guide/integrations/postgresql-integration/python-app-installation.md)
+  * [Jet Tables](user-guide/integrations/jet-tables.md)
   * [Rest API](user-guide/integrations/rest-api/README.md)
     * [Basic Authentication](user-guide/integrations/rest-api/basic-authentication.md)
     * [Bearer Token](user-guide/integrations/rest-api/bearer-token.md)
