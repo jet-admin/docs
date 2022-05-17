@@ -32,11 +32,49 @@ Any `table` in Jet Admin has the `selected row` function that can be used to tri
 
 ![](../../../.gitbook/assets/Components6.gif)
 
-### Actions
+## Actions
 
-You can trigger actions for the selected row function. For example, you can open a modal pop-up or navigate to a record page:
+Table is an interactive component which means you can bind all **different kinds of actions** to it. You can configure:
 
-![](../../../.gitbook/assets/Components9.gif)
+* Row click
+* Rows check
+* Inline action
+* Header action
+* Hover action
+
+To proceed to the actions, select the table and click on the **"Actions" tab**:
+
+![](../../../.gitbook/assets/dxnrtfyg.png)
+
+{% hint style="warning" %}
+For the **Hover action**, you'll need to drill down into an individual column in the column settings (see the "Hover action" section below)
+{% endhint %}
+
+### Row click
+
+When the Row click action is enabled, the specified action will be executed once a row is clicked. You'll be able to use any value from a selected row in the action. Now, click on it:&#x20;
+
+![](../../../.gitbook/assets/xhctf.png)
+
+The most **common use-case** for the "Row click" action is drilling down into the record or proceeding to the page with more record-related data (you'll need the "Navigate to Page" action type for that). But you are free to use any action type.
+
+{% hint style="info" %}
+Learn more about different types of actions in the [Types of action](../../design-and-structure/actions.md) section
+{% endhint %}
+
+![](../../../.gitbook/assets/xftgyju.png)
+
+Here's an **example** of how that might look in the user-mode:
+
+![](../../../.gitbook/assets/tfhyu.gif)
+
+{% hint style="danger" %}
+**It's crucial** to understand how **data is bound** under the hood when linking pages. Otherwise, things might break when customizing the auto-generated pages or building the drill-downs from scratch.&#x20;
+
+Please, **read more** in the [Values section](../../parameters/)&#x20;
+{% endhint %}
+
+
 
 {% hint style="info" %}
 When you connect SQL DBs, Firebase, Airtable, or Sheets, Jet Admin automatically generates all the **CRUD** actions - just select them from the dropdown
