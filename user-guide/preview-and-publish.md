@@ -4,6 +4,8 @@
 
 There are three operational modes in Jet Admin: the **Builder mode**, **** the **User mode**, and the **Preview mode.**
 
+## **Builder Mode**
+
 **Builder mode** is where people who are building an app can add data sources, drag-and-drop UI components, customize them, bind them to your data, manage environments, and perform all the necessary work to get your app ready.&#x20;
 
 {% hint style="info" %}
@@ -12,9 +14,13 @@ After creating an account, you'll automatically get into the Builder mode with t
 
 ![](../.gitbook/assets/mcgnvyn.JPG)
 
+## **User Mode**
+
 **User mode**, on the other hand, allows end-users to perform their daily operations in the app. For that, all the changes that have been made in the app have to be published, generating a new page with a new `.../app/...` URL. In this mode, users don't have access to any customization features but can interact with the data according to their permissions.
 
 ![](../.gitbook/assets/fmxyju.JPG)
+
+## **Preview Mode**
 
 **Preview mode** is designed for the builders to quickly preview the app in a user-mode without having to publish an app.
 
@@ -41,3 +47,6 @@ The impersonation feature allows you to quickly **preview** an app **through the
 
 ![](<../.gitbook/assets/ftjgyu (1).gif>)
 
+To start previewing as a particular user, just click on the "Previewing as" button, and choose a user to impersonate
+
+![](../.gitbook/assets/dnctfv.png)
