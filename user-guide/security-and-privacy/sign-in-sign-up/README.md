@@ -1,12 +1,14 @@
 # Sign In/Sign Up
 
-JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](../sharing-your-app.md#invite-by-email), [invited by link](../sharing-your-app.md#invite-by-link)), will be available in the **Users** tab:
+You don't need to build the Sign-in/Sign-up page in the UI as Jet already has a **separate Sign-in/Sign-up page builder**.
 
-![](<../../../.gitbook/assets/image (867).png>)
+To access it, click on the door icon inside the builder:
 
-### Sign in/Sign up process
+![](../../../.gitbook/assets/tjdhy6.png)
 
-All invited users are automatically taken to the login page of your app. After signing up/logging in, the user will be redirected to your app and added to the Internal Users Management System.
+### Sign-in/Sign-up page
+
+All invited users, both internal and external, are automatically taken to the sign-in (or sign-up, depending on the settings) page. After signing up/logging in, the user will be redirected to either the dashboard where they can see the list of projects or to the specific page.
 
 The default authorization process involves authorizing in the following ways:
 
