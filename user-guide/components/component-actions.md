@@ -1,21 +1,31 @@
----
-description: Allows to make changes visable instantly
----
-
 # Component Actions
 
-Let's consider a flow where your ops or support team updates the status of a user. In that case, it makes a lot of sense for the changed values to be seen immediately after the action is executed. You can easily achieve that with the **Component Action**. The changes will be visible instantly after the button is clicked without having to refresh the page.
+Component actions allow you to **push static or dynamic values into UI components**. You can also use formulas or JavaScript to set the value.
 
-![](../../.gitbook/assets/GIF207.gif)
+To use this action type, choose the "Run component action" from the action type drop-down:
 
-### Set up the "Refresh component" action
+![](../../.gitbook/assets/xncvygv.JPG)
 
-Let's look at the workflow of changing a customer's status that we've mentioned above. In this flow, the primary [action](../design-and-structure/actions.md) changes the status field in the corresponding collection and has already been configured. Now you have to set the action that will be triggered after successful completion of the primary action. That action will immediately change the status field in the chosen component. The succession of the steps to set it up will be the following:
+Then choose the UI component you want to run the component action for:
 
-1. Go to **After Completion** section
-2. Navigate to **When action succeeded** and click **Success action**
-3. Select from the dropdown **Run component action** and pick the component you need to update instantly
+![](../../.gitbook/assets/xdtjcygv.JPG)
 
-![](../../.gitbook/assets/GIF209.gif)
+From there, you have two options: **Clear value** or **Set value**:
 
-Now you and your teammates will see the data updates instantly after hitting the button (in our example the change of status).
+![](../../.gitbook/assets/djxctft.JPG)
+
+**Clear Value** will simply clear the value of the UI component after the action is successfully executed
+
+**Set Value** allows you to put any value into the UI component after the action is executed.
+
+**As an example**, let's assume we want to create a button that sets the date and time in the Date input field to the current date and time. For this, we'll need to reference the `Date` field in the "Run component action" **(1)** and specify what value we want to put into our `Date` field upon the button click **(2)**.
+
+![](../../.gitbook/assets/ntdxbrd.png)
+
+In our example, we want the date to be set to "Today", so we'll use the `NOW()` formula for that
+
+![](../../.gitbook/assets/trnb66.png)
+
+As a result, we get to set the date to "Today" whenever we click a button:
+
+![](../../.gitbook/assets/thdfvt.gif)
