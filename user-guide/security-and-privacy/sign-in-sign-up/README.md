@@ -8,23 +8,35 @@ To access it, click on the door icon inside the builder:
 
 ### Sign-in/Sign-up page
 
-All invited users, both internal and external, are automatically taken to the sign-in (or sign-up, depending on the settings) page. After signing up/logging in, the user will be redirected to either the dashboard where they can see the list of projects or to the specific page.
+Sign-in/Sign-up page has three major sections:
 
-The default authorization process involves authorizing in the following ways:
+* **(1)** **Menu** - configure the appearance, sign-in, and sign-up separately
+* **(2) The preview** - check in real-time changes taking effect
+* **(3)** **Setting** - this is where the configuring happens&#x20;
 
-1. Google & Facebook authorization (basic SSO)
-2. Authorization via credentials (login + password)
+![](../../../.gitbook/assets/rbsdvt.png)
 
-![](<../../../.gitbook/assets/image (871).png>)
+{% hint style="warning" %}
+To be able to customize the Sign-in/Sign-up, you need to **set up a custom domain first**. See the image below.
+{% endhint %}
 
-You can also implement your own authorization through SSO. See the topics in this section on implementing different SSO methods:
+![](../../../.gitbook/assets/rydju.png)
 
-### User Management System
+Once the custom domain is set, you'll see it in **the URL of your app**
 
-The built-in User Management System allows you to configure each user on a granular basis, as follows:&#x20;
+![](../../../.gitbook/assets/e5bht6.png)
 
-1. **Specify user role**. Configure user's access to the application by setting a [specific role](../create-and-manage-a-team.md).
-2. **Specify user properties**. Set properties for users to control their [permissions](../user-and-team-properties.md) and access to data.
-3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](../sharing-your-app.md) for more details.
+#### Appearance
 
-![](<../../../.gitbook/assets/image (872).png>)
+The appearance tab allows you to:
+
+* **(1)** Switch between the **layouts**
+* **(2)** Set the **background picture**
+* **(3)** Set the **color theme**
+* **(4)** Enable the **White label**
+
+![](../../../.gitbook/assets/rndtby.png)
+
+#### Sign-in & Sign-up
+
+The sign-in and sign-up tabs allow you to configure the settings, specific to the sign-in and sign-up, such as Terms of service URL, titles, and customer sign-up flow for the Portal.
