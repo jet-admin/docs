@@ -30,7 +30,8 @@ For the most part, you'll need a single action, such as `changing a status` or `
 
 * Changing a user's status and sending a notification via Sendgrid
 * Showing an error notification and sending a notification with details in Slack
-* Going back to a specific page after editing the customer details
+* Getting to a specific page after submiting a form and downloading an attachment
+* Making a refund via Stripe and: a) for transactions marked as "wrong item", create a new record in the "Coupons" Firebase collection and notify a manager via Slack b) for the rest change the status in the "Customers" collection&#x20;
 
 ## Triggers
 
