@@ -24,11 +24,13 @@ The workflow builder consists of several **key parts**:
 
 ## When to use it
 
-For the most part, you'll need a single action, such as `changing a status` or `making a refund`. However, in specific cases, you'll need a whole sequence of actions to be executed, often with conditional logic.
+For the most part, you'll need a single action, such as `changing a status` or `making a refund`. However, in specific cases, you'll need a whole sequence of actions to be executed, often involving conditional logic.
 
-To give an overview of what can be achieved with automations, here's the list of common tasks for them:
+**Typical tasks** for workflows might include:
 
-Interface
+* Changing a user's status and sending a notification via Sendgrid
+* Showing an error notification and sending a notification with details in Slack
+* Going back to a specific page after editing the customer details
 
 ## Triggers
 
