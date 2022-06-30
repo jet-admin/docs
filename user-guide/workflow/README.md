@@ -38,37 +38,98 @@ To start building automation, **select the trigger** which will initiate it. Tri
 * List actions
 * Success/Error actions
 
-#### Buttons
+### Buttons
 
 The most common one is `button`. To create an automation, click on the "Click action" **(1)** and then choose "Run Workflow" **(2)**.
 
 ![](../../.gitbook/assets/srgzx.png)
 
-#### List Actions
+### List Actions
 
 You can also create automation for any of the **list actions**. The lists include `Table`, `Map`, `Kanban`, `Gallery`, `Timeline`, and `Calendar`.
 
 ![](../../.gitbook/assets/szbdx.png)
 
-#### Success/Error actions
+### Success/Error actions
 
 Another type of an action that can trigger workflows is `Success/Error`:
 
 ![](<../../.gitbook/assets/rshzdxctfy (1).png>)
 
-In all the cases, you'll need to choose the "**Run workflow**" type of action:
+In all the cases, you'll need to choose the "Run workflow" type of action **(1)** and click on the workflow section **(2)**:
 
-![](<../../.gitbook/assets/image (878).png>)
+![](../../.gitbook/assets/dnfddx.png)
 
 ## Actions
 
+To add an action step (or a rule step), just click on the "+" icon:
 
+![](../../.gitbook/assets/dhbf.gif)
+
+Then you can choose from the **list of operations** (actions) for the step. There are two major categories of actions:
+
+* **(1) Data actions** - allow you to interact with the data, that's connected to Jet
+* **(2) Other actions** - service operations like navigating to a page or showing a notification
+
+{% hint style="info" %}
+**App built-ins** allow you to create actions for users and teams (groups of users)
+{% endhint %}
+
+![](../../.gitbook/assets/rzhdxr.png)
+
+For the **Data actions**, once the step is added, you can configure the resource **(1)**, the collection (table) **(2)**, and the action **(3)**:
+
+
+
+![](../../.gitbook/assets/etjzhcr.png)
 
 ## Rules
 
-Inputs, Outputs, and Parameters
+Rule steps allow you to run alternative or simultaneous sequences based on specific conditions.
 
+There are three types of rule steps:
 
+* **Conditions** - allows you to set up a conditional logic that will create and (later) run different workflow branches based on whether a condition (or conditions for the "Switch") is met
+* **Parallelize** - allows running multiple branches in parallel, simultaneously
+* **Delay** - can specify the delay (in seconds) between the steps
+
+![](../../.gitbook/assets/dznxbt.png)
+
+### Conditions
+
+**Yes/No condition** creates two branches in the workflow tree and one condition which, if met, will run the "Yes" branch and if not met, will run the "No" branch.
+
+In the majority of cases, to create a simple **IF rule**, you'll use the **EQ()** formula **(1)**. It has two values (arguments), that can be static or could be referenced dynamically from other components **(2)** or pretty much anywhere in the app.
+
+{% hint style="info" %}
+If using **text** (string) for a condition, put it into the quotes "\_"
+{% endhint %}
+
+![](../../.gitbook/assets/srbtf.png)
+
+**Switch condition** allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run.
+
+![](../../.gitbook/assets/szvxcr.png)
+
+### Parallelize
+
+This rule step allows creating multiple branches, all of which will **run simultaneously** (in parallel). It's effectively the same as the "Switch" rule, where each condition is set to "1" (true)
+
+![](../../.gitbook/assets/dznxtcf.JPG)
+
+### Delay
+
+With **delay step**, you can insert a time lag between steps so that the next step will "wait" N seconds after the previous step is fired
+
+![](../../.gitbook/assets/rdxhct.JPG)
+
+###
+
+## Inputs, Outputs, and Parameters
+
+## Test & Debug
+
+![](../../.gitbook/assets/dhtrg.png)
 
 
 
