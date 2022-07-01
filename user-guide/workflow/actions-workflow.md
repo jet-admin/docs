@@ -1,4 +1,4 @@
-# Actions Workflow
+# Success/Error Actions
 
 Let's assume a scenario where you would like to perform a specific action, e.g. immediately send an email to a user for whom you just changed the status.
 
@@ -35,7 +35,3 @@ Now as soon as the status has been changed an email will be sent automatically.
 {% endhint %}
 
 See here how to use formulas to send a dynamic message, e.g. about the current and previous status.
-
-{% content-ref url="../parameters/formulas.md" %}
-[formulas.md](../parameters/formulas.md)
-{% endcontent-ref %}
