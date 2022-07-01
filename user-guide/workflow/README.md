@@ -1,5 +1,9 @@
 # ⚙️ Automations
 
+{% hint style="warning" %}
+Automations (workflow builder) have just been launched. We've tried and tested it, but if you have any suggestions or issues with automations, please let us know in the chat!
+{% endhint %}
+
 **Automations** allow you to create a sequence (or workflow) of events that is executed based on a  specific trigger. Workflows consist of triggers and steps.
 
 Here's an **example** of a workflow that is triggered when a button is clicked and then it either creates a record in Airtable or shows a notification based on whether the "Yes/No" condition is met.
