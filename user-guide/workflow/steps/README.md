@@ -1,5 +1,17 @@
 # Steps
 
-**Steps** consist of **actions**, which run in a sequential manner when a workflow is triggered, and **rules**, which allow you to branch the sequence based on certain conditions. An example of an action would be "Updating a record in Airtable" and an example of a rule could be "If condition" that will divide a workflow into two branches.&#x20;
+**Steps** are the building blocks of the workflow - they execute specific tasks, whether it's change a record, make an API call, or show a notification.
 
-Rule steps allow you to run alternative or simultaneous sequences based on specific conditions.
+![](../../../.gitbook/assets/rhxdct.png)
+
+Steps consist of **actions**, and **rules**. An example of an action would be "Updating a record in Airtable" and an example of a rule could be "If condition" that will divide a workflow into two branches.&#x20;
+
+**Learn more** here:
+
+{% content-ref url="actions.md" %}
+[actions.md](actions.md)
+{% endcontent-ref %}
+
+{% content-ref url="rules.md" %}
+[rules.md](rules.md)
+{% endcontent-ref %}

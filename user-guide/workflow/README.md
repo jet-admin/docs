@@ -33,185 +33,53 @@ For the most part, you'll need a single action, such as `changing a status` or `
 * Getting to a specific page after submiting a form and downloading an attachment
 * Making a refund via Stripe and: a) for transactions marked as "wrong item", create a new record in the "Coupons" Firebase collection and notify a manager via Slack b) for the rest change the status in the "Customers" collection&#x20;
 
-## Triggers
+## Build Automation
 
-To start building automation, **select the trigger** which will initiate it. Triggers can be broadly divided into three categories:&#x20;
+**Learn** how to build and test automations with dedicated sections:
 
-* **Buttons**
-* **List actions**
-* **Success/Error actions**
+{% content-ref url="page-1.md" %}
+[page-1.md](page-1.md)
+{% endcontent-ref %}
 
-### Buttons
+{% content-ref url="steps/" %}
+[steps](steps/)
+{% endcontent-ref %}
 
-The most common one is `button`. To create an automation, click on the "Click action" **(1)** and then choose "Run Workflow" **(2)**.
+{% content-ref url="inputs-outputs-parameters.md" %}
+[inputs-outputs-parameters.md](inputs-outputs-parameters.md)
+{% endcontent-ref %}
 
-![](../../.gitbook/assets/srgzx.png)
+{% content-ref url="test-and-debug.md" %}
+[test-and-debug.md](test-and-debug.md)
+{% endcontent-ref %}
 
-### List Actions
+Also, **check the sections** which are not part of the workflow builder but can help you automate even more:
 
-You can also create automation for any of the **list actions**. The lists include `Table`, `Map`, `Kanban`, `Gallery`, `Timeline`, and `Calendar`.
+## Approval Workflow
 
-![](../../.gitbook/assets/szbdx.png)
+Approval workflow is a **built-in** functionality that for any chosen action, allows to inject the **intermediate step of approval** before the action is executed. You can assign different people as the approval owners - they'll receive approval requests in their feed.
 
-### Success/Error actions
-
-Another type of an action that can trigger workflows is `Success/Error`:
-
-![](<../../.gitbook/assets/rshzdxctfy (1).png>)
-
-In all the cases, you'll need to **choose the "Run workflow"** type of action **(1)** and click on the workflow section **(2)**:
-
-![](../../.gitbook/assets/dnfddx.png)
-
-## Actions
-
-To add an action step (or a rule step), just click on the "+" icon:
-
-![](../../.gitbook/assets/dhbf.gif)
-
-Then you can choose from the **list of operations** (actions) for the step. There are two major categories of actions:
-
-* **(1) Data actions** - allow you to interact with the data, that's connected to Jet
-* **(2) Other actions** - service operations like navigating to a page or showing a notification
-
-{% hint style="info" %}
-**App built-ins** allow you to create actions for users and teams (groups of users)
-{% endhint %}
-
-![](../../.gitbook/assets/rzhdxr.png)
-
-For the **Data actions**, once the step is added, you can configure the resource **(1)**, the collection (table) **(2)**, and the action **(3)**:
-
-
-
-![](../../.gitbook/assets/etjzhcr.png)
-
-## Rules
-
-Rule steps allow you to run alternative or simultaneous sequences based on specific conditions.
-
-There are three types of rule steps:
-
-* **Conditions** - allows you to set up a conditional logic that will create and (later) run different workflow branches based on whether a condition (or conditions for the "Switch") is met
-* **Parallelize** - allows running multiple branches in parallel, simultaneously
-* **Delay** - can specify the delay (in seconds) between the steps
-
-![](../../.gitbook/assets/dznxbt.png)
-
-### Conditions
-
-#### **Yes/No condition**&#x20;
-
-It creates two branches in the workflow tree and one condition which, if met, will run the "Yes" branch and if not met, will run the "No" branch.
-
-In the majority of cases, to create a simple **IF rule**, you'll use the **EQ()** formula **(1)**. It has two values (arguments), that can be static or could be referenced dynamically from other components **(2)** or pretty much anywhere in the app.
-
-{% hint style="info" %}
-If using **text** (string) for a condition, put it into the quotes "\_"
-{% endhint %}
-
-![](../../.gitbook/assets/srbtf.png)
-
-#### **Switch condition**&#x20;
-
-It allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run.
-
-![](../../.gitbook/assets/szvxcr.png)
-
-### Parallelize
-
-This rule step allows creating multiple branches, all of which will **run simultaneously** (in parallel). It's effectively the same as the "Switch" rule, where each condition is set to "1" (true)
-
-![](../../.gitbook/assets/dznxtcf.JPG)
-
-### Delay
-
-With the **delay step**, you can insert a time lag between steps so that the next step will "wait" N seconds after the previous step is fired
-
-![](../../.gitbook/assets/rdxhct.JPG)
-
-## Inputs, Outputs, and Parameters
-
-Many cases that include workflows, especially the more complex ones, require you to be able to pass values **from the app into the builder** as well as pass values **from the builder into the app**.
-
-A **simple example** would be a workflow that deletes a record and sends an email notification via Mailchimp:&#x20;
-
-![](../../.gitbook/assets/Szxdx.png)
-
-**To achieve that**, we'll need to fetch the `ID` (to identify what record to delete) and pass it into the "Orders - Delete" action in the workflow. We'll also need to pass the customer's email into the Mailchimp action (so that the notification is sent to the right person)
-
-{% hint style="info" %}
-The **ID** (primary key), is a unique identifier of a record, which could be set in the data source, auto-generated by Jet, or set manually in Jet (depending on the data source). It is typically hidden in the table but available for the fetching and referencing in other components
-{% endhint %}
-
-There are two ways how we can **fetch** the `ID` from the selected row:
-
-1. **Directly from the Step**
-2. **Through the Workflow Parameters**
-
-### **Directly from the Step**
-
-Select the step **(1)** then click on the ID and click on "Formula" **(2)**.
-
-![](../../.gitbook/assets/srzgxdc.png)
-
-{% hint style="info" %}
-All the imputs available will be listed in the configuration menue on teh right for a given Step
-{% endhint %}
-
-### Through the Parameters
-
-**Parameters** allow you to receive and hold different values from the app so that they can be referenced and used in the workflow steps.
-
-**To add** a parameter, either go to the **trigger action menu**:
-
-![](../../.gitbook/assets/fzbfd.png)
-
-Or open the workflow builder and click on the trigger action step there:
-
-![](../../.gitbook/assets/dzrxtctr.png)
-
-After that, **go back to the trigger action menu** (close the workflow builder), select teh created parameter **(1)** and reference any dynamic value from the app **(2)**.
-
-![](../../.gitbook/assets/zrbdx.png)
-
-This will put the referenced value into the parameter. Then, you can fetch the stored dynamic from the parameter within an action step:
-
-![](../../.gitbook/assets/zsrdxctf.png)
-
-**Outputs** allow you to fetch and store the results from specific steps in the automation. You can later reference those outputs from within the app.&#x20;
-
-You can use the **last step** outputs (default) **(1)** or specify the outputs manually **(2)** so that you can get the results from the specific steps **(3)**.
-
-![](../../.gitbook/assets/zdfcbfty.png)
-
-You can go futher and **combine and transform** results using the functions modal:
-
-![](../../.gitbook/assets/zdxbtdr.png)
-
-## Test & Debug
-
-**To test** the workflow, you can either test individual steps **(1)** or the whole workflow **(2)**
-
-![](../../.gitbook/assets/dhtrg.png)
-
-If there are any **errors**, the step with the error will be highlighted **(1)** and you can go and see the error description in the "test" tab **(2)**
-
-![](../../.gitbook/assets/zrshxdct.png)
-
-As the company is growing and the roles are diversifying, the need for some sort of a task management system for your internally-facing applications is increasing. So we came up with the **Approval Workflow** feature.
+**Learn more** here:
 
 {% content-ref url="task-approval.md" %}
 [task-approval.md](task-approval.md)
 {% endcontent-ref %}
 
-In JetAdmin you can create **Actions Workflow** that allow you to perform multiple actions immediately after performing the base action.
+## Success/Error Actions
+
+In Jet you can choose different **secondary actions** that are being executed depending on whether the initial action execution was successful or not.
+
+**Learn more** here:
 
 {% content-ref url="actions-workflow.md" %}
 [actions-workflow.md](actions-workflow.md)
 {% endcontent-ref %}
 
-Create a **sequence of actions** in Zapier or Integromat by triggering through JetAdmin actions.
+## Zapier Workflows
+
+Create a **sequence of actions** in Zapier or Make (formerly Intergomat) of any complaxity using triggers within Jet.
+
+**Learn more** here:
 
 {% content-ref url="action-sequences.md" %}
 [action-sequences.md](action-sequences.md)

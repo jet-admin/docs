@@ -146,7 +146,7 @@
   * [User-specific Permissions](user-guide/security-and-privacy/user-and-team-properties.md)
   * [Sharing your app](user-guide/security-and-privacy/sharing-your-app.md)
 * [⚙️ Automations](user-guide/workflow/README.md)
-  * [Triggers](user-guide/workflow/triggers.md)
+  * [Triggers](user-guide/workflow/page-1.md)
   * [Steps](user-guide/workflow/steps/README.md)
     * [Actions](user-guide/workflow/steps/actions.md)
     * [Rules](user-guide/workflow/steps/rules.md)
