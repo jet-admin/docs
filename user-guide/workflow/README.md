@@ -100,7 +100,9 @@ There are three types of rule steps:
 
 ### Conditions
 
-**Yes/No condition** creates two branches in the workflow tree and one condition which, if met, will run the "Yes" branch and if not met, will run the "No" branch.
+#### **Yes/No condition**&#x20;
+
+It creates two branches in the workflow tree and one condition which, if met, will run the "Yes" branch and if not met, will run the "No" branch.
 
 In the majority of cases, to create a simple **IF rule**, you'll use the **EQ()** formula **(1)**. It has two values (arguments), that can be static or could be referenced dynamically from other components **(2)** or pretty much anywhere in the app.
 
@@ -110,7 +112,9 @@ If using **text** (string) for a condition, put it into the quotes "\_"
 
 ![](../../.gitbook/assets/srbtf.png)
 
-**Switch condition** allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run.
+#### **Switch condition**&#x20;
+
+It allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run.
 
 ![](../../.gitbook/assets/szvxcr.png)
 
@@ -174,6 +178,16 @@ After that, **go back to the trigger action menu** (close the workflow builder),
 This will put the referenced value into the parameter. Then, you can fetch the stored dynamic from the parameter within an action step:
 
 ![](../../.gitbook/assets/zsrdxctf.png)
+
+**Outputs** allow you to fetch and store the results from specific steps in the automation. You can later reference those outputs from within the app.&#x20;
+
+You can use the **last step** outputs (default) **(1)** or specify the outputs manually **(2)** so that you can get the results from the specific steps **(3)**.
+
+![](../../.gitbook/assets/zdfcbfty.png)
+
+You can go futher and **combine and transform** results using the functions modal:
+
+![](../../.gitbook/assets/zdxbtdr.png)
 
 ## Test & Debug
 
