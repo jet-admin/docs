@@ -1,6 +1,6 @@
 ---
 description: >-
-  This guide explains how to quickly connect Supabase back-end to an Jet Admin
+  This guide explains how to quickly connect Supabase back-end to a Jet Admin
   front-end.
 ---
 
