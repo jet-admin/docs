@@ -23,7 +23,7 @@ description: >-
 
 * Note down the database connection information under Project Settings in Supabase.
 
-<figure><img src="../../.gitbook/assets/project-settings-supabase-03-db0ce6d2447e4892d3fe15489bb15d4f.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/supabase.jpg" alt=""><figcaption></figcaption></figure>
 
 Choose a PostgreSQL database from the list of available data sources:
 
