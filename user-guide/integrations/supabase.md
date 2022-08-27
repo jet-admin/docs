@@ -15,7 +15,7 @@ description: >-
 <figure><img src="../../.gitbook/assets/create-project-supabase-01-4d5930cd172cfc466c97c604b3e1e135.png" alt=""><figcaption></figcaption></figure>
 
 * Create a new table by clicking on the Create Table option on the side navigation.
-* Supabase provides many ways to add data to the tables, from writing queries to creating schemas using UI to simply uploading CSV files. For our support dashboard, we will be creating the **tickets** table by uploading the [CSV file](https://raw.githubusercontent.com/vihar/datasets/master/tickets.csv) on Supabase.
+* Supabase provides many ways to add data to the tables, from writing queries to creating schemas using UI to simply uploading CSV files.&#x20;
 
 <figure><img src="../../.gitbook/assets/create-table-supabase-02-28784eb3dee81672533685563971e45b.png" alt=""><figcaption></figcaption></figure>
 
