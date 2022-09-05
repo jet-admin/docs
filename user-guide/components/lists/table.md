@@ -88,7 +88,7 @@ Here's an **example** of how that might look in the user-mode for when we've set
 Learn how to set up this or other **CRUD** (Create, Read, Update, Delete) use-cases in the [Values section](../../parameters/)
 {% endhint %}
 
-### Raw action
+### Row action
 
 If you want to add action buttons inside of **individual rows**, you should use "Row actions"(Inline actions):
 
