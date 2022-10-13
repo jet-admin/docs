@@ -161,6 +161,7 @@
 * [💠 Data Blending](user-guide/data-blending.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
   * [Environments](user-guide/project-settings/environments.md)
+  * [Version Control](user-guide/project-settings/version-control.md)
   * [Manage your subscription](user-guide/project-settings/manage-your-subscription.md)
   * [Custom domain](user-guide/project-settings/configuring-a-custom-domain.md)
   * [Update to a new version](user-guide/project-settings/version-migration.md)
