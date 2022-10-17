@@ -1,5 +1,21 @@
 # ⚙️ Automations
 
+{% hint style="info" %}
+The **Automations** and the **Workflows** in their essence are the same product with the biggest difference  being the types of triggers (`Schedules, data chance, etc` vs a `button click`) and the place from which they're being set up
+{% endhint %}
+
+There are two places to initiate the creation of an Automation or a Workflow: the **Automations tab (1):**
+
+<figure><img src="../../.gitbook/assets/dsrhtftf (1).png" alt=""><figcaption></figcaption></figure>
+
+Which you can use to create automations, triggered by time intervals, schedules, data change, webhooks, or a manual run:
+
+<figure><img src="../../.gitbook/assets/hxdctf.png" alt=""><figcaption></figcaption></figure>
+
+And the **workflow builder (2)**, that's used solely for workflows, and can be set only from the action in the UI:
+
+<figure><img src="../../.gitbook/assets/rhdxtf.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
 Automations (workflow builder) have just been launched. We've tried and tested it, but if you have any suggestions or issues with automations, please let us know in the chat!
 {% endhint %}
