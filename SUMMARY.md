@@ -15,6 +15,7 @@
   * [Custom API Action (Zapier)](videos/custom-api-action-zapier.md)
   * [Set an approval workflow](videos/set-an-approval-workflow.md)
 * [🙌 Join the Community](join-the-community.md)
+* [🐞 Troubleshoot](troubleshoot.md)
 
 ## Guides <a href="#getting-started" id="getting-started"></a>
 
