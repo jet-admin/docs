@@ -108,6 +108,7 @@
     * [Calendar](user-guide/components/lists/calendar.md)
     * [Gallery](user-guide/components/lists/gallery.md)
     * [Timeline](user-guide/components/lists/timeline.md)
+  * [Filters](user-guide/components/filters.md)
   * [Form](user-guide/components/form.md)
   * [Modal](user-guide/components/modal.md)
   * [Fields](user-guide/components/fields/README.md)
