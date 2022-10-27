@@ -2,11 +2,11 @@
 
 **Contents:**
 
-Auto-generated row (primary key)
+[Auto-generated row (primary key)](working-with-data.md#auto-generated-row-primary-key)
 
-Dropdowns
+[Dropdowns](working-with-data.md#dropdowns)
 
-Limitations
+[Limitations](working-with-data.md#limitations)
 
 ### Auto-generated row (primary key)
 
@@ -18,7 +18,7 @@ When you set up relations (binding) in Jet Admin or create pretty much any logic
 
 Dropdowns are used a lot in Sheets, but to make them work correctly when you connect your data to Jet, follow the instructions below
 
-<figure><img src="../../../.gitbook/assets/stagessheets (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/stagessheets.JPG" alt=""><figcaption></figcaption></figure>
 
 If you have dropdowns in your Sheet, and you want them to be transferred into Jet, you can't do it directly. Instead, click add a new file and choose the sheet that contains all the options for the dropdown
 
