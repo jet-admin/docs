@@ -1,5 +1,13 @@
 # Working with Data
 
+**Contents:**
+
+Auto-generated row (primary key)
+
+Dropdowns
+
+Limitations
+
 ### Auto-generated row (primary key)
 
 When you connect your Google Sheet table to Jet Admin or add new tables, Jet Admin automatically generates a row value (primary key) - a unique identifier of a given row.&#x20;
@@ -35,5 +43,12 @@ To make it a dropdown with the correct options, proceed to the settings and chan
 The last thing that's left is to choose the "Load from resource" tab and then pick your Sheet that contains the dropdown options.
 
 <figure><img src="../../../.gitbook/assets/djfygvy.JPG" alt=""><figcaption></figcaption></figure>
+
+### Limitations
+
+It's essential to be aware of the limitations of Google Sheets while working in Jet Admin. There are two major limitations:
+
+1. **Number of rows per minute** - this is the limitation that comes from Google Sheets API limits (read more [here](https://developers.google.com/sheets/api/limits)). So if you build a complex tool with lots of data, it might make sense to look for an alternative to Google Sheets
+2. **Working with formulas** - Jet Admin supports formulas in Google Sheets for reading, which means that calculated fields in your Sheets. However, if you will change (Through Jet Admin) a value that's a result of a formula, it will be written as a value and the formula information will be lost for that field.
 
 &#x20;
