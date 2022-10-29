@@ -44,10 +44,8 @@
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
-* [🦄 Jet UI](user-guide/jet-ui/README.md)
-  * [Builder](user-guide/jet-ui/builder.md)
+* [🦄 Jet's Interface](user-guide/jet-ui/README.md)
   * [App settings](user-guide/jet-ui/layouts-and-branding.md)
-  * [Data](user-guide/jet-ui/data.md)
 * [🧰 Integrations](user-guide/integrations/README.md)
   * [Database Integrations](user-guide/integrations/postgresql-integration/README.md)
     * [Instant Installation](user-guide/integrations/postgresql-integration/instant-cloud.md)

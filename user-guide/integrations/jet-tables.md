@@ -37,7 +37,7 @@ Then you'll be taken to the main data section. There are three main areas or par
 Now, we'll look at how to manage the data inside of a particular table.
 
 {% hint style="info" %}
-To learn about the **common** data section **functionality**, go to the [**data**](../jet-ui/data.md) page
+To learn about the **common** data section **functionality**, go to the [**data**](broken-reference) page
 {% endhint %}
 
 Now, to go from the dummy data to your own, there are two major paths:
