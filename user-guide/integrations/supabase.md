@@ -25,7 +25,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/supabase.jpg" alt=""><figcaption></figcaption></figure>
 
-Choose a PostgreSQL database from the list of available data sources:
+Choose a PostgreSQL database from the list of available data sources in Jet Admin:
 
 ![](<../../.gitbook/assets/image (816).png>)
 
@@ -44,3 +44,41 @@ You'll need to fill out the following form:
 | Database Port      | Port to connect to. By default PostgreSQL: 5432                                                                                                                                                       |
 | PostgreSQL Schema  | Your database schema (`optional`)                                                                                                                                                                     |
 | Extra Parameters   | Extra parameters, ex. charset=utf8 (`optional`)                                                                                                                                                       |
+
+### Step3: Build an app on Jet Admin
+
+Let's build Custom CRM using Jet Admin that allows everyone to track Opportunities: Value Deals, Deal Statuses, update Deals, and send Slack notifications when a Deal is changed.
+
+<figure><img src="../../.gitbook/assets/OpportunityDashboard.png" alt=""><figcaption><p>Custom CRM</p></figcaption></figure>
+
+#### 3.1 Configure Data Types
+
+Go to Data that successfully was imported from Supabase and update Field Types.&#x20;
+
+<figure><img src="../../.gitbook/assets/table1.jpg" alt=""><figcaption></figcaption></figure>
+
+#### 3.2 Build App UI
+
+Create a new Page, drag-and-drop components to the canvas and connect with your Data.
+
+#### Drag-and-drop components to Canvas
+
+<figure><img src="../../.gitbook/assets/dragdrop.gif" alt=""><figcaption></figcaption></figure>
+
+#### Connect Data and Bind Components
+
+<figure><img src="../../.gitbook/assets/FillDataBind.gif" alt=""><figcaption></figcaption></figure>
+
+#### Edit data
+
+<figure><img src="../../.gitbook/assets/form.gif" alt=""><figcaption></figcaption></figure>
+
+#### Send notifications
+
+{% file src="../../.gitbook/assets/automation.gif" %}
+
+#### 3.3 Share your app with teammates
+
+Go to Share -> Invite with Link
+
+<figure><img src="../../.gitbook/assets/share.gif" alt=""><figcaption></figcaption></figure>
