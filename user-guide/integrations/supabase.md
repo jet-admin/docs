@@ -75,7 +75,7 @@ Create a new Page, drag-and-drop components to the canvas and connect with your 
 
 #### Send notifications
 
-{% file src="../../.gitbook/assets/automation.gif" %}
+<figure><img src="../../.gitbook/assets/automation.gif" alt=""><figcaption></figcaption></figure>
 
 #### 3.3 Share your app with teammates
 
