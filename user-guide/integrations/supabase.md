@@ -61,28 +61,75 @@ Go to your Data (in the data section) that was successfully imported from Supaba
 
 <figure><img src="../../.gitbook/assets/table1.jpg" alt=""><figcaption></figcaption></figure>
 
-#### 3.2 Build App UI
+#### 3.2 Build App's UI
 
 Create a new Page, drag-and-drop components to the canvas and connect these components with your Data.
 
 #### Drag-and-drop UI components to the Canvas
 
-<figure><img src="../../.gitbook/assets/dragdrop.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/zsrxhdcsr.gif" alt=""><figcaption></figcaption></figure>
 
-#### Connect Data and Bind Components
+#### Connect Data and Bind Componentsim
 
-<figure><img src="../../.gitbook/assets/FillDataBind.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/xfkcj.gif" alt=""><figcaption></figcaption></figure>
 
-#### Edit data
+#### Configure UI components
 
-<figure><img src="../../.gitbook/assets/form.gif" alt=""><figcaption></figcaption></figure>
+Then fetch data from relevant collections in each UI component, using panel on the right
+
+{% hint style="info" %}
+Note that each type of UI component might require different configuration. For the reference, see the [components section](../components/)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/dxhtcfty.JPG" alt=""><figcaption></figcaption></figure>
+
+#### Enable filtering
+
+Then select the Filter component and click "Bind" then choose the Kanban from the list - this will link the filter component and the kanban component so that any filter added will be applied to the kanban.
+
+<figure><img src="../../.gitbook/assets/dtxjfgy.JPG" alt=""><figcaption></figcaption></figure>
+
+After this, add as many filters as you need - they all will have logical AND between them
+
+<figure><img src="../../.gitbook/assets/Screenshot (203).png" alt=""><figcaption></figcaption></figure>
+
+#### Add record updating
+
+To be able to change various fields from our Opportunities collection (that is fetched through the Kanban UI component) we've already added a Form component.
+
+Now we need to make this form update a record that we selected in the Kanban on the left. To do this, we'll need to:&#x20;
+
+**a)** Generate the form and&#x20;
+
+**b)** Bind our form to the Kanban
+
+Now, connect the form to our Opportunities collection and set what the Form will do (Update a record):
+
+<figure><img src="../../.gitbook/assets/dxtjcvy.gif" alt=""><figcaption></figcaption></figure>
+
+Follow up with binding the Form and finally, generating it
+
+<figure><img src="../../.gitbook/assets/zxjncvgybu.gif" alt=""><figcaption></figcaption></figure>
+
+Now, we're halfway through. The only thing left is to make our app send notifications when we adit the Opportunity
 
 #### Send notifications
 
-<figure><img src="../../.gitbook/assets/automation.gif" alt=""><figcaption></figcaption></figure>
+To configure the notifications in Slack we'll need to create an Automation with data change in Opportunities collection as a trigger
+
+<figure><img src="../../.gitbook/assets/gkvu78.gif" alt=""><figcaption></figcaption></figure>
+
+Then withing the _f_ `Formula` modal we can fetch **dynamic values** into our message and **customize** it using powerful Excel-like formulas
+
+<figure><img src="../../.gitbook/assets/Screenshot (204).png" alt=""><figcaption></figcaption></figure>
+
+Here's an example of a message that informs about the `Status` change in the `Opportunities` collection&#x20;
+
+<figure><img src="../../.gitbook/assets/fxjchf.JPG" alt=""><figcaption></figcaption></figure>
 
 #### 3.3 Share your app with teammates
 
-Go to Share -> Invite with Link
+Finally, go to Share -> Invite with Link (or use other invite options) to invite end-users and your team
 
-<figure><img src="../../.gitbook/assets/share.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/szrhxdcgt5.gif" alt=""><figcaption></figcaption></figure>
+
