@@ -115,7 +115,11 @@ Now, we're halfway through. The only thing left is to make our app send notifica
 
 #### Send notifications
 
-To configure the notifications in Slack we'll need to create an Automation with data change in Opportunities collection as a trigger
+To configure the notifications in Slack we'll need to create an **Automation** with data change in Opportunities collection as a trigger. You can find Automations in **the left panel**:
+
+<figure><img src="../../.gitbook/assets/Screenshot (205).png" alt=""><figcaption></figcaption></figure>
+
+Then create **a trigger and an action** as it's shown on this GIF:
 
 <figure><img src="../../.gitbook/assets/gkvu78.gif" alt=""><figcaption></figcaption></figure>
 
