@@ -6,7 +6,9 @@ description: >-
 
 # Supabase
 
-**Supabase** is an open-source Firebase alternative. &#x20;
+****[**Supabase**](https://supabase.com/) is an open-source Firebase alternative with an array of functionas available out of the box.&#x20;
+
+To Integrate Jet with Supabase and build your first app, follow our guide:
 
 ### Step 1: Set up your Backend on Supabase <a href="#step-1-set-up-your-backend-on-supabase" id="step-1-set-up-your-backend-on-supabase"></a>
 
@@ -15,13 +17,13 @@ description: >-
 <figure><img src="../../.gitbook/assets/create-project-supabase-01-4d5930cd172cfc466c97c604b3e1e135.png" alt=""><figcaption></figcaption></figure>
 
 * Create a new table by clicking on the Create Table option on the side navigation.
-* Supabase provides many ways to add data to the tables, from writing queries to creating schemas using UI to simply uploading CSV files.&#x20;
+* Supabase provides many ways fill the tables with data, from writing queries or creating schemas using UI to simply uploading CSV files.&#x20;
 
 <figure><img src="../../.gitbook/assets/create-table-supabase-02-28784eb3dee81672533685563971e45b.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Connect the database to Jet Admin <a href="#step-2-connect-the-database-to-appsmith" id="step-2-connect-the-database-to-appsmith"></a>
 
-* Note down the database connection information under Project Settings in Supabase.
+* Open up the database connection information section under Project Settings in Supabase.
 
 <figure><img src="../../.gitbook/assets/supabase.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +31,7 @@ Choose a PostgreSQL database from the list of available data sources in Jet Admi
 
 ![](<../../.gitbook/assets/image (816).png>)
 
-The quickest way to integrate database (**localhost** not valid, use [**Docker**](postgresql-integration/docker-installation.md) **** or [**Python**](postgresql-integration/python-app-installation.md) **** integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
+The quickest way to integrate database is **Instant Connection** (**localhost** is not valid, use [**Docker**](postgresql-integration/docker-installation.md) **** or [**Python**](postgresql-integration/python-app-installation.md) **** integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
 
 You'll need to fill out the following form:
 
@@ -45,23 +47,25 @@ You'll need to fill out the following form:
 | PostgreSQL Schema  | Your database schema (`optional`)                                                                                                                                                                     |
 | Extra Parameters   | Extra parameters, ex. charset=utf8 (`optional`)                                                                                                                                                       |
 
+Now you're **ready to go!** The only thing that's left is to build an actual app on top of the data you brought in from Supabase
+
 ### Step3: Build an app on Jet Admin
 
-Let's build Custom CRM using Jet Admin that allows everyone to track Opportunities: Value Deals, Deal Statuses, update Deals, and send Slack notifications when a Deal is changed.
+Let's build Custom CRM using Jet Admin that allows everyone to **track** Opportunities: Value Deals, Deal Statuses, **update** Deals, and **send Slack notifications** when a Deal data is changed.
 
 <figure><img src="../../.gitbook/assets/OpportunityDashboard.png" alt=""><figcaption><p>Custom CRM</p></figcaption></figure>
 
 #### 3.1 Configure Data Types
 
-Go to Data that successfully was imported from Supabase and update Field Types.&#x20;
+Go to your Data (in the data section) that was successfully imported from Supabase in previous steps and update **Field Types** to make your app look nice and polished.&#x20;
 
 <figure><img src="../../.gitbook/assets/table1.jpg" alt=""><figcaption></figcaption></figure>
 
 #### 3.2 Build App UI
 
-Create a new Page, drag-and-drop components to the canvas and connect with your Data.
+Create a new Page, drag-and-drop components to the canvas and connect these components with your Data.
 
-#### Drag-and-drop components to Canvas
+#### Drag-and-drop UI components to the Canvas
 
 <figure><img src="../../.gitbook/assets/dragdrop.gif" alt=""><figcaption></figcaption></figure>
 
