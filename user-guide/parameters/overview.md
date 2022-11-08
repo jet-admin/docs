@@ -34,3 +34,17 @@ There are generally two ways how you can bind components in Jet:
 
 <figure><img src="../../.gitbook/assets/Screenshot (207).png" alt=""><figcaption></figcaption></figure>
 
+**The Formulas modal** window allows you to find and reference any dynamic value from the UI components, and any parameter from Users, Teams, and API responses. As well as transform values using Excel-like formulas or using JavaScript
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+All the components available for referencing are listed in various tabs. Then you can drill down into a component (in our case, it's `Deals` table) and choose the field to reference. This will fetch this value from the component we referenced onto the component we reference from.
+
+<figure><img src="../../.gitbook/assets/dxhtcfvg.gif" alt=""><figcaption></figcaption></figure>
+
+The same logic applies to all the cases where you want to grab one dynamic value and pass it over into some other place to either display or transform or filter by this value.
+
+
+
