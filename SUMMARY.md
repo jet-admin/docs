@@ -78,7 +78,7 @@
   * [Mixpanel](user-guide/integrations/mixpanel.md)
   * [Slack](user-guide/integrations/slack.md)
   * [Zapier](user-guide/integrations/zapier.md)
-* [🔢 Values](user-guide/parameters/README.md)
+* [🔢 Binding & Values](user-guide/parameters/README.md)
   * [Overview](user-guide/parameters/overview.md)
   * [Column Values](user-guide/parameters/column-values.md)
   * [Computed Values](user-guide/parameters/formulas.md)
