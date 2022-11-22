@@ -49,3 +49,10 @@ To create page value go to the page settings then click **+Add Parameter.**
 In order to pass a value from one page to another, you need to use the Navigate to page action.
 
 ![](../../.gitbook/assets/testgif25.gif)
+
+## Page Queries
+
+Page queries allow you to do queries from your page at once, and then use query results for all of the components on the page. In case, if you use one Query for several components, Page Queries help you to load it once and optimize the page loading.
+
+{% embed url="https://www.loom.com/share/0a52a28fafcd4104badf949330cb5ff1" %}
+
