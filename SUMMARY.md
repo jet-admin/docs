@@ -43,7 +43,6 @@
   * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql.md)
 * [📃 Generate Invoice or Document](getting-started/generate-invoice-or-document/README.md)
   * [Documint](getting-started/generate-invoice-or-document/documint.md)
-  * [Integromat](getting-started/generate-invoice-or-document/integromat.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
@@ -66,6 +65,7 @@
     * [Working with Data](user-guide/integrations/google-sheets/working-with-data.md)
   * [Airtable](user-guide/integrations/airtable.md)
   * [GraphQL](user-guide/integrations/graphql.md)
+  * [Jet Emails](user-guide/integrations/jet-emails.md)
   * [Django](user-guide/integrations/django-framework-package.md)
   * [Supabase](user-guide/integrations/supabase.md)
   * [Xano](user-guide/integrations/xano.md)

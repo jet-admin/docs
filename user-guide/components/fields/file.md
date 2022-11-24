@@ -8,7 +8,7 @@ To find the File component, type in "file" or scroll down
 
 File component is interactive as all inputs are, meaning you can click on the field and upload a file and then download the existing file
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Settings
 
