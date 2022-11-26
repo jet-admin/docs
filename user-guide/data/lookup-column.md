@@ -8,7 +8,5 @@ A lookup field allows you to pull record contents from one linked record into an
 
 To create a lookup column, head to the [Data Editor](./) and add a new column. Choose “**Lookup related field**” from the column types and choose the relation column that best fits your query. Once you’ve chosen a relation column, choose which column you want to pull data from.
 
-{% file src="../../.gitbook/assets/lookup.gif" %}
-
 
 
