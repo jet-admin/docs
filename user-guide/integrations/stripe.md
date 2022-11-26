@@ -1,8 +1,15 @@
 ---
-description: Connecting Stripe to Jet Admin
+description: Sync your subscription and customer data from Stripe into your Jet app
 ---
 
 # Stripe
+
+Using Stripe you can do the following:
+
+* View your top Stripe customers alongside customer data stored in other Data Sources
+* Share limited Stripe data with your team or external stakeholders
+* Keep your account team alerted to upcoming renewals, cancellations, and delinquencies
+* Do refund or subscription cancellation inside your app
 
 ### 1. Get Your Secret API Key
 

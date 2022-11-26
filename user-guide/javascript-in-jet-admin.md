@@ -24,6 +24,8 @@ If you are new to Javascript, the following courses help you to fill the gap:
 
 ### **Computed Columns** <a href="#binding-data" id="binding-data"></a>
 
+
+
 ****
 
 ****

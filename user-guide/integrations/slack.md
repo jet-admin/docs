@@ -1,5 +1,5 @@
 ---
-description: Connecting Slack to Jet Admin
+description: Send data to Slack as a notification from a Jet app
 ---
 
 # Slack

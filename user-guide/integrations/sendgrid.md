@@ -1,5 +1,5 @@
 ---
-description: Connecting SendGrid to Jet Admin.
+description: Send transactional emails to your users from a Jet app
 ---
 
 # SendGrid

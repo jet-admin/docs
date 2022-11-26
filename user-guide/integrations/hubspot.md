@@ -1,8 +1,15 @@
 ---
-description: Connect Hubspot to Jet Admin
+description: Sync your deals and customer data from Hubspot into your Jet app
 ---
 
 # Hubspot
+
+Using Hubspot you can do the following:
+
+* View your top Hubspot customers alongside customer data stored in other Data Sources
+* Share limited Hubspot data with your team or external stakeholders
+* Keep your account team alerted to upcoming renewals, cancellations, and delinquencies
+* Do refund or subscription cancellation inside your app
 
 ## 1. Get Hubspot API Key
 

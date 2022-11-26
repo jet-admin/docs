@@ -1,8 +1,15 @@
 ---
-description: Connecting Zendesk to Jet Admin
+description: Sync your tickets and customer data from Zendesk into your Jet app
 ---
 
 # Zendesk
+
+Using Zendesk you can do the following:
+
+* View your top Zendesk customers alongside customer data stored in other Data Sources
+* Share limited Zendesk data with your team or external stakeholders
+* Keep your account team alerted to upcoming tickets
+* Update the status of the tickets into your app
 
 ### 1. Get Zendesk API Token
 

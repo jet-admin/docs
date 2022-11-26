@@ -1,5 +1,5 @@
 ---
-description: Connecting Twilio to Jet Admin
+description: Send SMS to your users from a Jet app
 ---
 
 # Twilio

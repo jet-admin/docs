@@ -1,5 +1,5 @@
 ---
-description: Jet Email is a simple yet powerful way to send emails from a Jet app.
+description: Send emails from a Jet app
 ---
 
 # Jet Emails

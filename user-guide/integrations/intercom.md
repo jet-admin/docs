@@ -1,8 +1,14 @@
 ---
-description: Connect Intercom to Jet Admin
+description: Sync your contacts data (users and leads) from Intercom into your Jet app.
 ---
 
 # Intercom
+
+Using Intercom you can do the following:
+
+* View your top Intercom customers alongside customer data stored in other data sources
+* Share limited Intercom data with your team or external stakeholders
+* Keep your account team alerted to users that are most active, or drifting away
 
 ## 1. Get Intercom Access Token
 
