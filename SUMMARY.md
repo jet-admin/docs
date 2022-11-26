@@ -99,6 +99,7 @@
   * [Making API requests](user-guide/data/make-an-http-request.md)
   * [Making SQL queries](user-guide/data/make-a-sql-query.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
+* [Javascript in Jet Admin](user-guide/javascript-in-jet-admin.md)
 * [ℹ Conditionals](user-guide/components-visibility/README.md)
   * [Conditional Visibility](user-guide/components-visibility/conditional-visibility.md)
   * [Conditional Disable](user-guide/components-visibility/conditional-disable.md)
