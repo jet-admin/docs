@@ -14,7 +14,7 @@ You can open the SQL Builder directly from the component simply by selecting the
 
 ### Pass Inputs
 
-To pass [values](../binding-and-values/parameters.md) from SQL Query Builder, such as `id`or `email`, you need to specify them within the Inputs tab:
+To pass [values](../parameters/) from SQL Query Builder, such as `id`or `email`, you need to specify them within the Inputs tab:
 
 ![](<../../.gitbook/assets/image (843).png>)
 

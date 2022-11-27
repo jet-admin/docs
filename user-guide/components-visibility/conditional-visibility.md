@@ -25,7 +25,7 @@ To use a **dynamic value**, delete one of the values in the formula (doesn't mat
 And replace it with the reference to the dynamic value. In our example, we've added to a canvas a new UI component: `Dynamic value` input **(1)** that may receive any value. After we've added it, it automatically appears in the modal window where we can reference it **(2)**.
 
 {% hint style="info" %}
-Learn more about **binding and referencing** dynamic values in the [Values section](../binding-and-values/parameters.md)
+Learn more about **binding and referencing** dynamic values in the [Values section](../parameters/)
 {% endhint %}
 
 ![](<../../.gitbook/assets/zrhxdct (2).png>)

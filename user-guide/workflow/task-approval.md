@@ -49,8 +49,8 @@ The next thing to do is to pass parameters that the assignee will see in the tas
 
 ![](<../../.gitbook/assets/image (846).png>)
 
-{% content-ref url="../binding-and-values/parameters.md" %}
-[parameters.md](../binding-and-values/parameters.md)
+{% content-ref url="../parameters/" %}
+[parameters](../parameters/)
 {% endcontent-ref %}
 
 ### Approving and rejecting the tasks

@@ -51,7 +51,7 @@ It's essential to be aware of the limitations of Google Sheets while working in 
 1. **Number of rows per minute** - this is the limitation that comes from Google Sheets API limits (read more [here](https://developers.google.com/sheets/api/limits)). So if you build a complex tool with lots of data, it might make sense to look for an alternative to Google Sheets
 
 {% hint style="info" %}
-You can use [Sync mode](../../360-data-data-blending.md#sync-connection) to bypass this limitation
+You can use [Sync mode](../../data-blending.md#sync-connection) to bypass this limitation
 {% endhint %}
 
 1. **Working with formulas** - Jet Admin supports formulas in Google Sheets for reading, which means that calculated fields in your Sheets. However, if you will change (Through Jet Admin) a value that's a result of a formula, it will be written as a value and the formula information will be lost for that field.

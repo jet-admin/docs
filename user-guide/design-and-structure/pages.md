@@ -24,16 +24,16 @@ Once you created a new page, drag-and-drop any components to the page to succeed
 
 ![](../../.gitbook/assets/testgif23.gif)
 
-{% content-ref url="components/" %}
-[components](components/)
+{% content-ref url="../components/" %}
+[components](../components/)
 {% endcontent-ref %}
 
 ### Page Values
 
 Page Values allow you to pass data from one page to another.&#x20;
 
-{% content-ref url="../binding-and-values/parameters.md" %}
-[parameters.md](../binding-and-values/parameters.md)
+{% content-ref url="../parameters/" %}
+[parameters](../parameters/)
 {% endcontent-ref %}
 
 In case, when you want to build a Detail page for your user with the user info on this page: first name, last name, address, etc. You need to pass the user ID from one page to another. To do this you need to create a page value for this page and pass this ID to another page in [Action](actions.md).&#x20;
@@ -65,5 +65,5 @@ Page queries allow you to do queries from your page at once, and then use query 
 
 Specify Page Query's Data on your Component using Formula
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (2).png>)
 
