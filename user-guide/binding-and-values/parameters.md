@@ -4,31 +4,13 @@ description: Learn about the different values types you can work with.
 
 # Extract & Pass Values
 
-<figure><img src="../../.gitbook/assets/visual.jpg" alt=""><figcaption></figcaption></figure>
-
 Jet allows you to extract values from **`Visual Builder`**, **`Data`**, and **`Workflow`**. There are the following Values Types:
 
 * Visual Builder/Data/Workflow Values
+* User and Team Values
+* Computed Values
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-* User and Team Values (Email, First and Last name, token, user id, )
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-* Computed Values (Transform your values with Formula or JavaScript)
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-{% content-ref url="../computed-columns/formulas/" %}
-[formulas](../computed-columns/formulas/)
-{% endcontent-ref %}
-
-<figure><img src="../../.gitbook/assets/js1.jpg" alt=""><figcaption></figcaption></figure>
-
-{% content-ref url="../computed-columns/javascript-column.md" %}
-[javascript-column.md](../computed-columns/javascript-column.md)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/visual.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Visual Builder Values
 

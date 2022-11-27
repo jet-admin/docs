@@ -4,7 +4,7 @@
 
 To find the File component, type in "file" or scroll down
 
-<figure><img src="../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 File component is interactive as all inputs are, meaning you can click on the field and upload a file and then download the existing file
 
@@ -18,13 +18,13 @@ There are many things you can set up in the file component settings (click on th
 
 Here you can **connect** one of our native integration storages, use Jet Admin's built-in storage or connect your own using REST API
 
-<figure><img src="../../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### Linking data
 
 You can also reference dynamic values using the _`f`_ formula modal or set up a static value (upload file)&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### How to use File
 
@@ -34,7 +34,7 @@ There are many use-cases for the File component, so here we'll review the most c
 
 To upload files to Jet Tables (or any other storage), we'll need **a button** to execute the action. In addition, we might need a table to select the record the we'll upload the file onto. This table must have a column with the `File` field type
 
-<figure><img src="../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Next, we need to tell the button where the file value will come from. For this, we'll reference the "value" attribute from the `File` filed we dropped on the canvas
 

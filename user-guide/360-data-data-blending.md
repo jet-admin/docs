@@ -2,7 +2,7 @@
 description: Combine data from different data sources
 ---
 
-# 💠 Data Blending
+# 💠 360 Data/Data Blending
 
 Data blending allows you to **merge (join)** pieces of data from different (multiple) data sources. Typically, to do that, you'd need a data warehouse, but with Jet, you can do it without any additional software or services. You can also write **SQL with non-SQL** data sources.&#x20;
 
