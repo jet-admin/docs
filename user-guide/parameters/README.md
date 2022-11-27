@@ -4,7 +4,7 @@ description: >-
   in different ways.
 ---
 
-# 🔢 Values
+# 🔗 Binding & Values
 
 {% embed url="https://www.youtube.com/watch?v=r0yL_CQh9J8&ab_channel=JetAdmin" %}
 
@@ -36,7 +36,7 @@ In order to pass a value from one page to another, you need to use the Navigate 
 [column-values.md](column-values.md)
 {% endcontent-ref %}
 
-{% content-ref url="formulas.md" %}
-[formulas.md](formulas.md)
+{% content-ref url="../formulas.md" %}
+[formulas.md](../formulas.md)
 {% endcontent-ref %}
 

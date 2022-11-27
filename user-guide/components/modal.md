@@ -26,14 +26,14 @@ Modal windows in Jet Admin have various display styles. You can change it in the
 
 ![](../../.gitbook/assets/testgif100.gif)
 
-You can also set the title for the modal window in different ways. The title can be a **static** value or a **dynamic** value using formulas (e.g., you want to display Update Product # {{id}}).&#x20;
+You can also set the title for the modal window in different ways. The title can be a **static** value or a **dynamic** value using formulas (e.g., you want to display Update Product # \{{id\}}).&#x20;
 
 ![](../../.gitbook/assets/testgif101.gif)
 
 See here for more details on how to use the formula functionality for dynamic values:
 
-{% content-ref url="../parameters/formulas.md" %}
-[formulas.md](../parameters/formulas.md)
+{% content-ref url="../formulas.md" %}
+[formulas.md](../formulas.md)
 {% endcontent-ref %}
 
 ### Open a Modal from a Table

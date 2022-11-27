@@ -2,11 +2,11 @@
 description: Access values for the current item
 ---
 
-# Computed Values
+# 🔢 Computed Values
 
 A formula is a method to access every piece of data and build up to as complicated a data flow pattern as you need it to be. You can combine, modify or calculate the values, or you can even pull up an access control system based on logical conditions set by an appropriate formula.
 
-![](../../.gitbook/assets/testgif46.gif)
+![](../.gitbook/assets/testgif46.gif)
 
 In a formula, you can reference columns by name. For example, if you wanted a formula that calculated the total based on the price and quantity, the formula would look like:
 
@@ -30,23 +30,23 @@ For an introductory example, we will consider feeding customers email addresses 
 
 `=elements.Customers["0"].selected_item.email`
 
-![](../../.gitbook/assets/testgif47.gif)
+![](../.gitbook/assets/testgif47.gif)
 
 2\. Now we will configure the Subject field using the `CONCAT` function. Let's say we want to select an appropriate value from the Discount dropdown list and have it automatically passed to the Subject field of the promotional email in the following form: "Manuel Allen - 15% discount":
 
 `=CONCAT(elements.Customers["0"].selected_item.username, " - ", elements["Discount"].value)`
 
-![](../../.gitbook/assets/testgif48.gif)
+![](../.gitbook/assets/testgif48.gif)
 
 3\. To finish up, we shall configure the Body field. Using the `CONCAT` function we will build a template for the email body:
 
 `=CONCAT("Hi ", elements.Customers["0"].selected_item.first_name, ", here is your promocode: ACX978DF.")`
 
-![](../../.gitbook/assets/testgif50.gif)
+![](../.gitbook/assets/testgif50.gif)
 
 4\. Now when you select any customer, it will launch a completely automated process to create a promotional email to treat this customer. The only manual job remaining for you will be to select the discount and hit the Send email button:
 
-![](../../.gitbook/assets/testgif51.gif)
+![](../.gitbook/assets/testgif51.gif)
 
 ### Create Custom fields using Formulas
 
@@ -54,13 +54,13 @@ In this use case we will create a custom column in the Customer table and calcul
 
 1\. Simply create a new Custom field in columns settings of table component.&#x20;
 
-![](../../.gitbook/assets/testgif52.gif)
+![](../.gitbook/assets/testgif52.gif)
 
 2\. Now we should configure Value for that Column using Formulas. We will use `IF` function to calculate Scores value, depending on Activities number for each customer:
 
 `=IF(item.activities < 280, '50 points', IF(item.activities < 400, '70 points', '100 points'))`
 
-![](../../.gitbook/assets/testgif53.gif)
+![](../.gitbook/assets/testgif53.gif)
 
 ### Formulas variables
 
@@ -68,32 +68,32 @@ Essentially, this is a tabbed pop-up window which reflects all the components on
 
 The number and type of tabs depends on the context. This allows the user to have access to only those tools which are applicable to the objects he or she is working with. For example, if we work with table parameters, there will be a tab with filters. In case we drill down to a specific record of a table and have this record fields displayed on a page, a tab with Record components will be available:
 
-![](../../.gitbook/assets/testgif46.gif)
+![](../.gitbook/assets/testgif46.gif)
 
 ### Tabs context
 
-When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](../security-and-privacy/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
+When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](security-and-privacy/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
 
 #### Search tab
 
 In this tab you see a general list of all available interactions with the current component or other components and parameters.&#x20;
 
-![](../../.gitbook/assets/testgif54.gif)
+![](../.gitbook/assets/testgif54.gif)
 
 #### Current component tab
 
 When you are working on a Current Component setting, the context in the formulas will show you the Current Component setting at the very top. In this tab, you can only access the fields in the current component:
 
-![](../../.gitbook/assets/testgif55.gif)
+![](../.gitbook/assets/testgif55.gif)
 
 #### Components tab
 
 Here you can access any data from your resources through any component (fields, tables, charts, etc.) on the current page.
 
-![](../../.gitbook/assets/testgif56.gif)
+![](../.gitbook/assets/testgif56.gif)
 
 ### User-specific properties
 
-If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](../security-and-privacy/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
+If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](security-and-privacy/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
 
-![](../../.gitbook/assets/testgif57.gif)
+![](../.gitbook/assets/testgif57.gif)

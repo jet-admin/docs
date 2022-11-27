@@ -8,7 +8,7 @@ To send an email, you need to specify such Values as the recipient's email, subj
 
 ### Ask the user to fill the form in your App
 
-We need to configure Values for the "Send Email" button in that case. So all we have to do just select `Ask from user user option` in [Formulas](formulas.md) pop-up window.&#x20;
+We need to configure Values for the "Send Email" button in that case. So all we have to do just select `Ask from user user option` in [Formulas](../formulas.md) pop-up window.&#x20;
 
 ![](<../../.gitbook/assets/testgif44 (1).gif>)
 

@@ -10,7 +10,7 @@ Once you've connected your Data Sources and dropped relevan UI building blocks o
 
 If you have, say, a table component on the canvas and you want to display your "Companies" data (collection) in it, it's pretty easy: you go into the table settings and link it to the collection:
 
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 But what if we move up the complexity a bit and would want to mke the `email` value from the selected row **appear in the input field**?
 

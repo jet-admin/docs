@@ -8,11 +8,11 @@ The rollup allows you to perform a calculation on [Relation](relations.md). The 
 
 For example, in the image below we create a rollup column that counts the number of items in the D`eals` column.
 
-<figure><img src="../../.gitbook/assets/rollup.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rollup.gif" alt=""><figcaption></figcaption></figure>
 
 ### Column or relation source <a href="#column-or-relation-source" id="column-or-relation-source"></a>
 
-![](../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (3).png>)
 
 ### Calculations <a href="#calculations" id="calculations"></a>
 
