@@ -78,7 +78,7 @@ Create a new Page, drag-and-drop components to the canvas and connect these comp
 Then fetch data from relevant collections in each UI component, using panel on the right
 
 {% hint style="info" %}
-Note that each type of UI component might require different configuration. For the reference, see the [components section](../components/)
+Note that each type of UI component might require different configuration. For the reference, see the [components section](../design-and-structure/components/)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/dxhtcfty.JPG" alt=""><figcaption></figcaption></figure>

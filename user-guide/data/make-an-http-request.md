@@ -22,7 +22,7 @@ You can open the API Builder directly from the component simply by selecting the
 
 ### Pass Values to API Builder
 
-To pass [Values](../parameters/) to **API Builder**, such as `charge` you need to specify **Inputs**.
+To pass [Values](../binding-and-values/parameters.md) to **API Builder**, such as `charge` you need to specify **Inputs**.
 
 ![](../../.gitbook/assets/testgif39.gif)
 

@@ -36,8 +36,8 @@ Here, you need to choose how you'd like your Firestore to be integrated with Jet
 
 If you want to be able to **combine** your **Firestore data** with data from other data sources, such as Google Sheets, Airtable, or even REST API within the same tables, you should choose the **"Sync" connection**. You can learn more about it here:
 
-{% content-ref url="../../data-blending.md" %}
-[data-blending.md](../../data-blending.md)
+{% content-ref url="../../360-data-data-blending.md" %}
+[360-data-data-blending.md](../../360-data-data-blending.md)
 {% endcontent-ref %}
 
 ![](../../../.gitbook/assets/xgncf.JPG)
