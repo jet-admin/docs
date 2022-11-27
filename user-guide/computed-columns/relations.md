@@ -22,7 +22,12 @@ In Jet, you can create relations between values using a **Link to record** colum
 
 ### Check for matching values <a href="#check-for-matching-values" id="check-for-matching-values"></a>
 
+Before adding a **Relation** column, you must first check that the values match in the columns that will be connected. Items cannot be linked together unless they match.
 
+In this example, each employee in `Contact` has a `Company` they work in.
+
+1. In the `Contact` table, make sure there’s a column for the name of the employee’s `Company`.
+2. In the `Company` table, make sure there’s a column for the name of the location that can be tied to the `Contact` table.
 
 ### Build single relations <a href="#build-single-relations" id="build-single-relations"></a>
 
@@ -30,11 +35,11 @@ Here we'll show how to simply create a related Company field for each Customer. 
 
 1\. Specify the type for a `company_id` column as `Link to record`&#x20;
 
-![](../../../.gitbook/assets/testgif58.gif)
+![](../../.gitbook/assets/testgif58.gif)
 
 2\. Specify `related collection` then select `related field` and select `Display field` to display it on the Customer table:
 
-![](../../../.gitbook/assets/testgif59.gif)
+![](../../.gitbook/assets/testgif59.gif)
 
 {% hint style="info" %}
 Related field and Display field are set automatically under the context but you can change these values.

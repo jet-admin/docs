@@ -20,4 +20,4 @@ Use the following guide to set up emails, and specify the next operation:
 * text – text field without markups
 * text (HTML) – text field with markups
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (9).png>)

@@ -8,7 +8,7 @@ To find the File component, type in "file" or scroll down
 
 File component is interactive as all inputs are, meaning you can click on the field and upload a file and then download the existing file
 
-<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Settings
 
@@ -34,7 +34,7 @@ There are many use-cases for the File component, so here we'll review the most c
 
 To upload files to Jet Tables (or any other storage), we'll need **a button** to execute the action. In addition, we might need a table to select the record the we'll upload the file onto. This table must have a column with the `File` field type
 
-<figure><img src="../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Next, we need to tell the button where the file value will come from. For this, we'll reference the "value" attribute from the `File` filed we dropped on the canvas
 
@@ -52,7 +52,7 @@ Now, the button will upload the file and link it to the record we selected in th
 
 Now, if we want to **display the file** that is stored in our table, we'll need to follow the same process: go into the `File` component's settings and reference the file field from the selected row in the Table
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

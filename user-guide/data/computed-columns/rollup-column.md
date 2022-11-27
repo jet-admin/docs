@@ -4,7 +4,7 @@ description: Perform calculations on columns or relations like count, average, a
 
 # Rollup Column
 
-The rollup allows you to perform a calculation on [Relation](relations.md). The most basic computation for the rollup is Count.
+The rollup allows you to perform a calculation on [Relation](../../computed-columns/relations.md). The most basic computation for the rollup is Count.
 
 For example, in the image below we create a rollup column that counts the number of items in the D`eals` column.
 
@@ -12,7 +12,7 @@ For example, in the image below we create a rollup column that counts the number
 
 ### Column or relation source <a href="#column-or-relation-source" id="column-or-relation-source"></a>
 
-![](<../../../.gitbook/assets/image (3) (3).png>)
+![](<../../../.gitbook/assets/image (3) (2).png>)
 
 ### Calculations <a href="#calculations" id="calculations"></a>
 
