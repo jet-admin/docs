@@ -92,7 +92,6 @@
 * [🌈 Basic Columns](user-guide/basic-columns.md)
 * [🔢 Computed Column](user-guide/data/computed-columns/README.md)
   * [Relations](user-guide/computed-columns/relations.md)
-  * [Row ID](user-guide/data/computed-columns/row-id.md)
   * [Rollup Column](user-guide/data/computed-columns/rollup-column.md)
   * [Lookup Column](user-guide/data/computed-columns/lookup-column.md)
   * [Formula](user-guide/formulas.md)
