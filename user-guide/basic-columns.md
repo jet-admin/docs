@@ -8,7 +8,7 @@ Basic columns hold normal data values. There are different types of basic column
 
 They hold only one value as opposed to user-specific columns that contain different values for each user. Any changes made to basic columns are synced between your Jet data source and the original data source.
 
-* ![](../.gitbook/assets/image.png)
+* ![](<../.gitbook/assets/image (1).png>)
 
 ### Available column types <a href="#available-column-types" id="available-column-types"></a>
 
