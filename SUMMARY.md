@@ -112,7 +112,7 @@
     * [Filters](user-guide/components/filters.md)
     * [Form](user-guide/components/form.md)
     * [Modal](user-guide/components/modal.md)
-    * [Input Fields](user-guide/components/fields/README.md)
+    * [Fields](user-guide/components/fields/README.md)
       * [File](user-guide/components/fields/file.md)
       * [Select](user-guide/components/fields/select.md)
       * [Checkbox](user-guide/components/fields/checkbox.md)
