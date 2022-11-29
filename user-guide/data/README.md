@@ -21,32 +21,3 @@ description: >-
 * Making [API requests](make-an-http-request.md) and [SQL queries](make-a-sql-query.md)
 
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
-
-### Basic Columns <a href="#basic-columns" id="basic-columns"></a>
-
-
-
-### Computed Columns (Roll up, Look up) <a href="#computed-columns" id="computed-columns"></a>
-
-
-
-### Filter, Sorting
-
-
-
-### Adding and Deleting Columns <a href="#adding-and-deleting-columns" id="adding-and-deleting-columns"></a>
-
-
-
-### Renaming Columns <a href="#renaming-columns" id="renaming-columns"></a>
-
-
-
-### Hiding Columns
-
-
-
-### Reordering Columns <a href="#reordering-columns" id="reordering-columns"></a>
-
-
-
