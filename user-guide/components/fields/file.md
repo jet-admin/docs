@@ -1,3 +1,7 @@
+---
+description: Single and Multiple Files
+---
+
 # File
 
 ### Overview
@@ -9,6 +13,8 @@ To find the File component, type in "file" or scroll down
 File component is interactive as all inputs are, meaning you can click on the field and upload a file and then download the existing file
 
 <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+
+###
 
 ### Settings
 
@@ -25,6 +31,12 @@ Here you can **connect** one of our native integration storages, use Jet Admin's
 You can also reference dynamic values using the _`f`_ formula modal or set up a static value (upload file)&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+
+### Multiple Files
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/multiplefiles.gif" alt=""><figcaption></figcaption></figure>
 
 ### How to use File
 
@@ -53,9 +65,3 @@ Now, the button will upload the file and link it to the record we selected in th
 Now, if we want to **display the file** that is stored in our table, we'll need to follow the same process: go into the `File` component's settings and reference the file field from the selected row in the Table
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-### Use-cases
