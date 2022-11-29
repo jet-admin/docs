@@ -6,7 +6,7 @@ description: >-
 
 # 🧮 Data Editor
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 `Data` helps you to connect, manage, and blend data from different [Data Sources](../integrations/). You can do different operations with your `Data`:
 

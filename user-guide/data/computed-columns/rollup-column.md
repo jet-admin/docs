@@ -12,7 +12,7 @@ For example, in the image below we create a rollup column that counts the number
 
 ### Column or relation source <a href="#column-or-relation-source" id="column-or-relation-source"></a>
 
-![](<../../../.gitbook/assets/image (3) (2).png>)
+![](<../../../.gitbook/assets/image (3) (2) (2).png>)
 
 ### Calculations <a href="#calculations" id="calculations"></a>
 

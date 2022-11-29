@@ -38,7 +38,7 @@ There are generally two ways how you can bind components in Jet:
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 All the components available for referencing are listed in various tabs. Then you can drill down into a component (in our case, it's `Deals` table) and choose the field to reference. This will fetch this value from the component we referenced onto the component we reference from.
 

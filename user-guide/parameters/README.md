@@ -12,7 +12,7 @@ Jet allows you to extract and pass values in **`Visual Builder`**, **`Data`**, a
 
 * Visual Builder/Data/Workflow Values
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * User and Team Values (Email, First and Last name, team name, token, user id)
 
@@ -20,7 +20,7 @@ Jet allows you to extract and pass values in **`Visual Builder`**, **`Data`**, a
 
 * Computed Values (Transform your values with Formula or JavaScript)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../formulas.md" %}
 [formulas.md](../formulas.md)
