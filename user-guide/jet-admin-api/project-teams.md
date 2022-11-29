@@ -1,5 +1,11 @@
 # Teams API
 
+<figure><img src="../../.gitbook/assets/Users (1).jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/user2 (1).jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/teams.jpg" alt=""><figcaption></figcaption></figure>
+
 {% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/groups/" method="get" summary="Get list of all project teams" %}
 {% swagger-description %}
 

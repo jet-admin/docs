@@ -1,5 +1,13 @@
 # Users API
 
+<figure><img src="../../.gitbook/assets/Users (2).jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/user2.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/user1 (1).jpg" alt=""><figcaption></figcaption></figure>
+
+
+
 {% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/users/" method="get" summary="Get list of all project users" %}
 {% swagger-description %}
 
@@ -104,6 +112,8 @@ Return response as pages (0 or 1)
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+
 
 {% swagger baseUrl="https://api.jetadmin.io" path="/api/projects/:PROJECT_NAME/users/:uid/" method="get" summary="Get detail project user" %}
 {% swagger-description %}
