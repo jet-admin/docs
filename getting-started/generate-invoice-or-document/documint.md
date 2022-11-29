@@ -4,7 +4,7 @@ description: Create documents from your data right in Jet Admin
 
 # Documint
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Generate documents for your Jet Admin applications with the Documint.
 
