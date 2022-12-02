@@ -4,12 +4,22 @@ description: Sync your subscription and customer data from Stripe into your Jet 
 
 # Stripe
 
-Using Stripe you can do the following:
+Using Stripe, you can do the following:
 
 * View your top Stripe customers alongside customer data stored in other Data Sources
 * Share limited Stripe data with your team or external stakeholders
 * Keep your account team alerted to upcoming renewals, cancellations, and delinquencies
 * Do refund or subscription cancellation inside your app
+
+Jet syncs the following Stripe data:
+
+* Charges
+* Customers
+* Disputes
+* Invoices
+* Plans
+* Products
+* Refunds
 
 ### 1. Get Your Secret API Key
 
