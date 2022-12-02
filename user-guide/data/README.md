@@ -23,3 +23,11 @@ description: >-
 * Making [API requests](make-an-http-request.md) and [SQL queries](make-a-sql-query.md)
 
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
+
+### Navigating Data Editor
+
+{% embed url="https://www.youtube.com/watch?v=0nRHFy6oPmw&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=25&ab_channel=JetAdmin" %}
+
+### Field Types
+
+{% embed url="https://www.youtube.com/watch?v=-VnJL0KbiXc&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=26&ab_channel=JetAdmin" %}
