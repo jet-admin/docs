@@ -11,6 +11,12 @@ Using Zendesk you can do the following:
 * Keep your account team alerted to upcoming tickets
 * Update the status of the tickets into your app
 
+Jet syncs the following Zendesk data:
+
+* Tickets
+* Users
+* Organizations
+
 ### 1. Get Zendesk API Token
 
 First you need to sign up for [Zendesk ](https://www.zendesk.com/)and create an account. Complete the account creation process to get started.&#x20;
