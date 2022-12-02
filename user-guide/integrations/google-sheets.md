@@ -4,6 +4,8 @@
 
 ![](../../.gitbook/assets/dtjfyt.png)
 
+{% embed url="https://www.youtube.com/watch?v=SWAmJMD8H38&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj" %}
+
 ### Connecting Google Sheets
 
 You can choose multiple files to import, for that, click "Add a file" as shown on the screenshot.
