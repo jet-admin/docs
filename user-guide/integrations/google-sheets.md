@@ -2,9 +2,9 @@
 
 **Google Sheets** is one of the most popular databases that is often also used as a user interface. Connecting Google Sheets to Jet Admin doesn't require any coding.&#x20;
 
-![](../../.gitbook/assets/dtjfyt.png)
-
 {% embed url="https://www.youtube.com/watch?v=SWAmJMD8H38&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj" %}
+
+![](../../.gitbook/assets/dtjfyt.png)
 
 ### Connecting Google Sheets
 

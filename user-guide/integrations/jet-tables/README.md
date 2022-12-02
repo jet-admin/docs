@@ -10,6 +10,8 @@ Jet Tables allows you to **get started** with your app really **quickly**. It es
 You can also use data from Jet Tables to [merge it](../../data-blending.md) with data from other data sources, write custom SQL on top of it and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=2rdWPCUiGd4&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=18&ab_channel=JetAdmin" %}
+
 ### Creating a new resource
 
 **To get started** with Jet tables, click "New Data" in the integrations list in the top left corner:

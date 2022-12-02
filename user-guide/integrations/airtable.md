@@ -2,6 +2,8 @@
 
 In this article, we'll review the integration with Airtable, and its characteristics and will go through the steps necessary to connect it to Jet Admin
 
+{% embed url="https://www.youtube.com/watch?v=HOiRAbCOcss&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=19&ab_channel=JetAdmin" %}
+
 ### Connecting Airtable
 
 You can connect to Airtable from the data tab on the left menu bar or from the data section within a UI component. You'll need to enter a valid API key (1) and choose a base (2).

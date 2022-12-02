@@ -4,6 +4,8 @@ description: Manage files and folders in Jet Admin
 
 # Storages
 
+{% embed url="https://www.youtube.com/watch?v=FtR0a40ufRU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=20&ab_channel=JetAdmin" %}
+
 Cloud Storage in Jet Admin allows you to integrate with the most popular providers so that you can manage your files and folders along with your internal tooling in one place. You will see a Storage File Viewer that you'll use to access your data.
 
 ![](../../.gitbook/assets/GIF197.gif)

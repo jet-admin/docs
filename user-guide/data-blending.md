@@ -4,6 +4,8 @@ description: Combine data from different data sources
 
 # 💠 360 Data/Data Blending
 
+{% embed url="https://www.youtube.com/watch?v=l1jrrwlj0eU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=25&ab_channel=JetAdmin" %}
+
 360 Data allows you to connect and sync more than 30 data sources to your Jet app. Jet syncs your data sources to Jet Tables which allows you to join(merge) data and write **SQL with non-SQL** data sources.&#x20;
 
 You can even layer the above capabilities to transform your data the way you want regardless of where it comes from.
