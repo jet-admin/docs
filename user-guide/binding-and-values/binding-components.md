@@ -2,9 +2,11 @@
 description: We'll learn how data binding works inJet Admin
 ---
 
-# Bind Components
+# Binding Components
 
-Once you've connected your Data Sources and dropped relevan UI building blocks on the canvas, it's time to connect the UI and Data to set up the business logic
+{% embed url="https://www.youtube.com/watch?v=jV9LiBbyWYQ&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj" %}
+
+Once you've connected your Data Sources and dropped relevant UI building blocks on the canvas, it's time to connect the UI and Data to set up the business logic
 
 ### What is binding?
 
