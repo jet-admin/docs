@@ -31,3 +31,11 @@ You handle the Data when you add a resource to your component. Collections are v
 ### Field Types
 
 {% embed url="https://www.youtube.com/watch?v=-VnJL0KbiXc&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=26&ab_channel=JetAdmin" %}
+
+## Editing data
+
+{% embed url="https://www.youtube.com/watch?v=nKwapk29m-A&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=27&ab_channel=JetAdmin" %}
+
+## Data Source Configuration
+
+{% embed url="https://www.youtube.com/watch?v=RqtphcWBDnk&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=28&ab_channel=JetAdmin" %}
