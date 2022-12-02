@@ -6,6 +6,8 @@ description: Learn how to easily navigate Jet Admin
 
 {% embed url="https://www.youtube.com/watch?v=IzoNmMnZ_kE&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=9&ab_channel=JetAdmin" %}
 
+{% embed url="https://www.youtube.com/watch?v=ZuKlkslvZSs&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&ab_channel=JetAdmin" %}
+
 Jet Admin allows you to build custom business apps such as CRMs, admin panels, and internal tools using templates
 
 <figure><img src="https://lh4.googleusercontent.com/KNBV63NUJR6jvlLeT_8U3Z9DrHEnTNXiKljDmFWTMOv7SMcgSbzRRRreewLv_kjcrkEVDsOTS_5yxHHjKyMgeuZXD5WBrQ_xHuA9-b46ObAGbIW05Dsxzppg9VxovTRGUh6bzDffKGQCYeKZHL79sDk1U32u_XYkn7qD4Z6-DXXnPIIB38Jt4mHIuA" alt=""><figcaption></figcaption></figure>

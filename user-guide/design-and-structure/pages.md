@@ -4,6 +4,8 @@ description: Detailed review of pages in Jet Admin.
 
 # Customizing Pages
 
+{% embed url="https://www.youtube.com/watch?v=7382TbvzzRs&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=30&ab_channel=JetAdmin" %}
+
 A Page is an interface element that can span across various use cases. Create pages from scratch or generate an Admin Panel to get your application ready in less than 2 minutes.
 
 ### Create a new page
