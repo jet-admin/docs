@@ -75,6 +75,7 @@
   * [Xano](user-guide/integrations/xano.md)
   * [Stripe](user-guide/integrations/stripe.md)
   * [Hubspot](user-guide/integrations/hubspot.md)
+  * [Salesforce](user-guide/integrations/salesforce.md)
   * [Intercom](user-guide/integrations/intercom.md)
   * [Zendesk](user-guide/integrations/zendesk.md)
   * [Slack](user-guide/integrations/slack.md)

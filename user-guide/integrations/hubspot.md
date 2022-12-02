@@ -17,6 +17,7 @@ Jet syncs the following Hubspot data:
 * Companies
 * Deals
 * Tickets
+* Engagements
 * Associations
 
 ## 1. Get Hubspot API Key
