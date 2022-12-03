@@ -21,6 +21,8 @@ Jet syncs the following Stripe data:
 * Products
 * Refunds
 
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
 ### 1. Get Your Secret API Key
 
 To get your Secret API Key you need to sign up in [Stripe](https://stripe.com/). Then you need to find your Secret API Key:
