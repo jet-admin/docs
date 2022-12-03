@@ -1,2 +1,2 @@
-# 🎥 Videos
+# 🎓 Academy
 
