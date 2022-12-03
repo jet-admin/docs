@@ -11,6 +11,15 @@ Using Hubspot you can do the following:
 * Keep your account team alerted to upcoming renewals, cancellations, and delinquencies
 * Do refund or subscription cancellation inside your app
 
+Jet syncs the following Hubspot data:
+
+* Contacts
+* Companies
+* Deals
+* Tickets
+* Engagements
+* Associations
+
 ## 1. Get Hubspot API Key
 
 First you need to sign up for [Hubspot](https://www.hubspot.com/) and create an account. Complete the account creation process to get started. Find and copy your API Key to connect Hubspot to Jet Admin.

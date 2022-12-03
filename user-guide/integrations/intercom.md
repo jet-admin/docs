@@ -10,6 +10,13 @@ Using Intercom you can do the following:
 * Share limited Intercom data with your team or external stakeholders
 * Keep your account team alerted to users that are most active, or drifting away
 
+Jet syncs the following Intercom data:
+
+* Contacts
+* Conversations
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## 1. Get Intercom Access Token
 
 Firstly, you need to sign up for [Intercom](https://www.intercom.com/) and create an account. Complete the account creation process to get started.
