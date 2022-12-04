@@ -158,6 +158,7 @@
     * [IFrame](user-guide/components/iframe.md)
   * [Field Values](user-guide/parameters/column-values.md)
   * [Filter](user-guide/design-and-structure/filter.md)
+  * [Advanced Filters](user-guide/design-and-structure/advanced-filters.md)
   * [Sort](user-guide/design-and-structure/sort.md)
   * [Group](user-guide/design-and-structure/group.md)
   * [Actions](user-guide/design-and-structure/actions.md)
