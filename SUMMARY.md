@@ -17,6 +17,7 @@
     * [Prepare & Organize Data](videos/data-editor/prepare-and-organize-data.md)
     * [Edit Data](videos/data-editor/edit-data.md)
     * [Field Types](videos/data-editor/field-types.md)
+    * [Related Data](videos/data-editor/related-data.md)
     * [Lookups & Rollups](videos/data-editor/lookups-and-rollups.md)
     * [Files & Storages](videos/data-editor/files-and-storages.md)
     * [Data Blending Intro](videos/data-editor/data-blending-intro.md)
