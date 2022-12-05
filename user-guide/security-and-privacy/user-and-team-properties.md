@@ -24,6 +24,6 @@ Now let's look at an example of hiding a component depending on User & Team Prop
 
 See here how to use this functionality in the Customer Portal to separate data for users.
 
-{% content-ref url="../../videos/customer-portal.md" %}
-[customer-portal.md](../../videos/customer-portal.md)
+{% content-ref url="../../videos/build-apps-together/customer-portal.md" %}
+[customer-portal.md](../../videos/build-apps-together/customer-portal.md)
 {% endcontent-ref %}
