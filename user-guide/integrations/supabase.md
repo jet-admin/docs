@@ -33,9 +33,9 @@ To Integrate Jet with Supabase and build your first app, follow our guide:
 
 <figure><img src="../../.gitbook/assets/supabase.jpg" alt=""><figcaption></figcaption></figure>
 
-Choose a PostgreSQL database from the list of available data sources in Jet Admin:
+Choose a **Supabase** database from the list of available data sources in Jet Admin:
 
-![](<../../.gitbook/assets/image (816).png>)
+<figure><img src="../../.gitbook/assets/123.jpg" alt=""><figcaption></figcaption></figure>
 
 The quickest way to integrate database is **Instant Connection** (**localhost** is not valid, use [**Docker**](postgresql-integration/docker-installation.md) **** or [**Python**](postgresql-integration/python-app-installation.md) **** integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
 
