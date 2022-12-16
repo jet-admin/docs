@@ -40,8 +40,9 @@
     * [Custom CRM](videos/build-apps-together/custom-crm.md)
     * [Internal Tool](videos/build-apps-together/internal-tool.md)
     * [Customer portal](videos/build-apps-together/customer-portal.md)
-  * [Built-in Approval Flow](videos/set-an-approval-workflow.md)
   * [Custom API Collection](videos/custom-api-collection.md)
+  * [Built-in Approval Flow](videos/set-an-approval-workflow.md)
+  * [Supabase CRM](videos/supabase-crm.md)
 * [🙌 Join the Community](join-the-community.md)
 * [🐞 Troubleshoot](troubleshoot.md)
 

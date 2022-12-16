@@ -16,6 +16,8 @@ Using Supabase you can do the following:
 
 To Integrate Jet with Supabase and build your first app, follow our guide:
 
+{% embed url="https://www.youtube.com/watch?v=aZ0oPbFGVBU" %}
+
 ### Step 1: Set up your Backend on Supabase <a href="#step-1-set-up-your-backend-on-supabase" id="step-1-set-up-your-backend-on-supabase"></a>
 
 * On the [Supabase dashboard](https://app.supabase.com/), click `New project` and set the name to your **Project**
