@@ -1,8 +1,6 @@
 # Table of contents
 
 * [👋 Welcome](README.md)
-* [📣 What's new](https://feedback.jetadmin.io/changelog)
-* [🔐 Data Privacy & Security](data-privacy-and-security.md)
 * [🎓 Academy](videos/README.md)
   * [Getting Started](videos/getting-started.md)
   * [Connecting Data Sources](videos/connecting-data-sources/README.md)
@@ -36,13 +34,16 @@
   * [Team & Users Permissions](videos/team-and-users-permissions.md)
   * [Automations](videos/automations.md)
   * [Environments](videos/environments.md)
+  * [Custom API Collection](videos/custom-api-collection.md)
+  * [Nested Filters](videos/nested-filters.md)
+  * [Built-in Approval Flow](videos/set-an-approval-workflow.md)
   * [Build Apps Together](videos/build-apps-together/README.md)
     * [Custom CRM](videos/build-apps-together/custom-crm.md)
     * [Internal Tool](videos/build-apps-together/internal-tool.md)
     * [Customer portal](videos/build-apps-together/customer-portal.md)
-  * [Custom API Collection](videos/custom-api-collection.md)
-  * [Built-in Approval Flow](videos/set-an-approval-workflow.md)
-  * [Supabase CRM](videos/supabase-crm.md)
+    * [Supabase CRM](videos/build-apps-together/supabase-crm.md)
+* [📣 What's new](https://feedback.jetadmin.io/changelog)
+* [🔐 Data Privacy & Security](data-privacy-and-security.md)
 * [🙌 Join the Community](join-the-community.md)
 * [🐞 Troubleshoot](troubleshoot.md)
 
