@@ -1,4 +1,8 @@
-# Firebase
+---
+description: How to business apps on top of Firebase data
+---
+
+# Firebase / Firestore
 
 In this article, we'll review the integration with Firebase, and its characteristics, and will go through the steps necessary to connect it to Jet Admin
 
