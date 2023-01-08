@@ -96,6 +96,7 @@
   * [Firebase / Firestore](user-guide/integrations/firebase-firestore/README.md)
     * [Import CSV into Firebase](user-guide/integrations/firebase-firestore/import-csv-into-firebase.md)
     * [Realtime DB](user-guide/integrations/firebase-firestore/realtime-database.md)
+    * [Visualize Subcollection](user-guide/integrations/firebase-firestore/visualize-subcollection.md)
   * [Google Sheets](user-guide/integrations/google-sheets.md)
     * [Working with Data](user-guide/integrations/google-sheets/working-with-data.md)
   * [Airtable](user-guide/integrations/airtable.md)
