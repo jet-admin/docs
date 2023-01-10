@@ -187,6 +187,7 @@
   * [Sort](user-guide/design-and-structure/sort.md)
   * [Group](user-guide/design-and-structure/group.md)
   * [Actions](user-guide/design-and-structure/actions.md)
+  * [Export](user-guide/design-and-structure/export.md)
 * [🧮 Data Editor](user-guide/data/README.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
