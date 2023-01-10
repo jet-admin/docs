@@ -17,7 +17,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}

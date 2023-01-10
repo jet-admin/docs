@@ -23,7 +23,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="_paginate" type="number" %}
@@ -111,7 +111,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="_paginate" type="number" %}
@@ -171,7 +171,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" type="string" %}
@@ -235,7 +235,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" type="string" %}
@@ -299,7 +299,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
@@ -331,7 +331,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="_paginate" type="string" %}
@@ -423,7 +423,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="_paginate" type="string" %}
@@ -487,7 +487,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" type="string" %}
@@ -555,7 +555,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" type="string" %}
@@ -623,7 +623,7 @@ Token authentication, example:
 
 
 
-`Authorization: Token f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
+`Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
