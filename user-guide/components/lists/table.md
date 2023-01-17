@@ -98,7 +98,7 @@ As an example, here's the action that fetches the status from the row in which t
 
 ![](../../../.gitbook/assets/fmcnghu.gif)
 
-When you add a Row action you often need to pass some value from the row the. For that you always have access to the context of the current row the button was clicked on. You just need to pass the desired value to the input parameter that is necessary to perform your action. The example below shows how to run a Workflow specifically for the desired row with the value from that row:&#x20;
+When you add a Row action you often need to pass some value from the row the button was clicked on. For that you always have access to the context of the current row the button was clicked on. You just need to pass the desired value to the input parameter that is necessary to perform your action. The example below shows how to run a Workflow specifically for the desired row with the value from that row:&#x20;
 
 {% embed url="https://www.loom.com/share/a6d6b075fe6f4b409914ba9f17aead41" %}
 

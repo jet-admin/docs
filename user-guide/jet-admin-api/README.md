@@ -30,7 +30,7 @@ At the moment, the API documentation is available for a **limited number of inte
 
 1. Go to **Profile** -> **API keys**
 
-****![](<../../.gitbook/assets/image (11).png>)****
+****![](<../../.gitbook/assets/image (11) (2).png>)****
 
 &#x20;
 
