@@ -37,7 +37,7 @@ Go to the API key and below the API keys
 
 Copy **UNIQUE APP NAME** and **JET BRIDGE TOKEN.**
 
-<figure><img src="../../../.gitbook/assets/api2 (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api2 (4).jpg" alt=""><figcaption></figcaption></figure>
 
 3\.  Finish your project installation by opening in your browser:\
 **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.

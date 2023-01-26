@@ -68,8 +68,16 @@ set PROJECT={{Project Name}} && set TOKEN={{Token}} && jet_bridge
 {% hint style="info" %}
 If you are using **Jet Bridge** just for HTTP requests (and not SQL) you can use **Project Token** as value for {Token}.
 
-![](<../../../.gitbook/assets/image (877).png>)
+Go to the API key and below the API keys
+
+****![](../../../.gitbook/assets/api.jpg)****
+
+Copy **UNIQUE APP NAME** and **JET BRIDGE TOKEN.**
+
+
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/api2 (4).jpg" alt=""><figcaption></figcaption></figure>
 
 This command creates a config if you run it for the first time.
 
