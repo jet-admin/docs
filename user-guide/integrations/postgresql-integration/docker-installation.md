@@ -29,9 +29,15 @@ sh <(curl -s https://app.jetadmin.io/install_jet.sh) {{Project Name}} {{Token}}
 
 {% hint style="info" %}
 If you are using **Jet Bridge** just for HTTP requests (and not SQL) you can use **Project Token** as value for {Token}.
-
-![](<../../../.gitbook/assets/image (877).png>)
 {% endhint %}
+
+Go to the API key and below the API keys
+
+****![](../../../.gitbook/assets/api.jpg)****
+
+Copy **UNIQUE APP NAME** and **JET BRIDGE TOKEN.**
+
+<figure><img src="../../../.gitbook/assets/api2 (3).jpg" alt=""><figcaption></figcaption></figure>
 
 3\.  Finish your project installation by opening in your browser:\
 **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.
