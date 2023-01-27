@@ -22,7 +22,7 @@ Jet syncs the following Hubspot data:
 
 Add Hubspot to an existing project or connect Hubspot as a resource when creating a new project.  Authorize Jet Admin to access your HubSpot account data.
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
