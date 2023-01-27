@@ -178,6 +178,8 @@
     * [Layouts](user-guide/components/layouts/README.md)
       * [Containers](user-guide/components/layouts/containers.md)
       * [Columns](user-guide/components/layouts/columns.md)
+      * [Modal](user-guide/design-and-structure/components/layouts/modal.md)
+      * [Slideout](user-guide/design-and-structure/components/layouts/slideout.md)
       * [Tabs](user-guide/components/layouts/tabs.md)
     * [Custom component](user-guide/components/custom-component.md)
     * [IFrame](user-guide/components/iframe.md)

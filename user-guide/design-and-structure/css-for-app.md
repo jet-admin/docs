@@ -18,7 +18,7 @@ Custom CSS allows you to enhance your branding and UI/visual tweaks, not complet
 
 ### Menu Style
 
-![](../../.gitbook/assets/image.png)
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Update menu background color:
 
@@ -63,7 +63,7 @@ Update menu item style:
 
 ### Table Row Style (Selected row color)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p> ()</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p> ()</p></figcaption></figure>
 
 ```css
 .table__row_selected:nth-child(2n) {background: red !important;}
