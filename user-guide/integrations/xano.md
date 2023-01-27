@@ -75,7 +75,7 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 
  
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (2).png" alt=""><figcaption></figcaption></figure>
 
  
 
