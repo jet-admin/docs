@@ -18,11 +18,18 @@ Custom CSS allows you to enhance your branding and UI/visual tweaks, not complet
 
 ### Menu Style
 
+![](../../.gitbook/assets/image.png)
+
 Update menu background color:
 
 ```css
-.admin-header {
-    background-color: yellow;
+.admin-header{
+    background-color:#C4CDFB;
+}
+
+.admin-header-link__label{
+    color:#000;
+    text-size:18px;
 }
 ```
 
@@ -56,7 +63,7 @@ Update menu item style:
 
 ### Table Row Style (Selected row color)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p> ()</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p> ()</p></figcaption></figure>
 
 ```css
 .table__row_selected:nth-child(2n) {background: red !important;}
