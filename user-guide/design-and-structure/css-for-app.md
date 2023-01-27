@@ -16,7 +16,7 @@ Custom CSS allows you to enhance your branding and UI/visual tweaks, not complet
 
 <figure><img src="../../.gitbook/assets/global23 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-#### Update Menu Style
+### Menu Style
 
 Update menu background color:
 
@@ -25,8 +25,6 @@ Update menu background color:
     background-color: yellow;
 }
 ```
-
-
 
 Update menu item style:
 
@@ -38,3 +36,20 @@ Update menu item style:
 }
 ```
 
+### Text Field Style
+
+```css
+.field__label {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #2B50ED;
+}
+
+.field__content {
+    font-size: 16px;
+    color: #2B50ED;
+}
+```
