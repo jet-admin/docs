@@ -179,4 +179,4 @@ CLIENT_SECRET
 
 When user is logged in with **SSO** it is possible to use **SSO access token** in **HTTP** queries (**Rest API** or **GraphQL**). Such requests are going through api.jetadmin.io endpoint or self-hosted **Jet Bridge** (when set up as [HTTP proxy](../../../jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md)).
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

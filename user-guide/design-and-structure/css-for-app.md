@@ -53,3 +53,28 @@ Update menu item style:
     color: #2B50ED;
 }
 ```
+
+### Table Row Style (Selected row color)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p> ()</p></figcaption></figure>
+
+```css
+.table__row_selected:nth-child(2n) {background: red !important;}
+.table__row_selected:nth-child(2n+1) {background: red !important;}
+
+.table__row_selected:nth-child(2n), .table_openable .table__row_selected:hover:nth-child(2n) {
+    background:#04CFC9 !important
+}
+
+.theme_dark .table__row_selected:nth-child(2n), .theme_dark .table_openable .table__row_selected:hover:nth-child(2n) {
+    background:#2b50ed !important
+}
+
+.table__row_selected:nth-child(2n + 1), .table_openable .table__row_selected:hover:nth-child(2n + 1) {
+    background:#04CFC9 !important
+}
+
+.theme_dark .table__row_selected:nth-child(2n + 1), .theme_dark .table_openable .table__row_selected:hover:nth-child(2n + 1) {
+    background:#2a4acf !important
+}
+```
