@@ -16,3 +16,25 @@ Custom CSS allows you to enhance your branding and UI/visual tweaks, not complet
 
 <figure><img src="../../.gitbook/assets/global23 (1).jpg" alt=""><figcaption></figcaption></figure>
 
+#### Update Menu Style
+
+Update menu background color:
+
+```css
+.admin-header {
+    background-color: yellow;
+}
+```
+
+
+
+Update menu item style:
+
+```css
+.admin-header__title {
+    font-size: 16px;
+    color: #2B50ED;
+    text-align: center;
+}
+```
+
