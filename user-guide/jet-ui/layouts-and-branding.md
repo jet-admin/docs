@@ -23,7 +23,7 @@ You'll see seven different tabs:
 * **Scripts & Styles** - add global JavaScript and CSS
 
 {% hint style="warning" %}
-Most of the settings changes take effect only in the User-mode, so to check the result, **preview or publish** your app (more on different modes [here](../preview-and-publish.md))
+Most of the settings changes take effect only in the User-mode, so to check the result, **preview or publish** your app (more on different modes [here](../preview-and-publish/))
 {% endhint %}
 
 ### **Menu**
