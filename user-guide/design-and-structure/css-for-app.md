@@ -43,7 +43,21 @@ Update menu item style:
 }
 ```
 
-### Text Field Style
+### **Detail. Text Font and Size**
+
+****![](<../../.gitbook/assets/image (1).png>)****
+
+```css
+[data-component-id="{text-component-id}"] .text-truncate{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+```
+
+****
+
+### Input Text Field Style
 
 ```css
 .field__label {

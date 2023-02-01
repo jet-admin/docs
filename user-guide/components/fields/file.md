@@ -34,7 +34,7 @@ You can also reference dynamic values using the _`f`_ formula modal or set up a 
 
 ### Multiple Files
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/multiplefiles.gif" alt=""><figcaption></figcaption></figure>
 
