@@ -71,8 +71,8 @@
   * [Conditional Visibility](getting-started/part-2-intermediate/conditional-visibility.md)
   * [Reading data from API](getting-started/part-2-intermediate/perform-api-requests.md)
   * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql.md)
-* [📃 Generate Invoice or Document](getting-started/generate-invoice-or-document/README.md)
-  * [Documint](getting-started/generate-invoice-or-document/documint.md)
+  * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
+    * [Documint](getting-started/part-2-intermediate/generate-invoice-or-document/documint.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
