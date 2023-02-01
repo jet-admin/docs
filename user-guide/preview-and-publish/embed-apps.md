@@ -15,3 +15,9 @@ Finally, go to **Share** -> **Public Share** and copy the link.
 ### Embed App using iFrame/HTML
 
 <figure><img src="../../.gitbook/assets/iframe.gif" alt=""><figcaption></figcaption></figure>
+
+
+
+Check our tutorial how to embed Jet charts to Notion:
+
+{% embed url="https://blog.jetadmin.io/how-to-create-notion-charts-for-free-without-coding-in-5-mins/" %}
