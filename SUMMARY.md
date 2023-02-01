@@ -191,6 +191,7 @@
   * [Group](user-guide/design-and-structure/group.md)
   * [Actions](user-guide/design-and-structure/actions.md)
   * [Export](user-guide/design-and-structure/export.md)
+  * [App Theming](user-guide/design-and-structure/app-theming.md)
   * [CSS for App](user-guide/design-and-structure/css-for-app.md)
 * [🧮 Data Editor](user-guide/data/README.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)

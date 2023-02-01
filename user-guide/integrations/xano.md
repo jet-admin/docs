@@ -79,7 +79,7 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 
  
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Copy authToken value to insert it in Jet Admin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>Copy authToken value to insert it in Jet Admin.</p></figcaption></figure>
 
 </div>
 
