@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # 🧞♂ Visibility rules
 
 Visibility rules for when certain pages or components should be visible to which teammates in your Jet app.
