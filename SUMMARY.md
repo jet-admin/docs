@@ -138,6 +138,7 @@
     * [If → Then → Else Column](user-guide/data/computed-columns/if-then-else-column.md)
     * [Math Column](user-guide/computed-columns/formulas/math-column.md)
   * [JavaScript Column](user-guide/computed-columns/javascript-column.md)
+  * [Calculated values in column](user-guide/computed-columns/calculated-values-in-column.md)
 * [🎨 Design & Structure](user-guide/design-and-structure/README.md)
   * [Customizing Pages](user-guide/design-and-structure/pages.md)
   * [Components](user-guide/components/README.md)
