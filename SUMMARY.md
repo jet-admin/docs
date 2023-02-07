@@ -93,6 +93,7 @@
     * [Basic Authentication](user-guide/integrations/rest-api/basic-authentication.md)
     * [Bearer Token](user-guide/integrations/rest-api/bearer-token.md)
     * [OAuth 2.0](user-guide/integrations/rest-api/oauth-2.0.md)
+    * [Jet Requests Auth](user-guide/integrations/rest-api/jet-requests-auth.md)
   * [Firebase / Firestore](user-guide/integrations/firebase-firestore/README.md)
     * [Import CSV into Firebase](user-guide/integrations/firebase-firestore/import-csv-into-firebase.md)
     * [Realtime DB](user-guide/integrations/firebase-firestore/realtime-database.md)
