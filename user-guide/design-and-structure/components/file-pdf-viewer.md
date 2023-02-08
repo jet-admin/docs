@@ -6,11 +6,11 @@ description: >-
 
 # File PDF Viewer
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 1. Drag-and-drop **File Viewer** from Component Library in Visual Builder.
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (7).png>)
 
 <figure><img src="../../../.gitbook/assets/file_viwer.gif" alt=""><figcaption></figcaption></figure>
 

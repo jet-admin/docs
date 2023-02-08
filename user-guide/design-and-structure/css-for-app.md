@@ -77,7 +77,7 @@ Update menu item style:
 
 ### Table Row Style (Selected row color)
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p> ()</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> ()</p></figcaption></figure>
 
 ```css
 .table__row_selected:nth-child(2n) {background: red !important;}

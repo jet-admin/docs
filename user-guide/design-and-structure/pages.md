@@ -67,5 +67,5 @@ Page queries allow you to do queries from your page at once, and then use query 
 
 Specify Page Query's Data on your Component using Formula
 
-![](<../../.gitbook/assets/image (2) (1) (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (2).png>)
 

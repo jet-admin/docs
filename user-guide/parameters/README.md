@@ -16,7 +16,7 @@ Jet allows you to extract and pass values in **`Visual Builder`**, **`Data`**, a
 
 * User and Team Values (Email, First and Last name, team name, token, user id)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Computed Values (Transform your values with Formula or JavaScript)
 
