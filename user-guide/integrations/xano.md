@@ -86,3 +86,11 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 ### How to build Custom CRM using Xano
 
 {% embed url="https://blog.jetadmin.io/how-to-build-business-apps-for-your-xano-back-end-without-code/" %}
+
+### Upload/Download files to Xano
+
+
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+![](<../../.gitbook/assets/image (5).png>)
