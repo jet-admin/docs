@@ -102,3 +102,11 @@ If you want to restrict access for a User or a Team to data that is relevant for
 
 You can create custom columns in a table to handle cases such as math operations on your data, parsing JSON fields, or creating conditions. Let's look at a few examples of how to use it:
 
+#### App and Environment properties
+
+Use App name and Environment name properties in your Application to filter your data.
+
+&#x20;![](../.gitbook/assets/app1.jpg)
+
+
+

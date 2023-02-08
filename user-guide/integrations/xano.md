@@ -93,4 +93,4 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (4).png>)
