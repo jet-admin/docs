@@ -184,7 +184,7 @@
       * [Slideout](user-guide/design-and-structure/components/layouts/slideout.md)
       * [Tabs](user-guide/components/layouts/tabs.md)
     * [Custom component](user-guide/components/custom-component.md)
-    * [File Viewer](user-guide/design-and-structure/components/file-viewer.md)
+    * [File PDF Viewer](user-guide/design-and-structure/components/file-pdf-viewer.md)
     * [IFrame](user-guide/components/iframe.md)
   * [Field Values](user-guide/parameters/column-values.md)
   * [Filter](user-guide/design-and-structure/filter.md)
