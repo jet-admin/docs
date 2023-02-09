@@ -10,6 +10,8 @@
 Access to **gitlab.com/jet-admin/jet-onpremise** is necessary before installing. [Contact](https://www.jetadmin.io/contact) our sales to get access to get On-premise license or start trial.
 {% endhint %}
 
+{% embed url="https://tally.so/r/mJ1NjK" %}
+
 ## Installation
 
 #### 1. Download on-premise **package**
