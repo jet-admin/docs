@@ -218,6 +218,7 @@
     * [Google SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/google-oauth-2.0.md)
     * [Google SSO SAML2](user-guide/security-and-privacy/sign-in-sign-up/google-sso-saml2.md)
     * [Custom SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/custom-sso-oauth-2.0.md)
+    * [API calls with SSO token](user-guide/security-and-privacy/sign-in-sign-up/api-calls-with-sso-token.md)
   * [Roles in Permissions](user-guide/security-and-privacy/create-and-manage-a-team.md)
   * [User-specific Permissions](user-guide/security-and-privacy/user-and-team-properties.md)
 * [▶ Preview & Publish](user-guide/preview-and-publish/README.md)

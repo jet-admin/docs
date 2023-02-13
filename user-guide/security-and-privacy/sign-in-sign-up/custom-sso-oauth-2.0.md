@@ -175,8 +175,10 @@ CLIENT_SECRET
 {% endswagger-response %}
 {% endswagger %}
 
-### Authorization of API calls to your backend with SSO token
 
-When user is logged in with **SSO** it is possible to use **SSO access token** in **HTTP** queries (**Rest API** or **GraphQL**). Such requests are going through api.jetadmin.io endpoint or self-hosted **Jet Bridge** (when set up as [HTTP proxy](../../../jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md)).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+### Authorizing API calls to your backend with SSO token
+
+{% content-ref url="api-calls-with-sso-token.md" %}
+[api-calls-with-sso-token.md](api-calls-with-sso-token.md)
+{% endcontent-ref %}
