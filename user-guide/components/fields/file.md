@@ -46,7 +46,7 @@ There are many use-cases for the File component, so here we'll review the most c
 
 To upload files to Jet Tables (or any other storage), we'll need **a button** to execute the action. In addition, we might need a table to select the record the we'll upload the file onto. This table must have a column with the `File` field type
 
-<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Next, we need to tell the button where the file value will come from. For this, we'll reference the "value" attribute from the `File` filed we dropped on the canvas
 
