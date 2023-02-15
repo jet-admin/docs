@@ -201,7 +201,7 @@
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [Storages](user-guide/data/cloud-storage.md)
-  * [Jet Storage](user-guide/data/jet-storage.md)
+  * [File Storage](user-guide/data/file-storage.md)
   * [Making API requests](user-guide/data/make-an-http-request.md)
   * [Making SQL queries](user-guide/data/make-a-sql-query.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
