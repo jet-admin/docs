@@ -8,7 +8,7 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=UfN2JYWSrD0&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=21&ab_channel=JetAdmin" %}
 
-<figure><img src="../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 `Data` helps you to connect, manage, and blend data from different [Data Sources](../integrations/). You can do different operations with your `Data`:
 
