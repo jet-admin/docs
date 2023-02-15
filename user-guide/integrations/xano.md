@@ -43,6 +43,47 @@ where **TABLE** is your Xano table name.
 Only endpoints with the specified **Descriptions will be imported** to Jet Admin. For example, if API endpoint – Get record list of Deals, in the Description field: **Query all deals records**.
 {% endhint %}
 
+### **Step 3: Files upload (Optional)**
+
+{% hint style="warning" %}
+**Xano Files** attachments are only available in paid **Xano** plans
+{% endhint %}
+
+It's only possible to upload files to **Xano** file fields using **Xano Files** storage. If you have file fields in your **Xano** database then you need to connect **Xano Files** storage to **Jet Admin**. All **Xano** file fields will use **Xano Files** storage by default.
+
+Jet Admin will automatically integrate with **Xano Files** storage if you will have **Xano** upload attachment endpoint during connection to **Jet Admin.**&#x20;
+
+{% hint style="info" %}
+**Jet Admin** will look for **/upload/attachment** endpoint to integrate. \
+If you already have it you can skip the following part.
+{% endhint %}
+
+If you don't have **/upload/attachment** endpoint then follow these steps:&#x20;
+
+* Go to your **API Group**
+* Click **Add API endpoint**
+* Create an endpoint by clicking **Upload Content** -> **Upload an attachment** -> **Save**
+
+<div>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="success" %}
+Once you finish the steps you will have the following **/upload/attachment** which will automatically integrate during connection to **Jet Admin**
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ### **Step 2: Connect Xano to Jet Admin**
 
 [Create a new Project in Jet Admin](https://app.jetadmin.io/) if you don't have one. Choose Xano as a Data Source that you would like to connect.

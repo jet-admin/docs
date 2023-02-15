@@ -6,7 +6,7 @@ description: >-
 
 # File PDF Viewer
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 1. Drag-and-drop **File Viewer** from Component Library in Visual Builder.
 
