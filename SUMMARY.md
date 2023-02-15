@@ -243,7 +243,7 @@
   * [Manage your subscription](user-guide/project-settings/manage-your-subscription.md)
   * [Custom domain](user-guide/project-settings/configuring-a-custom-domain.md)
   * [Update to a new version](user-guide/project-settings/version-migration.md)
-* [🛫 Jet Admin API](user-guide/jet-admin-api/README.md)
+* [🛫 Jet Tables API](user-guide/jet-admin-api/README.md)
   * [Users API](user-guide/jet-admin-api/project-users.md)
   * [Teams API](user-guide/jet-admin-api/project-teams.md)
   * [Projects API](user-guide/jet-admin-api/projects-api.md)
