@@ -4,7 +4,7 @@ description: Easily access, add to and modify data stored in Jet Admin from outs
 
 # 🛫 Jet Tables API
 
-Jet Tables API makes extending your apps and accessing Jet Admin outside of the app easy. In just a few clicks, you can get access to lists of records, and individual records, create new rows, or update/delete existing ones. Make working with data more efficient in no time!
+Jet Tables API makes extending your apps and accessing Jet Admin outside of the app easy. In just a few clicks, you can get access to lists of records, and individual records, create new rows, or update/delete existing ones through a RESTful interface. Make working with data more efficient in no time!
 
 <figure><img src="../../.gitbook/assets/api1.jpg" alt=""><figcaption></figcaption></figure>
 
