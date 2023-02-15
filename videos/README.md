@@ -1,8 +1,8 @@
 # 🎓 Academy
 
-In this Academy, you'll be able to learn both the fundamentals of Jet Admin as well as the advanced stuff through **short videos**.
+In Jet Academy, you'll be able to learn both the fundamentals of Jet Admin as well as more advanced topics through a series of **short tutorial videos**.
 
-To navigate the Academy, click on the topic on the left menu to open up the contents or get started with the most basic functions:
+To navigate Academy, click on the topic in the menu on the left to open its contents, or get started with the most basic functions:
 
 {% content-ref url="connecting-data-sources/" %}
 [connecting-data-sources](connecting-data-sources/)
