@@ -207,6 +207,7 @@
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [Making API requests](user-guide/data/make-an-http-request.md)
   * [Making SQL queries](user-guide/data/make-a-sql-query.md)
+  * [Text to SQL](user-guide/data/text-to-sql.md)
   * [Storages](user-guide/data/cloud-storage.md)
   * [File Storage](user-guide/data/file-storage.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
