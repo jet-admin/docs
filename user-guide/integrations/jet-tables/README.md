@@ -4,7 +4,15 @@ description: Jet Tables is a built-in sheets-like (SQL) database
 
 # Jet Tables
 
-Jet Tables allows you to **get started** with your app really **quickly**. It especially comes in handy when you haven't committed to any particular database yet and want to have all the infrastructure in one place.
+With **Jet Tables**, you can build apps more efficiently using a PostgreSQL database hosted by Jet, which doesn't require any setup time.
+
+Using Jet Database, you can:
+
+* Interact with the data through a spreadsheet-style interface to easily edit, search, filter, and sort records
+* Utilize a PostgreSQL database that is securely hosted
+* Import or Export data in the different formats: CSV, XLS, XLSX, JSON
+* Making SQL queries
+* Multiple environments, including staging and production, can be used to manage the database
 
 {% hint style="info" %}
 You can also use data from Jet Tables to [merge it](../../data-blending.md) with data from other data sources, write custom SQL on top of it and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
