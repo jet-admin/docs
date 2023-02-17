@@ -9,7 +9,7 @@ There are two types of user tokens:
 * **token** - generated per User, contains user ID in payload
 * **project token** - generated per App (and environment), contains user ID, project ID, environment ID, permissions, user properties, team properties
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Use "token" or "project token" for HTTP requests</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>Use "token" or "project token" for HTTP requests</p></figcaption></figure>
 
 ### Validate JWT token
 

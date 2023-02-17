@@ -19,4 +19,4 @@ There are two Viewer types:&#x20;
 * Browser built-in. Faster, works with non-public URLs
 * Google File Viewer. More supported formats
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
