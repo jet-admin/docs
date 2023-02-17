@@ -13,13 +13,13 @@ description: >-
 `Data` helps you to connect, manage, and blend data from different [Data Sources](../integrations/). You can do different operations with your `Data`:
 
 * Sync your data from different [Data Sources](../integrations/) (Database, Stripe, Zendesk, etc.)
+* Adding [Computed Columns](computed-columns/): [Formula](../formulas.md), [Roll up](computed-columns/rollup-column.md), [Lookup](computed-columns/lookup-column.md)
 * Import, Export your Data to the Collection
 * Update Field Type
 * Hide or Reorder Columns
 * Manage your Collection by Adding/Editing rows
 * Search, Filter, and Sorting your Collection Data
 * Define [Relations](../computed-columns/relations.md) between Collections
-* Adding [Computed Columns](computed-columns/): [Formula](../formulas.md), [Roll up](computed-columns/rollup-column.md), [Lookup](computed-columns/lookup-column.md)
 * Making [API requests](make-an-http-request.md) and [SQL queries](make-a-sql-query.md)
 
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
