@@ -1,10 +1,8 @@
 ---
-description: >-
-  The Data Editor is where you manage your app's data. You can edit in the Data
-  Editor or wherever the data is stored. Everything stays in sync.
+description: Sync allows you to push all of your data to Jet Tables
 ---
 
-# 🧮 Data Editor
+# 🧮 Data Syncs
 
 {% embed url="https://www.youtube.com/watch?v=UfN2JYWSrD0&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=21&ab_channel=JetAdmin" %}
 

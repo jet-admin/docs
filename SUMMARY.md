@@ -202,7 +202,7 @@
   * [App Theming](user-guide/design-and-structure/app-theming.md)
   * [CSS for App](user-guide/design-and-structure/css-for-app.md)
   * [Analytics or Live chats](user-guide/design-and-structure/analytics-or-live-chats.md)
-* [🧮 Data Editor](user-guide/data/README.md)
+* [🧮 Data Syncs](user-guide/data/README.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [Making API requests](user-guide/data/make-an-http-request.md)
