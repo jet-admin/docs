@@ -1,8 +1,10 @@
 ---
-description: Sync allows you to push all of your data to Jet Tables
+description: >-
+  The Data Editor is where you manage your app's data. You can edit in the Data
+  Editor or wherever the data is stored. Everything stays in sync.
 ---
 
-# 🧮 Data Syncs
+# 🧮 Data Editor
 
 {% embed url="https://www.youtube.com/watch?v=UfN2JYWSrD0&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=21&ab_channel=JetAdmin" %}
 
@@ -34,6 +36,6 @@ You handle the Data when you add a resource to your component. Collections are v
 
 {% embed url="https://www.youtube.com/watch?v=nKwapk29m-A&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=27&ab_channel=JetAdmin" %}
 
-## Data Source Configuration
+## Data Syncs
 
 {% embed url="https://www.youtube.com/watch?v=RqtphcWBDnk&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=28&ab_channel=JetAdmin" %}

@@ -1,4 +1,6 @@
-# ⚙️ Automations
+# ⚙️    Automations & Workflow
+
+{% embed url="https://www.youtube.com/watch?v=_mbNeLJDqpU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj" %}
 
 {% hint style="info" %}
 The **Automations** and the **Workflows** in their essence are the same product with the biggest difference  being the types of triggers (`Schedules, data chance, etc` vs a `button click`) and the place from which they're being set up
