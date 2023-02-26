@@ -20,7 +20,7 @@ We provide native integration with the following cloud storage solutions:
 [google-cloud-storage.md](../integrations/google-cloud-storage.md)
 {% endcontent-ref %}
 
-{% content-ref url="../integrations/firebase-cloud-storage.md" %}
-[firebase-cloud-storage.md](../integrations/firebase-cloud-storage.md)
+{% content-ref url="../integrations/firebase-firestore/firebase-cloud-storage.md" %}
+[firebase-cloud-storage.md](../integrations/firebase-firestore/firebase-cloud-storage.md)
 {% endcontent-ref %}
 
