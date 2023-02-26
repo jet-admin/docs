@@ -2,7 +2,7 @@
 description: Send emails from a Jet app
 ---
 
-# Jet Emails
+# 📧 Send Emails
 
 Jet Email allows you to send emails via Action or Workflow/Automations. All emails will be sent through **no-reply@jetadmin.app**
 
@@ -11,7 +11,7 @@ Use the following guide to set up emails, and specify the next operation:
 1. Choose operation -> App built-ins
 2. Action -> Send email
 
-****![](<../../.gitbook/assets/image (1) (2) (2).png>)****
+****![](<../.gitbook/assets/image (1) (2) (2).png>)****
 
 3\. Specify inputs:
 
@@ -20,4 +20,4 @@ Use the following guide to set up emails, and specify the next operation:
 * text – text field without markups
 * text (HTML) – text field with markups
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (9) (1).png>)

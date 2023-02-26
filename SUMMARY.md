@@ -73,6 +73,7 @@
   * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql.md)
   * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
     * [Documint](getting-started/part-2-intermediate/generate-invoice-or-document/documint.md)
+* [📧 Send Emails](getting-started/send-emails.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
@@ -103,7 +104,7 @@
     * [Working with Data](user-guide/integrations/google-sheets/working-with-data.md)
   * [Airtable](user-guide/integrations/airtable.md)
   * [GraphQL](user-guide/integrations/graphql.md)
-  * [Jet Emails](user-guide/integrations/jet-emails.md)
+  * [Supabase](user-guide/integrations/supabase.md)
   * [Django](user-guide/integrations/django-framework-package.md)
   * [Xano](user-guide/integrations/xano/README.md)
     * [Create APIs on top of your Xano database](user-guide/integrations/xano/create-apis-on-top-of-your-xano-database.md)
@@ -124,7 +125,6 @@
   * [Mixpanel](user-guide/integrations/mixpanel.md)
   * [Snowflake](user-guide/integrations/snowflake.md)
   * [MariaDB](user-guide/integrations/mariadb.md)
-  * [Supabase](user-guide/integrations/supabase.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
   * [Extract & Pass Values](user-guide/parameters/README.md)
