@@ -12,7 +12,7 @@ They hold only one value as opposed to user-specific columns that contain differ
 
 ### Available column types <a href="#available-column-types" id="available-column-types"></a>
 
-The types of basic columns in Glide include:
+The types of basic columns in Jet Admin include:
 
 * **Text**
 * **Rich Text**
