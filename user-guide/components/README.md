@@ -82,8 +82,8 @@ Forms are the UI elements that are used to receive or display single values. The
 
 ![](../../.gitbook/assets/Components4.gif)
 
-{% content-ref url="form.md" %}
-[form.md](form.md)
+{% content-ref url="../design-and-structure/components/form/" %}
+[form](../design-and-structure/components/form/)
 {% endcontent-ref %}
 
 ### Custom component
