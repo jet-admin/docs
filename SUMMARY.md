@@ -241,6 +241,7 @@
   * [Approval Workflow](user-guide/workflow/task-approval.md)
   * [Success/Error Actions](user-guide/workflow/actions-workflow.md)
   * [Zapier Workflows](user-guide/workflow/action-sequences.md)
+  * [Iterators](user-guide/workflow/iterators.md)
 * [👨💻 Javascript](user-guide/javascript.md)
 * [💠 360 Data/Data Blending](user-guide/data-blending.md)
 * [🔤 Localization](user-guide/localization/README.md)
