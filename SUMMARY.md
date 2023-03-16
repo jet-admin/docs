@@ -193,7 +193,7 @@
     * [File PDF Viewer](user-guide/design-and-structure/components/file-pdf-viewer.md)
     * [IFrame](user-guide/components/iframe.md)
   * [Field Values](user-guide/parameters/column-values.md)
-  * [Filter](user-guide/design-and-structure/filter.md)
+  * [Filtering](user-guide/design-and-structure/filter.md)
   * [Nested Filters](user-guide/design-and-structure/nested-filters.md)
   * [Advanced Filters](user-guide/design-and-structure/advanced-filters.md)
   * [Sort](user-guide/design-and-structure/sort.md)
