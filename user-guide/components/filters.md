@@ -3,7 +3,7 @@
 This UI component allows you to add a filter as a standalone building block and use it anywhere on a page. There is a [separate filter built-in](https://docs.jetadmin.io/user-guide/design-and-structure/filter) that is included on all tables.
 
 {% hint style="warning" %}
-The filter component is for tables and doesn't work with charts or for multiple UI components at once.
+The filter component is for single tables and is not for charts or for use with multiple UI components at once.
 {% endhint %}
 
 You can find filters in the UI building block library inside of the Builder.
