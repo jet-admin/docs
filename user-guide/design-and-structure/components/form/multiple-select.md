@@ -15,11 +15,7 @@ Once you've dragged and dropped the Multiple Select component into your app, cli
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2023-03-10 в 07.31.32.png" alt=""><figcaption><p>Multiple Select menu</p></figcaption></figure>
 
-Next, bind Multiple Select to the table that you want to filter. You can do this by clicking on the plug icon next to the _Value_ field, choosing the table that you want to filter, and then choosing the field that you want to filter by.
-
-<figure><img src="../../../../.gitbook/assets/Frame 439.png" alt=""><figcaption><p>Bind Multiple Select to a table and field</p></figcaption></figure>
-
-After you've bound Multiple Select to a table, you need to set up the options that your user will be able to choose from. You can do this by specifying the options manually or by loading the options.
+Now, you need to set up the options that your user will be able to choose from. You can do this by specifying the options manually or by loading the options.
 
 <figure><img src="../../../../.gitbook/assets/image 360.png" alt=""><figcaption><p>Specify options manually</p></figcaption></figure>
 
