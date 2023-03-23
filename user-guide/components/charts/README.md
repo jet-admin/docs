@@ -8,7 +8,7 @@ Charts let you display and track global KPIs on the dashboard as well as provide
 
 ![](<../../../.gitbook/assets/image (670).png>)
 
-In Jet Admin, you can visualize your data as any of the following chart widgets: **line**, **bar**, **pie** and **doughnut charts**, **singe value**.
+In Jet Admin, you can visualize your data as any of the following chart widgets: **line**, **bar**, **pie** and **doughnut charts**, **single value**.
 
 ![](<../../../.gitbook/assets/image (686).png>)
 
@@ -39,3 +39,12 @@ You can format the display of your Y-axis data. For example, the numbers of your
 Here we set the minimum and maximum values to change the chart display area.
 
 ![](<../../../.gitbook/assets/GIF (233).gif>)
+
+Another common use case for data formatting is displaying data in a currency when you hover over a chart. To change the way data is displayed in a chart, click on the chosen resource in the chart menu to access data display options.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Then, click on the Display button in the resource's menu. Finally, in the Tooltip Format field, enter the format that you want the information to be displayed in (for example, $0.00).
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
