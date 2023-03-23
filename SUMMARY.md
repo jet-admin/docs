@@ -177,7 +177,7 @@
       * [Bar](user-guide/components/charts/bar.md)
       * [Pie](user-guide/components/charts/pie.md)
       * [Doughnut](user-guide/components/charts/doughnut.md)
-      * [Singe value](user-guide/components/charts/counter.md)
+      * [Single value](user-guide/components/charts/counter.md)
     * [Text](user-guide/components/text.md)
     * [Buttons](user-guide/components/buttons.md)
     * [Custom Notifications](user-guide/components/custom-notifications.md)

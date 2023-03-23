@@ -27,8 +27,6 @@ Add an iterator and the steps that you want to iterate over to your automation. 
 
 <figure><img src="../../.gitbook/assets/automation example.png" alt=""><figcaption></figcaption></figure>
 
-### Ad
-
 _For this specific example, it is necessary to create empty tables (with the fields that you want) in Jet Tables that records can then be added to._
 
 #### Steps:
@@ -56,5 +54,3 @@ _For this specific example, it is necessary to create empty tables (with the fie
 6. Iterator moves on to next record.
 
 **Once you've completed your automation, be sure to click save it!**
-
-### Ad
