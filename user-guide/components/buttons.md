@@ -14,7 +14,7 @@ To add a button, you need to go to Visual Builder and simply drag and drop the A
 
 ### Send an email button
 
-For example, you want to add a button that will send emails. To do this, select the type of action - **Run Query**.
+For example, you want to add a button that will send emails. To do this, select the type of Action - **Run Operation**, and then configure the action to send an email (example below: using Sendgrid to do this). For more details about how to set up Actions, see [here.](https://docs.jetadmin.io/user-guide/design-and-structure/actions)
 
 ![](<../../.gitbook/assets/GIF (236).gif>)
 
