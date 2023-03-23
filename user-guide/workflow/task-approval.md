@@ -6,7 +6,7 @@ description: Creating and managing task workflows within Jet Admin
 
 As the company is growing and the roles are diversifying, the need for some sort of a task management system for your internally-facing applications is increasing. So we came up with the "Task Queue" feature.
 
-{% embed url="https://www.youtube.com/watch?v=-DMkubFxhDs&ab_channel=JetAdmin" %}
+{% embed url="https://youtu.be/BjmAml_w0Fs" %}
 
 ### How it works
 

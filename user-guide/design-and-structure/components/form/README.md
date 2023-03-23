@@ -2,6 +2,8 @@
 
 Submit a **Form** to perform actions with input data. The Form component provides a way for users to view and manipulate multiple data fields with their inputs. Upon submission, forms perform functions like creating (inserting) a new data record, updating an existing record, or [calling APIs](../../../data/make-an-http-request.md).
 
+{% embed url="https://youtu.be/vQGsgcbcU80" %}
+
 Use a form if you expect the user to interact with multiple data fields for the form's function. If you need a user to enter in an email and customer name, select an item from a dropdown, and then write a paragraph of text, forms are your best option. This is usually the best component when your function is to create entirely new data records.
 
 ![](<../../../../.gitbook/assets/image (876).png>)

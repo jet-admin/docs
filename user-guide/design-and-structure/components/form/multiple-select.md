@@ -2,6 +2,8 @@
 
 One common type of form is Multiple Select. Multiple Select is useful for when you want auser to be able to select multiple values. This has many applications for an app, but one common use case is using Multiple Select to filter records in a table.
 
+{% embed url="https://youtu.be/XBEyfQF_odY" %}
+
 ## Filtering tables with Multiple Select
 
 To use a Multiple Select component as a filter, you need to do two things:
