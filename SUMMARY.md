@@ -79,7 +79,11 @@
 
 * [🦄 Core concept](user-guide/core-concept/README.md)
   * [Jet UI](user-guide/jet-ui/README.md)
-    * [App settings](user-guide/jet-ui/layouts-and-branding.md)
+    * [App settings](user-guide/core-concept/jet-ui/layouts-and-branding/README.md)
+      * [Menu](user-guide/core-concept/jet-ui/layouts-and-branding/menu.md)
+      * [Sign Up](user-guide/core-concept/jet-ui/layouts-and-branding/sign-up.md)
+      * [Appearance Settings](user-guide/core-concept/jet-ui/layouts-and-branding/appearance-settings.md)
+      * [Custom Scripts & Styles](user-guide/core-concept/jet-ui/layouts-and-branding/custom-scripts-and-styles.md)
   * [Intro to Data](user-guide/core-concept/intro-to-data.md)
   * [Sharing your app](user-guide/security-and-privacy/sharing-your-app.md)
   * [Security](user-guide/core-concept/security.md)

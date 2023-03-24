@@ -6,11 +6,11 @@ description: Set up custom branding and configure the menu
 
 **App settings** allow you to change the look-and-feel of the app and configure your app's parameters. You can find it in the left black bar in the builder mode.
 
-![](../../.gitbook/assets/dhtrcfy.png)
+![](../../../../.gitbook/assets/dhtrcfy.png)
 
 **Hover your mouse** over the menu to open it up:
 
-![](../../.gitbook/assets/xtfmcngy.png)
+![](../../../../.gitbook/assets/xtfmcngy.png)
 
 You'll see seven different tabs:
 
@@ -23,14 +23,14 @@ You'll see seven different tabs:
 * **Scripts & Styles** - add global JavaScript and CSS
 
 {% hint style="warning" %}
-Most of the settings changes take effect only in the User-mode, so to check the result, **preview or publish** your app (more on different modes [here](../preview-and-publish/))
+Most of the settings changes take effect only in the User-mode, so to check the result, **preview or publish** your app (more on different modes [here](../../../preview-and-publish/))
 {% endhint %}
 
 ### **Menu**
 
 While in the builder mode you have access to all the pages, the pages (and links) visible in the user-mode are configured in this tab. You can add a new menu item **(1)**, regroup pages by dragging and dropping them **(2),** and change the item's icon **(3)**.&#x20;
 
-![](../../.gitbook/assets/cygvu.png)
+![](../../../../.gitbook/assets/cygvu.png)
 
 ### Sign Up
 
@@ -53,7 +53,7 @@ Google SAML SSO is already set and available in all plans
 * **(2)** If white-label is not enough, you can completely set up a fully **custom sign-up page**, using your own styles and colors.
 * **(3)** If you're building a customer portal, you might want to set up the **invitation process** through a public link. New customers will sign-up through an auto-generated URL and automatically assigned a selected team.
 
-![](../../.gitbook/assets/cfkmvyj.png)
+![](../../../../.gitbook/assets/cfkmvyj.png)
 
 ### Scripts & Styles
 

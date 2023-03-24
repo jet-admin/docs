@@ -163,7 +163,7 @@ You can always look through the **documentation** and **video tutorials**, or ge
 
 ![](https://lh3.googleusercontent.com/jUuyIwJHJfG9eumeQAGZgEy3gAbIUEwy81Bd2onm\_dNUIifR-\_j3Cw\_iV-dHeHNdtCyX46UQK8xEdezhipl9p0RoclAL8J2ao8pqA2nLY6sF3pD0ArOiQ90O\_ywmCiz-2DWomQZtV8iMI4gb99\_uxb3SQC4jCSSr274O8QqE2Mayoz9NXcnZu0X-nA)
 
-{% content-ref url="layouts-and-branding.md" %}
-[layouts-and-branding.md](layouts-and-branding.md)
+{% content-ref url="../core-concept/jet-ui/layouts-and-branding/" %}
+[layouts-and-branding](../core-concept/jet-ui/layouts-and-branding/)
 {% endcontent-ref %}
 
