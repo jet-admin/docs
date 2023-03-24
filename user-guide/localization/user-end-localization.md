@@ -40,7 +40,7 @@ In the menu on the right, in the **Appearance** section (the first one, which op
 
 <figure><img src="../../.gitbook/assets/appearance menu.png" alt=""><figcaption></figcaption></figure>
 
-<img src="../../.gitbook/assets/image (1) (5).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">
 
 #### Step 2: Pick the timezone of your choice
 
