@@ -67,7 +67,7 @@ Let's build Custom CRM using Jet Admin that allows everyone to **track** Opportu
 
 Go to your Data (in the data section) that was successfully imported from Supabase in previous steps and update **Field Types** to make your app look nice and polished.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3.2 Build App's UI
 

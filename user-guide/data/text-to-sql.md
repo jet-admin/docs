@@ -4,7 +4,7 @@
 
 You can access SQL queries and the Text-to-SQL function in the Data Editor in the left hand menu or when choosing a resource for a component.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Then click on the Translate Text to SQL button, and describe the query that you want in the text box and click To SQL. After that, click on the Send Request button to see a preview of your query.
 
