@@ -4,7 +4,7 @@ description: Send emails from a Jet app
 
 # 📧 Send Emails
 
-Jet Email allows you to send emails via Action or Workflow/Automations. All emails will be sent through **no-reply@jetadmin.app**
+Jet Email allows you to send emails via Action or Workflow/Automations. All emails will be sent through **no-reply@jetadmin.app** (unless you have set up a custom _From_ email address in App Settings).
 
 Use the following guide to set up emails, and specify the next operation:
 
