@@ -45,9 +45,29 @@ Here we'll show how to simply create a related Company field for each Customer. 
 Related field and Display field are set automatically under the context but you can change these values.
 {% endhint %}
 
-### Build multiple relations <a href="#build-multiple-relations" id="build-multiple-relations"></a>
+### Multiple relations <a href="#build-multiple-relations" id="build-multiple-relations"></a>
+
+One record in a table might be connected to many records in another table. For example, I might have a table with my customers and another table with my sales data, and each customer might have multiple orders.
+
+With Jet Admin, you can use this kind of connection to display or work with the connected records that you want.
+
+Example: Create a table that will show all the orders from the customer selected in the customers table.
+
+1. Add a new table and select the resource with the records you want to display. In this case, the table will be with the sales records.
+2.  Add a filter to the table. You can do this when adding the table, or afterward in the table menu.
+
+    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.21.55.png" alt=""><figcaption></figcaption></figure>
+3.  Choose the related fields and the method of filtering. In this case, the field will be _Customer ID_ and the method, in this case _Customer ID equals_. \
 
 
+    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.28.27.png" alt=""><figcaption></figcaption></figure>
+4.  Next, select the component and field that you want to use to filter. In this example, that will be the _ID_ field from the _Customers_ table.\
+
+
+    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.30.52.png" alt=""><figcaption></figcaption></figure>
+5. Lastly, customize the table to suit your needs. In this case, I'll customize the fields and also change the name of the table to show the customer name (which can be done by using the concatenate function in the display field – "CONCAT("Purchases by", \[select Name using the formula menu])
+
+<figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.51.30.png" alt=""><figcaption></figcaption></figure>
 
 
 
