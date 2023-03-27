@@ -87,7 +87,6 @@
       * [Custom Domain and Transactional Emails](user-guide/core-concept/jet-ui/layouts-and-branding/custom-domain-and-transactional-emails.md)
   * [Intro to Data](user-guide/core-concept/intro-to-data.md)
   * [Sharing your app](user-guide/security-and-privacy/sharing-your-app.md)
-  * [Security](user-guide/core-concept/security.md)
 * [🧰 Data Sources](user-guide/integrations/README.md)
   * [Database Integrations](user-guide/integrations/postgresql-integration/README.md)
     * [Instant Installation](user-guide/integrations/postgresql-integration/instant-cloud.md)

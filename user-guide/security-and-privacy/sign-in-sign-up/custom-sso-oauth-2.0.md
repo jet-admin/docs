@@ -5,7 +5,7 @@ Apart from a number of pre-built SSO providers we support integrating with fully
 The process is not automatic:&#x20;
 
 * First you need to implement OAuth2 flow on your side and make sure it works. You should implement three types of requests for it listed below.&#x20;
-* Any SSO integrations require you to [connect your custom domai](../../project-settings/configuring-a-custom-domain.md)n.
+* Any SSO integrations require you to [connect your custom domain](../../project-settings/configuring-a-custom-domain.md).
 * Contact our tech engineers to test and finish integration on our side. OAuth implementation can vary from provider to provider so we implemented ability to customize OAuth requests used in integration (HTTP method, JSON/Form data, Scope separator, etc.). Our engineers will adapt to your implementation during integration process, but we recommend to stick to the most popular industry implementations (preferable to use open source implementations for your tech stack).
 
 These are global parameters generated on your side
