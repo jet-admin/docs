@@ -10,4 +10,8 @@ The font can be changed in the Appearance settings as well. To change it, scroll
 
 <figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh4.googleusercontent.com/QECnpqSiCVSbDnKg0Teo8PuNqOpwiciHw9l8wljUO5e5q3EwP4WVHkX6yChAE0GKf1rU_fuREJfWjUD1qpS5mYYJ_sijqZgJLvSE0CwkNQMcugdVAJG-H5lqrDjkD3Xpdwh5Y7q-NG_n5h8=s2048" alt=""><figcaption></figcaption></figure>
+## Font for Sign In/Sign Up page
+
+To change your font settings for the Sign In/Sign Up page, you need to have [a custom domain set up](https://docs.jetadmin.io/user-guide/core-concept/jet-ui/layouts-and-branding/custom-domain-and-transactional-emails). If you do, you can simply go to the Sign Up page menu by clicking on the icon in the left hand menu, then changing the font in the menu on the right side of the page. Here you can also make other changes to appearance like customizing the background, adding a logo, or adding a custom welcome message.
+
+<figure><img src="../../../../.gitbook/assets/Снимок экрана 2023-03-27 в 21.05.10.png" alt=""><figcaption></figcaption></figure>
