@@ -2,7 +2,7 @@
 
 In the Appearance section, you can customize the way that your app looks. This includes things like layout, colors, icons, themes, and font.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Font
 
