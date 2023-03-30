@@ -39,6 +39,6 @@ Here's an example of a JSON Service Key obtained from Firebase:
 }
 ```
 
-Once you have integrated Firebase Storage with Jet you will see a **Storage File Viewer** that'll allow you to access your data.
+Once you have integrated Firebase Storage with Jet you will see a **Storage File Viewer** that'll allow you to access your data. For more information about using storages and uploading files, [see the File Storage and Uploading section.](https://docs.jetadmin.io/user-guide/data/file-storage-and-uploading)
 
 ![](../../../.gitbook/assets/GIF213.gif)

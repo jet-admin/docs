@@ -215,7 +215,7 @@
   * [Making SQL queries](user-guide/data/make-a-sql-query.md)
   * [Text to SQL](user-guide/data/text-to-sql.md)
   * [Storages](user-guide/data/cloud-storage.md)
-  * [File Storage and Uploading](user-guide/data/file-storage-and-uploading/README.md)
+  * [File Storage and Uploading](user-guide/data/file-storage.md)
     * [Jet Admin Storage](user-guide/data/file-storage-and-uploading/jet-admin-storage.md)
     * [Data Source Storage](user-guide/data/file-storage-and-uploading/data-source-storage.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
