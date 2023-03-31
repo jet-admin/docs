@@ -24,8 +24,8 @@ Conditional visibility **can be accessed** within any UI component by proceeding
 
 Dive deeper into conditional visibility **setup** and **use-cases** here:
 
-{% content-ref url="conditional-visibility/" %}
-[conditional-visibility](conditional-visibility/)
+{% content-ref url="conditional-visibility.md" %}
+[conditional-visibility.md](conditional-visibility.md)
 {% endcontent-ref %}
 
 ### Conditional disable

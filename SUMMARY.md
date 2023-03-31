@@ -222,7 +222,7 @@
   * [Many-to-many relationship](user-guide/data/many-to-many-relationship.md)
 * [🧞♂ Visibility rules](user-guide/visibility-rules.md)
 * [ℹ Conditionals](user-guide/components-visibility/README.md)
-  * [Conditional Visibility](user-guide/components-visibility/conditional-visibility/README.md)
+  * [Conditional Visibility](user-guide/components-visibility/conditional-visibility.md)
     * [Examples](user-guide/components-visibility/conditional-visibility/examples/README.md)
       * [Hiding a component until a row is selected](user-guide/components-visibility/conditional-visibility/examples/hiding-a-component-until-a-row-is-selected.md)
       * [Hiding a component until a row with a certain value is selected](user-guide/components-visibility/conditional-visibility/examples/hiding-a-component-until-a-row-with-a-certain-value-is-selected.md)

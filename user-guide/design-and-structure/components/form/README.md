@@ -70,8 +70,8 @@ Now, unless the Customer name field is filled in, the user will not be able to f
 
 See here for more details on Conditional Visibility:
 
-{% content-ref url="../../../components-visibility/conditional-visibility/" %}
-[conditional-visibility](../../../components-visibility/conditional-visibility/)
+{% content-ref url="../../../components-visibility/conditional-visibility.md" %}
+[conditional-visibility.md](../../../components-visibility/conditional-visibility.md)
 {% endcontent-ref %}
 
 ### Example 5: Update the data of the selected row
