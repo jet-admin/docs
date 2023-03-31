@@ -16,8 +16,8 @@ Note that it is important to create User & Team Properties with the same key val
 
 Now let's look at an example of hiding a component depending on User & Team Properties and implement the condition of hiding a component if User Property has a readonly value.
 
-{% content-ref url="../components-visibility/conditional-visibility.md" %}
-[conditional-visibility.md](../components-visibility/conditional-visibility.md)
+{% content-ref url="../components-visibility/conditional-visibility/" %}
+[conditional-visibility](../components-visibility/conditional-visibility/)
 {% endcontent-ref %}
 
 ### Separating data for users
