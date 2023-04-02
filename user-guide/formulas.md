@@ -10,17 +10,41 @@ A formula is a method to access every piece of data and build up to as complicat
 
 ![](../.gitbook/assets/testgif46.gif)
 
-In a formula, you can reference columns by name. For example, if you wanted a formula that calculated the total based on the price and quantity, the formula would look like:
+### Basic Math Operations
+
+In a formula, you can reference columns by name and use these to do mathematical calculations. For example, if you wanted a formula that calculated the total based on the price and quantity, the formula would look like:
 
 ```
 = Price * Quantity
 ```
 
-or you would like to concatenate first name and last name fields from your Table, it looks like:
+### Functions in Formulas
+
+Jet Admin also has a number of useful functions that you can use in your formulas.
+
+**A key thing to remember when using functions is that **_**a message will appear that shows you exactly how to use each function when you click on it.** _ This way, you never have to remember or think about how to use a given formula, you can simply read how to use it and enter or choose the values you need from the menu. \
+
+
+There are four different groups of built-in functions:
+
+* General Functions – e.g. CONCAT(), IS\_NULL(), LOWER()
+* Logical Functions – e.g. IF(), EQ(), AND()
+* Mathematical Functions – e.g. ROUND(), ABS(), SUM()
+* Date & Time Functions – e.g. NOW(), MONTH(), IS\_DATE\_AFTER()
+
+**Simple Example:**\
+You have a table where _First Name_ and _Last Name_ are separate fields, but you would like to concatenate them to display them in one field.
+
+1. Select your table, and then click on _Add computed Column_ in the component menu.
+2. Click on the _ƒx Formula_ button next to the value field.
+3. Select or search for the CONCAT() function in the menu that appears.
+4. Enter the values that you want to concatenate. Like the message shows when you select CONCAT(), the appropriate syntax is CONCAT(_VALUE1,_ _VALUE2_). _VALUE1_ and _VALUE2_ can be fields in your table, or they can be something else (e.g. a string in quotes: "string" – this might be useful for adding a space between table values). The final result will look like this:
 
 ```
-=CONCAT(first_name, last_name)
+=CONCAT(first_name, " ", last_name)
 ```
+
+<figure><img src="../.gitbook/assets/Untitled16 (1).gif" alt=""><figcaption></figcaption></figure>
 
 Let's see how you can make use of Jet Admin formulas.
 

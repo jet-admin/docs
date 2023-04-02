@@ -45,7 +45,7 @@ Update menu item style:
 
 ### **Detail. Text Font and Size**
 
-****![](<../../.gitbook/assets/image (1) (1) (3) (2).png>)****
+****![](<../../.gitbook/assets/image (1) (1) (3).png>)****
 
 ```css
 [data-component-id="{text-component-id}"] .text-truncate{

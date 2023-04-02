@@ -74,6 +74,6 @@ If you don't have an **/upload/attachment** endpoint then follow these steps:&#x
 
 Once you finish the steps you will have the following **/upload/attachment** which will automatically integrate when connecting to **Jet Admin.**
 
-<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### ****
