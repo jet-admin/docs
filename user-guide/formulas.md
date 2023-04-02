@@ -38,7 +38,7 @@ You have a table where _First Name_ and _Last Name_ are separate fields, but you
 1. Select your table, and then click on _Add computed Column_ in the component menu.
 2. Click on the _ƒx Formula_ button next to the value field.
 3. Select or search for the CONCAT() function in the menu that appears.
-4. Enter the values that you want to concatenate. Like the message shows when you select CONCAT(), the appropriate syntax is CONCAT(_VALUE1,_ _VALUE2_). _VALUE1_ and _VALUE2_ can be fields in your table, or they can be something else (e.g. a string in quotes: "string" – this might be useful for adding a space between table values). The final result will look like this:
+4. Enter the values that you want to concatenate. Like the message shows when you select CONCAT(), the appropriate syntax is CONCAT(_VALUE1,_ _VALUE2_). _VALUE1_ and _VALUE2_ can be fields in your table, or they can be something else (e.g. a string in quotes: "string" – this might be useful for adding a space between table values). For this example, the final result will look like this:
 
 ```
 =CONCAT(first_name, " ", last_name)

@@ -178,6 +178,7 @@
       * [Steps](user-guide/design-and-structure/components/fields/steps.md)
       * [URL](user-guide/components/fields/url.md)
     * [Charts](user-guide/components/charts/README.md)
+      * [How to Set Up a Chart](user-guide/design-and-structure/components/charts/how-to-set-up-a-chart.md)
       * [Line](user-guide/components/charts/line.md)
       * [Bar](user-guide/components/charts/bar.md)
       * [Pie](user-guide/components/charts/pie.md)
