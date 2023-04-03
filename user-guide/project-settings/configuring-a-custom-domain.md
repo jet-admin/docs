@@ -2,11 +2,11 @@
 
 To add a Custom Domain to your application, proceed to the Preview button on the top right and click on the **Connect Custom Domain**.
 
-<figure><img src="../../.gitbook/assets/cd1 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cd1.jpg" alt=""><figcaption></figcaption></figure>
 
 Type a domain that you would like to connect
 
-<figure><img src="../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -7,7 +7,7 @@ description: Temporary and Stored Variables
 In Jet, users can create two types of variables using State Variables:&#x20;
 
 * **Temporary** – for the user session, reset on refresh.
-* **Local Storage** – stored in the browser across sessions.
+* **Local Storage** – stored in the browser across sessions and pages.
 
 Temporary variables are session-based and are reset when the user refreshes the page, while Local Storage variables are stored in the browser and persist across sessions. Local Storage variables utilize the browser's Storage interface to read and write client-side data.
 
@@ -35,9 +35,9 @@ To create new variables, click on plus icon under the scope that you would like 
 * **Default value**:  (Optional) set a default value for your variable.
 * **Save to local storage / temporary**: `Temporary State Variable, Local Storage State Variable`
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### **Set a Variable**
 
@@ -45,7 +45,9 @@ To set up a specific value for a Variable go to Action and choose **Set Variable
 
 <figure><img src="../../.gitbook/assets/setup.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+### ****
 
 ### **Deleting, editing, or making variables stored/temporary**
 

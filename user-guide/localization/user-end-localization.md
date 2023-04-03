@@ -18,7 +18,7 @@ In the menu on the right, in the **Appearance** section (the first one, which op
 
 <figure><img src="../../.gitbook/assets/appearance menu.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (2) (1) (5).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 {% hint style="warning" %}
 If **your language is not on the list**, reach out to our support (bottom left corner in the app) to request adding your language. You can submit new localizations or edits to the existing ones on our [GitHub](https://github.com/jet-admin/jet-localization).

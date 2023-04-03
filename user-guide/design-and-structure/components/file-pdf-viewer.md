@@ -10,7 +10,7 @@ description: >-
 
 1. Drag-and-drop **File Viewer** from Component Library in Visual Builder.
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (4).png>)
 
 <figure><img src="../../../.gitbook/assets/file_viwer.gif" alt=""><figcaption></figcaption></figure>
 
