@@ -8,7 +8,8 @@ A series of steps created from a list of options. It supports manual or dynamic 
 
 After dragging and dropping the Steps component into your app, set up the component in the following way:
 
-1. Define the steps. Add or edit the steps as needed.
+1. Define the steps. Add or edit the steps as needed.\
+   Change the order of the steps in the menu to change their order in the progress bar.
 2. Choose the Current Step by using the _ƒx_ menu to connect the progress bar to a component, variable, or other dynamic value, or enter a static value.
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2023-04-11 в 21.07.14.png" alt=""><figcaption></figcaption></figure>
