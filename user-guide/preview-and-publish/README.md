@@ -2,7 +2,7 @@
 
 ## Builder/User/Preview modes
 
-There are three operational modes in Jet Admin: the **Builder mode**, **** the **User mode**, and the **Preview mode.**
+There are three operational modes in Jet Admin: the **Builder mode**, the **User mode**, and the **Preview mode.**
 
 ## **Builder Mode**
 

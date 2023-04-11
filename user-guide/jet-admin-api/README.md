@@ -34,11 +34,11 @@ At the moment, the API documentation is available for a **limited number of inte
 
 1. Go to **Profile** -> **API keys**
 
-****![](<../../.gitbook/assets/image (11) (2).png>)****
+![](<../../.gitbook/assets/image (11) (2).png>)
 
 &#x20;
 
-2\. Create a new **API Key**. **** You can generate several API keys
+2\. Create a new **API Key**. You can generate several API keys
 
 <figure><img src="../../.gitbook/assets/api2 (1).jpg" alt=""><figcaption></figcaption></figure>
 

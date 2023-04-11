@@ -15,7 +15,7 @@ Builders can use these variables to store local states in their applications, al
 
 To access the context menu for State Variables, users can find it in the Variables menu, which can be accessed by hovering over the Variables icon on the left-hand side of the App Builder.
 
-<figure><img src="../../.gitbook/assets/variables.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/var1.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Create a variable**
 
@@ -47,7 +47,7 @@ To set up a specific value for a Variable go to Action and choose **Set Variable
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-### ****
+###
 
 ### **Deleting, editing, or making variables stored/temporary**
 

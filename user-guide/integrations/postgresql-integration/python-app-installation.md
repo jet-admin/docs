@@ -4,7 +4,7 @@ description: Step-by-step guide to installation with Python.
 
 # Python app Installation
 
-Integrate our [**Jet Bridge**](https://app.gitbook.com/@jetadmin/s/doc/\~/drafts/-M9TnCmHUbdvDWPtOccj/jet-bridge-deployment/install) **** plugin with Python installation. You can place it behind your VPN, in your own VPC, and works locally. We won’t get access to your data, however, you will still receive updates normally.
+Integrate our [**Jet Bridge**](https://app.gitbook.com/@jetadmin/s/doc/\~/drafts/-M9TnCmHUbdvDWPtOccj/jet-bridge-deployment/install) plugin with Python installation. You can place it behind your VPN, in your own VPC, and works locally. We won’t get access to your data, however, you will still receive updates normally.
 
 ![](<../../../.gitbook/assets/image (820).png>)
 
@@ -70,7 +70,7 @@ If you are using **Jet Bridge** just for HTTP requests (and not SQL) you can use
 
 Go to the API key and below the API keys
 
-****![](../../../.gitbook/assets/api.jpg)****
+![](../../../.gitbook/assets/api.jpg)
 
 Copy **UNIQUE APP NAME** and **JET BRIDGE TOKEN.**
 

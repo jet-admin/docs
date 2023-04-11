@@ -8,7 +8,7 @@ After creating a project, you'll be prompted to start with Blank app or with you
 
 ### Choose the Page
 
-You can **navigate through** pages and **create new** pages in the `Pages` tab on the **** top left. Now,  let's pick another page:
+You can **navigate through** pages and **create new** pages in the `Pages` tab on the top left. Now,  let's pick another page:
 
 ![](../../.gitbook/assets/Quickstart-portal2.gif)
 

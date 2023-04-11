@@ -46,9 +46,9 @@ If you need to create a new app or return to a previously created one, you can g
 
 ### **Components**
 
-****[**Components**](https://docs.jetadmin.io/user-guide/components) are UI elements that allow you to display and interact with data and, eventually, build a custom business app. In the UI Library, you can find pre-built UI types such as:
+[**Components**](https://docs.jetadmin.io/user-guide/components) are UI elements that allow you to display and interact with data and, eventually, build a custom business app. In the UI Library, you can find pre-built UI types such as:
 
-* ****[**Layout**](https://docs.jetadmin.io/user-guide/components/layouts) to organize the page structure
+* [**Layout**](https://docs.jetadmin.io/user-guide/components/layouts) to organize the page structure
 
 ![](https://lh4.googleusercontent.com/eqNFV09pEOcRI3\_cOcdeH8fQ2D7NrZWabIB-S-ReqOod9llt\_hR2-qfeQRUsrgFw6jdfLlH7WRhOJjkxhzxsTkSC0OneLS98e9ALPGfF8GgF1OfoV4QrqxawXG4\_\_n4p3AtSg9zd2ETX7h9njGg1cMGD5aLrwbRIB6\_cRcjA4w4S78F-YrqSGTUxeg)
 
@@ -78,7 +78,7 @@ If you need to create a new app or return to a previously created one, you can g
 
 <figure><img src="../../.gitbook/assets/pasted image 0.png" alt=""><figcaption></figcaption></figure>
 
-* ****[**Custom components**](https://docs.jetadmin.io/user-guide/components/custom-component) to build any component that’s not in the UI Library based on React, Angular, or any other framework and integrate it into the Jet Admin interface.
+* [**Custom components**](https://docs.jetadmin.io/user-guide/components/custom-component) to build any component that’s not in the UI Library based on React, Angular, or any other framework and integrate it into the Jet Admin interface.
 
 ### Pages
 
@@ -104,7 +104,7 @@ You can build apps with your data from pretty much **Any Data Source**: Firebase
 
 ### Users & Teams management system
 
-From the Data section, you can go to the [**Users & Teams management system**](https://docs.jetadmin.io/user-guide/security-and-privacy)****
+From the Data section, you can go to the [**Users & Teams management system**](https://docs.jetadmin.io/user-guide/security-and-privacy)
 
 <figure><img src="https://lh6.googleusercontent.com/N3jFmPyT9Va4R7ZPyOkVgJAUKuEtA_HGhGwew1mxJdRMHw_WxYB0RbCG1ab6a3lGxSaPNSk7ChwmweYEJbaQ8S9eRMs-Hdimhs-YCrySLPwzW6TQnPaWmqxVg1HcHdPkSfjHbSUhHeYVjiEjVlHrsY-RjNLYpft705cb5U3Xx9Tc6LwP0ChG9ZvkSQ" alt=""><figcaption></figcaption></figure>
 
@@ -122,7 +122,7 @@ You can customize the app’s appearance in the [**User Mode**](https://docs.jet
 
 <figure><img src="https://lh4.googleusercontent.com/tNfC7Jb9LjCf9R4KdlldvkJSHD8SDrJwqqAZwLHODhyUbMt4QgVlh9sVrc7mOjjZFL9ZWhZjSpeT0frViaK_AH4e2GyiGLRK3bqSNZy8VwDeeLn5-AxChhk4H3FS7kyJqrJBn6p7WHdWeVfyGKtIhbiTS4aJ9mMLarfSnCNusWfOPkixMEQXLJPwbQ" alt=""><figcaption></figcaption></figure>
 
-****[**App settings**](https://docs.jetadmin.io/user-guide/jet-ui/layouts-and-branding) allow you to adjust your business app’s appearance by the following settings:
+[**App settings**](https://docs.jetadmin.io/user-guide/jet-ui/layouts-and-branding) allow you to adjust your business app’s appearance by the following settings:
 
 <figure><img src="../../.gitbook/assets/pasted image 0 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -135,7 +135,7 @@ You can customize the app’s appearance in the [**User Mode**](https://docs.jet
 
 ### Sign in/Sign up
 
-****[**Sign-in/Sign-up page**](https://docs.jetadmin.io/user-guide/security-and-privacy/sign-in-sign-up) builder allows you to configure the appearance of sign-in, and sign-up pages separately as well as customize the title, terms of service URL, and customer sign-up flow
+[**Sign-in/Sign-up page**](https://docs.jetadmin.io/user-guide/security-and-privacy/sign-in-sign-up) builder allows you to configure the appearance of sign-in, and sign-up pages separately as well as customize the title, terms of service URL, and customer sign-up flow
 
 <figure><img src="https://lh6.googleusercontent.com/OCoslX9xqZ0DfATiqtRUcJKPhrnAqc1Ml0mo9qgoZX9UMz90SnwMOMYkCWnUKxUVkFaDi-EDEpwq2SuTnSaTD7EZ8fq9g0N9p1qr5XPRLq5nwipm9rDyG2BVJZdZBv5htlK5uVOqwhhVxReQ10DO0DmXZQbgdTty_qHWxs-ZbcelEAZzXUDkcSDuRA" alt=""><figcaption></figcaption></figure>
 
@@ -147,7 +147,7 @@ There are three operational modes in Jet Admin:&#x20;
 * **User mode** - this is the option that end users see after the app is published
 * **Preview mode** that allows you to see the app preview in a user mode without having to publish an app.
 
-The [**Preview button**](https://docs.jetadmin.io/user-guide/preview-and-publish) **** on the top menu of the app builder allows you to switch between modes and eventually publish your app.
+The [**Preview button**](https://docs.jetadmin.io/user-guide/preview-and-publish) on the top menu of the app builder allows you to switch between modes and eventually publish your app.
 
 <figure><img src="https://lh6.googleusercontent.com/iED94v1CaPJv-NJ3zUT0IDtodePrbqkd1I-ULuBrp-dmtacZ5xvXDqMWMtd76rXExm48KAuqLiWB7alumsRaYKAAc13tnmlXr8CPZgUIEl0PM19VuW4rLz_T3IhjthwJVPJz0tl2hVMJgBmKMAT7xlyPtUintmHz5BF_JPsHfsBgPHbvEO_kdQu4nw" alt=""><figcaption></figcaption></figure>
 

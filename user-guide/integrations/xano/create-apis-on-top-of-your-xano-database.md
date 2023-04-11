@@ -1,6 +1,6 @@
 # Create APIs on top of your Xano database
 
-****
+
 
 Once you have created a Database and filled in data, you should create APIs for your Database in Xano. There are two options to create Endpoints in Xano:&#x20;
 
@@ -76,4 +76,4 @@ Once you finish the steps you will have the following **/upload/attachment** whi
 
 <figure><img src="../../../.gitbook/assets/image (1) (3) (4).png" alt=""><figcaption></figcaption></figure>
 
-### ****
+###

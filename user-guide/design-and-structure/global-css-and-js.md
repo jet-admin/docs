@@ -2,19 +2,25 @@
 description: Customize the way your app looks
 ---
 
-# CSS for App
+# Global CSS & JS
 
-Custom CSS allows you to enhance your branding and UI/visual tweaks, not completely changing the look and feel of your app. For example, you can use Custom CSS to change the style of the components: colors,  size, text alignment, etc.
+Custom CSS and Javascript allow you to enhance your branding and UI/visual tweaks, without completely changing the look and feel of your app. For example, you can use Custom CSS to change the style of the components: colors,  size, text alignment, etc.
+
+**Using Custom CSS & JS:**
 
 {% embed url="https://www.loom.com/share/5ee5e1c2f92b4228b97d3c4f6d894831" %}
 
-1. Go to App Settings
+Custom CSS and JS are used in the same way for the app and the  Sign in/Sign up page, but they are configured independently. The Custom CSS/JS settings can be accessed in the Scripts & Styles sections of the App Settings and Sign in & Sign up menus.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-01-26 at 17.17.24.png" alt=""><figcaption></figcaption></figure>
+1. Go to App Settings or Sign in & Sign up menu
 
-2\. Choose Scripts & Styles and paste your CSS in **Global CSS**
+<figure><img src="../../.gitbook/assets/Снимок экрана 2023-04-11 в 20.17.53.png" alt=""><figcaption><p>App Settings menu location</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/global23 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Снимок экрана 2023-04-11 в 20.14.21.png" alt=""><figcaption><p>Sign in/Sign up menu location</p></figcaption></figure>
+
+2\. Go to **Scripts & Styles** in the menu and paste your CSS or JS in the appropriate in **Global CSS** or **Global Javascript** field.
+
+<figure><img src="../../.gitbook/assets/Снимок экрана 2023-04-11 в 20.21.10.png" alt=""><figcaption><p>Scripts &#x26; Styles menu section</p></figcaption></figure>
 
 ### Menu Style
 
@@ -45,7 +51,7 @@ Update menu item style:
 
 ### **Detail. Text Font and Size**
 
-****![](<../../.gitbook/assets/image (1) (1) (3).png>)****
+![](<../../.gitbook/assets/image (1) (1) (3).png>)
 
 ```css
 [data-component-id="{text-component-id}"] .text-truncate{
@@ -55,7 +61,7 @@ Update menu item style:
 }
 ```
 
-****
+
 
 ### Input Text Field Style
 

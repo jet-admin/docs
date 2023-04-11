@@ -18,8 +18,8 @@ There are two defaults themes:
 
 
 
-Using [CSS for App](css-for-app.md) you can customize the theme further by updating the following items:
+Using [CSS for App](global-css-and-js.md) you can customize the theme further by updating the following items:
 
-1. ****[**Menu Style**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#menu-style)**:** menu background color
-2. ****[**App font**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#text-field-style)**:** It changes the font family used in the app.
-3. ****[**Primary Color**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#text-field-style) - It applies to all the components/widgets in your app.
+1. [**Menu Style**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#menu-style)**:** menu background color
+2. [**App font**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#text-field-style)**:** It changes the font family used in the app.
+3. [**Primary Color**](https://docs.jetadmin.io/user-guide/design-and-structure/css-for-app#text-field-style) - It applies to all the components/widgets in your app.

@@ -207,7 +207,7 @@
   * [Actions](user-guide/design-and-structure/actions.md)
   * [Export](user-guide/design-and-structure/export.md)
   * [App Theming](user-guide/design-and-structure/app-theming.md)
-  * [CSS for App](user-guide/design-and-structure/css-for-app.md)
+  * [Global CSS & JS](user-guide/design-and-structure/global-css-and-js.md)
   * [Analytics or Live chats](user-guide/design-and-structure/analytics-or-live-chats.md)
 * [🧮 Data Editor](user-guide/data/README.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)

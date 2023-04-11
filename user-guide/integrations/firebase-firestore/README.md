@@ -27,7 +27,7 @@ Then you'll need to select the database type: Firestore or Realtime DB:
 ![](../../../.gitbook/assets/tjhyu.png)
 
 {% hint style="info" %}
-To learn more about Firestore and Realtime DB, check the [**official Firebase article**](https://firebase.google.com/docs/database/rtdb-vs-firestore)****
+To learn more about Firestore and Realtime DB, check the [**official Firebase article**](https://firebase.google.com/docs/database/rtdb-vs-firestore)
 {% endhint %}
 
 Further steps vary based on the type of database you want to connect to: Firestore or Realtime DB.

@@ -41,7 +41,7 @@ _For this specific example, it is necessary to create empty tables (with the fie
 <figure><img src="../../.gitbook/assets/Frame 444.png" alt=""><figcaption></figcaption></figure>
 
 4. One record of the _Market Sales_ table is selected, then the Yes/No function sorts it. In this example, _Yes_ is if the customer left a rating of higher than or equal to 5, and _No_ is if the rating is lower than 5. \
-   _**Note:** _ If you do not see the _Iterator i_n the menu of steps, click _Test Automation_, and then try again.
+   _**Note:**_ If you do not see the _Iterator i_n the menu of steps, click _Test Automation_, and then try again.
 
 <figure><img src="../../.gitbook/assets/Frame 445.png" alt=""><figcaption></figcaption></figure>
 

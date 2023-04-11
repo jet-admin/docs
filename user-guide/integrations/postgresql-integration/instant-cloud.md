@@ -4,7 +4,7 @@ description: Step-by-step guide to Cloud Installation.
 
 # Instant Installation
 
-The quickest way to integrate database (**localhost** not valid, use [**Docker**](docker-installation.md) **** or [**Python**](python-app-installation.md) **** integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
+The quickest way to integrate database (**localhost** not valid, use [**Docker**](docker-installation.md) or [**Python**](python-app-installation.md) integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
 
 You'll need to fill out the following form:
 

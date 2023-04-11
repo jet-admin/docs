@@ -26,4 +26,4 @@ You'll see seven different tabs:
 Most of the settings changes take effect only in the User-mode, so to check the result, **preview or publish** your app (more on different modes [here](../../../preview-and-publish/))
 {% endhint %}
 
-### ****
+###

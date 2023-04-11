@@ -1,6 +1,6 @@
 # 🏎 Self-hosted
 
-**Jet Bridge** is a free and open**-**source app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is **** available on [**Github**](https://github.com/jet-admin/jet-bridge)**.**
+**Jet Bridge** is a free and open**-**source app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is available on [**Github**](https://github.com/jet-admin/jet-bridge)**.**
 
 * **We never access your private data.** It transferred directly from a browser to your application.
 * **Scale as your growth.** You can host and scale Jet projects the way you want. You can choose any hosting platform you want: AWS, Heroku, a VPS, or a dedicated server.
@@ -52,7 +52,7 @@ Install **Jet Bridge** without need to install any dependencies except **Docker*
 
 To integrate **Jet Admin** with the **Django**-based project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**.
 
-**Jet Bridge** **for Django** sources are available on [**Github**](https://github.com/jet-admin/jet-django)****
+**Jet Bridge** **for Django** sources are available on [**Github**](https://github.com/jet-admin/jet-django)
 
 This is the quickest way to install **Jet Admin** for Django based projects. Installed in the same way as most **Django** packages.
 
