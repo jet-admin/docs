@@ -15,3 +15,11 @@ The font can be changed in the Appearance settings as well. To change it, scroll
 To change your font settings for the Sign In/Sign Up page, you need to have [a custom domain set up](https://docs.jetadmin.io/user-guide/core-concept/jet-ui/layouts-and-branding/custom-domain-and-transactional-emails). If you do, you can simply go to the Sign Up page menu by clicking on the icon in the left hand menu, then changing the font in the menu on the right side of the page. Here you can also make other changes to appearance like customizing the background, adding a logo, or adding a custom welcome message.
 
 <figure><img src="../../../../.gitbook/assets/Снимок экрана 2023-03-27 в 21.05.10.png" alt=""><figcaption></figcaption></figure>
+
+## Accent Color
+
+Accent Color affects the highlight color for selected rows, the color of various components (e.g. buttons), and the color of the menu bar.\
+\
+To set the Accent Color for your app, simply go to the Appearance section in the App Settings menu and choose the color you would like to use.
+
+<figure><img src="https://lh4.googleusercontent.com/WqONVJScbA9pilsZVenSH0DhxCqPQuUDsfFb4cXyjkAl-xebbX3aFxlm_9FL0cUfYTSOmAN7cIZMH_qcu0LvA0csgaSz63zhhHibK3yH397O8v6ISGLeRqBdWrdjudwjlwc10O-ZXu9LdQ0=s2048" alt=""><figcaption></figcaption></figure>
