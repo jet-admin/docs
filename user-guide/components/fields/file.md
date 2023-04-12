@@ -22,9 +22,15 @@ There are many things you can set up in the file component settings (click on th
 
 #### Connecting storage
 
-Here you can **connect** one of our native integration storages, use Jet Admin's built-in storage or connect your own using REST API
+Here you can **connect** one of our native integration storages, use Jet Admin's built-in storage or connect your own using REST API.
 
 <figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+
+**Multipart Encoding**
+
+Jet allows for multipart file encoding so that you can upload files with more complex data structures. You can enable multipart encoding when configuring the HTTP request for your REST API. See more about REST API [here.](https://docs.jetadmin.io/user-guide/integrations/rest-api)
+
+<figure><img src="https://lh3.googleusercontent.com/raRoOwAf4aFVBtv3P5GR3Yx1RlpV7x8HUE9mxPv90oNmPxZABl2EDejajleL36N7oM5jY1osikjoXAlQp9kbMddJTe9Wowf_qZ15tTGdFruFoVrdBC9jbluoDa54Tx3IuMqBPlxfVLRwOUU=s2048" alt=""><figcaption></figcaption></figure>
 
 #### Linking data
 
