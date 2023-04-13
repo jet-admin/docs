@@ -6,7 +6,7 @@ description: Lists are UI components for displaying data from your collections
 
 There are several ways how you can display the same collection in Jet Admin:
 
-* [Table](table.md)&#x20;
+* [Table](../../design-and-structure/components/lists/table/)&#x20;
 * [Map](map.md)
 * [Kanban](kanban.md)
 * [Calendar](calendar.md)
