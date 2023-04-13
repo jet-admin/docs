@@ -4,6 +4,8 @@ description: Temporary and Stored Variables
 
 # 🔠 Variables
 
+{% embed url="https://www.youtube.com/watch?v=YcTzbIVWU4Q" %}
+
 In Jet, users can create two types of variables using State Variables:&#x20;
 
 * **Temporary** – for the user session, reset on refresh.
