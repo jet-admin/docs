@@ -10,9 +10,7 @@ To quickly connect a custom API use HTTP Request Builder. You can make `GET` req
 
 Watch the video below on how to get API Builder set up!
 
-{% embed url="https://www.youtube.com/watch?v=ajqCp3uTb-o&ab_channel=JetAdmin" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=MlNuOS2sffQ" %}
 
 ### Open API Builder
 
