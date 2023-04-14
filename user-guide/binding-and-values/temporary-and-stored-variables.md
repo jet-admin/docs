@@ -4,6 +4,10 @@ description: Temporary and Stored Variables
 
 # 🔠 Variables
 
+Variables allow you to store and manage data within your web application.
+
+You can store values, such as text, numbers, booleans, arrays, or objects, that can be used and manipulated throughout your application. You can use variables to dynamically update content, interact with data from external sources, or control the behavior of your website's elements and components.
+
 {% embed url="https://www.youtube.com/watch?v=YcTzbIVWU4Q" %}
 
 In Jet, users can create two types of variables using State Variables:&#x20;
