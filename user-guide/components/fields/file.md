@@ -24,7 +24,7 @@ There are many things you can set up in the file component settings (click on th
 
 Here you can **connect** one of our native integration storages, use Jet Admin's built-in storage or connect your own using REST API.
 
-<figure><img src="../../../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Multipart Encoding**
 

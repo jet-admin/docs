@@ -65,7 +65,7 @@ You can sort all fields by ascending and descending value:
 
 APIs like to send data back in pages. By default, you only get 1 page. You will need to ask for more. In your API docs, there should be a section called Pagination. To set up Pagination, go to the pagination menu in the API Builder:
 
-<figure><img src="../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 There are 3 types of pagination: **page**, **offset**, and **cursor pagination**.
 
@@ -91,7 +91,7 @@ $ curl https://api.intercom.io/users?page=0 \
 
 In API Builder that would be set up with these settings:
 
-<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Offset pagination
 
@@ -130,4 +130,4 @@ For instance, Stripe API in Jet API Builder that would be set up with these sett
 https://api.stripe.com/v1/customers?limit={{paging.limit}}&starting_after={{paging.cursor_next}}&ending_before={{paging.cursor_prev}}
 ```
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption></figcaption></figure>

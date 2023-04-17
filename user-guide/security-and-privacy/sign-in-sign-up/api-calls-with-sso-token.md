@@ -6,4 +6,4 @@ When user is logged in with **SSO** it is possible to use **SSO access token** i
 
 You can insert any **SSO tokens** in HTTP/GraphQL queries using **SSO credentials** section.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

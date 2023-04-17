@@ -12,4 +12,4 @@ You can upload files to Xano from the Jet Admin's app builder with no further se
 
 You can allow your app users to upload files to Xano by using a **File Picker** form. Drag and drop it into your app, then set it up by choosing the Output Format **Save to Storage** and choosing Xano as the storage that you want to upload the file to.
 
-<img src="../../../.gitbook/assets/image (5) (1) (3).png" alt="" data-size="original">![](<../../../.gitbook/assets/image (5) (4).png>)
+<img src="../../../.gitbook/assets/image (5) (1).png" alt="" data-size="original">![](<../../../.gitbook/assets/image (5) (4).png>)

@@ -10,7 +10,7 @@ Other parts of configuring a chart can include applying filters, choosing data t
 
 For any given chart, you will need set up the chart settings _and_ the dataset settings – access the chart menu by clicking on the chart, and then within that menu you can access the data settings by clicking on the dataset (of which there can be more than one):
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -44,9 +44,9 @@ Here we set the minimum and maximum values to change the chart display area.
 
 Another common use case for data formatting is displaying data in a currency when you hover over a chart. To change the way data is displayed in a chart, click on the chosen resource in the chart menu to access data display options.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Then, click on the Display button in the resource's menu. Finally, in the Tooltip Format field, enter the format that you want the information to be displayed in (for example, $0.00).
 
-<figure><img src="../../../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 

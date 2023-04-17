@@ -13,7 +13,7 @@ In both of these cases, it is necessary to choose the logical expression for fil
 
 ### Filter your collection
 
-<figure><img src="../../../../../.gitbook/assets/Untitled.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled.gif" alt=""><figcaption></figcaption></figure>
 
 You can also use the same built-in filtering tools in the Data Editor. The process is the same, the only difference is that the filter button is on the upper left of the Data Editor instead of being on the upper right.
 
@@ -23,4 +23,4 @@ To filter a table using multiple values, go through the process as above, but ch
 
 If you want to use multiple filters (filters that relate to different fields), you can also do that: after you've applied your first filter, click on _Add filter_ at the top of the table, and apply a new filter.
 
-<figure><img src="../../../../../.gitbook/assets/Untitled2.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled2.gif" alt=""><figcaption></figcaption></figure>
