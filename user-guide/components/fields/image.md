@@ -1,9 +1,24 @@
 # Image
 
-You have a customers table and you need to display a customer's photo, then need to specify the Image type. You can set up a custom cloud provider as well as for File type.
+To add images to components like tables or forms, click on the field that contains the image and select the field type **Image.**
 
-![](<../../../.gitbook/assets/GIF (286).gif>)
+<figure><img src="../../../.gitbook/assets/Untitled19.gif" alt=""><figcaption></figcaption></figure>
 
-Image Field has a set of parameters, for example, you want to change the shape of the photo display (rectangular, square, circular). You can also set the preview on hover.
+### **Image Options**
 
-![](<../../../.gitbook/assets/GIF (287).gif>)
+In the field menu, you can specify the following options:
+
+* display – the shape of the image in the component (circular, rectangular, square)
+* fit – how to fit the image in the chosen display (cover, contain)
+* crop on upload – cropping options
+
+You can also toggle on/off **Show preview on hover** and **Show fullscreen on click**.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### **Single file / Multiple files**
+
+Jet gives you the ability to work with a single image file or multiple image files. When using **Multiple image files**, you will need to specify the data format as _JSON array_ or text.
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+

@@ -19,7 +19,7 @@ Single value charts also allow you to show comparisons and trends.
 
 Adding a trend display – which will appear as a small line chart – can be done by clicking on **Add trend chart** in the Single Value chart menu. Then, you will need to set up the trend chart by choosing the desired dataset, what exact data to show, how to group the data, and add any filters you might want.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Comparisons
 
