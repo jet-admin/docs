@@ -38,9 +38,9 @@ Here we set the minimum and maximum values to change the chart display area.
 
 Another common use case for data formatting is displaying data in a currency when you hover over a chart. To change the way data is displayed in a chart, click on the chosen resource in the chart menu to access data display options.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then, click on the Display button in the resource's menu. Finally, in the Tooltip Format field, enter the format that you want the information to be displayed in (for example, $0.00).
 
-<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

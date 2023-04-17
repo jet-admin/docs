@@ -63,17 +63,21 @@ You can sort all fields by ascending and descending value:
 
 ### Pagination
 
-APIs like to send data back in pages. By default, you only get 1 page. You will need to ask for more. In your API docs, there is probably a section called Pagination.&#x20;
+APIs like to send data back in pages. By default, you only get 1 page. You will need to ask for more. In your API docs, there should be a section called Pagination. To set up Pagination, go to the pagination menu in the API Builder:
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 There are 3 types of pagination: **page**, **offset**, and **cursor pagination**.
 
+When you choose one of these types, variables will automatically be created that you can use in your query parameters – they will be available immediately available for use in the pop-up menu that appears when you click on a query parameter value or in the URL at the top of the API builder. For example, in the image above, automatically-created variables are used as the values for the parameters _page_ and _per\_page._
+
 ![](<../../.gitbook/assets/image (839).png>)
 
-### Page based pagination
+### Page-based pagination
 
 If you see the mention of a numerical page number that you increment to get each page, then you are in the right place.
 
-Intercom uses this style of pagination. And it looks like this in their docs:
+Intercom uses this style of pagination; it looks like this in their docs:
 
 ![](<../../.gitbook/assets/image (649).png>)
 
@@ -87,7 +91,7 @@ $ curl https://api.intercom.io/users?page=0 \
 
 In API Builder that would be set up with these settings:
 
-![](<../../.gitbook/assets/image (840).png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Offset pagination
 
@@ -126,4 +130,4 @@ For instance, Stripe API in Jet API Builder that would be set up with these sett
 https://api.stripe.com/v1/customers?limit={{paging.limit}}&starting_after={{paging.cursor_next}}&ending_before={{paging.cursor_prev}}
 ```
 
-![](<../../.gitbook/assets/image (842).png>)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
