@@ -8,6 +8,12 @@ Different kinds of charts have slightly different set ups, but all charts have a
 
 Other parts of configuring a chart can include applying filters, choosing data to group by, and other things.&#x20;
 
+For any given chart, you will need set up the chart settings _and_ the dataset settings – access the chart menu by clicking on the chart, and then within that menu you can access the data settings by clicking on the dataset (of which there can be more than one):
+
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### Datasets
 
 Once you selected the chart type you need to add and configure dataset, simply click **+Add Dataset** and select the resource from which the chart will be built.&#x20;

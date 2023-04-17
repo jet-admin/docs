@@ -8,7 +8,9 @@ Bar charts are great for showing and comparing very large sets of data. For inst
 
 ![](<../../../.gitbook/assets/image (679).png>)
 
-More information about customizing the Bar Chart in our documentation.
+Bar charts can display multiple datasets simultaneously. For each dataset, you will need to specify the following. Dataset Breakdown and Filters are optional, but if you use Dataset Breakdown, you will not be able to have more than one dataset on your bar chart.
+
+![](<../../../.gitbook/assets/image (20).png>)
 
 {% content-ref url="./" %}
 [.](./)
