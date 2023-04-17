@@ -838,3 +838,5 @@ The first number to add
 Additional numbers to add to **value1**
 
 </details>
+
+There are also _**Date & Time**_ functions and _**Permission**_ functions.

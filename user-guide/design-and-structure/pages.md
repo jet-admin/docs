@@ -63,7 +63,7 @@ Page queries allow you to do queries from your page at once, and then use query 
 * Get one record – a query returns the one record&#x20;
 * Get the list of records – a query returns the list of records
 
-![](<../../.gitbook/assets/image (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 Specify Page Query's Data on your Component using Formula
 
