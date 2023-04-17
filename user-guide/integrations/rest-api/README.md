@@ -4,9 +4,13 @@ description: Connect Jet Admin to any REST API.
 
 # Rest API
 
-**Jet Admin** can help you make your tool make requests to any **Rest API** you need to integrate to your workflow. The integrations Jet provides are ready-to-use business APIs such as [Stripe](../stripe.md), [SendGrid](../sendgrid.md), [Zendesk](../zendesk.md), [Slack](../slack.md), etc. (To reduce the time to get your internal tool talking to a Rest API to the minimum, use the [Templates](broken-reference)). To have the  available APIs at hand, select Resources from the project menu to open the resource selection pane:
+In addition to ready-to-use integrations, Jet Admin allows you to use REST API to connect to any tool you need to integrate into your workflow.&#x20;
 
-![](<../../../.gitbook/assets/image (821).png>)
+{% embed url="https://youtu.be/MlNuOS2sffQ" %}
+
+To connect a REST API or another resource, first select Add Resource from the project menu to open the resource selection pane:
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 You can also implement your own custom API using API Builder. For instance, you can set up a `GET` request to [display orders your customers made](../../../getting-started/part-2-intermediate/perform-api-requests.md) or a `POST` request to reset a password for a specific user. &#x20;
 
@@ -25,6 +29,8 @@ Let's start with implementing **Rest API**, select it from the list of available
 * **Authentication** –  used to authenticate requests: [Bearer token](bearer-token.md), [Basic Auth](basic-authentication.md), [OAuth 2.0](oauth-2.0.md).
 
 ![](<../../../.gitbook/assets/image (617).png>)
+
+Once you have connected a REST API, you will need to configure the requests in the Data Editor. For more information, please look at the [Data Editor documentation here:](https://docs.jetadmin.io/user-guide/data/make-an-http-request)
 
 {% content-ref url="../../data/make-an-http-request.md" %}
 [make-an-http-request.md](../../data/make-an-http-request.md)
