@@ -152,7 +152,7 @@
   * [JavaScript Column](user-guide/computed-columns/javascript-column.md)
   * [Calculated values in column](user-guide/computed-columns/calculated-values-in-column.md)
 * [🎨 Design & Structure](user-guide/design-and-structure/README.md)
-  * [Customizing Pages](user-guide/design-and-structure/pages/README.md)
+  * [Customizing Pages](user-guide/design-and-structure/pages.md)
     * [Home Page](user-guide/design-and-structure/pages/home-page.md)
   * [Components](user-guide/components/README.md)
     * [Lists](user-guide/components/lists/README.md)

@@ -6,8 +6,8 @@ description: A brief overview of design and structure.
 
 
 
-{% content-ref url="pages/" %}
-[pages](pages/)
+{% content-ref url="pages.md" %}
+[pages.md](pages.md)
 {% endcontent-ref %}
 
 {% content-ref url="filter.md" %}

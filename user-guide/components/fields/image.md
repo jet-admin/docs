@@ -14,7 +14,7 @@ In the field menu, you can specify the following options:
 
 You can also toggle on/off **Show preview on hover** and **Show fullscreen on click**.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### **Single file / Multiple files**
 
