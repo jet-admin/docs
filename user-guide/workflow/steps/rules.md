@@ -26,7 +26,7 @@ If using **text** (string) for a condition, put it into the quotes "\_"
 
 #### **Switch condition**&#x20;
 
-It allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run, or you can set an _Else_ condition to run when other conditions are not met.
+It allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run, or you can set an _ELSE_ condition to run when other conditions are not met.
 
 ![](../../../.gitbook/assets/szvxcr.png)
 
