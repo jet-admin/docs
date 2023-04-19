@@ -4,5 +4,5 @@
 
 You can access them in this section of the App Settings menu.
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
 

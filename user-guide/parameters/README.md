@@ -38,7 +38,7 @@ There are two types of Visual Builder values: Component and Page values
 
 ### Component Values
 
-Using Component Values you can pass values such as subject and body to `Send email`, filter a list, or pass data from one page to another. You can specify Values for each [page](../design-and-structure/pages.md) or [component](../components/). Here we guide you through Values types and how to specify Values for a page or component.
+Using Component Values you can pass values such as subject and body to `Send email`, filter a list, or pass data from one page to another. You can specify Values for each [page](../design-and-structure/pages/) or [component](../components/). Here we guide you through Values types and how to specify Values for a page or component.
 
 ![](../../.gitbook/assets/testgif44.gif)
 
