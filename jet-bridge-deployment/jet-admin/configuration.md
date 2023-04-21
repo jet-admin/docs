@@ -65,6 +65,8 @@ DATABASE_ENGINE=postgresql \
 | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | **ADDRESS** (optional)          | 0.0.0.0                                                    | Jet Bridge address                                         |
 | **PORT** (optional)             | 8888                                                       | Jet Bridge port                                            |
+| **SSL\_CERT** (optional)        | -- none --                                                 | File path to SSL certificate                               |
+| **SSL\_KEY** (optional)         | -- none --                                                 | File path to SSL private key                               |
 | **CONFIG** (optional)           | /etc/jet.conf                                              | Path to config file                                        |
 | **DEBUG** (optional)            | false                                                      | Run in debug mode                                          |
 | **READ\_ONLY** (optional)       | false                                                      | Data read only                                             |

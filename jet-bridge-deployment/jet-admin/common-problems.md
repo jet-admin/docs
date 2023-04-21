@@ -1,5 +1,17 @@
 # Common Problems
 
+### HTTPS issue
+
+By default **Jet Bridge** will run in **HTTP** mode while **Jet Admin** opens in **HTTPS**. This can lead to the similar error when trying to connect to Jet Bridge running under HTTP:
+
+> Mixed Content: The page at 'https://app.jetadmin.io/builder/...' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://JET\_BRIDGE\_HOST/api/discover/connection/'. This request has been blocked; the content must be served over HTTPS.
+
+You have a number of options how to fix this issue:
+
+1. Run **Jet Bridge** in **HTTPS** mode using `SSL_CERT` and `SSL_KEY` options (see [Configuration](configuration.md)). You will need SSL **certificate** and **private key** for domain name under which **Jet Bridge** is running. If you don't have **SSL certificate** you can create self-signed **SSL certificate** files `.crt` and `.key` ([Manual](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-22-04)).
+2. Run **Jet Bridge** behind a web server with **HTTPS** configured (for example **nginx**).
+3. (_for Test purposes_) You can use **Jet Admin** in **HTTP** mode. We allow you to open your App in **HTTP** mode if you change **HTTPS** to **HTTP** in your browser URL. Be sure to connect to **Jet Bridge** with http:// on your browser URL otherwise you will get connection error.
+
 ### CORS issue
 
 If you are deploying **Jet Bridge** behind a proxy or some webserver you can start receiving the following errors in your browser console:
