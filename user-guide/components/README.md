@@ -6,6 +6,24 @@ description: >-
 
 # Components
 
+## Table Editing <a href="#h_d8d3738d09" id="h_d8d3738d09"></a>
+
+Enable users to edit records simply by clicking on a cell in a table. You can even specify which fields you want to make editable. Add table editing to your app for a smoother, intuitive user experience.
+
+<figure><img src="../../.gitbook/assets/table_editing.gif" alt=""><figcaption></figcaption></figure>
+
+## Tooltips <a href="#h_af590998f2" id="h_af590998f2"></a>
+
+Add tooltips to your app components to help new users! Custom tooltips are an unobstrusive way to provide necessary information about how your app functions.
+
+<figure><img src="../../.gitbook/assets/tooltips.gif" alt=""><figcaption></figcaption></figure>
+
+## _On Change_ Field Action <a href="#h_2a04e1f31b" id="h_2a04e1f31b"></a>
+
+Set actions that trigger when a field is updated. This can be great for showing notifications, for quickly setting variables used elsewhere in your app, and for other things as needed.
+
+<figure><img src="../../.gitbook/assets/onchange.gif" alt=""><figcaption></figcaption></figure>
+
 ### Setting the Layout
 
 **Layout** components allow you to assemble other components on the page. We recommend starting with the `columns` component - just drag-and-drop it on the page:
