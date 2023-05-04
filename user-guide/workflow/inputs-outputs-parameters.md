@@ -31,6 +31,12 @@ All the imputs available will be listed in the configuration menue on teh right 
 
 **Parameters** allow you to receive and hold different values from the app so that they can be referenced and used in the workflow steps.
 
+{% hint style="info" %}
+#### Test Parameters
+
+Using Test Parameters can make it easier to configure and test your workflow. Add test parameters by clicking on the first step of your workflow (i.e. the trigger step), then configure parameter types and enter test values.
+{% endhint %}
+
 **To add** a parameter, either go to the **trigger action menu**:
 
 ![](../../.gitbook/assets/fzbfd.png)
