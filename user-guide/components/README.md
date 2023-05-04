@@ -24,7 +24,7 @@ Different components have different settings, which you can access on the right 
 
 **General:** Contains options for configuring the way the component works. For example: which fields should be included in a table or which datasets to use in a chart.
 
-**Display:** Has display options. For example: **Conditional Visibility**, **Tooltips**, **Component Name**, **Enable Editing** for tables, and whether the component is **Required**.&#x20;
+**Display:** Has display options. For example: **Conditional Visibility**, **Tooltips**, **Component Title**, **Enable Editing** for tables, and whether the component is **Required**.&#x20;
 
 **Actions:** Contains settings for triggering actions based on user interaction with the component. For example: Triggering actions when button is clicked, triggering actions when data is changed.
 
