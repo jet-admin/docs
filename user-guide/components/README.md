@@ -24,7 +24,9 @@ Set actions that trigger when a field is updated. This can be great for showing 
 
 <figure><img src="../../.gitbook/assets/onchange.gif" alt=""><figcaption></figcaption></figure>
 
-### Setting the Layout
+
+
+## Setting the Layout
 
 **Layout** components allow you to assemble other components on the page. We recommend starting with the `columns` component - just drag-and-drop it on the page:
 
