@@ -157,6 +157,7 @@
   * [Components](user-guide/components/README.md)
     * [Lists](user-guide/components/lists/README.md)
       * [Table](user-guide/design-and-structure/components/lists/table/README.md)
+        * [Grouping records](user-guide/design-and-structure/components/lists/table/grouping-records.md)
         * [Filters (built-in)](user-guide/design-and-structure/filter.md)
         * [Table Actions](user-guide/design-and-structure/components/lists/table/table-actions.md)
       * [Map](user-guide/components/lists/map.md)
