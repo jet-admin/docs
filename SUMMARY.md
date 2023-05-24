@@ -289,5 +289,6 @@
   * [Configuration](jet-bridge-deployment/jet-admin/configuration.md)
 * [🖥 On-premise](jet-bridge-deployment/on-premise/README.md)
   * [Install & Update](jet-bridge-deployment/on-premise/install-and-update.md)
+  * [Common Problems](jet-bridge-deployment/on-premise/common-problems.md)
   * [Superuser access](jet-bridge-deployment/on-premise/superuser-access.md)
 * [⛺️ Database Heroku deployment](jet-bridge-deployment/database-heroku-deployment.md)
