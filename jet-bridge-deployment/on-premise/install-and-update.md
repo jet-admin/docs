@@ -16,10 +16,12 @@ Access to **gitlab.com/jet-admin/jet-onpremise** is necessary before installing.
 
 #### 1. Download on-premise **package**
 
-You should have access to [gitlab.com:jet-admin/jet-onpremise](https://gitlab.com/jet-admin/jet-onpremise) repository. We grant access to repository for your&#x20;
+You should have access to [gitlab.com:jet-admin/jet-onpremise](https://gitlab.com/jet-admin/jet-onpremise) repository. We grant you access to the repository by your **USERNAME** and give you **Access Token**.&#x20;
+
+Change **USERNAME** to your [gitlab.com](https://gitlab.com/) username. Running the following command will ask you to enter password which you should fill with your **Access Token** value.
 
 ```
-git clone https://gitlab.com/jet-admin/jet-onpremise.git && cd jet-onpremise
+git clone https://USERNAME@gitlab.com/jet-admin/jet-onpremise.git && cd jet-onpremise
 ```
 
 #### 2. Create **Initial config** file and set **Required parameters**

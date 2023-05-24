@@ -10,7 +10,7 @@ Single value charts are good for displaying your KPIs, such as the average numbe
 
 After selecting your dataset, you will need to choose what you want the chart to display (e.g. sum of field, maximum of field, ...) and apply any filters you may wish to use.\
 \
-![](<../../../.gitbook/assets/image (3) (1).png>)\
+![](<../../../.gitbook/assets/image (3) (1) (3).png>)\
 
 
 Single value charts also allow you to show comparisons and trends.
