@@ -10,7 +10,7 @@ Other parts of configuring a chart can include applying filters, choosing data t
 
 For any given chart, you will need set up the chart settings _and_ the dataset settings – access the chart menu by clicking on the chart, and then within that menu you can access the data settings by clicking on the dataset (of which there can be more than one):
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 

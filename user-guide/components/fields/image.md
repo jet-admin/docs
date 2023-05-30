@@ -20,5 +20,5 @@ You can also toggle on/off **Show preview on hover** and **Show fullscreen on cl
 
 Jet gives you the ability to work with a single image file or multiple image files. When using **Multiple image files**, you will need to specify the data format as _JSON array_ or text.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (6).png" alt=""><figcaption></figcaption></figure>
 

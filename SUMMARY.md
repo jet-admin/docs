@@ -241,6 +241,7 @@
   * [Sign In/Sign Up](user-guide/security-and-privacy/sign-in-sign-up/README.md)
     * [Auth0 SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/auth0-sso-oauth-2.0.md)
     * [Auth0 SSO SAML2](user-guide/security-and-privacy/sign-in-sign-up/auth0-sso.md)
+    * [Azure AD SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/auth0-sso-oauth-2.0-1.md)
     * [Okta SSO](user-guide/security-and-privacy/sign-in-sign-up/okta-sso.md)
     * [Google SSO OAuth 2.0](user-guide/security-and-privacy/sign-in-sign-up/google-oauth-2.0.md)
     * [Google SSO SAML2](user-guide/security-and-privacy/sign-in-sign-up/google-sso-saml2.md)
