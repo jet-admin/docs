@@ -20,4 +20,4 @@ Add the following configuration record in your domain DNS settings:
 
 Click **Add Domain.** Typically, it takes from 5 mins to 24 hours to update your DNS.
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
