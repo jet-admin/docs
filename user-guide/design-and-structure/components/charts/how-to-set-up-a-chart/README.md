@@ -48,5 +48,5 @@ Another common use case for data formatting is displaying data in a currency whe
 
 Then, click on the Display button in the resource's menu. Finally, in the Tooltip Format field, enter the format that you want the information to be displayed in (for example, $0.00).
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (2) (4).png" alt=""><figcaption></figcaption></figure>
 
