@@ -10,7 +10,7 @@ Specify **Name** and **New members team** for newly created **External SSO**
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Go to Azure Active Directory -> App registrations and create new new Application
 
