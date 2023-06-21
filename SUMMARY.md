@@ -80,7 +80,7 @@
 * [🦄 Core concept](user-guide/core-concept/README.md)
   * [Jet UI](user-guide/jet-ui/README.md)
     * [App settings](user-guide/core-concept/jet-ui/layouts-and-branding/README.md)
-      * [Menu](user-guide/core-concept/jet-ui/layouts-and-branding/menu.md)
+      * [Navigation](user-guide/core-concept/jet-ui/layouts-and-branding/navigation.md)
       * [Sign Up](user-guide/core-concept/jet-ui/layouts-and-branding/sign-up.md)
       * [Appearance Settings](user-guide/core-concept/jet-ui/layouts-and-branding/appearance-settings.md)
       * [Custom Scripts & Styles](user-guide/core-concept/jet-ui/layouts-and-branding/custom-scripts-and-styles.md)
