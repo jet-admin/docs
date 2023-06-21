@@ -16,7 +16,7 @@ The navigation bar helps users find their way around your app. While in the buil
 
 There are two types of menu layouts **Vertical** and **Horizontal.** Each class has different visibility:
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="302"><figcaption></figcaption></figure>
 
 **Vertical  (Left positioning)**
 
@@ -33,9 +33,19 @@ There are two types of menu layouts **Vertical** and **Horizontal.** Each class 
 
 You can apply different colors to the menu background. Select menu -> click **Color**
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt="" width="312"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt="" width="312"><figcaption></figcaption></figure>
+
+### Manage menu Items
+
+There are three menu item positionings that you can put items depending on layout:
+
+* left/top&#x20;
+* center&#x20;
+* right/bottom
 
 
+
+#### Menu item Conditional Visibility
 
 
 
