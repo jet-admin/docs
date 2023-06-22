@@ -22,7 +22,7 @@ To change the email address that users will see when they receive transactional 
 
 Jet has three types of automatic, transactional emails: Email Verification, Password Restore, and User Invitation. Email verification is to ensure that your user has entered the correct email address, Password Restore is to help users recover access to their account if they forget their password, and User Invitation is for when you use the Invite Users function when sharing your app. These cover the basic functions for user login setup and troubleshooting, and you can customize each email template to suit your specific needs.
 
-<figure><img src="../../../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 To customize transactional email templates, click on the edit icon for the email template that you want to edit, and a template editor modal will appear. Here, you can customize the template however you like, and then you simply need to click _Save._
 

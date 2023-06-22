@@ -16,7 +16,7 @@ The navigation bar helps users find their way around your app. While in the buil
 
 There are two types of menu layouts **Vertical** and **Horizontal.** Each class has different visibility:
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt="" width="302"><figcaption></figcaption></figure>
 
 **Vertical  (Left positioning)**
 
@@ -33,7 +33,7 @@ There are two types of menu layouts **Vertical** and **Horizontal.** Each class 
 
 You can apply different colors to the menu background. Select menu -> click **Color**
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt="" width="312"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt="" width="312"><figcaption></figcaption></figure>
 
 ## Manage menu Items
 
@@ -54,27 +54,29 @@ Customize the menu items by:
 * Adding Components
 * Rearrange menu items
 
+![](<../../../../.gitbook/assets/image (3).png>)
+
 #### **Grouping menu items**
 
 Grouping allows you to group different menu items in sections or dropdowns.
 
 * Section
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../../.gitbook/assets/image (139).png>)
 
-![](<../../../../.gitbook/assets/image (48).png>)
+![](<../../../../.gitbook/assets/image (594).png>)
 
 * Dropdown
 
-![](<../../../../.gitbook/assets/image (67).png>)
+![](<../../../../.gitbook/assets/image (15).png>)
 
-![](<../../../../.gitbook/assets/image (22).png>)
+![](<../../../../.gitbook/assets/image (223).png>)
 
 * Separator
 
-![](<../../../../.gitbook/assets/image (24).png>)
+![](<../../../../.gitbook/assets/image (251).png>)
 
-#### ![](<../../../../.gitbook/assets/image (62).png>)
+#### ![](<../../../../.gitbook/assets/image (12).png>)
 
 #### **Menu item Links/References**
 
@@ -86,43 +88,45 @@ Grouping allows you to group different menu items in sections or dropdowns.
 * Open Activity log
 * Open Collaboration
 
+![](<../../../../.gitbook/assets/image (2).png>)
+
 #### **Menu Item Components**
 
 * App logo
 
-![](<../../../../.gitbook/assets/image (17).png>)
+![](<../../../../.gitbook/assets/image (119).png>)
 
-![](<../../../../.gitbook/assets/image (61).png>)
+![](<../../../../.gitbook/assets/image (11).png>)
 
 * Current user
 
-![](<../../../../.gitbook/assets/image (16).png>)
+![](<../../../../.gitbook/assets/image (68).png>)
 
-![](<../../../../.gitbook/assets/image (66).png>)
+![](<../../../../.gitbook/assets/image (14).png>)
 
 * Icon/Image
 
-![](<../../../../.gitbook/assets/image (73).png>)
+![](<../../../../.gitbook/assets/image (18).png>)
 
-![](<../../../../.gitbook/assets/image (69).png>)
+![](<../../../../.gitbook/assets/image (16).png>)
 
 * Button
 
-![](<../../../../.gitbook/assets/image (70).png>)
+![](<../../../../.gitbook/assets/image (17).png>)
 
-![](<../../../../.gitbook/assets/image (38).png>)
+![](<../../../../.gitbook/assets/image (554).png>)
 
 * Logout
 
-![](<../../../../.gitbook/assets/image (56).png>)
+![](<../../../../.gitbook/assets/image (885).png>)
 
 * App members
 
-![](<../../../../.gitbook/assets/image (58).png>)
+![](<../../../../.gitbook/assets/image (59).png>)
 
 * Toggle light/dark mode
 
-![](<../../../../.gitbook/assets/image (19).png>)
+![](<../../../../.gitbook/assets/image (180).png>)
 
 ###
 
@@ -132,9 +136,9 @@ Jet allows you to set up Conditional Visibility for each menu item.&#x20;
 
 Click on menu item settings -> **Customize item.**
 
-![](<../../../../.gitbook/assets/image (55).png>)
+![](<../../../../.gitbook/assets/image (884).png>)
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure>
 
 
 
