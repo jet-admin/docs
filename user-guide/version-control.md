@@ -22,7 +22,7 @@ The current state of Jet apps can be version-controlled and made available to us
 
 1. Click on Version History on the right-top bar
 
-<figure><img src="../.gitbook/assets/Untitled 9 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled 9 (3).jpg" alt=""><figcaption></figcaption></figure>
 
 2. Check the list of releases/snapshots. You can do the following actions:
 
@@ -30,7 +30,7 @@ The current state of Jet apps can be version-controlled and made available to us
 * Revert changes
 * Set up a release name
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### Create a new release
 
@@ -42,7 +42,7 @@ Click **Create snapshot** to create a version for release. You can also specify 
 
 You have the ability to revert the current working version to a previous state. Simply choose a historical point and hit the **Restore** button. While this action will undo all modifications made post the chosen point, it does not erase them from the historical record.
 
-<figure><img src="../.gitbook/assets/re.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/re (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Every time you perform a reversion, this action is also recorded in the history under the label **Reverted changes**. If necessary, you can revert back to a prior historical point to undo the reversion, thereby restoring the changes to the current working version.
 

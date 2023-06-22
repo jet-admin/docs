@@ -10,13 +10,13 @@ The navigation bar helps users find their way around your app. While in the buil
 2. Manage menu Items
 3. Set up the menu background color
 
-<figure><img src="../../../../.gitbook/assets/Untitled 9.jpg" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Untitled 9 (4).jpg" alt="" width="352"><figcaption></figcaption></figure>
 
-### Configure Menu Layout
+## Configure Menu Layout
 
 There are two types of menu layouts **Vertical** and **Horizontal.** Each class has different visibility:
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="302"><figcaption></figcaption></figure>
 
 **Vertical  (Left positioning)**
 
@@ -29,23 +29,114 @@ There are two types of menu layouts **Vertical** and **Horizontal.** Each class 
 * Secondary menu
 * Inner menu – if you would like to use a combination of a vertical and horizontal menu
 
-### Configure Menu Colors
+## Configure Menu Colors
 
 You can apply different colors to the menu background. Select menu -> click **Color**
 
-<figure><img src="../../../../.gitbook/assets/image (24).png" alt="" width="312"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14).png" alt="" width="312"><figcaption></figcaption></figure>
 
-### Manage menu Items
+## Manage menu Items
 
 There are three menu item positionings that you can put items depending on layout:
 
-* left/top&#x20;
-* center&#x20;
-* right/bottom
+1. left/top&#x20;
+2. center&#x20;
+3. right/bottom
+
+<figure><img src="../../../../.gitbook/assets/exp.jpg" alt="" width="375"><figcaption></figcaption></figure>
+
+### Menu item types
+
+Customize the menu items by:
+
+* Adding new links to your internal/external pages
+* Grouping menu items by using Group&#x20;
+* Adding Components
+* Rearrange menu items
+
+#### **Grouping menu items**
+
+Grouping allows you to group different menu items in sections or dropdowns.
+
+* Section
+
+![](<../../../../.gitbook/assets/image (18).png>)
+
+![](<../../../../.gitbook/assets/image (48).png>)
+
+* Dropdown
+
+![](<../../../../.gitbook/assets/image (67).png>)
+
+![](<../../../../.gitbook/assets/image (22).png>)
+
+* Separator
+
+![](<../../../../.gitbook/assets/image (24).png>)
+
+#### ![](<../../../../.gitbook/assets/image (62).png>)
+
+#### **Menu item Links/References**
+
+* Page
+* Custom Link
+* Open Home
+* Open User Profile
+* Open Users & Teams
+* Open Activity log
+* Open Collaboration
+
+#### **Menu Item Components**
+
+* App logo
+
+![](<../../../../.gitbook/assets/image (17).png>)
+
+![](<../../../../.gitbook/assets/image (61).png>)
+
+* Current user
+
+![](<../../../../.gitbook/assets/image (16).png>)
+
+![](<../../../../.gitbook/assets/image (66).png>)
+
+* Icon/Image
+
+![](<../../../../.gitbook/assets/image (73).png>)
+
+![](<../../../../.gitbook/assets/image (69).png>)
+
+* Button
+
+![](<../../../../.gitbook/assets/image (70).png>)
+
+![](<../../../../.gitbook/assets/image (38).png>)
+
+* Logout
+
+![](<../../../../.gitbook/assets/image (56).png>)
+
+* App members
+
+![](<../../../../.gitbook/assets/image (58).png>)
+
+* Toggle light/dark mode
+
+![](<../../../../.gitbook/assets/image (19).png>)
+
+###
+
+### Menu item Conditional Visibility
+
+Jet allows you to set up Conditional Visibility for each menu item.&#x20;
+
+Click on menu item settings -> **Customize item.**
+
+![](<../../../../.gitbook/assets/image (55).png>)
+
+<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 
-
-#### Menu item Conditional Visibility
 
 
 
