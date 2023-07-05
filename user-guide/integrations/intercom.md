@@ -15,7 +15,7 @@ Jet syncs the following Intercom data:
 * Contacts
 * Conversations
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Get Intercom Access Token
 

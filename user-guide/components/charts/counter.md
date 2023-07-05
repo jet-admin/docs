@@ -27,7 +27,7 @@ Comparisons show the percent change between the Single Value and another value o
 
 To set up a comparison, click on **Add comparison** in the Single Value chart menu. Then, you will need to choose the desired dataset, what exact data to use for the comparison, and add any filters you might want.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (3).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="./" %}
 [.](./)

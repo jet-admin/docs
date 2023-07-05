@@ -51,7 +51,7 @@ To set up a specific value for a Variable go to Action and choose **Set Variable
 
 <figure><img src="../../.gitbook/assets/setup.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 

@@ -6,7 +6,7 @@ description: Jet Admin Billing Overview
 
 To manage your subscriptions, simply go to the Billing & Plans settings:
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
