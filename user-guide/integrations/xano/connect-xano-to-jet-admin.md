@@ -26,7 +26,7 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (2).png" alt=""><figcaption></figcaption></figure>
 
  
 

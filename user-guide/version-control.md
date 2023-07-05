@@ -10,7 +10,7 @@ Releases enable users to implement app versioning and release changes using a un
 
 Jet keeps a detailed record of all modifications made, allowing users to browse the list of versions and revert the app to a previous state if necessary.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Releases
 
@@ -30,7 +30,7 @@ The current state of Jet apps can be version-controlled and made available to us
 * Revert changes
 * Set up a release name
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Create a new release
 

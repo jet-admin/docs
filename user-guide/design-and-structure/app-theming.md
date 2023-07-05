@@ -14,7 +14,7 @@ There are two defaults themes:
 
 * Dark
 
-<figure><img src="../../.gitbook/assets/image (27) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 
 

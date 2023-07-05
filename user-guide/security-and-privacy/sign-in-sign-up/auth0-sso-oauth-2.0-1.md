@@ -2,13 +2,13 @@
 
 ### 1. Go to Sign In & Sign Up -> Authentication
 
-<figure><img src="../../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Create a new External SSO
 
 Specify **Name** and **New members team** for newly created **External SSO**
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +21,7 @@ In **Redirect URI (optional)** section fill the following fields
 
 <figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Copy credentials to Jet Admin
 
@@ -29,7 +29,7 @@ In **Redirect URI (optional)** section fill the following fields
 * Then open **Certificates & secrets** page, create new **Client secret** and copy it's **Value** to Jet Admin **Client Secret**
 * You should also set **Scope** to **openid,profile,email,offline\_access**.
 
-<figure><img src="../../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
