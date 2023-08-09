@@ -128,6 +128,7 @@
   * [Twilio](user-guide/integrations/twilio.md)
   * [Mixpanel](user-guide/integrations/mixpanel.md)
   * [Snowflake](user-guide/integrations/snowflake.md)
+  * [OpenAI and Jet Admin](user-guide/integrations/openai-and-jet-admin.md)
   * [MariaDB](user-guide/integrations/mariadb.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
