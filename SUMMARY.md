@@ -45,7 +45,12 @@
 * [📣 What's new](https://feedback.jetadmin.io/changelog)
 * [🔐 Data Privacy & Security](data-privacy-and-security.md)
 * [🙌 Join the Community](join-the-community.md)
-* [🐞 Troubleshoot](troubleshoot.md)
+* [🐞 FAQ and Troubleshooting](faq-and-troubleshooting/README.md)
+  * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)
+  * [How to clone the whole app?](faq-and-troubleshooting/how-to-clone-the-whole-app.md)
+  * [Why new SQL tables are not showing?](faq-and-troubleshooting/why-new-sql-tables-are-not-showing.md)
+  * [How to restrict input in a text field?](faq-and-troubleshooting/how-to-restrict-input-in-a-text-field.md)
+  * [Troubleshooting Django integration](faq-and-troubleshooting/troubleshooting-django-integration.md)
 
 ## Guides <a href="#getting-started" id="getting-started"></a>
 
