@@ -74,3 +74,22 @@ Show custom notification.
 Export data from the table.
 
 ![](../../.gitbook/assets/testgif37.gif)
+
+### Download File
+
+Select a Component and Action. Then choose a component and select the action that will occur when clicked.
+
+<figure><img src="../../.gitbook/assets/dfile 1.gif" alt=""><figcaption></figcaption></figure>
+
+&#x20;Pick a resource and choose an operation to select a collection or write SQL queries.
+
+This will generate a JSON file with the data.
+
+<figure><img src="../../.gitbook/assets/dfile 2.gif" alt=""><figcaption></figcaption></figure>
+
+### Copy to clipboard
+
+You can set up actions to copy data to the clipboard. This works with all components. To configure it, click 'Actions' and choose whether to set it up with a formula or static text.
+
+<figure><img src="../../.gitbook/assets/action 2.gif" alt=""><figcaption></figcaption></figure>
+
