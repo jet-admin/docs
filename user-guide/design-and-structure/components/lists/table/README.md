@@ -36,6 +36,19 @@ Any `table` in Jet Admin has the `selected row` function that can be used to tri
 
 ### Grouping Rows in Tables
 
+Jet Admin lets you group table rows together to better organize your data.\
+To do this, go to the Display section and scroll down to 'Group By'.
+
+<figure><img src="../../../../../.gitbook/assets/group by 2 (1).gif" alt=""><figcaption></figcaption></figure>
+
+Choose the field to group rows by, enter a label for each group, and pick a color to highlight the groups.\
+\
+
+
+<figure><img src="../../../../../.gitbook/assets/group by 3 (1).gif" alt=""><figcaption></figcaption></figure>
+
+### Grouping Rows in Tables
+
 Jet Admin lets you group table rows together to better organize your data.
 
 To do this, go to the Display section and scroll down to 'Group By'.

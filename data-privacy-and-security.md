@@ -39,11 +39,3 @@ To prevent bad consequences for your business, Jet Admin automatically creates a
 Since Jet Admin doesn’t require access to your data, you are free to host your admin’s API under DMZ or VPN network. Once you do that, your admin panel will be separated from your public network, leaving no chance for malicious attacks or remote rooting. This might be on a checklist for some large healthcare and financial companies that can be held liable for clients’ personal information. In most cases though, it is not a necessity.
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LQ08RFAKZvFADEiXKFy%2F-LqpSrnI1pd1VctEG1LG%2F-LqpT2hOOG5k1OjEq6wb%2Fhow-it-works-dmz%402x.png?alt=media\&token=95609ba5-139e-4fe6-96e5-d04f0bfc51be)
-
-### IP Whitelisting <a href="#ip-whitelisting" id="ip-whitelisting"></a>
-
-When your company grows to an enterprise, it is especially hard to track how many people end up having access to your data. Not to be dramatic, but there is always a possibility for an insider attack. Thanks to the IP Whitelisting feature, you can create a list of the IP addresses you trust to interact with your Jet admin panel.
-
-![](https://gblobscdn.gitbook.com/assets%2F-LQ08RFAKZvFADEiXKFy%2F-MGOKqrFcjeSkw6nnATM%2F-MGOTdTe6mXTbHxt3C3W%2Fimage.png?alt=media\&token=2ab666d4-64f4-4442-99f5-df9da7aee466)
-
-![](<.gitbook/assets/image (739).png>)

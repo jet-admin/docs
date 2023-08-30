@@ -79,6 +79,18 @@ Export data from the table.
 
 Select a Component and Action. Then choose a component and select the action that will occur when clicked.
 
+<figure><img src="../../.gitbook/assets/dfile 1 (1).gif" alt=""><figcaption></figcaption></figure>
+
+Define the Resource and Operation. Pick a resource and choose an operation to select a collection or write SQL queries.
+
+This will generate a JSON file with the data.
+
+<figure><img src="../../.gitbook/assets/dfile 2 (1).gif" alt=""><figcaption></figcaption></figure>
+
+### Download File
+
+Select a Component and Action. Then choose a component and select the action that will occur when clicked.
+
 <figure><img src="../../.gitbook/assets/dfile 1.gif" alt=""><figcaption></figcaption></figure>
 
 &#x20;Pick a resource and choose an operation to select a collection or write SQL queries.
