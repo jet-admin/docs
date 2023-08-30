@@ -12,11 +12,13 @@ Click on the _Connect Domain_ button and follow the instructions in the window. 
 
 ## Customizing _From_ email address
 
-To change the email address that users will see when they receive transactional emails and messages from your app, simply click in the _From email address_ text field, and enter the desired email address. Like with the custom domain, you will need to add CNAME records in your DNS settings to send emails using your domain.
+To change the email address that users will see when they receive transactional emails and messages from your app, simply click in the _From email address_ text field, and enter the desired email address. Like with the custom domain, you will need to add CNAME records in your DNS settings to send emails using your domain.\
+\
+You'll see a pop-up with 3 CNAME records that you need to add to your domain settings.
 
-<figure><img src="https://lh3.googleusercontent.com/QHtCx_boWJIVQ3Ocj1S24AFSPTK2TOIcG4XHE0kQUqx7WEWlqsP4OhZBKe5g9fhCKXuekj19YRDTJ1BEM5lV9VfYZzXP1rKSLVtIWMt2JRLGGuN-ksGdGEFPipkYclZJn1h9CWNUVoATLXk=s2048" alt=""><figcaption></figcaption></figure>
+On some websites, the **Name** (Host/Domain) field may also be called **Subdomain**, while the **Destination** (Target/Value) field may be called **Canonical Name**.
 
-<figure><img src="https://lh6.googleusercontent.com/Tz0p811Z8QWayB3OvR3XPvSwsVMnl2N3ETs7GY-Vs1_Pv_WVjVdMvPVqgNeKhrvSiwn9Xw-0JaIpA-RYWvlImbMJV4kSVCUZeojVThWk702DS0JZPaxaT-VX_AO2bFs5Wy7VCyxScACjoWY=s2048" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-01 at 04.16.18.png" alt=""><figcaption></figcaption></figure>
 
 ## Customizing transactional emails
 
