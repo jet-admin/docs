@@ -33,3 +33,26 @@ You can enable Search for your table, just enable the flag:
 Any `table` in Jet Admin has the `selected row` function that can be used to trigger all sorts of actions as well as fetching values from selected records:
 
 ![](../../../../../.gitbook/assets/Components6.gif)
+
+### Grouping Rows in Tables
+
+Jet Admin lets you group table rows together to better organize your data.
+
+To do this, go to the Display section and scroll down to 'Group By'.
+
+<figure><img src="../../../../../.gitbook/assets/group by 2.gif" alt=""><figcaption></figcaption></figure>
+
+Choose the field to group rows by, enter a label for each group, and pick a color to highlight the groups.
+
+<figure><img src="../../../../../.gitbook/assets/group by 3.gif" alt=""><figcaption></figcaption></figure>
+
+### Hiding Filters from Filter
+
+Hiding fields lets you only show preferred filters in the list.
+
+Go to 'Display Filters' and you can disable all filters, which removes the filter icon completely.
+
+Or choose to hide some filters by clicking the toggle button next to each one.
+
+<figure><img src="../../../../../.gitbook/assets/filter 1.gif" alt=""><figcaption></figcaption></figure>
+
