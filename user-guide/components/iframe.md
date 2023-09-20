@@ -1,3 +1,9 @@
+---
+description: >-
+  To display content from another website in your Jet Admin application, you can
+  use an iFrame. This page explains the steps for embedding an iFrame.
+---
+
 # IFrame
 
 An embedded web page that supports permissions to allow or deny downloads, form submissions, microphone, and camera access, and popups.
