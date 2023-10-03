@@ -10,13 +10,7 @@ Unique project name (can be taken from Jet Admin project URL)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
-Token authentication, example: 
-
-\
-
-
-
-
+Token authentication, example: \
 `Authorization: Bearer f42a3cab3f146b283701a4e314f1c7ba57fdb59e`
 {% endswagger-parameter %}
 

@@ -30,21 +30,13 @@ HTTP URL
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="query_params" type="array" %}
-JSON formatted array, for example:
-
-\
-
-
+JSON formatted array, for example:\
 \[{"foo":"q","value":"bar"}]
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="headers" type="array" %}
-JSON formatted array, for example:
-
-\
-
-
-\[{"name":"Authorization","value":"Header {-sso.9b4348ec965d4c68818aec4e15dc536f.access_token-}"}] 
+JSON formatted array, for example:\
+\[{"name":"Authorization","value":"Header {-sso.9b4348ec965d4c68818aec4e15dc536f.access\_token-}"}]&#x20;
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="body_type" type="string" %}
@@ -56,12 +48,8 @@ Body depending on selected Body type
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="secret_tokens" type="string" %}
-Comma separated list of used secret tokens, for example:
-
-\
-
-
-sso.9b4348ec965d4c68818aec4e15dc536f.access_token
+Comma separated list of used secret tokens, for example:\
+sso.9b4348ec965d4c68818aec4e15dc536f.access\_token
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Response returned by provided HTTP URL" %}

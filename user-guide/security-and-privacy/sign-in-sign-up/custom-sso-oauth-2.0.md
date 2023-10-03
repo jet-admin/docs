@@ -22,7 +22,7 @@ These are global parameters generated on your side
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="client_id" required="true" %}
-CLIENT_ID
+CLIENT\_ID
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="state" required="true" %}
@@ -30,11 +30,7 @@ Special OAuth2 generated code, created on Jet Admin side
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="redirect_uri" required="true" %}
-ex. https://api.jetadmin.io/complete/custom_oauth_2/
-
-\
-
-
+ex. https://api.jetadmin.io/complete/custom\_oauth\_2/\
 Should be as specified here, you can validate it on your side (optionally)
 {% endswagger-parameter %}
 
@@ -43,11 +39,7 @@ code
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="scope" required="true" %}
-ex. "openid profile offline_access"
-
-\
-
-
+ex. "openid profile offline\_access"\
 Depends on your implementation, should be minimal scope needed to get user profile (first name, last name, email)
 {% endswagger-parameter %}
 {% endswagger %}
@@ -92,7 +84,7 @@ consent
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="grant_type" required="true" %}
-authorization_code
+authorization\_code
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="code" required="true" %}
@@ -100,15 +92,15 @@ Special OAuth2 generated code, created on Custom provider side
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="client_id" %}
-CLIENT_ID
+CLIENT\_ID
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="client_secret" required="true" %}
-CLIENT_SECRET
+CLIENT\_SECRET
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="redirect_uri" required="true" %}
-https://api.jetadmin.io/complete/custom_oauth_2/
+https://api.jetadmin.io/complete/custom\_oauth\_2/
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -147,7 +139,7 @@ Can be the same as Access token URL, but with different data
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="grant_type" required="true" %}
-refresh_token
+refresh\_token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="refresh_token" required="true" %}
@@ -155,11 +147,11 @@ refresh_token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="client_id" %}
-CLIENT_ID
+CLIENT\_ID
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="client_secret" required="true" %}
-CLIENT_SECRET
+CLIENT\_SECRET
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
