@@ -1,8 +1,18 @@
 ---
-description: All of the most important Computed Values in Jet
+description: >-
+  Сomputed columns give you the ability to do customize the values of column and
+  implement computational processes using formula.
 ---
 
 # 🔢 Computed Column
+
+Computed columns allow you to implement mathematical functions, concatenate column values, set logical conditions, generate random values and more.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Computed columns are used for viewing purposes only. Which means editing, filtering, and sorting features are not available on computed columns.
+{% endhint %}
 
 Here are the articles in this section:
 
