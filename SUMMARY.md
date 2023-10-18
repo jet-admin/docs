@@ -285,6 +285,7 @@
   * [Users API](user-guide/jet-admin-api/project-users.md)
   * [Teams API](user-guide/jet-admin-api/project-teams.md)
   * [Projects API](user-guide/jet-admin-api/projects-api.md)
+  * [Pages API](user-guide/jet-admin-api/pages-api.md)
   * [HTTP requests API](user-guide/jet-admin-api/http-requests-api.md)
 
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
