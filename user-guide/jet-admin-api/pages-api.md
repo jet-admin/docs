@@ -18,6 +18,10 @@ Token authentication, example: \
 Unique environment name (can be taken from Jet Admin project URL)
 {% endswagger-parameter %}
 
+{% swagger-parameter in="query" name="draft" %}
+1 or 0, default is 0
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="" %}
 ```json
 [
@@ -59,6 +63,10 @@ Unique environment name (can be taken from Jet Admin project URL)
 
 {% swagger-parameter in="path" name="UID" required="true" %}
 Page unique ID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="draft" %}
+1 or 0, default is 0
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
