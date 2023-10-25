@@ -114,7 +114,7 @@ Grouping allows you to group different menu items in sections or dropdowns.
 
 ![](<../../../../.gitbook/assets/image (102).png>)
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 * Logout
 
@@ -122,7 +122,7 @@ Grouping allows you to group different menu items in sections or dropdowns.
 
 * App members
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../../.gitbook/assets/image (3) (6).png>)
 
 * Toggle light/dark mode
 
