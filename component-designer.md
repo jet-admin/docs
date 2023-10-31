@@ -6,21 +6,21 @@ description: Customized App Components Without Coding. Similar to Figma
 
 Create custom pixel-perfect components using Component Designer. Enabled to create, design, and modify their components with various options: creating components, providing states, giving styles, intuitive event handlers, seamless data connections (REST, GraphQL & Beyond), direct Figma & Sketch Imports.
 
+<figure><img src=".gitbook/assets/component_img (1).jpg" alt=""><figcaption></figcaption></figure>
+
 Explore ready-to-use 50+ components in our Components Marketplace.
 
-<figure><img src=".gitbook/assets/component_img (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
 There are two options for how you can utilize Custom Components:
 
 * **Cards in List components** (Gallery, Kanban, Map, Calendar, Timeline)
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 * **Standalone components**
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (893).png" alt=""><figcaption></figcaption></figure>
 
 ### Customize your Components
 
@@ -35,10 +35,6 @@ Component Designer has five distinct regions:&#x20;
 3. Left sidebar – gives you access to layers. Explore any layers on the canvas.
 4. Canvas – is your working area where you’ll arrange layers to create your designs. You’ll find lots of room to explore and iterate on your ideas.
 5. Right sidebar – access more information about your designs. With a layer selected, you can explore the properties of your current selection.
-
-
-
-
 
 ### Component Responsiveness
 
