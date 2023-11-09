@@ -115,6 +115,7 @@
   * [GraphQL](user-guide/integrations/graphql.md)
   * [Supabase](user-guide/integrations/supabase.md)
   * [Django](user-guide/integrations/django-framework-package.md)
+  * [MySQL](user-guide/integrations/mysql.md)
   * [Xano](user-guide/integrations/xano/README.md)
     * [Create APIs on top of your Xano database](user-guide/integrations/xano/create-apis-on-top-of-your-xano-database.md)
     * [Connect Xano to Jet Admin](user-guide/integrations/xano/connect-xano-to-jet-admin.md)

@@ -1,6 +1,6 @@
 # 🎓 Academy
 
-In Jet Academy, you'll be able to learn both the fundamentals of Jet Admin as well as more advanced topics through a series of **short tutorial videos**.
+In Jet Academy, you'll be able to learn both the fundamentals of Jet Admin and more advanced topics through a series of **short tutorial videos**.
 
 To navigate Academy, click on the topic in the menu on the left to open its contents, or get started with the most basic functions:
 
