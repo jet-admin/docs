@@ -159,6 +159,7 @@
   * [Calculated values in column](user-guide/computed-columns/calculated-values-in-column.md)
 * [🎨 Design & Structure](user-guide/design-and-structure/README.md)
   * [Customizing Pages](user-guide/design-and-structure/pages.md)
+    * [Load Data (Page Query)](user-guide/design-and-structure/pages/load-data-page-query.md)
     * [Page Opens Action](user-guide/design-and-structure/pages/page-opens-action.md)
     * [Home Page](user-guide/design-and-structure/pages/home-page.md)
   * [Components](user-guide/components/README.md)
