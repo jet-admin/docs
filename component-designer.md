@@ -18,9 +18,15 @@ There are two options for how you can utilize Custom Components:
 
 <figure><img src=".gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
-* **Standalone components**
+* **Standalone components** (Profile headers, documents, summary, banners)
 
 <figure><img src=".gitbook/assets/image (893).png" alt=""><figcaption></figcaption></figure>
+
+* **Record fields** (health, metrics, user/product)
+
+<figure><img src=".gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Customize your Components
 
@@ -30,11 +36,19 @@ If you're new to Component Designer, it's normal to feel lost when opening a fil
 
 Component Designer has five distinct regions:&#x20;
 
-1. Toolbar – find tools to create frames, shapes, text, and other layers. These will be the building blocks of your designs.
-2. Parameters – allow you to pass dynamic variables from your app to the component
-3. Left sidebar – gives you access to layers. Explore any layers on the canvas.
-4. Canvas – is your working area where you’ll arrange layers to create your designs. You’ll find lots of room to explore and iterate on your ideas.
-5. Right sidebar – access more information about your designs. With a layer selected, you can explore the properties of your current selection.
+1. **Toolbar** – find tools to create frames, shapes, text, and other layers. These will be the building blocks of your designs.
+2. **Parameters** – allow you to pass dynamic variables from your app to the component
+3. **Left sidebar** – gives you access to layers. Explore any layers on the canvas.
+4. **Canvas** – is your working area where you’ll arrange layers to create your designs. You’ll find lots of room to explore and iterate on your ideas.
+5. **Right sidebar** – access more information about your designs. With a layer selected, you can explore the properties of your current selection.
+
+### Create the first custom component
+
+
+
+
+
+
 
 ### Component Responsiveness
 
