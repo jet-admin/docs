@@ -12,9 +12,9 @@ You can connect to Airtable from the data tab on the left menu bar or from the d
 Unlike in Airtable, in Jet Admin you can link between bases.
 {% endhint %}
 
-![](../../.gitbook/assets/dtnxcfy.png)
-
 {% @arcade/embed flowId="KEux0JTAf7ytDVbY7h5n" url="https://app.arcade.software/share/KEux0JTAf7ytDVbY7h5n" %}
+
+![](../../.gitbook/assets/dtnxcfy.png)
 
 ### Entering an API key
 
