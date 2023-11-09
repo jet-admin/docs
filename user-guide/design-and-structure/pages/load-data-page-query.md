@@ -1,28 +1,29 @@
 ---
-description: >-
-  Load Data feature allows you to retrieve a record or a set of data up to 20
-  records to use on the current page.
+description: Load and Query your data collection/record to your page
 ---
 
 # Load Data (Page Query)
 
-**Load Data** allows you to retrieve data from the [resources](../../integrations/), a [workflow](../../workflow/), or a page component (specify data) and set filters depending on the page's different use cases. Then use this data collection as a source for the current page components. such as [charts ](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select ](../../components/fields/select.md)and [multiple select](../components/form/multiple-select.md) components.
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../integrations/), [workflow](../../workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../../components/fields/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
 
-### To add a **Load Data** to your page follow the steps below:
+**Load Data** is ideal for scenarios where:
 
-1- Click the 'Actions' button in the top left menu;\
-2- Click the 'Add Query' button in the 'LOAD DATA' section;\
-3- Choose 'Get one record' to retrieve one row from a data resource, or 'Get list of records' to retrieve a set of maximum 20 records from a data resource;\
-4- Rename your Page Query dataset;\
-5- Choose 'Load Data' to retrieve the data from the data resources;\
-6- Choose the needed data resource;\
-7- Choose the needed collection.\
+* Multiple components utilize a common data source for enhanced page efficiency
+* A single component employs numerous collections for data visualization
 
+### Load Data from Collection
 
 <figure><img src="../../../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
 
-To load data from a custom [workflow](../../workflow/), choose 'Choose using workflow'. To load data from a specific page component or [variable](../../binding-and-values/temporary-and-stored-variables.md), choose 'Specify Data'.\
+1. Click **Actions** button in the top left menu
+2. Click **Add Query** button in the **LOAD DATA** section
+3. Select **Get one record** to retrieve one row from a data resource, or **Get the list of records** to retrieve a set of maximum of 20 records from a data resource
+4. Rename your Page Query
+5. Select **Load Data** to retrieve the data from the data resources
+6. Select **Data resource**
+7. Select **Collection**
 
+### **Load Data from Workflow or JSON**
 
 <div align="left">
 
@@ -30,11 +31,10 @@ To load data from a custom [workflow](../../workflow/), choose 'Choose using wor
 
 </div>
 
-## Filter the Load Data
+## Filter loaded data
 
-To apply filters statically or dynamically using a value from other components, click the 'Add' button in the 'Apply Filters' section. Choose the column you need to filter then choose the type of filtering you need to apply.\
-\
-
+1. In the **Apply Filters** section, click on **Add** to implement filters either statically or dynamically by using a value from other components.&#x20;
+2. Choose the column you would like to filter and then decide on the kind of filter you want to use.
 
 <div align="left" data-full-width="false">
 
