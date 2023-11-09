@@ -9,10 +9,12 @@ In this article, we'll review the integration with Airtable, and its characteris
 You can connect to Airtable from the data tab on the left menu bar or from the data section within a UI component. You'll need to enter a valid API key (1) and choose a base (2).
 
 {% hint style="info" %}
-Unlike in Airtable, in Jet Admin you can link between bases
+Unlike in Airtable, in Jet Admin you can link between bases.
 {% endhint %}
 
 ![](../../.gitbook/assets/dtnxcfy.png)
+
+{% @arcade/embed flowId="KEux0JTAf7ytDVbY7h5n" url="https://app.arcade.software/share/KEux0JTAf7ytDVbY7h5n" %}
 
 ### Entering an API key
 
