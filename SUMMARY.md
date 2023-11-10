@@ -79,6 +79,7 @@
   * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
     * [Documint](getting-started/part-2-intermediate/generate-invoice-or-document/documint.md)
 * [📧 Send Emails](getting-started/send-emails.md)
+* [🎨 Pixel Perfect App](getting-started/pixel-perfect-app.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
