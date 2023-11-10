@@ -66,11 +66,23 @@ Component Conditional Visibility allows you to show/hide the element (text, shap
 
 ### Layout
 
+**Layout** allows you to do the following operations:
+
+* Adjusting Position (X and Y Coordinates)
+* Modifying Width and Height
+* Rotating elements
+* Adjusting Corner Radius
+* Flipping vertically over their X-axis and/or horizontally over the Y axis
+* Set Element Opacity
+* Blend modes (allow you to define how you want two layers to blend together)
+
 <figure><img src=".gitbook/assets/image (908).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Fills
+
+Paints are colors, gradients, or images. Fills are just one of the ways you can use paints in Jet.
+
+Apply paints to text layers, or any vector object, this includes shapes, vector networks, and boolean groups. You can add, adjust, and remove fills in the **Fill** section of the right sidebar.
 
 <figure><img src=".gitbook/assets/image (901).png" alt=""><figcaption></figcaption></figure>
 
@@ -78,9 +90,24 @@ Component Conditional Visibility allows you to show/hide the element (text, shap
 
 ### Borders
 
+
+
 <figure><img src=".gitbook/assets/image (906).png" alt=""><figcaption></figcaption></figure>
 
-### Shadows
+### Apply shadow or blur effects
+
+Effects serve several purposes, from aesthetic to functional. They can enable you to signify that an element is interactive, like making a button look clickable by giving the rectangle a shadow.
+
+Blurs can shift and identify inactive or inaccessible elements, like thumbnails for unlocked game levels, or provide a visual hierarchy to focus a user's attention on a dialog box.
+
+In Jet, there are four types of effects:
+
+* Drop shadow
+* Inner shadow
+* Layer blur
+* Background blur
+
+Jet lets you add eight of each shadow effect, and one of each blur effect to a selection.
 
 <figure><img src=".gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
 
