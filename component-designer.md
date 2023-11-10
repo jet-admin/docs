@@ -26,8 +26,6 @@ There are two options for how you can utilize Custom Components:
 
 <figure><img src=".gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
 
-###
-
 ### Customize your Components
 
 If you're new to Component Designer, it's normal to feel lost when opening a file. We’ll take you on a tour so you can orient yourself.
@@ -62,8 +60,6 @@ Component Conditional Visibility allows you to show/hide the element (text, shap
 
 <figure><img src=".gitbook/assets/image (905).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Layout
 
 **Layout** allows you to do the following operations:
@@ -88,7 +84,7 @@ Apply paints to text layers, or any vector object, this includes shapes, vector 
 
 
 
-### Borders
+### Borders/Stroke
 
 Strokes are a collection of properties you can apply to layers in design files. You can think of strokes as the visual representation of a vector path. Use stroke properties to:
 
@@ -127,6 +123,8 @@ Create responsive components using Resizing. Resizing allows you to handle the p
 <figure><img src=".gitbook/assets/image (888).png" alt=""><figcaption></figcaption></figure>
 
 #### Resize Elements
+
+Resizing is a dynamic and essential feature in design that enables components to adapt seamlessly to their content. For instance, buttons can expand with the text, and lists can grow as items are added. It can be applied to elements in Canvas to manage padding, spacing, and alignment, simplifying the process of making designs adaptive and responsive.
 
 <figure><img src=".gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
 
