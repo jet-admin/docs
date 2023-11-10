@@ -90,7 +90,12 @@ Apply paints to text layers, or any vector object, this includes shapes, vector 
 
 ### Borders
 
+Strokes are a collection of properties you can apply to layers in design files. You can think of strokes as the visual representation of a vector path. Use stroke properties to:
 
+* Add outlines around shapes, vector networks, or boolean operations
+* Create lines and arrows
+* Add borders to images
+* Add strokes to individual sides of rectangular layers, like rectangles, frames, and components.
 
 <figure><img src=".gitbook/assets/image (906).png" alt=""><figcaption></figcaption></figure>
 
