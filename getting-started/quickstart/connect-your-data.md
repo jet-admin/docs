@@ -23,6 +23,9 @@ Once you have downloaded the CSV files, follow the steps:
 
 {% @arcade/embed flowId="OcDA6NlTW7qooOE72OIg" url="https://app.arcade.software/share/OcDA6NlTW7qooOE72OIg" %}
 
-{% content-ref url="set-the-layout.md" %}
-[set-the-layout.md](set-the-layout.md)
+
+
+{% content-ref url="configure-data.md" %}
+[configure-data.md](configure-data.md)
 {% endcontent-ref %}
+

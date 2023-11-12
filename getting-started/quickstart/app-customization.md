@@ -12,3 +12,8 @@ The menu is a great component when you would like to implement navigation betwee
 
 {% @arcade/embed flowId="Nw4ELeDJtHzDswUJENac" url="https://app.arcade.software/share/Nw4ELeDJtHzDswUJENac" %}
 
+
+
+{% content-ref url="publish-your-app.md" %}
+[publish-your-app.md](publish-your-app.md)
+{% endcontent-ref %}

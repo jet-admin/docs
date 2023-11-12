@@ -25,3 +25,9 @@ In this tutorial, we'll set up a system to automatically send notifications to t
 4. **Show notifications**. Use the same logic to implement notifications.
 
 {% @arcade/embed flowId="efqZNcKZhvcZqqyfucne" url="https://app.arcade.software/share/efqZNcKZhvcZqqyfucne" %}
+
+
+
+{% content-ref url="app-customization.md" %}
+[app-customization.md](app-customization.md)
+{% endcontent-ref %}

@@ -46,3 +46,10 @@ To update a deal, the user must select the corresponding row in the Table. You c
 
 {% @arcade/embed flowId="A9bZJki3hDolQGhFqDZu" url="https://app.arcade.software/share/A9bZJki3hDolQGhFqDZu" %}
 
+
+
+
+
+{% content-ref url="run-actions.md" %}
+[run-actions.md](run-actions.md)
+{% endcontent-ref %}

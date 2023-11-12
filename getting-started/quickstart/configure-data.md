@@ -32,3 +32,8 @@ Next, we will focus on extracting and inserting the **Company logo** into the **
 
 {% @arcade/embed flowId="bfEhFWmRJsRH59Mk0jLj" url="https://app.arcade.software/share/bfEhFWmRJsRH59Mk0jLj" %}
 
+
+
+{% content-ref url="set-the-layout.md" %}
+[set-the-layout.md](set-the-layout.md)
+{% endcontent-ref %}
