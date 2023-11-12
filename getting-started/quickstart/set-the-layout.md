@@ -38,6 +38,10 @@ The final component to add is a Form component. This component will allow you to
 
 {% @arcade/embed flowId="CSycxxwLOkyFXhQrqax6" url="https://app.arcade.software/share/CSycxxwLOkyFXhQrqax6" %}
 
+Every field in the Form is individually configurable: you can add or remove fields from the Form, alter the field type, rearrange the order of the fields, and change appearance.
+
+{% @arcade/embed flowId="mEmk4at1wRPLQJIEsc7p" url="https://app.arcade.software/share/mEmk4at1wRPLQJIEsc7p" %}
+
 {% content-ref url="display-customers.md" %}
 [display-customers.md](display-customers.md)
 {% endcontent-ref %}
