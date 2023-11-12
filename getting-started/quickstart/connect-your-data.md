@@ -6,8 +6,8 @@ This guide focuses on using [Jet Table](../../user-guide/integrations/jet-tables
 
 To insert test data into the Jet Database, first download the following provided CSV files:
 
-* [Deals](https://res.cloudinary.com/djpvkoh3s/raw/upload/v1699733056/csv%20samples/xuh4l4yizbrwktvbxoae.csv)
-* [Companies](https://res.cloudinary.com/djpvkoh3s/raw/upload/v1699733056/csv%20samples/oqak5ieur1t4rgvjkwdx.csv)
+* [Deals](https://res.cloudinary.com/djpvkoh3s/raw/upload/v1699769136/csv%20samples/lzhlxcnvtyvsu6jrl5mx.csv)
+* [Companies](https://res.cloudinary.com/djpvkoh3s/raw/upload/v1699769136/csv%20samples/jrhpf9oosuuozugee4rn.csv)
 
 Once you have downloaded the CSV files, follow the steps:
 
