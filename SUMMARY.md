@@ -58,7 +58,7 @@
 * [🛠 Building an Internal Tool](getting-started/quickstart/README.md)
   * [Connect your Data](getting-started/quickstart/connect-your-data.md)
   * [Configure Data](getting-started/quickstart/configure-data.md)
-  * [Set the Layout](getting-started/quickstart/set-the-layout.md)
+  * [Build UI](getting-started/quickstart/set-the-layout.md)
   * [Display Customers](getting-started/quickstart/display-customers.md)
   * [Add Input Fields](getting-started/quickstart/add-input-fields.md)
   * [Link Components](getting-started/quickstart/link-components.md)

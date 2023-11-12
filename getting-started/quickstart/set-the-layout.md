@@ -1,6 +1,12 @@
-# Set the Layout
+---
+description: Discover how to utilize components to build your app's user interface
+---
 
-Jet Admin provides the library of pre-built **UI components**, such as `Table`, `Map`, `Gallery`, or `Charts` that you can **drag and drop** to display your data. As well as the `Layout` components that are used to assemble other components on the page.
+# Build UI
+
+Components are prebuilt UI elements your users engage in, such as `Tables`, `Forms`, `Buttons`. In this example, only a limited number of components are used, you can explore 50+ Components in the UI Component Library. Drag-and-drop components within **Layout** `Columns`, `Tabs`, and `Modals`, facilitating the building of your app.
+
+The app you're going to build will allow you to create/update Deals data. To enable this functionality, you'll add `Table`, `Forms`, and `Modals`. Learn more about [Jet UI Concept](../../user-guide/jet-ui/) in our documentation.
 
 ### Set the Layout
 
