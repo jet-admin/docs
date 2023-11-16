@@ -81,12 +81,11 @@
   * [Designing your component](getting-started/pixel-perfect-app/designing-your-component.md)
   * [Adding Images](getting-started/pixel-perfect-app/adding-images.md)
   * [Add Frame to Image](getting-started/pixel-perfect-app/add-frame-to-image.md)
-  * [Passing data](getting-started/pixel-perfect-app/passing-data.md)
-  * [Add text](getting-started/pixel-perfect-app/add-text.md)
-  * [Add text](getting-started/pixel-perfect-app/add-text-1.md)
-  * [Passing and binding the data with elements](getting-started/pixel-perfect-app/passing-and-binding-the-data-with-elements.md)
-  * [Conditional Visibility](getting-started/pixel-perfect-app/conditional-visibility.md)
-  * [Responsiveness](getting-started/pixel-perfect-app/responsiveness.md)
+  * [Pass values to Image](getting-started/pixel-perfect-app/pass-values-to-image.md)
+  * [Pass values to Text Field](getting-started/pixel-perfect-app/pass-values-to-text-field.md)
+  * [Binding data with Component Designer](getting-started/pixel-perfect-app/binding-data-with-component-designer.md)
+  * [Hide elements](getting-started/pixel-perfect-app/hide-elements.md)
+  * [Support multi-screens](getting-started/pixel-perfect-app/support-multi-screens.md)
 * [🚀 UI in seconds](getting-started/ui-in-seconds.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
