@@ -51,10 +51,15 @@ After creating the design, you need to bind it with the table data.&#x20;
 
 ### **3. Conditional visibility (Component Visibility, Conditional Fills)**
 
-<figure><img src="../.gitbook/assets/image (902).png" alt=""><figcaption></figcaption></figure>
+For changing the visibility of a component please follow the steps as shown below.
 
-<figure><img src="../.gitbook/assets/image (905).png" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="6ya9Zo2mBFCpaLEhofSA" url="https://app.arcade.software/share/6ya9Zo2mBFCpaLEhofSA" %}
 
 ### **4. Responsiveness**
 
-Anticipate how your component will respond to different screen sizes. Ensure that it maintains its integrity and functionality across various devices.
+For checking how your design will respond to different screen sizes, please follow the steps shown below. Ensure that it maintains its integrity and functionality across various devices.
+
+{% @arcade/embed flowId="hIz9gNH1QAh9z5gLziPW" url="https://app.arcade.software/share/hIz9gNH1QAh9z5gLziPW" %}
+
+
+
