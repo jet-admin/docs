@@ -1,8 +1,8 @@
 ---
-description: Explore how to pass data from Visual Builder to Component Designer
+description: Explore how to data from Visual Builder to Component Designer
 ---
 
-# Passing data
+# Pass values to Image
 
 To pass data from Visual Builder to Component Designer use the Parameters:
 
