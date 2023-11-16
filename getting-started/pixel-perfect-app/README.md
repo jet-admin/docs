@@ -1,14 +1,14 @@
 ---
-description: >-
-  Design your first custom component from scratch using Component Designer and
-  apply it in Lists, pages.
+description: Design your first custom component from scratch using Component Designer
 ---
 
 # 🎨 Pixel Perfect App
 
-<figure><img src="../.gitbook/assets/image (910).png" alt=""><figcaption></figcaption></figure>
+To familiarize yourself with how `Customize with Designer` works, let's build a simple design:
 
-Creating custom components for your Pixel Perfect App through Component Designer is a meticulous process requiring thoughtful design to integrate seamlessly with your application's visual appeal. Let's go through the step-by-step:
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+We'll go through the whole **process of creation** step-by-step.&#x20;
 
 ### **1. Design your component**&#x20;
 
@@ -61,7 +61,7 @@ For changing the visibility of a component please follow the steps as shown belo
 
 ### **4. Responsiveness**
 
-For checking how your design will respond to different screen sizes, please follow the steps shown below. Ensure that it maintains its integrity and functionality across various devices.
+To check how your design will respond to different screen sizes, please follow the steps shown below. Ensure that it maintains its integrity and functionality across various devices.
 
 {% @arcade/embed flowId="hIz9gNH1QAh9z5gLziPW" url="https://app.arcade.software/share/hIz9gNH1QAh9z5gLziPW" %}
 

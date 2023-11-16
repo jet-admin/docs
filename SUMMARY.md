@@ -77,7 +77,16 @@
   * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
     * [Documint](getting-started/part-2-intermediate/generate-invoice-or-document/documint.md)
 * [📧 Send Emails](getting-started/send-emails.md)
-* [🎨 Pixel Perfect App](getting-started/pixel-perfect-app.md)
+* [🎨 Pixel Perfect App](getting-started/pixel-perfect-app/README.md)
+  * [Designing your component](getting-started/pixel-perfect-app/designing-your-component.md)
+  * [Adding Images](getting-started/pixel-perfect-app/adding-images.md)
+  * [Adding borders](getting-started/pixel-perfect-app/adding-borders.md)
+  * [Adding parameters](getting-started/pixel-perfect-app/adding-parameters.md)
+  * [Add text](getting-started/pixel-perfect-app/add-text.md)
+  * [Add text](getting-started/pixel-perfect-app/add-text-1.md)
+  * [Passing and binding the data with elements](getting-started/pixel-perfect-app/passing-and-binding-the-data-with-elements.md)
+  * [Conditional Visibility](getting-started/pixel-perfect-app/conditional-visibility.md)
+  * [Responsiveness](getting-started/pixel-perfect-app/responsiveness.md)
 * [🚀 UI in seconds](getting-started/ui-in-seconds.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
