@@ -4,6 +4,8 @@ description: Discover how to hide elements with Conditional Visibility
 
 # Hide elements
 
+Hiding elements is useful for optimization, such as concealing large navigation menus on smaller screens. Conditional visibility improves user experience by showing only relevant content.
+
 Hide elements in Component Designer using Conditional Visibility:
 
 1. Click on the **element** you want to **set conditional visibility** to.
