@@ -6,8 +6,8 @@ description: Explore how to set up Frame for Image
 
 To set up Frame for **Image** – add `Border` to the `Rectangle`:
 
-1. Select `Rectangle`
-2. Click on the `Add Border` button on the **Righ sidebar**
+1. Select `Ellipse`
+2. Click on the `Add Border` button on the **Right sidebar**
 3. Set the color of the border
 4. Set the thickness of the border
 
