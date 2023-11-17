@@ -37,6 +37,7 @@
   * [Custom API Collection](videos/custom-api-collection.md)
   * [Nested Filters](videos/nested-filters.md)
   * [Built-in Approval Flow](videos/set-an-approval-workflow.md)
+  * [Create Multi-Step Forms](videos/create-multi-step-forms.md)
   * [Build Apps Together](videos/build-apps-together/README.md)
     * [Custom CRM](videos/build-apps-together/custom-crm.md)
     * [Internal Tool](videos/build-apps-together/internal-tool.md)
