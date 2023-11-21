@@ -16,10 +16,6 @@ Explore ready-to-use 50+ components in our Components Marketplace.
 
 <figure><img src=".gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/designing-pixel-perfect-components.md" %}
-[designing-pixel-perfect-components.md](component-designer/designing-pixel-perfect-components.md)
-{% endcontent-ref %}
-
 <figure><img src=".gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 * **Standalone components** (Profile headers, documents, summary, banners)
