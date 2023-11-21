@@ -301,7 +301,7 @@
 
 ***
 
-* [🖍 Component Designer](component-designer/README.md)
+* [🖍 Component Designer](component-designer.md)
   * [Designing pixel-perfect components](component-designer/designing-pixel-perfect-components.md)
   * [Customizing the components](component-designer/customizing-the-components.md)
   * [Conditional Visibility](component-designer/conditional-visibility.md)
