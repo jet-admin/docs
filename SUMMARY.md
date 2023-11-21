@@ -301,7 +301,15 @@
 
 ***
 
-* [🖍 Component Designer](component-designer.md)
+* [🖍 Component Designer](component-designer/README.md)
+  * [Designing pixel-perfect components](component-designer/designing-pixel-perfect-components.md)
+  * [Customizing the components](component-designer/customizing-the-components.md)
+  * [Conditional Visibility](component-designer/conditional-visibility.md)
+  * [Layout](component-designer/layout.md)
+  * [Fills](component-designer/fills.md)
+  * [Borders/Stroke](component-designer/borders-stroke.md)
+  * [Apply shadow or blur effects](component-designer/apply-shadow-or-blur-effects.md)
+  * [Component Responsiveness / Constraints](component-designer/component-responsiveness-constraints.md)
 
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
 
