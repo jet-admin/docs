@@ -6,6 +6,8 @@ description: Design your first custom component from scratch using Component Des
 
 To familiarize yourself with how `Customize with Designer` works, let's build a simple design:
 
+{% embed url="https://www.youtube.com/watch?v=-u6X4gpCWj8&t=16s&ab_channel=JetAdmin" %}
+
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 We'll go through the whole **process of creation** step-by-step.&#x20;
