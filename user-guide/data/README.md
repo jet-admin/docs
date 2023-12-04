@@ -20,7 +20,7 @@ description: >-
 * Manage your Collection by Adding/Editing rows
 * Search, Filter, and Sorting your Collection Data
 * Define [Relations](../computed-columns/relations.md) between Collections
-* Making [API requests](make-an-http-request.md) and [SQL queries](make-a-sql-query.md)
+* Making [API requests](make-an-http-request/) and [SQL queries](make-a-sql-query.md)
 
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
 

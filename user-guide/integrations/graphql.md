@@ -74,6 +74,6 @@ You can display the results of GraphQL queries as with any other query in Jet Ad
 
 More information about HTTP Requests in our documentation.
 
-{% content-ref url="../data/make-an-http-request.md" %}
-[make-an-http-request.md](../data/make-an-http-request.md)
+{% content-ref url="../data/make-an-http-request/" %}
+[make-an-http-request](../data/make-an-http-request/)
 {% endcontent-ref %}

@@ -55,6 +55,6 @@ Simply click `Refresh Data` button to run your request
 
 ![](../../.gitbook/assets/GIF115.gif)
 
-{% content-ref url="../../user-guide/data/make-an-http-request.md" %}
-[make-an-http-request.md](../../user-guide/data/make-an-http-request.md)
+{% content-ref url="../../user-guide/data/make-an-http-request/" %}
+[make-an-http-request](../../user-guide/data/make-an-http-request/)
 {% endcontent-ref %}

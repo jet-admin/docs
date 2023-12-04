@@ -18,6 +18,6 @@ Adding an API that uses a bearer token authentication scheme is easy in Jet Admi
 
 ![](<../../../.gitbook/assets/image (824).png>)
 
-{% content-ref url="../../data/make-an-http-request.md" %}
-[make-an-http-request.md](../../data/make-an-http-request.md)
+{% content-ref url="../../data/make-an-http-request/" %}
+[make-an-http-request](../../data/make-an-http-request/)
 {% endcontent-ref %}

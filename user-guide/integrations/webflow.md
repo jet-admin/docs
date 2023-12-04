@@ -37,6 +37,6 @@ Create a new Collection with your Webflow's query:
 
 <figure><img src="../../.gitbook/assets/webflow_api.jpg" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="../data/make-an-http-request.md" %}
-[make-an-http-request.md](../data/make-an-http-request.md)
+{% content-ref url="../data/make-an-http-request/" %}
+[make-an-http-request](../data/make-an-http-request/)
 {% endcontent-ref %}

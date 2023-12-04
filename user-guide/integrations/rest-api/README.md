@@ -16,8 +16,8 @@ You can also implement your own custom API using API Builder. For instance, you 
 
 ![](<../../../.gitbook/assets/image (822).png>)
 
-{% content-ref url="../../data/make-an-http-request.md" %}
-[make-an-http-request.md](../../data/make-an-http-request.md)
+{% content-ref url="../../data/make-an-http-request/" %}
+[make-an-http-request](../../data/make-an-http-request/)
 {% endcontent-ref %}
 
 ### Connect custom API resource
@@ -32,7 +32,7 @@ Let's start with implementing **Rest API**, select it from the list of available
 
 Once you have connected a REST API, you will need to configure the requests in the Data Editor. For more information, please look at the [Data Editor documentation here:](https://docs.jetadmin.io/user-guide/data/make-an-http-request)
 
-{% content-ref url="../../data/make-an-http-request.md" %}
-[make-an-http-request.md](../../data/make-an-http-request.md)
+{% content-ref url="../../data/make-an-http-request/" %}
+[make-an-http-request](../../data/make-an-http-request/)
 {% endcontent-ref %}
 
