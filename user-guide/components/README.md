@@ -116,6 +116,6 @@ Forms are the UI elements that are used to receive or display single values. The
 
 It is a Component based on React, Angular, or any other framework and integrates it in Jet Admin interface.
 
-{% content-ref url="custom-component.md" %}
-[custom-component.md](custom-component.md)
+{% content-ref url="../design-and-structure/components/custom-component/" %}
+[custom-component](../design-and-structure/components/custom-component/)
 {% endcontent-ref %}

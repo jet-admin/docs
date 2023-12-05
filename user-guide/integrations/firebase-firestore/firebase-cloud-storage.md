@@ -1,7 +1,3 @@
----
-description: In this section you will learn how to use Firebase Cloud Storage
----
-
 # Firebase Cloud Storage
 
 Before you can use Firebase Cloud storage, you need to obtain a service token key. Follow the steps below to integrate Firebase storage with Jet.‌
