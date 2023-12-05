@@ -29,6 +29,6 @@ Notice there is the URL, followed by:
 
 That is what tips you off that this is Basic Auth. The **-u** part signifies Basic Auth, and then the colon at the end tells you this is being sent as a username. In normal Basic Auth, you send the username and password in the following format **username : password** so if you see a **-u** then you know that anything to left of the colon is the username and to the right is the password. In this example, the API key is sent as a username.
 
-{% content-ref url="../../data/make-an-http-request/" %}
-[make-an-http-request](../../data/make-an-http-request/)
+{% content-ref url="../../data/make-an-http-request.md" %}
+[make-an-http-request.md](../../data/make-an-http-request.md)
 {% endcontent-ref %}

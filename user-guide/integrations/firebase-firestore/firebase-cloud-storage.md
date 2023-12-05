@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to use Firebase Cloud Storage
+---
+
 # Firebase Cloud Storage
 
 Before you can use Firebase Cloud storage, you need to obtain a service token key. Follow the steps below to integrate Firebase storage with Jet.‌
@@ -8,13 +12,26 @@ To get the JSON key you need to add Firebase to your Google project. First, go t
 
 ![](<../../../.gitbook/assets/image (791).png>)
 
-First, Choose your Google Account. Then you need to click on **Add project** to get a Firebase Key.​
+To create a project, follow the steps:
 
-![](<../../../.gitbook/assets/GIF (316).gif>)
+1. Click on the `Add Project` button
+2. Choose a name for the project
+3. Click on the `Continue` button
+4. Select the **Google Account**
+5. Click on the `Create Project` button
 
-Then you need to go to the Service Accounts to generate a new JSON private key. Once you have generated a private key, it will be automatically downloaded to your computer.​
+{% @arcade/embed flowId="lQDBBnBzvaYovj6DJgYW" url="https://app.arcade.software/share/lQDBBnBzvaYovj6DJgYW" %}
 
-![](<../../../.gitbook/assets/GIF (1) (1).gif>)
+Then go to the Service Accounts to generate a new JSON private key. Once you generate a private key, it will automatically download to your computer.​
+
+To generate a private key, follow the steps:
+
+1. Click on the `Settings` of the **Project Overview**
+2. Click on the `Project Settings`
+3. Go to the **Service Accounts** tab
+4. Click on the `Generate new private key` button
+
+{% @arcade/embed flowId="Khzwc6u4GUHfVszt1b7m" url="https://app.arcade.software/share/Khzwc6u4GUHfVszt1b7m" %}
 
 ### Add Firebase Storage to Jet Admin <a href="#2-add-firebase-to-jet-admin" id="2-add-firebase-to-jet-admin"></a>
 
@@ -39,6 +56,6 @@ Here's an example of a JSON Service Key obtained from Firebase:
 }
 ```
 
-Once you have integrated Firebase Storage with Jet you will see a **Storage File Viewer** that'll allow you to access your data. For more information about using storages and uploading files, [see the File Storage and Uploading section.](https://docs.jetadmin.io/user-guide/data/file-storage-and-uploading)
+Once you have integrated Firebase Storage with Jet you will see a **Storage File Viewer** that'll allow you to access your data. For more information about using storage and uploading files, [see the File Storage and Uploading section.](https://docs.jetadmin.io/user-guide/data/file-storage-and-uploading)
 
 ![](../../../.gitbook/assets/GIF213.gif)

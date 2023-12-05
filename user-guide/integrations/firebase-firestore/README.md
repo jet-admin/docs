@@ -1,63 +1,52 @@
 ---
-description: How to business apps on top of Firebase data
+description: How to build business apps on top of Firebase data
 ---
 
 # Firebase / Firestore
 
-In this article, we'll review the integration with Firebase, and its characteristics, and will go through the steps necessary to connect it to Jet Admin
+In this article, we'll review the integration with Firebase and will go through the steps necessary to connect it to Jet Admin
 
 ### Connecting Firebase
 
-You can connect to Firebase from the new app flow, from the data tab on the left menu bar, or from the data section within a UI component.
+To connect to Firebase from the new app flow, follow the steps:
 
-Then, you'll need to provide a **service token** to allow your Firebase to interact with Jet. You can either copy and paste a JSON snippet **(1)** or upload it as a file **(2)**:
+1. Select the `Data` Tab from the **left menu bar**
+2. Click on the `Add Resource` button
+3. Choose **Firebase** resource
 
-![](../../../.gitbook/assets/xngfhy.png)
+{% @arcade/embed flowId="02StOgDDTvaChE64xFrW" url="https://app.arcade.software/share/02StOgDDTvaChE64xFrW" %}
+
+### Obtain service token
+
+You'll need to paste a service token to allow your Firebase to interact with Jet. You can copy and paste or upload a JSON snippet as a file.
+
+To copy and paste a JSON snippet, follow the steps:
+
+1. In the form, paste the **Service Token**
+2. Alternatively, you can upload the Service token as a file
+
+{% @arcade/embed flowId="niLLzEwkvhIKSCNtaAXw" url="https://app.arcade.software/share/niLLzEwkvhIKSCNtaAXw" %}
 
 {% hint style="danger" %}
-**It's critical** to have a **proper data structure** in your Firebase database, otherwise, Jet might not detect all or some parts of it. To learn, how to properly structure your data, read the [official Firebase article](https://firebase.google.com/docs/database/web/structure-data).
+**It's critical** to have a **proper data structure** in your Firebase database. Otherwise, Jet might not detect all or some parts of it. Read the official Firebase article properly to learn how to structure your data.
 {% endhint %}
 
-To obtain a service key, go to your Firebase console, select a project, then proceed to the "Service accounts" section and click "Generate new private key":
+To obtain a service key, follow the steps:
 
-![](../../../.gitbook/assets/dtxhfgy.gif)
+1. Click on the `Settings` button
+2. Choose **Project Settings**
+3. Go to the **Service Account tab**
+4. Click on the `Generate new private key` button
+5. Click on the `Generate key` button
+
+{% @arcade/embed flowId="HgPGN726gSBgt5035iCh" url="https://app.arcade.software/share/HgPGN726gSBgt5035iCh" %}
 
 Then you'll need to select the database type: Firestore or Realtime DB:
 
-![](../../../.gitbook/assets/tjhyu.png)
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-To learn more about Firestore and Realtime DB, check the [**official Firebase article**](https://firebase.google.com/docs/database/rtdb-vs-firestore)
+To learn more about Firestore and Realtime DB, check the [**official Firebase article**](https://firebase.google.com/docs/database/rtdb-vs-firestore)**.**
 {% endhint %}
 
 Further steps vary based on the type of database you want to connect to: Firestore or Realtime DB.
-
-### Firestore
-
-If you selected a Firestore database, you'll be prompted to choose the **connection mode**.
-
-Here, you need to choose how you'd like your Firestore to be integrated with Jet Admin. You can either connect directly or sync it with Jet's internal database to get extended functionality.&#x20;
-
-If you want to be able to **combine** your **Firestore data** with data from other data sources, such as Google Sheets, Airtable, or even REST API within the same tables, you should choose the **"Sync" connection**. You can learn more about it here:
-
-{% content-ref url="../../data-blending.md" %}
-[data-blending.md](../../data-blending.md)
-{% endcontent-ref %}
-
-![](../../../.gitbook/assets/xgncf.JPG)
-
-After having connected your Firestore, you'll be prompted to choose collections you want Jet Admin to generate **an admin panel (CRUD pages)** for. If you don't want an admin panel to be generated at all, leave all the boxes empty.
-
-![](../../../.gitbook/assets/cfmgvyn.png)
-
-You can also watch our video on Firebase to learn how to quickly build **admin panels** or **CRUD apps** with Firebase:&#x20;
-
-{% embed url="https://www.youtube.com/watch?v=5TTXZhHHP0I" %}
-
-### Realtime DB
-
-To learn how to configure your Realtime DB data, read the page below:
-
-{% content-ref url="realtime-database.md" %}
-[realtime-database.md](realtime-database.md)
-{% endcontent-ref %}
