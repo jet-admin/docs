@@ -242,7 +242,6 @@
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [Making API requests](user-guide/data/make-an-http-request.md)
-    * [Open API Builder](user-guide/data/make-an-http-request/open-api-builder.md)
     * [Response Transformer](user-guide/data/make-an-http-request/response-transformer.md)
     * [Sorting data](user-guide/data/make-an-http-request/sorting-data.md)
     * [Pagination](user-guide/data/make-an-http-request/pagination/README.md)

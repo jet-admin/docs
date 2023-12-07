@@ -1,5 +1,5 @@
 ---
-description: In this section you will learn how to use Response Transformer
+description: Transform your JSON response
 ---
 
 # Response Transformer
@@ -9,17 +9,17 @@ description: In this section you will learn how to use Response Transformer
 You can transform the data from the response with a Visual Response Transformer. To do so, follow the steps:
 
 1. Click on the `Transform` button
-2. Choose the Level of the transform
+2. Select the root of your response
 
 {% @arcade/embed flowId="CXNncl0iKUKIJ3SaRnyU" url="https://app.arcade.software/share/CXNncl0iKUKIJ3SaRnyU" %}
 
 ### JavaScript Response Transformer
 
-If you need custom transformation you can use a JavaScript response transformer. `Data` is a JS variable that stores a response to your request. Javascript transformation. To do so, follow the steps:
+If you want to transform unstructured responses – you can use a JavaScript response transformer. `data` is a variable that stores a response to your request. To do so, follow the steps:
 
 1. Click on the `Transform` button
 2. Choose **JavaScript Transformation**
-3. Write your custom script
+3. Write your custom script using `data` variable
 4. Click on the `Run` button to send a request
 5. Click on the `Save` button to save it
 

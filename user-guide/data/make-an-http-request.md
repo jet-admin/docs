@@ -1,10 +1,10 @@
 ---
-description: An overview of HTTP request
+description: Integarate with any business apps using API Builder
 ---
 
 # Making API requests
 
-To quickly connect a custom API use HTTP Request Builder. You can make `GET` request to visualize order data in the Table component or `POST` request to reset a password for a specific user.&#x20;
+To quickly connect a custom API, use HTTP Request Builder. You can make `GET` request to visualize order data in the Table component or `POST` request to reset a password for a specific user.&#x20;
 
 ![](<../../.gitbook/assets/image (847).png>)
 
@@ -12,25 +12,39 @@ Watch the video below on how to get API Builder set up!
 
 {% embed url="https://www.youtube.com/watch?v=MlNuOS2sffQ" %}
 
-### Open API Builder
+There are two options for creating API requests via **Data** or **Visual Builder.**
 
-You can open the API Builder directly from the component simply by selecting the Rest API resource. The API Builder will be opened automatically in case you do not create any collections yet, otherwise, you will need to select Make HTTP Request from the list of collections for your Rest API resource.
+To open the API Builder from the **Table**, follow the steps:
 
-{% content-ref url="make-an-http-request/open-api-builder.md" %}
-[open-api-builder.md](make-an-http-request/open-api-builder.md)
-{% endcontent-ref %}
+1. From the **UI Builder,** drag-and-drop **Table** to the Canvas
+2. Select  **Rest API as** `Data Source` in Data
+3. Select `Make Http request`  as `Collection`
+
+{% @arcade/embed flowId="NpdjzeS0vHShew1gehsJ" url="https://app.arcade.software/share/NpdjzeS0vHShew1gehsJ" %}
+
+### Pass Values to API Builder
+
+To pass Values to **API Builder**, such as `charge` you need to specify **Inputs**. To do it, follow the steps:
+
+1. Add new `Input` field in the **API Builder**
+2. Specify the test value
+3. Pass the Input value of the key in the column **Value**
+4. Click on the `Run` button to **send a request**
+5. Click on the Save button to **save it**
+
+{% @arcade/embed flowId="wcqsojYRvW227Z9Zsr5I" url="https://app.arcade.software/share/wcqsojYRvW227Z9Zsr5I" %}
 
 ### Response Transformer
 
-You can transform the data from the response with a Visual Response Transformer.
+Transform JSON API response using a **Visual** or **Javascript Response Transformer.**
 
 {% content-ref url="make-an-http-request/response-transformer.md" %}
 [response-transformer.md](make-an-http-request/response-transformer.md)
 {% endcontent-ref %}
 
-### Sorting data
+### Sorting
 
-You can sort all fields by ascending and descending values.
+Apply ascending or descending sorting to fields from your response.
 
 {% content-ref url="make-an-http-request/sorting-data.md" %}
 [sorting-data.md](make-an-http-request/sorting-data.md)
