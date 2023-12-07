@@ -6,8 +6,6 @@ description: Customized App Components Without Coding. Similar to Figma
 
 Design custom pixel-perfect components using Component Designer. Enabled to create, design, and modify their components with various options: creating components, providing states, giving styles, intuitive event handlers, seamless data connections (REST, GraphQL & Beyond), direct Figma & Sketch Imports.
 
-{% embed url="https://res.cloudinary.com/djpvkoh3s/video/upload/v1701333832/pixelperfect/nmmnwwilex11l6v38mxa.mp4" %}
-
 <figure><img src=".gitbook/assets/component_img (1).jpg" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="component-designer/designing-pixel-perfect-components.md" %}
