@@ -8,6 +8,8 @@ Design custom pixel-perfect components using Component Designer. Enabled to crea
 
 <figure><img src=".gitbook/assets/component_img (1).jpg" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://res.cloudinary.com/djpvkoh3s/video/upload/v1701333832/pixelperfect/nmmnwwilex11l6v38mxa.mp4" %}
+
 {% content-ref url="component-designer/designing-pixel-perfect-components.md" %}
 [designing-pixel-perfect-components.md](component-designer/designing-pixel-perfect-components.md)
 {% endcontent-ref %}
