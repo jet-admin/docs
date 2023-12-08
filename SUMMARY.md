@@ -311,6 +311,13 @@
   * [Projects API](user-guide/jet-admin-api/projects-api.md)
   * [Pages API](user-guide/jet-admin-api/pages-api.md)
   * [HTTP requests API](user-guide/jet-admin-api/http-requests-api.md)
+* [🔐 Authentication systems](user-guide/authentication-systems/README.md)
+  * [Jet Auth](user-guide/authentication-systems/jet-auth.md)
+  * [Firebase Auth](user-guide/authentication-systems/firebase-auth.md)
+  * [Auth0](user-guide/authentication-systems/auth0.md)
+  * [Supabase Auth](user-guide/authentication-systems/supabase-auth.md)
+  * [Token-based Auth](user-guide/authentication-systems/token-based-auth.md)
+  * [Xano Auth](user-guide/authentication-systems/xano-auth.md)
 
 ***
 
