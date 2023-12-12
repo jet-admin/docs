@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to use Multiple Select
+---
+
 # Multiple Select
 
 One common type of form is Multiple Select. Multiple Select is useful for when you want auser to be able to select multiple values. This has many applications for an app, but one common use case is using Multiple Select to filter records in a table.
