@@ -1,7 +1,3 @@
----
-description: In this section you will learn how to export selected rows
----
-
 # Export
 
 ### Export selected rows

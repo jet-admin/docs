@@ -58,8 +58,8 @@ In order to pass a value from one page to another, you need to use the Navigate 
 
 ![](../../.gitbook/assets/testgif25.gif)
 
-{% content-ref url="column-values.md" %}
-[column-values.md](column-values.md)
+{% content-ref url="../design-and-structure/column-values/" %}
+[column-values](../design-and-structure/column-values/)
 {% endcontent-ref %}
 
 {% content-ref url="../formulas.md" %}

@@ -13,41 +13,50 @@ description: Load and Query your data collection/record to your page
 
 ### Load Data from Collection
 
-<figure><img src="../../../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
-
-1. Click **Actions** button in the top left menu
-2. Click **Add Query** button in the **LOAD DATA** section
-3. Select **Get one record** to retrieve one row from a data resource, or **Get the list of records** to retrieve a set of maximum of 20 records from a data resource
+1. Click the **`Actions`** button in the top left menu
+2. Click the **`Add Query`** button in the **LOAD DATA** section
+3. Select **`Get the list of records`** to retrieve a set of a maximum of 20 records from a data resource
 4. Rename your Page Query
 5. Select **Load Data** to retrieve the data from the data resources
 6. Select **Data resource**
 7. Select **Collection**
 
-### **Load Data from Workflow or JSON**
+{% @arcade/embed flowId="0oq1fvHp4DuPMGCadoqO" url="https://app.arcade.software/share/0oq1fvHp4DuPMGCadoqO" %}
 
-<div align="left">
+### **Load Data from JSON**
 
-<figure><img src="../../../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
+1. Click on the `Load Data` section
+2. Choose **Specify Data**
 
-</div>
+{% @arcade/embed flowId="fZbifEpDYQ1POPzJDnWD" url="https://app.arcade.software/share/fZbifEpDYQ1POPzJDnWD" %}
+
+### **Load Data from Workflow**
+
+1. Click on the `Load Data` section
+2. Choose **Specify Data**
+3. Click to `Add a Workflow`
+4. Click on the **Run Operation**
+5. Choose the **Resource**
+6. Choose the **Operation**
+
+{% @arcade/embed flowId="45zZ3kHgWFLiVTKvg9PT" url="https://app.arcade.software/share/45zZ3kHgWFLiVTKvg9PT" %}
 
 ## Filter loaded data
 
-1. In the **Apply Filters** section, click on **Add** to implement filters either statically or dynamically by using a value from other components.&#x20;
+1. In the **Apply Filters** section, click Add to implement filters statically or dynamically by using a value from other components.&#x20;
 2. Choose the column you would like to filter and then decide on the kind of filter you want to use.
 
-<div align="left" data-full-width="false">
+In this example, let's filter by ID. Follow the steps:
 
-<figure><img src="../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
+1. Click on the `Add Filter` button
+2. Choose **ID equals**
+3. Click on the `Formula` icon
+4. Choose the **component**
+5. Choose the **Selected Card**
+6. Choose **ID**
 
-</div>
-
-<div align="left" data-full-width="true">
-
-<figure><img src="../../../.gitbook/assets/image (899).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+{% @arcade/embed flowId="RR9fBsG56BWvEZC05Eqw" url="https://app.arcade.software/share/RR9fBsG56BWvEZC05Eqw" %}
 
 {% hint style="info" %}
-For now the Load Data (page query) feature is limited to retrieve only 20 records per request.
+For now, the Load Data (page query) feature is limited to retrieving only 20 records per request.
 {% endhint %}

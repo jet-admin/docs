@@ -8,64 +8,74 @@ description: Detailed review of pages in Jet Admin.
 
 A Page is an interface element that can span across various use cases. Create pages from scratch or generate an Admin Panel to get your application ready in less than 2 minutes.
 
-### Create a new page
+### Create a New page
 
-To create a new page, click on Pages icon on the left menu in Builder mode and click the Create new page icon.
+To create a new page, follow the steps described in the article:
 
-![](../../.gitbook/assets/testgif22.gif)
+{% content-ref url="pages/create-a-new-page.md" %}
+[create-a-new-page.md](pages/create-a-new-page.md)
+{% endcontent-ref %}
 
-### Copy your page
+### Copy the page
 
-To copy the current page, click the Duplicate the page icon next to the page settings:
+To copy the current page, follow the steps described in the article:
 
-![](../../.gitbook/assets/testgif72.gif)
+{% content-ref url="pages/copy-the-page.md" %}
+[copy-the-page.md](pages/copy-the-page.md)
+{% endcontent-ref %}
 
-### Customize your page
+### Customize the page
 
-Once you created a new page, drag-and-drop any components to the page to succeed with your use cases.
+Once you created a new page, drag and drop any components to the page to succeed with your use cases.
 
-![](../../.gitbook/assets/testgif23.gif)
-
-{% content-ref url="../components/" %}
-[components](../components/)
+{% content-ref url="pages/customize-the-page.md" %}
+[customize-the-page.md](pages/customize-the-page.md)
 {% endcontent-ref %}
 
 ### Page Values
 
 Page Values allow you to pass data from one page to another.&#x20;
 
-{% content-ref url="../parameters/" %}
-[parameters](../parameters/)
+{% content-ref url="pages/page-values.md" %}
+[page-values.md](pages/page-values.md)
 {% endcontent-ref %}
-
-In case, when you want to build a Detail page for your user with the user info on this page: first name, last name, address, etc. You need to pass the user ID from one page to another. To do this you need to create a page value for this page and pass this ID to another page in [Action](actions.md).&#x20;
-
-### Create page values
-
-To create page value go to the page settings then click **+Add Parameter.**
-
-![](../../.gitbook/assets/testgif24.gif)
 
 ### Link pages
 
-In order to pass a value from one page to another, you need to use the Navigate to page action.
+To pass a value from one page to another, you need to use the Navigate to page action.
 
-![](../../.gitbook/assets/testgif25.gif)
+{% content-ref url="pages/link-pages.md" %}
+[link-pages.md](pages/link-pages.md)
+{% endcontent-ref %}
 
 ## Page Queries
 
-Page queries allow you to do queries from your page at once, and then use query results for all of the components on the page. In case, if you use one Query for several components, Page Queries help you to load it once and optimize the page loading.
+Page queries allow you to do queries from your page at once, and then use query results for all of the components on the page. In case, you use one Query for several components, Page Queries helps you to load it once and optimize the page loading.
 
-{% embed url="https://www.loom.com/share/0a52a28fafcd4104badf949330cb5ff1" %}
+{% content-ref url="pages/page-queries.md" %}
+[page-queries.md](pages/page-queries.md)
+{% endcontent-ref %}
 
-**Choose Page Query Type**
+## Load Data (Page Query)
 
-* Get one record – a query returns the one record&#x20;
-* Get the list of records – a query returns the list of records
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../integrations/), [workflow](../workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/fields/select.md)and [multiple select](components/form/multiple-select.md) components.&#x20;
 
-![](<../../.gitbook/assets/image (1) (1) (2) (1).png>)
+{% content-ref url="pages/load-data-page-query.md" %}
+[load-data-page-query.md](pages/load-data-page-query.md)
+{% endcontent-ref %}
 
-Specify Page Query's Data on your Component using Formula
+## Page Opens Action
 
-![](<../../.gitbook/assets/image (2) (1) (2) (1).png>)
+**Page Opens Action** fires each time a page is opened to allow you to perform various actions on the page load, such as [Open Modal](https://docs.jetadmin.io/user-guide/design-and-structure/components/modal), Send an [HTTP request](https://docs.jetadmin.io/user-guide/data/make-an-http-request), [Run component action](https://docs.jetadmin.io/user-guide/design-and-structure/actions#run-component-action), [show a notification](https://docs.jetadmin.io/user-guide/design-and-structure/components/custom-notifications) message, Run a [Workflow](https://docs.jetadmin.io/user-guide/workflow), or other actions.
 
+{% content-ref url="pages/page-opens-action.md" %}
+[page-opens-action.md](pages/page-opens-action.md)
+{% endcontent-ref %}
+
+## Home Page
+
+You can set one or more home pages for your app. There are three options for setting a home page: default to the first page in your menu, select a specific page, or set up a workflow to send users to different pages based on conditions.
+
+{% content-ref url="pages/home-page.md" %}
+[home-page.md](pages/home-page.md)
+{% endcontent-ref %}
