@@ -1,7 +1,3 @@
----
-description: In this section you will learn how to use Forms
----
-
 # Form
 
 Submit a **Form** to perform actions with input data. The Form component provides a way for users to view and manipulate multiple data fields with their inputs. Upon submission, forms perform functions like creating (inserting) a new data record, updating an existing record, or [calling APIs](../../../data/make-an-http-request.md).

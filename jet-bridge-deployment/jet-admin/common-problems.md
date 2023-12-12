@@ -2,15 +2,15 @@
 
 ### HTTPS issue
 
-By default **Jet Bridge** will run in **HTTP** mode while **Jet Admin** opens in **HTTPS**. This can lead to the similar error when trying to connect to Jet Bridge running under HTTP:
+By default, **Jet Bridge** will run in **HTTP** mode while **Jet Admin** opens in **HTTPS**. This can lead to a similar error when trying to connect to Jet Bridge running under HTTP:
 
 > Mixed Content: The page at 'https://app.jetadmin.io/builder/...' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://JET\_BRIDGE\_HOST/api/discover/connection/'. This request has been blocked; the content must be served over HTTPS.
 
-You have a number of options how to fix this issue:
+You have several options how to fix this issue:
 
-1. Run **Jet Bridge** in **HTTPS** mode using `SSL_CERT` and `SSL_KEY` options (see [Configuration](configuration.md)). You will need SSL **certificate** and **private key** for domain name under which **Jet Bridge** is running. If you don't have **SSL certificate** you can create self-signed **SSL certificate** files `.crt` and `.key` ([Manual](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-22-04)).
+1. Run **Jet Bridge** in **HTTPS** mode using `SSL_CERT` and `SSL_KEY` options (see [Configuration](configuration.md)). You will need an SSL **certificate** and **private key** for the domain name under which **Jet Bridge** is running. If you don't have an **SSL certificate** you can create self-signed **SSL certificate** files `.crt` and `.key` ([Manual](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-22-04)).
 2. Run **Jet Bridge** behind a web server with **HTTPS** configured (for example **nginx**).
-3. (_for Test purposes_) You can use **Jet Admin** in **HTTP** mode. We allow you to open your App in **HTTP** mode if you change **HTTPS** to **HTTP** in your browser URL. Be sure to connect to **Jet Bridge** with http:// on your browser URL otherwise you will get connection error.
+3. (_for Test purposes_) You can use **Jet Admin** in **HTTP** mode. We allow you to open your App in **HTTP** mode if you change **HTTPS** to **HTTP** in your browser URL. Be sure to connect to **Jet Bridge** with http:// on your browser URL otherwise, you will get a connection error.
 
 ### CORS issue
 
@@ -22,7 +22,7 @@ Normally you shouldn't have this issue as **Jet Bridge** automatically adds the 
 
 #### Behind Nginx
 
-To fix **CORS** issue for **Nginx** add the following to your server config:
+To fix the **CORS** issue for **Nginx** add the following to your server config:
 
 {% code title="my-website.conf" %}
 ```
@@ -70,7 +70,7 @@ server {
 
 ### \[Python 3.4 or lower] Error when running Jet Bridge: AttributeError: parallel
 
-This is because newer versions of **Pillow** Python library are incompatible with **Python 3.4 or lower**. Install older version to fix this error:
+This is because newer versions of the **Pillow** Python library are incompatible with **Python 3.4 or lower**. Install an older version to fix this error:
 
 ```python
 pip install pillow==4.3.0
@@ -78,7 +78,7 @@ pip install pillow==4.3.0
 
 ### \[Python 3.4 or lower] Error when running Jet Bridge: AttributeError: 'module' object has no attribute 'module\_from\_spec'
 
-This is because newer versions of **dateparser** Python library are incompatible with **Python 3.4 or lower**. Install older version to fix this error:
+This is because newer versions of the **date parser** Python library are incompatible with **Python 3.4 or lower**. Install an older version to fix this error:
 
 ```python
 pip install dateparser==0.7.1

@@ -1,22 +1,22 @@
 # 🏎 Self-hosted
 
-**Jet Bridge** is a free and open**-**source app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is available on [**Github**](https://github.com/jet-admin/jet-bridge)**.**
+**Jet Bridge** is a free and open**-**source app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is available on the [**Github**](https://github.com/jet-admin/jet-bridge)**.**
 
-* **We never access your private data.** It transferred directly from a browser to your application.
+* **We never access your private data.** It is transferred directly from a browser to your application.
 * **Scale as your growth.** You can host and scale Jet projects the way you want. You can choose any hosting platform you want: AWS, Heroku, a VPS, or a dedicated server.
-* **Resource agnostic**. You can choose the resource you prefer. Jet works with databases or popular APIs apps: PostgreSQL, Firebase, Google Sheets, Stripe... .
+* **Resource agnostic**. You can choose the resource you prefer. Jet works with databases or popular API apps: PostgreSQL, Firebase, Google Sheets, Stripe, etc.
 * **Customizable**. You can quickly build your logic by fully customizing APIs using API Builder.
-* **Frontend SDK (Angular, React, Vue).** Build your web apps using ready to use SDK.
+* **Frontend SDK (Angular, React, Vue).** You can build your web apps using ready-to-use SDK.
 
 ## How it works
 
-**Jet Admin** is a SaaS frontend application hosted on **Jet Admin** side that works in your browser. It connects to your project SQL database through open-source **Jet Bridge** backend application which you install on your side. So Integrating **Jet Admin** with your project requires installing only one component - **Jet Bridge**. Here's how it should look like after installation:
+**Jet Admin** is a SaaS frontend application hosted on the **Jet Admin** side that works in your browser. It connects to your project SQL database through an open-source **Jet Bridge** backend application which you install on your side. So Integrating **Jet Admin** with your project requires installing only one component - **Jet Bridge**. Here's how it should look like after installation:
 
 ![](<../../.gitbook/assets/image (394).png>)
 
 ### **Your Web App**
 
-Any of your applications which work with your **Database**. **Jet Admin** does not interact with it directly.
+Any of your applications that work with your **Database**. **Jet Admin** does not interact with it directly.
 
 ### **Your Database**
 
@@ -24,17 +24,17 @@ Any of your applications which work with your **Database**. **Jet Admin** does n
 
 ### **Jet Bridge App**
 
-An open-source application installed on your server's side and connected to your database. It automatically generates REST API based on your database structure. **Jet Interface** works with **Database** through **Jet Bridge**.
+An open-source application is installed on your server's side and connected to your database. It automatically generates REST API based on your database structure. **Jet Interface** works with the **Database** through **Jet Bridge**.
 
 ### **Jet Interface**
 
-Web applications accessible from any browser. Maintaining and updating of this web application are on **Jet Admin** team side. Your application data is transmitted directly from **Jet Bridge** to **Jet Interface** in your browser and remain invisible for the **Jet Admin** service.
+Web applications are accessible from any browser. Maintaining and updating this web application is on the **Jet Admin** team's side. Your application data is transmitted directly from **Jet Bridge** to **Jet Interface** in your browser and remains invisible for the **Jet Admin** service.
 
 ## Install Jet Bridge
 
 ### Python plugin
 
-Install **Jet Bridge** without additional software or web services on any server or localhost. You will need to install **Python** dependencies and run the application manually.
+Install **Jet Bridge** without additional software or web services on any server or local host. You will need to install **Python** dependencies and run the application manually.
 
 {% content-ref url="../../user-guide/integrations/postgresql-integration/python-app-installation.md" %}
 [python-app-installation.md](../../user-guide/integrations/postgresql-integration/python-app-installation.md)
@@ -42,7 +42,7 @@ Install **Jet Bridge** without additional software or web services on any server
 
 ### Using Jet Bridge inside Docker
 
-Install **Jet Bridge** without need to install any dependencies except **Docker** application. May require additional network configuration for your OS.
+Install **Jet Bridge** without the need to install any dependencies except the **Docker** application. May require additional network configuration for your OS.
 
 {% content-ref url="../../user-guide/integrations/postgresql-integration/docker-installation.md" %}
 [docker-installation.md](../../user-guide/integrations/postgresql-integration/docker-installation.md)
@@ -52,9 +52,9 @@ Install **Jet Bridge** without need to install any dependencies except **Docker*
 
 To integrate **Jet Admin** with the **Django**-based project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**.
 
-**Jet Bridge** **for Django** sources are available on [**Github**](https://github.com/jet-admin/jet-django)
+**Jet Bridge** **for Django** sources are available on GitHub
 
-This is the quickest way to install **Jet Admin** for Django based projects. Installed in the same way as most **Django** packages.
+This is the quickest way to install **Jet Admin** for Django-based projects. Installed in the same way as most **Django** packages.
 
 {% content-ref url="../../user-guide/integrations/django-framework-package.md" %}
 [django-framework-package.md](../../user-guide/integrations/django-framework-package.md)
@@ -68,13 +68,13 @@ With Jet Admin, your data are transferred directly from your application to your
 
 ### User Authentication
 
-When user logs in **Jet Admin** he receives **User Token** generated by **api.jetadmin.io**. Jet Admin **UI settings** are stored on the **api.jetadmin.io** and your **Project Data** is stored on **Your Web App** server.&#x20;
+When a user logs in to **Jet Admin** he receives a **User Token** generated by **api.jetadmin.io**. Jet Admin **UI settings** are stored on the **api.jetadmin.io** and your **Project Data** is stored on **Your Web App** server.&#x20;
 
 So the user browser can send the following requests:
 
-* to get or update **UI settings** user browser sends requests to **api.jetadmin.io** and passes **HTTP Authorization Header** containing **User Token**. Because **api.jetadmin.io** is an issuer of this token - it can verify it.
-* to get or update **Project Data** user browser sends requests to **Jet Bridge App** (open source) installed on **Your Server** and passes the same **HTTP Authorization Header** containing **User Token**. **Jet Bridge App** performs requests to [endpoint ](http://api.jetadmin.io/api/project\_auth/)and passes received **User Token** to verify if its valid and if user has enough permissions. Also **Jet Bridge App** sends its **Project Token** to all api.jetadmin.io endpoints which is described below.
+* to get or update **UI settings** user browser sends requests to **api.jetadmin.io** and passes an **HTTP Authorization Header** containing the **User Token**. Because **api.jetadmin.io** is an issuer of this token - it can verify it.
+* to get or update **Project Data** user browser sends requests to the **Jet Bridge App** (open source) installed on **Your Server** and passes the same **HTTP Authorization Header** containing the **User Token**. **Jet Bridge App** performs requests to the [endpoint ](http://api.jetadmin.io/api/project\_auth/)and passes the received **User Token** to verify if it's valid and if the user has enough permissions. Also, the **Jet Bridge App** sends its **Project Token** to all api.jetadmin.io endpoints which are described below.
 
 ### Jet Bridge Authentication
 
-In order for **Jet Bridge App** be able to communicate with **api.jetadmin.io** it obtains its unique **Project Token** which will be used to authenticate all requests to **api.jetadmin.io**. This token is generated by making call to **api.jetadmin.io** once on **Jet Bridge App** install and saved in **Your Database**.
+For **Jet Bridge App** to be able to communicate with **api.jetadmin.io** it obtains its unique **Project Token** which will be used to authenticate all requests to **api.jetadmin.io**. This token is generated by making a call to **api.jetadmin.io** once on **Jet Bridge App** is installed and saved in **Your Database**.

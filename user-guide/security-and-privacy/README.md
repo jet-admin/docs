@@ -1,6 +1,6 @@
 # 🔐 Users & Permissions
 
-JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](sharing-your-app.md#invite-by-email), [invited by link](sharing-your-app.md#invite-by-link)), will be available in the **Date** tab in the **"Built-ins"** section.
+JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](../core-concept/sharing-your-app/#invite-by-email), [invited by link](../core-concept/sharing-your-app/#invite-by-link)), will be available in the **Date** tab in the **"Built-ins"** section.
 
 You'll also be able to set **granular permissions** and the properties to **separate data for the Portal** (multi-tenancy)
 
@@ -25,7 +25,7 @@ The built-in User Management System allows you to configure each user on a granu
 
 1. **Specify user role**. Configure users' access to the application by setting a [specific role](create-and-manage-a-team.md).
 2. **Specify user properties**. Set properties for users to control their [permissions](user-and-team-properties.md) and access to data.
-3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](sharing-your-app.md) for more details.
+3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](../core-concept/sharing-your-app/) for more details.
 
 ![](<../../.gitbook/assets/image (872).png>)
 

@@ -3,12 +3,12 @@
 ## Setting up your configuration
 
 You can specify **Jet Bridge** configuration through one of the following methods:\
-command-line arguments, config file, or environment variables. Here are examples:
+command-line arguments, config files, or environment variables. Here are examples:
 
 ### Method 1. Command-line arguments
 
 {% hint style="info" %}
-Warning: arguments name should be lowercase. Other methods are case insensitive
+Warning: The argument's name should be lowercase. Other methods are case-insensitive
 {% endhint %}
 
 ```bash
