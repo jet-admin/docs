@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to use Projects API
+---
+
 # Projects API
 
 {% swagger method="get" path="/api/projects/:PROJECT_NAME/" baseUrl="https://api.jetadmin.io" summary="Get project information" %}

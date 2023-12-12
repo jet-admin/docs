@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to use HTTP Requests API
+---
+
 # HTTP requests API
 
 {% swagger baseUrl="https://" path="api.jetadmin.io/api/proxy_request/" method="post" summary="Send request through Jet Admin proxy" %}

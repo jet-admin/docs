@@ -1,14 +1,17 @@
+---
+description: In this section you will learn how to use Users API
+---
+
 # Users API
 
-To utilize the app **Users** through API, please refer to the interactive documentation:\
-**Data -> Users -> API**
+To utilize the app **Users** through API, please follow the steps:
+
+1. Click on the `Data` Tab
+2. Click on the `Users` &#x20;
+3. Go to the `API` Tab
 
 {% hint style="info" %}
-To update properties values use property **unique ID** (ie. 9pslwvhb) instead of property **display name** (ie. country). You can get in from the response example or by executing **List API** query.
+To update property values use property **unique ID** (ie. 9pslwvhb) instead of property **display name** (ie. country). You can get in from the response example or by executing the **List API** query.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Users (2).jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/user2.jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/user1 (1).jpg" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="6BkHQmDtHkt6MKvPgs6J" url="https://app.arcade.software/share/6BkHQmDtHkt6MKvPgs6J" %}

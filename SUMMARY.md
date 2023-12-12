@@ -321,6 +321,8 @@
   * [Custom domain](user-guide/project-settings/configuring-a-custom-domain.md)
   * [Update to a new version](user-guide/project-settings/version-migration.md)
 * [🛫 Jet Admin API](user-guide/jet-admin-api/README.md)
+  * [Interacting with Jet Admin API](user-guide/jet-admin-api/interacting-with-jet-admin-api/README.md)
+    * [Get API Token](user-guide/jet-admin-api/interacting-with-jet-admin-api/get-api-token.md)
   * [Users API](user-guide/jet-admin-api/project-users.md)
   * [Teams API](user-guide/jet-admin-api/project-teams.md)
   * [Projects API](user-guide/jet-admin-api/projects-api.md)

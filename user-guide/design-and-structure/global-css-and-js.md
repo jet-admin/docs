@@ -53,6 +53,8 @@ Update menu item style:
 
 ![](<../../.gitbook/assets/image (1) (1) (3).png>)
 
+![](<../../.gitbook/assets/image (1) (1) (3).png>)
+
 ```css
 [data-component-id="{text-component-id}"] .text-truncate{
     text-align: center;
@@ -60,6 +62,8 @@ Update menu item style:
     color: black;
 }
 ```
+
+
 
 
 

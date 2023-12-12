@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to use Pages API
+---
+
 # Pages API
 
 {% swagger method="get" path="/api/projects/:PROJECT_NAME/:ENV_NAME/view_settings/" baseUrl="https://api.jetadmin.io" summary="Get pages settings" %}

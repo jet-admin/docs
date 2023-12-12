@@ -1,5 +1,5 @@
 ---
-description: Integarate with any business apps using API Builder
+description: An overview of HTTP request
 ---
 
 # Making API requests
