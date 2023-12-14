@@ -1,7 +1,3 @@
----
-description: In this section you will learn how to share your app
----
-
 # Sharing your app
 
 In JetAdmin you can choose how users will access your application: **Invite by email** or **Public Access via link**.
