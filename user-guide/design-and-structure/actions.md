@@ -6,19 +6,22 @@ description: A detailed overview of the types of Actions.
 
 Action is an operation that you can perform in Jet Admin. Visually, the action is a button in the Jet Admin interface.
 
-To add an action you need to select a Button component and drag-and-drop it on the page.
+To add an action you need to&#x20;
 
-![](../../.gitbook/assets/testgif29.gif)
+1. Select a Button component&#x20;
+2. Drag and drop it on the page
+
+{% @arcade/embed flowId="i0thUp5Um7Dt4k0G8ga1" url="https://app.arcade.software/share/i0thUp5Um7Dt4k0G8ga1" %}
 
 ### Action types
 
 There are 9 types of actions:&#x20;
 
 * **Run operation**. Perform any CRUD operation or custom API/SQL query.&#x20;
-* **Navigate to page**. Passing values and switching between pages.
+* **Navigate to the page**. Passing values and switching between pages.
 * **Open URL.** Open the link in a new or the current tab.
 * [**Open Modal/Close Modal**](../components/modal.md)**.** Open or close the pop-up modal window.
-* [**Run Component Action**](../components/component-actions.md)**.** Perform an action on a component, such as updating data or clearing the form after submitting.
+* [**Run Component Action**](../components/component-actions.md)**.** Act on a component, such as updating data or clearing the form after submitting.
 * [**Show Notification**](../components/custom-notifications.md)**.** Show custom notification.
 * **Export Data.** Export data from the table.
 * **Download File.** Download the file from the API call.
@@ -27,27 +30,49 @@ There are 9 types of actions:&#x20;
 
 ### Run Operation
 
-You can perform any CRUD operation or a custom API/SQL query:
+You can perform any CRUD operation or a custom API/SQL query. To do so, follow the steps:
 
-![](../../.gitbook/assets/testgif33.gif)
+1. Click on the **Button**
+2. Go to the **Click Action**
+3. Choose **Run Operation**
+4. Choose the **Resource**
+5. Choose the **Action**
+
+{% @arcade/embed flowId="hiEUE1MH878JTe5ffe6h" url="https://app.arcade.software/share/hiEUE1MH878JTe5ffe6h" %}
 
 ### Navigate to Page
 
-Passing values and switching between pages:
+You can pass values and switch between pages. To do so, follow the steps:
 
-![](../../.gitbook/assets/testgif34.gif)
+1. Click on the Button
+2. Go to the **Click Action**
+3. Choose **Navigate to Page**
+4. Choose the **Link of the Page**
+
+{% @arcade/embed flowId="yxx0Jn0fHFHMr0z3wb7O" url="https://app.arcade.software/share/yxx0Jn0fHFHMr0z3wb7O" %}
 
 ### Open URL
 
 Opens any website URLs, use **Action** specified as **Open URL**.
 
-![](../../.gitbook/assets/testgif35.gif)
+1. Click on the Button
+2. Go to the **Click Action**
+3. Choose **Open URL**
+4. Click on the URL icon to change the **URL of the Page**
+
+{% @arcade/embed flowId="XEOidwMdpzMphdDs7lpw" url="https://app.arcade.software/share/XEOidwMdpzMphdDs7lpw" %}
 
 ### Open/Close Modal
 
-Open or close the pop-up modal window:
+{% @arcade/embed flowId="7bf7uWU3nOnGSNBOeSkG" url="https://app.arcade.software/share/7bf7uWU3nOnGSNBOeSkG" %}
 
-![](../../.gitbook/assets/testgif36.gif)
+You can close the pop-up modal window. To do so, follow the steps:
+
+1. Click on the **Button**
+2. Go to the **Click Action**
+3. Choose **Close Modal**
+
+{% @arcade/embed flowId="YpWbACsL2fhufqFzWLyY" url="https://app.arcade.software/share/YpWbACsL2fhufqFzWLyY" %}
 
 {% content-ref url="../components/modal.md" %}
 [modal.md](../components/modal.md)
@@ -55,7 +80,7 @@ Open or close the pop-up modal window:
 
 ### Run Component Action
 
-Perform an action on a component, such as updating data or clearing the form after submitting.
+You can act on a component, such as updating data or clearing the form after submitting.
 
 {% content-ref url="../components/component-actions.md" %}
 [component-actions.md](../components/component-actions.md)
@@ -63,7 +88,7 @@ Perform an action on a component, such as updating data or clearing the form aft
 
 ### Show Notification
 
-Show custom notification.
+You can show custom notifications.
 
 {% content-ref url="../components/custom-notifications.md" %}
 [custom-notifications.md](../components/custom-notifications.md)
@@ -71,37 +96,47 @@ Show custom notification.
 
 ### Export Data
 
-Export data from the table.
+You can export data from the table. To do so, follow the steps:
 
-![](../../.gitbook/assets/testgif37.gif)
+1. Click on the **Table**
+2. Go to the `Actions Tab`
+3. Scroll down to the **Header Actions**
+4. Click on the `New Action`
+5. Choose **Export Data**
+6. Choose the **Resource** and the **Collection**
 
-### Download File
-
-Select a Component and Action. Then choose a component and select the action that will occur when clicked.
-
-<figure><img src="../../.gitbook/assets/dfile 1 (1).gif" alt=""><figcaption></figcaption></figure>
-
-Define the Resource and Operation. Pick a resource and choose an operation to select a collection or write SQL queries.
-
-This will generate a JSON file with the data.
-
-<figure><img src="../../.gitbook/assets/dfile 2 (1).gif" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="1Q2l8eurRAfAenociloS" url="https://app.arcade.software/share/1Q2l8eurRAfAenociloS" %}
 
 ### Download File
 
-Select a Component and Action. Then choose a component and select the action that will occur when clicked.
+1. Click on the **Button**
+2. Go to the **Click Action**
+3. Choose **Download File**
 
-<figure><img src="../../.gitbook/assets/dfile 1.gif" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="XO6aKLkHar5GxSw8zbMT" url="https://app.arcade.software/share/XO6aKLkHar5GxSw8zbMT" %}
 
-&#x20;Pick a resource and choose an operation to select a collection or write SQL queries.
+Now, let's define the Resource and Operation. To do so, follow the steps:
+
+1. Click on the button
+2. Pick a resource&#x20;
+3. Choose an operation to write SQL queries
+4. Write the SQL query
+5. Click on the Run button
+6. Click on the Save button
 
 This will generate a JSON file with the data.
 
-<figure><img src="../../.gitbook/assets/dfile 2.gif" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="xx2LzwkiSKjxpFTs5v7f" url="https://app.arcade.software/share/xx2LzwkiSKjxpFTs5v7f" %}
 
 ### Copy to clipboard
 
-You can set up actions to copy data to the clipboard. This works with all components. To configure it, click 'Actions' and choose whether to set it up with a formula or static text.
+You can set up actions to copy data to the clipboard. This works with all components. To configure it, follow the steps:
 
-<figure><img src="../../.gitbook/assets/action 2.gif" alt=""><figcaption></figcaption></figure>
+1. Go to the **Actions Tab**
+2. Go to the **Row Click**
+3. Choose **Copy to Clipboard**&#x20;
+4. Click on the `Set up with Formula` icon
+5. Choose **Email**
+
+{% @arcade/embed flowId="9Ht0CPoM0ZmenIUSZx03" url="https://app.arcade.software/share/9Ht0CPoM0ZmenIUSZx03" %}
 

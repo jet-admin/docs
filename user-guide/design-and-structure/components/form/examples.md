@@ -91,22 +91,17 @@ To bind data from a table to a form, you need to generate a form first with the 
 
 {% @arcade/embed flowId="OF5ML2drZy7lL094FAzt" url="https://app.arcade.software/share/OF5ML2drZy7lL094FAzt" %}
 
-Now you need to configure the "Fill form with data" section. To do this, follow the steps:
-
-1. Click on the Connect Data Source button and Jet Admin will automatically select the desired resource and collection (the same one used in the form).&#x20;
-
-![](../../../../.gitbook/assets/testgif94.gif)
-
 Next, you need to apply filters, namely a data filter on the primary key (in our case it is the product ID). This step is important for the form to display exactly the data you selected in the table (selected row). Follow the steps:
 
-1. Click on the Add Filter icon
-2. Click on the Formula icon to apply the Filter by using a Formula
-3. Choose ID equals
-4. Choose Selected Row
-5. Choose ID
-6. Click on the Generate the form and we're done
+1. Click on the `Add Filter` icon
+2. Choose **ID equals**
+3. Click on the `Formula` icon to apply the Filter by using a Formula
+4. Choose **Table**
+5. Choose **Selected Row**
+6. Choose **ID**
+7. Click on the `Generate` button
 
-![](../../../../.gitbook/assets/testgif95.gif)
+{% @arcade/embed flowId="ESzZixHZtiNC1QYGqrEl" url="https://app.arcade.software/share/ESzZixHZtiNC1QYGqrEl" %}
 
 ### Example 6: Sequence of Forms
 

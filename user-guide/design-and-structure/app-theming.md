@@ -6,7 +6,7 @@ description: >-
 
 # App Theming
 
-There are two defaults themes:
+There are two default themes:
 
 * White
 

@@ -8,9 +8,14 @@ Custom CSS and Javascript allow you to enhance your branding and UI/visual tweak
 
 **Using Custom CSS & JS:**
 
+**How to add Global CSS & JS**
+
+1. **Go to the App Settings**
+2. **Go to the Scripts and Styles**
+
 {% embed url="https://www.loom.com/share/5ee5e1c2f92b4228b97d3c4f6d894831" %}
 
-Custom CSS and JS are used in the same way for the app and the  Sign in/Sign up page, but they are configured independently. The Custom CSS/JS settings can be accessed in the Scripts & Styles sections of the App Settings and Sign in & Sign up menus.&#x20;
+Custom CSS and JS are used in the same way for the app and the Sign-in/Sign-up page, but they are configured independently. The Custom CSS/JS settings can be accessed in the Scripts & Styles sections of the App Settings and Sign in & Sign up menus.&#x20;
 
 1. Go to App Settings or Sign in & Sign up menu
 
@@ -18,7 +23,7 @@ Custom CSS and JS are used in the same way for the app and the  Sign in/Sign up 
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2023-04-11 в 20.14.21.png" alt=""><figcaption><p>Sign in/Sign up menu location</p></figcaption></figure>
 
-2\. Go to **Scripts & Styles** in the menu and paste your CSS or JS in the appropriate in **Global CSS** or **Global Javascript** field.
+2\. Go to **Scripts & Styles** in the menu and paste your CSS or JS in the appropriate **Global CSS** or **Global Javascript** field.
 
 <figure><img src="../../.gitbook/assets/Снимок экрана 2023-04-11 в 20.21.10.png" alt=""><figcaption><p>Scripts &#x26; Styles menu section</p></figcaption></figure>
 
@@ -53,8 +58,6 @@ Update menu item style:
 
 ![](<../../.gitbook/assets/image (1) (1) (3).png>)
 
-![](<../../.gitbook/assets/image (1) (1) (3).png>)
-
 ```css
 [data-component-id="{text-component-id}"] .text-truncate{
     text-align: center;
@@ -62,8 +65,6 @@ Update menu item style:
     color: black;
 }
 ```
-
-
 
 
 
@@ -109,3 +110,5 @@ Update menu item style:
     background:#2a4acf !important
 }
 ```
+
+{% @arcade/embed flowId="OdUvwFm2QlotIZLrS4HU" url="https://app.arcade.software/share/OdUvwFm2QlotIZLrS4HU" %}
