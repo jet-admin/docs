@@ -1,5 +1,7 @@
 ---
-description: How to use Xano API to sign your users into Jet Admin
+description: >-
+  This guide provides step-by-step instructions on integrating Xano into
+  JetAdmin for creating a unified authentication system.
 ---
 
 # Xano Auth
@@ -7,6 +9,17 @@ description: How to use Xano API to sign your users into Jet Admin
 {% embed url="https://youtu.be/KY24zB7yn2A" %}
 Video version of this guide
 {% endembed %}
+
+## Use-cases
+
+You may find yourself in a situation where you already have a project with Xano as a backend, and you want to set up a separate customer portal with JetAdmin, so that the users from your existing app may sign in using the same credentials.
+
+Example scenarios:
+
+* An e-commerce business using Xano for product and user data wants to integrate with JetAdmin to offer a dedicated vendor portal, where vendors can manage their products and view sales analytics.
+* A business uses Xano as the backend for their mobile app and JetAdmin for their web-based admin panel. They seek a unified authentication system for both platforms.
+* A company organizing events uses Xano to handle attendee information and wants to create a JetAdmin portal for event organizers to manage event details and attendee data.
+* etc.
 
 ## Pre-requisites
 
