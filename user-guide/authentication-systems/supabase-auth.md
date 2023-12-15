@@ -8,7 +8,7 @@ description: >-
 
 ## Pre-requisites
 
-* **Supabase Account**: Ensure you have an active Xano account.
+* **Supabase Account**: Ensure you have an active Supabase account.
 * **JetAdmin Account**: Similarly, a JetAdmin account is required. [Register](https://app.jetadmin.io/projects/create) if you haven't already.
 * **User Table in Supabase**: Set up a user table in your Supabase project. It is located at "**Authentication" -> "Users"**
 
