@@ -6,7 +6,7 @@ description: Parse JSON to create new columns with the data you want
 
 If your dataset has a field that contains data in a JSON format, you can parse that field to display the specific pieces of data you want in new columns. You can do this by creating a new custom field and then passing it a value that references the JSON field.&#x20;
 
-Let's explain this more in depth by using the following example.
+Let's explain this more in-depth by using the following example.
 
 Suppose you have a field that has JSON data like the following:
 

@@ -22,7 +22,7 @@ In Jet, you can create relations between values using a **Link to record** colum
 
 ### Check for matching values <a href="#check-for-matching-values" id="check-for-matching-values"></a>
 
-Before adding a **Relation** column, you must first check that the values match in the columns that will be connected. Items cannot be linked together unless they match.
+Before adding a **Relation** column, you must first check that the values match the columns that will be connected. Items cannot be linked together unless they match.
 
 In this example, each employee in `Contact` has a `Company` they work in.
 
@@ -31,15 +31,16 @@ In this example, each employee in `Contact` has a `Company` they work in.
 
 ### Build single relations <a href="#build-single-relations" id="build-single-relations"></a>
 
-Here we'll show how to simply create a related Company field for each Customer. Each customer has `company_id`, to display and link the company in the Customer table let's specify `link to record`. There are 3 steps to setting up a related field:&#x20;
+Here we'll show how to simply create a related Company field for each Customer. Each customer has `company_id`, to display and link the company in the Customer table let's specify `link to record`. Follow the steps:
 
-1\. Specify the type for a `company_id` column as `Link to record`&#x20;
+1. Click on the `Company_id` field
+2. Click on the `Number`
+3. Select the `Link to Record` option
+4. Choose the related R**esource**
+5. Choose the related **Collection**
+6. Choose **ID** for the **Display Field**
 
-![](../../.gitbook/assets/testgif58.gif)
-
-2\. Specify `related collection` then select `related field` and select `Display field` to display it on the Customer table:
-
-![](../../.gitbook/assets/testgif59.gif)
+{% @arcade/embed flowId="PkoE2rQCX69JW2AfSjYO" url="https://app.arcade.software/share/PkoE2rQCX69JW2AfSjYO" %}
 
 {% hint style="info" %}
 Related field and Display field are set automatically under the context but you can change these values.
@@ -51,25 +52,17 @@ One record in a table might be connected to many records in another table. For e
 
 With Jet Admin, you can use this kind of connection to display or work with the connected records that you want.
 
-Example: Create a table that will show all the orders from the customer selected in the customers table.
+Example: Create a table that will show all the properties from the landlord selected in the landlord's table.
 
-1. Add a new table and select the resource with the records you want to display. In this case, the table will be with the sales records.
-2.  Add a filter to the table. You can do this when adding the table, or afterward in the table menu.
+1. Select the **resource** with the records you want to display. In this case, the table will be with the property's records.
+2. Go to the **Data** section
+3. Add a filter to the table. You can do this when adding the table, or afterward in the table menu.
+4. Choose the related fields and the method of filtering. In this case, the field will be _Landlord ID,_ and the method, _Landlord ID equals_.&#x20;
+5. Click on the `Formula` icon, to specify the filter
+6. Select the component and field that you want to use to filter. In this example, that will be the _ID_ field from the _landlord's_ table.
+7. Choose the **Selected Row -> ID**
 
-    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.21.55.png" alt=""><figcaption></figcaption></figure>
-3.  Choose the related fields and the method of filtering. In this case, the field will be _Customer ID_ and the method, in this case _Customer ID equals_. \
-
-
-    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.28.27.png" alt=""><figcaption></figcaption></figure>
-4.  Next, select the component and field that you want to use to filter. In this example, that will be the _ID_ field from the _Customers_ table.\
-
-
-    <figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.30.52.png" alt=""><figcaption></figcaption></figure>
-5. Lastly, customize the table to suit your needs. In this case, I'll customize the fields and also change the name of the table to show the customer name (which can be done by using the concatenate function in the display field – "CONCAT("Purchases by", \[select Name using the formula menu])
-
-<figure><img src="../../.gitbook/assets/Снимок экрана 2023-03-28 в 00.51.30.png" alt=""><figcaption></figcaption></figure>
-
-
+{% @arcade/embed flowId="1MRXR7LbZBZGDfIzsn2t" url="https://app.arcade.software/share/1MRXR7LbZBZGDfIzsn2t" %}
 
 
 

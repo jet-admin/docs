@@ -12,38 +12,48 @@ One common type of form is Multiple Select. Multiple Select is useful for when y
 
 To use a Multiple Select component as a filter, you need to do two things:
 
-1. Create the Multiple Select form
-2. Connect the Multiple Select form to your table as a filter
+1. Create the **Multiple Select** form
+2. Connect the **Multiple Select** form to your table as a **filter**
 
 ### Create the Multiple Select form
 
-Once you've dragged and dropped the Multiple Select component into your app, click on it, and the Multiple Select component will appear on the right.
+To create a multiple-select form:
 
-<figure><img src="../../../../.gitbook/assets/Снимок экрана 2023-03-10 в 07.31.32.png" alt=""><figcaption><p>Multiple Select menu</p></figcaption></figure>
+1. Drag and drop the Multiple Select component into your app
+2. Click on it, and the Multiple Select component will appear on the right.
+
+{% @arcade/embed flowId="NkPPAwWXv3scA7CVwD10" url="https://app.arcade.software/share/NkPPAwWXv3scA7CVwD10" %}
 
 Now, you need to set up the options that your user will be able to choose from. You can do this by specifying the options manually or by loading the options.
 
-<figure><img src="../../../../.gitbook/assets/image 360.png" alt=""><figcaption><p>Specify options manually</p></figcaption></figure>
+To specify options manually, follow the steps:
 
-To load the options, first choose the resource and collection that you want to load options from, choose the fields in that collection that you want to use for your labels and values, and then click _Load and customize options_. You can also add subtitles or icons that would then appear in the Multiple Select component.
+1. Scroll down and click on the `Add an Option` button
+2. Add Options
 
-<figure><img src="../../../../.gitbook/assets/Frame 440.png" alt=""><figcaption><p>Load options</p></figcaption></figure>
+{% @arcade/embed flowId="UmV76BycmPWRgwRgc3YN" url="https://app.arcade.software/share/UmV76BycmPWRgwRgc3YN" %}
 
-After loading the options, be sure to double-check that they are correct and make any changes as necessary. Sometimes extra values will be added, but you can click on the delete icon next to them   to ensure that the list of options is correct.
+To load the options, follow the steps:
 
-<figure><img src="../../../../.gitbook/assets/Frame 441.png" alt=""><figcaption><p>Correct options</p></figcaption></figure>
+1. Click on the **`Load Options`**
+2. Choose the **resource** and **collection** that you want to load options from
+3. Choose the **fields** in that collection that you want to use for your **labels** and **values**
+4. Click _`Load and Customize` options_. You can also add subtitles or icons that would then appear in the Multiple Select component.
 
-At this point, my Multiple Select component is set up, but I still need to connect it to my table as a filter.
+{% @arcade/embed flowId="Ht5hZ33aMWUklti3MkUK" url="https://app.arcade.software/share/Ht5hZ33aMWUklti3MkUK" %}
+
+{% hint style="warning" %}
+After loading the options, be sure to double-check that they are correct and make any changes as necessary. Sometimes extra values will be added, but you can click on the delete icon next to them to ensure that the list of options is correct.
+{% endhint %}
+
+At this point, my Multiple Select component is set up, but you still need to connect it to my table as a filter.
 
 ### Connect the Multiple Select form to your table as a filter
 
-Click on your table to open up the table menu on the right. Click on _Filter_, and then in the _Apply Filters_ section, click on _Add._ Next, select the field that you want to filter by, and how you want it to filter. For Multiple Select, it is most common to choose the _\[field] is one of_ option, but depending on your needs, you might also choose _exclude \[field] is one of_.
+1. Click on your table to open up the table menu on the right.&#x20;
+2. Click on _Filter_, and then in the _Apply Filters_ section, click on _Add._&#x20;
+3. Next, select the field that you want to filter by, and how you want it to filter. Choose **discount provided** -> **discount provided equals**
+4. For Multiple Select, it is most common to choose the _\[field] as one of_ the options, but depending on your needs, you might also choose to _exclude \[field] as one_.
 
-<figure><img src="../../../../.gitbook/assets/Frame 442.png" alt=""><figcaption><p>Add filter to table</p></figcaption></figure>
-
-The final step is to click on the _ƒx Formula_ button and choose the Multiple Select component from the menu.
-
-<figure><img src="../../../../.gitbook/assets/Frame 443.png" alt=""><figcaption><p>Connect filter to Multiple Select</p></figcaption></figure>
-
-
+{% @arcade/embed flowId="WeyDt1HTWjypur0jb2dt" url="https://app.arcade.software/share/WeyDt1HTWjypur0jb2dt" %}
 
