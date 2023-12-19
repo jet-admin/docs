@@ -20,7 +20,8 @@ To show an image in the design, follow the steps:
 1. Click on the shape you want to add an image to.
 2. Go to the fills on the **Right Sidebar.**
 3. Click on the `Image` button.
-4. Click on the `Choose Image` button.
-5. Choose the image and save it.
+4. Click on the `Set up with Formula` button.
+5. Specify the formula.
+6. Select the corresponding parameter.
 
-{% @arcade/embed flowId="C6s7oay39tUJ72X1Gpdc" url="https://app.arcade.software/share/C6s7oay39tUJ72X1Gpdc" %}
+{% @arcade/embed flowId="QlNVvWochLAnZdzdOCUI" url="https://app.arcade.software/share/QlNVvWochLAnZdzdOCUI" %}
