@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Actions
+---
+
 # Actions
 
 To add an action step (or a rule step), just click on the "+" icon:

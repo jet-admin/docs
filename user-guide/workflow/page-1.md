@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about triggers
+---
+
 # Triggers
 
 To start building automation, **select the trigger** which will initiate it. Triggers can be broadly divided into three categories:&#x20;
@@ -8,9 +12,12 @@ To start building automation, **select the trigger** which will initiate it. Tri
 
 ### Buttons
 
-The most common one is `button`. To create an automation, click on the "Click action" **(1)** and then choose "Run Workflow" **(2)**.
+The most common one is `button`. To create an automation,&#x20;
 
-![](../../.gitbook/assets/srgzx.png)
+1. Click on the `Click action`
+2. Choose `Run Workflow`&#x20;
+
+{% @arcade/embed flowId="2dlzfHAvIKSulhTj03j5" url="https://app.arcade.software/share/2dlzfHAvIKSulhTj03j5" %}
 
 ### List Actions
 
@@ -20,12 +27,19 @@ You can also create automation for any of the **list actions**. The lists includ
 
 ### Success/Error actions
 
-Another type of an action that can trigger workflows is `Success/Error`:
+Another type of action that can trigger workflows is `Success/Error.` To specify them, follow the steps:
 
-![](<../../.gitbook/assets/rshzdxctfy (1).png>)
+1. Go to the `Actions Tab`
+2. Specify them one by one **by clicking on the buttons**
 
-In all the cases, you'll need to **choose the "Run workflow"** type of action **(1)** and click on the workflow section **(2)**:
+{% @arcade/embed flowId="Adv4DcYOM8vgpRlNyRob" url="https://app.arcade.software/share/Adv4DcYOM8vgpRlNyRob" %}
 
-![](../../.gitbook/assets/dnfddx.png)
+In all the cases, you'll need to&#x20;
+
+1. Click on the `Success Action`
+2. **Choose the "Run workflow"** type of action&#x20;
+3. Specify the **Workflow**
+
+{% @arcade/embed flowId="eT6nO08NLTcYMIAterzU" url="https://app.arcade.software/share/eT6nO08NLTcYMIAterzU" %}
 
 ##

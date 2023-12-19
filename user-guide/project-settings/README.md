@@ -1,3 +1,7 @@
+---
+description: In this section you will get to know some other Features of Jet Admin
+---
+
 # 🪂 Other Features
 
 {% content-ref url="manage-your-subscription.md" %}

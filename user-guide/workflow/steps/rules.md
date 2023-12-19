@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Rules
+---
+
 # Rules
 
 Rule steps allow you to run alternative or simultaneous sequences based on specific conditions.
@@ -26,13 +30,13 @@ If using **text** (string) for a condition, put it into the quotes "\_"
 
 #### **Switch condition**&#x20;
 
-It allows to create multiple branches and set an individual rule for each branch. Only when an individual condition is met will the corresponding branch run, or you can set an _ELSE_ condition to run when other conditions are not met.
+It allows to creation of multiple branches and sets an individual rule for each branch. Only when an individual condition is met will the corresponding branch run, or you can set an _ELSE_ condition to run when other conditions are not met.
 
 ![](../../../.gitbook/assets/szvxcr.png)
 
 ### Parallelize
 
-This rule step allows creating multiple branches, all of which will **run simultaneously** (in parallel). It's effectively the same as the "Switch" rule, where each condition is set to "1" (true)
+This rule step allows the creation of multiple branches, all of which will **run simultaneously** (in parallel). It's effectively the same as the "Switch" rule, where each condition is set to "1" (true)
 
 ![](../../../.gitbook/assets/dznxtcf.JPG)
 
@@ -41,5 +45,3 @@ This rule step allows creating multiple branches, all of which will **run simult
 With the **delay step**, you can insert a time lag between steps so that the next step will "wait" N seconds after the previous step is fired
 
 ![](../../../.gitbook/assets/rdxhct.JPG)
-
-##

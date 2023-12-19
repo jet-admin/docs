@@ -6,9 +6,12 @@ description: See what your users are doing.
 
 You can **track** your users' and builders' activities with built-in audit logging.
 
-To access audit logging, go to the Data Editor section and then click on the book icon at the top of the screen
+To access audit logging,&#x20;
 
-<figure><img src="../../.gitbook/assets/dfytyy.png" alt=""><figcaption></figcaption></figure>
+1. Go to the **Data Editor** section&#x20;
+2. Click on the `book icon` at the top of the screen
+
+{% @arcade/embed flowId="ZsvaDZuAY3vcFeV0jK3a" url="https://app.arcade.software/share/ZsvaDZuAY3vcFeV0jK3a" %}
 
 Here you'll see all the logs with all the details for each event
 

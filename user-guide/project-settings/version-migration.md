@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to update to a new version
+---
+
 # Update to a new version
 
 Update to new major version can lead to some setting not being saved and there is a chance you won't be able to go back to the previous version after saving changes of the interface because of breaking changes. So do it carefully and at your own risk.&#x20;
