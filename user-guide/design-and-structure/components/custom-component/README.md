@@ -6,11 +6,7 @@ description: Build  HTML/CSS/JS, React, Vue, Angular components
 
 ## What is a Custom Component?
 
-For particular pages, you can create your custom Component based on HTML/CSS, React, Angular, Vue, or any other framework and integrate it into the Jet Admin interface. Writing your own custom JS/CSS/HTML has no limits in implementing any page you need.&#x20;
 
-To integrate your custom Component with Jet Admin data you can use the Jet Admin SDK library.
-
-## Create an HTML/CSS Component
 
 You can create your Custom HTML components and pass values to them from anywhere else in the application via parameters. Here is a short demo of how to do this:
 
