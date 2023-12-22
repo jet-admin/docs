@@ -6,6 +6,8 @@ description: >-
 
 # Supabase Auth
 
+{% embed url="https://youtu.be/4Tfjl1hQVEE" %}
+
 ## Pre-requisites
 
 * **Supabase Account**: Ensure you have an active Supabase account.
