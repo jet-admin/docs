@@ -17,7 +17,7 @@ Let's say you have the Customers table. Once the user is selected in the Custome
 
 The Value field will be populated with the following expression `=elements.Customers["0"].selected_item.email`
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
 
 ### Ask the user to fill out the form in your App
 

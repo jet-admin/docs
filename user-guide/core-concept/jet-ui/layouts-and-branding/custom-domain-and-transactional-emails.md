@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Custom Domain and Transactional Emails
+---
+
 # Custom Domain and Transactional Emails
 
 Jet Admin allows you to use a custom domain for your app, as well as to set up and customize emails for User Invitations,  Email Verification, and Password Restore.
@@ -6,7 +10,7 @@ Before you can edit email templates or choose your custom _From_ email address (
 
 ## Setting up your custom domain
 
-Click on the _Connect Domain_ button and follow the instructions in the window. First, you will choose the domain name that you want people to see when they visit your app (it should be a subdomain in the format app.yourdomain.com). Then, you will see a message with a CNAME record that you will need to add in your domain DNS settings.
+Click on the _Connect Domain_ button and follow the instructions in the window. First, you will choose the domain name that you want people to see when they visit your app (it should be a subdomain in the format app.yourdomain.com). Then, you will see a message with a CNAME record that you will need to add to your domain DNS settings.
 
 <figure><img src="../../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

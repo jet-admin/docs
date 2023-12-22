@@ -1,14 +1,24 @@
+---
+description: In  this section you will learn about Users and Permissions
+---
+
 # 🔐 Users & Permissions
 
 JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](sharing-your-app.md#invite-by-email), [invited by link](sharing-your-app.md#invite-by-link)), will be available in the **Date** tab in the **"Built-ins"** section.
 
 You'll also be able to set **granular permissions** and the properties to **separate data for the Portal** (multi-tenancy)
 
-![](../../.gitbook/assets/sdfbt.png)
+To find Users and Teams, follow the steps:
+
+1. Go to the **Resources** section
+2. Go to the `Users section` - here you can see users
+3. Click on the `Teams Tab` - here you can see teams
+
+{% @arcade/embed flowId="D20IBBIoLsLhPF1aVvBn" url="https://app.arcade.software/share/D20IBBIoLsLhPF1aVvBn" %}
 
 ### Access to the app
 
-All the invited users, both internal and external, are automatically taken to the sign-in (or sign-up, depending on the settings) page. After signing up/logging in, the user will be redirected to either the dashboard where they can see the list of projects or to the specific page.
+All the invited users, both internal and external, are automatically taken to the sign-in (or sign-up, depending on the settings) page. After signing up/logging in, the user will be redirected to either the dashboard where they can see the list of projects, or to the specific page.
 
 The **default authorization** process involves authorizing in the following ways:
 
@@ -31,7 +41,7 @@ The built-in User Management System allows you to configure each user on a granu
 
 ### White Label & Customization
 
-You can remove Jet's brand and replace it with **your own branding** across the whole user journey in their Jet Admin app. You can also **customize the Sign-in/Sign-up page** to a great extent, choose the layout, put up your logo and favicon, configure a custom domain, or even completely rewrite the CSS.
+You can remove Jet's brand and replace it with **your branding** across the whole user journey in their Jet Admin app. You can also **customize the Sign-in/Sign-up page** to a great extent, choose the layout, put up your logo and favicon, configure a custom domain, or even completely rewrite the CSS.
 
 {% content-ref url="sign-in-sign-up/" %}
 [sign-in-sign-up](sign-in-sign-up/)

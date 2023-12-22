@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Azure AD SSO OAuth 2.0
+---
+
 # Azure AD SSO OAuth 2.0
 
 ### 1. Go to Sign In & Sign Up -> Authentication

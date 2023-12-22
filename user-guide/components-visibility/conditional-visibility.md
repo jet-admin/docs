@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Conditional Visibility
+---
+
 # Conditional Visibility
 
 Conditional Visibility allows you to **dynamically show/hide** a UI component based on a rule.&#x20;

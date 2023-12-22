@@ -1,10 +1,16 @@
+---
+description: In this section you will learn how to build Sign In/Sign Up Page
+---
+
 # Sign In/Sign Up
 
-You don't need to build the Sign-in/Sign-up page in the UI as Jet already has a **separate Sign-in/Sign-up page builder**.
+You don't need to build the Sign-in/Sign-up page in the UI, as Jet already has a **separate Sign-in/Sign-up page builder**.
 
-To access it, click on the door icon inside the builder:
+To access it,&#x20;
 
-![](../../../.gitbook/assets/tjdhy6.png)
+1. Click on the Sign-in & Sign-up icon inside the builder
+
+{% @arcade/embed flowId="2TvWUQ2KdCQ7ITXe3X1C" url="https://app.arcade.software/share/2TvWUQ2KdCQ7ITXe3X1C" %}
 
 ### Sign-in/Sign-up page
 
@@ -20,11 +26,11 @@ Sign-in/Sign-up page has three major sections:
 To be able to customize the Sign-in/Sign-up, you need to **set up a custom domain first**. See the image below.
 {% endhint %}
 
-![](../../../.gitbook/assets/rydju.png)
+Learn how to set up a custom domain in the following article:
 
-Once the custom domain is set, you'll see it in **the URL of your app**
-
-![](../../../.gitbook/assets/e5bht6.png)
+{% content-ref url="../../project-settings/configuring-a-custom-domain.md" %}
+[configuring-a-custom-domain.md](../../project-settings/configuring-a-custom-domain.md)
+{% endcontent-ref %}
 
 #### Appearance
 

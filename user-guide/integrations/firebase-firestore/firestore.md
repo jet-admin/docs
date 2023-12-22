@@ -14,7 +14,7 @@ If you want to be able to **combine** your **Firestore data** with data from oth
 [data-blending.md](../../data-blending.md)
 {% endcontent-ref %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 After having connected your Firestore, you'll be prompted to choose collections you want Jet Admin to generate **an admin panel (CRUD pages)** for. If you don't want an admin panel to be generated at all, leave all the boxes empty.
 

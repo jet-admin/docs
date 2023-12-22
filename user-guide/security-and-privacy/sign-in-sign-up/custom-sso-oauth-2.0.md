@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Custom SSO OAuth 2.0
+---
+
 # Custom SSO OAuth 2.0
 
 Apart from a number of pre-built SSO providers we support integrating with fully Custom [OAuth 2.0](https://oauth.net/2/) compatible providers.&#x20;

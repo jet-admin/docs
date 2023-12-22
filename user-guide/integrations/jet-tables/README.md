@@ -18,7 +18,7 @@ Using Jet Database, you can:
 <figure><img src="../../../.gitbook/assets/table view 2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You can also use data from Jet Tables to [merge it](../../data-blending.md) with data from other data sources, write custom SQL on top of it and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
+You can also use data from Jet Tables to [merge it](../../data-blending.md) with data from other data sources, write custom SQL on top of it, and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=2rdWPCUiGd4&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=18&ab_channel=JetAdmin" %}
@@ -27,17 +27,22 @@ You can also use data from Jet Tables to [merge it](../../data-blending.md) with
 
 **To get started** with Jet tables, click "New Data" in the integrations list in the top left corner:
 
-<figure><img src="../../../.gitbook/assets/add resource.png" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="FhhQdtmDCeG44iq8HxRl" url="https://app.arcade.software/share/FhhQdtmDCeG44iq8HxRl" %}
 
 Then, you'll get to the page where you can set the initial configuration of your data source:
 
 You can access the set-up menu by clicking the three dots next to the data source name **(1)**, where you can **change the name** or **delete** it.
 
-You also get to choose how to **bring in your own data**: you can either create a table by uploading the existing data in CSV, XLS, XLSX, or JSON **(2)** or create a new blank table to add fields and values manually **(3)**.
+You also get to choose how to **bring in your data**: you can either create a table by uploading the existing data in CSV, XLS, XLSX, or JSON **(2)** or create a new blank table to add fields and values manually **(3)**.
 
-<figure><img src="../../../.gitbook/assets/new table.png" alt=""><figcaption></figcaption></figure>
+To create a new table, follow the steps:
 
-<figure><img src="../../../.gitbook/assets/import customers.png" alt=""><figcaption></figcaption></figure>
+1. Click on the `Add Icon`
+2. Rename the Table
+3. Click on the `Create` button
+4. Click to **Import icon** to import the Data&#x20;
+
+{% @arcade/embed flowId="ul6BhOueqoEHJjBbAXMf" url="https://app.arcade.software/share/ul6BhOueqoEHJjBbAXMf" %}
 
 ### Setting up the data
 
@@ -45,7 +50,7 @@ Then you'll be taken to the main data section. There are three main areas or par
 
 * **(1)** In the left part, you can **manage collections** (tables) and the resource (Jet Tables) itself
 * **(2)** In the top part, you scope in onto the individual table that's been selected on the left. You can switch between the tabs to **change the structure**, and the **field types,** and access the **API**
-* **(3)** Here you can **manage the table's data**: add new records, change fields, and add the new ones
+* **(3)** Here you can **manage the table's data**: add new records, change fields, and add new ones
 
 <figure><img src="../../../.gitbook/assets/table view.png" alt=""><figcaption></figcaption></figure>
 

@@ -4,7 +4,7 @@ description: Setting up and managing teams
 
 # Roles in Permissions
 
-To limit access to data you can create different teams like Customer Support that has access to Tickets, or Sales Team has access to customers, orders, etc. You can create multiple teams with different Roles (**Administrator**, **Editor,** or **Read-only**).
+To limit access to data you can create different teams like Customer Support which has access to Tickets, or Sales Team have access to customers, orders, etc. You can create multiple teams with different Roles (**Administrator**, **Editor,** or **Read-only**).
 
 {% embed url="https://www.youtube.com/watch?v=lUv_wfNfKR8&ab_channel=JetAdmin" %}
 
@@ -12,7 +12,14 @@ To limit access to data you can create different teams like Customer Support tha
 
 Navigate to the Teams tab to create a new Team.
 
-![](../../.gitbook/assets/testgif67.gif)
+1. Click on the **Profile**
+2. Go to the `Users and Teams` tab
+3. Go to the `Teams Tab`
+4. Click on the `Add Team` icon
+5. Click on the `Create` button
+6. Click on the `Save Team` button
+
+{% @arcade/embed flowId="8HeIEyKti3CsPpmNaaho" url="https://app.arcade.software/share/8HeIEyKti3CsPpmNaaho" %}
 
 ### Team-based Permissions
 
@@ -33,9 +40,8 @@ You can provide access roles for each page: **Full Access**, **Read-only**, **Cu
 
 ![](<../../.gitbook/assets/image (863).png>)
 
-Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or to certain Teams/Users. With conditional add, edit & delete you can do this:
+Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or certain Teams/Users. With conditional add, edit & delete you can do this:
 
 {% content-ref url="../components-visibility/conditional-add-edit-and-delete.md" %}
 [conditional-add-edit-and-delete.md](../components-visibility/conditional-add-edit-and-delete.md)
 {% endcontent-ref %}
-

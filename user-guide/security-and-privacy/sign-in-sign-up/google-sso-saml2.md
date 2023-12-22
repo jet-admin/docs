@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Google SSO SAML2
+---
+
 # Google SSO SAML2
 
 Setting up **SSO** for your **Jet Admin** project requires your to set up **Custom Domain** for your project first.

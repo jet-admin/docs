@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Auth0 SSO SAML2
+---
+
 # Auth0 SSO SAML2
 
 ### 1. Go to SSO Applications

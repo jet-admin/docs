@@ -30,9 +30,8 @@ If the user goes to this page through a direct link he will see that screen:
 Now any user on this team will have full access to these pages.
 {% endhint %}
 
-### Example 2: Let users to read only access on the specific page
+### Example 2: Let users read-only access on the specific page
 
 You can grant read-only access to any page. In this case, performing any action on that page (unless your buttons are hidden based on visibility conditions) will be prevented and the user will see an error message:
 
 ![](<../../.gitbook/assets/image (856).png>)
-

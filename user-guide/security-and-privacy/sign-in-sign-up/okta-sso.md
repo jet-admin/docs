@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Okta SSO
+---
+
 # Okta SSO
 
 ### 1. Go to SSO Applications

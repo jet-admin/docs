@@ -1,3 +1,7 @@
+---
+description: In this section you will learn about Auth0 SSO OAuth 2.0
+---
+
 # Auth0 SSO OAuth 2.0
 
 ### 1. Go to SSO Applications
@@ -8,7 +12,7 @@
 
 ![](<../../../.gitbook/assets/image (809).png>)
 
-### 3. Go to Auth0 applications and create new Application
+### 3. Go to Auth0 applications and create a new Application
 
 ![](<../../../.gitbook/assets/image (768).png>)
 
@@ -16,7 +20,7 @@
 
 ### 4. Copy credentials to Jet Admin
 
-Choose Provider **Auth0OAuth2** on **Jet Admin** and after that copy **Domain, Client ID, Client Secret** from **Auth0**. You should also set **Scope** as **openid,profile,email,offline\_access**.
+Choose Provider **Auth0OAuth2** on **Jet Admin** and then copy **Domain, Client ID, Client Secret** from **Auth0**. You should also set **Scope** as **openid,profile,email,offline\_access**.
 
 ![](<../../../.gitbook/assets/image (810).png>)
 
@@ -24,7 +28,7 @@ Choose Provider **Auth0OAuth2** on **Jet Admin** and after that copy **Domain, C
 
 ### 5. Set Allowed Callback URL on Auth0
 
-Copy **REDIRECT URL** from **Jet Admin** in **Application parameters** section to **Auth0 Allowed Callback URLs** and click **Save** on both **- Auth0** and **Jet Admin.**
+Copy the **REDIRECT URL** from **Jet Admin** in the **Application parameters** section to **Auth0 Allowed Callback URLs** and click **Save** on both **- Auth0** and **Jet Admin.**
 
 ![](<../../../.gitbook/assets/image (812).png>)
 

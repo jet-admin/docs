@@ -1,3 +1,7 @@
+---
+description: In this section you will learn how to create a customer portal
+---
+
 # 👥 Creating a Customer Portal
 
 ### PM Portal in 5 mins 🚀
