@@ -10,8 +10,8 @@ Here, you must choose how you'd like your Firestore to integrate with Jet Admin.
 
 If you want to be able to **combine** your **Firestore data** with data from other data sources, such as Google Sheets, Airtable, or even REST API within the same tables, you should choose the **"Sync" connection**. You can learn more about it here:
 
-{% content-ref url="../../data-blending.md" %}
-[data-blending.md](../../data-blending.md)
+{% content-ref url="../../360-data-data-blending/" %}
+[360-data-data-blending](../../360-data-data-blending/)
 {% endcontent-ref %}
 
 <figure><img src="../../../.gitbook/assets/image (1) (9) (1).png" alt=""><figcaption></figcaption></figure>

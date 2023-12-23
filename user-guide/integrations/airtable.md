@@ -28,8 +28,8 @@ After that, you need to choose how you'd like your Airtable to be integrated wit
 
 If you want to be able to **combine your Airtable data** with data from other data sources, such as Firebase, Google Sheets, or even REST API within the same tables, you should choose the **"Sync" connection** for Google Sheets. You can learn more about it here:
 
-{% content-ref url="../data-blending.md" %}
-[data-blending.md](../data-blending.md)
+{% content-ref url="../360-data-data-blending/" %}
+[360-data-data-blending](../360-data-data-blending/)
 {% endcontent-ref %}
 
 ![](../../.gitbook/assets/ilhj.JPG)
