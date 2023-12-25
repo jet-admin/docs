@@ -52,6 +52,7 @@
 * [🔐 Data Privacy & Security](data-privacy-and-security.md)
 * [🙌 Join the Community](join-the-community.md)
 * [🐞 FAQ and Troubleshooting](troubleshoot.md)
+  * [A data resource is failing to sync](faq-and-troubleshooting/a-data-resource-is-failing-to-sync.md)
   * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)
   * [How to clone the whole app?](faq-and-troubleshooting/how-to-clone-the-whole-app.md)
   * [Why new SQL tables are not showing?](faq-and-troubleshooting/why-new-sql-tables-are-not-showing.md)
