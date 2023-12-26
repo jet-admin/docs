@@ -12,7 +12,7 @@ Once you've connected your data sources (read more on particular integrations [*
 
 ![](../../.gitbook/assets/dhtffyu.png)
 
-1. Create a new **virtual Collection**
+1. Create a new **Virtual Collection**
 2. Name the Collection
 3. Click on the `Create` button
 4. You'll see all the data sources you've connected using "Sync" on the right. You can now pick the columns and use them in your query:

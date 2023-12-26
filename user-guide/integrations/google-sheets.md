@@ -22,8 +22,8 @@ After that, you need to choose how you'd like your Google Sheet to be integrated
 
 If you want to be able to **combine your Google Sheets data** with data from other data sources, such as Firebase, Airtable, or even REST API within the same tables, you should choose the **"Sync" connection** for Google Sheets. You can learn more about it here:
 
-{% content-ref url="../360-data-data-blending/" %}
-[360-data-data-blending](../360-data-data-blending/)
+{% content-ref url="../data-blending.md" %}
+[data-blending.md](../data-blending.md)
 {% endcontent-ref %}
 
 ![](../../.gitbook/assets/dtnxb-min.png)

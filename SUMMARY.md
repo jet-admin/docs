@@ -319,7 +319,7 @@
   * [Zapier Workflows](user-guide/workflow/action-sequences.md)
   * [Iterators](user-guide/workflow/iterators.md)
 * [👨💻 Javascript](user-guide/javascript.md)
-* [💠 360 Data/Data Blending](user-guide/360-data-data-blending/README.md)
+* [💠 360 Data/Data Blending](user-guide/data-blending.md)
   * [Sync Connection](user-guide/360-data-data-blending/sync-connection.md)
   * [Blending the Data](user-guide/360-data-data-blending/blending-the-data.md)
   * [Sync Options](user-guide/360-data-data-blending/sync-options.md)

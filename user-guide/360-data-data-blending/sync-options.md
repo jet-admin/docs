@@ -27,9 +27,13 @@ The last **sync date and time** are displayed along with the sync status:
 
 ![](../../.gitbook/assets/xncvgyn.png)
 
-You can further investigate the **syncing logs** and **console** by clicking on that time:
+To View Sync Events, follow the steps:
 
-![](../../.gitbook/assets/ugkhji.JPG)
+1. Click on the `More` icon
+2. Click on the `View Sync Events` button
+3. Click on the `More` button
+
+{% @arcade/embed flowId="d5jg7wZ7Ubdzaj91ffn7" url="https://app.arcade.software/share/d5jg7wZ7Ubdzaj91ffn7" %}
 
 To learn more about using SQL queries in Jet Admin, please refer to this page:
 
