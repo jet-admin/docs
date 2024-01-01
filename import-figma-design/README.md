@@ -22,10 +22,8 @@ The Figma to Jet plugin lets you turn your static designs into clean, production
 
 ### What is not supported:
 
-* Groups/Frames are ungrouped as multiple layers (will support soon)
-* Auto layout (will support soon)
 * Radial/Angular/Diamond gradients
-* Shapes
+* Shapes (import as SVG at the moment)
 * Custom border dashes
 * Layer/Background blur
 * Border join style
