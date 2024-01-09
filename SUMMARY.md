@@ -47,6 +47,7 @@
     * [Supabase CRM](videos/build-apps-together/supabase-crm.md)
   * [Authentication](videos/authentication/README.md)
     * [Supabase Auth](videos/authentication/supabase-auth.md)
+    * [Firebase Auth](videos/authentication/firebase-auth.md)
     * [Xano Auth](videos/authentication/xano-auth.md)
 * [📣 What's new](https://feedback.jetadmin.io/changelog)
 * [🔐 Data Privacy & Security](data-privacy-and-security.md)
