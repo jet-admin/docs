@@ -6,6 +6,8 @@ description: >-
 
 # 🖼 Import Figma Design
 
+{% embed url="https://www.youtube.com/watch?v=F5RYVPibse8" %}
+
 The Figma to Jet plugin lets you turn your static designs into clean, production-ready Jet components. Add Jet Interactions, wire up content using your data source, and one-click publish your fully functional web apps.
 
 {% @arcade/embed flowId="YjE6uvovuWQ36UpyBO3o" url="https://app.arcade.software/share/YjE6uvovuWQ36UpyBO3o" %}

@@ -45,6 +45,7 @@
     * [Internal Tool](videos/build-apps-together/internal-tool.md)
     * [Customer portal](videos/build-apps-together/customer-portal.md)
     * [Supabase CRM](videos/build-apps-together/supabase-crm.md)
+  * [Import Figma design to Jet](videos/import-figma-design-to-jet.md)
   * [Authentication](videos/authentication/README.md)
     * [Supabase Auth](videos/authentication/supabase-auth.md)
     * [Firebase Auth](videos/authentication/firebase-auth.md)
@@ -95,6 +96,7 @@
   * [Hide elements](getting-started/pixel-perfect-app/hide-elements.md)
   * [Support multi-screens](getting-started/pixel-perfect-app/support-multi-screens.md)
 * [🚀 UI in seconds](getting-started/ui-in-seconds.md)
+* [🪅 Figma design into a web app](getting-started/figma-design-into-a-web-app.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 
