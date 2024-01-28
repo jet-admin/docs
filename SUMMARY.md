@@ -351,6 +351,7 @@
   * [Supabase Auth](user-guide/authentication-systems/supabase-auth.md)
   * [Token-based Auth](user-guide/authentication-systems/token-based-auth.md)
   * [Xano Auth](user-guide/authentication-systems/xano-auth.md)
+* [Integrations](user-guide/integrations-1.md)
 
 ***
 
