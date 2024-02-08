@@ -145,6 +145,7 @@
     * [Create APIs on top of your Xano database](user-guide/integrations/xano/create-apis-on-top-of-your-xano-database.md)
     * [Connect Xano to Jet Admin](user-guide/integrations/xano/connect-xano-to-jet-admin.md)
     * [Upload files to Xano](user-guide/integrations/xano/upload-files-to-xano.md)
+  * [SmartSuite](user-guide/integrations/smartsuite.md)
   * [Stripe](user-guide/integrations/stripe.md)
   * [Hubspot](user-guide/integrations/hubspot.md)
   * [Intercom](user-guide/integrations/intercom.md)
