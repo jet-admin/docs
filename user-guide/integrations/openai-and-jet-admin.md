@@ -12,15 +12,14 @@ There are many possibilities with the OpenAI integration. You can:
 
 * Analyze Sentiment
 * Answer Question
-* Send Message to ChatGPT (without history)
-* Send Message to ChatGPT (with history)
 * Correct Grammar
 * Extract Keywords
 * Generate Image
 * Speech to Text
+* Suggest color
+* Suggest emoji
 * Summarize
-* Suggest a Color
-* Suggest an Emoji
+* Translate audio to English
 
 ### Model Tweaks
 
@@ -31,6 +30,10 @@ What sampling temperature to use, between 0 and 2. Higher values like 0.8 will m
 **Max tokens**
 
 The maximum number of tokens to generate in the chat completion. The total length of input tokens and generated tokens is limited by the model's context length. The maximum length parameter, limited to a number under 2048, governs the extent of the text generated, measured in tokens (words or symbols). Setting a higher value can lead to longer responses, although it may sacrifice coherence. Most models are restricted to a context length of 2048 tokens, but the latest models are capable of supporting up to 4096 tokens.
+
+Model
+
+You can select between using GPT 3.5 Turbo and GPT 4 Turbo
 
 **How to use it:**
 
