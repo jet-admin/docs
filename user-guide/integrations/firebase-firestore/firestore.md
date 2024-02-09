@@ -18,7 +18,7 @@ If you want to be able to **combine** your **Firestore data** with data from oth
 
 After having connected your Firestore, you'll be prompted to choose collections you want Jet Admin to generate **an admin panel (CRUD pages)** for. If you don't want an admin panel to be generated at all, leave all the boxes empty.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (9).png" alt=""><figcaption></figcaption></figure>
 
 You can also watch our video on Firebase to learn how to quickly build **admin panels** or **CRUD apps** with Firebase:&#x20;
 

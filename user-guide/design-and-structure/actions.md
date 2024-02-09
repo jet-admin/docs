@@ -28,6 +28,20 @@ There are 9 types of actions:&#x20;
 
 ![](<../../.gitbook/assets/image (837).png>)
 
+### Action confirmation dialog
+
+You can set up a confirmation dialog that will appear before executing an action.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Confirmation dialog example</p></figcaption></figure>
+
+To add a confirmation dialog, use the "Confirm on execute" section of the right-side panel
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+You can define the Title, Description, and button styles for your confirmation dialog.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ### Run Operation
 
 You can perform any CRUD operation or a custom API/SQL query. To do so, follow the steps:

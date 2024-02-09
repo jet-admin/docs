@@ -43,7 +43,7 @@ To obtain a service key, follow the steps:
 
 Then you'll need to select the database type: Firestore or Realtime DB:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (8).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 To learn more about Firestore and Realtime DB, check the [**official Firebase article**](https://firebase.google.com/docs/database/rtdb-vs-firestore)**.**
