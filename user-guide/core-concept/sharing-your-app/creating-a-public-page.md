@@ -1,12 +1,12 @@
 ---
-description: In this section you will learn how to create a public page.
+description: In this section you will learn how to create and share a public page.
 ---
 
-# Creating public page
+# Creating a Public Page
 
-Sharing the page publicly will allow other users to see and use the page without logging in.
+Sharing the page publicly will allow anyone on the internet having it's URL to view and use the page without logging in.
 
-To create a public page, follow the steps:
+To create a public page, follow the steps below:
 
 1. Click on the `Add Team` button.
 2. Create a **New Team** and name it to **Public team.**&#x20;
