@@ -9,3 +9,5 @@ description: In this section you will learn about Custom Scripts and Styles
 You can access them in this section of the App Settings menu.
 
 <figure><img src="../../../../.gitbook/assets/image (11) (5).png" alt=""><figcaption></figcaption></figure>
+
+Learn more about Global JavaScript and CSS in [this article](../../../design-and-structure/global-css-and-js.md).&#x20;
