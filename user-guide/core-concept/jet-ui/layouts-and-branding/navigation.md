@@ -114,7 +114,7 @@ Grouping allows you to group different menu items in sections or dropdowns.
 
 ![](<../../../../.gitbook/assets/image (102).png>)
 
-![](<../../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (1).png>)
 
 * Logout
 
