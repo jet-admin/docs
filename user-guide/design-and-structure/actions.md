@@ -31,7 +31,11 @@ There are 14 types of actions:&#x20;
 * **Import Data**. Import data to a collection.&#x20;
 * **Download File.** Download the file from the API call.
 
-![](<../../.gitbook/assets/image (837).png>)
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Action confirmation dialog
 
