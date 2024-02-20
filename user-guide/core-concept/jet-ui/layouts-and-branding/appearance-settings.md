@@ -27,3 +27,26 @@ Accent Color affects the highlight color for selected rows, the color of various
 To set the Accent Color for your app, simply go to the Appearance section in the App Settings menu and choose the color you would like to use.
 
 <figure><img src="https://lh4.googleusercontent.com/WqONVJScbA9pilsZVenSH0DhxCqPQuUDsfFb4cXyjkAl-xebbX3aFxlm_9FL0cUfYTSOmAN7cIZMH_qcu0LvA0csgaSz63zhhHibK3yH397O8v6ISGLeRqBdWrdjudwjlwc10O-ZXu9LdQ0=s2048" alt=""><figcaption></figcaption></figure>
+
+## Change the App's URL
+
+The App name is the unique name of each application on Jetadmin. This feature allows you to change the app's unique name. \
+
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+To change the app name, click on the URL box and rename your app with a unique name and click the "Change App URL" button.&#x20;
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+Please note that old App URLs **will stop working.**
+{% endhint %}
