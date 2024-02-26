@@ -18,15 +18,12 @@ You can connect to Airtable from the data tab on the left menu bar or from the d
 
 ### Obtaining a personal access tokens
 
-You can obtain your personal access token on[ Airtable's account page](https://airtable.com/account), then follow the steps below:
+To obtain your personal access token on [Airtable's Developer Hub](https://airtable.com/create/tokens), follow the steps below:
 
-1. Go to the API section
-2. Click on '[Go to developer hub](https://airtable.com/create/tokens)'
-3. Click on 'Create token'
-4. Create a new token
-5. Copy and save the token in a safe place.
-
-<figure><img src="../../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
+1. Go to Airtable's [developer hub](https://airtable.com/create/tokens) page
+2. Click on 'Create token'
+3. Create a new token
+4. Copy and save the token in a safe place.
 
 {% hint style="info" %}
 When creating a new 'personal access token', please make sure you choose the 'data.records:write' scope if you need to view, add, edit, and delete records on Jetadmin's side.
