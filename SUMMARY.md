@@ -64,7 +64,7 @@
 ## Guides <a href="#getting-started" id="getting-started"></a>
 
 * [⚡ Quickstart](getting-started/quickstart-2.md)
-* [🛠 Building an Internal Tool](getting-started/quickstart/README.md)
+* [🛠️ Building an Internal Tool](getting-started/quickstart/README.md)
   * [Connect your Data](getting-started/quickstart/connect-your-data.md)
   * [Configure Data](getting-started/quickstart/configure-data.md)
   * [Build UI](getting-started/quickstart/set-the-layout.md)
@@ -286,8 +286,8 @@
     * [Data Source Storage](user-guide/data/file-storage-and-uploading/data-source-storage.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
   * [Many-to-many relationship](user-guide/data/many-to-many-relationship.md)
-* [🧞♂ Visibility rules](user-guide/visibility-rules.md)
-* [ℹ Conditionals](user-guide/components-visibility/README.md)
+* [🧞‍♂️ Visibility rules](user-guide/visibility-rules.md)
+* [ℹ️ Conditionals](user-guide/components-visibility/README.md)
   * [Conditional Visibility](user-guide/components-visibility/conditional-visibility.md)
     * [Examples](user-guide/components-visibility/conditional-visibility/examples/README.md)
       * [Hiding a component until a row is selected](user-guide/components-visibility/conditional-visibility/examples/hiding-a-component-until-a-row-is-selected.md)
@@ -308,7 +308,7 @@
     * [API calls with SSO token](user-guide/security-and-privacy/sign-in-sign-up/api-calls-with-sso-token.md)
   * [Roles in Permissions](user-guide/security-and-privacy/create-and-manage-a-team.md)
   * [User-specific Permissions](user-guide/security-and-privacy/user-and-team-properties.md)
-* [▶ Preview & Publish](user-guide/preview-and-publish/README.md)
+* [▶️ Preview & Publish](user-guide/preview-and-publish/README.md)
   * [Embed Apps](user-guide/preview-and-publish/embed-apps.md)
     * [Embedding App using a generated link](user-guide/preview-and-publish/embed-apps/embedding-app-using-a-generated-link.md)
     * [Embedding App using iFrame/HTML](user-guide/preview-and-publish/embed-apps/embedding-app-using-iframe-html.md)
@@ -323,7 +323,7 @@
   * [Success/Error Actions](user-guide/workflow/actions-workflow.md)
   * [Zapier Workflows](user-guide/workflow/action-sequences.md)
   * [Iterators](user-guide/workflow/iterators.md)
-* [👨💻 Javascript](user-guide/javascript.md)
+* [👨‍💻 Javascript](user-guide/javascript.md)
 * [💠 360 Data/Data Blending](user-guide/data-blending.md)
   * [Sync Connection](user-guide/360-data-data-blending/sync-connection.md)
   * [Blending the Data](user-guide/360-data-data-blending/blending-the-data.md)
@@ -331,7 +331,7 @@
 * [🔤 Localization](user-guide/localization/README.md)
   * [Account Settings](user-guide/localization/account-settings.md)
   * [User-end Localization](user-guide/localization/user-end-localization.md)
-* [🎚 Version Control](user-guide/version-control.md)
+* [🎚️ Version Control](user-guide/version-control.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
   * [Environments](user-guide/project-settings/environments.md)
   * [Audit logs](user-guide/project-settings/audit-logs.md)
@@ -357,7 +357,7 @@
 
 ***
 
-* [🖍 Component Designer](component-designer.md)
+* [🖍️ Component Designer](component-designer.md)
   * [Designing pixel-perfect components](component-designer/designing-pixel-perfect-components.md)
   * [Customizing the components](component-designer/customizing-the-components.md)
   * [Conditional Visibility](component-designer/conditional-visibility.md)
@@ -366,18 +366,18 @@
   * [Borders/Stroke](component-designer/borders-stroke.md)
   * [Apply shadow or blur effects](component-designer/apply-shadow-or-blur-effects.md)
   * [Component Responsiveness / Constraints](component-designer/component-responsiveness-constraints.md)
-* [🖼 Import Figma Design](import-figma-design/README.md)
+* [🖼️ Import Figma Design](import-figma-design/README.md)
   * [Install Plugin](import-figma-design/install-plugin.md)
 
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
 
 * [⛅ Cloud](jet-bridge-deployment/cloud.md)
-* [🏎 Self-hosted](jet-bridge-deployment/jet-admin/README.md)
+* [🏎️ Self-hosted](jet-bridge-deployment/jet-admin/README.md)
   * [SSO on self-deployed Jet Bridge](jet-bridge-deployment/jet-admin/sso-on-self-deployed-jet-bridge.md)
   * [Using self-deployed HTTP proxy](jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md)
   * [Common Problems](jet-bridge-deployment/jet-admin/common-problems.md)
   * [Configuration](jet-bridge-deployment/jet-admin/configuration.md)
-* [🖥 On-premise](jet-bridge-deployment/on-premise/README.md)
+* [🖥️ On-premise](jet-bridge-deployment/on-premise/README.md)
   * [Install & Update](jet-bridge-deployment/on-premise/install-and-update.md)
   * [Common Problems](jet-bridge-deployment/on-premise/common-problems.md)
   * [Superuser access](jet-bridge-deployment/on-premise/superuser-access.md)
