@@ -32,7 +32,7 @@ You can obtain your personal access token on[ Airtable's account page](https://a
 When creating a new 'personal access token', please make sure you choose the 'data.records:write' scope if you need to view, add, edit, and delete records on Jetadmin's side.
 {% endhint %}
 
-<div align="left" data-full-width="true">
+<div align="center" data-full-width="true">
 
 <figure><img src="../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
