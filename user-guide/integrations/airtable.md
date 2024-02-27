@@ -9,30 +9,8 @@ In this article, we'll review the integration with Airtable, and its characteris
 {% hint style="info" %}
 **API keys are deprecated by the end of January 2024.**&#x20;
 
-Airtable's API keys stopped working and you will have to migrate to **personal access tokens**. **Personal access tokens** allow you to more securely grant API access to Airtable data.
+Airtable's API keys stopped working and you will have to migrate to **personal access tokens**. However, you don't need a **Personal access tokens** to connect Airtable to Jetadmin. Just logging in with Airtable when creating a new resource is enough
 {% endhint %}
-
-### Connecting Airtable
-
-You can connect to Airtable from the data tab on the left menu bar or from the data section within a UI component. You'll need to enter a valid personal access token, and choose a base.
-
-### Obtaining a personal access tokens
-
-You can obtain your personal access token on[ Airtable's account page](https://airtable.com/account), then follow the steps below:
-
-1. Go to the API section
-2. Click on '[Go to developer hub](https://airtable.com/create/tokens)'
-3. Click on 'Create token'
-4. Create a new token
-5. Copy and save the token in a safe place.
-
-<figure><img src="../../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-When creating a new 'personal access token', please make sure you choose the 'data.records:write' scope if you need to view, add, edit, and delete records on Jetadmin's side.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
 
 ### Connect Airtable to Jetadmin&#x20;
 
