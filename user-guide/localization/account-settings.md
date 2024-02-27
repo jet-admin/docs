@@ -26,6 +26,18 @@ If **your language is not on the list**, reach out to our support (bottom left c
 
 After this, when you view your app, it will appear in the language that you selected. However, the App Builder will remain in English.
 
+**List of supported languages:**
+
+* English
+* Danish
+* French
+* Hungarian
+* Italian
+* Japanese
+* Portugese (Brazil)
+* Portugese (Portugal)
+* Spanish
+
 ### Setting up the timezone
 
 #### Step 1: Go to Profile Settings

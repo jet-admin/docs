@@ -28,6 +28,18 @@ If **your language is not on the list**, reach out to our support (bottom left c
 
 Once you save the changes, all the users who sign up/log in into the app (in the user mode) will see the localized version.
 
+**List of supported languages:**
+
+* English
+* Danish
+* French
+* Hungarian
+* Italian
+* Japanese
+* Portugese (Brazil)
+* Portugese (Portugal)
+* Spanish
+
 ### Setting up the time zone
 
 #### Step 1: Go to App Settings
