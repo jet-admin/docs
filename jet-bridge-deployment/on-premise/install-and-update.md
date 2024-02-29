@@ -7,10 +7,10 @@
 * License key (contact our sales)
 
 {% hint style="info" %}
-Access to **gitlab.com/jet-admin/jet-onpremise** is necessary before installing. [Contact](https://www.jetadmin.io/contact) our sales to get access to get On-premise license or start trial.
+Access to **gitlab.com/jet-admin/jet-onpremise** is necessary before installing.&#x20;
 {% endhint %}
 
-{% embed url="https://tally.so/r/mJ1NjK" %}
+## [Get started with on-premise](https://app.jetadmin.io/projects?builder\_link=project/on-premise)
 
 ## Installation
 
