@@ -14,18 +14,16 @@ description: >-
 
 <figure><img src="../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
 
-
-
-## SSO errors
+## SSO Errors
 
 Displays errors that occurred using OAuth SSO, usually relevant for Custom OAuth SSO. \
 Additionally, when using Custom OAuth, debug records are saved to provide request details that were sent during authorization.
 
-## Resource OAuth errors
+## Resource OAuth Errors
 
 Displays errors related to OAuth authorization for Rest API resources.
 
-## Domain disconnect reason&#x20;
+## Domain Disconnection Errors&#x20;
 
 Displays custom domain related errors. For example; if a custom domain is set, then the domain settings —such as CNAME— are modified incorrectly, the custom domain will be disconnected and the reason of disconnection will be shown in the logs.
 
