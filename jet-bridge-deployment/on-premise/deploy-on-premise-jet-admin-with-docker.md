@@ -36,8 +36,9 @@ Navigate to the environment settings. From the left menu, select "On-premise" an
 
 * The application should now be accessible at the specified NGINX port (default is 80) on your localhost (`http://localhost:80`).
 
-1. **Verification:**
-   * To verify that Jet Admin is running, open a web browser and navigate to `http://localhost:80`.
-   * Proceed to create a new account, then create a project and add resources.
+### **Verification:**
+
+* To verify that Jet Admin is running, open a web browser and navigate to `http://localhost:80`.
+* Proceed to create a new account, then create a project and add resources.
 
 {% @arcade/embed flowId="ssc8tWflHfNwg2G9XjXy" url="https://app.arcade.software/share/ssc8tWflHfNwg2G9XjXy" %}
