@@ -332,6 +332,7 @@
   * [Account Settings](user-guide/localization/account-settings.md)
   * [User-end Localization](user-guide/localization/user-end-localization.md)
 * [🎚️ Version Control](user-guide/version-control.md)
+* [📖 Logs](user-guide/logs.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
   * [Environments](user-guide/project-settings/environments.md)
   * [Audit logs](user-guide/project-settings/audit-logs.md)
