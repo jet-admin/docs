@@ -39,7 +39,7 @@ If you want to be able to **combine your SmartSuite data** with data from other 
 [data-blending.md](../data-blending.md)
 {% endcontent-ref %}
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Select between "Sync" and "Direct Connection" operation modes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Select between "Sync" and "Direct Connection" operation modes</p></figcaption></figure>
 
 {% hint style="info" %}
 You can have separate resources for both operation modes and use them differently for separate components on your page

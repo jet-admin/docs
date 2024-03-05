@@ -256,6 +256,7 @@
       * [Set JavaScript Component Inputs](user-guide/design-and-structure/components/custom-component/set-javascript-component-inputs.md)
       * [Use JavaScript Component Outputs](user-guide/design-and-structure/components/custom-component/use-javascript-component-outputs.md)
     * [File PDF Viewer](user-guide/design-and-structure/components/file-pdf-viewer.md)
+    * [Signature](user-guide/design-and-structure/components/signature.md)
     * [IFrame](user-guide/components/iframe.md)
   * [Field Values](user-guide/design-and-structure/column-values/README.md)
     * [Extract values from components on the Page](user-guide/design-and-structure/column-values/extract-values-from-components-on-the-page.md)
