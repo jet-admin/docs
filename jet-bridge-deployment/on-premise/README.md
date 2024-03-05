@@ -4,6 +4,6 @@ If you need to secure sensitive data, you can host Jet Admin on your own servers
 
 ![](../../.gitbook/assets/how\_it\_work\_on-premise\_light\_ver2.png)
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="deploy-on-premise-jet-admin-with-docker.md" %}
+[deploy-on-premise-jet-admin-with-docker.md](deploy-on-premise-jet-admin-with-docker.md)
 {% endcontent-ref %}
