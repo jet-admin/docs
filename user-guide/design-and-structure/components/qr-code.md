@@ -8,19 +8,6 @@ Drag and drop QR Code component onto page and fill it with any value, such as UR
 
 {% @arcade/embed flowId="qHf6RxaHTCjtsHpkwGwg" url="https://app.arcade.software/share/qHf6RxaHTCjtsHpkwGwg" %}
 
-## QR Code component settings
-
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>QR Code settings</p></figcaption></figure>
-
-* Component name
-* General tab
-  * Value
-  * Fill Color
-* Background color
-* Display tab
-  * Conditional visibility
-  * Spacing
-
 ## How to pass values to QR Code component
 
 You can [pass any value](layouts/modal/passing-parameters.md) to the component and it will output it as QR Code.
