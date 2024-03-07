@@ -29,8 +29,7 @@ In Jet Admin's RestAPI Builder, endpoints can return data in four different form
 {% hint style="info" %}
 **Choosing the Right Response Output:**
 
-* Consider the nature of the data returned by endpoints and the requirements of your Jet Admin application.
-* Select the appropriate response output format (JSON, XML, Text, or Blob) based on the structure and type of data returned by your endpoints.
+Select the appropriate response output format (JSON, XML, Text, or Blob) based on the structure and type of data returned by your endpoints.
 {% endhint %}
 
 By accepting data in these four response output formats, Jet Admin enables efficient processing, visualization, and use of data received from endpoints within the platform.
