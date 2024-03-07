@@ -276,6 +276,7 @@
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [Making API requests](user-guide/data/make-an-http-request.md)
+    * [Endpoint Response Outputs](user-guide/data/make-an-http-request/endpoint-response-outputs.md)
     * [Response Transformer](user-guide/data/make-an-http-request/response-transformer.md)
     * [Sorting data](user-guide/data/make-an-http-request/sorting-data.md)
     * [Pagination](user-guide/data/make-an-http-request/pagination/README.md)
