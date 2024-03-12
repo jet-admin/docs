@@ -101,6 +101,14 @@ In Jet, you can choose different **secondary actions** that are being executed d
 [actions-workflow.md](actions-workflow.md)
 {% endcontent-ref %}
 
+## Iterators
+
+This workflow node will help you to go through a list of items to make actions individually.
+
+{% content-ref url="iterators.md" %}
+[iterators.md](iterators.md)
+{% endcontent-ref %}
+
 ## Zapier Workflows
 
 Create a **sequence of actions** in Zapier or Make (formerly Intergomat) of any complexity using triggers within Jet.
