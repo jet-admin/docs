@@ -14,4 +14,4 @@ To read more about **how to use files**, please go to the [File component refere
 
 ### Limitations
 
-Currently, there are no formal limitations on the storage volume you can use. However, we ask you to let us know via support chat if you're planning to use over 10 Gigabytes of uploaded files
+Storage limitation for your files depends on your [subscription plan](https://www.jetadmin.io/pricing).

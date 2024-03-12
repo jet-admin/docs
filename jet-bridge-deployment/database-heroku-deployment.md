@@ -4,7 +4,7 @@ description: Step-by-step guide to deploying a PostgreSQL database on Heroku.
 
 # ⛺️ Database Heroku deployment
 
-Once you have created the project, connected the resource, and selected the [Instant Cloud](../user-guide/integrations/postgresql-integration/instant-cloud.md) deployment method you need to deploy your database on hosting.
+Once you have created the project, connected the resource, and selected the [Instant Cloud](../user-guide/integrations/database-resources/instant-cloud.md) deployment method you need to deploy your database on hosting.
 
 In this step-by-step guide, we'll take a closer look at the complete database deployment process on [Heroku](https://www.heroku.com/).
 
@@ -44,7 +44,7 @@ Go to the settings and click View Credentials.
 
 ![](<../.gitbook/assets/image (389).png>)
 
-You need to enter these data in the fields required by the [Instant Cloud](../user-guide/integrations/postgresql-integration/instant-cloud.md) deployment method.
+You need to enter these data in the fields required by the [Instant Cloud](../user-guide/integrations/database-resources/instant-cloud.md) deployment method.
 
 ![](<../.gitbook/assets/image (373).png>)
 

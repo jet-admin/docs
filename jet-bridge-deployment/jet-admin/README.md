@@ -1,4 +1,4 @@
-# 🏎 Self-hosted
+# 🏎️ Self-hosted
 
 **Jet Bridge** is a free and open**-**source app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is available on the [**Github**](https://github.com/jet-admin/jet-bridge)**.**
 
@@ -36,16 +36,16 @@ Web applications are accessible from any browser. Maintaining and updating this 
 
 Install **Jet Bridge** without additional software or web services on any server or local host. You will need to install **Python** dependencies and run the application manually.
 
-{% content-ref url="../../user-guide/integrations/postgresql-integration/python-app-installation.md" %}
-[python-app-installation.md](../../user-guide/integrations/postgresql-integration/python-app-installation.md)
+{% content-ref url="../../user-guide/integrations/database-resources/python-app-installation.md" %}
+[python-app-installation.md](../../user-guide/integrations/database-resources/python-app-installation.md)
 {% endcontent-ref %}
 
 ### Using Jet Bridge inside Docker
 
 Install **Jet Bridge** without the need to install any dependencies except the **Docker** application. May require additional network configuration for your OS.
 
-{% content-ref url="../../user-guide/integrations/postgresql-integration/docker-installation.md" %}
-[docker-installation.md](../../user-guide/integrations/postgresql-integration/docker-installation.md)
+{% content-ref url="../../user-guide/integrations/database-resources/docker-installation.md" %}
+[docker-installation.md](../../user-guide/integrations/database-resources/docker-installation.md)
 {% endcontent-ref %}
 
 ### Django framework
