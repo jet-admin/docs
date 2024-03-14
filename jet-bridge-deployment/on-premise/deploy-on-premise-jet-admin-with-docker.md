@@ -6,17 +6,37 @@ description: Learn how to deploy an instance of On-Premise Jet Admin using Docke
 
 This deployment method grants you access to the full suite of Jet Admin services, empowering your workflow with comprehensive functionality.
 
+## Requirements
+
+* Command-line experience
+* Experience with and setups involving Docker Engine and Docker Compose are required.
+
+### Configuration
+
+For On-premise Jet Admin instances, you need a Linux-based machine that fulfills the following criteria:
+
+* Ubuntu 22.04 or later.&#x20;
+* 8GiB memory.
+* 4x vCPUs.
+* 60GiB storage.
+* `curl` and `unzip` software packages installed.
+
 ### **Install On-Premise Jet Admin:**
 
 Navigate to the environment settings. From the left menu, select "On-premise" and designate the app deployment type as "On-premise".
 
 {% @arcade/embed flowId="Ims6qU1aaFAnsQR1t8sa" url="https://app.arcade.software/share/Ims6qU1aaFAnsQR1t8sa" %}
 
-*   Open a terminal or command prompt and execute the following command:
+* Open a terminal or command prompt and execute the following command:
 
-    ```less
-    sudo sh -c "$(curl -sS https://link-dev.jetadmin.io/install/o23b1j05tktey5glysf504xm6ayi5mklao3kuf60ltt9jzjl)"
-    ```
+```less
+sudo sh -c "$(curl -sS https://link-dev.jetadmin.io/install/o23b1j05tktey5glysf504xm6ayi5mklao3kuf60ltt9jzjl)"
+```
+
+{% hint style="info" %}
+The link provided here is just an example. You need to copy your personalized project link from your project. If you need to know how to find the link, follow the instructions provided in the clip.
+{% endhint %}
+
 * This command retrieves a script from the specified URL (https://link-dev.jetadmin.io/install/o23b1j05tktey5glysf504xm6ayi5mklao3kuf60ltt9jzjl) and runs it using `sh`.&#x20;
 * This script will handle the installation process for the Jet Admin package
 
