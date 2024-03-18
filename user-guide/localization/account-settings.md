@@ -1,6 +1,10 @@
-# Account Settings
+---
+description: >-
+  The Localization feature allows you to specify the language and time zone for
+  your account. The default language is English.
+---
 
-The Localization feature allows you to specify the language and time zone for your account. The default language is English.
+# Account Settings
 
 {% hint style="info" %}
 Changes will be applied only to the user mode - the part that the end-users of your app will be interacting with. The builder mode will remain in English.
@@ -19,7 +23,9 @@ Then **scroll down** to the bottom of the page and find the Language dropdown me
 <figure><img src="../../.gitbook/assets/language_select.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If **your language is not on the list**, reach out to our support (bottom left corner in the app) to request adding your language. You can submit new localizations or edits to the existing ones on our [GitHub](https://github.com/jet-admin/jet-localization).
+If your language is **not on the list**, please follow the instructions provided on
+
+[adding-language-to-jet-admin.md](adding-language-to-jet-admin.md "mention") to request its addition.
 {% endhint %}
 
 #### Step 2: Pick your language and save the changes

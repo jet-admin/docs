@@ -335,6 +335,7 @@
   * [Sync Options](user-guide/360-data-data-blending/sync-options.md)
 * [🔤 Localization](user-guide/localization/README.md)
   * [Account Settings](user-guide/localization/account-settings.md)
+  * [Adding Language to Jet Admin](user-guide/localization/adding-language-to-jet-admin.md)
   * [User-end Localization](user-guide/localization/user-end-localization.md)
 * [🎚️ Version Control](user-guide/version-control.md)
 * [📖 Logs](user-guide/logs.md)
