@@ -13,7 +13,7 @@ To add an action you need to&#x20;
 
 {% @arcade/embed flowId="i0thUp5Um7Dt4k0G8ga1" url="https://app.arcade.software/share/i0thUp5Um7Dt4k0G8ga1" %}
 
-### Action types
+## Action types
 
 There are 14 types of actions:&#x20;
 
@@ -37,7 +37,7 @@ There are 14 types of actions:&#x20;
 
 </div>
 
-### Action confirmation dialog
+## Action confirmation dialog
 
 You can set up a confirmation dialog that will appear before executing an action.
 
@@ -53,7 +53,9 @@ You can define the Title, Description, and button styles for your confirmation d
 
 ### Run Operation
 
-You can perform any CRUD operation or a custom API/SQL query. To do so, follow the steps:
+Perform operation with your resources, such as CRUD operations with Databases, operations with third party services, APIs and frameworks, and operations with storages.
+
+#### Creating an operation in a button
 
 1. Click on the **Button**
 2. Go to the **Click Action**
@@ -62,6 +64,18 @@ You can perform any CRUD operation or a custom API/SQL query. To do so, follow t
 5. Choose the **Action**
 
 {% @arcade/embed flowId="hiEUE1MH878JTe5ffe6h" url="https://app.arcade.software/share/hiEUE1MH878JTe5ffe6h" %}
+
+#### Operations with storages
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Storages operations</p></figcaption></figure>
+
+You can perform these actions with storages:
+
+* Getting private file URL
+* Uploading a File
+* Getting list of objects
+* Creating a directory
+* Removing an object
 
 ### Navigate to Page
 

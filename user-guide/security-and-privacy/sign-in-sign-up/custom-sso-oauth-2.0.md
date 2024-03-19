@@ -20,33 +20,19 @@ These are global parameters generated on your side
 
 ### 1. Authorization URL
 
-{% swagger method="get" path="/authorize" baseUrl="https://YOUR_SSO_DOMAIN" summary="Initial page which user is redirected to on Sign In page" %}
-{% swagger-description %}
+## Initial page which user is redirected to on Sign In page
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://YOUR_SSO_DOMAIN/authorize`
 
-{% swagger-parameter in="query" name="client_id" required="true" %}
-CLIENT\_ID
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="state" required="true" %}
-Special OAuth2 generated code, created on Jet Admin side
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="redirect_uri" required="true" %}
-ex. https://api.jetadmin.io/complete/custom\_oauth\_2/\
-Should be as specified here, you can validate it on your side (optionally)
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="response_type" required="true" %}
-code
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="scope" required="true" %}
-ex. "openid profile offline\_access"\
-Depends on your implementation, should be minimal scope needed to get user profile (first name, last name, email)
-{% endswagger-parameter %}
-{% endswagger %}
+| Name                                             | Type   | Description                                                                                                                                                     |
+| ------------------------------------------------ | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| client\_id<mark style="color:red;">\*</mark>     | String | CLIENT\_ID                                                                                                                                                      |
+| state<mark style="color:red;">\*</mark>          | String | Special OAuth2 generated code, created on Jet Admin side                                                                                                        |
+| redirect\_uri<mark style="color:red;">\*</mark>  | String | <p>ex. https://api.jetadmin.io/complete/custom_oauth_2/<br>Should be as specified here, you can validate it on your side (optionally)</p>                       |
+| response\_type<mark style="color:red;">\*</mark> | String | code                                                                                                                                                            |
+| scope<mark style="color:red;">\*</mark>          | String | <p>ex. "openid profile offline_access"<br>Depends on your implementation, should be minimal scope needed to get user profile (first name, last name, email)</p> |
 
 {% hint style="info" %}
 If you have only 1 sign in method (SSO) user will be automatically redirected to your SSO initial page without seeing Jet Admin.
@@ -54,60 +40,38 @@ If you have only 1 sign in method (SSO) user will be automatically redirected to
 
 After Sign In process user will be redirected back to **Jet Admin** side.
 
-{% swagger method="get" path="/complete/custom_oauth_2/" baseUrl="https://api.jetadmin.io" summary="Page that processes received "code" and performs step 2. " %}
-{% swagger-description %}
+## Page that processes received "code" and performs step 2.&#x20;
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://api.jetadmin.io/complete/custom_oauth_2/`
 
-{% swagger-parameter in="query" name="state" required="true" %}
-Special OAuth2 generated code, created on Jet Admin side
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="code" required="true" %}
-Special OAuth2 generated code, created on Custom provider side
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="scope" required="true" %}
-Previously received scope
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="prompt" required="true" %}
-consent
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="authuser" %}
-0
-{% endswagger-parameter %}
-{% endswagger %}
+| Name                                     | Type   | Description                                                    |
+| ---------------------------------------- | ------ | -------------------------------------------------------------- |
+| state<mark style="color:red;">\*</mark>  | String | Special OAuth2 generated code, created on Jet Admin side       |
+| code<mark style="color:red;">\*</mark>   | String | Special OAuth2 generated code, created on Custom provider side |
+| scope<mark style="color:red;">\*</mark>  | String | Previously received scope                                      |
+| prompt<mark style="color:red;">\*</mark> | String | consent                                                        |
+| authuser                                 | String | 0                                                              |
 
 ### 2. Access token URL
 
-{% swagger method="post" path="/token" baseUrl="https://YOUR_SSO_DOMAIN" summary="The method is called by Jet Admin backend to get "access" and "refresh" tokens" %}
-{% swagger-description %}
+## The method is called by Jet Admin backend to get "access" and "refresh" tokens
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://YOUR_SSO_DOMAIN/token`
 
-{% swagger-parameter in="body" name="grant_type" required="true" %}
-authorization\_code
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="code" required="true" %}
-Special OAuth2 generated code, created on Custom provider side
-{% endswagger-parameter %}
+| Name                                             | Type   | Description                                                    |
+| ------------------------------------------------ | ------ | -------------------------------------------------------------- |
+| grant\_type<mark style="color:red;">\*</mark>    | String | authorization\_code                                            |
+| code<mark style="color:red;">\*</mark>           | String | Special OAuth2 generated code, created on Custom provider side |
+| client\_id                                       | String | CLIENT\_ID                                                     |
+| client\_secret<mark style="color:red;">\*</mark> | String | CLIENT\_SECRET                                                 |
+| redirect\_uri<mark style="color:red;">\*</mark>  | String | https://api.jetadmin.io/complete/custom\_oauth\_2/             |
 
-{% swagger-parameter in="body" name="client_id" %}
-CLIENT\_ID
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="client_secret" required="true" %}
-CLIENT\_SECRET
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="redirect_uri" required="true" %}
-https://api.jetadmin.io/complete/custom\_oauth\_2/
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {
     'token_type': 'Bearer',
@@ -117,8 +81,8 @@ https://api.jetadmin.io/complete/custom\_oauth\_2/
     'scope': 'openid profile offline_access'
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 **access\_token** JWT payload should have fields:&#x20;
 
@@ -137,28 +101,21 @@ https://api.jetadmin.io/complete/custom\_oauth\_2/
 
 Can be the same as Access token URL, but with different data
 
-{% swagger method="post" path="/token" baseUrl="https://YOUR_SSO_DOMAIN" summary="The method is called by Jet Admin backend to refresh expired "access token"" %}
-{% swagger-description %}
+## The method is called by Jet Admin backend to refresh expired "access token"
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://YOUR_SSO_DOMAIN/token`
 
-{% swagger-parameter in="body" name="grant_type" required="true" %}
-refresh\_token
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="refresh_token" required="true" %}
+| Name                                             | Type   | Description    |
+| ------------------------------------------------ | ------ | -------------- |
+| grant\_type<mark style="color:red;">\*</mark>    | String | refresh\_token |
+| refresh\_token<mark style="color:red;">\*</mark> | String |                |
+| client\_id                                       | String | CLIENT\_ID     |
+| client\_secret<mark style="color:red;">\*</mark> | String | CLIENT\_SECRET |
 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="client_id" %}
-CLIENT\_ID
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="client_secret" required="true" %}
-CLIENT\_SECRET
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {
     'token_type': 'Bearer',
@@ -168,8 +125,8 @@ CLIENT\_SECRET
     'scope': 'openid profile offline_access'
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 
