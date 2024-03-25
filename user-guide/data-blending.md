@@ -30,6 +30,10 @@ To demonstrate how the data blending works, we'll use two data sources: Airtable
 [blending-the-data.md](360-data-data-blending/blending-the-data.md)
 {% endcontent-ref %}
 
+{% hint style="warning" %}
+When blending data sources, it's essential to understand that the process involves creating virtual tables rather than directly syncing the data. This means that we can only perform select operations on the blended data. While it provides flexibility in accessing and analyzing data from different sources, it's important to keep in mind that any modifications or updates made through blending are not reflected back to the original sources.
+{% endhint %}
+
 ## Sync options
 
 The sync parameters can be changed in the **Sync options** tab. To get there, click the three dots in the top left corner of your data source page:
