@@ -11,7 +11,7 @@ description: Combine data from different data sources
 You can even layer the above capabilities to transform your data the way you want regardless of where it comes from.
 
 {% hint style="info" %}
-**All the data sources** you want to be able to blend from have to be connected through the "Sync connection"
+**All the data sources** you want to be able to blend from have to be connected through the 'Sync connection.' However, it's important to note that not all resources are sync able. For instance, SQL products like MySQL and PostgreSQL are not sync able, which means they can't be blended.
 {% endhint %}
 
 ## Sync Connection
