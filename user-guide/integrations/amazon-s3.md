@@ -1,12 +1,12 @@
 ---
-description: Amazon Cloud Storage
+description: Amazon and compatible S3 Cloud Storage
 ---
 
-# Amazon S3
+# Amazon S3 and S3 compatible storage
 
-In order to be able to use Amazon S3 storage in Jet, you need to set it up. Follow the steps below to successfully integrate S3 with Jet.
+In order to be able to use Amazon S3 or S3 Compatible storage in Jet, you need to set it up. Follow the steps below to successfully integrate S3 with Jet.
 
-### Making a new S3 IAM user
+## Creating a new S3 IAM user
 
 Head over to [IAM](https://console.aws.amazon.com/iam/home), add a new user and call it `jetadmin-uploader`, enable _**programmatic access**_ only.&#x20;
 
@@ -14,7 +14,7 @@ Head over to [IAM](https://console.aws.amazon.com/iam/home), add a new user and 
 
 Hit _**next**_ to grant the account permissions. The easiest way is granting full S3 permissions, but if you want, you can further restrict the permissions. You'll need to create a new policy, then attach the policy to the created user.
 
-### Configuring Permissions
+## Configuring Permissions
 
 {% hint style="info" %}
 #### IAM Permissions: best practices
@@ -24,52 +24,30 @@ While the simplest way to get JetAdmin working with S3 is to give JetAdmin full 
 
 ![](<../../.gitbook/assets/testgif111 (1).gif>)
 
-### Configuring CORS
+## Integrate S3 with Jet
 
-Since we upload directly from your browser, you'll need to configure [CORS](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html). Open up the S3 bucket, click the Permissions tab, and then click CORS configuration, and paste in the following JSON, which will let JetAdmin upload directly into your S3 bucket from the browser.
+The settings vary depending on what provider you are using. We support any S3 compatible storages.
 
-![](<../../.gitbook/assets/testgif111 (5).gif>)
+### AWS S3
 
-```javascript
-[
-    {
-        "AllowedHeaders": [
-            "*"
-        ],
-        "AllowedMethods": [
-            "HEAD",
-            "GET",
-            "PUT",
-            "POST",
-            "DELETE"
-        ],
-        "AllowedOrigins": [
-            "*"
-        ],
-        "ExposeHeaders": [
-            "ETag",
-            "x-amz-meta-custom-header"
-        ]
-    }
-]
-```
+Select "Amazon S3" from the list of available storages and enter the `access key` and `secret` generated for your IAM user obtained [here](https://console.aws.amazon.com/iam/home#/users). Jet will automatically get a list of all your buckets, but you will have the ability to define which buckets you want to use.
 
-### Bucket Settings
+<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
 
-JetAdmin require some level of public access to your buckets or objects within, so you need to customize the individual settings below to connect your bucket with JetAdmin.
+### S3 Compatible
 
-![](<../../.gitbook/assets/testgif111 (6).gif>)
+Select S3 "Compatible" from the list of available storages. You would need to enter the URL endpoint of your S3, as well as the `access key` and `secret`&#x20;
 
 {% hint style="info" %}
-AWS recommends that you turn on Block all public access, but before applying any of these settings, ensure that your applications will work correctly without public access.
+The URL endpoint **should not** contain bucket name. If you have URL with bucket name at the beginning - just remove that part.
 {% endhint %}
 
-### Integrate S3 with Jet
+&#x20;Jet will automatically get a list of all your buckets, but you will have the ability to define which buckets you want to use.
 
-Select Amazon S3 from the list of available storages and enter the `access key` and `secret` generated for your IAM user obtained [here](https://console.aws.amazon.com/iam/home#/users). Jet will automatically get a list of all your buckets and integrate each bucket with Jet.
+<figure><img src="../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (780).png>)
+Once you have integrated S3 with Jet, you will see a Storage File Viewer at your resources page for each of your S3 Resources. You can also perform various operations with storage.
 
-Once you have integrated S3 with Jet, you will see a Storage File Viewer that you'll use to access your data.
-
-![](../../.gitbook/assets/GIF197.gif)
+{% hint style="info" %}
+Please refer to the article "[Operations with storages](https://docs.jetadmin.io/user-guide/design-and-structure/actions#operations-with-storages)" to know more about avaliable operations.
+{% endhint %}

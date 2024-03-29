@@ -155,7 +155,7 @@
   * [Slack](user-guide/integrations/slack.md)
   * [Zapier](user-guide/integrations/zapier.md)
   * [Webflow](user-guide/integrations/webflow.md)
-  * [Amazon S3](user-guide/integrations/amazon-s3.md)
+  * [Amazon S3 and S3 compatible storage](user-guide/integrations/amazon-s3.md)
   * [Google Cloud Storage](user-guide/integrations/google-cloud-storage.md)
   * [SendGrid](user-guide/integrations/sendgrid.md)
   * [Twilio](user-guide/integrations/twilio.md)
