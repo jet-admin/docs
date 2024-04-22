@@ -21,8 +21,18 @@ description: >-
      * URL: `COMMON_WORKFLOWS_URL/check_health/`
   5. **Data Sources API:**
      * URL: `COMMON_DATA_SOURCES_API_URL/check_health/`
-  6. **Jet Bridge Cloud Service:**
-     * URL: `COMMON_JET_BRIDGE_CLOUD_URL/api/`
+  6.  **Jet Bridge Cloud Service:**\
+      Please note that JetBridge health check does not have a specific method. When accessing the service, it will redirect, and the output will resemble the information shown in the screenshot.
+
+      * URL: `COMMON_JET_BRIDGE_CLOUD_URL/api/`
+
+
+
+      <div data-full-width="true">
+
+      <figure><img src="../../.gitbook/assets/Screenshot 2024-03-25 at 18.55.00.png" alt=""><figcaption></figcaption></figure>
+
+      </div>
 
 {% hint style="info" %}
 URLs should be similar to the URLs in your .env file. You can access the .env file by navigating to the "jet-onpremise" directory and opening it with the Nano text editor using the following commands:
