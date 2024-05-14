@@ -84,7 +84,7 @@
   * [Reading data from API](getting-started/part-2-intermediate/perform-api-requests.md)
   * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql.md)
   * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
-    * [Documint](getting-started/part-2-intermediate/generate-invoice-or-document/documint.md)
+    * [Document](getting-started/part-2-intermediate/generate-invoice-or-document/document.md)
 * [📧 Send Emails](getting-started/send-emails.md)
 * [🎨 Pixel Perfect App](getting-started/pixel-perfect-app/README.md)
   * [Designing your component](getting-started/pixel-perfect-app/designing-your-component.md)
