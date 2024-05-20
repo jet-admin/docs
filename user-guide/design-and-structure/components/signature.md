@@ -16,7 +16,7 @@ description: >-
 
 Drag and drop the signature component onto page and draw any value on it using the mouse curser, digital pen, or your fingertip.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (10).png" alt=""><figcaption></figcaption></figure>
 
 ## Storing a Signature in the Database
 

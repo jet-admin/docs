@@ -32,7 +32,7 @@ The settings vary depending on what provider you are using. We support any S3 co
 
 Select "Amazon S3" from the list of available storages and enter the `access key` and `secret` generated for your IAM user obtained [here](https://console.aws.amazon.com/iam/home#/users). Jet will automatically get a list of all your buckets, but you will have the ability to define which buckets you want to use.
 
-<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (942) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### S3 Compatible
 

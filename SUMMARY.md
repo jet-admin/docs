@@ -206,6 +206,7 @@
       * [Kanban](user-guide/components/lists/kanban.md)
       * [Calendar](user-guide/components/lists/calendar.md)
       * [Gallery](user-guide/components/lists/gallery.md)
+      * [Carousel](user-guide/design-and-structure/components/lists/carousel.md)
       * [Timeline](user-guide/components/lists/timeline.md)
     * [Filters](user-guide/components/filters.md)
     * [Form](user-guide/design-and-structure/components/form/README.md)
