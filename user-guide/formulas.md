@@ -115,3 +115,11 @@ You can create custom columns in a table to handle cases such as math operations
 Use the App name and Environment name properties in your Application to filter your data.
 
 &#x20;![](../.gitbook/assets/app1.jpg)
+
+#### Device properties
+
+Device screen size tokens in Jet Admin enable you to reference and utilize specific properties related to the screen size of various devices. These tokens ensure that your applications are responsive and optimized for different screen sizes, enhancing the overall user experience.
+
+You can utilize these tokens to create rules or conditions that adapt the interface based on the device type and screen size. For instance, you might want to show a different layout for desktop users compared to mobile users
+
+<figure><img src="../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
