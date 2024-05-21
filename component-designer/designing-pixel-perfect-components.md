@@ -33,3 +33,11 @@ To apply Custom Cards in the List, follow the steps:
 4. Choose **Record fields**
 
 {% @arcade/embed flowId="kSyE0e2qEx0iztHxjBAt" url="https://app.arcade.software/share/kSyE0e2qEx0iztHxjBAt" %}
+
+### **4. Menu items**
+
+1. Navigate to the menu settings
+2. Add a new item to the menu
+3. Select **Custom component**
+
+{% @arcade/embed flowId="WHhdwGlrCI3Ew9ZmyBan" url="https://app.arcade.software/share/WHhdwGlrCI3Ew9ZmyBan" %}
