@@ -1,6 +1,7 @@
----
-description: In this section you will learn about the Menu
----
-
 # Menu
 
+You can learn about menu in Navigation section:
+
+{% content-ref url="navigation.md" %}
+[navigation.md](navigation.md)
+{% endcontent-ref %}

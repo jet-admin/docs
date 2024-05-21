@@ -82,11 +82,25 @@ Grouping allows you to group different menu items in sections or dropdowns.
 
 * Page
 * Custom Link
+* Section
+* App Logo
+* Current User
+* Icon / Image
+* Button
+* Dropdown
+* Separator
 * Open Home
 * Open User Profile
 * Open Users & Teams
-* Open Activity log
-* Open Collaboration
+* Open Activity Log Slideout
+* Open Activity Log Page
+* Open Collaboration Slideout
+* Open Collaboration Tasks
+* Open Collaboration Messages
+* Toggle Light/Dark mode
+* Logout
+* App members
+* [Custom Component](../../../../videos/component-designer.md)
 
 ![](<../../../../.gitbook/assets/image (60).png>)
 
@@ -132,7 +146,7 @@ Grouping allows you to group different menu items in sections or dropdowns.
 
 ### Menu item Conditional Visibility
 
-Jet allows you to set up Conditional Visibility for each menu item.&#x20;
+Jet allows you to set up Conditional Visibility for each menu item, as well as the whole menu bar.
 
 Click on menu item settings -> **Customize item.**
 
