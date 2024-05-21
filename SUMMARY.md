@@ -226,6 +226,7 @@
       * [Number](user-guide/components/fields/number.md)
       * [Rating](user-guide/design-and-structure/components/fields/rating.md)
       * [Slider](user-guide/design-and-structure/components/fields/slider.md)
+      * [Range Slider](user-guide/design-and-structure/components/fields/range-slider.md)
       * [Steps](user-guide/design-and-structure/components/fields/steps.md)
       * [URL](user-guide/components/fields/url.md)
     * [Charts](user-guide/components/charts/README.md)
