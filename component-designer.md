@@ -2,7 +2,7 @@
 description: Customized App Components Without Coding. Similar to Figma
 ---
 
-# 🖍 Component Designer
+# 🖍️ Component Designer
 
 Design custom pixel-perfect components using Component Designer. Enabled to create, design, and modify their components with various options: creating components, providing states, giving styles, intuitive event handlers, seamless data connections (REST, GraphQL & Beyond), direct Figma & Sketch Imports.
 
@@ -108,5 +108,11 @@ Create responsive components using Resizing. Resizing allows you to handle the p
 [component-responsiveness-constraints.md](component-designer/component-responsiveness-constraints.md)
 {% endcontent-ref %}
 
+### Interactions
 
+Add interactions to layers, enhancing user engagement and functionality. Five types of interactions can be added to any layer: Hover State, Pressed State, Click Action, Cursor, and Text Selection.
+
+{% content-ref url="component-designer/interactions.md" %}
+[interactions.md](component-designer/interactions.md)
+{% endcontent-ref %}
 

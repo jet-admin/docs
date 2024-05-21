@@ -375,6 +375,7 @@
   * [Borders/Stroke](component-designer/borders-stroke.md)
   * [Apply shadow or blur effects](component-designer/apply-shadow-or-blur-effects.md)
   * [Component Responsiveness / Constraints](component-designer/component-responsiveness-constraints.md)
+  * [Interactions](component-designer/interactions.md)
 * [🖼️ Import Figma Design](import-figma-design/README.md)
   * [Install Plugin](import-figma-design/install-plugin.md)
 
