@@ -263,6 +263,7 @@
     * [Scanner](user-guide/design-and-structure/components/scanner.md)
     * [Signature](user-guide/design-and-structure/components/signature.md)
     * [IFrame](user-guide/components/iframe.md)
+    * [Alert](user-guide/design-and-structure/components/alert.md)
   * [Field Values](user-guide/design-and-structure/column-values/README.md)
     * [Extract values from components on the Page](user-guide/design-and-structure/column-values/extract-values-from-components-on-the-page.md)
   * [Nested Filters](user-guide/design-and-structure/nested-filters.md)
