@@ -9,3 +9,5 @@ Paints are colors, gradients, or images. Fills are just one of the ways you can 
 Apply paints to text layers, or any vector object, this includes shapes, vector networks, and boolean groups. You can add, adjust, and remove fills in the **Fill** section of the right sidebar.
 
 {% @arcade/embed flowId="cY2Y240TEa8pyW4k6FA2" url="https://app.arcade.software/share/cY2Y240TEa8pyW4k6FA2" %}
+
+_Fill types (plain, image, icon, linear gradient, radial gradient, angular gradient, diamond)_

@@ -8,7 +8,7 @@ description: In this section you will find out how to use Conditional Visibility
 
 To practice the feature, let's build this example:
 
-<figure><img src="../.gitbook/assets/image (919).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (919).png" alt="" width="341"><figcaption></figcaption></figure>
 
 Let's go by colors one by one. For building the green part, please follow the steps:
 

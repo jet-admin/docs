@@ -10,11 +10,11 @@ Design custom pixel-perfect components using Component Designer. Enabled to crea
 
 {% embed url="https://res.cloudinary.com/djpvkoh3s/video/upload/v1701333832/pixelperfect/nmmnwwilex11l6v38mxa.mp4" %}
 
-{% content-ref url="component-designer/designing-pixel-perfect-components.md" %}
-[designing-pixel-perfect-components.md](component-designer/designing-pixel-perfect-components.md)
+{% content-ref url="component-designer/how-to-use-pixel-perfect-components.md" %}
+[how-to-use-pixel-perfect-components.md](component-designer/how-to-use-pixel-perfect-components.md)
 {% endcontent-ref %}
 
-Explore ready-to-use 50+ components in our Components Marketplace.
+Explore ready-to-use 40+ components in our Components Marketplace.
 
 <figure><img src=".gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,10 +32,10 @@ Explore ready-to-use 50+ components in our Components Marketplace.
 
 If you're new to Component Designer, it's normal to feel lost when opening a file. We’ll take you on a tour so you can orient yourself.
 
-<figure><img src=".gitbook/assets/Group 8 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (950).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/customizing-the-components.md" %}
-[customizing-the-components.md](component-designer/customizing-the-components.md)
+{% content-ref url="component-designer/how-to-work-with-component-designer.md" %}
+[how-to-work-with-component-designer.md](component-designer/how-to-work-with-component-designer.md)
 {% endcontent-ref %}
 
 ### Conditional Visibility&#x20;
@@ -46,8 +46,8 @@ If you're new to Component Designer, it's normal to feel lost when opening a fil
 
 <figure><img src=".gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/conditional-visibility.md" %}
-[conditional-visibility.md](component-designer/conditional-visibility.md)
+{% content-ref url="component-designer/right-sidebar/conditional-visibility.md" %}
+[conditional-visibility.md](component-designer/right-sidebar/conditional-visibility.md)
 {% endcontent-ref %}
 
 ### Layout
@@ -64,8 +64,8 @@ If you're new to Component Designer, it's normal to feel lost when opening a fil
 
 <figure><img src=".gitbook/assets/image (908).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/layout.md" %}
-[layout.md](component-designer/layout.md)
+{% content-ref url="component-designer/right-sidebar/layout.md" %}
+[layout.md](component-designer/right-sidebar/layout.md)
 {% endcontent-ref %}
 
 ### Fills
@@ -74,8 +74,8 @@ Paints are colors, gradients, or images. Fills are just one of the ways you can 
 
 <figure><img src=".gitbook/assets/image (901).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/fills.md" %}
-[fills.md](component-designer/fills.md)
+{% content-ref url="component-designer/right-sidebar/fills.md" %}
+[fills.md](component-designer/right-sidebar/fills.md)
 {% endcontent-ref %}
 
 ### Borders/Stroke
@@ -84,35 +84,33 @@ Strokes are a collection of properties you can apply to layers in design files. 
 
 <figure><img src=".gitbook/assets/image (906).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/borders-stroke.md" %}
-[borders-stroke.md](component-designer/borders-stroke.md)
+{% content-ref url="component-designer/right-sidebar/borders.md" %}
+[borders.md](component-designer/right-sidebar/borders.md)
 {% endcontent-ref %}
 
-### Apply shadow or blur effects
+### Shadows
 
 Effects serve several purposes, from aesthetic to functional. They can make you signify that an element is interactive, like making a button look clickable by giving the rectangle a shadow.
 
-Blurs can shift and identify inactive or inaccessible elements, like thumbnails for unlocked game levels, or provide a visual hierarchy to focus a user's attention on a dialog box.
-
 <figure><img src=".gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="component-designer/apply-shadow-or-blur-effects.md" %}
-[apply-shadow-or-blur-effects.md](component-designer/apply-shadow-or-blur-effects.md)
+{% content-ref url="component-designer/right-sidebar/shadows.md" %}
+[shadows.md](component-designer/right-sidebar/shadows.md)
 {% endcontent-ref %}
 
 ### Component Responsiveness / Constraints
 
 Create responsive components using Resizing. Resizing allows you to handle the positioning and sizing of user elements when the size of the canvas changes. You can apply resizing to Canvas or Element.
 
-{% content-ref url="component-designer/component-responsiveness-constraints.md" %}
-[component-responsiveness-constraints.md](component-designer/component-responsiveness-constraints.md)
+{% content-ref url="component-designer/right-sidebar/component-responsiveness-constraints.md" %}
+[component-responsiveness-constraints.md](component-designer/right-sidebar/component-responsiveness-constraints.md)
 {% endcontent-ref %}
 
 ### Interactions
 
 Add interactions to layers, enhancing user engagement and functionality. Five types of interactions can be added to any layer: Hover State, Pressed State, Click Action, Cursor, and Text Selection.
 
-{% content-ref url="component-designer/interactions.md" %}
-[interactions.md](component-designer/interactions.md)
+{% content-ref url="component-designer/right-sidebar/interactions.md" %}
+[interactions.md](component-designer/right-sidebar/interactions.md)
 {% endcontent-ref %}
 

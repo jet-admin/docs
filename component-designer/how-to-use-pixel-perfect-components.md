@@ -2,8 +2,11 @@
 description: Discover how you can apply Pixel Perfect Components
 ---
 
-# Designing pixel-perfect components
+# How to use pixel-perfect components
 
+_how to use (lists, standalone, cells), how to use marketplace, how to modify, how to start from scratch._\
+_change all arcades_\
+\
 There are three options for how you can apply **Custom Components**:
 
 ### **1. Cards in List components** (Gallery, Kanban, Map, Calendar, Timeline)
@@ -16,7 +19,7 @@ To apply Custom Cards in the List, follow the steps:
 
 {% @arcade/embed flowId="JYKsK1BdIV7d9k0M7zBl" url="https://app.arcade.software/share/JYKsK1BdIV7d9k0M7zBl" %}
 
-### **2. Standalone components** (Profile headers, documents, summary, banners
+### **2. Standalone components** (Profile headers, documents, summary, banners)
 
 1. Click on the **Gallery**
 2. Click on the **Property card** button in the right panel
