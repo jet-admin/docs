@@ -43,6 +43,22 @@ To disable the confirmation dialog, simply scroll to the end of the dialog setti
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+### Show/Hide Notification Messages
+
+By default notification messages shows after each success or fail happens after each action. This feature allows you to hide or show these automatic actions. depending on your case.
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (948).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Using this feature, you can create custom notifications after each success or fail. \
+To achieve this, first you need to disable the default notification and create a new action in the 'WHEN ACTION SUCCEEDED' or 'WHEN ACTION FAILED' section. Then set this new action to show a customized notification message.
+
+![](<../../.gitbook/assets/image (949).png>)\
+
+
 More information about Actions.
 
 {% content-ref url="../design-and-structure/actions.md" %}
