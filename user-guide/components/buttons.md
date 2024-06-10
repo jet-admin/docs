@@ -56,7 +56,8 @@ By default notification messages shows after each success or fail happens after 
 Using this feature, you can create custom notifications after each success or fail. \
 To achieve this, first you need to disable the default notification and create a new action in the 'WHEN ACTION SUCCEEDED' or 'WHEN ACTION FAILED' section. Then set this new action to show a customized notification message.
 
-![](<../../.gitbook/assets/image (949).png>)\
+![](<../../.gitbook/assets/image (949).png>)&#x20;
+
 
 
 More information about Actions.
