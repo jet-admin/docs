@@ -162,6 +162,7 @@
   * [Mixpanel](user-guide/integrations/mixpanel.md)
   * [Snowflake](user-guide/integrations/snowflake.md)
   * [OpenAI and Jet Admin](user-guide/integrations/openai-and-jet-admin.md)
+  * [Supabase Storage](user-guide/integrations/supabase-storage.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
   * [Extract & Pass Values](user-guide/parameters/README.md)
