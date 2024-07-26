@@ -41,7 +41,7 @@ Disabling the Confirmation Dialog
 
 To disable the confirmation dialog, simply scroll to the end of the dialog settings and click on "Disable Confirmation Dialog." This will turn off the popup and allow actions to proceed without requiring user confirmation.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Show/Hide Notification Messages
 

@@ -222,6 +222,7 @@
       * [Multiselect / Chips](user-guide/design-and-structure/components/fields/multiselect-chips.md)
       * [Checkbox](user-guide/components/fields/checkbox.md)
       * [Date & Time](user-guide/components/fields/date-and-time.md)
+      * [Date Range](user-guide/design-and-structure/components/fields/date-range.md)
       * [Image](user-guide/components/fields/image.md)
       * [Text](user-guide/components/fields/text.md)
       * [Password](user-guide/components/fields/password.md)
