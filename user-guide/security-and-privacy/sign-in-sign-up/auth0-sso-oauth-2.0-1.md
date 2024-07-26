@@ -12,7 +12,7 @@ description: In this section you will learn about Azure AD SSO OAuth 2.0
 
 Specify **Name** and **New members team** for newly created **External SSO**
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,7 +33,7 @@ In **Redirect URI (optional)** section fill the following fields
 * Then open **Certificates & secrets** page, create new **Client secret** and copy it's **Value** to Jet Admin **Client Secret**
 * You should also set **Scope** to **openid,profile,email,offline\_access**.
 
-<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 

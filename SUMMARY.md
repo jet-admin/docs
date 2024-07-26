@@ -247,6 +247,7 @@
     * [Detail](user-guide/components/detail.md)
     * [Layouts](user-guide/components/layouts/README.md)
       * [Containers](user-guide/components/layouts/containers.md)
+      * [Accordion](user-guide/design-and-structure/components/layouts/accordion.md)
       * [Columns](user-guide/components/layouts/columns.md)
       * [Modal](user-guide/design-and-structure/components/layouts/modal/README.md)
         * [Customizing Modal](user-guide/design-and-structure/components/layouts/modal/customizing-modal.md)
