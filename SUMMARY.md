@@ -219,6 +219,7 @@
     * [Fields](user-guide/components/fields/README.md)
       * [File](user-guide/components/fields/file.md)
       * [Select](user-guide/components/fields/select.md)
+      * [Multiselect / Chips](user-guide/design-and-structure/components/fields/multiselect-chips.md)
       * [Checkbox](user-guide/components/fields/checkbox.md)
       * [Date & Time](user-guide/components/fields/date-and-time.md)
       * [Image](user-guide/components/fields/image.md)
