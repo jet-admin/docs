@@ -15,27 +15,42 @@ To add an action you need to&#x20;
 
 ## Action types
 
-There are 14 types of actions:&#x20;
+There are a variety types of actions that are split into sections:&#x20;
+
+### Data
 
 * **Run operation**. Perform any CRUD operation or custom API/SQL query.&#x20;
-* [**Run Workflow**](../workflow/). Fires a sequence of events.
-* **Navigate to page**. Passing values and switching between pages.
-* **Open URL.** Open the link in a new or the current tab.
-* [**Open Modal/Close Modal**](../components/modal.md)**.** Open or close the pop-up modal window.
-* [**Run Component Action**](../components/component-actions.md)**.** Act on a component, such as updating data or clearing the form after submitting.
-* [**Show Notification**](../components/custom-notifications.md)**.** Show custom notification.
-* [**Set Variable**](../binding-and-values/temporary-and-stored-variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
-* [**Run JavaScript**](actions.md#run-javascript). Execute a JavaScript code.&#x20;
-* **Copy to Clipboard**. Copy data to your Clipboard.&#x20;
 * **Export Data.** Export data from the table.
 * **Import Data**. Import data to a collection.&#x20;
+
+### Navigation
+
+* **Navigate to page**. Passing values and switching between pages.
+* **Open URL.** Open the link in a new or the current tab.
+
+### Overlays
+
+* [**Open Actions Dropdown**](actions.md#open-actions-dropdown)**.** Create a sub-menu of actions.
+* [**Open Overlay/Close Overlay**](../components/modal.md)**.** Open or close the overlay.
+
+### Interaction
+
+* [**Show Notification**](../components/custom-notifications.md)**.** Show custom notification.
+* **Copy to Clipboard**. Copy data to your Clipboard.&#x20;
+* [**Run Component Action**](../components/component-actions.md)**.** Act on a component, such as updating data or clearing the form after submitting.
+
+### Advanced
+
+* [**Set Variable**](../binding-and-values/temporary-and-stored-variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
+* [**Run JavaScript**](actions.md#run-javascript). Execute a JavaScript code.&#x20;
 * **Download File.** Download the file from the API call.
+* [Scan QR/Bar Code](components/qr-code.md). To scan a graphic code.
 
-<div align="left">
+**Run workflow**
 
-<figure><img src="../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
+* [**Run Workflow**](../workflow/). Fires a sequence of events.
 
-</div>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Action confirmation dialog
 
@@ -45,7 +60,7 @@ You can set up a confirmation dialog that will appear before executing an action
 
 To add a confirmation dialog, use the "Confirm on execute" section of the right-side panel
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can define the Title, Description, and button styles for your confirmation dialog.
 
@@ -109,11 +124,19 @@ You can close the pop-up modal window. To do so, follow the steps:
 2. Go to the **Click Action**
 3. Choose **Close Modal**
 
+
+
 {% @arcade/embed flowId="YpWbACsL2fhufqFzWLyY" url="https://app.arcade.software/share/YpWbACsL2fhufqFzWLyY" %}
 
 {% content-ref url="../components/modal.md" %}
 [modal.md](../components/modal.md)
 {% endcontent-ref %}
+
+### Open Actions Dropdown
+
+{% @arcade/embed flowId="e6qBxJ0sX3ZoV1kae1XZ" url="https://app.arcade.software/share/e6qBxJ0sX3ZoV1kae1XZ" %}
+
+Action dropdown allows you to create a list of multiple separate actions that will appear in a drop-down list.
 
 ### Run Component Action
 
@@ -146,7 +169,7 @@ To execute JavaScript code upon clicking a button, follow these steps:
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 You can Insert input values from other components and use it further within your JavaScript code. To do that, click 'Insert Input' and choose the needed component.
