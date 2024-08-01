@@ -4,11 +4,7 @@ Component actions allow you to **push static or dynamic values into UI component
 
 To use this action type, choose the "Run component action" from the action type drop-down:
 
-<div align="left" data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 
 Then choose the UI component you want to run the component action for:
 
