@@ -8,7 +8,7 @@ A gallery is great for displaying your items in a visually appealing and easy to
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
