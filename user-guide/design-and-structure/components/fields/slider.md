@@ -2,6 +2,8 @@
 
 A slider to choose a number between two values. It supports minimum and maximum values, step size, and can perform validation of custom rules.
 
+<figure><img src="../../../../.gitbook/assets/image (956).png" alt=""><figcaption></figcaption></figure>
+
 Slider can display the selected value and range.
 
 <figure><img src="../../../../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption></figcaption></figure>

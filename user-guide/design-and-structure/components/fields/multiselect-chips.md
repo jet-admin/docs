@@ -1,8 +1,8 @@
 # Multiselect / Chips
 
-The Multiselect feature is a versatile combination of a select and input field, designed to enhance user experience by allowing multiple values to be selected or directly entered as text.&#x20;
+The Multiselect feature is a versatile combination of a select and input field, designed to enhance user experience by allowing multiple values to be selected or directly entered as text.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (958).png" alt=""><figcaption></figcaption></figure>
 
 Using the Multiselect feature, you can easily visualize and manage tags for your products. This functionality allows users to select multiple tags quickly and efficiently.
 

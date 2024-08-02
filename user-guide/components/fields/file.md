@@ -8,7 +8,7 @@ description: In this section you will learn about Single and Multiple Files
 
 To find the File component, type in "file" or scroll down
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (959).png" alt=""><figcaption></figcaption></figure>
 
 The file component is interactive as all inputs are, meaning you can click on the field upload a file and then download the existing file
 

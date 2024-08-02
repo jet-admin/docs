@@ -2,6 +2,8 @@
 
 A slider to choose a number between two values. It supports dynamic minimum and maximum values, and step size, and can perform validation of custom rules.
 
+<figure><img src="../../../../.gitbook/assets/image (957).png" alt=""><figcaption></figcaption></figure>
+
 The Range Slider can be used to set a range between minimum and maximum values.
 
 <figure><img src="../../../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>

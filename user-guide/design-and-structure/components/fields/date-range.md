@@ -1,6 +1,6 @@
 # Date Range
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (961).png" alt=""><figcaption></figcaption></figure>
 
 The Date Range feature combines a select and input field, enabling users to choose two dates from a popup calendar or enter them directly as text. This feature supports start and end dates, along with constraints for minimum and maximum dates, ensuring precise date selection and validation.
 
