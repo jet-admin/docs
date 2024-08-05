@@ -134,9 +134,15 @@ You can close the pop-up modal window. To do so, follow the steps:
 
 ### Open Actions Dropdown
 
-{% @arcade/embed flowId="e6qBxJ0sX3ZoV1kae1XZ" url="https://app.arcade.software/share/e6qBxJ0sX3ZoV1kae1XZ" %}
+The Open Actions Dropdown feature allow you to create a list of multiple separate actions that will appear in a drop-down list. This dropdown menu facilitates triggering queries and other actions with ease.
 
-Action dropdown allows you to create a list of multiple separate actions that will appear in a drop-down list.
+Features
+
+* **Multiple Actions**: Create a list of distinct actions that users can select from a dropdown menu.
+* **Ease of Use**: Simplify the process of triggering various actions from a single interface element.
+* **Manual Configuration**: Customize the actions list according to specific requirements.
+
+{% @arcade/embed flowId="e6qBxJ0sX3ZoV1kae1XZ" url="https://app.arcade.software/share/e6qBxJ0sX3ZoV1kae1XZ" %}
 
 ### Run Component Action
 
