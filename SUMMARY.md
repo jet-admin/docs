@@ -279,6 +279,7 @@
   * [Sort](user-guide/design-and-structure/sort.md)
   * [Group](user-guide/design-and-structure/group.md)
   * [Actions](user-guide/design-and-structure/actions.md)
+  * [Dropdown Popups](user-guide/design-and-structure/dropdown-popups.md)
   * [Export](user-guide/design-and-structure/export.md)
   * [App Theming](user-guide/design-and-structure/app-theming.md)
   * [Global CSS & JS](user-guide/design-and-structure/global-css-and-js.md)
