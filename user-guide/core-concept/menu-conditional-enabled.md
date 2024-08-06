@@ -13,4 +13,4 @@ The Menu Conditional Enabled feature allows you to customize your app menu by co
 
 In an application with different user roles (e.g., Admin, User), you might want to show certain menu items only to Admin users.
 
-{% @arcade/embed flowId="HdbwADIdoCg47KIv7CSF" url="https://app.arcade.software/share/HdbwADIdoCg47KIv7CSF" %}
+{% @arcade/embed flowId="206ZWCtZywuPFrMydIDt" url="https://app.arcade.software/share/206ZWCtZywuPFrMydIDt" %}
