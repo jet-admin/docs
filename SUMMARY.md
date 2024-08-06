@@ -112,6 +112,7 @@
       * [Custom Scripts & Styles](user-guide/core-concept/jet-ui/layouts-and-branding/custom-scripts-and-styles.md)
   * [Intro to Data](user-guide/core-concept/intro-to-data.md)
   * [Navigation](user-guide/core-concept/jet-ui/layouts-and-branding/navigation.md)
+  * [Menu Conditional Enabled](user-guide/core-concept/menu-conditional-enabled.md)
   * [Sharing your app](user-guide/security-and-privacy/sharing-your-app.md)
     * [Invite by Email](user-guide/core-concept/sharing-your-app/invite-by-email.md)
     * [Invite by Link](user-guide/core-concept/sharing-your-app/invite-by-link.md)
