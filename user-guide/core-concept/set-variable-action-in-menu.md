@@ -22,4 +22,4 @@ To configure the **Set Variable** action:
 
 **Scenario: Show or Hide a Menu Item Based on User properties**
 
-{% @arcade/embed flowId="iQeoy983LGsyevrA7cZO" url="https://app.arcade.software/share/iQeoy983LGsyevrA7cZO" %}
+{% @arcade/embed flowId="h41ULLegiFfSQ3xVz6Mu" url="https://app.arcade.software/share/h41ULLegiFfSQ3xVz6Mu" %}
