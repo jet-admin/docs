@@ -15,7 +15,6 @@ follow these steps:
 
 **Scenario: Creating a Dropdown Popup for Additional Details**
 
-In an application, you might want to provide additional details in a dropdown that appears when a button is clicked.\
+In an application, you might want to provide additional details in a dropdown that appears when a button is clicked.
 
-
-{% @arcade/embed flowId="PWj4dzeWpYdojgZHwxDf" url="https://app.arcade.software/share/PWj4dzeWpYdojgZHwxDf" %}
+{% @arcade/embed flowId="bJmokGplLc8pMzW5cTAZ" url="https://app.arcade.software/share/bJmokGplLc8pMzW5cTAZ" %}
