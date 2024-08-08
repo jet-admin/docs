@@ -49,7 +49,7 @@ List of supported bar code formats:
 
 ## How to pass values to Bar Code component
 
-You can [pass any value](layouts/modal/passing-parameters.md) to the component and it will output it as Bar Code.
+You can [pass any value](layouts/overlays/overlay-parameters.md) to the component and it will output it as Bar Code.
 
 Let's make an example of displaying SKU as a bar code, referencing the sku from selected row on a table.
 

@@ -10,7 +10,7 @@ Drag and drop QR Code component onto page and fill it with any value, such as UR
 
 ## How to pass values to QR Code component
 
-You can [pass any value](layouts/modal/passing-parameters.md) to the component and it will output it as QR Code.
+You can [pass any value](layouts/overlays/overlay-parameters.md) to the component and it will output it as QR Code.
 
 Let's make an example of QR codes for sending emails with subject and body, referencing the email from selected row on a table, and getting subject and body from text inputs.
 

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Modal
 
 Before we get into the nuances of using a modal in a JetAdmin app, it’s probably worth taking a moment to define what a modal is in the first place.&#x20;
