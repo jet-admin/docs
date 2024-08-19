@@ -142,7 +142,7 @@ The Open Actions Dropdown feature allow you to create a list of multiple separat
 * **Ease of Use**: Simplify the process of triggering various actions from a single interface element.
 * **Manual Configuration**: Customize the actions list according to specific requirements.
 
-{% @arcade/embed flowId="e6qBxJ0sX3ZoV1kae1XZ" url="https://app.arcade.software/share/e6qBxJ0sX3ZoV1kae1XZ" %}
+{% @arcade/embed flowId="QzVEDPOQLgwJY5RLtdO6" url="https://app.arcade.software/share/QzVEDPOQLgwJY5RLtdO6" %}
 
 ### Run Component Action
 
