@@ -136,11 +136,7 @@ You can close the pop-up modal window. To do so, follow the steps:
 
 <figure><img src="../../.gitbook/assets/ggGroup 1195 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/ggGroup 1195.jpg" alt=""><figcaption></figcaption></figure>
-
 The Open Actions Dropdown feature allow you to create a list of multiple separate actions that will appear in a drop-down list. This dropdown menu facilitates triggering queries and other actions with ease.
-
-Features
 
 * **Multiple Actions**: Create a list of distinct actions that users can select from a dropdown menu.
 * **Ease of Use**: Simplify the process of triggering various actions from a single interface element.
