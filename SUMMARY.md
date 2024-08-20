@@ -350,6 +350,7 @@
   * [Adding Language to Jet Admin](user-guide/localization/adding-language-to-jet-admin.md)
   * [User-end Localization](user-guide/localization/user-end-localization.md)
 * [🎚️ Version Control](user-guide/version-control.md)
+* [Cross-Instance Backup Restoration](user-guide/cross-instance-backup-restoration.md)
 * [📖 Logs](user-guide/logs.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
   * [Environments](user-guide/project-settings/environments.md)
