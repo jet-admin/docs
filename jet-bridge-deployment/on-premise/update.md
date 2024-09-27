@@ -1,7 +1,7 @@
 ---
 description: >-
-  To update your Docker instance, follow these steps to upgrade to a newer
-  release version
+  To update your Docker instance and upgrade to a newer release version, please
+  follow the following steps:
 ---
 
 # Update
@@ -26,7 +26,13 @@ Navigate to the directory where the on-premise package was previously installed.
 cd jet-onpremise
 ```
 
-Download the latest version.
+Update git repository&#x20;
+
+```
+git pull
+```
+
+Download  the latest  version of docker containers
 
 ```
 docker-compose pull
