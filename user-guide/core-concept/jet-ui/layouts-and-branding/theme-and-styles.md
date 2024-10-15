@@ -11,6 +11,8 @@ description: >-
 
 Themes allow you to create a consistent look across your apps. You can either use pre-built themes or customize your own for a personalized experience.
 
+<figure><img src="../../../../.gitbook/assets/themes-min.jpg" alt=""><figcaption></figcaption></figure>
+
 #### Available Themes
 
 Start with 7 ready-to-use themes, available in both light and dark modes. These themes can be quickly applied across your apps.
