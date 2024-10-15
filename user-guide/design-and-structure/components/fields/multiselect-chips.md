@@ -6,7 +6,7 @@ The Multiselect feature is a versatile combination of a select and input field, 
 
 Using the Multiselect feature, you can easily visualize and manage tags for your products. This functionality allows users to select multiple tags quickly and efficiently.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Multiple Selections**: Choose multiple values from a predefined list or enter custom values directly into the field.
 * **Custom Value Entries**: Support for adding values beyond those provided in the list, ensuring flexibility and user-specific customization.

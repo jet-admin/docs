@@ -31,7 +31,7 @@ When creating a new 'personal access token', please make sure you choose the 'da
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

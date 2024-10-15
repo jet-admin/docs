@@ -15,6 +15,8 @@ Themes allow you to create a consistent look across your apps. You can either us
 
 Start with 7 ready-to-use themes, available in both light and dark modes. These themes can be quickly applied across your apps.
 
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 **Steps to Apply a Theme:**
 
 1. Go to **App Settings** > **Appearance**.
@@ -30,6 +32,10 @@ You can also apply general settings to components such as buttons, fields, and c
 ## Styles
 
 Each component in your app can be styled individually, allowing for more detailed customization beyond the general theme.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### Text Style
 
