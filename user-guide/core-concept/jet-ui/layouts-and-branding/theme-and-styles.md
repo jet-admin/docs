@@ -47,7 +47,7 @@ To style text within a component, scroll down to the **Text Style** section in t
 
 #### Component Style
 
-For detailed customization, you can style components like buttons, fields, or cards. In the Component Display tab under the Style section, you can modify properties such as borders, background, label, shadow, inner/outer spacing, as well as styles for different states like hover, focus, and error. This allows for precise control over the look and feel of individual components.
+For detailed customization, you can style components like Buttons, Fields, or Cards. In the Component Display tab under the Style section, you can modify properties such as borders, background, label, shadow, inner/outer spacing, as well as styles for different states like hover, focus, and error. This allows for precise control over the look and feel of individual components.
 
 {% @arcade/embed flowId="icx39bXYtb1mawaNQxzw" url="https://app.arcade.software/share/icx39bXYtb1mawaNQxzw" %}
 
