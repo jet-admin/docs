@@ -22,13 +22,23 @@ Normally you shouldn't have this issue as **Jet Bridge** automatically adds the 
 
 #### Behind Nginx
 
-To fix the **CORS** issue for **Nginx** add the following to your server config:
+To fix the **CORS** issue for **Nginx** add the following to jetbridge.yourdomain.com.conf:
 
 {% code title="my-website.conf" %}
 ```
 server {
     listen 80;
-    ...
+
+    server_name jetbridge.yourdomain.com;
+
+    return 301 https://$host$request_uri;
+}
+
+ server {
+      listen 443 http2 ssl;
+      ssl_certificate /etc/nginx/ssl/yourdomain.com.crt;
+      ssl_certificate_key /etc/nginx/ssl/yourdomain.com.key;
+      server_name jetbridge.yourdomain.com; 
 
     location / {
       ###################################
@@ -60,15 +70,44 @@ server {
       # END
       ###################################
       
-      ...
-      proxy_pass http://webserver;
-      ...
+      proxy_pass http://127.0.0.1:8888; # default port for jet-bridge
     }
 }
 ```
 {% endcode %}
 
-### \[Python 3.4 or lower] Error when running Jet Bridge: AttributeError: parallel
+{% hint style="info" %}
+If you don't have a certificate for https you can use Let’s Encrypt.  A free and open Certificate Authority (CA), provides an easy and automated way to obtain SSL certificates. &#x20;
+{% endhint %}
+
+**To install Certbot, follow these steps:**
+
+<pre class="language-bash"><code class="lang-bash">#For Ubuntu/Debian:
+sudo apt-get update
+sudo apt-get install certbot
+
+#For CentOS/RHEL:
+sudo yum install certbot
+
+#To obtain a Let’s Encrypt SSL certificate for your domain, run the following Certbot command:
+sudo certbot certonly --nginx -d yourdomain.com
+
+<strong>#If successful, the certificate and private key will be stored in /etc/letsencrypt/live/yourdomain.com/
+</strong><strong>
+</strong>#make the following changes in jetbridge.yourdomain.com.conf:
+    ---
+      ssl_certificate /etc/nginx/ssl/yourdomain.com.crt; -> ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+      ssl_certificate_key /etc/nginx/ssl/yourdomain.com.key; -> ssl_certificate_key; /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+    ---
+    
+#Let’s Encrypt certificates have a validity of 90 days. To ensure uninterrupted SSL protection, automating the certificate renewal process is essential. Certbot provides a renew command that you can schedule to run periodically.
+<strong>
+</strong><strong>#To add a renewal cron job, open the crontab editor:
+</strong><strong>sudo crontab -e
+</strong>
+#Add the following line to run the renewal check daily:
+0 0 * * * certbot renew --nginx --quiet
+</code></pre>
 
 This is because newer versions of the **Pillow** Python library are incompatible with **Python 3.4 or lower**. Install an older version to fix this error:
 
