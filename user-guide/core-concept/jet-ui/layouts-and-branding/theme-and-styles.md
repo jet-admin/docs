@@ -11,13 +11,13 @@ description: >-
 
 Themes allow you to create a consistent look across your apps. You can either use pre-built themes or customize your own for a personalized experience.
 
-<figure><img src="../../../../.gitbook/assets/themes-min.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cover11.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Theme Gallery
 
 Kickstart your app design with over 10 ready-to-use themes in light and dark modes. Instantly apply these professionally crafted themes across your apps, then take it further by customizing components.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cover13.jpg" alt=""><figcaption></figcaption></figure>
 
 **Steps to Apply a Theme:**
 
@@ -46,6 +46,8 @@ To style text within a component, scroll down to the **Text Style** section in t
 {% @arcade/embed flowId="xF2zor7eGPymyTxuxuvr" url="https://app.arcade.software/share/xF2zor7eGPymyTxuxuvr" %}
 
 ### Component Style
+
+<figure><img src="../../../../.gitbook/assets/cover14.jpg" alt=""><figcaption></figcaption></figure>
 
 For detailed customization, you can style components like Buttons, Fields, or Cards. In the Component Display tab under the Style section, you can modify properties such as borders, background, label, shadow, inner/outer spacing, as well as styles for different states like hover, focus, and error. This allows for precise control over the look and feel of individual components.
 
