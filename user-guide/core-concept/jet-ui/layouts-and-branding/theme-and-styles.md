@@ -1,8 +1,8 @@
 ---
 description: >-
-  This guide provides a basic overview of how to manage and customize themes and
-  styles within your app. Customize components and themes to ensure your app
-  reflects your brand identity.
+  Build beautiful web apps with over 10+ ready-to-use themes, or fully customize
+  any component by adjusting colors, fonts, layouts, states, and styles to
+  perfectly match your brand’s identity.
 ---
 
 # Theme & Styles
@@ -13,9 +13,9 @@ Themes allow you to create a consistent look across your apps. You can either us
 
 <figure><img src="../../../../.gitbook/assets/themes-min.jpg" alt=""><figcaption></figcaption></figure>
 
-#### Theme Gallery
+### Theme Gallery
 
-Start with 10+ ready-to-use themes, available in both light and dark modes. These themes can be quickly applied across your apps.
+Kickstart your app design with over 10 ready-to-use themes in light and dark modes. Instantly apply these professionally crafted themes across your apps, then take it further by customizing components.
 
 <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,25 +39,27 @@ Each component in your app can be styled individually, allowing for more detaile
 
 <figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-#### Text Style
+### Text Style
 
 To style text within a component, scroll down to the **Text Style** section in the component's **Display** tab. Here, you can adjust font type, size, color, and other properties, ensuring that the text aligns with the overall design of the app.
 
 {% @arcade/embed flowId="xF2zor7eGPymyTxuxuvr" url="https://app.arcade.software/share/xF2zor7eGPymyTxuxuvr" %}
 
-#### Component Style
+### Component Style
 
 For detailed customization, you can style components like Buttons, Fields, or Cards. In the Component Display tab under the Style section, you can modify properties such as borders, background, label, shadow, inner/outer spacing, as well as styles for different states like hover, focus, and error. This allows for precise control over the look and feel of individual components.
 
 {% @arcade/embed flowId="icx39bXYtb1mawaNQxzw" url="https://app.arcade.software/share/icx39bXYtb1mawaNQxzw" %}
 
-#### Menu Style
+### Menu Style
 
 To style your menu, go to the Menu Style section in the Display settings of the Menu component. Here, you can adjust the height, background, border, corner radius, and outer spacing, ensuring the menu fits seamlessly with your app’s overall design.
 
 {% @arcade/embed flowId="w4Q7gWDbgOijeDor6e1B" url="https://app.arcade.software/share/w4Q7gWDbgOijeDor6e1B" %}
 
-#### Page Style
+### Page Style
+
+Easily adjust page bounds, background, text colors, and border colors to create a cohesive, on-brand look. These powerful customization options ensure a consistent style across all your pages, perfectly aligning with your chosen theme.
 
 In the Page Settings, you can adjust the overall page appearance. This includes modifying bounds, background, text colors, and border colors. These options help you maintain a consistent style across your pages and align them with your theme.
 
