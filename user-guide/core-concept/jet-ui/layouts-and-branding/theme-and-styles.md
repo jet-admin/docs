@@ -27,6 +27,8 @@ Kickstart your app design with over 10 ready-to-use themes in light and dark mod
 
 {% @arcade/embed flowId="txhbPbIZrQUCDBliWdKw" url="https://app.arcade.software/share/txhbPbIZrQUCDBliWdKw" %}
 
+### Customize App Theme <a href="#h_d2232a1b4e" id="h_d2232a1b4e"></a>
+
 You can also apply general settings to components such as buttons, fields, and cards to maintain a consistent appearance.
 
 {% @arcade/embed flowId="97c4d8KnCJNM7aBdzlRw" url="https://app.arcade.software/share/97c4d8KnCJNM7aBdzlRw" %}
