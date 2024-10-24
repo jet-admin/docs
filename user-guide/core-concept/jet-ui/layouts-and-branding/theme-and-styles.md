@@ -7,6 +7,8 @@ description: >-
 
 # Theme & Styles
 
+{% embed url="https://www.youtube.com/watch?v=YajMB6qzsnc&t=28s&ab_channel=JetAdmin" %}
+
 ## Themes
 
 Themes allow you to create a consistent look across your apps. You can either use pre-built themes or customize your own for a personalized experience.
