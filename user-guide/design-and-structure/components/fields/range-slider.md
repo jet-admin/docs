@@ -25,5 +25,9 @@ You can set label, current values, minimum and maximum values to depict range, a
 
 It is possible to set the current value, range, and step size using Formula.
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (955).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
