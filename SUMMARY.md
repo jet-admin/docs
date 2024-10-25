@@ -259,7 +259,7 @@
         * [Building dynamic workflows](user-guide/design-and-structure/components/layouts/overlays/building-dynamic-workflows.md)
       * [Slideout](user-guide/design-and-structure/components/layouts/slideout.md)
       * [Tabs](user-guide/components/layouts/tabs.md)
-    * [Vertical Tabs](user-guide/design-and-structure/components/vertical-tabs.md)
+      * [Vertical Tabs](user-guide/design-and-structure/components/layouts/vertical-tabs.md)
     * [HTML Component](user-guide/design-and-structure/components/html-component.md)
     * [JavaScript component](user-guide/design-and-structure/components/custom-component/README.md)
       * [Create a JavaScript Component](user-guide/design-and-structure/components/custom-component/create-a-javascript-component.md)
