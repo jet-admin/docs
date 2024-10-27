@@ -45,7 +45,7 @@ To disable the confirmation dialog, simply scroll to the end of the dialog setti
 
 ### Show/Hide Notification Messages
 
-By default notification messages shows after each success or fail happens after each action. This feature allows you to hide or show these automatic actions. depending on your case.
+By default, notification messages show after each action's success or fail happens. This feature allows you to enable or disable these action's automatic notification messages. depending on your case.
 
 <div align="left">
 
