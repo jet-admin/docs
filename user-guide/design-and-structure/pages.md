@@ -58,7 +58,7 @@ Page queries allow you to do queries from your page at once, and then use query 
 
 ## Load Data (Page Query)
 
-**Load Data** allows you to retrieve data (collection or record) from the [data sources](../integrations/), [workflow](../workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/fields/select.md)and [multiple select](components/form/multiple-select.md) components.&#x20;
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../integrations/), [workflow](../workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](components/form/select.md)and [multiple select](components/form/multiple-select.md) components.&#x20;
 
 {% content-ref url="pages/load-data-page-query.md" %}
 [load-data-page-query.md](pages/load-data-page-query.md)

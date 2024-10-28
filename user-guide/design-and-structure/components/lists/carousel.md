@@ -21,7 +21,7 @@ To set up a carousel, simply type "carousel" in the component search bar and dra
 * **Header Controls**: Buttons at the top.
 * **No Controls**: Navigation through dots at the bottom of the elements without using additional slider buttons.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Carousel Steps
 

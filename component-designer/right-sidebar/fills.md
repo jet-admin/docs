@@ -14,7 +14,7 @@ _Fill types (plain, image, icon, linear gradient, radial gradient, angular gradi
 
 Color fill types can be set via formula and referenced from parameters. Press the "Color with Formula" button to set it up. It can be applied to plain colors and gradients.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It is not possible at the moment to set the opacity of the fill if the color was set via Formula. But you can set the opacity of the Layer.
