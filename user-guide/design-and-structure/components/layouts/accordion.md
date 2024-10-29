@@ -1,6 +1,6 @@
 # Accordion
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Accordion component enhances your application's user experience by allowing users to show and hide related content sections on a page. This feature is perfect for organizing content in a compact, efficient manner, making it easier for users to navigate and find the information they need. For example, users can quickly find answers to their questions in a FAQ section without scrolling through all the content.&#x20;
 

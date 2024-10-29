@@ -253,6 +253,7 @@
     * [Layouts](user-guide/components/layouts/README.md)
       * [Containers](user-guide/components/layouts/containers.md)
       * [Accordion](user-guide/design-and-structure/components/layouts/accordion.md)
+      * [Collapse](user-guide/design-and-structure/components/layouts/collapse.md)
       * [Columns](user-guide/components/layouts/columns.md)
       * [Overlays](user-guide/design-and-structure/components/layouts/overlays/README.md)
         * [Customizing Overlay](user-guide/design-and-structure/components/layouts/overlays/customizing-overlay.md)
