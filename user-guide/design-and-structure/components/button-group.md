@@ -1,6 +1,6 @@
 # Button Group
 
-The Button Group component is simply easing the process of grouping and organizing a group of buttons' layout vertically or horizontally. Each button has it's own actions and nothing functionally ties it up with other buttons except the layout.
+The Button Group component is simply easing the process of aligning and organizing a group of buttons' layout vertically or horizontally. Each button has it's own actions, and nothing functionally ties it up with other buttons except the layout.
 
 <div align="left">
 
@@ -10,7 +10,7 @@ The Button Group component is simply easing the process of grouping and organizi
 
 ### Button Group's Orientation
 
-In the Button group's properties, you can set he buttons' layout horizontally or vertically depending on the design you need.
+In the Button group's properties, you can set the buttons' layout horizontally or vertically depending on the design you need.
 
 <div align="left">
 
