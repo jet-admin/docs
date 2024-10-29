@@ -114,15 +114,15 @@ Opens any website URLs, use **Action** specified as **Open URL**.
 
 {% @arcade/embed flowId="XEOidwMdpzMphdDs7lpw" url="https://app.arcade.software/share/XEOidwMdpzMphdDs7lpw" %}
 
-### Open/Close Modal
+### Open/Close Overlay
 
 {% @arcade/embed flowId="7bf7uWU3nOnGSNBOeSkG" url="https://app.arcade.software/share/7bf7uWU3nOnGSNBOeSkG" %}
 
-You can close the pop-up modal window. To do so, follow the steps:
+You can close the pop-up overlay window. To do so, follow the steps:
 
 1. Click on the **Button**
 2. Go to the **Click Action**
-3. Choose **Close Modal**
+3. Choose **Close Overlay**
 
 
 
