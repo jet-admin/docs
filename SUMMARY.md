@@ -174,7 +174,7 @@
   * [Binding Filter to Table](user-guide/binding-and-values/binding-filter-to-table.md)
   * [Binding Field to Table](user-guide/binding-and-values/binding-field-to-table.md)
   * [Binding across Pages](user-guide/binding-and-values/binding-across-pages.md)
-  * [Binding across Modals](user-guide/binding-and-values/binding-across-modals.md)
+  * [Binding across Overlays](user-guide/binding-and-values/binding-across-overlays.md)
 * [🔠 Variables](user-guide/binding-and-values/temporary-and-stored-variables.md)
 * [🌈 Basic Columns](user-guide/basic-columns.md)
 * [🔢 Computed Column](user-guide/data/computed-columns/README.md)
