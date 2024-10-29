@@ -4,7 +4,7 @@
 
 The Date Range feature combines a select and input field, enabling users to choose two dates from a popup calendar or enter them directly as text. This feature supports start and end dates, along with constraints for minimum and maximum dates, ensuring precise date selection and validation.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Dual Date Selection**: Select a start and end date using an intuitive popup calendar or by directly entering the dates.
 * **Date Constraints**: Set minimum and maximum date limits to guide user input and ensure valid date ranges.

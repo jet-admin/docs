@@ -247,6 +247,7 @@
       * [Single value](user-guide/components/charts/counter.md)
     * [Text](user-guide/components/text.md)
     * [Buttons](user-guide/components/buttons.md)
+    * [Button Group](user-guide/design-and-structure/components/button-group.md)
     * [Custom Notifications](user-guide/components/custom-notifications.md)
     * [Component Actions](user-guide/components/component-actions.md)
     * [Detail](user-guide/components/detail.md)

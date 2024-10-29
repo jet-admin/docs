@@ -8,7 +8,7 @@ You can set one or more home pages for your app. There are three options for set
 
 To access home page settings, use the _Pages_ menu on the left of the screen.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you select **Using Workflow**, the beginning of the workflow will be created automatically to send new users, invited users, and returning users to different home pages. You can use these conditions or set your own.
 
