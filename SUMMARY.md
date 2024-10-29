@@ -22,7 +22,7 @@
     * [Data Blending Intro](videos/data-editor/data-blending-intro.md)
   * [App Builder](videos/app-builder/README.md)
     * [Builder and User Modes](videos/app-builder/builder-and-user-modes.md)
-    * [Pages and Modals](videos/ui-builder/pages-and-modals.md)
+    * [Pages and Overlays](videos/app-builder/pages-and-overlays.md)
     * [UI Builder](videos/ui-builder/README.md)
     * [Bind Data to UI](videos/app-builder/bind-data-to-ui.md)
     * [Bind Filter to Table](videos/app-builder/bind-filter-to-table.md)
