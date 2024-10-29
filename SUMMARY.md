@@ -220,7 +220,7 @@
       * [Page](user-guide/design-and-structure/components/form/page.md)
       * [Select](user-guide/design-and-structure/components/form/select.md)
       * [Multiple Select](user-guide/design-and-structure/components/form/multiple-select.md)
-    * [Modal](user-guide/components/modal.md)
+    * [Overlay](user-guide/components/modal.md)
     * [Fields](user-guide/components/fields/README.md)
       * [File](user-guide/components/fields/file.md)
       * [Multiselect / Chips](user-guide/design-and-structure/components/fields/multiselect-chips.md)
