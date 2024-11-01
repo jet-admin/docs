@@ -15,13 +15,23 @@ description: Load and Query your data collection/record to your page
 
 1. Click the **`Actions`** button in the top left menu
 2. Click the **`Add Query`** button in the **LOAD DATA** section
-3. Select **`Get the list of records`** to retrieve a set of a maximum of 20 records from a data resource
+3. Select **`Get the list of records`** to retrieve a set of records from a data resource
 4. Rename your Page Query
 5. Select **Load Data** to retrieve the data from the data resources
 6. Select **Data resource**
 7. Select **Collection**
 
 {% @arcade/embed flowId="0oq1fvHp4DuPMGCadoqO" url="https://app.arcade.software/share/0oq1fvHp4DuPMGCadoqO" %}
+
+### Load Maximum Records
+
+Load maximum records feature allows you to specify the maximum number of records to load on the page to preserve the page performance. The default maximum number is 20 by default. If you leave this option empty, the value will 20.
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### **Load Data from JSON**
 
@@ -57,6 +67,3 @@ In this example, let's filter by ID. Follow the steps:
 
 {% @arcade/embed flowId="RR9fBsG56BWvEZC05Eqw" url="https://app.arcade.software/share/RR9fBsG56BWvEZC05Eqw" %}
 
-{% hint style="info" %}
-For now, the Load Data (page query) feature is limited to retrieving only 20 records per request.
-{% endhint %}
