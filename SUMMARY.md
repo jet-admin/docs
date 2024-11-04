@@ -196,7 +196,6 @@
     * [Customize the Page](user-guide/design-and-structure/pages/customize-the-page.md)
     * [Page Values](user-guide/design-and-structure/pages/page-values.md)
     * [Link Pages](user-guide/design-and-structure/pages/link-pages.md)
-    * [Page Queries](user-guide/design-and-structure/pages/page-queries.md)
     * [Load Data (Page Query)](user-guide/design-and-structure/pages/load-data-page-query.md)
     * [Page Opens Action](user-guide/design-and-structure/pages/page-opens-action.md)
     * [Home Page](user-guide/design-and-structure/pages/home-page.md)
