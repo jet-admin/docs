@@ -140,6 +140,7 @@
   * [Google Sheets](user-guide/integrations/google-sheets.md)
     * [Working with Data](user-guide/integrations/google-sheets/working-with-data.md)
   * [Airtable](user-guide/integrations/airtable.md)
+  * [MongoDB](user-guide/integrations/mongodb.md)
   * [GraphQL](user-guide/integrations/graphql.md)
   * [Supabase](user-guide/integrations/supabase.md)
   * [Django](user-guide/integrations/django-framework-package.md)
