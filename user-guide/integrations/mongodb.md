@@ -17,11 +17,7 @@ Before Connection MongoDB with Jetadmin, you need to have a "Connection String" 
 4. Copy the provided Connection String
 5. Click "Done"
 
-<div align="left" data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+{% @arcade/embed flowId="E3CB1GzgpsCcikcmwYj2" url="https://app.arcade.software/share/E3CB1GzgpsCcikcmwYj2" %}
 
 In the connection string, replace **\<db\_password>** with the password for the **Current User** you were provided before when registering a new user in MongoDB.
 
@@ -36,11 +32,7 @@ If you lost your password, you need to create a new one.
 3. In the next screen, Click on "Edit Password"
 4. Type a new password, Copy, and **save it** in a safe place.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (964).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+{% @arcade/embed flowId="RtMr5wUEROirAGrZ6ecA" url="https://app.arcade.software/share/RtMr5wUEROirAGrZ6ecA" %}
 
 ## Get the Database Name <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
