@@ -29,7 +29,7 @@ Load maximum records feature allows you to specify the maximum number of records
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

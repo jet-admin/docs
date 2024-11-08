@@ -57,3 +57,26 @@ APIs like to send data back in pages. By default, you only get 1 page. You will 
 {% content-ref url="make-an-http-request/pagination/" %}
 [pagination](make-an-http-request/pagination/)
 {% endcontent-ref %}
+
+### Search
+
+The Search feature allows you to search for text, dates, or numbers within all records and fields of the result of a REST API response.
+
+The search feature works automatically on the client side query operations. But to set the search function on server side query operations, you have to add a "search" parameter in the query parameters and pass \{{search\}} as its value.
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+By applying the Search query parameter, now the search box will filter all data on all rows and columns with the value typed in the search box.
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
