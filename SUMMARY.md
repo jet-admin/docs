@@ -353,7 +353,7 @@
 * [🔤 Localization](user-guide/localization/README.md)
   * [Account Settings](user-guide/localization/account-settings.md)
   * [Adding Language to Jet Admin](user-guide/localization/adding-language-to-jet-admin.md)
-  * [User-end Localization](user-guide/localization/user-end-localization.md)
+  * [End-user Localization](user-guide/localization/end-user-localization.md)
 * [🎚️ Version Control](user-guide/version-control/README.md)
   * [Cross-Instance Backup Restoration](user-guide/version-control/cross-instance-backup-restoration.md)
 * [📖 Logs](user-guide/logs.md)
