@@ -7,11 +7,11 @@ description: >-
 
 # MongoDB
 
-Before Connection MongoDB with Jetadmin, you need to have a "Connection String" and the "Database Name".
+Before connecting MongoDB with Jet Admin, ensure you have created a MongoDB database and provided the `Connection String` along with the `Database Name` to Jet.
 
 ## Get MongoDB's Connection String <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
-1. Go to the [MongoDB Atlas web interface](https://cloud.mongodb.com/) ,and on the left menu, Click `Clusters`
+1. Go to the [MongoDB Atlas web interface](https://cloud.mongodb.com/) , and on the left menu, click `Clusters`
 2. Click on the `Connect` button next to the needed cluster's name
 3. Choose **Compass**
 4. Copy the provided Connection String
@@ -52,13 +52,6 @@ If you lost your password, you need to create a new one.
 2. Click `Add Resource` from the data section on the left-side menu
 3. Choose MongoDB
 4. Choose **Instant Connection** as a setup method
-5. Type a unique name for the new MongoDB data source
-6. Choose the suitable region which is closer to your location and has less delay
-7. Paste the **Connection string** that was prepared before
-8. Paste the **Database Name**
-9. Click the **Choose tables** button
-10. Select/unselect the needed tables
-11. Click the `Add Resource` button.
 
 <div align="left" data-full-width="false">
 
@@ -66,6 +59,10 @@ If you lost your password, you need to create a new one.
 
 </div>
 
-
+| Resource Name     | Description                                                                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Region            | Username for this database                                                                                                            |
+| Connection String | URI that allows an application to connect to a MongoDB instance: `mongodb://<username>:<password>@<host>:<port>/<database>?<options>` |
+| Database Name     | The name of the database you would like to interact with                                                                              |
 
 \
