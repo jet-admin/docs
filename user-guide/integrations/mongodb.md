@@ -40,11 +40,9 @@ If you lost your password, you need to create a new one.
 2. Under the `Collections` tab, click to choose the required Database
 3. Copy the Database name.
 
-<div align="left">
 
-<figure><img src="../../.gitbook/assets/image (965).png" alt=""><figcaption></figcaption></figure>
 
-</div>
+{% @arcade/embed flowId="eHZhTWn3VWkj1UyVIj57" url="https://app.arcade.software/share/eHZhTWn3VWkj1UyVIj57" %}
 
 ## Connect MongoDB to Jetadmin <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
@@ -53,11 +51,9 @@ If you lost your password, you need to create a new one.
 3. Choose MongoDB
 4. Choose **Instant Connection** as a setup method
 
-<div align="left" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (966).png" alt=""><figcaption></figcaption></figure>
 
-</div>
+{% @arcade/embed flowId="K0eGKtQd32FFr8U7xzLi" url="https://app.arcade.software/share/K0eGKtQd32FFr8U7xzLi" %}
 
 | Resource Name     | Description                                                                                                                           |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
