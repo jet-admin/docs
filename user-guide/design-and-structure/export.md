@@ -34,6 +34,20 @@ You will also be able to sort the data based on a specific column. Choose the co
 
 </div>
 
+### Sorting
+
+This feature allows you to sort the records by a specific column when exporting to a file. To disable sorting, choose `Not Specified` as a sorting option.
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+Make sure sorting is stable or you can get duplicated/missing result rows.
+{% endhint %}
+
 ### Export selected row
 
 First, you need to add an export action to the table for exporting selected rows. To do it, follow the steps:
