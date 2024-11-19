@@ -1,8 +1,42 @@
+---
+description: >-
+  The export feature allows you to download a set of data to CSV, XLS, XLSX,
+  JSON, HTML, and Notepad (txt) formats.
+---
+
 # Export
 
-### Export selected rows
+If you are exporting data using a table component, you will be provided two options as data sources. `This Component` and `Set Data Source.` &#x20;
 
-First, you need to add an export action to the Table for exporting selected rows. To do it, follow the steps:
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### This Component
+
+This option allows you to export the current data shown on the table. You will also be able to sort the data based on a specific column. Choose the columns to include, and set the number of records to export.
+
+### Set Data Source
+
+This option provides three options:
+
+* **Load Data:** Load data from a connected data source.
+* **Load Using Workflow:** Load data resulting from a workflow.
+* **Specify Data**: Load data from another component, page query, or a variable.
+
+You will also be able to sort the data based on a specific column. Choose the columns to include, set the number of records to export, and set filters.
+
+<div align="left" data-full-width="false">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Export selected row
+
+First, you need to add an export action to the table for exporting selected rows. To do it, follow the steps:
 
 1. Drag-and-drop a  `Table` to your page
 2. Go to the **Actions** Tab
