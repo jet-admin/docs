@@ -21,3 +21,7 @@ Use the following guide to set up emails, and specify the next operation:
 * text (HTML) – text field with markups
 
 ![](<../.gitbook/assets/image (9) (1).png>)
+
+{% hint style="info" %}
+The maximum limit number of emails to be send is 10 emails per 1 minute.
+{% endhint %}
