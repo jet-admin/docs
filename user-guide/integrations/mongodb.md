@@ -9,6 +9,8 @@ description: >-
 
 Before connecting MongoDB with Jet Admin, ensure you have created a MongoDB database and provided the `Connection String` along with the `Database Name` to Jet.
 
+{% embed url="https://www.youtube.com/watch?v=W5IBofMqEoE" %}
+
 ## Get MongoDB's Connection String <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
 1. Go to the [MongoDB Atlas web interface](https://cloud.mongodb.com/) , and on the left menu, click `Clusters`
