@@ -4,7 +4,7 @@ description: In  this section you will learn about Users and Permissions
 
 # 🔐 Users & Permissions
 
-JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](sharing-your-app.md#invite-by-email), [invited by link](sharing-your-app.md#invite-by-link)), will be available in the **Date** tab in the **"Built-ins"** section.
+JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](sharing-your-app.md#invite-by-email), [invited by link](sharing-your-app.md#invite-by-link)), will be available in the **Data** tab in the **"Built-ins"** section.
 
 You'll also be able to set **granular permissions** and the properties to **separate data for the Portal** (multi-tenancy)
 
@@ -25,7 +25,7 @@ The **default authorization** process involves authorizing in the following ways
 1. Google & Facebook authorization (basic SSO)
 2. Authorization via credentials (login + password)
 
-![](<../../.gitbook/assets/image (871).png>)
+<figure><img src="../../.gitbook/assets/logiin.png" alt=""><figcaption></figcaption></figure>
 
 You can also implement **custom authorization** through SSO. See the topics in this section on implementing different SSO methods:
 
@@ -37,7 +37,7 @@ The built-in User Management System allows you to configure each user on a granu
 2. **Specify user properties**. Set properties for users to control their [permissions](user-and-team-properties.md) and access to data.
 3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](sharing-your-app.md) for more details.
 
-![](<../../.gitbook/assets/image (872).png>)
+<figure><img src="../../.gitbook/assets/inv.png" alt=""><figcaption></figcaption></figure>
 
 ### White Label & Customization
 

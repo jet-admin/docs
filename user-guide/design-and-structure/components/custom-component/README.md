@@ -34,7 +34,7 @@ You can specify **Inputs** to pass data inside **the** Custom Component from **J
 
 ## Use JavaScript Component Outputs
 
-You can specify **Outputs** to take from your Custom Component and use their values in other **Jet Admin** components**.** For such cases, you should set **Outputs** inside your Custom Component by sending **CustomEvent** with **Output** name and its value in the **detail** field (Examples from GitHub include it already).
+You can specify **Outputs** to take from your Custom Component and use their values in other **Jet Admin** component&#x73;**.** For such cases, you should set **Outputs** inside your Custom Component by sending **CustomEvent** with **Output** name and its value in the **detail** field (Examples from GitHub include it already).
 
 {% content-ref url="use-javascript-component-outputs.md" %}
 [use-javascript-component-outputs.md](use-javascript-component-outputs.md)

@@ -17,7 +17,7 @@ A Page is an interface element that can span across various use cases. Create pa
 Every table in your Jet app has built-in filtering functions. There are two ways to access these:
 
 1. By the filter icon on the upper right of the table.
-2. By _Filter by field_ option_._
+2. By _Filter by field_ optio&#x6E;_._
 
 {% content-ref url="filter.md" %}
 [filter.md](filter.md)

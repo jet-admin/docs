@@ -21,7 +21,7 @@ Specify **Name** and **New members team** for newly created **External SSO**
 In **Redirect URI (optional)** section fill the following fields
 
 * Platform: Web
-* URL: copy **REDIRECT URL** from **Jet Admin -> External SSO** -> **Application parameters** section**.**
+* URL: copy **REDIRECT URL** from **Jet Admin -> External SSO** -> **Application parameters** sectio&#x6E;**.**
 
 <figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 

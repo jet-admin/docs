@@ -8,7 +8,7 @@ In this example, I will use `AND()` to make my purchases table visible _only_ wh
 2. In the _Conditional Visibility_ field, first choose the logical operator formula that you want to use. In this example, that will be `AND()`.
 3. Next, enter the conditions that you want to use with the logical operator.\
    \
-   In this example, _Is Approved_ is a checkbox – so it will already return _True_ or _False_ – but _Status_ is a text field, so I will need to use the `EQ()` formula to return _True_ or _False._choose the user property that you want to use. Because my property type is a checkbox, it already returns `True` or `False` based on its value.&#x20;
+   In this example, _Is Approved_ is a checkbox – so it will already return _True_ or _False_ – but _Status_ is a text field, so I will need to use the `EQ()` formula to return _True_ or _False._&#x63;hoose the user property that you want to use. Because my property type is a checkbox, it already returns `True` or `False` based on its value.&#x20;
 
 When I have set this up correctly, the value in the _Conditional Visibility_ field will be:\
 \

@@ -32,7 +32,7 @@ In a formula, you can reference columns by name and use these to do mathematical
 
 Jet Admin also has several useful functions that you can use in your formulas.
 
-**A key thing to remember when using functions is that **_**a message will appear that shows you exactly how to use each function when you click on it.**_ This way, you never have to remember or think about how to use a given formula, you can simply read how to use it and enter or choose the values you need from the menu. \
+**A key thing to remember when using functions is that&#x20;**_**a message will appear that shows you exactly how to use each function when you click on it.**_ This way, you never have to remember or think about how to use a given formula, you can simply read how to use it and enter or choose the values you need from the menu. \
 
 
 There are four different groups of built-in functions:
