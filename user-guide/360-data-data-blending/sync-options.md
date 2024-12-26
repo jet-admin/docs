@@ -10,22 +10,20 @@ The sync parameters can be changed in the **Sync options** tab. To get there, cl
 
 The syncing consists of two parts: the `Data source` - `Jet tables` connection (referred to as **External updates**) and the `Jet tables` - `Interface` connection (referred to as **Internal updates**). The latter pair is syncing in real-time while the former one's syncing interval can be changed
 
-{% hint style="info" %}
+{% hint style="danger" %}
 At the moment, the external updates interval can only be set on the side of Jet Admin, so if you need to change it, reach out to client support
 {% endhint %}
 
-In the sync tab, you can:
+In your Data Source page, you can:
 
 * View the **status** (could be <mark style="color:green;">active</mark> or <mark style="color:yellow;">paused</mark>) (1)
-* Control the sync: **pause it** or perform a **manual sync** - Sync now (2)
-* View the **Internal updates interval** (3)
-* View the **external updates interval** (4)
+* Control the sync: **pause it (2)** or perform a **manual sync** - Sync now (3)
 
-![](../../.gitbook/assets/xtfmyt.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-26 163715.png" alt=""><figcaption></figcaption></figure>
 
 The last **sync date and time** are displayed along with the sync status:
 
-![](../../.gitbook/assets/xncvgyn.png)
+<figure><img src="../../.gitbook/assets/time.png" alt=""><figcaption></figcaption></figure>
 
 To View Sync Events, follow the steps:
 
