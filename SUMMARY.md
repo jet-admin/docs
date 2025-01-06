@@ -132,6 +132,7 @@
     * [OAuth 2.0](user-guide/integrations/rest-api/oauth-2.0.md)
     * [Jet Requests Auth](user-guide/integrations/rest-api/jet-requests-auth.md)
   * [Firebase / Firestore](user-guide/integrations/firebase-firestore/README.md)
+    * [Syncing Firebase Data Using Functions](user-guide/integrations/firebase-firestore/syncing-firebase-data-using-functions.md)
     * [Firestore](user-guide/integrations/firebase-firestore/firestore.md)
     * [Import CSV into Firebase](user-guide/integrations/firebase-firestore/import-csv-into-firebase.md)
     * [Firebase Cloud Storage](user-guide/integrations/firebase-firestore/firebase-cloud-storage.md)
