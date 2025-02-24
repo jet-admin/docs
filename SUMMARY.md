@@ -60,6 +60,7 @@
   * [Why new SQL tables are not showing?](faq-and-troubleshooting/why-new-sql-tables-are-not-showing.md)
   * [How to restrict input in a text field?](faq-and-troubleshooting/how-to-restrict-input-in-a-text-field.md)
   * [Troubleshooting Django integration](faq-and-troubleshooting/troubleshooting-django-integration.md)
+  * [How to Connect to Slack Channel](faq-and-troubleshooting/how-to-connect-to-slack-channel.md)
 
 ## Guides <a href="#getting-started" id="getting-started"></a>
 
