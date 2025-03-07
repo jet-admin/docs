@@ -105,6 +105,7 @@
   * [Jet UI](user-guide/jet-ui/README.md)
     * [App settings](user-guide/core-concept/jet-ui/layouts-and-branding/README.md)
       * [Appearance Settings](user-guide/core-concept/jet-ui/layouts-and-branding/appearance-settings.md)
+      * [Adding Custom Fonts](user-guide/core-concept/jet-ui/layouts-and-branding/adding-custom-fonts.md)
       * [Theme & Styles](user-guide/core-concept/jet-ui/layouts-and-branding/theme-and-styles.md)
       * [Menu](user-guide/core-concept/jet-ui/layouts-and-branding/menu.md)
       * [App Info](user-guide/core-concept/jet-ui/layouts-and-branding/app-info.md)
