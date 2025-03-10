@@ -96,8 +96,7 @@ If the font does not appear correctly, reset it by:
 
 1. Going to **App Settings** > **Global CSS**.
 2. Removing any existing font settings.
-3. Applying the new font settings as defined above.
-4. Saving and refreshing the page.
+3. Saving and refreshing the page.
 
 {% hint style="info" %}
 ### **Download Full CSS Code**
