@@ -99,6 +99,15 @@
 * [🚀 UI in seconds](getting-started/ui-in-seconds.md)
 * [🪅 Figma design into a web app](getting-started/figma-design-into-a-web-app.md)
 
+***
+
+* [AI Custom Components](ai-custom-components/README.md)
+  * [Enhance Your Prompts with AI Assistance](ai-custom-components/enhance-your-prompts-with-ai-assistance.md)
+  * [Enhancing Your Prompts with Images](ai-custom-components/enhancing-your-prompts-with-images.md)
+  * [Auto-Generate Parameters and Actions](ai-custom-components/auto-generate-parameters-and-actions.md)
+  * [Edit Your Custom Code with the Custom Component Builder](ai-custom-components/edit-your-custom-code-with-the-custom-component-builder.md)
+  * [Import and Iterate on Your Existing Components](ai-custom-components/import-and-iterate-on-your-existing-components.md)
+
 ## References <a href="#user-guide" id="user-guide"></a>
 
 * [🦄 Core concept](user-guide/core-concept/README.md)
