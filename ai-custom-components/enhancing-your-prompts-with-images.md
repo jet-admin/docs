@@ -7,6 +7,10 @@ description: >-
 
 # Enhancing Your Prompts with Images
 
+
+
+<figure><img src="../.gitbook/assets/euhuiedwq.jpg" alt=""><figcaption></figcaption></figure>
+
 ### How to Add an Image to Your Prompt
 
 1.  **Write a Short Description**\

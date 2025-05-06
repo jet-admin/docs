@@ -6,6 +6,8 @@ description: >-
 
 # Auto-Generate Parameters and Actions
 
+<figure><img src="../.gitbook/assets/Frame 8473-min.jpg" alt=""><figcaption></figcaption></figure>
+
 ### How It Works
 
 1.  **Write a Clear Prompt**\

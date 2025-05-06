@@ -7,6 +7,8 @@ description: >-
 
 # Import and Iterate on Your Existing Components
 
+<figure><img src="../.gitbook/assets/Screenshot 14-min.jpg" alt=""><figcaption></figcaption></figure>
+
 ### How to Upload and Improve Your Components
 
 1. **Turn on Dev Mode First**

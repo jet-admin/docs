@@ -6,6 +6,8 @@ description: >-
 
 # Edit Your Custom Code with the Custom Component Builder
 
+<figure><img src="../.gitbook/assets/Screenshot 12.jpg" alt=""><figcaption></figcaption></figure>
+
 ### How to Edit Your Custom Component
 
 1. **Turn on Dev Mode**\
