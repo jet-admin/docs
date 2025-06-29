@@ -12,10 +12,6 @@ You have several options how to fix this issue:
 2. Run **Jet Bridge** behind a web server with **HTTPS** configured (for example **nginx**).
 3. (_for Test purposes_) You can use **Jet Admin** in **HTTP** mode. We allow you to open your App in **HTTP** mode if you change **HTTPS** to **HTTP** in your browser URL. Be sure to connect to **Jet Bridge** with http:// on your browser URL otherwise, you will get a connection error.
 
-{% hint style="info" %}
-For testing, you can use [Ngrok](https://ngrok.com/docs/getting-started/) service to put your application on the internet via HTTPS
-{% endhint %}
-
 ### CORS issue
 
 If you are deploying **Jet Bridge** behind a proxy or some webserver you can start receiving the following errors in your browser console:
