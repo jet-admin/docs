@@ -49,6 +49,17 @@ COMMON_JET_BRIDGE_CLOUD_HOST=jetbridge.example.com
 COMMON_CENTRIFUGO_URL=wss://app.example.com:8000/connection/websocket
 ```
 
+{% hint style="warning" %}
+**Important:**\
+If you're deploying Nginx **on the same host** as `onpremise`, you must update the `NGINX_PORT` variable in the `.env` file:
+
+```
+NGINX_PORT=8080
+```
+
+By default, NGINX\_PORT is set to 80, which conflicts with the external Nginx server that also listens on port 80. Without this change, Nginx will fail to start due to a port conflict.
+{% endhint %}
+
 ### **Navigating to Nginx Configuration File:**&#x20;
 
 Use the following command to navigate to the directory where the Nginx configuration files are stored:
