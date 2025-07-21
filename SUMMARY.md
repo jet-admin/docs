@@ -421,7 +421,7 @@
 ## DEPLOYMENT <a href="#jet-bridge-deployment" id="jet-bridge-deployment"></a>
 
 * [⛅ Cloud](jet-bridge-deployment/cloud.md)
-* [🏎️ Self-hosted](jet-bridge-deployment/jet-admin/README.md)
+* [🏎️ Self-hosted Jet Bridge](jet-bridge-deployment/jet-admin/README.md)
   * [SSO on self-deployed Jet Bridge](jet-bridge-deployment/jet-admin/sso-on-self-deployed-jet-bridge.md)
   * [Using self-deployed HTTP proxy](jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md)
   * [Common Problems](jet-bridge-deployment/jet-admin/common-problems.md)
