@@ -24,7 +24,7 @@ You'll need to fill out the following form:
 
 Using Database integration you can make simple or [SQL queries](../../data/make-a-sql-query.md) to your database:
 
-![](<../../../.gitbook/assets/testgif13 (1).gif>)
+{% @arcade/embed flowId="Fg2gqwiVIpsgGl7YNdlq" url="https://app.arcade.software/share/Fg2gqwiVIpsgGl7YNdlq" %}
 
 Here is a [step-by-step guide](../../../jet-bridge-deployment/database-heroku-deployment.md) to deploying the database to Heroku and finding your credentials.
 
