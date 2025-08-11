@@ -80,7 +80,7 @@ You can use SHH to **safely integrate** with databases in Jet Admin, if database
 
 Using Database integration you can make simple or [SQL queries](../../data/make-a-sql-query.md) to your database to select the data and use it as virtual tables:
 
-![](../../../.gitbook/assets/testgif13.gif)
+{% @arcade/embed flowId="Fg2gqwiVIpsgGl7YNdlq" url="https://app.arcade.software/share/Fg2gqwiVIpsgGl7YNdlq" %}
 
 {% content-ref url="../../data/make-a-sql-query.md" %}
 [make-a-sql-query.md](../../data/make-a-sql-query.md)
