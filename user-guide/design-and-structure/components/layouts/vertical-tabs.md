@@ -15,4 +15,4 @@ It is better to use vertical tabs when having large number of tabs or when using
 
 To switch to the horizontal tabs layout, on the tabs properties menu on the right, click the horizontal button under the display section.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>

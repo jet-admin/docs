@@ -2,21 +2,13 @@
 
 The Button Group component is simply easing the process of aligning and organizing a group of buttons' layout vertically or horizontally. Each button has it's own actions, and nothing functionally ties it up with other buttons except the layout.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Button Group's Orientation
 
 In the Button group's properties, you can set the buttons' layout horizontally or vertically depending on the design you need.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Button Group's  Actions
 
