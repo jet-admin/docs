@@ -1,6 +1,6 @@
 # Reading data from API
 
-For instance, you need to make your own API request, just choose `Make an HTTP request` as an operation. Let's look at an example of how to get a list of transactions. We are going to display a list of transactions in the table component with the Stripe API (you can use any API).&#x20;
+If you need to make your own API request, simply select **"Make an HTTP request"** as the operation. This allows you to connect to any external API and display the response data using available components, such as tables or charts. Just configure the request method, URL, headers, and any necessary parameters based on your API.
 
 ### Make an API request using API Builder
 
@@ -12,39 +12,35 @@ For instance, you need to make your own API request, just choose `Make an HTTP r
 
 ### Pass API parameters
 
-Now you are in API Query Builder. Specify `endpoint` and add new `customer` parameter (to return charges for the customer specified by this customer ID)
+Now you are in API Query Builder. Specify `endpoint` and add any new parameter.
 
 <figure><img src="../../.gitbook/assets/image (970).png" alt=""><figcaption></figcaption></figure>
 
 ### Use tokens on your API request
 
-When you create a new parameter it becomes available as tokens. You can set a value for the parameter to request a list of customer's transactions.
+If you need to pass tokens or other important headers, simply navigate to the **Headers** section and add the required key-value pairs. For example: `Authorization`, `Content-Type`, or any custom token headers.
 
 <figure><img src="../../.gitbook/assets/image (971).png" alt=""><figcaption></figcaption></figure>
 
 ### Transform your response
 
-To transform the response, use the `Response Nested Keys` to specify the result of your request:
+To transform the response, use the `Transform` feature to specify the result of your request:
 
 <figure><img src="../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 
 ### Paginate by pages
 
-To paginate by the list of pages specify `cursor pagination` :
+If you need pagination, simply navigate to the **Pagination** section and choose your preferred type — such as **Client-side** or **Server-side** (Page, Offset, or Cursor Pagination).
 
-1\. Select `Cusror Pagination` as `Pagination`:
-
-2\. In general, `Cursor pagination` is specified by `next_cursor`, `has_more` parameters. To parse the response we use Javascript notation. You can modify your function's return value by adding a transformer. Use the identifier `data` for the return value and enter any expressions to modify the result, such as add a property or loop over the data set.&#x20;
-
-* `next_cursor` as `data['data'][data['data'].length - 1].id` &#x20;
-* `has_more` as`data['has_more']`\
+* For **Client-side** pagination, filters, sorting, and pagination are applied automatically — no additional configuration needed.
+* For **Server-side** pagination, select the appropriate type (Page, Offset, or Cursor) and configure the necessary parameters based on your API’s structure. You can also use a transformer to adjust the response format if needed.\
 
 
 <figure><img src="../../.gitbook/assets/image (974).png" alt=""><figcaption></figcaption></figure>
 
 ### Run your request
 
-Simply click `Refresh Data` button to run your request
+Simply click `Test Request` button to run your request
 
 <figure><img src="../../.gitbook/assets/image (975).png" alt=""><figcaption></figcaption></figure>
 
