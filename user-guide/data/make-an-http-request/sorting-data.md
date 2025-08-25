@@ -6,4 +6,4 @@ description: In this section you will learn how to sort your data
 
 You can sort all fields by ascending and descending value:
 
-![](<../../../.gitbook/assets/image (838).png>)
+<figure><img src="../../../.gitbook/assets/image (978).png" alt=""><figcaption></figcaption></figure>
