@@ -8,7 +8,7 @@ description: >-
 
 In Jet Admin's RestAPI Builder, endpoints can return data in four different formats: JSON, XML, Text, and Blob. Each format serves specific purposes and is compatible with Jet Admin's capabilities for accepting data from endpoints.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 005435.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (977).png" alt=""><figcaption></figcaption></figure>
 
 ### **JSON (JavaScript Object Notation)**
 
