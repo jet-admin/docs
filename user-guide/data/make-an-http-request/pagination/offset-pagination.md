@@ -21,4 +21,4 @@ In Jet API Builder that would be set up with these settings:
 https://api.hubapi.com/v1/deals/v1/deal/paged?offset={{paging.offset}}&limit={{paging.limit}}
 ```
 
-![](<../../../../.gitbook/assets/image (841).png>)
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

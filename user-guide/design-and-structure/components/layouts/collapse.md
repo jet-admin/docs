@@ -6,5 +6,5 @@ The Collapse component enhances your application's user experience by allowing u
 
 **Opened/Closed Indicator**: Include visual indicators to show whether a section is opened or closed. These indicators enhance user experience by providing clear, immediate feedback on the state of each section, making it easy to navigate through the content.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure></div>
 

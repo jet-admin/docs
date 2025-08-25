@@ -24,7 +24,7 @@ This option provides three options:
 
 You will also be able to sort the data based on a specific column. Choose the columns to include, set the number of records to export, and set filters.
 
-<div align="left" data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Sorting
 

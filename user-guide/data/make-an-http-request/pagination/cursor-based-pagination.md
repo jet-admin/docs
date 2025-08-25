@@ -18,4 +18,4 @@ For instance, Stripe API in Jet API Builder that would be set up with these sett
 https://api.stripe.com/v1/customers?limit={{paging.limit}}&starting_after={{paging.cursor_next}}&ending_before={{paging.cursor_prev}}
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (980).png" alt=""><figcaption></figcaption></figure>
