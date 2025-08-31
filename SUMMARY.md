@@ -354,6 +354,7 @@
     * [Embedding App using a generated link](user-guide/preview-and-publish/embed-apps/embedding-app-using-a-generated-link.md)
     * [Embedding App using iFrame/HTML](user-guide/preview-and-publish/embed-apps/embedding-app-using-iframe-html.md)
 * [⚙️    Automations & Workflow](user-guide/workflow/README.md)
+  * [Workflows with AI](user-guide/workflow/workflows-with-ai.md)
   * [Triggers](user-guide/workflow/page-1.md)
   * [Steps](user-guide/workflow/steps/README.md)
     * [Actions](user-guide/workflow/steps/actions.md)
