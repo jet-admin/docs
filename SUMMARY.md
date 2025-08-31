@@ -317,6 +317,7 @@
       * [Offset pagination](user-guide/data/make-an-http-request/pagination/offset-pagination.md)
       * [Cursor based pagination](user-guide/data/make-an-http-request/pagination/cursor-based-pagination.md)
     * [Error Handling](user-guide/data/make-an-http-request/error-handling.md)
+  * [SQL Query Builder](user-guide/data/sql-query-builder.md)
   * [Making SQL queries](user-guide/data/make-a-sql-query.md)
   * [Text to SQL](user-guide/data/text-to-sql.md)
   * [Storages](user-guide/data/cloud-storage.md)

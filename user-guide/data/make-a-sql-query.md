@@ -1,5 +1,6 @@
 ---
 description: An overview of SQL request with PostgreSQL
+hidden: true
 ---
 
 # Making SQL queries
