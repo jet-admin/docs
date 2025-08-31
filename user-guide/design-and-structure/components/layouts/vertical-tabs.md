@@ -7,7 +7,7 @@ description: >-
 
 # Vertical Tabs
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (8).png" alt=""><figcaption></figcaption></figure>
 
 It is better to use vertical tabs when having large number of tabs or when using the page on the mobile version.
 
@@ -15,4 +15,4 @@ It is better to use vertical tabs when having large number of tabs or when using
 
 To switch to the horizontal tabs layout, on the tabs properties menu on the right, click the horizontal button under the display section.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

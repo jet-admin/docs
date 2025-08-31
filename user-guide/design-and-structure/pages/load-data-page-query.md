@@ -27,11 +27,7 @@ description: Load and Query your data collection/record to your page
 
 Load maximum records feature allows you to specify the maximum number of records to load on the page to preserve the page performance. The default maximum number is 20 by default. If you leave this option empty, the value will 20.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Load Data from JSON**
 

@@ -11,7 +11,7 @@ The navigation bar helps users find their way around your app. While in the buil
 3. Set up the menu background color
 4. Enable/Disable the menu, set conditional visibility via the Fx button
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Configure Menu Layout
 

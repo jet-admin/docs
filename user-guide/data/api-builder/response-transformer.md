@@ -1,5 +1,6 @@
 ---
 description: Transform your JSON response
+hidden: true
 ---
 
 # Response Transformer

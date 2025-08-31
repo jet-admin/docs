@@ -10,11 +10,11 @@ In addition to ready-to-use integrations, Jet Admin allows you to use REST API t
 
 To connect a REST API or another resource, first select Add Resource from the project menu to open the resource selection pane:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also implement your own custom API using API Builder. For example, you can set up GET or POST requests to retrieve or update data based on your application's needs.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../../data/make-an-http-request.md" %}
 [make-an-http-request.md](../../data/make-an-http-request.md)

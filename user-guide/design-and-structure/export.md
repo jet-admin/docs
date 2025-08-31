@@ -8,7 +8,7 @@ description: >-
 
 If you are exporting data using a table component, you will be provided two options as data sources. `This Component` and `Set Data Source.` &#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### This Component
 
@@ -24,7 +24,7 @@ This option provides three options:
 
 You will also be able to sort the data based on a specific column. Choose the columns to include, set the number of records to export, and set filters.
 
-<div align="left" data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Sorting
 

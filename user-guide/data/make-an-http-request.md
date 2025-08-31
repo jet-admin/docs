@@ -1,5 +1,6 @@
 ---
 description: An overview of HTTP request
+hidden: true
 ---
 
 # Making API requests
@@ -38,24 +39,24 @@ To pass Values to **API Builder**, such as `charge` you need to specify **Inputs
 
 Transform JSON API response using a **Visual** or **Javascript Response Transformer.**
 
-{% content-ref url="make-an-http-request/response-transformer.md" %}
-[response-transformer.md](make-an-http-request/response-transformer.md)
+{% content-ref url="api-builder/response-transformer.md" %}
+[response-transformer.md](api-builder/response-transformer.md)
 {% endcontent-ref %}
 
 ### Sorting
 
 Apply ascending or descending sorting to fields from your response.
 
-{% content-ref url="make-an-http-request/sorting-data.md" %}
-[sorting-data.md](make-an-http-request/sorting-data.md)
+{% content-ref url="api-builder/sorting-data.md" %}
+[sorting-data.md](api-builder/sorting-data.md)
 {% endcontent-ref %}
 
 ### Pagination
 
 APIs like to send data back in pages. By default, you only get 1 page. You will need to ask for more. In your API docs, there should be a section called Pagination.&#x20;
 
-{% content-ref url="make-an-http-request/pagination/" %}
-[pagination](make-an-http-request/pagination/)
+{% content-ref url="api-builder/pagination/" %}
+[pagination](api-builder/pagination/)
 {% endcontent-ref %}
 
 ### Search
@@ -64,11 +65,11 @@ The Search feature allows you to search for text, dates, or numbers within all r
 
 The search feature works automatically on the client side query operations. But to set the search function on server side query operations, you have to add a "search" parameter in the query parameters and pass \{{search\}} as its value.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 By applying the Search query parameter, now the search box will filter all data on all rows and columns with the value typed in the search box.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
