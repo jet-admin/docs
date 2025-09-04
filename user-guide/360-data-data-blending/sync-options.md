@@ -35,6 +35,6 @@ To View Sync Events, follow the steps:
 
 To learn more about using SQL queries in Jet Admin, please refer to this page:
 
-{% content-ref url="../../getting-started/part-2-intermediate/reading-data-from-sql.md" %}
-[reading-data-from-sql.md](../../getting-started/part-2-intermediate/reading-data-from-sql.md)
+{% content-ref url="../../getting-started/part-2-intermediate/reading-data-from-sql-1.md" %}
+[reading-data-from-sql-1.md](../../getting-started/part-2-intermediate/reading-data-from-sql-1.md)
 {% endcontent-ref %}

@@ -10,8 +10,8 @@ This part focuses on advanced Jet features such as **custom HTTP**, **SQL** quer
 [single-relations.md](single-relations.md)
 {% endcontent-ref %}
 
-{% content-ref url="reading-data-from-sql.md" %}
-[reading-data-from-sql.md](reading-data-from-sql.md)
+{% content-ref url="reading-data-from-sql-1.md" %}
+[reading-data-from-sql-1.md](reading-data-from-sql-1.md)
 {% endcontent-ref %}
 
 {% content-ref url="perform-api-requests.md" %}

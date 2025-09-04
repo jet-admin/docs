@@ -84,6 +84,7 @@
   * [Conditional Visibility](getting-started/part-2-intermediate/conditional-visibility.md)
   * [Reading data from API](getting-started/part-2-intermediate/perform-api-requests.md)
   * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql.md)
+  * [Reading data from SQL](getting-started/part-2-intermediate/reading-data-from-sql-1.md)
   * [Generate Invoice or Document](getting-started/part-2-intermediate/generate-invoice-or-document/README.md)
     * [Document](getting-started/part-2-intermediate/generate-invoice-or-document/document.md)
 * [📧 Send Emails](getting-started/send-emails.md)

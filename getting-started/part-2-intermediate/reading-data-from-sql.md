@@ -1,53 +1,58 @@
+---
+description: >-
+  The SQL Query Builder lets you create, edit, and run queries easily. You can
+  write SQL manually, insert tables and columns, or let AI generate queries and
+  transformations for you.
+---
+
 # Reading data from SQL
 
-Let's say, we need to display order total amount on `Customer` table for each customer. All Orders we stored in the separate `Orders` table in the SQL database.&#x20;
+### Writing and Generating Queries
 
-The result`Customers`table contains: `customer_id`, `photo`, `name`, `total_amount`columns of data for each customer.
-
-### Build SQL query using SQL Builder
-
-1\. Go to the Component Settings then `Add Data Resource`
-
-![](../../.gitbook/assets/GIF107.gif)
-
-2\. Select a resource (SQL database) then choose collection as `Make an SQL request`
-
-![](../../.gitbook/assets/GIF117.gif)
-
-### Write SQL query
-
-Let's write a SQL query that returns customers includes the total amount column:
+You can type SQL directly in the editor or click **Ask AI** to describe what you need in plain language. AI will generate the SQL for you—for example, _“show tickets created in 2019 with low priority.”_
 
 ```sql
-select 
-(select sum(amount) from orders where customer_id = customerscrm.id) as total_amount,
-id,
-photo,
-name
-from 
-customerscrm
+SELECT *
+FROM Tickets
+WHERE "Opened date" BETWEEN '2018-01-01' AND '2024-12-31';
 ```
 
-![](../../.gitbook/assets/GIF118.gif)
+{% @arcade/embed flowId="B1cUtKdZJcMZRr2xFKuv" url="https://app.arcade.software/share/B1cUtKdZJcMZRr2xFKuv" %}
 
-### Tips
+Or consider using AI to refine or write your SQL query for enhanced accuracy and efficiency.
 
-Here is a list of your available tables, you can see the table columns. You can use them while writing SQL, just click on the table name and the name will be automatically added.
+{% @arcade/embed flowId="NvrLmzZbiySNDqwW11WS" url="https://app.arcade.software/share/NvrLmzZbiySNDqwW11WS" %}
 
-![](../../.gitbook/assets/GIF119.gif)
+### Inserting Tables and Columns
 
-### Run your SQL query
+On the right-hand panel, you will see a list of all available tables and their columns. By clicking on any table or column, it is automatically inserted into your SQL editor. This eliminates the need to manually type table names or remember exact column names, reducing errors and making query construction much faster.
 
-Simply click `Update Result` button to run your SQL command.
+<figure><img src="../../.gitbook/assets/image (981).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/GIF120.gif)
+### Inserting Custom Inputs
 
-### Customize table
+The Query Builder also allows you to add dynamic parameters using the **Insert Input** option below the editor. Inputs act as placeholders for values that can change, so you can reuse the same query multiple times with different filters. This is particularly handy when running similar queries across different date ranges or user IDs without rewriting SQL each time.
 
-Just close SQL Query Builder to start to customize the result table.
+<figure><img src="../../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/GIF121.gif)
+{% hint style="info" %}
+### Prettify SQL
 
-{% content-ref url="../../user-guide/data/make-a-sql-query.md" %}
-[make-a-sql-query.md](../../user-guide/data/make-a-sql-query.md)
-{% endcontent-ref %}
+Click **Prettify SQL** to automatically format your query, making it more readable and easier to debug.
+{% endhint %}
+
+### Transforming Query Results
+
+After running a query, use the **Transform** feature to adjust results. Choose from dropdown options or write custom JavaScript. AI can also generate transformation code to rename fields, restructure data, or filter results.
+
+{% @arcade/embed flowId="NMcY31rHAKf7igivIPLV" url="https://app.arcade.software/share/NMcY31rHAKf7igivIPLV" %}
+
+### Testing, Previewing, and Saving
+
+Click **Test Request** to run your query and check the results in the **Preview panel**. Once everything looks correct, click **Save** to reuse the query later—ideal for recurring reports or analysis.
+
+{% hint style="info" %}
+### Best Practices
+
+To get the most out of the SQL Query Builder, it’s a good idea to prettify queries regularly for readability, and make frequent use of AI assistance for complex SQL generation. Inputs should be used whenever possible to create dynamic, reusable queries. Transformations are a powerful way to adjust your results without altering the base SQL, and testing queries before saving ensures accuracy. Finally, previewing results after execution helps confirm that your query meets the intended goals.
+{% endhint %}
