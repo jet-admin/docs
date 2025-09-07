@@ -102,6 +102,7 @@
 
 ***
 
+* [Ask AI](ask-ai.md)
 * [AI Custom Components](ai-custom-components/README.md)
   * [Enhance Your Prompts with AI Assistance](ai-custom-components/enhance-your-prompts-with-ai-assistance.md)
   * [Enhancing Your Prompts with Images](ai-custom-components/enhancing-your-prompts-with-images.md)
