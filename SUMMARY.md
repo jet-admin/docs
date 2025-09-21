@@ -102,6 +102,10 @@
 
 ***
 
+* [Agents](agents/README.md)
+  * [The Agent Interface](agents/the-agent-interface.md)
+  * [Running Agents](agents/running-agents.md)
+  * [How Agents Work](agents/how-agents-work.md)
 * [Ask AI](ask-ai.md)
 * [AI Custom Components](ai-custom-components/README.md)
   * [Enhance Your Prompts with AI Assistance](ai-custom-components/enhance-your-prompts-with-ai-assistance.md)
