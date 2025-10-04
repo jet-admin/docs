@@ -25,4 +25,4 @@ To ensure smooth and reliable use of MCP servers in JetAdmin, follow these pract
 * Document available actions and expected parameters so team members can use them consistently.
 * Start with simple workflows or component bindings to validate server behavior before building complex automations.
 
-By following these best practices, you can safely and efficiently leverage MCP servers like the Slack MCP server from Smithery across JetAdmin apps, workflows, and AI agents.
+By following these best practices, you can safely and efficiently leverage MCP servers from Smithery across JetAdmin apps, workflows, and AI agents.

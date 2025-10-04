@@ -1,6 +1,5 @@
 ---
 description: The basics of MCP servers and how they function as bridges in JetAdmin.
-hidden: true
 ---
 
 # MCP
@@ -10,7 +9,7 @@ An **MCP (Model Context Protocol) server** is a lightweight service that exposes
 Think of it as:
 
 ```
-External Service (Slack, DB, API)
+External Service (Tool, DB, API)
         │
         ▼
      MCP Server

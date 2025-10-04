@@ -192,7 +192,7 @@
   * [MCP](user-guide/integrations/mcp/README.md)
     * [How to Use MCP Servers in JetAdmin](user-guide/integrations/mcp/how-to-use-mcp-servers-in-jetadmin.md)
     * [Public vs Private MCP Servers](user-guide/integrations/mcp/public-vs-private-mcp-servers.md)
-    * [Using MCP Server Tools in JetAdmin (with Slack MCP via Smithery)](user-guide/integrations/mcp/using-mcp-server-tools-in-jetadmin-with-slack-mcp-via-smithery.md)
+    * [Using MCP Server Tools in JetAdmin (with Weather MCP via Smithery)](user-guide/integrations/mcp/using-mcp-server-tools-in-jetadmin-with-weather-mcp-via-smithery.md)
     * [Limitations & Best Practices](user-guide/integrations/mcp/limitations-and-best-practices.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
