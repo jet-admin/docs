@@ -321,6 +321,7 @@
   * [New UI & UX](user-guide/data/new-ui-and-ux.md)
   * [Relations View](user-guide/data/relations-view.md)
   * [Multi-Editing and Bulk Actions](user-guide/data/multi-editing-and-bulk-actions.md)
+  * [AI Fields](user-guide/data/ai-fields.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [API Builder](user-guide/data/api-builder/README.md)
