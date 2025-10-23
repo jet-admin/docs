@@ -318,6 +318,7 @@
   * [Global CSS & JS](user-guide/design-and-structure/global-css-and-js.md)
   * [Analytics or Live chats](user-guide/design-and-structure/analytics-or-live-chats.md)
 * [🧮 Data Editor](user-guide/data/README.md)
+  * [New UI & UX](user-guide/data/new-ui-and-ux.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [API Builder](user-guide/data/api-builder/README.md)
