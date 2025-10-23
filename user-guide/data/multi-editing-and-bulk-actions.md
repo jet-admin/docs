@@ -18,3 +18,10 @@ The new Data Editor allows you to manage multiple records using simple checkboxe
 6. **Deselect all:** Use the top checkbox in the header row to quickly select or deselect all visible records.
 
 {% @arcade/embed flowId="cJr3fo8pgUykLGqQTw0D" url="https://app.arcade.software/share/cJr3fo8pgUykLGqQTw0D" %}
+
+{% hint style="info" %}
+**Copy, Paste & Duplicate**\
+You can copy and paste data just like in a spreadsheet using Ctrl/Cmd + C and Ctrl/Cmd + V.\
+Drag the corner of a cell to fill values down quickly.\
+JetAdmin also checks data types when pasting, so invalid values are automatically prevented.
+{% endhint %}
