@@ -320,6 +320,7 @@
 * [🧮 Data Editor](user-guide/data/README.md)
   * [New UI & UX](user-guide/data/new-ui-and-ux.md)
   * [Relations View](user-guide/data/relations-view.md)
+  * [Multi-Editing and Bulk Actions](user-guide/data/multi-editing-and-bulk-actions.md)
   * [Syncing Schema and Data](user-guide/data/syncing-schema-and-data.md)
   * [Managing Columns](user-guide/data/managing-columns.md)
   * [API Builder](user-guide/data/api-builder/README.md)
