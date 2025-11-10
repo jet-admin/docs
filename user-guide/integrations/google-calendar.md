@@ -16,7 +16,7 @@ This allows you to query, view, and interact with calendar data just like any ot
 2. **Select Google Calendar:**\
    From the list of available resources, choose **Google Calendar**.
 3. **Name your resource (optional):**\
-   Enter a custom name for your connection — for example, _Team Calendar_ or _Marketing Schedule_.
+   Enter a custom name for your connection for example, _Team Calendar_ or _Marketing Schedule_.
 4. **Sign in to Google:**\
    A pop-up window will appear. Log in using your Google account and grant JetAdmin permission to access your calendars.
 5. **Choose your calendar:**\
