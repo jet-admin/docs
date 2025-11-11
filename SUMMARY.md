@@ -159,6 +159,7 @@
   * [Google Sheets](user-guide/integrations/google-sheets.md)
     * [Working with Data](user-guide/integrations/google-sheets/working-with-data.md)
   * [Google Calendar](user-guide/integrations/google-calendar.md)
+  * [Gmail](user-guide/integrations/gmail.md)
   * [Airtable](user-guide/integrations/airtable.md)
   * [MongoDB](user-guide/integrations/mongodb.md)
   * [Amazon Athena (AWS Athena)](user-guide/integrations/amazon-athena-aws-athena.md)
