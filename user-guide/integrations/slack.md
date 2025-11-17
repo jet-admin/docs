@@ -1,5 +1,6 @@
 ---
 description: Send data to Slack as a notification from a Jet app
+hidden: true
 ---
 
 # Slack

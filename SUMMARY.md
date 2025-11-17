@@ -183,6 +183,7 @@
   * [Zendesk](user-guide/integrations/zendesk.md)
   * [Salesforce](user-guide/integrations/salesforce.md)
   * [Slack](user-guide/integrations/slack.md)
+  * [Slack](user-guide/integrations/slack-1.md)
   * [Zapier](user-guide/integrations/zapier.md)
   * [Webflow](user-guide/integrations/webflow.md)
   * [Amazon S3 and S3 compatible storage](user-guide/integrations/amazon-s3.md)
