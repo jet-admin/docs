@@ -178,6 +178,7 @@
   * [SmartSuite](user-guide/integrations/smartsuite.md)
   * [Stripe](user-guide/integrations/stripe.md)
   * [Hubspot](user-guide/integrations/hubspot.md)
+  * [Asana](user-guide/integrations/asana.md)
   * [Intercom](user-guide/integrations/intercom.md)
   * [Zendesk](user-guide/integrations/zendesk.md)
   * [Salesforce](user-guide/integrations/salesforce.md)
