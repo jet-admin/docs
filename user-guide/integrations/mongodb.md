@@ -63,4 +63,4 @@ If you lost your password, you need to create a new one.
 | Connection String | URI that allows an application to connect to a MongoDB instance: `mongodb://<username>:<password>@<host>:<port>/<database>?<options>` |
 | Database Name     | The name of the database you would like to interact with                                                                              |
 
-\
+<br>

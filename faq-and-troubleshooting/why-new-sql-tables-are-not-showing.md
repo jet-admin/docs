@@ -12,4 +12,4 @@ Scroll down and click on "Choose Tables"
 
 You will see a list of your tables there. You’ll need to click on checkboxes of tables that you want to add and then click on "Update resource".
 
-\
+<br>

@@ -181,6 +181,7 @@
   * [Stripe](user-guide/integrations/stripe.md)
   * [Hubspot](user-guide/integrations/hubspot.md)
   * [Asana](user-guide/integrations/asana.md)
+  * [Zoom](user-guide/integrations/zoom.md)
   * [Intercom](user-guide/integrations/intercom.md)
   * [Zendesk](user-guide/integrations/zendesk.md)
   * [Salesforce](user-guide/integrations/salesforce.md)

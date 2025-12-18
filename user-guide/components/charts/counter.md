@@ -26,8 +26,7 @@ You can apply Filters to your value and stack them. For our example, let us filt
 
 <figure><img src="../../../.gitbook/assets/img2.png" alt=""><figcaption><p>Filtering by current year</p></figcaption></figure>
 
-\
-
+<br>
 
 <figure><img src="../../../.gitbook/assets/img3.png" alt=""><figcaption><p>Plain Single Value</p></figcaption></figure>
 
@@ -87,7 +86,6 @@ You can set up an action that will be executed when the value is clicked.
 
 Refer to [this page](../../design-and-structure/actions.md) on how to set up actions.
 
-\
-
+<br>
 
 [^1]: Something like this!

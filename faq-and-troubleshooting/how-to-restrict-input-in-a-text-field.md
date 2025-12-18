@@ -10,4 +10,4 @@ After you get your regular expression, you can input it in the validation field 
 
 <figure><img src="../.gitbook/assets/3st-c.png" alt=""><figcaption></figcaption></figure>
 
-You can also mention your field format in the custom validation error field for easier understanding.\
+You can also mention your field format in the custom validation error field for easier understanding.<br>

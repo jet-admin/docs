@@ -42,8 +42,7 @@ To do this, go to the Display section and scroll down to 'Group By'.
 <figure><img src="../../../../../.gitbook/assets/group by 2 (1).gif" alt=""><figcaption></figcaption></figure>
 
 Choose the field to group rows by, enter a label for each group, and pick a color to highlight the groups.\
-\
-
+<br>
 
 <figure><img src="../../../../../.gitbook/assets/group by 3 (1).gif" alt=""><figcaption></figcaption></figure>
 
@@ -77,19 +76,11 @@ For example, if we have data with different statuses (New, Started, Blocked, and
 
 First we need to choose a column to filter by then use the filter "one of"
 
-<div align="left">
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/909279041/17636c48766584c0229a5eba/image.png?expires=1702553288&#x26;signature=8351b93cdfcdd53a9acde96ecf6fe98b0b70a2ea06468ee38a09841af187d4be" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://downloads.intercomcdn.com/i/o/909279041/17636c48766584c0229a5eba/image.png?expires=1702553288&#x26;signature=8351b93cdfcdd53a9acde96ecf6fe98b0b70a2ea06468ee38a09841af187d4be" alt=""><figcaption></figcaption></figure></div>
 
 Then activate the formula
 
-<div align="left">
-
-<figure><img src="https://downloads.intercomcdn.com/i/o/909281433/b5b998cd50948133f02cdfe2/image.png?expires=1702553288&#x26;signature=8854516eab49a6add501ba1637873b7a05970b7ff1dc49705f91f106765cc96c" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://downloads.intercomcdn.com/i/o/909281433/b5b998cd50948133f02cdfe2/image.png?expires=1702553288&#x26;signature=8854516eab49a6add501ba1637873b7a05970b7ff1dc49705f91f106765cc96c" alt=""><figcaption></figcaption></figure></div>
 
 Then click on the **JavaScript** button, and  type the code below:
 

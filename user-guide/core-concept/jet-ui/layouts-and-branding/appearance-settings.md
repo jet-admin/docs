@@ -30,22 +30,13 @@ To set the Accent Color for your app, simply go to the Appearance section in the
 
 ## Change the App's URL
 
-The App name is the unique name of each application on Jetadmin. This feature allows you to change the app's unique name. \
+The App name is the unique name of each application on Jetadmin. This feature allows you to change the app's unique name. <br>
 
-
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 To change the app name, click on the URL box and rename your app with a unique name and click the "Change App URL" button.&#x20;
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Please note that old App URLs **will stop working.**

@@ -2,7 +2,7 @@
 description: Fields overview
 ---
 
-# Input Fields
+# Fields
 
 Fields are single record data obtained from your resources. By default, all fields from your resource will be rendered as a text, but you can switch to a more appropriate one.
 
@@ -32,6 +32,6 @@ You can get the value of the selected record in the component by configuring the
 
 More information about Additional Parameters in our documentation.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-MA3icbYzG8h73uN2xMD" %}
+[Broken link](/broken/pages/-MA3icbYzG8h73uN2xMD)
 {% endcontent-ref %}

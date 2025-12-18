@@ -10,4 +10,4 @@ Here are **a few examples** of how conditional visibility can be used:
 
 ### [Hiding a component using multiple conditions](https://docs.jetadmin.io/user-guide/components-visibility/conditional-visibility/examples/hiding-a-component-using-multiple-conditions)
 
-\
+<br>

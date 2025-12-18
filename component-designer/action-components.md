@@ -22,4 +22,4 @@ The settings for action components are the same as they are for the page compone
 [components](../user-guide/components/)
 {% endcontent-ref %}
 
-\
+<br>

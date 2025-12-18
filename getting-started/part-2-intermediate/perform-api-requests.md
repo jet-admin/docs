@@ -33,8 +33,7 @@ To transform the response, use the `Transform` feature to specify the result of 
 If you need pagination, simply navigate to the **Pagination** section and choose your preferred type — such as **Client-side** or **Server-side** (Page, Offset, or Cursor Pagination).
 
 * For **Client-side** pagination, filters, sorting, and pagination are applied automatically — no additional configuration needed.
-* For **Server-side** pagination, select the appropriate type (Page, Offset, or Cursor) and configure the necessary parameters based on your API’s structure. You can also use a transformer to adjust the response format if needed.\
-
+* For **Server-side** pagination, select the appropriate type (Page, Offset, or Cursor) and configure the necessary parameters based on your API’s structure. You can also use a transformer to adjust the response format if needed.<br>
 
 <figure><img src="../../.gitbook/assets/image (974).png" alt=""><figcaption></figcaption></figure>
 

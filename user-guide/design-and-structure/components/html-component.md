@@ -18,7 +18,6 @@ Customizing custom HTML components involves the strategic selection and effectiv
 
 **Using HTML Attributes with Tags:**
 
-In addition to parameters, HTML attributes like 'style' and others can be used alongside tags in HTML components. This allows for direct application of various attributes.\
-
+In addition to parameters, HTML attributes like 'style' and others can be used alongside tags in HTML components. This allows for direct application of various attributes.<br>
 
 {% @arcade/embed flowId="G19xxQ36ePAXpD6rsqEn" url="https://app.arcade.software/share/G19xxQ36ePAXpD6rsqEn" %}

@@ -52,8 +52,8 @@ To pass a value from one page to another, you need to use the Navigate to page a
 
 Page queries allow you to do queries from your page at once, and then use query results for all of the components on the page. In case, you use one Query for several components, Page Queries helps you to load it once and optimize the page loading.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/xHsJDAWL5HnJb2bh14C4" %}
+[Broken link](/broken/pages/xHsJDAWL5HnJb2bh14C4)
 {% endcontent-ref %}
 
 ## Load Data (Page Query)

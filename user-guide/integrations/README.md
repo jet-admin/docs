@@ -6,7 +6,7 @@ description: Introduction how to connect your resources
 
 Jet Admin connects a lot of resources you need to build your internal tools. A few of our integrations:
 
-* **Databases**: [PostgreSQL](broken-reference), [MySQL](broken-reference), [Microsoft SQL](broken-reference), [Oracle](broken-reference), [SQLite](broken-reference), [Firebase](firebase-firestore/)
+* **Databases**: [PostgreSQL](/broken/pages/-LzjXXIXBtK-tlT1Auh5), [MySQL](/broken/pages/-LzjXXIXBtK-tlT1Auh5), [Microsoft SQL](/broken/pages/-LzjXXIXBtK-tlT1Auh5), [Oracle](/broken/pages/-LzjXXIXBtK-tlT1Auh5), [SQLite](/broken/pages/-LzjXXIXBtK-tlT1Auh5), [Firebase](firebase-firestore/)
 * **Internal** [REST APIs](rest-api/) and [GraphQL](graphql.md)
 * **Business apps**: [Stripe](stripe.md), [SendGrid](sendgrid.md), [Zendesk](zendesk.md), etc
 * **Frameworks**: [Django](django-framework-package.md)
@@ -31,6 +31,6 @@ You can also add any resource directly from the component Data settings:
 
 
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-LzjXXIXBtK-tlT1Auh5" %}
+[Broken link](/broken/pages/-LzjXXIXBtK-tlT1Auh5)
 {% endcontent-ref %}

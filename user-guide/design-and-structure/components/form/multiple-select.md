@@ -19,7 +19,7 @@ Multiple-Select component can be used as a multi-select dropdown menu or auto-co
 The Auto-complete box style gives you the ability to allow adding values to the list. in case you need to chose an item and it is not in the list by default. \
 To achieve this, turn on the property 'Allow Adding Option' and in the runtime type the value you need to add, if not found, an option to add this value to the list will be shown.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/WGk4Cm7NhBMQfJV0z8u4" alt=""><figcaption></figcaption></figure>
 
 ## Filtering tables with Multiple Select
 

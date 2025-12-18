@@ -21,4 +21,4 @@ It is enabled by default and filled automatically, but if your Django already ha
 Alternatively, you can try to force "JET\_CORS\_HEADERS" to be set to True, but it can lead to strange effects, so we would advise trying it only as a last resort.
 
 \
-\
+<br>
