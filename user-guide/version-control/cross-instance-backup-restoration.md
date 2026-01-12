@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Cross-Instance Backup Restoration
 
 ### Overview

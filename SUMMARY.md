@@ -398,6 +398,7 @@
   * [Adding Language to Jet Admin](user-guide/localization/adding-language-to-jet-admin.md)
   * [End-user Localization](user-guide/localization/end-user-localization.md)
 * [🎚️ Version Control](user-guide/version-control/README.md)
+  * [Cross-Instance Backup & Restore](user-guide/version-control/cross-instance-backup-and-restore.md)
   * [Cross-Instance Backup Restoration](user-guide/version-control/cross-instance-backup-restoration.md)
 * [📖 Logs](user-guide/logs.md)
 * [🪂 Other Features](user-guide/project-settings/README.md)
