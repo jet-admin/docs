@@ -61,3 +61,13 @@ The link provided here is just an example. You need to copy your personalized pr
 * Proceed to create a new account, then create a project and add resources.
 
 {% embed url="https://www.loom.com/share/04a605f83cda438d9d63f72e59c7375c?sid=95cd8a8f-82bc-46e3-b27f-fa9d6de5125f" %}
+
+{% hint style="success" %}
+**Performance Optimization (Optional)**
+
+To improve runtime efficiency after your initial deployment, we recommend stopping additional JetAdmin migration containers once they have completed their tasks (typically within \~10 minutes post-deployment). On your on-premise server, run the following command to force-remove any residual migration containers:
+
+`sudo docker rm -f $(sudo docker ps -aq --filter "name=jet-onpremise-.*migrations_run")`
+
+This step helps free system resources and can enhance overall performance of your JetAdmin instance.
+{% endhint %}
