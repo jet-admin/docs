@@ -67,7 +67,7 @@ The link provided here is just an example. You need to copy your personalized pr
 
 To improve runtime efficiency after your initial deployment, we recommend stopping additional JetAdmin migration containers once they have completed their tasks (typically within \~10 minutes post-deployment). On your on-premise server, run the following command to force-remove any residual migration containers:
 
-`sudo docker rm -f $(sudo docker ps -aq --filter "name=jet-onpremise-.*migrations_run")`
+`sudo docker ps -aq --filter “name=migrations_run” | xargs -r sudo docker rm -f`
 
 This step helps free system resources and can enhance overall performance of your JetAdmin instance.
 {% endhint %}
