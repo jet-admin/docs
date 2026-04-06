@@ -121,6 +121,38 @@ server {
         proxy_buffers 8 128k;
         proxy_busy_buffers_size 128k;
     }
+server_name app.example.com;
+    ssl_certificate     /etc/nginx/ssl/example.com/tls.crt;
+    ssl_certificate_key /etc/nginx/ssl/example.com/tls.key;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    gzip on;
+    gzip_min_length 1000;
+    gzip_proxied any;
+    proxy_next_upstream error;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Scheme $scheme;
+    # WebSocket / connection endpoint
+    location /connection {
+        proxy_pass <http://jetadmin_centrifugo;>
+        proxy_http_version 1.1;
+        proxy_buffering off;
+        proxy_read_timeout 60s;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+    location / {
+        proxy_pass http://jetadmin_centrifugo;
+    }
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+        root /usr/share/nginx/html;
+    }
 }
 ```
 
@@ -150,3 +182,4 @@ If you would like to use certificates from "Let's Encrypt", you can refer to thi
 
 [Link](https://certbot.eff.org/instructions?ws=nginx\&os=ubuntufocal\&tab=wildcard): Let's Encrypt Certbot Instructions
 {% endhint %}
+
