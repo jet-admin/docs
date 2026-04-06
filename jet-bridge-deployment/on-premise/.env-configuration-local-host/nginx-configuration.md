@@ -121,9 +121,14 @@ server {
         proxy_buffers 8 128k;
         proxy_busy_buffers_size 128k;
     }
-server_name app.example.com;
-    ssl_certificate     /etc/nginx/ssl/example.com/tls.crt;
-    ssl_certificate_key /etc/nginx/ssl/example.com/tls.key;
+upstream jetadmin_centrifugo {
+        server 127.0.0.1:8002;
+    }
+server {
+    listen 8001 ssl http2;
+    server_name app.example.com;
+    ssl_certificate /etc/ssl/certs/example.com/tls.crt;     # Note: Replace example.com with your domain
+    ssl_certificate_key /etc/ssl/certs/example.com/tls.key;
     ssl_protocols TLSv1.2 TLSv1.3;
     include /etc/nginx/mime.types;
     default_type application/octet-stream;
@@ -139,7 +144,7 @@ server_name app.example.com;
     proxy_set_header X-Scheme $scheme;
     # WebSocket / connection endpoint
     location /connection {
-        proxy_pass <http://jetadmin_centrifugo;>
+        proxy_pass http://jetadmin_centrifugo;
         proxy_http_version 1.1;
         proxy_buffering off;
         proxy_read_timeout 60s;
