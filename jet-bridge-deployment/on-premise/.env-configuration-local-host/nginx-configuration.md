@@ -86,24 +86,20 @@ server {
     server_name _; 
     return 301 https://$host$request_uri;
 }
-
 server {
     listen 443 http2 ssl;
     ssl_certificate /etc/ssl/certs/example.com/tls.crt;     # Note: Replace example.com with your domain
     ssl_certificate_key /etc/ssl/certs/example.com/tls.key; # Note: Replace example.com with your domain
     server_name app.example.com api.example.com api-node.example.com data-sync.example.com workflows.example.com data.example.com flower.example.com jetbridge.example.com, ...;  #Your server names
-
     client_max_body_size 32m;
     add_header 'Strict-Transport-Security' 'max-age=0;';
     merge_slashes off;
     large_client_header_buffers 4 32k;
-
     location / {
         proxy_hide_header 'Access-Control-Allow-Origin';
         proxy_hide_header 'Access-Control-Allow-Methods';
         proxy_hide_header 'Access-Control-Allow-Headers';
         proxy_hide_header 'Access-Control-Expose-Headers';
-
         add_header 'Access-Control-Allow-Origin' '*' always;
         add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, PATCH, DELETE, OPTIONS';
         add_header 'Access-Control-Allow-Headers' 'Authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,X-HTTP-Method-Override,X-Bridge-Settings,X-Stick-Session';
@@ -111,7 +107,6 @@ server {
         add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range,Content-Disposition,Content-Type';
         add_header 'Strict-Transport-Security' 'max-age=0;';
         access_log off;
-
         proxy_pass http://127.0.0.1:8080;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header Host $host;
@@ -121,6 +116,27 @@ server {
         proxy_buffers 8 128k;
         proxy_busy_buffers_size 128k;
     }
+}
+```
+
+{% hint style="warning" %}
+Replace example.com with your domain
+{% endhint %}
+
+{% hint style="info" %}
+To check the configuration and reload the Nginx configuration, you can use the following commands:
+
+```
+nginx -t                   # Check configuration syntax
+nginx -s reload            # Reload Nginx configuration
+```
+{% endhint %}
+
+#### Exposing Centrifugo via NGINX (Secure WebSocket Proxy)
+
+This configuration below shows how to expose a local Centrifugo instance through NGINX using secure WebSocket (WSS) connections. It sets up a reverse proxy that forwards traffic from NGINX to Centrifugo running on `127.0.0.1:8002`. Make sure to update your environment configuration accordingly by setting `CENTRIFUGO_PORT=8002` in your `.env` file.
+
+```nginx
 upstream jetadmin_centrifugo {
         server 127.0.0.1:8002;
     }
@@ -163,15 +179,6 @@ server {
 
 {% hint style="warning" %}
 Replace example.com with your domain
-{% endhint %}
-
-{% hint style="info" %}
-To check the configuration and reload the Nginx configuration, you can use the following commands:
-
-```
-nginx -t                   # Check configuration syntax
-nginx -s reload            # Reload Nginx configuration
-```
 {% endhint %}
 
 ### **Verification**
