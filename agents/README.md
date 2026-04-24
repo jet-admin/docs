@@ -7,39 +7,92 @@ icon: message-bot
 
 # Agents
 
-An agent can:
+### What Are Agents?
 
-* Handle or delegate tasks based on reasoning from LLM.
-* Be triggered through chat, workflows, or directly from other agents.
-* Continuously evaluate and improve its own process (the "agentic loop").
+Agents in JetAdmin are AI components that can understand a task, decide what actions to take, and execute them using available tools. They don’t rely on fixed steps instead, they determine the best way to complete a task based on your instructions and context.
 
-With Agents, you can embed AI-driven decision-making directly into your apps, workflows, and automations.
+### Key Characteristics
 
-### Accessing Agents
+* **Decision-based**: choose actions instead of following fixed logic
+* **Action-oriented**: use tools, workflows, and data to get things done
+* **Interactive**: can be triggered through chat or other inputs
+* **Contextual:** use instructions and past input to guide behavior
 
-You can set up and access agents in several ways:
+### Creating Your First Agent
 
-* **From Triggers**: Choose _Agent_ as an action when configuring triggers.
+{% stepper %}
+{% step %}
+#### Add an Agent
 
-{% @arcade/embed flowId="qM5YHy90gQHp6vJewhG5" url="https://app.arcade.software/share/qM5YHy90gQHp6vJewhG5" %}
+Add an agent to your app in JetAdmin using one of the following:
 
-* **Search**: Type “Agent Chat” in the component search box and drag it into your page.
+* Add it as a **component** from the components panel
+* Create it inside a **workflow** using a trigger or step
+* Use the **Agents section** from the left sidebar
 
-{% @arcade/embed flowId="dzyDUvcYhYQSoDLzku7K" url="https://app.arcade.software/share/dzyDUvcYhYQSoDLzku7K" %}
+{% content-ref url="add-an-agent.md" %}
+[add-an-agent.md](add-an-agent.md)
+{% endcontent-ref %}
+{% endstep %}
 
-* **Left Menu**: In the left-hand menu, click the Agents icon and then select Add Agent.
+{% step %}
+#### Add Tools
 
-{% @arcade/embed flowId="2pdlEYxOU9QEVjbWVItM" url="https://app.arcade.software/share/2pdlEYxOU9QEVjbWVItM" %}
+Connect the tools your agent will use to perform actions.
+
+This can include:
+
+* **Data sources** (e.g. Airtable, Supabase, internal tables)
+* **Integrations** (e.g. APIs, external services)
+{% endstep %}
+
+{% step %}
+#### Write Instructions
+
+Define how the agent should behave and what it should do. Keep instructions clear and specific to get better results.
+
+Example (Data Manager Agent):
+
+```
+You're a data management assistant responsible for working with application data.
+
+Your responsibilities:
+1. Retrieve and display data based on user requests
+2. Create new records when instructed
+3. Update existing records with clear confirmation
+4. Delete records only after explicit user approval
+5. Analyze data and provide insights when requested
+
+Guidelines:
+- Always confirm before making changes that affect data
+- Ensure accuracy when reading or modifying records
+- Clearly explain any updates or actions performed
+- If the request is unclear or incomplete, ask for clarification
+```
+{% endstep %}
+
+{% step %}
+#### Test Thoroughly
+
+Run the agent with different inputs to make sure it:
+
+* Understands the task
+* Uses the correct tools
+* Produces reliable results
+{% endstep %}
+{% endstepper %}
+
+### How Agents Work
+
+Agents in JetAdmin combine instructions, tools, and built-in decision logic to figure out the best way to complete a task, one step at a time.
+
+{% @arcade/embed flowId="shdqfKBJ6wLtfV5WnaLm" url="https://app.arcade.software/share/shdqfKBJ6wLtfV5WnaLm" %}
 
 {% hint style="info" %}
-### When to Use Agents
+### Agents vs Workflows
 
-Agents are useful when you need more than simple automation rules. They are best for:
+* **Agents:** dynamic, decide the next step
+* **Workflows:** predefined, execute fixed steps
 
-* **Complex workflows** where steps depend on reasoning or context.
-* **Customer-facing chatbots** that can pull data from multiple sources.
-* **Task delegation** when actions may involve multiple systems or tools.
-* **Dynamic decisions** that go beyond pre-defined logic.
-
-If your task is straightforward and always follows the same pattern, a regular workflow or automation may be enough. If it requires flexibility and decision-making, an agent is the better choice.
+Agents can use workflows when structured execution is needed.
 {% endhint %}

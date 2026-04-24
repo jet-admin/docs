@@ -102,10 +102,20 @@
 
 ***
 
+* [Token Usage](token-usage.md)
 * [Agents](agents/README.md)
-  * [The Agent Interface](agents/the-agent-interface.md)
-  * [Running Agents](agents/running-agents.md)
-  * [How Agents Work](agents/how-agents-work.md)
+  * [Add an Agent](agents/add-an-agent.md)
+  * [Agent Tools](agents/agent-tools.md)
+  * [Agent Instructions](agents/agent-instructions.md)
+  * [Library](agents/library.md)
+  * [AI Models](agents/ai-models.md)
+  * [Workflows with Agents](agents/workflows-with-agents.md)
+  * [Using Agents in External Tools (Slack,Telegram,...)](agents/using-agents-in-external-tools-slack-telegram-....md)
+  * [Agent Templates](agents/agent-templates.md)
+* [Agents](agents-1/README.md)
+  * [The Agent Interface](agents-1/the-agent-interface.md)
+  * [Running Agents](agents-1/running-agents.md)
+  * [How Agents Work](agents-1/how-agents-work.md)
 * [Ask AI](ask-ai.md)
 * [Generate Formulas and JavaScript with AI](generate-formulas-and-javascript-with-ai.md)
 * [AI Custom Components](ai-custom-components/README.md)
