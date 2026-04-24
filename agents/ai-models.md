@@ -8,14 +8,7 @@ description: >-
 
 #### Available Models
 
-| **Anthropic (Claude)** | **OpenAI**     | **Google (Gemini)** | **Self-hosted** |
-| ---------------------- | -------------- | ------------------- | --------------- |
-| Claude 4.6 Opus        | GPT 5.x (full) | Gemini 3.1 Pro      | Llama           |
-| Claude 4.5 Opus        | GPT 4.x (full) | Gemini 2.5 Pro      | Mistral         |
-| Claude 4.1 Opus        | GPT Mini       | Gemini 3.1 Flash    | Qwen            |
-| Claude 4.5 Sonnet      | GPT Nano       | Gemini 2.5 Flash    | DeepSeek        |
-| Claude 4 Sonnet        | Codex          |                     |                 |
-| Claude 4.5 Haiku       |                |                     |                 |
+<table data-header-hidden data-full-width="false"><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Anthropic (Claude)</strong></td><td><strong>OpenAI</strong></td><td><strong>Google (Gemini)</strong></td><td><strong>Self-hosted</strong></td></tr><tr><td>Claude 4.6 Opus</td><td>GPT 5.x (full)</td><td>Gemini 3.1 Pro</td><td>Llama</td></tr><tr><td>Claude 4.5 Opus</td><td>GPT 4.x (full)</td><td>Gemini 2.5 Pro</td><td>Mistral</td></tr><tr><td>Claude 4.1 Opus</td><td>GPT Mini</td><td>Gemini 3.1 Flash</td><td>Qwen</td></tr><tr><td>Claude 4.5 Sonnet</td><td>GPT Nano</td><td>Gemini 2.5 Flash</td><td>DeepSeek</td></tr><tr><td>Claude 4 Sonnet</td><td>Codex</td><td></td><td></td></tr><tr><td>Claude 4.5 Haiku</td><td></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 #### Understanding Model Trade-offs
@@ -24,7 +17,7 @@ Faster models are more cost-efficient and ideal for simple, high-volume tasks.\
 More advanced models provide better reasoning, accuracy, and context handling, but consume more credits.
 {% endhint %}
 
-{% tabs fullWidth="true" %}
+{% tabs fullWidth="false" %}
 {% tab title="Budget Models" %}
 Best for fast responses and high-volume, low-cost tasks.
 
