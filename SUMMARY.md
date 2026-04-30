@@ -470,6 +470,8 @@
     * [Custom Domain Configuration on-premise](jet-bridge-deployment/on-premise/.env-configuration-local-host/custom-domain-configuration-on-premise.md)
     * [Email Sending Configuration](jet-bridge-deployment/on-premise/.env-configuration-local-host/email-sending-configuration.md)
     * [Nginx Configuration](jet-bridge-deployment/on-premise/.env-configuration-local-host/nginx-configuration.md)
+    * [Enabling AI Features in On-Premises](jet-bridge-deployment/on-premise/.env-configuration-local-host/enabling-ai-features-in-on-premises.md)
+    * [External Integrations for AI Agents (On-Premises)](jet-bridge-deployment/on-premise/.env-configuration-local-host/external-integrations-for-ai-agents-on-premises.md)
   * [Service Health Check](jet-bridge-deployment/on-premise/service-health-check.md)
   * [Common Problems](jet-bridge-deployment/on-premise/common-problems.md)
   * [Superuser access](jet-bridge-deployment/on-premise/superuser-access.md)
