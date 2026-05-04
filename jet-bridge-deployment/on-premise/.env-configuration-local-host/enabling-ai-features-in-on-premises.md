@@ -6,7 +6,7 @@ description: >-
 
 # Enabling AI Features in On-Premises
 
-AI assistant functionality is not enabled by default in on-premises deployments. To use AI-powered features, you must manually add and configure environment variables in your env file.
+AI assistant functionality is not enabled by default in on-premises deployments. To use AI-powered features, you must configure environment variables in your env file.
 
 ### **Requirements**
 
@@ -22,7 +22,7 @@ Add the following variables to your environment configuration:
 
 ```dotenv
 #------------------------------------------------------------------------------
-# AI parameters (must be added manually)
+# AI parameters (must be configured)
 #------------------------------------------------------------------------------
 ASSISTANTS_ENABLED=1
 OPENAI_API_KEY=your_openai_api_key
