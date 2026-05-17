@@ -114,6 +114,7 @@
     * [Using Agents in Slack](agents/using-agents-in-external-tools/using-agents-in-slack.md)
     * [Using Agents in Telegram](agents/using-agents-in-external-tools/using-agents-in-telegram.md)
     * [Using Agents with Email](agents/using-agents-in-external-tools/using-agents-with-email.md)
+    * [Using Agents with MCP Clients](agents/using-agents-in-external-tools/using-agents-with-mcp-clients.md)
   * [Agent Templates](agents/agent-templates.md)
 * [Agents](agents-1/README.md)
   * [The Agent Interface](agents-1/the-agent-interface.md)
