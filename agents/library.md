@@ -27,6 +27,35 @@ Uploading files is simple:
 
 <figure><img src="../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
+### Importing Websites
+
+You can also import website content into the Library.
+
+1.  Click _Upload or Import_ button<br>
+
+    <figure><img src="../.gitbook/assets/image (1008).png" alt=""><figcaption></figcaption></figure>
+2. Select Import Website
+3. Enter the website URL
+4. Configure periodic sync settings (optional)
+5. Click Import Website
+
+<figure><img src="../.gitbook/assets/image (1009).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+#### Advanced Settings
+
+Advanced settings allow you to control website crawling:
+
+* **Pages limit:** Maximum number of pages to crawl
+* **Crawl depth:** Maximum crawl depth
+* **Include paths:** Crawl only selected paths
+* **Exclude paths:** Ignore selected paths
+{% endhint %}
+
+> **When to Use Website Import**
+>
+> Website import is useful when your documentation, help center, knowledge base, or public content is already available online and should stay automatically updated for your agents.
+
 ### Using Library with Agents
 
 Libraries can be connected to agents to provide additional context and knowledge.
