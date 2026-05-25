@@ -23,13 +23,13 @@ This serves as the base of your request before adding headers or parameters.
 
 The **Ask AI** feature makes it even easier to set up your API integration. Instead of manually entering every parameter, you can simply paste your endpoint and provide any necessary details, such as authentication tokens or request type. AI will automatically configure the request for you by placing parameters, headers, body content, and other details in the correct sections. You can also use AI later to adjust or update your request whenever requirements change.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (11).png" alt=""><figcaption></figcaption></figure>
 
 ### Parameters, Headers, and Tokens
 
 Add query parameters under **Query Params** to filter or refine results. Use the **Headers** tab for authentication or custom headers, such as `Authorization` or `Content-Type`. Tokens and placeholders (e.g., `{{token}}`) are supported for secure, dynamic requests.
 
-<figure><img src="../../../.gitbook/assets/image (1) (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Transforming the Response
 
@@ -39,7 +39,7 @@ The **Transform** feature lets you reshape the API response before using it. You
 If you’re unsure how to write the transformation logic, you can ask AI to generate JavaScript snippets that achieve the desired output. This ensures that your data is always returned in the exact structure you need.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (11).png" alt=""><figcaption></figcaption></figure>
 
 ### Pagination, Filtering, and Sorting
 

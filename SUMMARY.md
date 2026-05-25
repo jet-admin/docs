@@ -106,6 +106,8 @@
 * [Agents](agents/README.md)
   * [Add an Agent](agents/add-an-agent.md)
   * [Agent Tools](agents/agent-tools.md)
+  * [Agent Skills](agents/agent-skills.md)
+  * [Agent Files](agents/agent-files.md)
   * [Agent Instructions](agents/agent-instructions.md)
   * [Library](agents/library.md)
   * [AI Models](agents/ai-models.md)
