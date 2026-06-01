@@ -35,15 +35,17 @@ You can perform the following actions on generated files:
 
 ### Supported File Types
 
-| File Type        |
-| ---------------- |
-| `.csv`           |
-| `.pdf`           |
-| `.doc` / `.docx` |
-| `.xlsx` / `.xls` |
-| `.json`          |
-| `.txt`           |
-| `.html`          |
+| File Type                                                                   |
+| --------------------------------------------------------------------------- |
+| `.csv`                                                                      |
+| `.pdf`                                                                      |
+| `.doc` / `.docx`                                                            |
+| `.xlsx` / `.xls`                                                            |
+| `.json`                                                                     |
+| `.txt`                                                                      |
+| `.html`                                                                     |
+| Markdown (`.md`)                                                            |
+| Source code files (`.py`, `.js`, `.ts`, `.java`, `.c`, `.cpp`, `.cs`, etc.) |
 
 > **File Storage**
 >
