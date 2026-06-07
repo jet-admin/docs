@@ -108,6 +108,7 @@
   * [Agent Tools](agents/agent-tools.md)
   * [Agent Skills](agents/agent-skills.md)
   * [Agent Files](agents/agent-files.md)
+  * [Agent Automatic Tasks](agents/agent-automatic-tasks.md)
   * [Agent Instructions](agents/agent-instructions.md)
   * [Library](agents/library.md)
   * [AI Models](agents/ai-models.md)
