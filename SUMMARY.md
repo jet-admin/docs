@@ -472,6 +472,8 @@
   * [Configuration](jet-bridge-deployment/jet-admin/configuration.md)
 * [🖥️ On-premise](jet-bridge-deployment/on-premise/README.md)
   * [Deploy On-Premise Jet Admin with Docker](jet-bridge-deployment/on-premise/deploy-on-premise-jet-admin-with-docker.md)
+  * [On-Premise Deployment](jet-bridge-deployment/on-premise/on-premise-deployment/README.md)
+    * [Deploy JetAdmin On-Premise](jet-bridge-deployment/on-premise/on-premise-deployment/deploy-jetadmin-on-premise.md)
   * [Update](jet-bridge-deployment/on-premise/update.md)
   * [.env configuration (local host)](jet-bridge-deployment/on-premise/.env-configuration-local-host/README.md)
     * [Custom Domain Configuration on-premise](jet-bridge-deployment/on-premise/.env-configuration-local-host/custom-domain-configuration-on-premise.md)
