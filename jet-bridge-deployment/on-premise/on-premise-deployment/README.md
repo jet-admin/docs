@@ -1,5 +1,7 @@
 ---
-description: Learn how to deploy an instance of On-Premise Jet Admin using Docker-compose.
+description: >-
+  Deploy JetAdmin On-Premise on your own infrastructure using the automated
+  installation script.
 hidden: true
 ---
 
@@ -12,21 +14,41 @@ This deployment method grants you access to the full suite of Jet Admin services
 * Command-line experience
 * Experience with and setups involving Docker Engine and Docker Compose are required.
 
+#### Supported Operating Systems
+
+JetAdmin On-Premise supports the following operating systems:
+
+* Ubuntu 22.04+
+* Debian 13+
+* CentOS Stream 9+
+* RHEL 10+
+
 ### Server Requirements
 
-* Ubuntu 22.04 LTS (recommended)
 * Minimum 4 CPU
 * Minimum 8 GB RAM
 * 50 GB available storage
-* Public IPv4 address
+* Public IP address (required for HTTPS deployments)
 
-### Domain Requirements
+#### Connect to Your Server
 
-Before starting deployment:
+Before running the installation commands, connect to your server using SSH.
+
+Example:
+
+```bash
+ssh username@your-server-ip
+```
+
+If you are running JetAdmin on your local machine, open a terminal application and run the commands locally.
+
+#### Domain Requirements (HTTPS Deployments Only)
+
+If you plan to deploy JetAdmin with HTTPS:
 
 * Own a domain name
+* Have access to your DNS provider
 * Be able to create DNS records
-* Access to your DNS provider
 
 Examples:
 

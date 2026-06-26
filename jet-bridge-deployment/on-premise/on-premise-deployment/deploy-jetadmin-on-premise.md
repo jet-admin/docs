@@ -30,7 +30,7 @@ The installation script automatically downloads the required deployment files, c
 
 After running the command, you will be asked to confirm the installation location.
 
-### <mark style="color:$danger;">step 1 and step 2 video</mark>
+<mark style="color:$danger;">step 1 and step 2 video</mark>
 
 ## Step 3: Choose Deployment Mode
 
@@ -44,11 +44,45 @@ What would you like to do next?
 3. Exit
 ```
 
-For production deployments, choose: **2**
+## Deployment Scenarios
 
-<figure><img src="../../../.gitbook/assets/image (1011).png" alt=""><figcaption></figcaption></figure>
+Choose the deployment option that best fits your environment.
 
-## Step 4: Select an SSL Certificate Option
+### Scenario 1: Localhost Deployment (HTTP)
+
+Choose:
+
+```
+1. Start JetAdmin now (localhost only)
+```
+
+This option is recommended for:
+
+* Local development
+* Testing
+* Proof-of-concept environments
+
+The installer will start all required services locally.
+
+Once deployment is complete, open:
+
+```
+http://localhost
+```
+
+or the URL displayed by the installer.
+
+&#x20;<mark style="color:$danger;">Video: Localhost deployment</mark>
+
+### Scenario 2: Production Deployment (HTTPS + Custom Domain)
+
+Choose:
+
+```
+2. Setup custom domain + HTTPS
+```
+
+#### Select an SSL Certificate Option
 
 Choose how JetAdmin should configure HTTPS:
 
@@ -66,7 +100,7 @@ Port 80 must be publicly accessible for Let's Encrypt validation.
 
 <figure><img src="../../../.gitbook/assets/image (1012).png" alt=""><figcaption></figcaption></figure>
 
-## Step 5: Configure Your Domain
+#### Configure Your Domain
 
 Provide the required domain information:
 
@@ -91,7 +125,7 @@ Services include:
 * JetBridge
 * Flower
 
-## Step 6: Create DNS Records
+#### Create DNS Records
 
 The installer will display the required DNS records.
 
@@ -103,13 +137,15 @@ A wildcard DNS record is recommended:
 
 This allows all JetAdmin services to resolve automatically.
 
-{% hint style="info" %}
-If your DNS provider does not support wildcard records, create the individual DNS records displayed by the installer.
-{% endhint %}
+**Note:** If your DNS provider does not support wildcard records, create individual records.
+
+Example:
+
+<table data-header-hidden data-search="false"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Type</td><td>Host</td><td>Value</td></tr><tr><td>A</td><td>app.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>api.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>ide.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>data-sync.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>workflows.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>data.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>jetbridge.example.com</td><td>Your Server IP</td></tr><tr><td>A</td><td>flower.example.com</td><td>Your Server IP</td></tr></tbody></table>
 
 After creating the records, confirm the DNS configuration when prompted.
 
-## Step 7: Access JetAdmin
+#### Access JetAdmin
 
 After DNS validation, JetAdmin automatically completes the deployment by:
 
