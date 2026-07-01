@@ -1,5 +1,6 @@
 ---
 description: Learn how to deploy an instance of On-Premise Jet Admin using Docker-compose.
+hidden: true
 ---
 
 # Deploy On-Premise Jet Admin with Docker

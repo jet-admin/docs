@@ -1,13 +1,12 @@
 ---
 description: >-
-  Deploy JetAdmin On-Premise on your own infrastructure using the automated
-  installation script.
-hidden: true
+  Verify your server, operating system, network, and software requirements
+  before deploying JetAdmin On-Premise.
 ---
 
-# On-Premise Deployment
+# Prerequisites
 
-This deployment method grants you access to the full suite of Jet Admin services, empowering your workflow with comprehensive functionality.
+Review and complete the following requirements before starting the JetAdmin On-Premise installation.
 
 ## Requirements
 
@@ -68,7 +67,6 @@ sh <(curl -s https://get.docker.com)
 Install Docker Compose:
 
 ```bash
-
 sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
@@ -100,3 +98,5 @@ docker --version
 docker-compose --version
 nginx -v
 ```
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (1013).png" alt=""><figcaption></figcaption></figure></div>

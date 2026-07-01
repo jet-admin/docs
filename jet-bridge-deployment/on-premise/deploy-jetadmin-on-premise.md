@@ -30,7 +30,7 @@ The installation script automatically downloads the required deployment files, c
 
 After running the command, you will be asked to confirm the installation location.
 
-<mark style="color:$danger;">step 1 and step 2 video</mark>
+{% embed url="https://www.loom.com/share/2e07412b2a434751a4506ee6c0d20e50" %}
 
 ## Step 3: Choose Deployment Mode
 
@@ -72,7 +72,9 @@ http://localhost
 
 or the URL displayed by the installer.
 
-&#x20;<mark style="color:$danger;">Video: Localhost deployment</mark>
+&#x20;
+
+{% embed url="https://www.loom.com/share/9f661462bea84bb89fe976ee6479952f" %}
 
 ### Scenario 2: Production Deployment (HTTPS + Custom Domain)
 
@@ -97,8 +99,6 @@ For this guide, select: **1**
 {% hint style="warning" %}
 Port 80 must be publicly accessible for Let's Encrypt validation.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (1012).png" alt=""><figcaption></figcaption></figure>
 
 #### Configure Your Domain
 
@@ -155,13 +155,17 @@ After DNS validation, JetAdmin automatically completes the deployment by:
 * Starting services
 * Running database migrations
 
-{% hint style="success" %}
-Installation time depends on your server resources and internet connection.
+{% embed url="https://www.loom.com/share/78fa75b9892b4c8c8336823667793718" %}
 
-Once deployment is complete, the **URL** will be displayed in the terminal.
+### Verify Your Deployment
 
-Open the URL in your browser and create your first user account to start using JetAdmin.
-{% endhint %}
+Once the installation is complete, open a web browser and navigate to:
 
-<mark style="color:$danger;">Video about success and opening in new browser tab. or one video with whole steps?</mark>
+* `http://localhost:80` for localhost deployments, or
+* Your configured custom domain for HTTPS deployments.
 
+If the JetAdmin sign-up page loads successfully, the deployment has completed successfully.
+
+Create a new account, then create your first project and add resources to start building with JetAdmin.
+
+{% embed url="https://www.loom.com/share/5fdf131989f74de5b68f3284884af6e9" %}
