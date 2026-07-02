@@ -154,6 +154,7 @@ After DNS validation, JetAdmin automatically completes the deployment by:
 * Creating containers
 * Starting services
 * Running database migrations
+* Adding a cron job to renew the Let’s Encrypt certificate
 
 {% embed url="https://www.loom.com/share/78fa75b9892b4c8c8336823667793718" %}
 
@@ -162,7 +163,7 @@ After DNS validation, JetAdmin automatically completes the deployment by:
 Once the installation is complete, open a web browser and navigate to:
 
 * `http://localhost:80` for localhost deployments, or
-* Your configured custom domain for HTTPS deployments.
+* [app.example.com](http://app.example.com) for a custom domain when deploying with HTTPS.
 
 If the JetAdmin sign-up page loads successfully, the deployment has completed successfully.
 
