@@ -47,3 +47,13 @@ docker-compose up -d
 ```
 
 {% embed url="https://www.loom.com/share/9c1dc9bc867e4e83b64f149cafd708ee?sid=e4e18af9-78ad-442f-b79e-341e69818e79" %}
+
+{% hint style="success" %}
+**Performance Optimization (Optional)**
+
+To improve runtime efficiency after your initial deployment, we recommend stopping additional JetAdmin migration containers once they have completed their tasks (typically within \~10 minutes post-deployment). On your on-premise server, run the following command to force-remove any residual migration containers:
+
+`sudo docker ps -aq --filter "name=migrations_run" | xargs -r sudo docker rm -f`
+
+This step helps free system resources and can enhance overall performance of your JetAdmin instance.
+{% endhint %}
