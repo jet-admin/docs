@@ -3,6 +3,7 @@ description: >-
   This guide should help you set up and configure Nginx, customize the server
   block to match your requirements, and update your application's .env file to
   reflect the changes.
+hidden: true
 ---
 
 # Nginx Configuration

@@ -2,6 +2,7 @@
 description: >-
   Configuring the domain in the environment (.env) file is crucial for setting
   up custom domains for various services.
+hidden: true
 ---
 
 # Custom Domain Configuration on-premise
