@@ -219,6 +219,7 @@
     * [Public vs Private MCP Servers](user-guide/integrations/mcp/public-vs-private-mcp-servers.md)
     * [Using MCP Server Tools in JetAdmin (with Weather MCP via Smithery)](user-guide/integrations/mcp/using-mcp-server-tools-in-jetadmin-with-weather-mcp-via-smithery.md)
     * [Limitations & Best Practices](user-guide/integrations/mcp/limitations-and-best-practices.md)
+  * [Apify](user-guide/integrations/apify.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
   * [Extract & Pass Values](user-guide/parameters/README.md)
