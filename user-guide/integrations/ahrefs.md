@@ -9,7 +9,7 @@ description: >-
 
 Ahrefs is an SEO platform that provides comprehensive data about websites, backlinks, keywords, rankings, and search visibility. By connecting Ahrefs to JetAdmin, you can access this data directly from AI Agents and workflows to automate SEO analysis, competitor research, and content planning.
 
-## Connecting Ahrefs
+### Connecting Ahrefs
 
 To connect your Ahrefs account:
 
@@ -24,7 +24,7 @@ To connect your Ahrefs account:
 Once connected, the Ahrefs resource becomes available anywhere JetAdmin supports data resources.
 {% endhint %}
 
-## What can it do?
+### What can it do?
 
 The Ahrefs integration gives JetAdmin access to your Ahrefs account and SEO data.
 
@@ -38,7 +38,7 @@ From JetAdmin, you can:
 * Explore Brand Radar insights
 * Use SEO data inside AI Agents and workflows
 
-## Where to use it?
+### Where to use it?
 
 Ahrefs is most useful whenever your application or AI Agent needs SEO insights, website analytics, or competitive intelligence.
 
@@ -61,7 +61,7 @@ Typical business use cases include:
 * Website health monitoring
 * Brand visibility analysis
 
-## Available tools (Actions)
+### Available tools (Actions)
 
 Ahrefs provides **130+ actions** across several SEO products.
 
@@ -74,7 +74,7 @@ Ahrefs provides **130+ actions** across several SEO products.
 | **Brand Radar**       | Analyze AI chatbot mentions, brand visibility, cited domains, impressions, share of voice, and historical trends.                    |
 | **Batch Analysis**    | Analyze multiple domains or URLs in a single request.                                                                                |
 
-## Example prompts for AI Agents
+### Example prompts for AI Agents
 
 #### Analyze a website
 
@@ -112,7 +112,7 @@ Retrieve the latest Site Audit results and summarize the highest priority SEO is
 Use Brand Radar to show how often our brand appears in AI chatbot responses and compare it with our competitors.
 ```
 
-## Example
+### Example
 
 This example demonstrates how an AI Agent can analyze a website with Ahrefs and generate an SEO report.
 

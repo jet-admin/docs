@@ -221,6 +221,7 @@
     * [Limitations & Best Practices](user-guide/integrations/mcp/limitations-and-best-practices.md)
   * [Apify](user-guide/integrations/apify.md)
   * [Ahrefs](user-guide/integrations/ahrefs.md)
+  * [Apollo](user-guide/integrations/apollo.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
   * [Extract & Pass Values](user-guide/parameters/README.md)
