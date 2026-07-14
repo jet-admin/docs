@@ -223,6 +223,7 @@
   * [Ahrefs](user-guide/integrations/ahrefs.md)
   * [Apollo](user-guide/integrations/apollo.md)
   * [Brandfetch](user-guide/integrations/brandfetch.md)
+  * [Confluence](user-guide/integrations/confluence.md)
 * [🔗 Binding & Values](user-guide/binding-and-values/README.md)
   * [Binding Components](user-guide/parameters/overview.md)
   * [Extract & Pass Values](user-guide/parameters/README.md)
