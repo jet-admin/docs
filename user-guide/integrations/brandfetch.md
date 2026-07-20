@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Brandfetch
 
 Brandfetch is a brand asset platform that provides access to company logos, colors, fonts, images, and brand information. By connecting Brandfetch to JetAdmin, you can automatically retrieve branding assets and company details for use in AI Agents, workflows, and internal applications.
@@ -15,7 +11,7 @@ To connect your Brandfetch account:
 3. Select **Brandfetch** from the list of available resources.
 4. Authenticate your Brandfetch account.
 
-arcade
+{% @arcade/embed flowId="KM3oMulzAv3M8BigGvbI" url="https://app.arcade.software/share/KM3oMulzAv3M8BigGvbI" %}
 
 {% hint style="info" %}
 Once connected, the Brandfetch resource becomes available anywhere JetAdmin supports external resources.
@@ -107,3 +103,4 @@ Fetch the primary logo as a Base64 asset for Canva so it can be embedded directl
 
 This example demonstrates how an AI Agent can search for a company, retrieve its branding assets, and use the information to enrich a CRM record.
 
+{% @arcade/embed flowId="rYxEArcBkLniH5VazFIT" url="https://app.arcade.software/share/rYxEArcBkLniH5VazFIT" %}
