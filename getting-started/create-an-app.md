@@ -2,6 +2,7 @@
 description: >-
   Create your first Jet Admin app, connect data, build with AI, configure
   access, and test before sharing.
+icon: cube
 ---
 
 # Create an app
