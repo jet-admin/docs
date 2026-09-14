@@ -6,40 +6,50 @@ description: >-
 
 # 💠 Synced tables
 
+Bring a table from another database into Jet Databases and keep it up to date automatically. The original database remains the source of truth, so you can reuse its data across Jet Databases without maintaining separate copies by hand.
+
 {% embed url="https://www.youtube.com/watch?v=l1jrrwlj0eU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=25&ab_channel=JetAdmin" %}
 
-360 Data allows you to connect and sync more than 30 data sources to your Jet app. Jet syncs your data sources to Jet Tables which allows you to join(merge) data and write **SQL with non-SQL** data sources.&#x20;
+## How synced tables work
 
-You can even layer the above capabilities to transform your data the way you want regardless of where it comes from.
+A **sync connection** brings data from a supported source into Jet Databases. Jet Admin refreshes the synced data from the source, and your app uses that data to display records and run queries.
+
+A **direct connection** accesses the source directly. To join data through synced tables, connect each source using a sync connection.
 
 {% hint style="info" %}
-**All the data sources** you want to be able to blend from have to be connected through the 'Sync connection.' However, it's important to note that not all resources are sync able. For instance, SQL products like MySQL and PostgreSQL are not sync able, which means they can't be blended.
+Sync connections are available for a limited number of integrations. Check the connection options for your data source. If sync is unavailable, contact support to request it.
 {% endhint %}
 
-## Sync Connection
+## Connect a source
 
-While connecting a data source, you'll be prompted to choose the type of connection, there could be a **direct connection** or a **sync connection.**
+When adding a supported data source, choose **Sync connection**. Follow the setup guide to connect the source and sync its structure.
 
 {% content-ref url="360-data-data-blending/sync-connection.md" %}
 [sync-connection.md](360-data-data-blending/sync-connection.md)
 {% endcontent-ref %}
 
-## Blending the data
+## Keep tables up to date
 
-To demonstrate how the data blending works, we'll use two data sources: Airtable and Google Sheets, where the former contains the `Order` table and the latter - the `Customers` table. Notice that the `Customer ID` column in the `Orders` table refers to the `ID` in the `Customers` table.
+Updates from the source arrive on the external sync schedule. Updates between Jet Databases and the app interface happen in real time.
+
+Open **Sync options** from the three-dot menu on your data source page to check the sync status and last sync time. You can pause syncing, run **Sync now**, and view sync events.
+
+To change the external sync interval, contact Jet Admin support.
+
+{% content-ref url="360-data-data-blending/sync-options.md" %}
+[sync-options.md](360-data-data-blending/sync-options.md)
+{% endcontent-ref %}
+
+## Join data from synced tables
+
+Once your sources are synced, you can combine their data using SQL, including data from supported non-SQL sources. Create a **Virtual Collection** to define the query and use its results in your app.
+
+For example, sync an `Orders` table from Airtable and a `Customers` table from Google Sheets. Join `Orders.Customer ID` to `Customers.ID` to display each order alongside the customer’s name and country.
 
 {% content-ref url="360-data-data-blending/blending-the-data.md" %}
 [blending-the-data.md](360-data-data-blending/blending-the-data.md)
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-When blending data sources, it's essential to understand that the process involves creating virtual tables rather than directly syncing the data. This means that we can only perform select operations on the blended data. While it provides flexibility in accessing and analyzing data from different sources, it's important to keep in mind that any modifications or updates made through blending are not reflected back to the original sources.
+A Virtual Collection is a read-only query result. It supports SELECT queries; it does not write changes back to the original sources. Syncing a source table and joining synced tables are separate operations.
 {% endhint %}
-
-## Sync options
-
-The sync parameters can be changed in the **Sync options** tab. To get there, click the three dots in the top left corner of your data source page:
-
-{% content-ref url="360-data-data-blending/sync-options.md" %}
-[sync-options.md](360-data-data-blending/sync-options.md)
-{% endcontent-ref %}
