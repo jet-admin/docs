@@ -65,6 +65,7 @@
 
 ## Guides <a href="#getting-started" id="getting-started"></a>
 
+* [Create an app](getting-started/create-an-app.md)
 * [⚡ Quickstart](getting-started/quickstart-2.md)
 * [🛠️ Building an Internal Tool](getting-started/quickstart/README.md)
   * [Connect your Data](getting-started/quickstart/connect-your-data.md)

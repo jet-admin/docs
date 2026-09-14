@@ -12,6 +12,7 @@ Connect to [200+ data sources](https://docs.jetadmin.io/user-guide/integrations)
 
 | I want to…                              | Start here                                                                                   |
 | --------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Create my first app                     | [Create an app](https://docs.jetadmin.io/getting-started/create-an-app)                      |
 | Build an internal tool                  | [Internal tool quickstart](https://docs.jetadmin.io/getting-started/quickstart)              |
 | Create a customer portal                | [Customer portal guide](https://docs.jetadmin.io/getting-started/creating-a-customer-portal) |
 | Generate a custom interface component   | [AI custom components](https://docs.jetadmin.io/ai-custom-components)                        |
