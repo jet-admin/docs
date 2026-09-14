@@ -35,8 +35,8 @@ After that, you must choose how you'd like your SmartSuite to be integrated with
 
 If you want to be able to **combine your SmartSuite data** with data from other data sources, such as Firebase, Google Sheets, or even REST API within the same tables, you should choose the **"Sync" connection** for Google Sheets. You can learn more about it here:
 
-{% content-ref url="../synced-tables/" %}
-[synced-tables](../synced-tables/)
+{% content-ref url="../data-blending.md" %}
+[data-blending.md](../data-blending.md)
 {% endcontent-ref %}
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Select between "Sync" and "Direct Connection" operation modes</p></figcaption></figure>

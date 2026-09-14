@@ -1,7 +1,7 @@
 ---
 description: >-
   Bring a table from another database and keep it up to date automatically. One
-  source of truth, used in as many Softr Databases as you need.
+  source of truth, used in as many Jet Databases as you need.
 ---
 
 # 💠 Synced tables
@@ -20,16 +20,16 @@ You can even layer the above capabilities to transform your data the way you wan
 
 While connecting a data source, you'll be prompted to choose the type of connection, there could be a **direct connection** or a **sync connection.**
 
-{% content-ref url="sync-connection.md" %}
-[sync-connection.md](sync-connection.md)
+{% content-ref url="360-data-data-blending/sync-connection.md" %}
+[sync-connection.md](360-data-data-blending/sync-connection.md)
 {% endcontent-ref %}
 
 ## Blending the data
 
 To demonstrate how the data blending works, we'll use two data sources: Airtable and Google Sheets, where the former contains the `Order` table and the latter - the `Customers` table. Notice that the `Customer ID` column in the `Orders` table refers to the `ID` in the `Customers` table.
 
-{% content-ref url="blending-the-data.md" %}
-[blending-the-data.md](blending-the-data.md)
+{% content-ref url="360-data-data-blending/blending-the-data.md" %}
+[blending-the-data.md](360-data-data-blending/blending-the-data.md)
 {% endcontent-ref %}
 
 {% hint style="warning" %}
@@ -40,6 +40,6 @@ When blending data sources, it's essential to understand that the process involv
 
 The sync parameters can be changed in the **Sync options** tab. To get there, click the three dots in the top left corner of your data source page:
 
-{% content-ref url="sync-options.md" %}
-[sync-options.md](sync-options.md)
+{% content-ref url="360-data-data-blending/sync-options.md" %}
+[sync-options.md](360-data-data-blending/sync-options.md)
 {% endcontent-ref %}
