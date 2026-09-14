@@ -6,7 +6,7 @@ description: >-
 
 # Salesforce
 
-Jet Admin connects to your Salesforce org and becomes the app layer on top of it. Your CRM stays the system of record.
+Use Jet Admin to build apps on your Salesforce org while keeping Salesforce as the system of record.
 
 {% hint style="success" %}
 Jet Admin reads your Salesforce data. Connecting it doesn't modify anything in your org.
@@ -20,10 +20,10 @@ Jet syncs the following Salesforce objects:
 * Contacts
 * Opportunities
 
-Relationships between them are preserved, so an Account resolves to its Contacts and Opportunities in the Data Editor.
+Jet Admin preserves relationships between these objects, so an Account resolves to its Contacts and Opportunities in the Data Editor.
 
 {% hint style="info" %}
-**Custom objects aren't part of the standard sync.** To reach them, add a [REST API resource](../../user-guide/integrations/rest-api/) pointed at the Salesforce REST API alongside this one.
+Custom objects aren't part of the standard sync. To access them, add a [REST API resource](../../user-guide/integrations/rest-api/) pointed at the Salesforce REST API alongside this one.
 {% endhint %}
 
 ## Before you start
@@ -50,7 +50,7 @@ In Jet Admin, open **Data → Add Resource** and select **Salesforce**. Paste yo
 {% step %}
 #### Choose your connection mode
 
-Pick **Sync** if you plan to blend Salesforce with another source. Pick **Direct** if you need writes to land in Salesforce immediately. See [Choosing a connection mode](./) if you're unsure.
+Choose **Sync** to blend Salesforce with another source. Choose **Direct** for writes that update Salesforce immediately. See [Choosing a connection mode](https://docs.jetadmin.io/getting-started/migrating-a-project) if you're unsure.
 {% endstep %}
 
 {% step %}
@@ -62,18 +62,18 @@ Click the **More** icon on the resource, then **Sync Structure**. Accounts, Cont
 {% step %}
 #### Check the data
 
-Open each table in the [Data Editor](../../videos/data-editor/data-editor-interface.md) and confirm the records and field types look right before you build on them.
+Open each table in the [Data Editor](../../videos/data-editor/data-editor-interface.md) and check the records and field types before building your app.
 {% endstep %}
 {% endstepper %}
 
 ## Troubleshooting
 
-**Tables are empty after connecting.** The structure synced but the data hasn't. Run **Sync now**, then check **More → View Sync Events** for errors.
+Tables are empty after connecting. The structure synced but the data hasn't. Run **Sync now**, then check **More → View Sync Events** for errors.
 
-**An object I need is missing.** Only Accounts, Contacts and Opportunities are part of the standard sync. Custom objects need a REST API resource.
+An object I need is missing. Only Accounts, Contacts and Opportunities are part of the standard sync. Custom objects need a REST API resource.
 
-**Fields changed in Salesforce and my app broke.** Run **More → Sync Structure** again, then rebind any component pointing at a renamed field.
+Fields changed in Salesforce and my app broke. Run **More → Sync Structure** again, then rebind any component pointing at a renamed field.
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="https://docs.jetadmin.io/getting-started/migrating-a-project" %}
+[https://docs.jetadmin.io/getting-started/migrating-a-project](https://docs.jetadmin.io/getting-started/migrating-a-project)
 {% endcontent-ref %}

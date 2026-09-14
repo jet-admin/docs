@@ -7,7 +7,7 @@ description: >-
 
 # Stripe
 
-Stripe is the one source on this list where the app layer usually needs to **write**, not just read: issuing a refund or cancelling a subscription from a support tool instead of the Stripe dashboard.
+Stripe apps usually need write access to issue refunds or cancel subscriptions from a support tool instead of the Stripe dashboard.
 
 ## What you get
 
@@ -21,15 +21,15 @@ Jet syncs the following Stripe objects:
 * Products
 * Refunds
 
-Because Jet Admin can also act on Stripe, you can build refunds and subscription cancellation directly into your app, and alert your account team to upcoming renewals, cancellations and delinquencies.
+Your Jet Admin app can issue Stripe refunds and cancel subscriptions. It can also alert your account team to upcoming renewals, cancellations, and delinquencies.
 
 ## Before you start
 
 * A Stripe account and your **Secret API key**
-* A clear decision about test versus live mode — see the warning below
+* A decision about test or live mode. See the warning below.
 
 {% hint style="danger" %}
-**Check which key you're using.** Stripe's dashboard shows a test key by default. A test key connects to test data and nothing you build will affect real customers; a live secret key can move real money the moment you wire up a refund action. Build against test, then swap the key.
+Stripe's dashboard shows a test key by default. It connects to test data, so your app won't affect real customers. A live secret key can move real money as soon as you configure a refund action. Build with a test key, then switch to the live key.
 {% endhint %}
 
 ## Connect Stripe
@@ -60,20 +60,20 @@ Click **More → Sync Structure**. The Stripe objects appear in the Data Editor.
 {% endstep %}
 
 {% step %}
-#### Gate the write actions
+#### Restrict write actions
 
-Before you ship, restrict refund and cancellation actions with [visibility rules](../../user-guide/components-visibility/) or team permissions so only the right people can trigger them.
+Before publishing your app, restrict refund and cancellation actions with [visibility rules](../../user-guide/components-visibility/) or team permissions so only the right people can trigger them.
 {% endstep %}
 {% endstepper %}
 
 ## Troubleshooting
 
-**I can see test data but not real customers.** You connected a test secret key. Replace it with the live key in the resource settings.
+I can see test data but not real customers. You connected a test secret key. Replace it with the live key in the resource settings.
 
-**A refund action fails.** The key may be restricted. Confirm the secret key has write access to charges and refunds in Stripe.
+A refund action fails. The key may be restricted. Confirm the secret key has write access to charges and refunds in Stripe.
 
-**Invoice totals look wrong in a blended table.** Stripe stores amounts in the smallest currency unit — cents, not dollars. Divide in a [computed column](../../user-guide/data/computed-columns/) rather than assuming the raw value.
+Invoice totals look wrong in a blended table. Stripe stores amounts in the smallest currency unit, such as cents instead of dollars. Divide the value in a [computed column](../../user-guide/data/computed-columns/) to convert it.
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="https://docs.jetadmin.io/getting-started/migrating-a-project" %}
+[https://docs.jetadmin.io/getting-started/migrating-a-project](https://docs.jetadmin.io/getting-started/migrating-a-project)
 {% endcontent-ref %}

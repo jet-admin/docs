@@ -6,15 +6,15 @@ description: >-
 
 # Airtable
 
-Airtable is the most common starting point for teams moving to Jet Admin: the base works, but you need proper permissions, a real interface for non-Airtable users, or data joined against another system.
+Airtable is the most common starting point for teams moving to Jet Admin. Teams often keep their base and use Jet Admin for permissions, an interface for people who don't use Airtable, or joins with data from another system.
 
 {% hint style="info" %}
-**You don't need a personal access token.** Airtable retired API keys in January 2024, but Jet Admin connects by signing in to Airtable directly — there's no token to create or paste.
+Jet Admin connects through Airtable sign-in, so you don't need to create or paste a personal access token. Airtable retired API keys in January 2024.
 {% endhint %}
 
 ## What you get
 
-Every table you select from your base, with one **view** per table. Jet Admin can also generate CRUD pages for the tables you pick, giving you a working admin panel before you design anything.
+Jet Admin brings in each table you select from your base, using one view per table. It can also generate CRUD pages for those tables, so you have a working admin panel before designing your own pages.
 
 ## Before you start
 
@@ -39,10 +39,10 @@ Click **Sign In to Airtable**, then **Add a base**. Choose the base or workspace
 {% step %}
 #### Choose tables and views
 
-Click **Choose tables**, select the tables you want, and pick a **view** for each one. Click **Add Resource**.
+Click **Choose tables**, select the tables you want, and pick a view for each one. Click **Add Resource**.
 
 {% hint style="warning" %}
-You can use **only one view per table**. A filtered view brings in only the records it shows — choose the **All** view unless you deliberately want the filter applied.
+You can use only one view per table. A filtered view brings in only the records it shows. Choose the **All** view unless you want that filter applied.
 {% endhint %}
 {% endstep %}
 
@@ -55,7 +55,7 @@ Choose **Sync** to combine Airtable with Firebase, Google Sheets, a REST API or 
 {% step %}
 #### Generate your first pages
 
-When prompted, pick the tables Jet Admin should generate an admin panel (CRUD pages) for. You can restyle or replace these later.
+When prompted, select the tables for which Jet Admin should generate CRUD pages. You can restyle or replace the generated admin panel later.
 {% endstep %}
 {% endstepper %}
 
@@ -68,12 +68,12 @@ When prompted, pick the tables Jet Admin should generate an admin panel (CRUD pa
 
 ## Troubleshooting
 
-**Records are missing from a table.** The selected view is filtered. Switch that table to the **All** view using the steps above.
+Records are missing from a table. The selected view is filtered. Switch that table to the **All** view using the steps above.
 
-**A new Airtable field isn't showing.** Run **More → Sync Structure** to pick up schema changes.
+A new Airtable field isn't showing. Run **More → Sync Structure** to pick up schema changes.
 
-**I can't see the base I need.** Access was granted for a different base or workspace. Re-run **Add a base** and grant access to the right one.
+I can't see the base I need. Access was granted for a different base or workspace. Re-run **Add a base** and grant access to the right one.
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="https://docs.jetadmin.io/getting-started/migrating-a-project" %}
+[https://docs.jetadmin.io/getting-started/migrating-a-project](https://docs.jetadmin.io/getting-started/migrating-a-project)
 {% endcontent-ref %}
