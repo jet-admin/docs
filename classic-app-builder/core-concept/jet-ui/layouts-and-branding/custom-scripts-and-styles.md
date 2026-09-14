@@ -10,4 +10,4 @@ You can access them in this section of the App Settings menu.
 
 <figure><img src="../../../../.gitbook/assets/image (11) (5).png" alt=""><figcaption></figcaption></figure>
 
-Learn more about Global JavaScript and CSS in [this article](../../../design-and-structure/global-css-and-js.md).&#x20;
+Learn more about Global JavaScript and CSS in [this article](../../../../user-guide/design-and-structure/global-css-and-js.md).&#x20;

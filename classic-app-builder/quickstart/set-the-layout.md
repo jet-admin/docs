@@ -6,7 +6,7 @@ description: Discover how to utilize components to build your app's user interfa
 
 Components are prebuilt UI elements your users engage in, such as `Tables`, `Forms`, `Buttons`. In this example, only a limited number of components are used; you can explore 50+ Components in the UI Component Library. Drag-and-drop components within **Layout** `Columns`, `Tabs`, and `Modals`, facilitating the building of your app.
 
-You'll be building an app that enables the creation and updating of **Deals** data. To enable this functionality, you'll add `Table`, `Forms`, and `Modals`. Learn more about [Jet UI Concept](../../user-guide/jet-ui/) in our documentation. Additionally, if you want to implement this functionality swiftly (Create, Update, Delete flow), you can generate it in seconds using [Page Templates](../ui-in-seconds.md).
+You'll be building an app that enables the creation and updating of **Deals** data. To enable this functionality, you'll add `Table`, `Forms`, and `Modals`. Learn more about [Jet UI Concept](../core-concept/jet-ui/) in our documentation. Additionally, if you want to implement this functionality swiftly (Create, Update, Delete flow), you can generate it in seconds using [Page Templates](../ui-in-seconds.md).
 
 ### 1. Set the Layout
 
@@ -32,7 +32,7 @@ Modify the **Logo** column to have a circular frame and position it as the first
 
 {% @arcade/embed flowId="WeYMccrK3MnPjQeVxhCk" url="https://app.arcade.software/share/WeYMccrK3MnPjQeVxhCk" %}
 
-### 4. Update Deal with a Form component <a href="#3-add-user-management-options-with-a-split-button-component" id="3-add-user-management-options-with-a-split-button-component"></a>
+### 4. Update Deal with a Form component <a href="#id-3-add-user-management-options-with-a-split-button-component" id="id-3-add-user-management-options-with-a-split-button-component"></a>
 
 The final component to add is a Form component. This component will allow you to generate [Forms](../../user-guide/design-and-structure/components/form/) automatically based on your Collections fields.
 

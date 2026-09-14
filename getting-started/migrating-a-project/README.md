@@ -12,7 +12,7 @@ Jet Admin connects to your existing systems and provides the interface, permissi
 You don't need to export data or cut over to a new system. Jet Admin keeps using your existing source, so there's no separate migration copy to maintain.
 
 {% hint style="info" %}
-If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../quickstart-2.md) and connect your database directly. There's nothing to export.
+If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../../classic-app-builder/quickstart-2.md) and connect your database directly. There's nothing to export.
 {% endhint %}
 
 ## Choose how your data arrives

@@ -13,4 +13,4 @@ description: Discover Component Designer areas
 5. **Canvas** – is your working area where you’ll arrange layers to create your designs. You’ll find lots of room to explore and iterate on your ideas.
 6. [**Right sidebar**](right-sidebar/) – access more information about your layers. With a layer selected, you can explore the properties of your current selection.
 
-<figure><img src="../.gitbook/assets/image (950).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (950).png" alt=""><figcaption></figcaption></figure>

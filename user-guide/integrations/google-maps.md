@@ -20,7 +20,7 @@ This is ideal for logistics tools, delivery dashboards, travel apps, or any work
    Give your connection a clear name like _Maps API_, _Location Services_, or _Geo Tools_.
 4. **Paste your Google API Key:**\
    Enter your Google Maps API key.\
-   &#xNAN;_&#x4E;ote: Google Maps services must be enabled in your Google Cloud console (e.g., Places API, Directions API, Distance Matrix API)._
+   _&#x4E;ote: Google Maps services must be enabled in your Google Cloud console (e.g., Places API, Directions API, Distance Matrix API)._
 5. **Add Resource:**\
    JetAdmin will validate the key. After successful connection, all Maps-related actions become available for use.
 

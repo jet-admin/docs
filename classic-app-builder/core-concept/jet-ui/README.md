@@ -50,23 +50,23 @@ If you need to create a new app or return to a previously created one, you can g
 
 * [**Layout**](https://docs.jetadmin.io/user-guide/components/layouts) to organize the page structure
 
-![](https://lh4.googleusercontent.com/eqNFV09pEOcRI3\_cOcdeH8fQ2D7NrZWabIB-S-ReqOod9llt\_hR2-qfeQRUsrgFw6jdfLlH7WRhOJjkxhzxsTkSC0OneLS98e9ALPGfF8GgF1OfoV4QrqxawXG4\_\_n4p3AtSg9zd2ETX7h9njGg1cMGD5aLrwbRIB6\_cRcjA4w4S78F-YrqSGTUxeg)
+![](https://lh4.googleusercontent.com/eqNFV09pEOcRI3_cOcdeH8fQ2D7NrZWabIB-S-ReqOod9llt_hR2-qfeQRUsrgFw6jdfLlH7WRhOJjkxhzxsTkSC0OneLS98e9ALPGfF8GgF1OfoV4QrqxawXG4__n4p3AtSg9zd2ETX7h9njGg1cMGD5aLrwbRIB6_cRcjA4w4S78F-YrqSGTUxeg)
 
 * **Basic** components to work with Titles, Text, Images, Button, etс
 
-![](https://lh6.googleusercontent.com/TpxVHcTL6OALO-tlg2Bijn9u9oEgc0XEm\_Z4A72X6jW8D986xDJ5crU99M9shj9br1KQkSl5SS0-iNKSSKnJS-IwO6UdbmKZWfTu05xJh6mZaXN5Lhv0N\_m7UCzZAyKzvCKkFFzHn8hakRUkepxVKMU-nQeoLq\_hGlnVw71nUrOqRrMDCg1VyRFmHg)
+![](https://lh6.googleusercontent.com/TpxVHcTL6OALO-tlg2Bijn9u9oEgc0XEm_Z4A72X6jW8D986xDJ5crU99M9shj9br1KQkSl5SS0-iNKSSKnJS-IwO6UdbmKZWfTu05xJh6mZaXN5Lhv0N_m7UCzZAyKzvCKkFFzHn8hakRUkepxVKMU-nQeoLq_hGlnVw71nUrOqRrMDCg1VyRFmHg)
 
 * [**Lists**](https://docs.jetadmin.io/user-guide/components/lists) to display data from your collections (tables)
 
-![](https://lh4.googleusercontent.com/3D7V7YIM9\_aRQKain8no5\_5yLumTAHcdRKPQzL2u00DKqY3DbirymvOTAn5dXfBEg3zMgEoDM2QgmOuVTcqx6QJcjHEtrXSpkYuq7va3choYGtkrqndr6MKo8jaEPYLGrklB7JWXhrr9leFU70-UT2m9N-R7ASQvKAtNJSY2RIxytInPEvz0GeZ4\_w)
+![](https://lh4.googleusercontent.com/3D7V7YIM9_aRQKain8no5_5yLumTAHcdRKPQzL2u00DKqY3DbirymvOTAn5dXfBEg3zMgEoDM2QgmOuVTcqx6QJcjHEtrXSpkYuq7va3choYGtkrqndr6MKo8jaEPYLGrklB7JWXhrr9leFU70-UT2m9N-R7ASQvKAtNJSY2RIxytInPEvz0GeZ4_w)
 
 * [**Charts** ](https://docs.jetadmin.io/user-guide/components/charts)to visualize your data in up to 4 dimensions. It's the fastest way to create analytical reports on your data
 
-![](https://lh5.googleusercontent.com/2z0P4XhoZakpxRg3a3O5gYOtI6Ql6BfJs7CQdG08TpPaNfNVVpsJ73tzhstyad9b8S6IRybDQIwM\_ncXjMo0i8GN0zsBlcCLJtV-jGHu76Pk2\_coWtYaty2oZNGg5GXDOpCKH\_VgLfiyj2hhnXuBO25sC\_-cCoFic\_YZNIbboF4KHiV2bsFM3\_gCVw)
+![](https://lh5.googleusercontent.com/2z0P4XhoZakpxRg3a3O5gYOtI6Ql6BfJs7CQdG08TpPaNfNVVpsJ73tzhstyad9b8S6IRybDQIwM_ncXjMo0i8GN0zsBlcCLJtV-jGHu76Pk2_coWtYaty2oZNGg5GXDOpCKH_VgLfiyj2hhnXuBO25sC_-cCoFic_YZNIbboF4KHiV2bsFM3_gCVw)
 
 * [**Forms**](https://docs.jetadmin.io/user-guide/components/form) to make your app interactive. Whether you need a user to enter an email or select an item from a dropdown, forms will get you covered.
 
-![](https://lh4.googleusercontent.com/Be1B3sEpYI1fDoJ2IzvKr3p7DzZID\_jKMGGDOd2whATyacE2TIQPOtsCvJzjylAdPT5XLDtSAxSi0y6cF7AmIPl43ch0kcknZ0zAuHlzL8CQ03ROmJ4QoFP4oDxdCmBdcv2pJmpTVEAHOtkfG5I22uBkowCt31xUiyfK56eF0c9mj8dYO68q9nTOjg)
+![](https://lh4.googleusercontent.com/Be1B3sEpYI1fDoJ2IzvKr3p7DzZID_jKMGGDOd2whATyacE2TIQPOtsCvJzjylAdPT5XLDtSAxSi0y6cF7AmIPl43ch0kcknZ0zAuHlzL8CQ03ROmJ4QoFP4oDxdCmBdcv2pJmpTVEAHOtkfG5I22uBkowCt31xUiyfK56eF0c9mj8dYO68q9nTOjg)
 
 **Advanced** tools to create even more custom solutions using:
 
@@ -76,7 +76,7 @@ If you need to create a new app or return to a previously created one, you can g
 
 * **iFrame** - a way to embed another webpage inside of your Jet app
 
-<figure><img src="../../.gitbook/assets/pasted image 0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pasted image 0.png" alt=""><figcaption></figcaption></figure>
 
 * [**Custom components**](https://docs.jetadmin.io/user-guide/components/custom-component) to build any component that’s not in the UI Library based on React, Angular, or any other framework and integrate it into the Jet Admin interface.
 
@@ -98,7 +98,7 @@ In the [**Data**](https://docs.jetadmin.io/user-guide/jet-ui/data) section of th
 
 Or you can work with already connected resources — manage the integration, configure the field types, edit, delete, or create records, import and export data and create virtual collections (functionality varies based on the data source):
 
-<figure><img src="../../.gitbook/assets/pasted image 0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pasted image 0 (1).png" alt=""><figcaption></figcaption></figure>
 
 You can build apps with your data from pretty much **Any Data Source**: Firebase, Sheets, Airtable, Stripe, REST API, and so on.
 
@@ -114,7 +114,7 @@ Here you can set permissions, define user roles, and manage members.
 You can also use Properties to set up data separation (multi-tenancy) for **Client Portal** use-cases
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/pasted image 0 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pasted image 0 (2).png" alt=""><figcaption></figcaption></figure>
 
 ### App Settings
 
@@ -124,7 +124,7 @@ You can customize the app’s appearance in the [**User Mode**](https://docs.jet
 
 [**App settings**](https://docs.jetadmin.io/user-guide/jet-ui/layouts-and-branding) allow you to adjust your business app’s appearance by the following settings:
 
-<figure><img src="../../.gitbook/assets/pasted image 0 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pasted image 0 (3).png" alt=""><figcaption></figcaption></figure>
 
 * **Appearance** - customize colors and theme for your app&#x20;
 * **Menu** - customize your app's menu in user mode&#x20;
@@ -157,13 +157,13 @@ With the [**Share**](https://docs.jetadmin.io/getting-started/creating-a-custome
 
 **Invite** members via **email** or **Public Access**, and set permissions for already invited users.
 
-<figure><img src="../../.gitbook/assets/pasted image 0 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/pasted image 0 (4).png" alt=""><figcaption></figcaption></figure>
 
 You can always look through the **documentation** and **video tutorials**, or get **expert support** if you find it difficult to understand some issues. We are happy to help:)
 
-![](https://lh3.googleusercontent.com/jUuyIwJHJfG9eumeQAGZgEy3gAbIUEwy81Bd2onm\_dNUIifR-\_j3Cw\_iV-dHeHNdtCyX46UQK8xEdezhipl9p0RoclAL8J2ao8pqA2nLY6sF3pD0ArOiQ90O\_ywmCiz-2DWomQZtV8iMI4gb99\_uxb3SQC4jCSSr274O8QqE2Mayoz9NXcnZu0X-nA)
+![](https://lh3.googleusercontent.com/jUuyIwJHJfG9eumeQAGZgEy3gAbIUEwy81Bd2onm_dNUIifR-_j3Cw_iV-dHeHNdtCyX46UQK8xEdezhipl9p0RoclAL8J2ao8pqA2nLY6sF3pD0ArOiQ90O_ywmCiz-2DWomQZtV8iMI4gb99_uxb3SQC4jCSSr274O8QqE2Mayoz9NXcnZu0X-nA)
 
-{% content-ref url="../core-concept/jet-ui/layouts-and-branding/" %}
-[layouts-and-branding](../core-concept/jet-ui/layouts-and-branding/)
+{% content-ref url="layouts-and-branding/" %}
+[layouts-and-branding](layouts-and-branding/)
 {% endcontent-ref %}
 

@@ -19,7 +19,7 @@ This is perfect for multilingual apps, content generation workflows, support too
    Give it a custom name like _Translator API_ or _Language Tools_.
 4. **Paste your Google API Key:**\
    Enter your Google Cloud Translation API key.\
-   &#xNAN;_&#x4E;ote: The Translation API must be enabled in your Google Cloud console._
+   _&#x4E;ote: The Translation API must be enabled in your Google Cloud console._
 5. **Add Resource:**\
    JetAdmin will validate your key and complete the setup, making translation actions immediately available.
 

@@ -39,7 +39,7 @@ Here's an **example** of how that might look in the user-mode:
 {% hint style="danger" %}
 **It's crucial** to understand how **data is bound** under the hood when linking pages. Otherwise, things might break when customizing the auto-generated pages or building the drill-downs from scratch.&#x20;
 
-Please, **read more** in the [Values section](../../../../parameters/)&#x20;
+Please, **read more** in the [Values section](../../../../../classic-app-builder/binding-and-values/parameters.md)&#x20;
 {% endhint %}
 
 ### Rows check
@@ -53,7 +53,7 @@ Here's an **example** of how that might look in the user-mode for when we've set
 ![](../../../../../.gitbook/assets/KYGMUJBH.gif)
 
 {% hint style="info" %}
-Learn how to set up this or other **CRUD** (Create, Read, Update, Delete) use-cases in the [Values section](../../../../parameters/)
+Learn how to set up this or other **CRUD** (Create, Read, Update, Delete) use-cases in the [Values section](../../../../../classic-app-builder/binding-and-values/parameters.md)
 {% endhint %}
 
 ### Row action

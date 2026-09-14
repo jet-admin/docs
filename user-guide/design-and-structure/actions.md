@@ -41,7 +41,7 @@ There are a variety types of actions that are split into sections:&#x20;
 
 ### Advanced
 
-* [**Set Variable**](../binding-and-values/temporary-and-stored-variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
+* [**Set Variable**](../../classic-app-builder/variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
 * [**Run JavaScript**](actions.md#run-javascript). Execute a JavaScript code.&#x20;
 * **Download File.** Download the file from the API call.
 * [Scan QR/Bar Code](components/qr-code.md). To scan a graphic code.
@@ -169,11 +169,7 @@ To execute JavaScript code upon clicking a button, follow these steps:
 3. Select "Run JavaScript."
 4. Type your JavaScript code and return the result.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

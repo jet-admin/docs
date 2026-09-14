@@ -68,7 +68,7 @@ By enabling this, a reload button will be displayed on the right of your Single 
 
 ### Conditional visibility
 
-You can set up a formula for your Single Value conditional visibility here. Refer to [this page](../../../getting-started/part-2-intermediate/conditional-visibility.md) on how to set it up.
+You can set up a formula for your Single Value conditional visibility here. Refer to [this page](../../../classic-app-builder/part-2-intermediate/conditional-visibility.md) on how to set it up.
 
 ### Tooltip
 

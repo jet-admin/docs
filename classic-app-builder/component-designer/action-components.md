@@ -18,8 +18,8 @@ List of supported components:
 
 The settings for action components are the same as they are for the page components.
 
-{% content-ref url="../user-guide/components/" %}
-[components](../user-guide/components/)
+{% content-ref url="../../user-guide/components/" %}
+[components](../../user-guide/components/)
 {% endcontent-ref %}
 
 <br>
