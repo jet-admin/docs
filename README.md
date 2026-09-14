@@ -1,36 +1,54 @@
 ---
-description: Glad to have you on board!
+description: Build AI agents and govern AI-generated business apps on your existing data.
 ---
 
-# 👋 Welcome
+# 👋 Welcome to Jet Admin
 
-## What is Jet Admin?
+Jet Admin helps teams build AI agents and govern AI-generated business apps on their existing data. Create internal tools and customer portals, use AI to generate components and data logic, and build agents that answer questions or carry out tasks across connected systems. Manage who can access your apps and what they can do.
 
-Jet Admin is an **app builder** that allows you to create **Client Portals**, **Business Apps**, and **Internal Tools** with your **existing data**, whether it's from databases, APIs, or Storages. You can build apps such as `Onboarding apps`, `Admin Panels`, `Vendor portals`, `CRMs`, and much more quickly and without code.
+Connect your databases, APIs, and business systems. Build the interface with visual components or generate custom components with AI. Add workflows and agents, then configure access and review changes before sharing the app.
 
-## Building a Business App?
+## Choose your starting point
 
-This **2-min video** will explain what Jet Admin is and what you can build with it:
+| I want to…                              | Start here                                                                                   |
+| --------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Build an internal tool                  | [Internal tool quickstart](https://docs.jetadmin.io/getting-started/quickstart)              |
+| Create a customer portal                | [Customer portal guide](https://docs.jetadmin.io/getting-started/creating-a-customer-portal) |
+| Generate a custom interface component   | [AI custom components](https://docs.jetadmin.io/ai-custom-components)                        |
+| Build an AI agent                       | [Create your first agent](https://docs.jetadmin.io/agents/add-an-agent)                      |
+| Connect an existing CRM, store, or base | [Migration guides](https://docs.jetadmin.io/getting-started/migrating-a-project)             |
+| Manage app access                       | [Users and permissions](https://docs.jetadmin.io/user-guide/security-and-privacy)            |
 
-{% embed url="https://youtu.be/ktkbSKQkQq8" %}
+## Build with AI on your business data
 
-1. [**Connect your data**](user-guide/integrations/): Connect Databases, business apps (Airtable, Stripe, Zendesk), Data Warehouses, Internal and external REST or GraphQL APIs, and File Storage.
-2. [**Sync and Blend your data**](user-guide/data-blending.md): Create a single source of truth (SSOT) that syncs to your multiple data sources (Stripe, Hubspot, Salesforce, ...).
-3. [**Build App Interfaces**:](user-guide/components/) Drag and drop UI components (Tables, Forms, Charts, Details Images) onto Layouts (Modals, Columns, Tavs) and connect them to your data sources.
-4. [**Customize your app**](component-designer.md): Design pixel-perfect components or use 50+ ready-to-use components from Marketplace.
-5. [**Automate your workflow**](user-guide/workflow/): Create multi-sequence Automation with over 30+ automation blocks and trigger them by Webhook or Schedule jobs every minute, hour, day, or month.
-6. [**Publish and share your app**](user-guide/security-and-privacy/sharing-your-app.md)
+Connect a [data source](https://docs.jetadmin.io/user-guide/integrations) and build the pages your team needs. Combine tables, forms, charts, and detail views, or describe a custom component to AI and refine the result.
 
-## Building a Portal?
+[Ask AI](https://docs.jetadmin.io/ask-ai) generates SQL queries, API requests, and transformation scripts from natural-language instructions. Review the generated logic and test actions that change data before using them in production.
 
-This **5-min video** will walk you through the process of building a client portal from scratch:&#x20;
+Use [workflows](https://docs.jetadmin.io/user-guide/workflow) to automate processes with defined steps.
 
-{% embed url="https://www.youtube.com/watch?v=WpQ-PsAbmD8&ab_channel=JetAdmin" %}
+## Build AI agents for your apps
 
-## Ready to Get Started?
+Create an [AI agent](https://docs.jetadmin.io/agents/add-an-agent) from scratch or start with a built-in template. Use agents for tasks that require reasoning or context, such as answering customer questions using data from multiple sources or coordinating work across connected systems.
 
-This **Quickstart Guide** will walk you through the necessary steps for building your first app in Jet:
+Add an Agent Chat component to let users interact with an agent inside your app, or run an agent through a workflow trigger. See the [Agents guide](https://docs.jetadmin.io/agents) for setup and configuration.
 
-{% content-ref url="getting-started/quickstart-2.md" %}
-[quickstart-2.md](getting-started/quickstart-2.md)
-{% endcontent-ref %}
+## Govern how your apps are used
+
+### Set access for each team
+
+Configure [sign-in and SSO](https://docs.jetadmin.io/user-guide/security-and-privacy/sign-in-sign-up), then use [team and page permissions](https://docs.jetadmin.io/user-guide/security-and-privacy/create-and-manage-a-team) to control access. Set who can customize the interface, manage members, and view or edit records.
+
+### Review user and builder activity
+
+Use [audit logs](https://docs.jetadmin.io/user-guide/project-settings/audit-logs) to inspect recorded activity from app users and builders.
+
+### Test changes before releasing them
+
+Use [environments](https://docs.jetadmin.io/user-guide/project-settings/environments) to review and test app configurations before copying changes to production. Check which data sources and credentials your test environment uses.
+
+Enable [app versioning](https://docs.jetadmin.io/user-guide/version-control) to publish releases and restore a previous app state. Releases are available on paid plans.
+
+## Get help and follow updates
+
+Find answers in [FAQ and troubleshooting](https://docs.jetadmin.io/faq-and-troubleshooting), ask the [community](https://docs.jetadmin.io/join-the-community), or see [what's new](https://docs.jetadmin.io/whats-new).

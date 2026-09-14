@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome](README.md)
+* [👋 Welcome to Jet Admin](README.md)
 * [🎓 Academy](videos/README.md)
   * [Getting Started](videos/getting-started.md)
   * [Connecting Data Sources](videos/connecting-data-sources/README.md)
@@ -503,3 +503,7 @@
   * [Common Problems](jet-bridge-deployment/on-premise/common-problems.md)
   * [Superuser access](jet-bridge-deployment/on-premise/superuser-access.md)
 * [⛺️ Database Heroku deployment](jet-bridge-deployment/database-heroku-deployment.md)
+
+***
+
+* [Welcome old](welcome-old.md)
