@@ -99,6 +99,12 @@
   * [Support multi-screens](getting-started/pixel-perfect-app/support-multi-screens.md)
 * [🚀 UI in seconds](getting-started/ui-in-seconds.md)
 * [🪅 Figma design into a web app](getting-started/figma-design-into-a-web-app.md)
+* [Migrating a project to Jet Admin](getting-started/migrating-a-project/README.md)
+  * [Salesforce](getting-started/migrating-a-project/salesforce.md)
+  * [HubSpot](getting-started/migrating-a-project/hubspot.md)
+  * [Shopify](getting-started/migrating-a-project/shopify.md)
+  * [Stripe](getting-started/migrating-a-project/stripe.md)
+  * [Airtable](getting-started/migrating-a-project/airtable.md)
 
 ***
 
