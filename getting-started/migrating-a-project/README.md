@@ -21,7 +21,7 @@ Choose a connection type during setup based on how your app needs to use the dat
 
 <table><thead><tr><th width="140">Connection</th><th>What it does</th><th>Choose this when</th></tr></thead><tbody><tr><td><strong>Direct</strong></td><td>Jet Admin reads and writes against the source in real time. Nothing is copied.</td><td>You need live two-way data, so editing a HubSpot deal in your app changes it in HubSpot. Direct connections are also required for write actions like Stripe refunds.</td></tr><tr><td><strong>Sync</strong></td><td>Jet Admin mirrors the source into <a href="../../user-guide/integrations/jet-tables/">Jet Tables</a>, its built-in SQL database, on a schedule.</td><td>You need to join data across sources, write SQL against a non-SQL source, or reduce load on the source API.</td></tr></tbody></table>
 
-Use sync connections for [360 Data / Data Blending](../../user-guide/data-blending.md), such as joining Salesforce accounts to Stripe invoices in a single table. Check the limits below when choosing this mode.
+Use sync connections for [360 Data / Data Blending](../../user-guide/synced-tables/), such as joining Salesforce accounts to Stripe invoices in a single table. Check the limits below when choosing this mode.
 
 {% hint style="warning" %}
 Sync connections are available for a limited number of integrations. If your source doesn't support sync yet, use a direct connection and ask support to prioritise it.
@@ -49,8 +49,8 @@ Once connected, all sources use the same app-building tools:
 [components](../../classic-app-builder/design-and-structure/components/)
 {% endcontent-ref %}
 
-{% content-ref url="../../user-guide/data-blending.md" %}
-[data-blending.md](../../user-guide/data-blending.md)
+{% content-ref url="../../user-guide/synced-tables/" %}
+[synced-tables](../../user-guide/synced-tables/)
 {% endcontent-ref %}
 
 {% content-ref url="../../agents/" %}
@@ -110,7 +110,7 @@ Connecting and reading data leave the source untouched. Writes happen only throu
 
 <summary>Can I combine two sources in one table?</summary>
 
-Yes, with sync connections on both, using [360 Data / Data Blending](../../user-guide/data-blending.md). The result is read-only.
+Yes, with sync connections on both, using [360 Data / Data Blending](../../user-guide/synced-tables/). The result is read-only.
 
 </details>
 

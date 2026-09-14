@@ -22,7 +22,7 @@ You can access the objects you enable in the Admin API, including:
 * Discounts, Price rules
 
 {% hint style="info" %}
-The REST resource uses a direct connection. It won't appear in [data blending](../../user-guide/data-blending.md) until a native Shopify integration ships.
+The REST resource uses a direct connection. It won't appear in [data blending](../../user-guide/synced-tables/) until a native Shopify integration ships.
 {% endhint %}
 
 ## Before you start

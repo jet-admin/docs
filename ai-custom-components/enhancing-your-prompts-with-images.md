@@ -9,7 +9,7 @@ description: >-
 
 
 
-<figure><img src="../../.gitbook/assets/euhuiedwq.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/euhuiedwq.jpg" alt=""><figcaption></figcaption></figure>
 
 ### How to Add an Image to Your Prompt
 
