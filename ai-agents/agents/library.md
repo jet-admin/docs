@@ -25,7 +25,7 @@ Uploading files is simple:
 2. Upload your file
 3. The system will process and summarize the content automatically
 
-<figure><img src="../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
 ### Importing Websites
 
@@ -33,13 +33,13 @@ You can also import website content into the Library.
 
 1.  Click _Upload or Import_ button<br>
 
-    <figure><img src="../.gitbook/assets/image (1008).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1008).png" alt=""><figcaption></figcaption></figure>
 2. Select Import Website
 3. Enter the website URL
 4. Configure periodic sync settings (optional)
 5. Click Import Website
 
-<figure><img src="../.gitbook/assets/image (1009).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1009).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### Advanced Settings

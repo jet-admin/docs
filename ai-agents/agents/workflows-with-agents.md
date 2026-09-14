@@ -23,7 +23,7 @@ Add the following to your app in JetAdmin:
 * A **multi-line text input** (for order details)
 * A **button** (e.g. “Process Order”)
 
-<figure><img src="../.gitbook/assets/image (991).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (991).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -34,8 +34,8 @@ Set the button action to:
 * Trigger a **workflow**
 * Pass the text input as a parameter
 
-{% content-ref url="../user-guide/workflow/page-1.md" %}
-[page-1.md](../user-guide/workflow/page-1.md)
+{% content-ref url="../../user-guide/workflow/page-1.md" %}
+[page-1.md](../../user-guide/workflow/page-1.md)
 {% endcontent-ref %}
 {% endstep %}
 
@@ -54,7 +54,7 @@ In the workflow canvas:
    * Generate a confirmation message
    * Send it to the customer or internal team
 
-<figure><img src="../.gitbook/assets/image (990).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (990).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

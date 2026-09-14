@@ -21,7 +21,7 @@ Connect data sources and MCP integrations to let the agent:
 
 This is essential for building agents that work with your application data.
 
-<figure><img src="../.gitbook/assets/image (997).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (997).png" alt=""><figcaption></figcaption></figure>
 
 #### Internal Actions
 
@@ -40,7 +40,7 @@ Enable tools that allow the agent to retrieve information from outside your syst
 * **Internet Search:** find up-to-date information
 * **Fetch URL Content:** read and analyze specific web pages
 
-<figure><img src="../.gitbook/assets/image (998).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (998).png" alt=""><figcaption></figcaption></figure>
 
 #### Content Generation
 
@@ -49,7 +49,7 @@ Allow the agent to generate new content:
 * **Image generation:** create visuals from prompts
 * **Code execution:** process data, run logic, or perform calculations
 
-<figure><img src="../.gitbook/assets/image (999).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (999).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### Best Practice

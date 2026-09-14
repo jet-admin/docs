@@ -35,7 +35,7 @@ To upload an existing skill:
 
 The skill will be uploaded and added to the agent.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Write Skill Instructions
 
@@ -51,7 +51,7 @@ Fill in the following fields:
 
 After completing the fields, click **Create Skill**.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ## Managing Skills

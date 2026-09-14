@@ -66,7 +66,7 @@ The following example sends an order report to Slack once per month.
 | Message to Agent | Generate a summary of all orders from the previous month and provide key insights |
 | Reply Option     | Send to Slack                                                                     |
 
-<figure><img src="../.gitbook/assets/image (1010).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1010).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 ## How It Works

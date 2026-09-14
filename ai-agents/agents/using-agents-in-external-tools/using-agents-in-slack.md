@@ -41,7 +41,7 @@ Use the command:
 /jet add_agent <agent_id>
 ```
 
-<figure><img src="../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Once connected, users in the channel can interact with the agent directly.

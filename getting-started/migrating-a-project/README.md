@@ -53,11 +53,11 @@ Once connected, all sources use the same app-building tools:
 [data-blending.md](../../user-guide/data-blending.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../agents/" %}
-[agents](../../agents/)
+{% content-ref url="../../ai-agents/agents/" %}
+[agents](../../ai-agents/agents/)
 {% endcontent-ref %}
 
-For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../agents/) so your team can ask questions about the blended data in plain language.
+For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../ai-agents/agents/) so your team can ask questions about the blended data in plain language.
 
 ## Connection limits
 
