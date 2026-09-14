@@ -6,7 +6,7 @@ description: Build AI agents and govern AI-generated business apps on your exist
 
 Jet Admin helps teams build AI agents and govern AI-generated business apps on their existing data. Create internal tools and customer portals, use AI to generate components and data logic, and build agents that answer questions or carry out tasks across connected systems. Manage who can access your apps and what they can do.
 
-Connect your databases, APIs, and business systems. Build the interface with visual components or generate custom components with AI. Add workflows and agents, then configure access and review changes before sharing the app.
+Connect to [200+ data sources](https://docs.jetadmin.io/user-guide/integrations), including databases, APIs, and business systems. Build the interface with visual components or generate custom components with AI. Add workflows and agents, then configure access and review changes before sharing the app.
 
 ## Choose your starting point
 
