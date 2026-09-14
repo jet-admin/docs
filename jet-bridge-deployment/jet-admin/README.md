@@ -1,4 +1,4 @@
-# 🏎️ Self-hosted
+# 🏎️ Self-hosted Jet Bridge
 
 **Jet Bridge** is a free and ope&#x6E;**-**&#x73;ource app that **generates an API** and proxies the requests to databases and business apps: (PostgreSQL, Google Sheets, Stripe, etc). It is available on the [**Github**](https://github.com/jet-admin/jet-bridge)**.**
 
@@ -36,16 +36,16 @@ Web applications are accessible from any browser. Maintaining and updating this 
 
 Install **Jet Bridge** without additional software or web services on any server or local host. You will need to install **Python** dependencies and run the application manually.
 
-{% content-ref url="../../user-guide/integrations/database-resources/python-app-installation.md" %}
-[python-app-installation.md](../../user-guide/integrations/database-resources/python-app-installation.md)
+{% content-ref url="../../getting-started/integrations/database-resources/python-app-installation.md" %}
+[python-app-installation.md](../../getting-started/integrations/database-resources/python-app-installation.md)
 {% endcontent-ref %}
 
 ### Using Jet Bridge inside Docker
 
 Install **Jet Bridge** without the need to install any dependencies except the **Docker** application. May require additional network configuration for your OS.
 
-{% content-ref url="../../user-guide/integrations/database-resources/docker-installation.md" %}
-[docker-installation.md](../../user-guide/integrations/database-resources/docker-installation.md)
+{% content-ref url="../../getting-started/integrations/database-resources/docker-installation.md" %}
+[docker-installation.md](../../getting-started/integrations/database-resources/docker-installation.md)
 {% endcontent-ref %}
 
 ### Django framework
@@ -56,8 +56,8 @@ To integrate **Jet Admin** with the **Django**-based project you need to install
 
 This is the quickest way to install **Jet Admin** for Django-based projects. Installed in the same way as most **Django** packages.
 
-{% content-ref url="../../user-guide/integrations/django-framework-package.md" %}
-[django-framework-package.md](../../user-guide/integrations/django-framework-package.md)
+{% content-ref url="../../getting-started/integrations/django-framework-package.md" %}
+[django-framework-package.md](../../getting-started/integrations/django-framework-package.md)
 {% endcontent-ref %}
 
 ## Data Privacy

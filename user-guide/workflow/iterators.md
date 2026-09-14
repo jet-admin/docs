@@ -56,7 +56,7 @@ This type of iterator will get data to iterate from any resource that you have.&
 You can choose a resource, a collection and use filters to get the precise data you want to cycle through.
 
 {% hint style="info" %}
-Refer to the [resources article](../integrations/) to learn more about how resources work.
+Refer to the [resources article](../../getting-started/integrations/) to learn more about how resources work.
 {% endhint %}
 
 #### Specify Iterate Type

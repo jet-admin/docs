@@ -6,7 +6,7 @@ description: >-
 
 # Shopify
 
-Connect Shopify through a [REST API resource](../../user-guide/integrations/rest-api/) using the Shopify Admin API. Shopify doesn't have a native integration yet. Setup takes a few more steps than the other sources, and you can access every Admin API object.
+Connect Shopify through a [REST API resource](../integrations/rest-api/) using the Shopify Admin API. Shopify doesn't have a native integration yet. Setup takes a few more steps than the other sources, and you can access every Admin API object.
 
 {% hint style="warning" %}
 Grant read-only scopes unless your app needs to write. A Shopify Admin API token with write scopes can modify orders and inventory.
@@ -70,7 +70,7 @@ Use the current stable API version.
 {% step %}
 #### Add the token as a global header
 
-Shopify requires its own access-token header instead of Bearer auth. Add a [global header](../../user-guide/integrations/rest-api/bearer-token.md) on the resource so every request carries it:
+Shopify requires its own access-token header instead of Bearer auth. Add a [global header](../integrations/rest-api/bearer-token.md) on the resource so every request carries it:
 
 ```
 X-Shopify-Access-Token: shpat_your_token_here
@@ -80,7 +80,7 @@ X-Shopify-Access-Token: shpat_your_token_here
 {% step %}
 #### Build your first request
 
-In the Data Editor, create a `GET` request to `orders.json?status=any&limit=50`. Or paste Shopify's API reference into [Ask AI](../../ask-ai.md) and describe what you need. Ask AI will generate the request, handle pagination, and shape the response.
+In the Data Editor, create a `GET` request to `orders.json?status=any&limit=50`. Or paste Shopify's API reference into [Ask AI](../../user-guide/ask-ai.md) and describe what you need. Ask AI will generate the request, handle pagination, and shape the response.
 {% endstep %}
 {% endstepper %}
 
