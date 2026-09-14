@@ -16,6 +16,6 @@ Add Twilio to an existing project or connect Twilio as a resource when creating 
 
 ![](<../../.gitbook/assets/image (831).png>)
 
-{% content-ref url="../components/buttons.md" %}
-[buttons.md](../components/buttons.md)
+{% content-ref url="../../classic-app-builder/design-and-structure/components/buttons.md" %}
+[buttons.md](../../classic-app-builder/design-and-structure/components/buttons.md)
 {% endcontent-ref %}

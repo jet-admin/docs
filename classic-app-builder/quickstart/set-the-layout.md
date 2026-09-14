@@ -34,7 +34,7 @@ Modify the **Logo** column to have a circular frame and position it as the first
 
 ### 4. Update Deal with a Form component <a href="#id-3-add-user-management-options-with-a-split-button-component" id="id-3-add-user-management-options-with-a-split-button-component"></a>
 
-The final component to add is a Form component. This component will allow you to generate [Forms](../../user-guide/design-and-structure/components/form/) automatically based on your Collections fields.
+The final component to add is a Form component. This component will allow you to generate [Forms](../design-and-structure/components/form/) automatically based on your Collections fields.
 
 {% @arcade/embed flowId="CSycxxwLOkyFXhQrqax6" url="https://app.arcade.software/share/CSycxxwLOkyFXhQrqax6" %}
 

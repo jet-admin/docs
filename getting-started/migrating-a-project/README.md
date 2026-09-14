@@ -45,8 +45,8 @@ SQL databases such as MySQL and PostgreSQL connect directly and **cannot be sync
 
 Once connected, all sources use the same app-building tools:
 
-{% content-ref url="../../user-guide/components/" %}
-[components](../../user-guide/components/)
+{% content-ref url="../../classic-app-builder/design-and-structure/components/" %}
+[components](../../classic-app-builder/design-and-structure/components/)
 {% endcontent-ref %}
 
 {% content-ref url="../../user-guide/data-blending.md" %}
