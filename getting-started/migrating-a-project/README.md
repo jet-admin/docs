@@ -12,7 +12,7 @@ Jet Admin connects to your existing systems and provides the interface, permissi
 You don't need to export data or cut over to a new system. Jet Admin keeps using your existing source, so there's no separate migration copy to maintain.
 
 {% hint style="info" %}
-If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../../class-app-builder/classic-app-builder/quickstart-2.md) and connect your database directly. There's nothing to export.
+If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../../class-app-builder/quickstart-2.md) and connect your database directly. There's nothing to export.
 {% endhint %}
 
 ## Choose how your data arrives
@@ -45,19 +45,19 @@ SQL databases such as MySQL and PostgreSQL connect directly and **cannot be sync
 
 Once connected, all sources use the same app-building tools:
 
-{% content-ref url="../../class-app-builder/classic-app-builder/design-and-structure/components/" %}
-[components](../../class-app-builder/classic-app-builder/design-and-structure/components/)
+{% content-ref url="../../class-app-builder/design-and-structure/components/" %}
+[components](../../class-app-builder/design-and-structure/components/)
 {% endcontent-ref %}
 
 {% content-ref url="../../user-guide/data-blending.md" %}
 [data-blending.md](../../user-guide/data-blending.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../ai-agents/agents.md" %}
-[agents.md](../../ai-agents/agents.md)
+{% content-ref url="../../ai-agents/ai-agents/agents.md" %}
+[agents.md](../../ai-agents/ai-agents/agents.md)
 {% endcontent-ref %}
 
-For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../ai-agents/agents.md) so your team can ask questions about the blended data in plain language.
+For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../ai-agents/ai-agents/agents.md) so your team can ask questions about the blended data in plain language.
 
 ## Connection limits
 

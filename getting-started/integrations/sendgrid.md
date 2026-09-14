@@ -22,6 +22,6 @@ Add SendGrid to an existing project or connect SendGrid as a resource when creat
 
 ![](<../../.gitbook/assets/image (832).png>)
 
-{% content-ref url="../../class-app-builder/classic-app-builder/design-and-structure/components/buttons.md" %}
-[buttons.md](../../class-app-builder/classic-app-builder/design-and-structure/components/buttons.md)
+{% content-ref url="../../class-app-builder/design-and-structure/components/buttons.md" %}
+[buttons.md](../../class-app-builder/design-and-structure/components/buttons.md)
 {% endcontent-ref %}

@@ -42,6 +42,6 @@ You can provide access roles for each page: **Full Access**, **Read-only**, **Cu
 
 Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or certain Teams/Users. With conditional add, edit & delete you can do this:
 
-{% content-ref url="../../class-app-builder/classic-app-builder/components-visibility/conditional-add-edit-and-delete.md" %}
-[conditional-add-edit-and-delete.md](../../class-app-builder/classic-app-builder/components-visibility/conditional-add-edit-and-delete.md)
+{% content-ref url="../../class-app-builder/components-visibility/conditional-add-edit-and-delete.md" %}
+[conditional-add-edit-and-delete.md](../../class-app-builder/components-visibility/conditional-add-edit-and-delete.md)
 {% endcontent-ref %}

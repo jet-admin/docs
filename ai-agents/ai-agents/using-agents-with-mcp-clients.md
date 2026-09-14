@@ -32,7 +32,7 @@ Open your agent
 {% step %}
 Click **Add to** (Select Add to AI (MCP))
 
-<figure><img src="../../../.gitbook/assets/image (1003).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1003).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -46,7 +46,7 @@ Example:
 https://api-node.jetadmin.io/agents/mcp/abcd
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -56,7 +56,7 @@ https://api-node.jetadmin.io/agents/mcp/abcd
 {% step %}
 Open Claude AI and go to **Connectors**
 
-<figure><img src="../../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

@@ -6,8 +6,8 @@ description: In this section you will learn how to use page values
 
 Page Values allow you to pass data from one page to another.&#x20;
 
-{% content-ref url="../../../classic-app-builder/binding-and-values/parameters.md" %}
-[parameters.md](../../../classic-app-builder/binding-and-values/parameters.md)
+{% content-ref url="../../binding-and-values/parameters.md" %}
+[parameters.md](../../binding-and-values/parameters.md)
 {% endcontent-ref %}
 
 In case, when you want to build a Detail page for your user with the user info on this page: first name, last name, address, etc. You need to pass the user ID from one page to another. To do this you need to create a page value for this page and pass this ID to another page in [Action](../actions.md).&#x20;

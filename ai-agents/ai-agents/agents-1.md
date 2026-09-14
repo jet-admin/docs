@@ -6,7 +6,7 @@ hidden: true
 icon: message-bot
 ---
 
-# Agents
+# Using agents
 
 An agent can:
 

@@ -5,7 +5,7 @@ description: >-
 icon: message-bot
 ---
 
-# Agents
+# Creating agents
 
 ### What Are Agents?
 

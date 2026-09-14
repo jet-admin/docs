@@ -29,7 +29,7 @@ Connect your agent using:
 /add_agent <agent_id>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1000).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1000).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Once connected, you can chat with the agent directly in Telegram.
@@ -51,7 +51,7 @@ Connect your agent using:
 /add_agent @jetadmin_bot <agent_id>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

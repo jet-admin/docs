@@ -28,7 +28,7 @@ Make sure you:
 
 After enabling email inboxes, the agent will receive a dedicated email address.
 
-<figure><img src="../../../.gitbook/assets/image (1001).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1001).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -47,7 +47,7 @@ After setup:
 
 * **Use this Email address to message your Agent**
 
-<figure><img src="../../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 After setup is complete, users can send emails directly to the agent’s email address. The agent will automatically reply to the sender’s email inbox.
