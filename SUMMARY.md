@@ -272,6 +272,13 @@
         * [Hiding a component using multiple conditions](classic-app-builder/components-visibility/conditional-visibility/examples/hiding-a-component-using-multiple-conditions.md)
     * [Conditional Disable](classic-app-builder/components-visibility/conditional-disable.md)
     * [Conditional read, add, edit & delete](classic-app-builder/components-visibility/conditional-add-edit-and-delete.md)
+  * [AI Custom Components](classic-app-builder/ai-custom-components/README.md)
+    * [Enhance Your Prompts with AI Assistance](classic-app-builder/ai-custom-components/enhance-your-prompts-with-ai-assistance.md)
+    * [Enhancing Your Prompts with Images](classic-app-builder/ai-custom-components/enhancing-your-prompts-with-images.md)
+    * [Auto-Generate Parameters and Actions](classic-app-builder/ai-custom-components/auto-generate-parameters-and-actions.md)
+    * [Edit Your Custom Code with the Custom Component Builder](classic-app-builder/ai-custom-components/edit-your-custom-code-with-the-custom-component-builder.md)
+    * [Import and Iterate on Your Existing Components](classic-app-builder/ai-custom-components/import-and-iterate-on-your-existing-components.md)
+  * [Generate Formulas and JavaScript with AI](classic-app-builder/generate-formulas-and-javascript-with-ai.md)
 * [Token Usage](token-usage.md)
 * [Agents](agents/README.md)
   * [Add an Agent](agents/add-an-agent.md)
@@ -294,13 +301,6 @@
   * [Running Agents](agents-1/running-agents.md)
   * [How Agents Work](agents-1/how-agents-work.md)
 * [Ask AI](ask-ai.md)
-* [Generate Formulas and JavaScript with AI](generate-formulas-and-javascript-with-ai.md)
-* [AI Custom Components](ai-custom-components/README.md)
-  * [Enhance Your Prompts with AI Assistance](ai-custom-components/enhance-your-prompts-with-ai-assistance.md)
-  * [Enhancing Your Prompts with Images](ai-custom-components/enhancing-your-prompts-with-images.md)
-  * [Auto-Generate Parameters and Actions](ai-custom-components/auto-generate-parameters-and-actions.md)
-  * [Edit Your Custom Code with the Custom Component Builder](ai-custom-components/edit-your-custom-code-with-the-custom-component-builder.md)
-  * [Import and Iterate on Your Existing Components](ai-custom-components/import-and-iterate-on-your-existing-components.md)
 
 ## References <a href="#user-guide" id="user-guide"></a>
 

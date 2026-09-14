@@ -25,7 +25,7 @@ Here’s how to do it:
 7. Review the generated formula. You can make edits directly in the editor if needed.
 8. Click **Accept** to apply the formula to your column.
 
-<figure><img src=".gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
 
 ### Examples of Common Use Cases
 
