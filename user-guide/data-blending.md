@@ -4,7 +4,7 @@ description: >-
   source of truth, used in as many Jet Databases as you need.
 ---
 
-# 💠 Synced tables
+# 🔄 Synced tables
 
 Bring a table from another database into Jet Databases and keep it up to date automatically. The original database remains the source of truth, so you can reuse its data across Jet Databases without maintaining separate copies by hand.
 

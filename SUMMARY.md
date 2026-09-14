@@ -63,10 +63,10 @@
   * [Troubleshooting Django integration](faq-and-troubleshooting/troubleshooting-django-integration.md)
   * [How to Connect to Slack Channel](faq-and-troubleshooting/how-to-connect-to-slack-channel.md)
 
-## Guides <a href="#getting-started" id="getting-started"></a>
+## Getting Started
 
 * [Create an app](getting-started/create-an-app.md)
-* [Migrating a project to Jet Admin](getting-started/migrating-a-project/README.md)
+* [⬇️ Migrating a project to Jet Admin](getting-started/migrating-a-project/README.md)
   * [Salesforce](getting-started/migrating-a-project/salesforce.md)
   * [HubSpot](getting-started/migrating-a-project/hubspot.md)
   * [Shopify](getting-started/migrating-a-project/shopify.md)
@@ -445,7 +445,7 @@
   * [Success/Error Actions](user-guide/workflow/actions-workflow.md)
   * [Iterators](user-guide/workflow/iterators.md)
   * [Zapier Workflows](user-guide/workflow/action-sequences.md)
-* [💠 Synced tables](user-guide/data-blending.md)
+* [🔄 Synced tables](user-guide/data-blending.md)
   * [Sync Connection](user-guide/360-data-data-blending/sync-connection.md)
   * [Blending the Data](user-guide/360-data-data-blending/blending-the-data.md)
   * [Sync Options](user-guide/360-data-data-blending/sync-options.md)
