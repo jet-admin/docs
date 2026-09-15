@@ -77,7 +77,7 @@ Let’s say you have a table of Products for your business. Before sending these
 
 You can create a form that displays the Product data, prefilling each field (like Quantity) with the current value in an editable text box. Users can quickly scan the form to review and hit a "Confirm" button to confirm the product or fix any errors they notice before confirming.
 
-![](../../../../../.gitbook/assets/testgif92.gif)
+![](../../../../.gitbook/assets/testgif92.gif)
 
 We’ll cover a step-by-step example of binding to pre-existing values below.
 
@@ -107,6 +107,6 @@ Next, you need to apply filters, namely a data filter on the primary key (in our
 
 In most cases, you need to create a sequence of forms in which filling out one form should redirect the user to another form. See here for details:
 
-{% content-ref url="../../../../../user-guide/workflow/actions-workflow.md" %}
-[actions-workflow.md](../../../../../user-guide/workflow/actions-workflow.md)
+{% content-ref url="../../../../getting-started/workflow/actions-workflow.md" %}
+[actions-workflow.md](../../../../getting-started/workflow/actions-workflow.md)
 {% endcontent-ref %}

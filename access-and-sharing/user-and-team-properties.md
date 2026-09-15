@@ -1,8 +1,9 @@
 ---
 description: In this section you will learn about user-specific permissions
+icon: table-cells-rows
 ---
 
-# User-specific Permissions
+# Granular Permissions
 
 The User and Team properties are useful for the scopes feature: they allow you to group users (not teams) and control the data they can see.
 
@@ -37,14 +38,14 @@ Note that it is important to create User & Team Properties with the same key val
 
 Now let's look at an example of hiding a component depending on User & Team Properties and implement the condition of hiding a component if User Property has a read-only value.
 
-{% content-ref url="../../classic-app-builder/components-visibility/conditional-visibility/" %}
-[conditional-visibility](../../classic-app-builder/components-visibility/conditional-visibility/)
+{% content-ref url="../classic-app-builder/components-visibility/conditional-visibility/" %}
+[conditional-visibility](../classic-app-builder/components-visibility/conditional-visibility/)
 {% endcontent-ref %}
 
 ### Separating data for users
 
 See here how to use this functionality in the Customer Portal to separate data for users.
 
-{% content-ref url="../../classic-app-builder/videos/build-apps-together/customer-portal.md" %}
-[customer-portal.md](../../classic-app-builder/videos/build-apps-together/customer-portal.md)
+{% content-ref url="../classic-app-builder/videos/build-apps-together/customer-portal.md" %}
+[customer-portal.md](../classic-app-builder/videos/build-apps-together/customer-portal.md)
 {% endcontent-ref %}

@@ -1,8 +1,9 @@
 ---
 description: In this section you will learn how to build Sign In/Sign Up Page
+icon: shield-keyhole
 ---
 
-# Sign In/Sign Up
+# App SSO
 
 You don't need to build the Sign-in/Sign-up page in the UI, as Jet already has a **separate Sign-in/Sign-up page builder**.
 
@@ -20,7 +21,7 @@ Sign-in/Sign-up page has three major sections:
 * **(2) The preview** - check in real-time changes taking effect
 * **(3)** **Setting** - this is where the configuring happens&#x20;
 
-![](../../../.gitbook/assets/rbsdvt.png)
+![](../../.gitbook/assets/rbsdvt.png)
 
 {% hint style="warning" %}
 To be able to customize the Sign-in/Sign-up, you need to **set up a custom domain first**. See the image below.
@@ -28,8 +29,8 @@ To be able to customize the Sign-in/Sign-up, you need to **set up a custom domai
 
 Learn how to set up a custom domain in the following article:
 
-{% content-ref url="../../project-settings/configuring-a-custom-domain.md" %}
-[configuring-a-custom-domain.md](../../project-settings/configuring-a-custom-domain.md)
+{% content-ref url="../../user-guide/configuring-a-custom-domain.md" %}
+[configuring-a-custom-domain.md](../../user-guide/configuring-a-custom-domain.md)
 {% endcontent-ref %}
 
 #### Appearance
@@ -41,7 +42,7 @@ The appearance tab allows you to:
 * **(3)** Set the **color theme**
 * **(4)** Enable the **White label**
 
-![](../../../.gitbook/assets/rndtby.png)
+![](../../.gitbook/assets/rndtby.png)
 
 #### Sign-in & Sign-up
 

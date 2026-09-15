@@ -1,4 +1,8 @@
-# 🔐 Authentication systems
+---
+icon: lock
+---
+
+# Authentication
 
 Protect sensitive data from unauthorized access with our native authentication methods: Jet Auth, Supabase Auth, XANO Auth, Auth0, OpenID, and any custom token-based auth system using the JWT standard or SSO.
 

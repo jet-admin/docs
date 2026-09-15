@@ -59,16 +59,16 @@ You have a table where _First Name_ and _Last Name_ are separate fields, but you
 
 For an introductory example, we will consider feeding customers' email addresses to promotional emails. Once the user is selected in the Customers table, his or her email should appear in the `Email` field to send a promotional Email with a Marketing tool. We will use Functions as well to create a Promotional Email template.
 
-{% content-ref url="computed-columns/formulas/setting-up-promotional-email.md" %}
-[setting-up-promotional-email.md](computed-columns/formulas/setting-up-promotional-email.md)
+{% content-ref url="setting-up-promotional-email.md" %}
+[setting-up-promotional-email.md](setting-up-promotional-email.md)
 {% endcontent-ref %}
 
 ### Create Custom fields using Formulas
 
 In this use case, we will create a custom column in the Customer table and calculate a score depending on some logical condition.
 
-{% content-ref url="computed-columns/formulas/create-custom-fields-using-formulas.md" %}
-[create-custom-fields-using-formulas.md](computed-columns/formulas/create-custom-fields-using-formulas.md)
+{% content-ref url="create-custom-fields-using-formulas.md" %}
+[create-custom-fields-using-formulas.md](create-custom-fields-using-formulas.md)
 {% endcontent-ref %}
 
 ### Formulas variables
@@ -77,35 +77,35 @@ Essentially, this is a tabbed pop-up window that reflects all the components on 
 
 The number and type of tabs depend on the context. This allows the user to have access to only those tools that apply to the objects he or she is working with. For example, if we work with table parameters, there will be a tab with filters. In case we drill down to a specific record of a table and have these record fields displayed on a page, a tab with Record components will be available:&#x20;
 
-![](../.gitbook/assets/testgif46.gif)
+![](../../../../.gitbook/assets/testgif46.gif)
 
 ### Tabs context
 
-When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](security-and-privacy/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
+When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](../../../../access-and-sharing/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
 
 #### Search tab
 
 In this tab, you see a general list of all available interactions with the current component or other components and parameters.&#x20;
 
-![](../.gitbook/assets/testgif54.gif)
+![](../../../../.gitbook/assets/testgif54.gif)
 
 #### Current component tab
 
 When you are working on a Current Component setting, the context in the formulas will show you the Current Component setting at the very top. In this tab, you can only access the fields in the current component:
 
-![](../.gitbook/assets/testgif55.gif)
+![](../../../../.gitbook/assets/testgif55.gif)
 
 #### Components tab
 
 Here you can access any data from your resources through any component (fields, tables, charts, etc.) on the current page.
 
-![](../.gitbook/assets/testgif56.gif)
+![](../../../../.gitbook/assets/testgif56.gif)
 
 ### User-specific properties
 
-If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](security-and-privacy/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
+If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](../../../../access-and-sharing/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
 
-![](../.gitbook/assets/testgif57.gif)
+![](../../../../.gitbook/assets/testgif57.gif)
 
 You can create custom columns in a table to handle cases such as math operations on your data, parsing JSON fields, or creating conditions. Let's look at a few examples of how to use it:
 
@@ -113,7 +113,7 @@ You can create custom columns in a table to handle cases such as math operations
 
 Use the App name and Environment name properties in your Application to filter your data.
 
-&#x20;![](../.gitbook/assets/app1.jpg)
+&#x20;![](../../../../.gitbook/assets/app1.jpg)
 
 #### Device properties
 
@@ -121,4 +121,4 @@ Device screen size tokens in Jet Admin enable you to reference and utilize speci
 
 You can utilize these tokens to create rules or conditions that adapt the interface based on the device type and screen size. For instance, you might want to show a different layout for desktop users compared to mobile users
 
-<figure><img src="../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>

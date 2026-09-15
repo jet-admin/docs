@@ -14,7 +14,7 @@ In this tutorial, we'll set up a system to automatically send notifications to t
 
 {% @arcade/embed flowId="xwy9H9O3HZpT5S9hShmp" url="https://app.arcade.software/share/xwy9H9O3HZpT5S9hShmp" %}
 
-2. Add a conditional step in the workflow that checks whether the deal stage is set to **Closed Won.** For the conditional step, employ the 'Equals' operation using the [Formula](../../../user-guide/formulas.md) `EQ({deal_stage}, 'Closed Won')` to verify if the deal stage matches the **Closed Won** status. The value for {deal\_stage} is selected from Formula.
+2. Add a conditional step in the workflow that checks whether the deal stage is set to **Closed Won.** For the conditional step, employ the 'Equals' operation using the [Formula](../../user-guide/data/computed-columns/formulas/) `EQ({deal_stage}, 'Closed Won')` to verify if the deal stage matches the **Closed Won** status. The value for {deal\_stage} is selected from Formula.
 
 {% @arcade/embed flowId="0oY95MDbyTrkHCRLTqzX" url="https://app.arcade.software/share/0oY95MDbyTrkHCRLTqzX" fullWidth="false" %}
 

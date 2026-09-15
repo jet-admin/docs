@@ -48,23 +48,23 @@ There are a variety types of actions that are split into sections:&#x20;
 
 **Run workflow**
 
-* [**Run Workflow**](../../../user-guide/workflow/). Fires a sequence of events.
+* [**Run Workflow**](../../getting-started/workflow/). Fires a sequence of events.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Action confirmation dialog
 
 You can set up a confirmation dialog that will appear before executing an action.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Confirmation dialog example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Confirmation dialog example</p></figcaption></figure>
 
 To add a confirmation dialog, use the "Confirm on execute" section of the right-side panel
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can define the Title, Description, and button styles for your confirmation dialog.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Run Operation
 
@@ -82,7 +82,7 @@ Perform operation with your resources, such as CRUD operations with Databases, o
 
 #### Operations with storages
 
-<figure><img src="../../../.gitbook/assets/image (942).png" alt=""><figcaption><p>Storages operations</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption><p>Storages operations</p></figcaption></figure>
 
 You can perform these actions with storages:
 
@@ -134,7 +134,7 @@ You can close the pop-up overlay window. To do so, follow the steps:
 
 ### Open Actions Dropdown
 
-<figure><img src="../../../.gitbook/assets/ggGroup 1195 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ggGroup 1195 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 The Open Actions Dropdown feature allow you to create a list of multiple separate actions that will appear in a drop-down list. This dropdown menu facilitates triggering queries and other actions with ease.
 
@@ -169,14 +169,14 @@ To execute JavaScript code upon clicking a button, follow these steps:
 3. Select "Run JavaScript."
 4. Type your JavaScript code and return the result.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 You can Insert input values from other components and use it further within your JavaScript code. To do that, click 'Insert Input' and choose the needed component.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Export Data
 

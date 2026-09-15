@@ -1,8 +1,9 @@
 ---
 description: Setting up and managing teams
+icon: users
 ---
 
-# Roles in Permissions
+# User Groups
 
 To limit access to data you can create different teams like Customer Support which has access to Tickets, or Sales Team have access to customers, orders, etc. You can create multiple teams with different Roles (**Administrator**, **Editor,** or **Read-only**).
 
@@ -38,10 +39,10 @@ Team Permissions are classified in two ways: **Project Permissions** and **Page 
 
 You can provide access roles for each page: **Full Access**, **Read-only**, **Custom Access**, **No Access**:
 
-![](<../../.gitbook/assets/image (863).png>)
+![](<../.gitbook/assets/image (863).png>)
 
 Allowing users to add, edit & delete records can be very powerful, but sometimes you want to restrict this to only certain Pages or certain Teams/Users. With conditional add, edit & delete you can do this:
 
-{% content-ref url="../../classic-app-builder/components-visibility/conditional-add-edit-and-delete.md" %}
-[conditional-add-edit-and-delete.md](../../classic-app-builder/components-visibility/conditional-add-edit-and-delete.md)
+{% content-ref url="../classic-app-builder/components-visibility/conditional-add-edit-and-delete.md" %}
+[conditional-add-edit-and-delete.md](../classic-app-builder/components-visibility/conditional-add-edit-and-delete.md)
 {% endcontent-ref %}

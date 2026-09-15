@@ -90,6 +90,6 @@ The examples and tips above highlight some common ways to get started with Ask A
 [api-builder](data/api-builder/)
 {% endcontent-ref %}
 
-{% content-ref url="workflow/workflows-with-ai.md" %}
-[workflows-with-ai.md](workflow/workflows-with-ai.md)
+{% content-ref url="../getting-started/workflow/workflows-with-ai.md" %}
+[workflows-with-ai.md](../getting-started/workflow/workflows-with-ai.md)
 {% endcontent-ref %}

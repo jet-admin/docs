@@ -11,8 +11,8 @@ With AI-powered workflow creation, you can quickly generate workflows by simply 
 To add a workflow, start by choosing any trigger action such as a button click, data change, page load, or any other supported trigger. \
 Once the workflow builder is open, Click on the **Ask AI**. In the AI chat, type your request in natural language and wait for the AI to generate the workflow based on your input.
 
-{% content-ref url="page-1.md" %}
-[page-1.md](page-1.md)
+{% content-ref url="triggers.md" %}
+[triggers.md](triggers.md)
 {% endcontent-ref %}
 
 {% @arcade/embed flowId="Sd6L8bPYmjApw4sEQ7on" url="https://app.arcade.software/share/Sd6L8bPYmjApw4sEQ7on" %}

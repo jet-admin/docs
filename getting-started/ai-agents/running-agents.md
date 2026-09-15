@@ -24,10 +24,10 @@ Agents don’t run on their own—they need to be **triggered manually or progra
 **Note:** To run an agent automatically—such as on a schedule or after receiving a webhook—you'll need to create an Automation that includes the **Invoke Agent** block.
 {% endhint %}
 
-{% content-ref url="../../user-guide/workflow/page-1.md" %}
-[page-1.md](../../user-guide/workflow/page-1.md)
+{% content-ref url="../workflow/triggers.md" %}
+[triggers.md](../workflow/triggers.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../user-guide/workflow/" %}
-[workflow](../../user-guide/workflow/)
+{% content-ref url="../workflow/" %}
+[workflow](../workflow/)
 {% endcontent-ref %}

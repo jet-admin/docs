@@ -1,10 +1,11 @@
 ---
 description: In  this section you will learn about Users and Permissions
+icon: user-group
 ---
 
-# 🔐 Users & Permissions
+# Members & Users
 
-JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](../../classic-app-builder/core-concept/sharing-your-app/#invite-by-email), [invited by link](../../classic-app-builder/core-concept/sharing-your-app/#invite-by-link)), will be available in the **Data** tab in the **"Built-ins"** section.
+JetAdmin has a built-in **User Management System**. All invited users to your application ([invited by email](../classic-app-builder/core-concept/sharing-your-app/#invite-by-email), [invited by link](../classic-app-builder/core-concept/sharing-your-app/#invite-by-link)), will be available in the **Data** tab in the **"Built-ins"** section.
 
 You'll also be able to set **granular permissions** and the properties to **separate data for the Portal** (multi-tenancy)
 
@@ -25,7 +26,7 @@ The **default authorization** process involves authorizing in the following ways
 1. Google & Facebook authorization (basic SSO)
 2. Authorization via credentials (login + password)
 
-<figure><img src="../../.gitbook/assets/logiin.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/logiin.png" alt=""><figcaption></figcaption></figure>
 
 You can also implement **custom authorization** through SSO. See the topics in this section on implementing different SSO methods:
 
@@ -35,9 +36,9 @@ The built-in User Management System allows you to configure each user on a granu
 
 1. **Specify user role**. Configure users' access to the application by setting a [specific role](create-and-manage-a-team.md).
 2. **Specify user properties**. Set properties for users to control their [permissions](user-and-team-properties.md) and access to data.
-3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](../../classic-app-builder/core-concept/sharing-your-app/) for more details.
+3. **Sharing your app**. Invite your employees or customers to collaborate with your data. See [here](../classic-app-builder/core-concept/sharing-your-app/) for more details.
 
-<figure><img src="../../.gitbook/assets/inv.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/inv.png" alt=""><figcaption></figcaption></figure>
 
 ### White Label & Customization
 

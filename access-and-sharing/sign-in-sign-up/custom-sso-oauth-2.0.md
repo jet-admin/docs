@@ -9,7 +9,7 @@ Apart from a number of pre-built SSO providers we support integrating with fully
 The process is not automatic:&#x20;
 
 * First you need to implement OAuth2 flow on your side and make sure it works. You should implement three types of requests for it listed below.&#x20;
-* Any SSO integrations require you to [connect your custom domain](../../project-settings/configuring-a-custom-domain.md).
+* Any SSO integrations require you to [connect your custom domain](../../user-guide/configuring-a-custom-domain.md).
 * Contact our tech engineers to test and finish integration on our side. OAuth implementation can vary from provider to provider so we implemented ability to customize OAuth requests used in integration (HTTP method, JSON/Form data, Scope separator, etc.). Our engineers will adapt to your implementation during integration process, but we recommend to stick to the most popular industry implementations (preferable to use open source implementations for your tech stack).
 
 These are global parameters generated on your side
@@ -94,7 +94,7 @@ After Sign In process user will be redirected back to **Jet Admin** side.
 **access token** and **refresh token** obtained on this step are saved on api.jetadmin.io side.&#x20;
 
 {% hint style="info" %}
-(optional) If you have self-hosted Jet Bridge set up as [HTTP proxy](../../../jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md) access token and refresh token can be saved on self-hosted Jet Bridge side.&#x20;
+(optional) If you have self-hosted Jet Bridge set up as [HTTP proxy](../../jet-bridge-deployment/jet-admin/using-self-deployed-http-proxy.md) access token and refresh token can be saved on self-hosted Jet Bridge side.&#x20;
 {% endhint %}
 
 ### 3. Refresh token URL

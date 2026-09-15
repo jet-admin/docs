@@ -12,4 +12,4 @@ In this use case, we will create a custom column in the Customer table and calcu
 
 `=IF(item.activities < 280, '50 points', IF(item.activities < 400, '70 points', '100 points'))`
 
-![](../../../.gitbook/assets/testgif53.gif)
+![](../../../../.gitbook/assets/testgif53.gif)

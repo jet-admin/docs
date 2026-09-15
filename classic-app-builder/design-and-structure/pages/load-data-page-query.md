@@ -4,7 +4,7 @@ description: Load and Query your data collection/record to your page
 
 # Load Data (Page Query)
 
-**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../../getting-started/integrations/), [workflow](../../../../user-guide/workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../getting-started/integrations/), [workflow](../../../getting-started/workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
 
 **Load Data** is ideal for scenarios where:
 
@@ -27,7 +27,7 @@ description: Load and Query your data collection/record to your page
 
 Load maximum records feature allows you to specify the maximum number of records to load on the page to preserve the page performance. The default maximum number is 20 by default. If you leave this option empty, the value will 20.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Load Data from JSON**
 

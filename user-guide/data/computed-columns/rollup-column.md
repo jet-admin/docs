@@ -6,7 +6,7 @@ description: Perform calculations on columns or relations like count, average, a
 
 {% embed url="https://www.youtube.com/watch?v=HBrF6wAMghA&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=22&ab_channel=JetAdmin" %}
 
-The roll-up allows you to perform a calculation on [Relation](../../computed-columns/relations.md). The most basic computation for the rollup is Count.
+The roll-up allows you to perform a calculation on [Relation](relations.md). The most basic computation for the rollup is Count.
 
 For example, in the image below we create a rollup column that counts the number of items in the `Properties` column. To do so, follow the steps:
 

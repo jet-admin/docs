@@ -1,8 +1,9 @@
 ---
 description: In this section you will learn about Automations & Workflow
+icon: diagram-project
 ---
 
-# ⚙️    Automations & Workflow
+# Workflows
 
 {% embed url="https://www.youtube.com/watch?v=_mbNeLJDqpU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj" %}
 
@@ -63,8 +64,8 @@ For the most part, you'll need a single action, such as `changing a status` or `
 
 **Learn** how to build and test automation with dedicated sections:
 
-{% content-ref url="page-1.md" %}
-[page-1.md](page-1.md)
+{% content-ref url="triggers.md" %}
+[triggers.md](triggers.md)
 {% endcontent-ref %}
 
 {% content-ref url="steps/" %}

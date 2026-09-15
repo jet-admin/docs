@@ -61,6 +61,6 @@ Fill in all necessary fields and click on the **Add Resource** button.
 
 Now you're done with OAuth 2.0 and ready to use it with Jet Admin. Here you can see an example of authentication with Google OAuth 2.0.
 
-{% content-ref url="../../../user-guide/security-and-privacy/sign-in-sign-up/google-oauth-2.0.md" %}
-[google-oauth-2.0.md](../../../user-guide/security-and-privacy/sign-in-sign-up/google-oauth-2.0.md)
+{% content-ref url="../../../access-and-sharing/sign-in-sign-up/google-oauth-2.0.md" %}
+[google-oauth-2.0.md](../../../access-and-sharing/sign-in-sign-up/google-oauth-2.0.md)
 {% endcontent-ref %}

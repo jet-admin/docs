@@ -8,8 +8,8 @@ You can set up agents in several ways:
 
 * Use Jetadmin triggers by selecting “Agent” as the action when setting one up.
 
-{% content-ref url="../../user-guide/workflow/page-1.md" %}
-[page-1.md](../../user-guide/workflow/page-1.md)
+{% content-ref url="../workflow/triggers.md" %}
+[triggers.md](../workflow/triggers.md)
 {% endcontent-ref %}
 
 {% @arcade/embed flowId="qM5YHy90gQHp6vJewhG5" url="https://app.arcade.software/share/qM5YHy90gQHp6vJewhG5" %}

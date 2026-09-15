@@ -1,6 +1,6 @@
 # Configure Data
 
-In Data, you can set up field types (Number, Text, Select, Date, Rating), define [Relations](../../../user-guide/computed-columns/relations.md) between tables, [pull record contents](../../../user-guide/data/computed-columns/lookup-column.md) from one linked record into another, [perform a calculation on Relation](../../../user-guide/data/computed-columns/rollup-column.md), or [calculate the values](../../../user-guide/formulas.md).
+In Data, you can set up field types (Number, Text, Select, Date, Rating), define [Relations](../../user-guide/data/computed-columns/relations.md) between tables, [pull record contents](../../user-guide/data/computed-columns/lookup-column.md) from one linked record into another, [perform a calculation on Relation](../../user-guide/data/computed-columns/rollup-column.md), or [calculate the values](../../user-guide/data/computed-columns/formulas/).
 
 Next, let's set up the field type for the **Priority** field. We will configure it as a **Select** type with predefined options: `High`, `Medium`, and `Low`.
 

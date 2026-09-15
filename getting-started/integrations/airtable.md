@@ -56,6 +56,6 @@ To switch to other views for each table, follow the steps below:
 
 <figure><img src="../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="../../user-guide/data-blending.md" %}
-[data-blending.md](../../user-guide/data-blending.md)
+{% content-ref url="../synced-tables/" %}
+[synced-tables](../synced-tables/)
 {% endcontent-ref %}
