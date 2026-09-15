@@ -2,10 +2,9 @@
 description: >-
   Learn how to use Jetadmin Agents to automate tasks using natural language and
   LLMs, no coding or complex logic required.
-icon: message-bot
 ---
 
-# Creating agents
+# Getting Started
 
 ### What Are Agents?
 

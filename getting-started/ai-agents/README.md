@@ -1,3 +1,7 @@
+---
+icon: user-robot
+---
+
 # AI Agents
 
 Build AI agents that use instructions, tools, and data to complete tasks in your apps and workflows.
