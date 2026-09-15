@@ -1,4 +1,12 @@
-# Connect Xano to Jet Admin
+---
+description: >-
+  This guide explains how to quickly connect Xano back-end to a Jet Admin
+  front-end.
+---
+
+# Xano
+
+Xano is the fastest way to build a powerful, scalable backend for your app without code. We will guide you how you can quickly connect Xano back-end to Jet Admin.
 
 [Create a new Project in Jet Admin](https://app.jetadmin.io/) if you don't have one. Choose Xano as a Data Source that you would like to connect.
 
@@ -24,4 +32,10 @@ Next, choose Data Sync, which allows you to do SQL queries, and blend and join d
 
 <figure><img src="https://images.surferseo.art/056b7503-9668-442f-9583-855187f6d9c8.png" alt=""><figcaption></figcaption></figure>
 
-<div><figure><img src="../../../../.gitbook/assets/image (31) (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>Copy authToken value to insert it in Jet Admin.</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (31) (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>Copy authToken value to insert it in Jet Admin.</p></figcaption></figure></div>
+
+#### Check out our Tutorials: How to build a Custom CRM using Xano
+
+{% embed url="https://blog.jetadmin.io/how-to-build-business-apps-for-your-xano-back-end-without-code/" %}
+
+{% embed url="https://www.youtube.com/watch?v=Es32vPZMO_k" %}

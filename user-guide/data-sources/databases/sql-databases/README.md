@@ -26,10 +26,10 @@ To connect a database with **Jet Admin**, choose a database from the list of ava
 ### Other data sources
 
 * [Supabase](../supabase.md)
-* [Airtable](../../business-apps/airtable.md)
+* [Airtable](../airtable.md)
 * [Google Sheets](../../../../classic-app-builder/videos/connecting-data-sources/google-sheet.md)
 * [Firebase](../firebase-firestore/firestore.md)
-* [Xano](../../apis/xano/)
+* [Xano](../xano.md)
 * BigQuery
 * [Snowflake](../snowflake.md)
 * [SmartSuite](../../business-apps/smartsuite.md)
