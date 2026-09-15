@@ -541,7 +541,7 @@
 
 ## Developer Reference
 
-* [Jet Admin API](developer-reference/jet-admin-api/README.md)
+* [API reference](developer-reference/jet-admin-api/README.md)
   * [Interacting with Jet Admin API](developer-reference/jet-admin-api/interacting-with-jet-admin-api/README.md)
     * [Get API Token](developer-reference/jet-admin-api/interacting-with-jet-admin-api/get-api-token.md)
   * [Users API](developer-reference/jet-admin-api/project-users.md)
