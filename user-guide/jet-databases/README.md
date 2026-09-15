@@ -59,23 +59,45 @@ To start with your own data:
 
 ## 4. Work with your table
 
-Once your table is created, use the data workspace to manage its structure and records:
+This walkthrough uses the **Tickets** template, populated with sample support tickets. To start with the same structure, choose **Tickets** in the template picker and select **Create**. If the table already exists, select **Tickets** under **Collections**.
 
-* **Left sidebar:** select and manage your tables.
-* **Table toolbar:** open the selected table's structure, field settings, and API options.
-* **Data grid:** view and edit records.
+### Explore the records
 
-<figure><img src="../../.gitbook/assets/table view.png" alt="Jet Tables data workspace showing the table sidebar, toolbar, and records grid"><figcaption><p>The data workspace provides access to tables, fields, and records.</p></figcaption></figure>
+Each row is a ticket, and each column is a field. The template includes **name**, **priority**, **status**, **Assigned to**, **description**, **Opened date**, and other fields.
 
-Edit the existing fields and add new fields to match the data your application needs.
+* Use the **Collections** sidebar to switch tables.
+* Use **Search data…**, **Filter**, and **Sort** above the grid to find and organize tickets.
+* Use **Hide fields** to focus on the columns you need.
 
-<figure><img src="../../.gitbook/assets/edit or add field.png" alt="Jet Tables grid showing controls for editing existing fields and adding fields"><figcaption><p>Adapt the table by editing or adding fields.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/04-tickets-table.png" alt="Tickets template populated with sample records, showing priority, status, assignee, and the table toolbar"><figcaption><p>The Tickets table displays sample records with colored priority and status values.</p></figcaption></figure>
+
+### Add a ticket
+
+1. Select **New Record** in the top-right corner.
+2. Select **Enable** beside each optional field you want to fill in.
+3. Enter the ticket details, such as **Name**, **Priority**, **Status**, and **Description**.
+4. Select **Create Tickets** to save the record.
+
+<figure><img src="../../.gitbook/assets/05-new-ticket.png" alt="New Record form for Tickets with optional fields, Enable controls, and Create Tickets button"><figcaption><p>Enable the fields you need, enter their values, and create the ticket.</p></figcaption></figure>
+
+### Add fields
+
+Select **Add field** at the right end of the column headers. The menu lets you:
+
+* **Add new field** to store another value on each ticket.
+* **Add computed field** to calculate a value.
+* **Lookup related field** or **Rollup related records** to use related data.
+* **Add AI autofill to field** to configure AI-assisted field values.
+
+Choose the option that matches your data, then complete its configuration.
+
+<figure><img src="../../.gitbook/assets/06-ticket-fields.png" alt="Add field menu showing new field, computed field, lookup, rollup, and AI autofill options"><figcaption><p>Extend the Tickets table using the Add field menu.</p></figcaption></figure>
 
 {% hint style="warning" %}
 The **id** field is the primary key: it uniquely identifies each record and cannot be changed or deleted.
 {% endhint %}
 
-For more about managing records, searching, filtering, and sorting, see the [Data guide](https://docs.jetadmin.io/user-guide/data). To work with records programmatically, see the [API reference](/broken/pages/-M2Ezm-MS-DTMS9hxOtE).
+For more about editing records, searching, filtering, and sorting, see the [Data guide](https://docs.jetadmin.io/user-guide/data). To work with records programmatically, see the [API reference](/broken/pages/-M2Ezm-MS-DTMS9hxOtE).
 
 ## Video walkthrough
 
