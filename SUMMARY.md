@@ -93,7 +93,7 @@
   * [Granola](getting-started/integrations/granola.md)
   * [Parallel](getting-started/integrations/parallel.md)
   * [Reducto](getting-started/integrations/reducto.md)
-* [⬇️ Migrating a project to Jet Admin](getting-started/migrating-a-project/README.md)
+* [Migrating a project to Jet Admin](getting-started/migrating-a-project/README.md)
   * [Salesforce](getting-started/migrating-a-project/salesforce.md)
   * [HubSpot](getting-started/migrating-a-project/hubspot.md)
   * [Shopify](getting-started/migrating-a-project/shopify.md)

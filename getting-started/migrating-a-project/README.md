@@ -3,9 +3,10 @@ description: >-
   Bring an existing Salesforce, HubSpot, Shopify, Stripe or Airtable project
   into Jet Admin — connect live to your data or sync it into Jet Tables, then
   build the app layer on top.
+icon: arrow-right-arrow-left
 ---
 
-# ⬇️ Migrating a project to Jet Admin
+# Migrating a project to Jet Admin
 
 Jet Admin connects to your existing systems and provides the interface, permissions, workflows, and agents your team uses. Your CRM, store, or base stays the system of record.
 
