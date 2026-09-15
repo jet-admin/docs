@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Welcome to Jet Admin](README.md)
-* [What’s New](whats-new/README.md)
-  * [What's New](https://app.gitbook.com/o/-LQ08RF9M1pw0T-3zBQH/s/8xy7P3kSppSd57K7pcpL/)
 * [FAQ and Troubleshooting](troubleshoot.md)
   * [A data resource is failing to sync](faq-and-troubleshooting/a-data-resource-is-failing-to-sync.md)
   * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)
@@ -542,8 +540,6 @@
 
 ## Developer Reference
 
-* [API reference](developer-reference/jet-admin-api/README.md)
-  * [API reference](https://app.gitbook.com/o/-LQ08RF9M1pw0T-3zBQH/s/XFsHhniyCGLWr64BOU1D/)
 * [MCP and integration reference](developer-reference/overview/README.md)
   * [MCP](developer-reference/overview/mcp/README.md)
     * [How to Use MCP Servers in JetAdmin](developer-reference/overview/mcp/how-to-use-mcp-servers-in-jetadmin.md)
