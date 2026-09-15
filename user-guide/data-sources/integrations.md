@@ -1,8 +1,9 @@
 ---
 description: Live chat and analytics services
+icon: code-simple
 ---
 
-# 🎇 Integrations
+# Integrations catalog
 
 Integrations enable your Jet application to link with crucial tools essential for your business. They enhance Jet's capabilities, including live chat and analytics services. Through these integrations, you can access robust, ready-to-use features quickly.
 

@@ -125,7 +125,7 @@
     * [Amazon S3 and S3 compatible storage](user-guide/data-sources/storage-and-files/amazon-s3.md)
     * [Google Cloud Storage](user-guide/data-sources/storage-and-files/google-cloud-storage.md)
     * [Supabase Storage](user-guide/data-sources/storage-and-files/supabase-storage.md)
-  * [🎇 Integrations catalog](user-guide/data-sources/integrations.md)
+  * [Integrations catalog](user-guide/data-sources/integrations.md)
 * [Manage app data](user-guide/data/README.md)
   * [New UI & UX](user-guide/data/new-ui-and-ux.md)
   * [Relations View](user-guide/data/relations-view.md)
