@@ -1,5 +1,5 @@
 ---
-icon: database
+icon: lightbulb
 ---
 
 # Choose where your data lives
