@@ -542,13 +542,7 @@
 ## Developer Reference
 
 * [API reference](developer-reference/jet-admin-api/README.md)
-  * [Interacting with Jet Admin API](developer-reference/jet-admin-api/interacting-with-jet-admin-api/README.md)
-    * [Get API Token](developer-reference/jet-admin-api/interacting-with-jet-admin-api/get-api-token.md)
-  * [Users API](developer-reference/jet-admin-api/project-users.md)
-  * [Teams API](developer-reference/jet-admin-api/project-teams.md)
-  * [Projects API](developer-reference/jet-admin-api/projects-api.md)
-  * [Pages API](developer-reference/jet-admin-api/pages-api.md)
-  * [HTTP requests API](developer-reference/jet-admin-api/http-requests-api.md)
+  * [API reference](https://app.gitbook.com/o/-LQ08RF9M1pw0T-3zBQH/s/XFsHhniyCGLWr64BOU1D/)
 * [MCP and integration reference](developer-reference/overview/README.md)
   * [MCP](developer-reference/overview/mcp/README.md)
     * [How to Use MCP Servers in JetAdmin](developer-reference/overview/mcp/how-to-use-mcp-servers-in-jetadmin.md)
