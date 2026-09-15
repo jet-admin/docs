@@ -11,9 +11,9 @@ icon: table
 
 <figure><img src="../../.gitbook/assets/image (3) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-`Data` helps you to connect, manage, and blend data from different [Data Sources](../../getting-started/integrations/). You can do different operations with your `Data`:
+`Data` helps you to connect, manage, and blend data from different [Data Sources](../data-sources/). You can do different operations with your `Data`:
 
-* Sync your data from different [Data Sources](../../getting-started/integrations/) (Database, Stripe, Zendesk, etc.)
+* Sync your data from different [Data Sources](../data-sources/) (Database, Stripe, Zendesk, etc.)
 * Adding [Computed Columns](computed-columns/): [Formula](computed-columns/formulas/), [Roll up](computed-columns/rollup-column.md), [Lookup](computed-columns/lookup-column.md)
 * Import, Export your Data to the Collection
 * Update Field Type

@@ -4,52 +4,18 @@ description: Build AI agents and govern AI-generated business apps on your exist
 
 # 👋 Welcome to Jet Admin
 
-Jet Admin helps teams build AI agents and govern AI-generated business apps on their existing data. Create internal tools and customer portals, use AI to generate components and data logic, and build agents that answer questions or carry out tasks across connected systems. Manage who can access your apps and what they can do.
+Build AI-generated business apps and agents on the data you already use, then govern who can access them and what they can do. Jet Admin’s Prompt Assistant can create an app from a description; refine it with prompts, visual editing, or code where your plan supports it.
 
-Connect to [200+ data sources](https://docs.jetadmin.io/user-guide/integrations), including databases, APIs, and business systems. Build the interface with visual components or generate custom components with AI. Add workflows and agents, then configure access and review changes before sharing the app.
+Connect [200+ data sources](https://www.jetadmin.io/integrations), from databases and APIs to business services. Build internal tools, dashboards, customer portals, workflows, and AI agents without moving every system into a new stack.
 
-## Choose your starting point
+## Start building
 
-| I want to…                              | Start here                                                                                   |
-| --------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Create my first app                     | [Create an app](https://docs.jetadmin.io/getting-started/create-an-app)                      |
-| Build an internal tool                  | [Internal tool quickstart](https://docs.jetadmin.io/getting-started/quickstart)              |
-| Create a customer portal                | [Customer portal guide](https://docs.jetadmin.io/getting-started/creating-a-customer-portal) |
-| Generate a custom interface component   | [AI custom components](https://docs.jetadmin.io/ai-custom-components)                        |
-| Build an AI agent                       | [Create your first agent](https://docs.jetadmin.io/agents/add-an-agent)                      |
-| Connect an existing CRM, store, or base | [Migration guides](https://docs.jetadmin.io/getting-started/migrating-a-project)             |
-| Manage app access                       | [Users and permissions](https://docs.jetadmin.io/user-guide/security-and-privacy)            |
+* [What can I build?](getting-started/what-can-i-build.md)
+* [Create an app with AI](ai-app-builder/create-an-app.md)
+* [Connect data sources](user-guide/data-sources/) or [start with Jet Databases](user-guide/jet-databases/)
+* [Add workflows](workflow/) and [build AI agents](ai-agents/)
+* [Set permissions](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) and [deploy](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/jet-bridge-deployment)
 
-## Build with AI on your business data
+For a short route through the main concepts, use [Getting Started](getting-started/start-here.md). Existing drag-and-drop apps are documented in [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).
 
-Connect a [data source](https://docs.jetadmin.io/user-guide/integrations) and build the pages your team needs. Combine tables, forms, charts, and detail views, or describe a custom component to AI and refine the result.
-
-[Ask AI](https://docs.jetadmin.io/ask-ai) generates SQL queries, API requests, and transformation scripts from natural-language instructions. Review the generated logic and test actions that change data before using them in production.
-
-Use [workflows](https://docs.jetadmin.io/user-guide/workflow) to automate processes with defined steps.
-
-## Build AI agents for your apps
-
-Create an [AI agent](https://docs.jetadmin.io/agents/add-an-agent) from scratch or start with a built-in template. Use agents for tasks that require reasoning or context, such as answering customer questions using data from multiple sources or coordinating work across connected systems.
-
-Add an Agent Chat component to let users interact with an agent inside your app, or run an agent through a workflow trigger. See the [Agents guide](https://docs.jetadmin.io/agents) for setup and configuration.
-
-## Govern how your apps are used
-
-### Set access for each team
-
-Configure [sign-in and SSO](https://docs.jetadmin.io/user-guide/security-and-privacy/sign-in-sign-up), then use [team and page permissions](https://docs.jetadmin.io/user-guide/security-and-privacy/create-and-manage-a-team) to control access. Set who can customize the interface, manage members, and view or edit records.
-
-### Review user and builder activity
-
-Use [audit logs](https://docs.jetadmin.io/user-guide/project-settings/audit-logs) to inspect recorded activity from app users and builders.
-
-### Test changes before releasing them
-
-Use [environments](https://docs.jetadmin.io/user-guide/project-settings/environments) to review and test app configurations before copying changes to production. Check which data sources and credentials your test environment uses.
-
-Enable [app versioning](https://docs.jetadmin.io/user-guide/version-control) to publish releases and restore a previous app state. Releases are available on paid plans.
-
-## Get help and follow updates
-
-Find answers in [FAQ and troubleshooting](https://docs.jetadmin.io/faq-and-troubleshooting), ask the [community](https://docs.jetadmin.io/join-the-community), or see [what's new](https://docs.jetadmin.io/whats-new).
+See [What's new](whats-new.md), [FAQ and Troubleshooting](troubleshoot.md), or [Join the Community](join-the-community.md) when you need help.

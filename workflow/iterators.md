@@ -45,7 +45,7 @@ Add an iterator and the steps that you want to iterate over to your workflow or 
 
 ### Iterator Settings
 
-<figure><img src="../../.gitbook/assets/image (941).png" alt=""><figcaption><p>Iterator settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (941).png" alt=""><figcaption><p>Iterator settings</p></figcaption></figure>
 
 Iterators can work in two modes: "[Load Data](iterators.md#load-data-type)" and "[Specify Iterate](iterators.md#specify-iterate-type)".
 
@@ -56,7 +56,7 @@ This type of iterator will get data to iterate from any resource that you have.&
 You can choose a resource, a collection and use filters to get the precise data you want to cycle through.
 
 {% hint style="info" %}
-Refer to the [resources article](../../getting-started/integrations/) to learn more about how resources work.
+Refer to the [resources article](../user-guide/data-sources/) to learn more about how resources work.
 {% endhint %}
 
 #### Specify Iterate Type
@@ -73,7 +73,7 @@ Refer to the [Inputs, Outputs, Parameters](inputs-outputs-parameters.md) article
 
 Let's create a button as a table header that will trigger a workflow which will iterate through a collection of customers that are filtered with a multiple select field of cities and send emails to them.
 
-<figure><img src="../../.gitbook/assets/image (940).png" alt=""><figcaption><p>A table with customers, multiple-select filter and button with a workflow action</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (940).png" alt=""><figcaption><p>A table with customers, multiple-select filter and button with a workflow action</p></figcaption></figure>
 
 ### Pre-requisites
 

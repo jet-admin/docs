@@ -4,7 +4,7 @@ description: Load and Query your data collection/record to your page
 
 # Load Data (Page Query)
 
-**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../getting-started/integrations/), [workflow](../../../getting-started/workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../user-guide/data-sources/), [workflow](../../../workflow/), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
 
 **Load Data** is ideal for scenarios where:
 

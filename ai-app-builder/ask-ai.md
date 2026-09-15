@@ -82,14 +82,14 @@ To get the most out of Ask AI, keep these tips in mind:
 The examples and tips above highlight some common ways to get started with Ask AI, but the feature’s potential goes far beyond these scenarios. Whether you want to generate custom scripts, automate complex data transformations, optimize queries, or integrate with diverse APIs, Ask AI can assist in a wide variety of tasks. Feel free to experiment and discover new ways Ask AI can simplify your workflows and solve unique challenges.
 {% endhint %}
 
-{% content-ref url="data/sql-query-builder.md" %}
-[sql-query-builder.md](data/sql-query-builder.md)
+{% content-ref url="../user-guide/data/sql-query-builder.md" %}
+[sql-query-builder.md](../user-guide/data/sql-query-builder.md)
 {% endcontent-ref %}
 
-{% content-ref url="data/api-builder/" %}
-[api-builder](data/api-builder/)
+{% content-ref url="../user-guide/data/api-builder/" %}
+[api-builder](../user-guide/data/api-builder/)
 {% endcontent-ref %}
 
-{% content-ref url="../getting-started/workflow/workflows-with-ai.md" %}
-[workflows-with-ai.md](../getting-started/workflow/workflows-with-ai.md)
+{% content-ref url="../workflow/workflows-with-ai.md" %}
+[workflows-with-ai.md](../workflow/workflows-with-ai.md)
 {% endcontent-ref %}

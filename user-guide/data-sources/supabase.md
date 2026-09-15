@@ -12,7 +12,7 @@ Using Supabase you can do the following:
 
 * Build application: admin panel, internal tool, customer portal, or dashboard
 * Manage your Supabase data: update, batch edit
-* Build [workflow or automation](../workflow/) on top of your database
+* Build [workflow or automation](../../workflow/) on top of your database
 
 To Integrate Jet with Supabase and build your first app, follow our guide:
 

@@ -6,27 +6,27 @@ Yes, your data is secure and is always stored by you, whether that be with your 
 \
 Jet Admin offers you the ability to [use Jet Tables](https://docs.jetadmin.io/user-guide/integrations/jet-tables), which is a PostgreSQL database hosted by Jet. Jet Tables, like other top-tier PostgreSQL databases, uses best practices to keep your data secure.  Using Jet Tables is the only case in which your data would be stored on Jet servers, but there is no difference between the way Jet Admin allows you to access data in Jet Tables and the way that Jet allows you to access your data in other PostgreSQL databases, so your data remains secure, regardless of which databases you choose to use. You can learn more about Jet Tables [here.](https://docs.jetadmin.io/user-guide/integrations/jet-tables)
 
-{% content-ref url="jet-bridge-deployment/cloud.md" %}
-[cloud.md](jet-bridge-deployment/cloud.md)
+{% content-ref url="../jet-bridge-deployment/cloud.md" %}
+[cloud.md](../jet-bridge-deployment/cloud.md)
 {% endcontent-ref %}
 
 Host Jet Bridge on your servers. You can place it behind your VPN, in your own VPC. We won’t get access to your data, however, you will still receive interfaces updates normally.
 
-{% content-ref url="jet-bridge-deployment/jet-admin/" %}
-[jet-admin](jet-bridge-deployment/jet-admin/)
+{% content-ref url="../jet-bridge-deployment/jet-admin/" %}
+[jet-admin](../jet-bridge-deployment/jet-admin/)
 {% endcontent-ref %}
 
 If your infrastructure doesn't have access to the internet, you can use on-premise on your own servers and block all network connections. You can place it behind your VPN, in your own VPC.
 
-{% content-ref url="jet-bridge-deployment/on-premise/" %}
-[on-premise](jet-bridge-deployment/on-premise/)
+{% content-ref url="../jet-bridge-deployment/on-premise/" %}
+[on-premise](../jet-bridge-deployment/on-premise/)
 {% endcontent-ref %}
 
 ## Built-in Security-Grade Features <a href="#built-in-security-grade-features" id="built-in-security-grade-features"></a>
 
 
 
-![](<.gitbook/assets/image (738).png>)
+![](<../.gitbook/assets/image (738).png>)
 
 ### Incident Recovery <a href="#incident-recovery" id="incident-recovery"></a>
 

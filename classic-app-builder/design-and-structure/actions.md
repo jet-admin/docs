@@ -48,7 +48,7 @@ There are a variety types of actions that are split into sections:&#x20;
 
 **Run workflow**
 
-* [**Run Workflow**](../../getting-started/workflow/). Fires a sequence of events.
+* [**Run Workflow**](../../workflow/). Fires a sequence of events.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

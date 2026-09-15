@@ -29,8 +29,8 @@ To be able to customize the Sign-in/Sign-up, you need to **set up a custom domai
 
 Learn how to set up a custom domain in the following article:
 
-{% content-ref url="../../user-guide/configuring-a-custom-domain.md" %}
-[configuring-a-custom-domain.md](../../user-guide/configuring-a-custom-domain.md)
+{% content-ref url="../../jet-bridge-deployment/configuring-a-custom-domain.md" %}
+[configuring-a-custom-domain.md](../../jet-bridge-deployment/configuring-a-custom-domain.md)
 {% endcontent-ref %}
 
 #### Appearance

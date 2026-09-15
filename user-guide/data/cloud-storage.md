@@ -12,15 +12,15 @@ Cloud Storage in Jet Admin allows you to integrate with the most popular provide
 
 We provide native integration with the following cloud storage solutions:
 
-{% content-ref url="../../getting-started/integrations/amazon-s3.md" %}
-[amazon-s3.md](../../getting-started/integrations/amazon-s3.md)
+{% content-ref url="../data-sources/amazon-s3.md" %}
+[amazon-s3.md](../data-sources/amazon-s3.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../getting-started/integrations/google-cloud-storage.md" %}
-[google-cloud-storage.md](../../getting-started/integrations/google-cloud-storage.md)
+{% content-ref url="../data-sources/google-cloud-storage.md" %}
+[google-cloud-storage.md](../data-sources/google-cloud-storage.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../getting-started/integrations/firebase-firestore/firebase-cloud-storage.md" %}
-[firebase-cloud-storage.md](../../getting-started/integrations/firebase-firestore/firebase-cloud-storage.md)
+{% content-ref url="../data-sources/firebase-firestore/firebase-cloud-storage.md" %}
+[firebase-cloud-storage.md](../data-sources/firebase-firestore/firebase-cloud-storage.md)
 {% endcontent-ref %}
 

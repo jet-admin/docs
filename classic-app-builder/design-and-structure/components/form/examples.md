@@ -107,6 +107,6 @@ Next, you need to apply filters, namely a data filter on the primary key (in our
 
 In most cases, you need to create a sequence of forms in which filling out one form should redirect the user to another form. See here for details:
 
-{% content-ref url="../../../../getting-started/workflow/actions-workflow.md" %}
-[actions-workflow.md](../../../../getting-started/workflow/actions-workflow.md)
+{% content-ref url="../../../../workflow/actions-workflow.md" %}
+[actions-workflow.md](../../../../workflow/actions-workflow.md)
 {% endcontent-ref %}

@@ -23,7 +23,7 @@ Jet syncs the following Salesforce objects:
 Jet Admin preserves relationships between these objects, so an Account resolves to its Contacts and Opportunities in the Data Editor.
 
 {% hint style="info" %}
-Custom objects aren't part of the standard sync. To access them, add a [REST API resource](../integrations/rest-api/) pointed at the Salesforce REST API alongside this one.
+Custom objects aren't part of the standard sync. To access them, add a [REST API resource](../../user-guide/data-sources/rest-api/) pointed at the Salesforce REST API alongside this one.
 {% endhint %}
 
 ## Before you start
