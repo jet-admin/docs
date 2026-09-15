@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Welcome to Jet Admin](README.md)
-* [What’s New](whats-new.md)
+* [What’s New](whats-new/README.md)
+  * [What's New](https://app.gitbook.com/o/-LQ08RF9M1pw0T-3zBQH/s/8xy7P3kSppSd57K7pcpL/)
 * [FAQ and Troubleshooting](troubleshoot.md)
   * [A data resource is failing to sync](faq-and-troubleshooting/a-data-resource-is-failing-to-sync.md)
   * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)

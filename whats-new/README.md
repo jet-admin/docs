@@ -21,22 +21,22 @@ This month’s builder updates focus on getting your app started and refining it
 
 Choose a starting template and build on its app structure. Updates to the generation flow help the assistant request a data connection and use the resource you’ve connected.
 
-<figure><img src=".gitbook/assets/whats-new-templates.webp" alt="Template selection"><figcaption><p>Template selection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-templates.webp" alt="Template selection"><figcaption><p>Template selection</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/whats-new-template-preview.webp" alt="HR Management template preview"><figcaption><p>HR Management template preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-template-preview.webp" alt="HR Management template preview"><figcaption><p>HR Management template preview</p></figcaption></figure>
 
 ### 🎨 Adjust your app’s appearance
 
 Use the theme editor to customize your app’s appearance as you build.
 
-<figure><img src=".gitbook/assets/whats-new-theme-editor.webp" alt="Theme editor"><figcaption><p>Theme editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-theme-editor.webp" alt="Theme editor"><figcaption><p>Theme editor</p></figcaption></figure>
 
 ### 🕓 Review changes before keeping them
 
 Inspect uncommitted changes in version history, create a saved version, or discard edits you don’t want to keep. This gives you a clearer point to review the work before continuing.
 
-{% content-ref url="ai-app-builder/overview.md" %}
-[overview.md](ai-app-builder/overview.md)
+{% content-ref url="../ai-app-builder/overview.md" %}
+[overview.md](../ai-app-builder/overview.md)
 {% endcontent-ref %}
 {% endupdate %}
 
@@ -51,9 +51,9 @@ The Jet Builder v3 beta work brings a responsive layout, a dark theme, and impro
 
 Use the responsive builder layout on smaller screens and switch to a dark theme. The responsive layout is an initial version.
 
-<figure><img src=".gitbook/assets/whats-new-dark-builder.webp" alt="Builder dark theme"><figcaption><p>Builder dark theme</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-dark-builder.webp" alt="Builder dark theme"><figcaption><p>Builder dark theme</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/whats-new-mobile-builder.webp" alt="Builder on mobile" width="300"><figcaption><p>Builder on mobile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-mobile-builder.webp" alt="Builder on mobile" width="300"><figcaption><p>Builder on mobile</p></figcaption></figure>
 
 ### 🔄 Reconnect and recover your session
 
@@ -67,12 +67,12 @@ Move between routes in the preview, inspect version changes, and open the workfl
 
 See the credits left while you build and access billing and upgrade options from the builder.
 
-{% content-ref url="ai-app-builder/overview.md" %}
-[overview.md](ai-app-builder/overview.md)
+{% content-ref url="../ai-app-builder/overview.md" %}
+[overview.md](../ai-app-builder/overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="account/credits-and-rate-limits/how-credits-work.md" %}
-[how-credits-work.md](account/credits-and-rate-limits/how-credits-work.md)
+{% content-ref url="../account/credits-and-rate-limits/how-credits-work.md" %}
+[how-credits-work.md](../account/credits-and-rate-limits/how-credits-work.md)
 {% endcontent-ref %}
 {% endupdate %}
 
@@ -87,9 +87,9 @@ July’s Jet Builder v3 work connects the app-building experience with data, per
 
 Select a page in the builder and inspect it in preview. Review the result as you refine the app, then use the publishing flow when it is ready to share.
 
-<figure><img src=".gitbook/assets/whats-new-page-selection.webp" alt="App page selection"><figcaption><p>App page selection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-page-selection.webp" alt="App page selection"><figcaption><p>App page selection</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/whats-new-publish.webp" alt="Publish controls"><figcaption><p>Publish controls</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-publish.webp" alt="Publish controls"><figcaption><p>Publish controls</p></figcaption></figure>
 
 ### 🔐 Work with users and permissions
 
@@ -103,12 +103,12 @@ Bring synced resources into the building flow and work with functions and trigge
 
 Confirmation prompts give you a point to review the assistant’s proposed action. Updated app navigation and user settings make it easier to move around the builder.
 
-{% content-ref url="ai-app-builder/overview.md" %}
-[overview.md](ai-app-builder/overview.md)
+{% content-ref url="../ai-app-builder/overview.md" %}
+[overview.md](../ai-app-builder/overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="workflow/triggers-steps-and-parameters/triggers.md" %}
-[triggers.md](workflow/triggers-steps-and-parameters/triggers.md)
+{% content-ref url="../workflow/triggers-steps-and-parameters/triggers.md" %}
+[triggers.md](../workflow/triggers-steps-and-parameters/triggers.md)
 {% endcontent-ref %}
 {% endupdate %}
 
@@ -123,7 +123,7 @@ June’s updates expand the tools you can connect and the project activity you c
 
 Audit logs cover changes to users and groups, resources, agents, workflows, environments, and project settings. Use the activity history when investigating how a project changed.
 
-<figure><img src=".gitbook/assets/whats-new-audit-log.webp" alt="Project activity trail"><figcaption><p>Project activity trail</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-audit-log.webp" alt="Project activity trail"><figcaption><p>Project activity trail</p></figcaption></figure>
 
 ### 🔌 Connect more of your tools
 
@@ -139,12 +139,12 @@ See field descriptions alongside inputs, enable optional fields, and explicitly 
 
 Suggested response options help you answer assistant questions. Updated message formatting makes quotes, tables, and tool responses easier to read. Jira triggers are also included in the integration updates.
 
-{% content-ref url="access-and-sharing/audit-logs-privacy-and-security/audit-logs.md" %}
-[audit-logs.md](access-and-sharing/audit-logs-privacy-and-security/audit-logs.md)
+{% content-ref url="../access-and-sharing/audit-logs-privacy-and-security/audit-logs.md" %}
+[audit-logs.md](../access-and-sharing/audit-logs-privacy-and-security/audit-logs.md)
 {% endcontent-ref %}
 
-{% content-ref url="workflow/triggers-steps-and-parameters/triggers.md" %}
-[triggers.md](workflow/triggers-steps-and-parameters/triggers.md)
+{% content-ref url="../workflow/triggers-steps-and-parameters/triggers.md" %}
+[triggers.md](../workflow/triggers-steps-and-parameters/triggers.md)
 {% endcontent-ref %}
 {% endupdate %}
 
@@ -159,7 +159,7 @@ Bring agents into your existing tools, give them relevant knowledge, and connect
 
 Give an agent an email address or connect it to an MCP-compatible client. An “Ask Agent” workflow step can send its reply back to an external channel.
 
-<figure><img src=".gitbook/assets/whats-new-mcp-connection.webp" alt="Connect an agent to an MCP client"><figcaption><p>Connect an agent to an MCP client</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-mcp-connection.webp" alt="Connect an agent to an MCP client"><figcaption><p>Connect an agent to an MCP client</p></figcaption></figure>
 
 ### 📚 Add knowledge from websites and text
 
@@ -173,30 +173,30 @@ Give agents additional capabilities with Agent Skills. Python support in Execute
 
 Open previews of PDFs, Word documents, spreadsheets, and HTML files directly in the conversation to review the result in context.
 
-<figure><img src=".gitbook/assets/whats-new-file-preview.webp" alt="Spreadsheet preview in an agent conversation" width="460"><figcaption><p>Spreadsheet preview in an agent conversation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-file-preview.webp" alt="Spreadsheet preview in an agent conversation" width="460"><figcaption><p>Spreadsheet preview in an agent conversation</p></figcaption></figure>
 
 ### ⚡ Run workflows when your data changes
 
 Use resource triggers to start workflows when connected records change. Resources with trigger support can also use automatic real-time sync, with updates for Attio, Asana, HubSpot, and Intercom.
 
-{% content-ref url="ai-agents/slack-telegram-email-and-mcp/using-agents-with-email.md" %}
-[using-agents-with-email.md](ai-agents/slack-telegram-email-and-mcp/using-agents-with-email.md)
+{% content-ref url="../ai-agents/slack-telegram-email-and-mcp/using-agents-with-email.md" %}
+[using-agents-with-email.md](../ai-agents/slack-telegram-email-and-mcp/using-agents-with-email.md)
 {% endcontent-ref %}
 
-{% content-ref url="ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md" %}
-[using-agents-with-mcp-clients.md](ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md)
+{% content-ref url="../ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md" %}
+[using-agents-with-mcp-clients.md](../ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md)
 {% endcontent-ref %}
 
-{% content-ref url="ai-agents/agent-templates/library.md" %}
-[library.md](ai-agents/agent-templates/library.md)
+{% content-ref url="../ai-agents/agent-templates/library.md" %}
+[library.md](../ai-agents/agent-templates/library.md)
 {% endcontent-ref %}
 
-{% content-ref url="ai-agents/instructions-tools-skills-files-and-models/agent-skills.md" %}
-[agent-skills.md](ai-agents/instructions-tools-skills-files-and-models/agent-skills.md)
+{% content-ref url="../ai-agents/instructions-tools-skills-files-and-models/agent-skills.md" %}
+[agent-skills.md](../ai-agents/instructions-tools-skills-files-and-models/agent-skills.md)
 {% endcontent-ref %}
 
-{% content-ref url="workflow/triggers-steps-and-parameters/triggers.md" %}
-[triggers.md](workflow/triggers-steps-and-parameters/triggers.md)
+{% content-ref url="../workflow/triggers-steps-and-parameters/triggers.md" %}
+[triggers.md](../workflow/triggers-steps-and-parameters/triggers.md)
 {% endcontent-ref %}
 {% endupdate %}
 
@@ -215,12 +215,12 @@ Check the current balance on the agent page and choose a credit tier in billing.
 
 Updated mobile layouts cover agent onboarding, conversations, billing, usage, and connecting resources.
 
-<figure><img src=".gitbook/assets/whats-new-agent-onboarding-mobile.webp" alt="Agent onboarding on mobile" width="300"><figcaption><p>Agent onboarding on mobile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-agent-onboarding-mobile.webp" alt="Agent onboarding on mobile" width="300"><figcaption><p>Agent onboarding on mobile</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/whats-new-agent-mobile.webp" alt="Agent conversation on mobile" width="300"><figcaption><p>Agent conversation on mobile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/whats-new-agent-mobile.webp" alt="Agent conversation on mobile" width="300"><figcaption><p>Agent conversation on mobile</p></figcaption></figure>
 
-{% content-ref url="account/credits-and-rate-limits/how-credits-work.md" %}
-[how-credits-work.md](account/credits-and-rate-limits/how-credits-work.md)
+{% content-ref url="../account/credits-and-rate-limits/how-credits-work.md" %}
+[how-credits-work.md](../account/credits-and-rate-limits/how-credits-work.md)
 {% endcontent-ref %}
 {% endupdate %}
 {% endupdates %}
