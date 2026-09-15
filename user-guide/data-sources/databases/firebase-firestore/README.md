@@ -1,5 +1,6 @@
 ---
 description: How to build business apps on top of Firebase data
+icon: fire-flame-curved
 ---
 
 # Firebase / Firestore

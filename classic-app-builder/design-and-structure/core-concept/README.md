@@ -1,2 +1,6 @@
-# 🦄 Core concept
+---
+icon: lightbulb
+---
+
+# Core concept
 

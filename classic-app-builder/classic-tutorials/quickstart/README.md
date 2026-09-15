@@ -1,8 +1,9 @@
 ---
 description: Get your first internal app up and running in under 10 minutes
+icon: screwdriver-wrench
 ---
 
-# 🛠️ Building an Internal Tool
+# Building an Internal Tool
 
 ### Custom CRM in 10 mins 🚀
 

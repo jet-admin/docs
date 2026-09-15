@@ -1,5 +1,6 @@
 ---
 description: In this section you will learn how to use Field Values
+icon: tags
 ---
 
 # Field Values
@@ -8,7 +9,7 @@ description: In this section you will learn how to use Field Values
 
 You can set a default value for any parameter for the value to be passed automatically:
 
-![](../../../../.gitbook/assets/testgif45.gif)
+![](../../../.gitbook/assets/testgif45.gif)
 
 Now when the user sends an email, he or she will not have to manually enter the `from email` parameter.
 

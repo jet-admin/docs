@@ -1,3 +1,7 @@
+---
+icon: key
+---
+
 # Authentication and SSO
 
 Decide how users sign in before granting access to pages or data. [Authentication](authentication/) covers sign-in options; [App SSO](sign-in-sign-up/) covers single sign-on for an app.

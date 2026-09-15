@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Databases
 
 Connect a database when the source already owns your app’s records. Check connection credentials, schema access, and read or write permissions before creating an app.

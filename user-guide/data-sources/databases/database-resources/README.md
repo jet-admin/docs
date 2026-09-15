@@ -1,5 +1,6 @@
 ---
 description: Connecting your database to Jet Admin.
+icon: database
 ---
 
 # Database resources

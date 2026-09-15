@@ -1,3 +1,7 @@
+---
+icon: bolt
+---
+
 # Triggers, steps, and parameters
 
 A workflow begins with a trigger, then runs steps using the inputs and outputs you define. Decide what starts the process before choosing actions that read or write connected data.

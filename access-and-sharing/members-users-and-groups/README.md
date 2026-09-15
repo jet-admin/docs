@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Members, users, and groups
 
 Give each person the access needed for their job. A member who builds an app, a staff user who operates it, and a customer who sees only their own records may need different roles.

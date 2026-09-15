@@ -3,6 +3,7 @@ description: >-
   The API Builder makes it simple to connect to external APIs, manage
   authentication, and preview responses. You can configure everything manually
   or let AI handle most of the setup for you.
+icon: wrench
 ---
 
 # API Builder

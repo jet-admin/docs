@@ -2,9 +2,10 @@
 description: >-
   Design in Figma, launch in Jet. Turn your static designs into clean,
   production-ready web apps with the Figma to Jet plugin.
+icon: file-import
 ---
 
-# 🖼 Import Figma Design
+# Import Figma Design
 
 {% embed url="https://www.youtube.com/watch?v=F5RYVPibse8" %}
 

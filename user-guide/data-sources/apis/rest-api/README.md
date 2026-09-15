@@ -1,5 +1,6 @@
 ---
 description: Connect Jet Admin to any REST API.
+icon: globe
 ---
 
 # Rest API

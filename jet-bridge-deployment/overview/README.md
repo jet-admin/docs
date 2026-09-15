@@ -1,3 +1,7 @@
+---
+icon: eye
+---
+
 # Preview, sharing, embedding, and custom domains
 
 Preview the app with a representative user before inviting anyone. Check the pages, connected records, actions, and access rules that matter most. For an AI build, follow [Preview and publish an AI app](../../ai-app-builder/test-and-publish/).

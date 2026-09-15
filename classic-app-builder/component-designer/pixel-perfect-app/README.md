@@ -1,8 +1,9 @@
 ---
 description: Design your first custom component from scratch using Component Designer
+icon: ruler-combined
 ---
 
-# 🎨 Pixel Perfect App
+# Pixel Perfect App
 
 To familiarize yourself with how `Customize with Designer` works, let's build a simple design:
 

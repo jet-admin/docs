@@ -1,5 +1,6 @@
 ---
 description: Detailed review of pages in Jet Admin.
+icon: paintbrush
 ---
 
 # Customizing Pages

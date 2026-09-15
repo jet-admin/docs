@@ -2,6 +2,7 @@
 description: >-
   Formulas may involve functions, numeric operations, logical operations, and
   text operations that operate on fields
+icon: square-root-variable
 ---
 
 # Formula

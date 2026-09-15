@@ -1,8 +1,9 @@
 ---
 description: Bind Components, Extract and Pass data throughout your App
+icon: link
 ---
 
-# 🔗 Binding, variables, actions, and JavaScript
+# Binding, variables, actions, and JavaScript
 
 Values allow you to extract and pass data to Pages, Components, Data Queries, and Workflows. Following use cases:
 

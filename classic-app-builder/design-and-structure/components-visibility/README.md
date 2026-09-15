@@ -1,8 +1,9 @@
 ---
 description: Hide or show things based on different conditions
+icon: code-branch
 ---
 
-# ℹ️ Conditionals
+# Conditionals
 
 Jet Admin allows you to use **conditional logic** in your app and apply it to UI components and dynamic values. There are several ways to implement it depending on the use case:
 

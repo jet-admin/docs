@@ -1,3 +1,7 @@
+---
+icon: users
+---
+
 # Build Apps Together
 
 In this section, we'll go over **specific apps**, building each use-case from scratch to the point when it's up and running.

@@ -1,3 +1,7 @@
+---
+icon: code
+---
+
 # APIs
 
 Use an API connection when data or actions are exposed by an HTTP, GraphQL, or MCP endpoint. Identify the base URL, authentication method, required parameters, and any limits set by the service.

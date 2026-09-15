@@ -1,3 +1,7 @@
+---
+icon: user-lock
+---
+
 # App and data permissions
 
 A user’s ability to sign in does not by itself define what they can see or change. Set page, component, action, and data rules for the intended role, then test them with that role’s account.

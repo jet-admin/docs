@@ -1,8 +1,9 @@
 ---
 description: Customized App Components Without Coding. Similar to Figma
+icon: pen-ruler
 ---
 
-# 🖍️ Component Designer and Figma
+# Component Designer and Figma
 
 Design custom pixel-perfect components using Component Designer. Enabled to create, design, and modify their components with various options: creating components, providing states, giving styles, intuitive event handlers, seamless data connections (REST, GraphQL & Beyond), direct Figma & Sketch Imports.
 

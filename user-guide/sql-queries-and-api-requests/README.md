@@ -1,3 +1,7 @@
+---
+icon: terminal
+---
+
 # SQL queries and API requests
 
 Use a query or request when a connected data source needs a custom read or action. Inspect the method, parameters, credentials, and expected result before attaching it to an app screen or workflow.

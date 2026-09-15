@@ -1,8 +1,9 @@
 ---
 description: A brief overview of design and structure.
+icon: layer-group
 ---
 
-# 🎨 Pages, components, and design
+# Pages, components, and design
 
 ### Customizing Pages
 

@@ -1,8 +1,9 @@
 ---
 description: Learn how to version apps or revert changes to a previous state.
+icon: code-branch
 ---
 
-# 🎚️ Version Control
+# Version Control
 
 By default, any changes made to a Jet app are automatically saved to the current working version and are immediately visible to all users. Enable app versioning or reverting back to a previous state.
 

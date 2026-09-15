@@ -1,3 +1,7 @@
+---
+icon: share-nodes
+---
+
 # Sharing your app
 
 In JetAdmin you can choose how users will access your application: **Invite by email** or **Public Access via link**.

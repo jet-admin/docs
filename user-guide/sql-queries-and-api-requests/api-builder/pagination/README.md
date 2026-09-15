@@ -1,5 +1,6 @@
 ---
 description: In this section you will learn how to apply pagination
+icon: list-ol
 ---
 
 # Pagination

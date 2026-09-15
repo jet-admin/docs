@@ -1,3 +1,7 @@
+---
+icon: calendar-days
+---
+
 # Schedules and webhooks
 
 A [scheduled workflow](scheduled-workflows.md) runs on a configured schedule. A [webhook](webhooks.md) starts a workflow after an external event. Choose the one that matches how the process should begin.

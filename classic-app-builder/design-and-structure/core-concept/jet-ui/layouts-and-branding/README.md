@@ -1,5 +1,6 @@
 ---
 description: Set up custom branding and configure the menu
+icon: gear
 ---
 
 # App settings

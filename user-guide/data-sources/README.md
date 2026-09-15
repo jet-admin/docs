@@ -1,6 +1,6 @@
 ---
 description: Connect databases, APIs, and business services to Jet Admin.
-icon: hard-drive
+icon: plug
 ---
 
 # Data Sources

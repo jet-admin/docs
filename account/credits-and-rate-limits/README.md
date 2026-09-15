@@ -1,3 +1,7 @@
+---
+icon: coins
+---
+
 # Credits & Rate Limits
 
 AI credits measure AI building usage; rate limits control how quickly a request can be made. They are different constraints.

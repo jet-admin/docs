@@ -1,3 +1,7 @@
+---
+icon: graduation-cap
+---
+
 # Classic tutorials: internal tool and customer portal
 
 These tutorials use the visual editor. Pick the one closest to the app you maintain or want to extend.

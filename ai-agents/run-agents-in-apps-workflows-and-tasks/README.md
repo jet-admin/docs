@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Run agents in apps, workflows, and automatic tasks
 
 Choose how the agent starts and what it can do in that context.

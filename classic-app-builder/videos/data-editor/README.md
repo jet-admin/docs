@@ -1,3 +1,7 @@
+---
+icon: table
+---
+
 # Data Editor
 
 **Data Editor** is a key part of the Jet Admin App Builder. Typically you end up in Data Editor right after you connect your data source(s).

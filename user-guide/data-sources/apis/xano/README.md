@@ -2,6 +2,7 @@
 description: >-
   This guide explains how to quickly connect Xano back-end to a Jet Admin
   front-end.
+icon: diagram-project
 ---
 
 # Xano

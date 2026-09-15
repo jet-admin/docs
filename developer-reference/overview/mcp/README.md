@@ -1,5 +1,6 @@
 ---
 description: The basics of MCP servers and how they function as bridges in JetAdmin.
+icon: robot
 ---
 
 # MCP

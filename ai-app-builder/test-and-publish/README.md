@@ -1,3 +1,7 @@
+---
+icon: rocket
+---
+
 # Test and publish
 
 Before sharing an AI-generated app, check the records it reads, the actions it can run, and the people who can use it.

@@ -1,3 +1,7 @@
+---
+icon: cloud
+---
+
 # Cloud, Jet Bridge, and on-premises deployment
 
 Choose the deployment model that matches where the app and its data must run. [Cloud](cloud.md), [Self-hosted Jet Bridge](jet-admin/), and [On-premise](on-premise/) have separate setup guides.

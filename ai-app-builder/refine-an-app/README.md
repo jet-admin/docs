@@ -1,3 +1,7 @@
+---
+icon: pen-to-square
+---
+
 # Refine an app
 
 A generated app is a first draft. Compare each page with the records users need, then adjust one piece of behavior at a time.

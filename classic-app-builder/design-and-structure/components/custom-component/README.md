@@ -1,5 +1,6 @@
 ---
 description: Build HTML/CSS/JS, React, Vue, Angular components
+icon: code
 ---
 
 # JavaScript component

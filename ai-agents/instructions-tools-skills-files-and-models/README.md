@@ -1,3 +1,7 @@
+---
+icon: sliders
+---
+
 # Instructions, tools, skills, files, and models
 
 Define what an agent may do before giving it access to a system.

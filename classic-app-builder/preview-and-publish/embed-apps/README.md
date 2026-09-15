@@ -1,5 +1,6 @@
 ---
 description: Embed your Apps to any website or tools
+icon: code
 ---
 
 # Embed Apps

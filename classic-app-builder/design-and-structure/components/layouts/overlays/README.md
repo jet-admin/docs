@@ -1,3 +1,7 @@
+---
+icon: clone
+---
+
 # Overlays
 
 Overlays, also known as Modals are windows — both large and small that “pop” onto the screen when an action is taken. Sometimes these come in the form of a warning (e.g. “Are you sure you want to delete that?”) and sometimes they can be in the form of something useful (e.g. clicking a "view details" button and seeing the specifics about an object).

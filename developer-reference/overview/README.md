@@ -1,3 +1,7 @@
+---
+icon: plug
+---
+
 # MCP and integration reference
 
 Use the [MCP integration guide](mcp/) when connecting tools and services through MCP. For ordinary data connections, start with [Data Sources](../../user-guide/data-sources/); for custom HTTP or SQL work, use [SQL queries and API requests](../../user-guide/sql-queries-and-api-requests/).

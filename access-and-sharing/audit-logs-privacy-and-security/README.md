@@ -1,3 +1,7 @@
+---
+icon: shield-halved
+---
+
 # Audit logs, privacy, and security
 
 Use logs to investigate what happened in an app, and review privacy and security requirements before connecting sensitive data.

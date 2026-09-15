@@ -1,8 +1,9 @@
 ---
 description: JetAdmin provides prebuilt agent templates to help you get started quickly.
+icon: copy
 ---
 
-# Agent Templates
+# Agent templates
 
 These templates cover common use cases and include ready-to-use instructions and configurations.
 

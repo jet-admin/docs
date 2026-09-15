@@ -1,3 +1,7 @@
+---
+icon: rectangle-list
+---
+
 # Form
 
 Submit a **Form** to perform actions with input data. The Form component provides a way for users to view and manipulate multiple data fields with their inputs. Upon submission, forms perform functions like creating (inserting) a new data record, updating an existing record, or [calling APIs](../../../../user-guide/sql-queries-and-api-requests/make-an-http-request.md).

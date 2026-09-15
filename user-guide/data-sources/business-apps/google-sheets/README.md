@@ -1,3 +1,7 @@
+---
+icon: table-cells
+---
+
 # Google Sheets
 
 **Google Sheets** is one of the most popular databases that is often also used as a user interface. Connecting Google Sheets to Jet Admin doesn't require any coding.&#x20;

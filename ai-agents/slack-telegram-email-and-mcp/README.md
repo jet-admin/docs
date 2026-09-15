@@ -1,3 +1,7 @@
+---
+icon: comments
+---
+
 # Slack, Telegram, Email, and MCP
 
 An external channel changes how requests reach an agent. Start with a tested agent, then connect the channel and verify who can invoke it and what data it may expose.

@@ -1,5 +1,6 @@
 ---
 description: Learn how to easily navigate Jet Admin
+icon: window-maximize
 ---
 
 # Jet UI

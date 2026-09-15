@@ -1,8 +1,9 @@
 ---
 description: In depth tutorials covering multiple topics
+icon: compass
 ---
 
-# 🤿  Deep dives
+# &#x20;Deep dives
 
 This part focuses on advanced Jet features such as **custom HTTP**, **SQL** queries, **conditional visibilit**y, and **related fields** (e.g. single relation). Let's start with the latter:
 

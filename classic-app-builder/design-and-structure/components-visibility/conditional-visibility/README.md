@@ -1,5 +1,6 @@
 ---
 description: In this section you will learn about Conditional Visibility
+icon: eye
 ---
 
 # Conditional Visibility

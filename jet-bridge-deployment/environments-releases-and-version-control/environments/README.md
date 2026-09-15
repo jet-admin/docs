@@ -1,5 +1,6 @@
 ---
 description: How Environments work in Jet Admin
+icon: layer-group
 ---
 
 # Environments

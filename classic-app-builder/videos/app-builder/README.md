@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # App Builder
 
 In this Crash Course section, we'll learn the fundamentals of the App builder.

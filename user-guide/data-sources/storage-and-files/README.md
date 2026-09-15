@@ -1,3 +1,7 @@
+---
+icon: folder-open
+---
+
 # Storage and files
 
 Choose a storage connector for files the app must upload, retrieve, or reference. Match the credential and storage permissions to the users who need access.

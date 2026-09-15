@@ -1,5 +1,6 @@
 ---
 description: In this section you will learn about the steps
+icon: list
 ---
 
 # Steps

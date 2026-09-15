@@ -1,3 +1,7 @@
+---
+icon: circle-check
+---
+
 # Approvals and workflows with AI
 
 Use an [approval workflow](task-approval.md) when a decision must happen before a record changes. Define who can approve, reject, and inspect the result.

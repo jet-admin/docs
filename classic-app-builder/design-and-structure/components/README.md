@@ -2,6 +2,7 @@
 description: >-
   Components are UI elements inside Jet Admin that can be used to visualize and
   interact with your data
+icon: shapes
 ---
 
 # Components
@@ -94,7 +95,7 @@ Look at this quick overview of the most commonly used components:
 
 Lists are UI components used for displaying your collections. You can display your data as `Table`, `Kanban`, `Map`, `Calendar`, `Gallery`, and `Timeline`.
 
-![](<../../../../.gitbook/assets/image (795).png>)
+![](<../../../.gitbook/assets/image (795).png>)
 
 {% content-ref url="lists/" %}
 [lists](lists/)
@@ -104,9 +105,9 @@ Lists are UI components used for displaying your collections. You can display yo
 
 `Charts` let you display your data in several ways: **line**, **bar**, **pie,** **doughnut**, and **single value**.
 
-![](<../../../../.gitbook/assets/image (798).png>)
+![](<../../../.gitbook/assets/image (798).png>)
 
-![](<../../../../.gitbook/assets/image (796).png>)
+![](<../../../.gitbook/assets/image (796).png>)
 
 {% content-ref url="charts/" %}
 [charts](charts/)
@@ -116,7 +117,7 @@ Lists are UI components used for displaying your collections. You can display yo
 
 To set descriptions, you can set different static text elements:
 
-![](<../../../../.gitbook/assets/image (860).png>)
+![](<../../../.gitbook/assets/image (860).png>)
 
 {% content-ref url="text.md" %}
 [text.md](text.md)
@@ -139,7 +140,7 @@ For adding Media & File Components, follow the steps:
 
 Buttons are used to execute actions. For example, you can create buttons to execute: Copy to a clipboard, Send an email, Open a link, Link to a page, and others.
 
-![](<../../../../.gitbook/assets/image (861).png>)
+![](<../../../.gitbook/assets/image (861).png>)
 
 {% content-ref url="buttons.md" %}
 [buttons.md](buttons.md)

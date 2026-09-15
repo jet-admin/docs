@@ -2,7 +2,7 @@
 description: >-
   Bring a table from another database and keep it up to date automatically. One
   source of truth, used in as many Jet Databases as you need.
-icon: cloud-arrow-up
+icon: arrows-rotate
 ---
 
 # Synced tables

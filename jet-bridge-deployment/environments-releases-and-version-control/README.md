@@ -1,3 +1,7 @@
+---
+icon: code-branch
+---
+
 # Environments, releases, and version control
 
 Keep testing separate from the app people use. [Environments](environments/) explains how to manage stages, and [Version Control](version-control/) covers tracked changes and recovery.

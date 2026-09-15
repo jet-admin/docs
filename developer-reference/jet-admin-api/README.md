@@ -1,8 +1,9 @@
 ---
 description: Easily access, add to and modify data stored in Jet Admin from outside apps
+icon: code
 ---
 
-# 🛫 Jet Admin API
+# Jet Admin API
 
 Jet Admin API makes extending your apps and accessing Jet Admin outside of the app easy. In just a few clicks, you can access lists of records and individual records, create new rows, or update/delete existing ones through a RESTful interface. Make working with data more efficient in no time!
 

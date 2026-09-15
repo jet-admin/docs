@@ -1,5 +1,6 @@
 ---
 description: In this section you will learn how to interact with Jet Admin API
+icon: terminal
 ---
 
 # Interacting with Jet Admin API

@@ -1,4 +1,8 @@
-# 🎓 Academy
+---
+icon: graduation-cap
+---
+
+# Academy
 
 In Jet Academy, you'll be able to learn both the fundamentals of Jet Admin and more advanced topics through a series of **short tutorial videos**.
 

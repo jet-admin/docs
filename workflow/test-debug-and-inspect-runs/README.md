@@ -1,3 +1,7 @@
+---
+icon: bug
+---
+
 # Test, debug, and inspect runs
 
 Run a workflow with safe input before relying on it. Check what triggered it, which parameters reached each step, and which records changed.

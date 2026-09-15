@@ -2,9 +2,10 @@
 description: >-
   Сomputed columns give you the ability to customize the values of column and
   implement computational processes using formulas.
+icon: calculator
 ---
 
-# 🔢 Computed Column
+# Computed Column
 
 Computed columns allow you to implement mathematical functions, concatenate column values, set logical conditions, generate random values, and more.&#x20;
 

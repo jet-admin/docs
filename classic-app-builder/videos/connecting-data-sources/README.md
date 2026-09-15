@@ -1,3 +1,7 @@
+---
+icon: plug
+---
+
 # Connecting Data Sources
 
 In this section, you'll learn how to connect your Data to Jet Admin.
