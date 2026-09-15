@@ -12,7 +12,7 @@ Give customers access to the records and actions relevant to them. Configure sig
 
 ## Workflows and AI agents
 
-Automate defined steps with [workflows](../workflow/). Build [AI agents](../ai-agents/) for tasks that need context, reasoning, or tools across connected systems.
+Automate defined steps with [workflows](../workflow/overview.md). Build [AI agents](../ai-agents/overview.md) for tasks that need context, reasoning, or tools across connected systems.
 
 ## Apps on your own data
 

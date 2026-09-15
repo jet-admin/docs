@@ -8,7 +8,7 @@ Iterators are a powerful tool in Jet Admin and can be implemented in both automa
 
 ## Iterator Use Cases
 
-Iterators can be created in [automations or workflows](./). You can add automation in the _Automation_ menu on the left, and workflows can be added to components in the _Actions_ menu of a given component.&#x20;
+Iterators can be created in [automations or workflows](overview.md). You can add automation in the _Automation_ menu on the left, and workflows can be added to components in the _Actions_ menu of a given component.&#x20;
 
 {% hint style="info" %}
 Workflows are activated by actions and can only be edited within the _Actions_ menu of the component they are applied to.

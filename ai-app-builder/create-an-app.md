@@ -27,7 +27,7 @@ Check generated pages against the source data. Confirm field labels, filters, fo
 
 ## 4. Add automation or an agent
 
-Use [workflows](../workflow/) for defined steps such as notifications or approvals. Use [AI agents](../ai-agents/) when the app needs to reason over context or coordinate actions across tools. Review generated logic and test write actions against test data.
+Use [workflows](../workflow/overview.md) for defined steps such as notifications or approvals. Use [AI agents](../ai-agents/overview.md) when the app needs to reason over context or coordinate actions across tools. Review generated logic and test write actions against test data.
 
 ## 5. Govern and share
 

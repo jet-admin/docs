@@ -1,4 +1,4 @@
-# Account
+# Overview
 
 Manage your plan and understand AI usage before building with a team.
 
@@ -8,6 +8,6 @@ Manage your plan and understand AI usage before building with a team.
 * [Rate Limits](rate-limits.md)
 * [Cancel Plan](cancel-plan.md)
 * [Refund Policy](refund-policy.md)
-* [Affiliate Programs](../affiliate-programs.md)
+* [Affiliate Programs](../affiliate-programs/overview.md)
 
 For current plan features and prices, use the [Jet Admin pricing page](https://www.jetadmin.io/pricing).

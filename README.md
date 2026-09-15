@@ -13,7 +13,7 @@ Connect [200+ data sources](https://www.jetadmin.io/integrations), from database
 * [What can I build?](getting-started/what-can-i-build.md)
 * [Create an app with AI](ai-app-builder/create-an-app.md)
 * [Connect data sources](user-guide/data-sources/) or [start with Jet Databases](user-guide/jet-databases/)
-* [Add workflows](workflow/) and [build AI agents](ai-agents/)
+* [Add workflows](workflow/overview.md) and [build AI agents](ai-agents/overview.md)
 * [Set permissions](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) and [deploy](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/jet-bridge-deployment)
 
 For a short route through the main concepts, use [Getting Started](getting-started/start-here.md). Existing drag-and-drop apps are documented in [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).
