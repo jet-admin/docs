@@ -62,7 +62,7 @@ Click the **More** icon on the resource, then **Sync Structure**. Accounts, Cont
 {% step %}
 #### Check the data
 
-Open each table in the [Data Editor](../../videos/data-editor/data-editor-interface.md) and check the records and field types before building your app.
+Open each table in the [Data Editor](../../classic-app-builder/videos/data-editor/data-editor-interface.md) and check the records and field types before building your app.
 {% endstep %}
 {% endstepper %}
 

@@ -29,11 +29,7 @@ To obtain your personal access token on [Airtable's Developer Hub](https://airta
 When creating a new 'personal access token', please make sure you choose the 'data.records:write' scope if you need to view, add, edit, and delete records on Jetadmin's side.
 {% endhint %}
 
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Connect Airtable to Jetadmin&#x20;
 
@@ -56,7 +52,7 @@ After that, you need to choose how you'd like your Airtable to be integrated wit
 
 If you want to be able to **combine your Airtable data** with data from other data sources, such as Firebase, Google Sheets, or even REST API within the same tables, you should choose the **"Sync" connection** for Google Sheets. You can learn more about it here:
 
-![](../../.gitbook/assets/ilhj.JPG)
+![](../../../.gitbook/assets/ilhj.JPG)
 
 After having connected your Airtable, you'll be prompted to choose pages you want Jet Admin to generate **an admin panel (CRUD pages)** for.&#x20;
 
@@ -66,7 +62,7 @@ On Airtable side, you can create different views for each table. Each view allow
 
 The image below will show you the differences between the main view and the filtered views:
 
-<figure><img src="../../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
 
 ### Switch Airtable's Views
 
@@ -77,4 +73,4 @@ To switch to other views for each table, follow the steps below:
 3. Select the needed views for each table
 4. Click 'Update resource'.
 
-<figure><img src="../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>

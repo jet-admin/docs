@@ -62,7 +62,7 @@ Click **More → Sync Structure**. The Stripe objects appear in the Data Editor.
 {% step %}
 #### Restrict write actions
 
-Before publishing your app, restrict refund and cancellation actions with [visibility rules](../../class-app-builder/components-visibility/) or team permissions so only the right people can trigger them.
+Before publishing your app, restrict refund and cancellation actions with [visibility rules](../../classic-app-builder/components-visibility/) or team permissions so only the right people can trigger them.
 {% endstep %}
 {% endstepper %}
 
