@@ -2,7 +2,7 @@
 description: Bind Components, Extract and Pass data throughout your App
 ---
 
-# 🔗 Binding & Values
+# 🔗 Binding, variables, actions, and JavaScript
 
 Values allow you to extract and pass data to Pages, Components, Data Queries, and Workflows. Following use cases:
 
@@ -10,12 +10,3 @@ Values allow you to extract and pass data to Pages, Components, Data Queries, an
 * Bind List component with Form component
 * To send an email, you need to specify such Values in a Send Email Action as the recipient's email, subject, and body.
 * Pass value from one Page to another
-
-{% content-ref url="binding-components.md" %}
-[binding-components.md](binding-components.md)
-{% endcontent-ref %}
-
-{% content-ref url="parameters.md" %}
-[parameters.md](parameters.md)
-{% endcontent-ref %}
-

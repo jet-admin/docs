@@ -5,7 +5,7 @@ description: >-
 icon: table
 ---
 
-# Managing app data
+# Manage app data
 
 {% embed url="https://www.youtube.com/watch?v=UfN2JYWSrD0&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=21&ab_channel=JetAdmin" %}
 
@@ -21,7 +21,7 @@ icon: table
 * Manage your Collection by Adding/Editing rows
 * Search, Filter, and Sorting your Collection Data
 * Define [Relations](computed-columns/relations.md) between Collections
-* Making [API requests](make-an-http-request.md) and [SQL queries](make-a-sql-query.md)
+* Making [API requests](../sql-queries-and-api-requests/make-an-http-request.md) and [SQL queries](../sql-queries-and-api-requests/make-a-sql-query.md)
 
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
 

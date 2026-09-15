@@ -1,10 +1,9 @@
-# Data & Integrations overview
+# Choose where your data lives
 
-Choose where app data lives, connect its source, and decide whether the app reads it directly or uses a maintained copy.
+Start with the records your app needs and who owns them. Jet Admin can read an existing database, API, or business service; store new tables in Jet Databases; or maintain a synchronized table from another source.
 
-* [Data Sources](data-sources/): connect databases, APIs, and business services.
-* [Jet Databases](jet-databases/): create and manage data inside Jet Admin.
-* [Synced tables](synced-tables/): refresh source tables into Jet Databases.
-* [Managing app data](data/): queries, collections, and app data.
+* **Existing source of truth:** connect it through [Data Sources](data-sources/). Check credentials, available records, and whether the app may write back.
+* **New app data:** use [Jet Databases](jet-databases/) for tables you create and manage in Jet Admin.
+* **A maintained copy:** use [Synced tables](synced-tables/) to bring a table from another source into Jet Databases and keep it refreshed. Review which system owns changes.
 
-After connecting data, [create an app with AI](../ai-app-builder/create-an-app.md).
+[Manage app data](data/) covers editing and relationships. For custom reads and updates, use [SQL queries and API requests](sql-queries-and-api-requests/). Before building an app, verify a few records and any write path with a safe account.

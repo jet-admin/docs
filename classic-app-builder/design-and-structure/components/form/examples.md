@@ -67,8 +67,8 @@ Now, unless the Customer name field is filled in, the user will not be able to f
 
 See here for more details on Conditional Visibility:
 
-{% content-ref url="../../../components-visibility/conditional-visibility/" %}
-[conditional-visibility](../../../components-visibility/conditional-visibility/)
+{% content-ref url="../../components-visibility/conditional-visibility/" %}
+[conditional-visibility](../../components-visibility/conditional-visibility/)
 {% endcontent-ref %}
 
 ### Example 5: Update the data of the selected row
@@ -107,6 +107,6 @@ Next, you need to apply filters, namely a data filter on the primary key (in our
 
 In most cases, you need to create a sequence of forms in which filling out one form should redirect the user to another form. See here for details:
 
-{% content-ref url="../../../../workflow/actions-workflow.md" %}
-[actions-workflow.md](../../../../workflow/actions-workflow.md)
+{% content-ref url="../../../../workflow/triggers-steps-and-parameters/actions-workflow.md" %}
+[actions-workflow.md](../../../../workflow/triggers-steps-and-parameters/actions-workflow.md)
 {% endcontent-ref %}

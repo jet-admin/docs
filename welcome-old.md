@@ -20,7 +20,7 @@ This **2-min video** will explain what Jet Admin is and what you can build with 
 3. [**Build App Interfaces**:](classic-app-builder/design-and-structure/components/) Drag and drop UI components (Tables, Forms, Charts, Details Images) onto Layouts (Modals, Columns, Tavs) and connect them to your data sources.
 4. [**Customize your app**](classic-app-builder/component-designer/): Design pixel-perfect components or use 50+ ready-to-use components from Marketplace.
 5. [**Automate your workflow**](workflow/overview.md): Create multi-sequence Automation with over 30+ automation blocks and trigger them by Webhook or Schedule jobs every minute, hour, day, or month.
-6. [**Publish and share your app**](classic-app-builder/core-concept/sharing-your-app/)
+6. [**Publish and share your app**](classic-app-builder/design-and-structure/core-concept/sharing-your-app/)
 
 ## Building a Portal?
 

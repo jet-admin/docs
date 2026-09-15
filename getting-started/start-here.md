@@ -1,12 +1,11 @@
-# Start here
+# Build your first app with AI
 
-Build your first Jet Admin app with AI, then follow the concept guides for the capabilities you need.
+Start with one task you can test. For example, build an order review app for support staff: show open orders, display customer details, and let a manager change a fulfillment status.
 
-* [What can I build?](what-can-i-build.md)
-* [Create an app with AI](../ai-app-builder/create-an-app.md)
-* [Connect data sources](../user-guide/data-sources/) or [start with Jet Databases](../user-guide/jet-databases/)
-* [Add a workflow](../workflow/overview.md) or [build an AI agent](../ai-agents/overview.md)
-* [Control access](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) and [deploy](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/jet-bridge-deployment)
-* [Migrate an existing project](migrating-a-project/)
+1. **Choose the data.** Connect [an existing source](../user-guide/data-sources/) or create tables in [Jet Databases](../user-guide/jet-databases/). Check table names, relationships, and a few sample records.
+2. **Describe the job.** In the Prompt Assistant, name the users, records, screens, filters, and actions. Ask for the smallest useful version first. See [Write your first prompt](../ai-app-builder/create-an-app/write-a-useful-prompt.md).
+3. **Inspect the result.** Compare generated pages and logic with your data. Confirm any query or action before it changes records.
+4. **Ask for a focused change.** Revise one screen or action at a time, then test again.
+5. **Check access and publish.** Try the app with a test account that has the intended role, then [preview and publish](../jet-bridge-deployment/overview/).
 
-Maintaining an older visual-builder app? See [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).
+If you already maintain a Classic app, read [Choose AI or Classic App Builder](choose-ai-or-classic-app-builder.md) first. For examples, see [What can I build?](what-can-i-build.md).

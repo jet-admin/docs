@@ -9,9 +9,9 @@ Connect the systems your app already uses. Jet Admin supports [200+ integrations
 
 ## Start with your source
 
-* [Database resources](database-resources/), including [MySQL](mysql.md)
-* [REST API](rest-api/) and [GraphQL](graphql.md)
-* [Airtable](airtable.md), [Salesforce](salesforce.md), [HubSpot](hubspot.md), and [Stripe](stripe.md)
-* [Firebase / Firestore](firebase-firestore/) and [Google Sheets](google-sheets/)
+* [Database resources](databases/database-resources/), including [MySQL](databases/mysql.md)
+* [REST API](apis/rest-api/) and [GraphQL](apis/graphql.md)
+* [Airtable](business-apps/airtable.md), [Salesforce](business-apps/salesforce.md), [HubSpot](business-apps/hubspot.md), and [Stripe](business-apps/stripe.md)
+* [Firebase / Firestore](databases/firebase-firestore/) and [Google Sheets](business-apps/google-sheets/)
 
-If you need a new table inside Jet Admin, start with [Jet Databases](../jet-databases/). To keep a copy of source data refreshed, see [Synced tables](../synced-tables/). After connecting data, [create an app with AI](../../ai-app-builder/create-an-app.md).
+If you need a new table inside Jet Admin, start with [Jet Databases](../jet-databases/). To keep a copy of source data refreshed, see [Synced tables](../synced-tables/). After connecting data, [create an app with AI](../../ai-app-builder/create-an-app/).

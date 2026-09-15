@@ -41,7 +41,7 @@ There are a variety types of actions that are split into sections:&#x20;
 
 ### Advanced
 
-* [**Set Variable**](../variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
+* [**Set Variable**](../binding-and-values/variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
 * [**Run JavaScript**](actions.md#run-javascript). Execute a JavaScript code.&#x20;
 * **Download File.** Download the file from the API call.
 * [Scan QR/Bar Code](components/qr-code.md). To scan a graphic code.

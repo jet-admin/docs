@@ -1,7 +1,11 @@
-# Overview
+# Prompt Assistant overview
 
-Build an app by describing the job you need it to do. Jet Admin’s Prompt Assistant can generate an app around connected data, and you can refine the result as you go.
+Prompt Assistant starts an app from a description of the task and connected data. It can create screens and logic, then help you revise the draft. Treat generated output as a proposal: inspect field mappings, write actions, and user access before using it with live records.
 
-Start with [Create an app](create-an-app.md). Then explore [data sources](../user-guide/data-sources/), [Jet Databases](../user-guide/jet-databases/), [workflows](../workflow/overview.md), and [AI agents](../ai-agents/overview.md).
+Follow the path that matches your task:
 
-The [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder) guides are for existing drag-and-drop apps.
+1. [Create an app](create-an-app/): define a first prompt, connect data, and inspect examples.
+2. [Refine an app](refine-an-app/): review generated pages, request a focused change, and ask AI for queries or transformations.
+3. [Test and publish](test-and-publish/): check actions and permissions, preview, and troubleshoot.
+
+Start with [Build your first app with AI](../getting-started/start-here.md). Existing drag-and-drop projects are covered in [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).

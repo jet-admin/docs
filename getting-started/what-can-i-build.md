@@ -1,19 +1,21 @@
 # What can I build?
 
-Jet Admin can turn connected business data into apps for teams or customers. Start with the work people need to complete, then add the screens, actions, and safeguards that support it.
+Jet Admin builds apps around the data and work your team already has. You can start with a prompt, connect existing records, and then add screens, actions, permissions, workflows, or agents as the job requires.
 
 ## Internal tools
 
-Build an operations dashboard, CRM, inventory console, approval app, or support workspace. Give people views and forms for the records they manage. See [Create an app with AI](../ai-app-builder/create-an-app.md).
+Give an operations or support team a workspace to search records, update statuses, and make decisions. An inventory console might show stock levels, let approved users change a quantity, and record the result.
 
 ## Customer portals
 
-Give customers access to the records and actions relevant to them. Configure sign-in and [permissions](../access-and-sharing/user-and-team-properties.md) before sharing. Existing visual-builder portal instructions are in [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).
+Let customers sign in to see their own orders, tickets, or account details. Start with the data they should see, then test [authentication and permissions](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) with a customer account before sharing.
 
-## Workflows and AI agents
+## Dashboards and approvals
 
-Automate defined steps with [workflows](../workflow/overview.md). Build [AI agents](../ai-agents/overview.md) for tasks that need context, reasoning, or tools across connected systems.
+Turn connected data into a dashboard for the measures people actually use. Add an [approval workflow](../workflow/approvals-and-workflows-with-ai/task-approval.md) when a change needs review before it takes effect.
 
-## Apps on your own data
+## AI agents
 
-Connect databases, APIs, and business services from [200+ integrations](https://www.jetadmin.io/integrations), or create tables in [Jet Databases](../user-guide/jet-databases/). Use [synced tables](../user-guide/synced-tables/) when you need a maintained copy of source data.
+An [agent](../ai-agents/overview/) can use instructions and tools to handle tasks that need context or several connected systems. Test its access and write actions before running it with real records.
+
+Jet Admin supports [200+ integrations](https://www.jetadmin.io/integrations), including databases, APIs, and business apps. You can also use [Jet Databases](../user-guide/jet-databases/). For a first build, pick one concrete task and follow [Build your first app with AI](start-here.md).

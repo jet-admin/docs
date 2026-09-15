@@ -6,14 +6,14 @@ description: >-
 icon: arrow-right-arrow-left
 ---
 
-# Migrating a project to Jet Admin
+# Migrate a project to Jet Admin
 
 Jet Admin connects to your existing systems and provides the interface, permissions, workflows, and agents your team uses. Your CRM, store, or base stays the system of record.
 
 You don't need to export data or cut over to a new system. Jet Admin keeps using your existing source, so there's no separate migration copy to maintain.
 
 {% hint style="info" %}
-If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../../classic-app-builder/quickstart-2.md) and connect your database directly. There's nothing to export.
+If you're rebuilding a prototype from another no-code app builder on your real data, start with [Quickstart](../../classic-app-builder/classic-tutorials/quickstart-2.md) and connect your database directly. There's nothing to export.
 {% endhint %}
 
 ## Choose how your data arrives
@@ -32,7 +32,7 @@ Sync connections are available for a limited number of integrations. If your sou
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Salesforce</strong></td><td>Accounts, Contacts, Opportunities via API key</td><td><a href="salesforce.md">salesforce.md</a></td></tr><tr><td><strong>HubSpot</strong></td><td>Contacts, Companies, Deals, Tickets via OAuth</td><td><a href="hubspot.md">hubspot.md</a></td></tr><tr><td><strong>Shopify</strong></td><td>Any Admin API object via a REST resource</td><td><a href="shopify.md">shopify.md</a></td></tr><tr><td><strong>Stripe</strong></td><td>Charges, invoices, subscriptions, and refunds</td><td><a href="stripe.md">stripe.md</a></td></tr><tr><td><strong>Airtable</strong></td><td>Any base, with generated CRUD pages</td><td><a href="airtable.md">airtable.md</a></td></tr></tbody></table>
 
-If your source isn't listed, any of the 50+ [data sources](../../user-guide/data-sources/) works the same way, and anything with an API can be connected as a [REST API](../../user-guide/data-sources/rest-api/) or [GraphQL](../../user-guide/data-sources/graphql.md) resource.
+If your source isn't listed, any of the 50+ [data sources](../../user-guide/data-sources/) works the same way, and anything with an API can be connected as a [REST API](../../user-guide/data-sources/apis/rest-api/) or [GraphQL](../../user-guide/data-sources/apis/graphql.md) resource.
 
 ## What each source brings in
 
@@ -54,11 +54,11 @@ Once connected, all sources use the same app-building tools:
 [synced-tables](../../user-guide/synced-tables/)
 {% endcontent-ref %}
 
-{% content-ref url="../../ai-agents/agents.md" %}
-[agents.md](../../ai-agents/agents.md)
+{% content-ref url="../../ai-agents/overview/agents.md" %}
+[agents.md](../../ai-agents/overview/agents.md)
 {% endcontent-ref %}
 
-For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../ai-agents/agents.md) so your team can ask questions about the blended data in plain language.
+For example, sync Salesforce and Stripe and blend accounts with invoices in one table. Build a table view and detail view, then add an [agent](../../ai-agents/overview/agents.md) so your team can ask questions about the blended data in plain language.
 
 ## Connection limits
 
@@ -119,7 +119,7 @@ Yes, with sync connections on both, using [360 Data / Data Blending](../../user-
 
 <summary>My source isn't listed. Can I still use it?</summary>
 
-Yes, if it has an API. Connect it as a [REST API](../../user-guide/data-sources/rest-api/) or [GraphQL](../../user-guide/data-sources/graphql.md) resource. [Ask AI](../../ai-app-builder/ask-ai.md) can generate the requests from a curl command or a link to the API's documentation.
+Yes, if it has an API. Connect it as a [REST API](../../user-guide/data-sources/apis/rest-api/) or [GraphQL](../../user-guide/data-sources/apis/graphql.md) resource. [Ask AI](../../ai-app-builder/refine-an-app/ask-ai.md) can generate the requests from a curl command or a link to the API's documentation.
 
 </details>
 

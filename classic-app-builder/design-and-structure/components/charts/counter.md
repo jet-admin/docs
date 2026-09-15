@@ -6,7 +6,7 @@ description: An overview of Single Value chart
 
 A Single Value chart is a type of data visualization that represents a single data point or value. It is typically used to display a specific numeric value or metric in a visually straightforward and concise manner. Single value charts are often employed in dashboards and reports to highlight key performance indicators (KPIs) or important metrics. You can also display a comparison and trend chart.
 
-![](<../../../../../.gitbook/assets/image (683).png>)
+![](<../../../../.gitbook/assets/image (683).png>)
 
 Single Value settings have three tabs: [General](counter.md#general), [Display](counter.md#display-tab), and [Actions](counter.md#actions-tab).
 
@@ -20,15 +20,15 @@ To set up a single value, you need to select your dataset and choose which data 
 
 Let’s build an example Single Value chart that will display gross revenue from orders for the last year. After selecting your data source, you can select various ways of displaying the data. In this example, we will select a Google Sheet resource, a Transactions table, and a sum of the field ‘Deal Amount’:
 
-<figure><img src="../../../../../.gitbook/assets/img1.png" alt=""><figcaption><p>Initial settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img1.png" alt=""><figcaption><p>Initial settings</p></figcaption></figure>
 
 You can apply Filters to your value and stack them. For our example, let us filter out by the date field and select the current year:
 
-<figure><img src="../../../../../.gitbook/assets/img2.png" alt=""><figcaption><p>Filtering by current year</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img2.png" alt=""><figcaption><p>Filtering by current year</p></figcaption></figure>
 
 <br>
 
-<figure><img src="../../../../../.gitbook/assets/img3.png" alt=""><figcaption><p>Plain Single Value</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img3.png" alt=""><figcaption><p>Plain Single Value</p></figcaption></figure>
 
 ### Setting up a comparison
 
@@ -36,19 +36,19 @@ Comparison lets you display a percentage change from the displayed value. To set
 
 For our example, let's select the same value similar to the in the [initial settings](counter.md#setup-the-value-to-display). but filter it by the previous year.
 
-<figure><img src="../../../../../.gitbook/assets/img4.png" alt=""><figcaption><p>Single Value with a comparison</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img4.png" alt=""><figcaption><p>Single Value with a comparison</p></figcaption></figure>
 
 ### Setting up a trend chart
 
 Trend chart will display the chart for an easier understanding of how your value changed over some period. To set it up, you would need to select the exact value that will be compared to your main value. For our example, let's select the same value as in the [initial settings](counter.md#setup-the-value-to-display), but group it by weeks, and filter it by the current year.
 
-<figure><img src="../../../../../.gitbook/assets/img5.png" alt=""><figcaption><p>Single value with a trend chart</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img5.png" alt=""><figcaption><p>Single value with a trend chart</p></figcaption></figure>
 
 ## Display tab
 
 On the display tab, you can set up the [format](counter.md#format) of your value, a [prefix and postfix](counter.md#prefix-and-postfix), an [additional icon](counter.md#icon), show a [reload button](counter.md#show-reload-button), set up [conditional visibility](counter.md#conditional-visibility), show a [tooltip](counter.md#tooltip), and set up the [spacing](counter.md#spacing).
 
-<figure><img src="../../../../../.gitbook/assets/img6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img6.png" alt=""><figcaption></figcaption></figure>
 
 ### Format
 
@@ -68,7 +68,7 @@ By enabling this, a reload button will be displayed on the right of your Single 
 
 ### Conditional visibility
 
-You can set up a formula for your Single Value conditional visibility here. Refer to [this page](../../../part-2-intermediate/conditional-visibility.md) on how to set it up.
+You can set up a formula for your Single Value conditional visibility here. Refer to [this page](../../../classic-tutorials/part-2-intermediate/conditional-visibility.md) on how to set it up.
 
 ### Tooltip
 
@@ -82,7 +82,7 @@ You can enter up to 4 values that will represent the number of pixels that your 
 
 You can set up an action that will be executed when the value is clicked.
 
-<figure><img src="../../../../../.gitbook/assets/img7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/img7.png" alt=""><figcaption></figcaption></figure>
 
 Refer to [this page](../../actions.md) on how to set up actions.
 

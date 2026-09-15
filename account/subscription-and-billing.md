@@ -8,4 +8,4 @@ Manage your plan in Jet Admin’s **Billing & Plans** settings. The current [pri
 
 Jet Admin currently prices AI building around plan credits. The pricing page says all plans include unlimited apps, users, and workflows, while plan tiers change credit allowance and available features.
 
-For how AI usage affects credits, see [How credits work](how-credits-work.md). To stop renewal, see [Cancel plan](cancel-plan.md).
+For how AI usage affects credits, see [How credits work](credits-and-rate-limits/how-credits-work.md). To stop renewal, see [Cancel plan](cancel-plan.md).
