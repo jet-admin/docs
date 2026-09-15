@@ -139,7 +139,7 @@
     * [Data Source Storage](user-guide/data/file-storage-and-uploading/data-source-storage.md)
   * [Cache Frequency](user-guide/data/cache-frequency.md)
   * [Many-to-many relationship](user-guide/data/many-to-many-relationship.md)
-  * [🌈 Basic Columns](user-guide/data/basic-columns.md)
+  * [Basic Columns](user-guide/data/basic-columns.md)
   * [Computed Column](user-guide/data/computed-columns/README.md)
     * [Relations](user-guide/data/computed-columns/relations.md)
     * [Rollup Column](user-guide/data/computed-columns/rollup-column.md)

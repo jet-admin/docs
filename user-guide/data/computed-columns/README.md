@@ -2,7 +2,6 @@
 description: >-
   Сomputed columns give you the ability to customize the values of column and
   implement computational processes using formulas.
-icon: calculator
 ---
 
 # Computed Column

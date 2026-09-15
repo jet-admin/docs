@@ -2,7 +2,7 @@
 description: Add and manage basic data like text, numbers, and images
 ---
 
-# 🌈 Basic Columns
+# Basic Columns
 
 Basic columns hold normal data values. There are different types of basic columns for each data type - like **Image**, **Text**, and **Number**.
 

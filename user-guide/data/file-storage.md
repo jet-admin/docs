@@ -1,6 +1,5 @@
 ---
 description: Access your storages and easily upload files using Jet
-icon: file-arrow-up
 ---
 
 # File Storage and Uploading
