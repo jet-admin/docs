@@ -1,3 +1,7 @@
+---
+icon: sitemap
+---
+
 # Explore core concepts
 
 Start with an app task, then open the guide for the capability you need:

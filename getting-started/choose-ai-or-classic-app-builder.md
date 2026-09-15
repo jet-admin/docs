@@ -1,3 +1,7 @@
+---
+icon: scale-balanced
+---
+
 # Choose AI or Classic App Builder
 
 **Prompt Assistant** is the starting point for a new app. Describe a task and the connected data, review what it builds, and request changes in plain language. Follow [Build your first app with AI](start-here.md).

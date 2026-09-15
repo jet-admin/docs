@@ -1,3 +1,7 @@
+---
+icon: comments
+---
+
 # Prompt Assistant overview
 
 Prompt Assistant starts an app from a description of the task and connected data. It can create screens and logic, then help you revise the draft. Treat generated output as a proposal: inspect field mappings, write actions, and user access before using it with live records.

@@ -1,3 +1,7 @@
+---
+icon: file-lines
+---
+
 # Logs and troubleshooting
 
 When a published app fails, identify whether the problem is the app, a data source, authentication, or the deployment service.

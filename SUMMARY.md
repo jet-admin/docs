@@ -1,9 +1,9 @@
 # Table of contents
 
-* [👋 Welcome to Jet Admin](README.md)
+* [Welcome to Jet Admin](README.md)
 * [What’s New](whats-new/README.md)
   * [📣 Product changelog](https://feedback.jetadmin.io/changelog)
-* [🐞 FAQ and Troubleshooting](troubleshoot.md)
+* [FAQ and Troubleshooting](troubleshoot.md)
   * [A data resource is failing to sync](faq-and-troubleshooting/a-data-resource-is-failing-to-sync.md)
   * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)
   * [How to clone the whole app?](faq-and-troubleshooting/how-to-clone-the-whole-app.md)
@@ -11,7 +11,7 @@
   * [How to restrict input in a text field?](faq-and-troubleshooting/how-to-restrict-input-in-a-text-field.md)
   * [Troubleshooting Django integration](faq-and-troubleshooting/troubleshooting-django-integration.md)
   * [How to Connect to Slack Channel](faq-and-troubleshooting/how-to-connect-to-slack-channel.md)
-* [🙌 Community](join-the-community.md)
+* [Community](join-the-community.md)
 
 ## Getting Started
 

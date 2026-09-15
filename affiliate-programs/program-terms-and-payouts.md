@@ -1,3 +1,7 @@
+---
+icon: file-contract
+---
+
 # Program terms and payouts
 
 Jet Admin’s [Refer & Earn page](https://www.jetadmin.io/affiliate-refer-earn) currently advertises 30% of a referred customer’s subscription fees in their first year. The public page does not state a payout schedule, minimum payout, or all eligibility details.

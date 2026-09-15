@@ -1,3 +1,7 @@
+---
+icon: wand-magic-sparkles
+---
+
 # Build your first app with AI
 
 Start with one task you can test. For example, build an order review app for support staff: show open orders, display customer details, and let a manager change a fulfillment status.

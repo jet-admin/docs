@@ -1,5 +1,6 @@
 ---
 description: Documentation updates and selected product release notes for Jet Admin.
+icon: bullhorn
 ---
 
 # What’s New

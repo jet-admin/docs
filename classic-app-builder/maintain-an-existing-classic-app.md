@@ -1,3 +1,7 @@
+---
+icon: screwdriver-wrench
+---
+
 # Maintain an existing Classic app
 
 Classic App Builder is the drag-and-drop editor for apps built in the visual workflow. Keep using these guides to fix a page, change a component, update bindings, or publish an existing project.

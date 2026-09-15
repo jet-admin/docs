@@ -1,3 +1,7 @@
+---
+icon: database
+---
+
 # Choose where your data lives
 
 Start with the records your app needs and who owns them. Jet Admin can read an existing database, API, or business service; store new tables in Jet Databases; or maintain a synchronized table from another source.

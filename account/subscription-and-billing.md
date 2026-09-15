@@ -1,5 +1,6 @@
 ---
 description: Jet Admin Billing Overview
+icon: credit-card
 ---
 
 # Subscription and Billing

@@ -1,3 +1,7 @@
+---
+icon: user-plus
+---
+
 # Join and manage referrals
 
 Open Jet Admin’s [Refer & Earn page](https://www.jetadmin.io/affiliate-refer-earn) and use its current application link. The page says affiliates sign up for a free account, receive a referral code, share it, and track earnings.

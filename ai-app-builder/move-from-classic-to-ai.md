@@ -1,3 +1,7 @@
+---
+icon: arrow-right-arrow-left
+---
+
 # Move from Classic to AI
 
 An existing Classic app may already contain useful data connections, roles, and business rules. Treat those as requirements for a new AI build rather than assuming the generated app will reproduce them automatically.

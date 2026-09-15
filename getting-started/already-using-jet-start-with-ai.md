@@ -1,3 +1,7 @@
+---
+icon: arrow-right-arrow-left
+---
+
 # Already using Jet? Start with the AI builder
 
 You can use the Prompt Assistant for a new app without rebuilding every Classic app. Start with a task that needs a new screen, process, or user flow, and decide which existing data and rules it depends on.

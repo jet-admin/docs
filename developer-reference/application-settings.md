@@ -1,3 +1,7 @@
+---
+icon: gear
+---
+
 # Application settings
 
 Settings depend on the app and deployment you maintain. Confirm the app environment before changing a setting that affects users.

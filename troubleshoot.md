@@ -1,4 +1,8 @@
-# 🐞 FAQ and Troubleshooting
+---
+icon: circle-question
+---
+
+# FAQ and Troubleshooting
 
 In this section, you'll be able to find answers to common questions as well as more advanced troubleshooting.
 

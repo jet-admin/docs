@@ -1,3 +1,7 @@
+---
+icon: shield
+---
+
 # Govern AI-generated apps
 
 An AI-generated app needs the same access and review as any production app. A prompt can create pages, queries, actions, workflows, or agent tools; inspect those outputs before users rely on them.

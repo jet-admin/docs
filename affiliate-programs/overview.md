@@ -1,3 +1,7 @@
+---
+icon: handshake
+---
+
 # Affiliate Program overview
 
 Jet Admin’s affiliate program is for people and organizations who refer new customers. The official [Refer & Earn page](https://www.jetadmin.io/affiliate-refer-earn) explains who can join, how referral codes work, and the currently advertised commission. Review its terms before sharing an offer.

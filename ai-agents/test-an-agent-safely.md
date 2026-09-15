@@ -1,3 +1,7 @@
+---
+icon: flask
+---
+
 # Test an agent safely
 
 Before an agent uses live data or external tools, run a controlled task with safe records and limited credentials.

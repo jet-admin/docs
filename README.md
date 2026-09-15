@@ -1,8 +1,9 @@
 ---
 description: Build AI agents and govern AI-generated business apps on your existing data.
+icon: house
 ---
 
-# 👋 Welcome to Jet Admin
+# Welcome to Jet Admin
 
 Build AI-generated business apps and agents on the data you already use, then govern who can access them and what they can do. Jet Admin’s Prompt Assistant can create an app from a description; refine it with prompts, visual editing, or code where your plan supports it.
 

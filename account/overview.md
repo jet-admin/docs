@@ -1,3 +1,7 @@
+---
+icon: user
+---
+
 # Account overview
 
 Manage your subscription, AI usage, and referral program from the account guides.

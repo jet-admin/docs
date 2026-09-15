@@ -1,3 +1,7 @@
+---
+icon: lightbulb
+---
+
 # What can I build?
 
 Jet Admin builds apps around the data and work your team already has. You can start with a prompt, connect existing records, and then add screens, actions, permissions, workflows, or agents as the job requires.
