@@ -16,9 +16,9 @@
 
 * [What can I build?](getting-started/what-can-i-build.md)
 * [Build your first app with AI](getting-started/start-here.md)
+* [Explore core concepts](getting-started/explore-core-concepts.md)
 * [Already using Jet? Start with the AI builder](getting-started/already-using-jet-start-with-ai.md)
 * [Choose AI or Classic App Builder](getting-started/choose-ai-or-classic-app-builder.md)
-* [Explore core concepts](getting-started/explore-core-concepts.md)
 * [How credits work → Account](account/credits-and-rate-limits/how-credits-work.md)
 * [Migrate a project to Jet Admin](getting-started/migrating-a-project/README.md)
   * [Salesforce](getting-started/migrating-a-project/salesforce.md)
