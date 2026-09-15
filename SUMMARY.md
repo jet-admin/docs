@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Welcome to Jet Admin](README.md)
-* [What’s New](whats-new/README.md)
-  * [📣 Product changelog](https://feedback.jetadmin.io/changelog)
+* [What’s New](whats-new.md)
 * [FAQ and Troubleshooting](troubleshoot.md)
   * [A data resource is failing to sync](faq-and-troubleshooting/a-data-resource-is-failing-to-sync.md)
   * [Data is not loading](faq-and-troubleshooting/data-is-not-loading.md)
