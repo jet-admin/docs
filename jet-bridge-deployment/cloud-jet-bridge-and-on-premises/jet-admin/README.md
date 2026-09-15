@@ -40,16 +40,16 @@ Web applications are accessible from any browser. Maintaining and updating this 
 
 Install **Jet Bridge** without additional software or web services on any server or local host. You will need to install **Python** dependencies and run the application manually.
 
-{% content-ref url="../../../user-guide/data-sources/databases/database-resources/python-app-installation.md" %}
-[python-app-installation.md](../../../user-guide/data-sources/databases/database-resources/python-app-installation.md)
+{% content-ref url="../../../user-guide/data-sources/databases/sql-databases/python-app-installation.md" %}
+[python-app-installation.md](../../../user-guide/data-sources/databases/sql-databases/python-app-installation.md)
 {% endcontent-ref %}
 
 ### Using Jet Bridge inside Docker
 
 Install **Jet Bridge** without the need to install any dependencies except the **Docker** application. May require additional network configuration for your OS.
 
-{% content-ref url="../../../user-guide/data-sources/databases/database-resources/docker-installation.md" %}
-[docker-installation.md](../../../user-guide/data-sources/databases/database-resources/docker-installation.md)
+{% content-ref url="../../../user-guide/data-sources/databases/sql-databases/docker-installation.md" %}
+[docker-installation.md](../../../user-guide/data-sources/databases/sql-databases/docker-installation.md)
 {% endcontent-ref %}
 
 ### Django framework

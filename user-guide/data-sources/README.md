@@ -9,7 +9,7 @@ Connect the systems your app already uses. Jet Admin supports [200+ integrations
 
 ## Start with your source
 
-* [Database resources](databases/database-resources/), including [MySQL](databases/mysql.md)
+* [Database resources](databases/sql-databases/), including [MySQL](databases/mysql.md)
 * [REST API](apis/rest-api/) and [GraphQL](apis/graphql.md)
 * [Airtable](business-apps/airtable.md), [Salesforce](business-apps/salesforce.md), [HubSpot](business-apps/hubspot.md), and [Stripe](business-apps/stripe.md)
 * [Firebase / Firestore](databases/firebase-firestore/) and [Google Sheets](business-apps/google-sheets/)

@@ -1,9 +1,9 @@
 ---
-description: Connecting your database to Jet Admin.
+description: Connect your PostgreSQL, MySQL, SQL Server and MariaDB databases to Jet apps.
 icon: database
 ---
 
-# Database resources
+# SQL Databases
 
 ## Connecting database as a resource
 
@@ -13,18 +13,17 @@ To connect a database with **Jet Admin**, choose a database from the list of ava
 
 ![We support 16 different databases](<../../../../.gitbook/assets/image (816).png>)
 
-### List of available databases:
+### SQL databases
 
-* Jet Tables (PostgreSQL hosted in Jet Admin Cloud)
 * PostgreSQL
 * MySQL
 * Microsoft SQL
 * MariaDB
-* SQLite (Instant Connection unavaliable)
+* SQLite
 * Oracle
 * AlloyDB
 
-### List of avaliable 3rd party databases:
+### Other data sources
 
 * [Supabase](../supabase.md)
 * [Airtable](../../business-apps/airtable.md)
@@ -43,11 +42,9 @@ After choosing a database, you'll need to choose set up method.
 Set up methods may vary depending on database you choose.
 {% endhint %}
 
-Use [instant cloud](instant-cloud.md) installation to connect Jet Admin with your public database directly (you won't be able to connect to localhost databases).&#x20;
+Use [instant cloud](instant-cloud.md) installation to connect Jet Admin with your public database directly (you won't be able to connect to localhost databases).
 
 We also provide [Jet Bridge](../../../../jet-bridge-deployment/cloud-jet-bridge-and-on-premises/jet-admin/) to manage data in case you want to add an extra layer of security for your sensitive data. It will connect to your database and link **Jet Admin** with your project. It will work even with your application on **localhost**. Use [Docker](docker-installation.md) or [Python](python-app-installation.md) Installation to deploy Jet Bridge.
-
-
 
 ![](<../../../../.gitbook/assets/image (817).png>)
 
@@ -81,9 +78,8 @@ You can use SHH to **safely integrate** with databases in Jet Admin, if database
 
 Using Database integration you can make simple or [SQL queries](../../../sql-queries-and-api-requests/make-a-sql-query.md) to your database to select the data and use it as virtual tables:
 
-{% @arcade/embed flowId="Fg2gqwiVIpsgGl7YNdlq" url="https://app.arcade.software/share/Fg2gqwiVIpsgGl7YNdlq" %}
+{% @arcade/embed url="https://app.arcade.software/share/Fg2gqwiVIpsgGl7YNdlq" flowId="Fg2gqwiVIpsgGl7YNdlq" %}
 
 {% content-ref url="../../../sql-queries-and-api-requests/make-a-sql-query.md" %}
 [make-a-sql-query.md](../../../sql-queries-and-api-requests/make-a-sql-query.md)
 {% endcontent-ref %}
-

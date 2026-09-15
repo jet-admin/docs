@@ -39,7 +39,7 @@ Choose a **Supabase** database from the list of available data sources in Jet Ad
 
 <figure><img src="../../../.gitbook/assets/123.jpg" alt=""><figcaption></figcaption></figure>
 
-The quickest way to integrate database is **Instant Connection** (**localhost** is not valid, use [**Docker**](database-resources/docker-installation.md) or [**Python**](database-resources/python-app-installation.md) integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
+The quickest way to integrate database is **Instant Connection** (**localhost** is not valid, use [**Docker**](sql-databases/docker-installation.md) or [**Python**](sql-databases/python-app-installation.md) integration instead). We encrypt all data and credentials that go through our servers using an HTTPS connection.
 
 You'll need to fill out the following form:
 

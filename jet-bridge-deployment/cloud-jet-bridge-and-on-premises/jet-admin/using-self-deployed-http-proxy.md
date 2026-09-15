@@ -14,12 +14,12 @@ Follow the instructions after you have created the **Jet Admin** **Rest API** re
 
 Use the following guides to install the **Jet Bridge** application as a standalone **Python application** or **Docker container.**
 
-{% content-ref url="../../../user-guide/data-sources/databases/database-resources/python-app-installation.md" %}
-[python-app-installation.md](../../../user-guide/data-sources/databases/database-resources/python-app-installation.md)
+{% content-ref url="../../../user-guide/data-sources/databases/sql-databases/python-app-installation.md" %}
+[python-app-installation.md](../../../user-guide/data-sources/databases/sql-databases/python-app-installation.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../user-guide/data-sources/databases/database-resources/docker-installation.md" %}
-[docker-installation.md](../../../user-guide/data-sources/databases/database-resources/docker-installation.md)
+{% content-ref url="../../../user-guide/data-sources/databases/sql-databases/docker-installation.md" %}
+[docker-installation.md](../../../user-guide/data-sources/databases/sql-databases/docker-installation.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
