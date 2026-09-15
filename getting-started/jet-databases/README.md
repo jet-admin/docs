@@ -1,8 +1,9 @@
 ---
 description: Jet Tables is a built-in sheets-like (SQL) database
+icon: database
 ---
 
-# Jet Tables
+# Jet Databases
 
 With **Jet Tables**, you can build apps more efficiently using a PostgreSQL database hosted by Jet, which doesn't require any setup time.
 
@@ -15,10 +16,10 @@ Using Jet Database, you can:
 * Making SQL queries
 * Multiple environments, including staging and production, can be used to manage the database
 
-<figure><img src="../../../.gitbook/assets/table view 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/table view 2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-You can also use data from Jet Tables to [merge it](../../../user-guide/data-blending.md) with data from other data sources, write custom SQL on top of it, and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
+You can also use data from Jet Tables to [merge it](../../user-guide/data-blending.md) with data from other data sources, write custom SQL on top of it, and access it through [the API](https://docs.jetadmin.io/user-guide/jet-admin-api#resources-api).
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=2rdWPCUiGd4&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=18&ab_channel=JetAdmin" %}
@@ -52,7 +53,7 @@ Then you'll be taken to the main data section. There are three main areas or par
 * **(2)** In the top part, you scope in onto the individual table that's been selected on the left. You can switch between the tabs to **change the structure**, and the **field types,** and access the **API**
 * **(3)** Here you can **manage the table's data**: add new records, change fields, and add new ones
 
-<figure><img src="../../../.gitbook/assets/table view.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/table view.png" alt=""><figcaption></figcaption></figure>
 
 Now, we'll look at how to manage the data inside of a particular table.
 
@@ -67,7 +68,7 @@ Now, to go from the dummy data to your own, there are two major paths:
 
 To **edit the data in the table** directly, you can edit the existing fields **(1)** and add new fields **(2)**
 
-<figure><img src="../../../.gitbook/assets/edit or add field.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/edit or add field.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Id** field (also referred to as "primary key"), can not be changed or deleted as it's used as a unique identifier of a record

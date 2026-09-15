@@ -1,8 +1,9 @@
 ---
 description: Introduction how to connect your resources
+icon: hard-drive
 ---
 
-# 🧰 Data Sources
+# Data Sources
 
 Jet Admin connects a lot of resources you need to build your internal tools. A few of our integrations:
 

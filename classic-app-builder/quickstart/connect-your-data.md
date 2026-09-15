@@ -1,8 +1,8 @@
 # Connect your Data
 
-Jet allows you to connect and sync with 50+ data sources: business apps (Airtable, Stripe, Zendesk), Data Warehouses, Internal and external REST or GraphQL APIs, and File Storage. Once a [data source](../../../getting-started/integrations/) is set up, you can utilize your data to create apps.
+Jet allows you to connect and sync with 50+ data sources: business apps (Airtable, Stripe, Zendesk), Data Warehouses, Internal and external REST or GraphQL APIs, and File Storage. Once a [data source](../../getting-started/integrations/) is set up, you can utilize your data to create apps.
 
-This guide focuses on using [Jet Table](../../../getting-started/integrations/jet-tables/) as the data source. Jet Table offers a quick and secure method for storing and modifying data specifically for Jet applications. It integrates the robustness of a PostgreSQL database with the user-friendly aspect of a spreadsheet interface, enabling efficient data management.
+This guide focuses on using [Jet Table](../../getting-started/jet-databases/) as the data source. Jet Table offers a quick and secure method for storing and modifying data specifically for Jet applications. It integrates the robustness of a PostgreSQL database with the user-friendly aspect of a spreadsheet interface, enabling efficient data management.
 
 To insert test data into the Jet Database, first download the following provided CSV files:
 

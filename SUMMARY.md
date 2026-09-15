@@ -17,13 +17,13 @@
 ## Getting Started
 
 * [Create an app](getting-started/create-an-app.md)
-* [🧰 Data Sources](getting-started/integrations/README.md)
+* [Jet Databases](getting-started/jet-databases/README.md)
+  * [Storage & Files](getting-started/jet-databases/storage-and-files.md)
+* [Data Sources](getting-started/integrations/README.md)
   * [Database resources](getting-started/integrations/database-resources/README.md)
     * [Instant Installation](getting-started/integrations/database-resources/instant-cloud.md)
     * [Docker Installation](getting-started/integrations/database-resources/docker-installation.md)
     * [Python app Installation](getting-started/integrations/database-resources/python-app-installation.md)
-  * [Jet Tables](getting-started/integrations/jet-tables/README.md)
-    * [Storage & Files](getting-started/integrations/jet-tables/storage-and-files.md)
   * [Rest API](getting-started/integrations/rest-api/README.md)
     * [Basic Authentication](getting-started/integrations/rest-api/basic-authentication.md)
     * [Bearer Token](getting-started/integrations/rest-api/bearer-token.md)
