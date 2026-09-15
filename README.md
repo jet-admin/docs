@@ -9,6 +9,8 @@ Build AI-generated business apps and agents on the data you already use, then go
 
 Connect [200+ data sources](https://www.jetadmin.io/integrations), from databases and APIs to business services. Build internal tools, dashboards, customer portals, workflows, and AI agents without moving every system into a new stack.
 
+<figure><img src=".gitbook/assets/image (1014).png" alt=""><figcaption></figcaption></figure>
+
 ## Start building
 
 * [What can I build?](getting-started/what-can-i-build.md)
