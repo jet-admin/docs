@@ -27,7 +27,7 @@ You handle the Data when you add a resource to your component. Collections are v
 
 ### Navigating Data Editor
 
-Start with [Navigate the Data Editor](navigate-the-data-editor.md) to open a table, arrange fields, and inspect cells. For files, see [Files & storage](../files-and-storage/).
+Start with [Navigate the Data Editor](new-ui-and-ux.md) to open a table, arrange fields, and inspect cells. For files, see [Files & storage](../data-sources/storage-and-files/).
 
 {% embed url="https://www.youtube.com/watch?v=0nRHFy6oPmw&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=25&ab_channel=JetAdmin" %}
 

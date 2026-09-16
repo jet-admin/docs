@@ -8,7 +8,7 @@ Use the Data Editor to access files in Jet Admin Storage or a connected storage 
 
 ## Before you start
 
-Use [Jet Admin Storage](jet-admin-storage.md), or [connect an external provider](connect-external-storage/). Some providers require additional setup before Jet Admin can access their files; follow the provider's connection guide.
+Use [Jet Admin Storage](file-storage-and-uploading/jet-admin-storage.md), or [connect an external provider](cloud-storage.md). Some providers require additional setup before Jet Admin can access their files; follow the provider's connection guide.
 
 ## Upload a file
 
@@ -17,11 +17,11 @@ Use [Jet Admin Storage](jet-admin-storage.md), or [connect an external provider]
 3. Select **Upload File** and choose a file.
 4. Check that the uploaded file appears in the selected storage.
 
-For Jet Admin Storage, you can also select **New Folder** to organize files. See [Jet Admin Storage](jet-admin-storage.md) for the walkthrough.
+For Jet Admin Storage, you can also select **New Folder** to organize files. See [Jet Admin Storage](file-storage-and-uploading/jet-admin-storage.md) for the walkthrough.
 
 ## Let app users upload files
 
-For the Classic App Builder, use a File Picker with **Save to Storage** as its output format. Follow [Configure resource storage and app uploads](configure-resource-storage.md) to select the destination storage.
+For the Classic App Builder, use a File Picker with **Save to Storage** as its output format. Follow [Configure resource storage and app uploads](file-storage-and-uploading/data-source-storage.md) to select the destination storage.
 
 ## Storage walkthrough
 

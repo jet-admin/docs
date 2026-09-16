@@ -15,7 +15,7 @@ Connect the systems your app already uses. Choose the source that owns your reco
 * [Spreadsheets & collaborative databases](spreadsheets-and-collaborative-databases/)
 * [Business apps](business-apps/)
 * [REST API and GraphQL](apis/)
-* [Files & storage](../files-and-storage/)
+* [Files & storage](storage-and-files/)
 
 If you need a new table inside Jet Admin, start with [Jet Databases](../jet-databases.md). To keep a copy of source data refreshed, see [Synced tables](../synced-tables/). After connecting data, [create an app with AI](../../ai-app-builder/create-an-app/).
 

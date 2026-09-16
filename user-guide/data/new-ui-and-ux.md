@@ -56,5 +56,5 @@ Follow [Multi-Editing and Bulk Actions](multi-editing-and-bulk-actions.md) for m
 * [Relations View](relations-view.md): explore related records.
 * [Computed Column](computed-columns/): calculate field values.
 * [AI Fields](ai-fields.md): work with AI-assisted fields.
-* [Sync schema changes](../synced-tables/sync-schema-changes.md): refresh missing tables or fields.
-* [Files & storage](../files-and-storage/): connect storage and manage files.
+* [Sync schema changes](../synced-tables/syncing-schema-and-data.md): refresh missing tables or fields.
+* [Files & storage](../data-sources/storage-and-files/): connect storage and manage files.

@@ -6,9 +6,9 @@ icon: briefcase
 
 Connect the services where your team manages customers, payments, support, tasks, or analytics. Each connector guide explains its setup and available data or actions.
 
-* [Salesforce](salesforce.md)
-* [HubSpot](hubspot.md)
-* [Stripe](stripe.md)
+* [Salesforce](../databases/salesforce.md)
+* [HubSpot](../databases/hubspot.md)
+* [Stripe](../databases/stripe.md)
 * [Zendesk](zendesk.md)
 * [Slack](slack-connections/)
 
