@@ -1,11 +1,29 @@
 # Preview and publish an AI app
 
-Preview the app as a user who will actually use it. Confirm the intended pages load, the data is correct, and actions obey the access rules. Use a safe dataset for operations that write to connected systems.
+Publish the app after checking its pages, data actions, and user access.
 
-1. Review the generated pages and logic after the last prompt revision.
-2. Test navigation, filters, forms, and actions with representative records.
-3. Verify authentication and permissions with test accounts. Check customer record isolation if this is a portal.
-4. Choose a test or production [environment](../../jet-bridge-deployment/environments-releases-and-version-control/environments/), according to how your team releases apps.
-5. Publish, then repeat the critical checks in the published app before inviting a wider audience.
+## Before publishing
 
-For custom domains, cloud or self-hosted deployment, and later releases, see [Publish & Deploy](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/jet-bridge-deployment). If a prompt revision failed, use [Troubleshoot the Prompt Assistant](troubleshoot-the-prompt-assistant.md).
+Complete [data and access tests](check-data-actions-and-user-access.md). Inspect [Desktop, Tablet, and Mobile](../preview-and-troubleshoot/control-app-preview.md) and confirm the app works for an invited user. Resolve relevant Console errors.
+
+## Publish
+
+1. Open the project and environment you intend to release.
+2. Review the app after the last generated or manual change.
+3. Click **Publish** in the builder's top toolbar.
+4. Review the publishing options shown for your project and complete the publish flow.
+5. Open the published app at its configured address.
+
+For environment configuration, domains, and deployment choices, follow [Publish & Deploy](../../jet-bridge-deployment/overview/).
+
+## Check the published app
+
+Sign in as a representative user. Open the critical pages and repeat the main task with test records. Verify the source result of a write action and check a restricted user is still denied.
+
+A successful Preview check is useful evidence, but the published app must also be checked with its actual configuration.
+
+## If publication or verification fails
+
+Capture the error, environment, app URL, and time. Determine whether the problem is publishing, loading, data access, or an action before changing the app.
+
+Use [Console and logs](../preview-and-troubleshoot/inspect-app-console-and-logs.md) for Preview diagnostics and [troubleshooting](../preview-and-troubleshoot/troubleshoot-the-prompt-assistant.md) for a failed generation or revision.

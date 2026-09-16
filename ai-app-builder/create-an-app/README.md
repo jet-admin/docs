@@ -7,30 +7,14 @@ icon: cube
 
 # Create an app
 
-Jet Admin’s Prompt Assistant helps you build an app on your existing data. Start with one useful task, inspect the generated app, then refine it before inviting users.
+Start with one useful job and a small dataset. Build the first version, check its behavior, and then add capabilities.
 
-## 1. Define the task and connect data
+1. Follow [Build your first app with AI](../../getting-started/start-here.md) for a complete ticket-list example.
+2. [Connect existing data](connect-existing-data.md) or prepare tables in Jet Databases.
+3. [Select the resource for the assistant](../ai-assistant/select-data-sources.md).
+4. [Write your first prompt](write-a-useful-prompt.md) with the users, fields, screens, and actions.
+5. [Review the generated pages and logic](../refine-an-app/review-and-refine.md).
 
-Choose the people who will use the app, the records they need, and the actions they should be able to take. Connect an existing data source, or use Jet Databases to start with new tables. Jet Admin supports [200+ integrations](https://www.jetadmin.io/integrations).
+Use [Example apps and prompts](example-apps-and-prompts.md) for other starting points. Add automation after the basic app works, using a defined [workflow](../../workflow/overview.md) for repeatable steps or an AI agent for tasks that require reasoning over context.
 
-## 2. Describe the app
-
-Tell Prompt Assistant what to build, using the connected tables and their actual field names. For example:
-
-> Build a customer operations app. Show customers in a searchable table with a detail page. Let account managers update status and owner. Add a dashboard that counts active customers by owner.
-
-Include the users, screens, filters, and write actions. Ask for one workflow at a time so each result is easy to inspect.
-
-## 3. Review and refine
-
-Check generated pages against the source data. Confirm field labels, filters, forms, and actions. Continue prompting for changes, or adjust the generated interface in the builder. For queries and API requests, see Ask AI.
-
-## 4. Add automation or an agent
-
-Use workflows for defined steps such as notifications or approvals. Use AI agents when the app needs to reason over context or coordinate actions across tools. Review generated logic and test write actions against test data.
-
-## 5. Govern and share
-
-Configure authentication and granular permissions for the intended users. Preview the app as a test user, verify the records and actions, and inspect audit logs when needed. Then follow the publishing guide appropriate to your app.
-
-If you maintain an existing drag-and-drop app, use the Classic App Builder guides.
+Before sharing the app, [test data actions and user access](../test-and-publish/).

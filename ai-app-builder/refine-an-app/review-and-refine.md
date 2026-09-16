@@ -1,11 +1,30 @@
 # Review generated pages and logic
 
-Use the generated app as a first draft. Check each screen against the records and tasks the app is meant to support.
+Treat the generated app as a draft to check against the job you described.
 
-1. Confirm connected data and field names.
-2. Test filters, forms, and actions with test records.
-3. Check page and record access as a user with the intended permissions.
-4. Inspect generated queries, API calls, workflows, and agent tools before running write actions.
-5. Refine one issue at a time with a prompt, or adjust the app in the visual editor.
+## Review a page
 
-For generated queries and transformations, use Ask AI. For access rules, see Granular Permissions. For deployment and test environments, see Environments.
+1. [Open the page in Preview](select-a-page.md).
+2. Compare its labels and fields with the source schema.
+3. Match one displayed record to the source record.
+4. Test filters, search, sorting, and detail navigation.
+5. Test an empty result and a record with missing optional fields.
+
+## Review actions and logic
+
+For an action, identify its inputs, destination, and expected result. Inspect any generated query, API call, workflow, or transformation before testing a write.
+
+For example, an assignment action should update the selected ticket's Assigned to field, not every ticket or an unrelated field.
+
+## Record the result
+
+| Check                          | Expected result                              |
+| ------------------------------ | -------------------------------------------- |
+| Status filter set to Open      | Only Open tickets appear.                    |
+| Search for a ticket name       | The matching ticket remains.                 |
+| Open ticket details            | The values match the selected source record. |
+| Restricted user opens the page | Access matches the configured rules.         |
+
+Use [a focused change request](request-focused-changes.md) for each failed check. Repeat the check after the revision.
+
+Next: [Test data actions and user access](../test-and-publish/check-data-actions-and-user-access.md).

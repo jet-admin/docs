@@ -1,11 +1,33 @@
-# Check data actions and user access
+# Test data actions and user access
 
-Use test records and representative accounts to verify an app before it changes live data.
+Use known test records and representative users to verify the app before sharing it.
 
-1. Confirm each page reads the expected source, fields, and records. Test empty and error states as well as a normal record.
-2. Run queries and transformations with safe inputs. Inspect the request method, destination, credentials, and result of any write action.
-3. Try each role: a builder, a staff member, and an end user if the app is a portal. Confirm restricted pages, actions, and records stay restricted.
-4. Test workflows and agent tools with the same access expectations. For an approval, check both approval and rejection paths.
-5. Record what failed, revise only that behavior, and repeat the test.
+## Prepare the checks
 
-Use [Granular Permissions](../../access-and-sharing/app-and-data-permissions/user-and-team-properties.md) for detailed rules and [Audit logs](../../access-and-sharing/audit-logs-privacy-and-security/audit-logs.md) to inspect relevant activity. Continue with [Preview and publish an AI app](preview-and-publish-an-ai-app.md).
+Create a record that can safely be changed and record its initial values. Identify at least one allowed user and one user who should be denied the action.
+
+## Test a write action
+
+1. Open the intended record in Preview.
+2. Enter a recognizable test value.
+3. Run the action once.
+4. Confirm the UI shows success or an actionable error.
+5. Inspect the source record to confirm exactly what changed.
+6. Check an unrelated record remains unchanged.
+
+If the response is unclear, inspect the source before retrying. A missing success message does not prove the write failed.
+
+## Test access
+
+Use [user preview](../preview-and-troubleshoot/preview-as-an-invited-user.md) to inspect pages and records. Then sign in with representative test accounts and verify access to the same data and actions.
+
+| Scenario                                | Expected result                                      |
+| --------------------------------------- | ---------------------------------------------------- |
+| Staff updates an allowed ticket         | Only permitted fields on the selected record change. |
+| A restricted user tries the same action | The operation is denied.                             |
+| Customer A requests Customer B's record | The record is not exposed.                           |
+| Invalid input is submitted              | No unintended record is created or changed.          |
+
+For workflows, test the full run, including rejection or failure paths. Use [App and data permissions](../../access-and-sharing/app-and-data-permissions/) for rule configuration.
+
+Next: [Preview and publish an AI app](preview-and-publish-an-ai-app.md).

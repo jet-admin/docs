@@ -2,12 +2,13 @@
 icon: pen-to-square
 ---
 
-# Refine an app
+# Navigate and edit your app
 
-A generated app is a first draft. Compare each page with the records users need, then adjust one piece of behavior at a time.
+Refine the generated app in small, testable steps.
 
-* [Review generated pages and logic](review-and-refine.md) checks fields, filters, forms, and actions.
-* Request focused changes gives examples of prompts that change a single screen or flow.
-* [Ask AI for queries and transformations](ask-ai.md) helps with SQL, API calls, and data processing.
+1. [Select a page](select-a-page.md) to inspect.
+2. [Review generated pages and logic](review-and-refine.md) against your source records.
+3. [Request a focused change](request-focused-changes.md) in chat, or [select a component directly in Preview](edit-components-in-preview.md).
+4. Test the changed behavior before requesting the next revision.
 
-For write actions and role-sensitive views, use test data and a representative user before you [publish](../../jet-bridge-deployment/overview/).
+For app-wide appearance, use [Themes and appearance](../themes-and-appearance/). For queries, APIs, or data transformations, use [Ask AI for queries and transformations](ask-ai.md).

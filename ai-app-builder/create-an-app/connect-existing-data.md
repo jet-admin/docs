@@ -1,11 +1,25 @@
 # Connect existing data
 
-Before prompting for an app, connect the data it will use. You can use a database, an API, a business app, or a table in [Jet Databases](../../user-guide/jet-databases/).
+Connect a database, API, business application, or Jet Database before asking the assistant to build on its records.
 
-1. Pick the source of truth for the records the app must read or change. See Choose where your data lives.
-2. Follow its [Data Sources](../../user-guide/data-sources/) guide to connect it. Check authentication and the scope of the credential.
-3. Inspect the schema and a few sample records. Identify the table names, relationships, and fields you want shown in the app.
-4. In your first prompt, name those actual sources and what users may do. Avoid asking for a write action until you know which source and account it will use.
-5. Test a read and a safe update before sharing the app.
+## Connect and inspect
 
-If an external table should be kept up to date inside Jet Databases, read [Synced tables](../../user-guide/synced-tables/). For queries and API requests, start with SQL queries and API requests.
+1. Choose the source of truth for your records.
+2. Open **Data** and follow the relevant [Data Sources guide](../../user-guide/data-sources/).
+3. Check authentication and the access granted to the connection.
+4. Inspect the tables, field types, relationships, and sample records.
+5. Open the assistant and [select the connected resource](../ai-assistant/select-data-sources.md).
+
+Connection setup makes the source available to the project. Resource selection tells the assistant which connected source to use for the task.
+
+## Example: Tickets and Customers
+
+Identify which Tickets field refers to a customer and which Customers field is its identifier. Use those exact names in your prompt rather than asking the assistant to guess a relationship.
+
+Start with a read-only request and compare a displayed record with the source. Add a write action only after confirming which source and account will receive it.
+
+## If data is missing
+
+Check the source connection in Data, the credential's scope, and whether the schema includes the field you named. For a synchronized table, check its synchronization status and settings.
+
+Next: [Write your first prompt](write-a-useful-prompt.md).

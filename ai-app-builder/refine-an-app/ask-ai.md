@@ -7,11 +7,11 @@ icon: brain-circuit
 
 # Ask AI for queries and transformations
 
-The Ask AI feature converts plain text instructions into working API requests, SQL queries, transformation scripts, and a variety of other outputs. It saves time, reduces errors, and delivers clean, usable results, all without the need to remember complex syntax.
+The Ask AI feature converts plain text instructions into working API requests, SQL queries, transformation scripts, and a variety of other outputs. Review and test the generated output against your source schema and expected results before using it in the app.
 
 ### Ask AI for API
 
-Ask AI simplifies working with APIs. You can type a request in plain English, provide a curl command, or link to Swagger documentation, and it will generate the correct API call.
+Ask AI simplifies working with APIs. You can type a request in plain English, provide a curl command, or link to Swagger documentation, and it can draft an API call for you to inspect and test.
 
 **What it can do:**
 
@@ -32,7 +32,7 @@ Always double-check sensitive API actions (like refunds or deletions) before run
 
 ### Ask AI for SQL
 
-Instead of writing queries manually, you can describe what you need and Ask AI creates the SQL for you. If something doesn’t work, it fixes the query and improves readability of results.
+Instead of writing queries manually, you can describe what you need and Ask AI creates the SQL for you. If the result fails, provide the error and expected output in a focused follow-up.
 
 **What it can do:**
 
@@ -42,7 +42,7 @@ Instead of writing queries manually, you can describe what you need and Ask AI c
 
 **Example:**
 
-* _“Get all transactions/orders where the amount > 100”_ → SQL query"
+* _“Get all transactions/orders where the amount > 100”_ → SQL query
 
 {% @arcade/embed url="https://app.arcade.software/share/2GwPGjj0QLrr8MgYBt5s" flowId="2GwPGjj0QLrr8MgYBt5s" %}
 
@@ -76,8 +76,8 @@ To get the most out of Ask AI, keep these tips in mind:
 * **Use hints and context.** Linking docs, curl commands, or schemas can help Ask AI generate better results.
 {% endhint %}
 
-{% hint style="info" %}
-#### Explore More Use Cases
+## Check the result
 
-The examples and tips above highlight some common ways to get started with Ask AI, but the feature’s potential goes far beyond these scenarios. Whether you want to generate custom scripts, automate complex data transformations, optimize queries, or integrate with diverse APIs, Ask AI can assist in a wide variety of tasks. Feel free to experiment and discover new ways Ask AI can simplify your workflows and solve unique challenges.
-{% endhint %}
+Test a read-only request first. Compare returned fields, filtering, and record counts with a known test case. For a write request, inspect the method, destination, inputs, and permissions before execution.
+
+Continue with [App Console and logs](../preview-and-troubleshoot/inspect-app-console-and-logs.md) for Preview diagnostics.

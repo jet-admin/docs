@@ -5,7 +5,7 @@ description: >-
 icon: brain-circuit
 ---
 
-# Model selection
+# Select an AI model
 
 Choose an AI model for your task, or let Jet Admin choose one automatically.
 
@@ -21,6 +21,8 @@ The model selector includes quick choices and individual models from Anthropic, 
 | Fastest     | Gemini 3 Flash            | Use this when quick responses matter, such as small edits and short iterations.         |
 
 These shortcuts reflect the options in the model selector. You can also choose a specific model from the provider sections.
+
+![Model selector showing Automatic, Recommended, Smartest, Fastest, and provider models](../../.gitbook/assets/04-models.png)
 
 ## How to switch models
 
@@ -89,4 +91,4 @@ A context window is the amount of information a model can work with in a request
 
 Model choice and task complexity affect AI usage. The selector's context-window numbers are not credit prices. For your remaining allowance, check your account's usage and billing information.
 
-See How credits work for AI building credits, or AI Models for guidance on choosing models for agents.
+See [How credits work](../../account/credits-and-rate-limits/how-credits-work.md) for AI building credits. Model selection here applies to app-building requests; agent model configuration is covered in the AI Agents guides.

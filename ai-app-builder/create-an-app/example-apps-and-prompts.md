@@ -1,21 +1,29 @@
 # Example apps and prompts
 
-Adapt these examples to the tables, fields, and roles in your connected data. Begin with a read-only view when you are exploring a new source.
+Choose a starting prompt, then follow its practical guide. Replace table and field names with those in your connected source.
 
-## Internal operations tool
+## Support dashboard
 
-> Build a support workspace using Tickets and Customers. Show open tickets in a searchable table, a ticket detail page with customer context, and an action to assign an owner. Only managers may close a ticket.
+> Build a support dashboard using Tickets and Customers. Show a searchable Tickets list, a Status filter, and a detail view with customer context. Begin with read-only access.
+
+Continue with [Build a support dashboard](../practical-guides/build-a-support-dashboard.md).
 
 ## Customer portal
 
-> Build a portal for signed-in customers. Show their orders and delivery status. Filter all records to the signed-in customer. Do not expose other customers’ records. Add a request form without changing existing orders.
+> Build a portal for signed-in customers using Customers and Orders. Each customer should see only their own orders and delivery status. Start with a read-only order list and detail view.
 
-## Approval dashboard
+Continue with [Build a customer portal](../practical-guides/build-a-customer-portal.md) to configure and test customer isolation.
 
-> Build a dashboard for purchase requests. Show pending requests by team and an approval queue for managers. Display the decision and timestamp after an approval. Require a test before running a write action.
+## Approval app
+
+> Build a purchase-request app using PurchaseRequests. Show a staff request list and a manager queue for Pending requests. Managers can approve or reject a request with a recorded decision and reason.
+
+Continue with [Build an approval app](../practical-guides/build-an-approval-app.md).
 
 ## Agent-assisted workspace
 
-> Build a support app with an agent that can summarize a ticket and draft a reply using the ticket record. Keep sending messages as a separate, explicitly approved action.
+> Add a ticket summary to the support workspace. Use the selected ticket as context. Draft a response without sending it.
 
-Review generated pages and [access rules](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) before publishing. For the pieces of a first prompt, see [Write your first prompt](write-a-useful-prompt.md).
+Use the [AI Agents guides](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/ai-agents) for agent configuration. Test each tool and keep sending or updating records as an explicit, verified action.
+
+Next: [Write your first prompt](write-a-useful-prompt.md).

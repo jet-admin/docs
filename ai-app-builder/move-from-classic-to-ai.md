@@ -4,12 +4,25 @@ icon: arrow-right-arrow-left
 
 # Move from Classic to AI
 
-An existing Classic app may already contain useful data connections, roles, and business rules. Treat those as requirements for a new AI build rather than assuming the generated app will reproduce them automatically.
+Use the existing Classic app as a set of requirements for a separate AI build. Do not assume a prompt automatically reproduces its configuration.
 
-1. Inventory the current app: data sources, pages, binding, variables, actions, workflows, permissions, and publishing setup.
-2. Choose one task to rebuild in a separate AI app. Connect a test source and write a prompt using the current schema and user roles.
-3. Compare the result with the Classic behavior. Test every read, write, and restricted view involved in that task.
-4. Ask for focused changes, then verify again. Move the next task only when the first is ready for use.
-5. Plan how users will switch to the new app and keep the Classic app available until the change is complete.
+## Rebuild one task
 
-See Maintain an existing Classic app for the legacy editor. For a first AI build, use [Build your first app with AI](../getting-started/start-here.md).
+1. Inventory its sources, pages, fields, actions, workflows, permissions, and publishing setup.
+2. Choose one small task and prepare test data.
+3. Follow [Build your first app with AI](../getting-started/start-here.md) using the same field names and business rules.
+4. Compare the new app with the Classic task.
+5. Test reads, writes, and restricted access before moving to the next task.
+
+## Plan the switch
+
+Record remaining differences and decide how users will move to the new app. Keep the existing app available until the replacement has passed the required checks.
+
+| Requirement           | Check                                             |
+| --------------------- | ------------------------------------------------- |
+| Data source           | Reads and writes reach the intended system.       |
+| Business rules        | Validation and workflow outcomes match.           |
+| Access                | Restricted records and actions remain restricted. |
+| Navigation and layout | Users can complete the task on their devices.     |
+
+Use [Maintain an existing Classic app](../classic-app-builder/maintain-an-existing-classic-app.md) for legacy-editor work. Continue with [Test and publish](test-and-publish/) for the new AI app.
