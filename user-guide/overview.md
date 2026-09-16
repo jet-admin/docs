@@ -11,3 +11,5 @@ Start with the records your app needs and who owns them. Jet Admin can read an e
 * **A maintained copy:** use [Synced tables](synced-tables/) to bring a table from another source into Jet Databases and keep it refreshed. Review which system owns changes.
 
 [Manage app data](data/) covers editing and relationships. For custom reads and updates, use [SQL queries and API requests](sql-queries-and-api-requests/). Before building an app, verify a few records and any write path with a safe account.
+
+<figure><img src="../.gitbook/assets/image (1020).png" alt=""><figcaption></figcaption></figure>
