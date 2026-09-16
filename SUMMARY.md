@@ -36,6 +36,7 @@
 ## AI App Builder
 
 * [Prompt Assistant overview](ai-app-builder/overview.md)
+* [Model selection](ai-app-builder/model-selection.md)
 * [Create an app](ai-app-builder/create-an-app/README.md)
   * [Write your first prompt](ai-app-builder/create-an-app/write-a-useful-prompt.md)
   * [Connect existing data](ai-app-builder/create-an-app/connect-existing-data.md)
