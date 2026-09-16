@@ -54,8 +54,7 @@
 ## Data & Integrations <a href="#user-guide" id="user-guide"></a>
 
 * [Choose where your data lives](user-guide/overview.md)
-* [Jet Databases](user-guide/jet-databases/README.md)
-  * [Storage & Files](user-guide/jet-databases/storage-and-files.md)
+* [Jet Databases](user-guide/jet-databases.md)
 * [Synced tables](user-guide/synced-tables/README.md)
   * [Sync Connection](user-guide/synced-tables/sync-connection.md)
   * [Syncing Schema and Data](user-guide/synced-tables/syncing-schema-and-data.md)

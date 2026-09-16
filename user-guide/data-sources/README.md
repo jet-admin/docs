@@ -14,6 +14,6 @@ Connect the systems your app already uses. Jet Admin supports [200+ integrations
 * [Airtable](databases/airtable.md), [Salesforce](databases/salesforce.md), [HubSpot](databases/hubspot.md), and [Stripe](databases/stripe.md)
 * [Firebase / Firestore](databases/firebase-firestore/) and [Google Sheets](databases/google-sheets.md)
 
-If you need a new table inside Jet Admin, start with [Jet Databases](../jet-databases/). To keep a copy of source data refreshed, see [Synced tables](../synced-tables/). After connecting data, [create an app with AI](../../ai-app-builder/create-an-app/).
+If you need a new table inside Jet Admin, start with [Jet Databases](../jet-databases.md). To keep a copy of source data refreshed, see [Synced tables](../synced-tables/). After connecting data, [create an app with AI](../../ai-app-builder/create-an-app/).
 
 <figure><img src="../../.gitbook/assets/image (1021).png" alt=""><figcaption></figcaption></figure>
