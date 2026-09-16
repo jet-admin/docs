@@ -1,5 +1,5 @@
 ---
-icon: circle-check
+icon: book-open
 ---
 
 # Practical guides

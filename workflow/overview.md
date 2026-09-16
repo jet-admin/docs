@@ -1,6 +1,6 @@
 ---
 description: Automate business processes with triggers, actions, and rules.
-icon: diagram-project
+icon: compass
 ---
 
 # Overview: workflows and automations

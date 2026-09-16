@@ -1,3 +1,7 @@
+---
+icon: wand-magic-sparkles
+---
+
 # Workflows and AI
 
 AI can help in two different stages of a workflow.

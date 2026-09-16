@@ -1,3 +1,7 @@
+---
+icon: rocket
+---
+
 # Build your first workflow
 
 Create a button workflow that changes one ticket's status. You will pass the selected ticket's ID into the workflow, configure an update action, and check the saved record.

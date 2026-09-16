@@ -1,5 +1,5 @@
 ---
-icon: calendar-days
+icon: play
 ---
 
 # Start a workflow

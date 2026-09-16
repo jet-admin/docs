@@ -1,3 +1,7 @@
+---
+icon: circle-check
+---
+
 # Handle outcomes
 
 Decide what should happen when an operation succeeds, fails, or arrives more than once.

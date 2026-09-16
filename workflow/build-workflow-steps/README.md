@@ -1,5 +1,5 @@
 ---
-icon: bolt
+icon: diagram-project
 ---
 
 # Build workflow steps
