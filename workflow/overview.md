@@ -7,6 +7,10 @@ icon: compass
 
 Use a workflow to run defined steps: read data, check a condition, update a record, and show the result. Start with [Build your first workflow](build-your-first-workflow.md) to pass a ticket ID from a button into an update action.
 
+## Build a function
+
+Open **Add Function** in the Workflows area to choose **Workflow Builder** (no-code) or **Write Code** (TypeScript). Build the logic first, then attach triggers to turn it into an automation. See [Functions](functions.md).
+
 ## Choose where the process starts
 
 | You want to…                                                     | Start here                                                                                                 | Configure it in                       |

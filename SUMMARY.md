@@ -188,6 +188,7 @@
 ## Workflows <a href="#workflow" id="workflow"></a>
 
 * [Overview: workflows and automations](workflow/overview.md)
+* [Functions](workflow/functions.md)
 * [Build your first workflow](workflow/build-your-first-workflow.md)
 * [Start a workflow](workflow/start-a-workflow/README.md)
   * [Choose a trigger](workflow/start-a-workflow/choose-a-trigger.md)
