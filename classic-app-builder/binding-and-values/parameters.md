@@ -22,14 +22,14 @@ Jet allows you to extract and pass values in **`Visual Builder`**, **`Data`**, a
 
 <figure><img src="../../.gitbook/assets/image (3) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="../../user-guide/data/computed-columns/formulas/" %}
-[formulas](../../user-guide/data/computed-columns/formulas/)
+{% content-ref url="../../user-guide/data/computed-fields/formulas/" %}
+[formulas](../../user-guide/data/computed-fields/formulas/)
 {% endcontent-ref %}
 
 <figure><img src="../../.gitbook/assets/js1 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="../../user-guide/data/computed-columns/javascript-column.md" %}
-[javascript-column.md](../../user-guide/data/computed-columns/javascript-column.md)
+{% content-ref url="../../user-guide/data/computed-fields/javascript-column.md" %}
+[javascript-column.md](../../user-guide/data/computed-fields/javascript-column.md)
 {% endcontent-ref %}
 
 ## Visual Builder Values
@@ -62,7 +62,7 @@ In order to pass a value from one page to another, you need to use the Navigate 
 [column-values](../design-and-structure/column-values/)
 {% endcontent-ref %}
 
-{% content-ref url="../../user-guide/data/computed-columns/formulas/" %}
-[formulas](../../user-guide/data/computed-columns/formulas/)
+{% content-ref url="../../user-guide/data/computed-fields/formulas/" %}
+[formulas](../../user-guide/data/computed-fields/formulas/)
 {% endcontent-ref %}
 

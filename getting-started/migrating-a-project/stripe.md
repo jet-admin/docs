@@ -72,7 +72,7 @@ I can see test data but not real customers. You connected a test secret key. Rep
 
 A refund action fails. The key may be restricted. Confirm the secret key has write access to charges and refunds in Stripe.
 
-Invoice totals look wrong in a blended table. Stripe stores amounts in the smallest currency unit, such as cents instead of dollars. Divide the value in a [computed column](../../user-guide/data/computed-columns/) to convert it.
+Invoice totals look wrong in a blended table. Stripe stores amounts in the smallest currency unit, such as cents instead of dollars. Divide the value in a [computed column](../../user-guide/data/computed-fields/) to convert it.
 
 {% content-ref url="https://docs.jetadmin.io/getting-started/migrating-a-project" %}
 [https://docs.jetadmin.io/getting-started/migrating-a-project](https://docs.jetadmin.io/getting-started/migrating-a-project)

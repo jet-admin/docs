@@ -11,3 +11,11 @@ Use a query or request when a connected data source needs a custom read or actio
 * [Text to SQL](text-to-sql.md) and [Ask AI for queries and transformations](../../ai-app-builder/refine-an-app/ask-ai.md) offer assistance, but generated requests still need review.
 
 Use a safe dataset to test write requests. The connector guide is under [Data Sources](../data-sources/).
+
+## Follow a task
+
+* [Use dynamic SQL inputs](use-dynamic-sql-inputs.md) to reuse a query with different customer IDs.
+* [Choose an API response format](api-builder/choose-api-response-format.md).
+* [Transform API responses](api-builder/transform-api-responses.md) to select and rename fields.
+* [Configure pagination](api-builder/pagination/) to retrieve more than the first page.
+* [Handle API errors](api-builder/error-handling.md).

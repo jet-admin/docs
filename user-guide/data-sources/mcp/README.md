@@ -5,29 +5,27 @@ icon: robot
 
 # MCP
 
-Use the [MCP integration guide](./) when connecting tools and services through MCP. For ordinary data connections, start with [Data Sources](../); for custom HTTP or SQL work, use [SQL queries and API requests](../../sql-queries-and-api-requests/).
+Connect an MCP (Model Context Protocol) server to make its tools available in Jet Admin. A tool performs a defined operation, such as retrieving a record or creating a task.
 
-Before giving an app or agent a tool, review the endpoint, authentication, credential scope, and read or write behavior. Test with safe inputs. For agents that run through MCP clients, see [Using Agents with MCP Clients](../../../ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md). The [Jet Admin API](/broken/pages/-M2Ezm-MS-DTMS9hxOtE) covers programmatic app access.
-
-
-
-An **MCP (Model Context Protocol) server** is a lightweight service that exposes **tools** (functions, endpoints, or data access points) in a standardized way. JetAdmin can connect to these servers and use their tools without custom coding.
-
-Think of it as:
-
-```
-External Service (Tool, DB, API)
-        │
-        ▼
-     MCP Server
-        │
-        ▼
-     JetAdmin
+```mermaid
+flowchart LR
+  J["Jet Admin"] -->|"Tool name and inputs"| M["MCP server"]
+  M --> S["External service"]
+  S --> M
+  M -->|"Tool result"| J
 ```
 
-The MCP server takes care of formatting requests and responses, so JetAdmin only needs to know:
+## Set up and use a tool
 
-* **What operations exist** (list data, create record, update task).
-* **How to call them** (parameters and auth).
+1. [Connect an MCP server](connect-an-mcp-server.md).
+2. [Test an MCP tool](test-an-mcp-tool.md) with known inputs.
+3. [Use MCP tools in agents and workflows](use-mcp-tools-in-agents-and-workflows.md).
+4. Review [authentication and server access](authentication-and-server-access.md) and [limitations and troubleshooting](limitations-and-troubleshooting.md).
 
-This makes integrations modular, reusable, and easier to maintain.
+For a worked example, see [Weather MCP example](using-mcp-server-tools-in-jetadmin-with-weather-mcp-via-smithery.md).
+
+## Choose the right integration
+
+MCP exposes tools. For database tables and business-app records, browse [Data Sources](../). For a custom HTTP request or SQL query, use [SQL queries and API requests](../../sql-queries-and-api-requests/).
+
+Connecting an external MCP server to Jet Admin is separate from exposing a Jet Admin agent to another MCP client. For the latter, see [Using Agents with MCP Clients](../../../ai-agents/slack-telegram-email-and-mcp/using-agents-with-mcp-clients.md).

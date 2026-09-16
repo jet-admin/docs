@@ -39,8 +39,8 @@ To pass Values to **API Builder**, such as `charge` you need to specify **Inputs
 
 Transform JSON API response using a **Visual** or **Javascript Response Transformer.**
 
-{% content-ref url="api-builder/response-transformer.md" %}
-[response-transformer.md](api-builder/response-transformer.md)
+{% content-ref url="api-builder/transform-api-responses.md" %}
+[transform-api-responses.md](api-builder/transform-api-responses.md)
 {% endcontent-ref %}
 
 ### Sorting

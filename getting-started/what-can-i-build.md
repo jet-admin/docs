@@ -28,6 +28,6 @@ Turn connected data into a dashboard for the measures people actually use. Add a
 
 An [agent](../ai-agents/overview/) can use instructions and tools to handle tasks that need context or several connected systems. Test its access and write actions before running it with real records.
 
-Jet Admin supports [200+ integrations](https://www.jetadmin.io/integrations), including databases, APIs, and business apps. You can also use [Jet Databases](../user-guide/jet-databases.md). For a first build, pick one concrete task and follow [Build your first app with AI](start-here.md).
+Jet Admin supports [200+ integrations](https://www.jetadmin.io/integrations), including databases, APIs, and business apps. You can also use [Jet Databases](../user-guide/jet-databases/). For a first build, pick one concrete task and follow [Build your first app with AI](start-here.md).
 
 <figure><img src="../.gitbook/assets/image (1019).png" alt=""><figcaption></figcaption></figure>

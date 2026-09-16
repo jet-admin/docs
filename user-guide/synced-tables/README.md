@@ -25,8 +25,8 @@ Sync connections are available for a limited number of integrations. Check the c
 
 When adding a supported data source, choose **Sync connection**. Follow the setup guide to connect the source and sync its structure.
 
-{% content-ref url="sync-connection.md" %}
-[sync-connection.md](sync-connection.md)
+{% content-ref url="create-a-sync-connection.md" %}
+[create-a-sync-connection.md](create-a-sync-connection.md)
 {% endcontent-ref %}
 
 ## Keep tables up to date
@@ -37,8 +37,8 @@ Open **Sync options** from the three-dot menu on your data source page to check 
 
 To change the external sync interval, contact Jet Admin support.
 
-{% content-ref url="sync-options.md" %}
-[sync-options.md](sync-options.md)
+{% content-ref url="refresh-data-and-manage-sync.md" %}
+[refresh-data-and-manage-sync.md](refresh-data-and-manage-sync.md)
 {% endcontent-ref %}
 
 ## Join data from synced tables
@@ -47,10 +47,18 @@ Once your sources are synced, you can combine their data using SQL, including da
 
 For example, sync an `Orders` table from Airtable and a `Customers` table from Google Sheets. Join `Orders.Customer ID` to `Customers.ID` to display each order alongside the customer’s name and country.
 
-{% content-ref url="blending-the-data.md" %}
-[blending-the-data.md](blending-the-data.md)
+{% content-ref url="join-data-from-multiple-sources.md" %}
+[join-data-from-multiple-sources.md](join-data-from-multiple-sources.md)
 {% endcontent-ref %}
 
 {% hint style="warning" %}
 A Virtual Collection is a read-only query result. It supports SELECT queries; it does not write changes back to the original sources. Syncing a source table and joining synced tables are separate operations.
 {% endhint %}
+
+## Follow the setup sequence
+
+1. [Create a sync connection](create-a-sync-connection.md).
+2. [Sync schema changes](syncing-schema-and-data.md) when source tables or fields change.
+3. [Refresh data and manage sync](refresh-data-and-manage-sync.md).
+4. [Join data from multiple sources](join-data-from-multiple-sources.md).
+5. [Troubleshoot syncing](troubleshoot-syncing.md).

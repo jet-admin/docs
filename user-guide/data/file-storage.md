@@ -23,6 +23,12 @@ For Jet Admin Storage, you can also select **New Folder** to organize files. See
 
 For the Classic App Builder, use a File Picker with **Save to Storage** as its output format. Follow [Configure resource storage and app uploads](file-storage-and-uploading/data-source-storage.md) to select the destination storage.
 
+## Verify the upload
+
+Open the uploaded file from the selected storage and confirm its name and contents. For an app upload, reload the app and check that the saved file remains accessible with the intended user permissions.
+
+If the upload fails, check the destination storage configuration, the provider's access permissions, and any returned error. If a file uploads but does not appear in the app, check the value saved by the form and the component using it.
+
 ## Storage walkthrough
 
 {% embed url="https://www.youtube.com/watch?v=FtR0a40ufRU&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=20&ab_channel=JetAdmin" %}

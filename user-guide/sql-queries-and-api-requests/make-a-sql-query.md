@@ -5,25 +5,27 @@ hidden: true
 
 # Making SQL queries
 
-To quickly configure the display of your data from a database, you can build SQL queries by selecting Custom SQL.&#x20;
+To quickly configure the display of your data from a database, you can build SQL queries by selecting Custom SQL.
 
 ### Open SQL Query Builder
 
 You can open the SQL Builder directly from the component simply by selecting the SQL resource. The SQL Builder will be opened automatically in case you do not create any collections yet, otherwise you will need to select Make SQL Query from the list of collections for your SQL resource:
 
-![](../../.gitbook/assets/testgif42.gif)
+![](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LQ08RFAKZvFADEiXKFy%2F-MjehuplWWd6OK_2hI_D%2F-MjeidvxKZ6geBub4A1n%2Ftestgif42.gif?alt=media\&token=36bfd635-665e-492a-942f-108a64ea512a)
+
+For a complete example with test cases, follow [Use dynamic SQL inputs](use-dynamic-sql-inputs.md).
 
 ### Pass Inputs
 
 To pass [values](../../classic-app-builder/binding-and-values/parameters.md) from SQL Query Builder, such as `id`or `email`, you need to specify them within the Inputs tab:
 
-![](<../../.gitbook/assets/image (843).png>)
+![](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LQ08RFAKZvFADEiXKFy%2F-MjehuplWWd6OK_2hI_D%2F-MjeisIsNwvdh6JOrgjr%2Fimage.png?alt=media\&token=4be7a963-9d44-4529-89e3-e31b232132df)
 
 ### Use inputs in the query
 
 For example, you need to select data with a specific `id` or `email`from the table, you can make an SQL query and use the parameters:
 
-![](../../.gitbook/assets/testgif13.gif)
+![](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LQ08RFAKZvFADEiXKFy%2F-MjZ3LfsU1ZReomd0nUz%2F-MjZ6Tonqdbn2e2wxgfC%2Ftestgif13.gif?alt=media\&token=df427cc1-c46f-4611-a8fd-750ad9a8e016)
 
 ### Migrating from old Inputs syntax (before Jet Admin v2.4.0)
 
@@ -35,7 +37,7 @@ city = {{params.city}}
 AND age >= {{params.age}} 
 AND name ILIKE {{'%'+params.search+'%'}}
 
-# Before Jet Admin v2.4.0
+-- Before Jet Admin v2.4.0
 
 SELECT * FROM people WHERE 
 city = '{{params.city}}' 

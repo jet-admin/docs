@@ -28,7 +28,7 @@ Pin a field to keep it visible as you move across the table. Hide fields you do 
 
 {% @arcade/embed url="https://app.arcade.software/share/DAaYylnN25cYaQsFMh9T" flowId="DAaYylnN25cYaQsFMh9T" %}
 
-For field configuration, see [Managing Columns](managing-columns.md).
+For field configuration, see [Add and configure fields](fields/add-and-configure-fields.md).
 
 ## Inspect a cell
 
@@ -48,13 +48,13 @@ Select multiple cells to work across records, or drag values across rows. Review
 
 {% @arcade/embed url="https://app.arcade.software/share/Zr1IZ7W13rJJVoQG2E8i" flowId="Zr1IZ7W13rJJVoQG2E8i" %}
 
-Follow [Multi-Editing and Bulk Actions](multi-editing-and-bulk-actions.md) for more detail.
+Follow [Multi-Editing and Bulk Actions](records/bulk-edits-and-actions.md) for more detail.
 
 ## Continue with a task
 
-* [Managing Columns](managing-columns.md): configure your fields.
-* [Relations View](relations-view.md): explore related records.
-* [Computed Column](computed-columns/): calculate field values.
-* [AI Fields](ai-fields.md): work with AI-assisted fields.
+* [Add and configure fields](fields/add-and-configure-fields.md): configure your fields.
+* [Relations View](relationships/relations-view.md): explore related records.
+* [Computed fields](computed-fields/): calculate field values.
+* [AI Fields](fields/ai-fields.md): work with AI-assisted fields.
 * [Sync schema changes](../synced-tables/syncing-schema-and-data.md): refresh missing tables or fields.
 * [Files & storage](../data-sources/storage-and-files/): connect storage and manage files.

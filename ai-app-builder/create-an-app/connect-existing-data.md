@@ -1,6 +1,6 @@
 # Connect existing data
 
-Before prompting for an app, connect the data it will use. You can use a database, an API, a business app, or a table in [Jet Databases](../../user-guide/jet-databases.md).
+Before prompting for an app, connect the data it will use. You can use a database, an API, a business app, or a table in [Jet Databases](../../user-guide/jet-databases/).
 
 1. Pick the source of truth for the records the app must read or change. See Choose where your data lives.
 2. Follow its [Data Sources](../../user-guide/data-sources/) guide to connect it. Check authentication and the scope of the credential.

@@ -24,7 +24,7 @@ The Value field will be populated with the following expression `=elements.Custo
 In that case, we need to configure Values for the "Send Email" button.
 
 1. Click on the `Value` text area
-2. Select `Ask from user option` in the [Formulas](../../../user-guide/data/computed-columns/formulas/) pop-up window.&#x20;
+2. Select `Ask from user option` in the [Formulas](../../../user-guide/data/computed-fields/formulas/) pop-up window.&#x20;
 
 NEEDS TO BE CHANGED-> COULD NOT FIND THE ASK FROM USER OPTION
 

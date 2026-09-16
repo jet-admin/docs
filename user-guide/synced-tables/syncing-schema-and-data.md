@@ -33,4 +33,4 @@ For further checks, see [A data resource is failing to sync](../../faq-and-troub
 
 ## Refresh record values
 
-If the table structure is correct but record values are stale, use **Sync now** for a synced connection. See [Sync Options](sync-options.md) for sync status, manual refresh, events, and interval settings.
+If the table structure is correct but record values are stale, use **Sync now** for a synced connection. See [Sync Options](refresh-data-and-manage-sync.md) for sync status, manual refresh, events, and interval settings.

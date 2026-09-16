@@ -15,7 +15,7 @@ Connect [200+ data sources](https://www.jetadmin.io/integrations), from database
 
 * [What can I build?](getting-started/what-can-i-build.md)
 * [Build your first app with AI](getting-started/start-here.md)
-* [Connect data sources](user-guide/data-sources/) or [start with Jet Databases](user-guide/jet-databases.md)
+* [Connect data sources](user-guide/data-sources/) or [start with Jet Databases](user-guide/jet-databases/)
 * [Add workflows](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/workflow) and [build AI agents](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/ai-agents)
 * [Set permissions](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/access-and-sharing) and [deploy](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/jet-bridge-deployment)
 

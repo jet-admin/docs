@@ -40,8 +40,8 @@ You can also set the title for the Overlay window in different ways. The title c
 
 See here for more details on how to use the formula functionality for dynamic values:
 
-{% content-ref url="../../../user-guide/data/computed-columns/formulas/" %}
-[formulas](../../../user-guide/data/computed-columns/formulas/)
+{% content-ref url="../../../user-guide/data/computed-fields/formulas/" %}
+[formulas](../../../user-guide/data/computed-fields/formulas/)
 {% endcontent-ref %}
 
 ### Open an overlay from a Table
