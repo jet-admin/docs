@@ -11,6 +11,8 @@ Jet Databases gives you a PostgreSQL database hosted by Jet Admin, with a spread
 
 You can edit, search, filter, and sort records; import or export CSV, XLS, XLSX, and JSON files; and query your data with SQL. You can also [combine data from other sources](../synced-tables/) and access your tables through the [API reference](/broken/pages/-M2Ezm-MS-DTMS9hxOtE).
 
+{% embed url="https://www.youtube.com/watch?v=2rdWPCUiGd4&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=18&ab_channel=JetAdmin" %}
+
 ## 1. Open Jet Tables
 
 1. Open your application and select **Data** in the top navigation.
@@ -97,8 +99,5 @@ Choose the option that matches your data, then complete its configuration.
 The **id** field is the primary key: it uniquely identifies each record and cannot be changed or deleted.
 {% endhint %}
 
-For more about editing records, searching, filtering, and sorting, see the [Data guide](https://docs.jetadmin.io/user-guide/data). To work with records programmatically, see the [API reference](/broken/pages/-M2Ezm-MS-DTMS9hxOtE).
+For more about editing records, searching, filtering, and sorting, see the [Data guide](https://docs.jetadmin.io/user-guide/data). To work with records programmatically, see the [API reference](https://app.gitbook.com/o/-LQ08RF9M1pw0T-3zBQH/s/XFsHhniyCGLWr64BOU1D/).
 
-## Video walkthrough
-
-{% embed url="https://www.youtube.com/watch?v=2rdWPCUiGd4&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=18&ab_channel=JetAdmin" %}
