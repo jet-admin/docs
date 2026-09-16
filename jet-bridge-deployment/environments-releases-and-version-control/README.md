@@ -1,13 +1,36 @@
 ---
-icon: code-branch
+icon: clock-rotate-left
 ---
 
-# Environments, releases, and version control
+# Version History and recovery
 
-Keep testing separate from the app people use. [Environments](environments/) explains how to manage stages, and [Version Control](version-control/) covers tracked changes and recovery.
+Choose the recovery method that matches the change. App history, environment backups, and database recovery have different scopes.
 
-Before a release, confirm the data connection, user roles, and actions in the target environment. Check any generated query or workflow that writes records. Record which version was approved and how to restore a previous working state. For platform upgrades, see [Update to a new version](version-migration.md).
+| Need                                             | Start here                                                                              |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Inspect or preview recorded app changes          | [Version History](../../ai-app-builder/test-and-publish/version-history.md)             |
+| Return to a recorded app state                   | Version History → the selected version's menu → Revert version                          |
+| Download or restore an environment configuration | [Environment settings](../environments/)                                                |
+| Transfer a backup between Cloud and On-Premise   | [Cross-Instance Backup & Restore](version-control/cross-instance-backup-and-restore.md) |
+| Use the earlier snapshot/release interface       | [Version Control](version-control/)                                                     |
+| Recover records or external effects              | The affected database, API, or workflow's recovery process                              |
 
-## Review app versions
+## Review a version before reverting
 
-Use [Version History](../../ai-app-builder/test-and-publish/version-history.md) in the AI App Builder to browse dated changes, preview a version, inspect its changes, and choose a version to revert to. Verify the app after reverting and complete your publishing checks before release.
+Open the history icon beside **Publish**, select an entry, and use **Preview version** or **Show changes**. Confirm the version label and review the affected behavior before choosing **Revert version**.
+
+![Version History with dated entries and a selected version marked Previewing now](../../.gitbook/assets/version-history.png)
+
+Follow the canonical [Version History guide](../../ai-app-builder/test-and-publish/version-history.md) for the complete workflow.
+
+## Prepare an environment backup
+
+Open the app menu, select the gear beside the intended environment, and use **Download backup**. Record the app, environment, date, and platform version with the file.
+
+Before using **Restore backup**, verify the target environment and the backup you intend to apply. Review the configuration and rerun [release checks](../publish-your-app/verify-a-release.md) afterwards.
+
+App or environment restoration does not establish that connected records or external workflow effects were reversed. Identify those systems separately and confirm their recovery scope.
+
+## Keep a release record
+
+Record the approved app version, environment, platform version, backup location, and verification results. Use that record to compare the last working state with an incident, and repeat affected permission and data tests after recovery.

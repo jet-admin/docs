@@ -15,7 +15,7 @@ Use the **Jet Admin Version** selector in environment settings to control platfo
 5. Select **Save**.
 6. Verify the selected setting and test your app's important flows.
 
-See [Environments](environments/) for the current settings screen and the staging-to-production scenario. The version number displayed beside Latest changes over time.
+See [Environments](./) for the current settings screen and the staging-to-production scenario. The version number displayed beside Latest changes over time.
 
 ## Test before updating Production
 

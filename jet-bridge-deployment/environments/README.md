@@ -32,7 +32,7 @@ Use staging databases or APIs and synthetic test records where appropriate. Chec
 
 Open the environment's gear menu to find its settings.
 
-![Production environment settings showing Name, Color, Jet Admin Version, View Changelog, Save, Download backup, and Restore backup](../../../.gitbook/assets/environment-settings.png)
+![Production environment settings showing Name, Color, Jet Admin Version, View Changelog, Save, Download backup, and Restore backup](../../.gitbook/assets/environment-settings.png)
 
 | Control           | Purpose                                                                            |
 | ----------------- | ---------------------------------------------------------------------------------- |
@@ -56,7 +56,7 @@ The version number shown beside **Latest** is an example from the captured scree
 6. After approval, open **Production** settings, select the tested platform version, and save.
 7. Repeat the critical checks in Production.
 
-To keep Production on a reviewed platform version, select a specific available version instead of Latest. Before a major upgrade, check compatibility and recovery requirements in [Update to a new version](../version-migration.md).
+To keep Production on a reviewed platform version, select a specific available version instead of Latest. Before a major upgrade, check compatibility and recovery requirements in [Update to a new version](version-migration.md).
 
 ## Download and restore a backup
 
@@ -64,12 +64,12 @@ Before a significant configuration change, open the intended environment's setti
 
 To restore, open the **target environment's** settings, select **Restore backup**, and follow the file-selection and confirmation flow. Review the target and backup before completing the operation, then test the resulting configuration.
 
-Treat backup restoration as a change to the target environment. Do not assume it restores records in connected databases or reverses external workflow actions. For transfers between Cloud and On-Premise, see [Cross-Instance Backup & Restore](../version-control/cross-instance-backup-and-restore.md).
+Treat backup restoration as a change to the target environment. Do not assume it restores records in connected databases or reverses external workflow actions. For transfers between Cloud and On-Premise, see [Cross-Instance Backup & Restore](../environments-releases-and-version-control/version-control/cross-instance-backup-and-restore.md).
 
 ## Environments, app versions, and publishing
 
 * **Environment settings** control the selected configuration and Jet Admin platform version.
-* [**Version History**](../../../ai-app-builder/test-and-publish/version-history.md) lets you inspect, preview, and revert recorded app changes.
+* [**Version History**](../../ai-app-builder/test-and-publish/version-history.md) lets you inspect, preview, and revert recorded app changes.
 * **Publishing** is the release step for the app your users access.
 
 Changing the Jet Admin Version selector is different from selecting an app version in Version History.

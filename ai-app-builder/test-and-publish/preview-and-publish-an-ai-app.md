@@ -14,7 +14,7 @@ Complete [data and access tests](check-data-actions-and-user-access.md). Inspect
 4. Review the publishing options shown for your project and complete the publish flow.
 5. Open the published app at its configured address.
 
-For environment configuration, domains, and deployment choices, follow [Publish & Deploy](../../jet-bridge-deployment/overview/).
+For environment configuration, domains, and deployment choices, follow [Publish & Deploy](../../jet-bridge-deployment/overview.md).
 
 ## Check the published app
 
