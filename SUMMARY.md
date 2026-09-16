@@ -16,7 +16,6 @@
   * [A user gets 403 or cannot access a page](faq-and-troubleshooting/403-and-user-permission-errors.md)
   * [Gmail connection blocked by Google](faq-and-troubleshooting/gmail-connection-blocked.md)
   * [Custom API storage is missing from File Picker](faq-and-troubleshooting/file-picker-custom-api-storage.md)
-* [Community](join-the-community.md)
 
 ## Getting Started
 

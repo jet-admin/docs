@@ -21,4 +21,4 @@ Connect [200+ data sources](https://www.jetadmin.io/integrations), from database
 
 Use [Explore core concepts](getting-started/explore-core-concepts.md) for a short route. Existing drag-and-drop apps are documented in [Classic App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/classic-app-builder).
 
-See [What’s New](/broken/pages/tKWRDO0vAHGhqqN4o4Pe), [FAQ and Troubleshooting](troubleshoot.md), or [Community](join-the-community.md) when you need help.
+See [What’s New](/broken/pages/tKWRDO0vAHGhqqN4o4Pe), [FAQ and Troubleshooting](troubleshoot.md), or [Community](/broken/pages/-MkqVh0YAXEBZ-tTTkA5) when you need help.
