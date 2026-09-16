@@ -1,5 +1,5 @@
 ---
-icon: comments
+icon: compass
 ---
 
 # AI App Builder overview

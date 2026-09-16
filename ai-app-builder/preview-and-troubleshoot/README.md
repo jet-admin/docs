@@ -1,3 +1,7 @@
+---
+icon: desktop
+---
+
 # Preview and troubleshoot
 
 Use Preview to inspect how the app looks and behaves before publishing.

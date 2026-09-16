@@ -1,3 +1,7 @@
+---
+icon: palette
+---
+
 # Themes and appearance
 
 Use **Theme** above Preview to control the app's visual style.

@@ -1,3 +1,7 @@
+---
+icon: book-open
+---
+
 # Practical guides
 
 Build a complete app around a business task. Each guide includes a suggested schema, copyable prompts, and checks for the result.

@@ -1,3 +1,7 @@
+---
+icon: comments
+---
+
 # AI Assistant
 
 Use the assistant to describe an app, provide relevant context, and refine the result in a conversation.
