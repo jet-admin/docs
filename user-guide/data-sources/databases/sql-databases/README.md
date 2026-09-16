@@ -11,7 +11,7 @@ We support direct connection to various databases, as well as connections to 3rd
 
 To connect a database with **Jet Admin**, choose a database from the list of available integrations:
 
-![We support 16 different databases](<../../../../.gitbook/assets/image (816).png>)
+<figure><img src="../../../../.gitbook/assets/image (1022).png" alt=""><figcaption></figcaption></figure>
 
 ### SQL databases
 
