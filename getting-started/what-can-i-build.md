@@ -20,7 +20,7 @@ Let customers sign in to see their own orders, tickets, or account details. Star
 
 ## Dashboards and approvals
 
-Turn connected data into a dashboard for the measures people actually use. Add an [approval workflow](../workflow/approvals-and-workflows-with-ai/task-approval.md) when a change needs review before it takes effect.
+Turn connected data into a dashboard for the measures people actually use. Add an [approval workflow](../workflow/practical-guides/create-an-approval-process.md) when a change needs review before it takes effect.
 
 <figure><img src="../.gitbook/assets/image (1015).png" alt=""><figcaption></figcaption></figure>
 

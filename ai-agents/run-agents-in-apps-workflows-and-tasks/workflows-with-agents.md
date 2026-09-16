@@ -34,8 +34,8 @@ Set the button action to:
 * Trigger a **workflow**
 * Pass the text input as a parameter
 
-{% content-ref url="../../workflow/triggers-steps-and-parameters/triggers.md" %}
-[triggers.md](../../workflow/triggers-steps-and-parameters/triggers.md)
+{% content-ref url="../../workflow/start-a-workflow/choose-a-trigger.md" %}
+[choose-a-trigger.md](../../workflow/start-a-workflow/choose-a-trigger.md)
 {% endcontent-ref %}
 {% endstep %}
 
