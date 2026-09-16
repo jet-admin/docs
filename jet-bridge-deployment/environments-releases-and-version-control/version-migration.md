@@ -1,20 +1,33 @@
 ---
-description: In this section you will learn how to update to a new version
+description: Select a Jet Admin platform version and test updates before Production.
 ---
 
 # Update to a new version
 
-An update to a new major version can lead to some settings not being saved and there is a chance you won't be able to go back to the previous version after saving changes to the interface because of breaking changes. So do it carefully and at your own risk.&#x20;
+Use the **Jet Admin Version** selector in environment settings to control platform updates. This is separate from [Version History](../../ai-app-builder/test-and-publish/version-history.md), which tracks changes to your app.
 
-**It is safe to create a separate project for the new version and copy settings from the old project. We highly recommend this way so you will able to revert any time.**
+## Update through environment settings
 
-We are always trying to make version updates fully compatible so you don't need to make anything on your own, but there could be a few that can't be done automatically.&#x20;
+1. Open the app menu in the top-left corner of the builder.
+2. Under **Environments**, select the gear icon beside the environment you want to update.
+3. Review **View Changelog**.
+4. Select **Latest** for automatic platform updates, or choose a specific available version.
+5. Select **Save**.
+6. Verify the selected setting and test your app's important flows.
 
-**You can check your current Jet Admin version in Project Settings**
+See [Environments](environments/) for the current settings screen and the staging-to-production scenario. The version number displayed beside Latest changes over time.
 
-![](<../../.gitbook/assets/image (857).png>)
+## Test before updating Production
 
-## Migrating from 1.x.x to 2.x.x
+Start in a staging environment connected to appropriate test resources. Check pages, data actions, integrations, workflows, and user permissions. Record the tested platform version before selecting it in Production.
+
+Download an environment backup before a significant update. For major-version changes, review compatibility requirements and confirm your recovery approach before applying changes. A configuration created or saved on a newer platform version may not work on an older one; do not assume that selecting an older version is a complete rollback.
+
+## Earlier migration reference
+
+The notes below apply specifically to the historical 1.x.x-to-2.x.x transition. They do not describe current platform limitations.
+
+## Historical migration: 1.x.x to 2.x.x
 
 What should be done before the update:
 
