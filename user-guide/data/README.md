@@ -9,7 +9,7 @@ icon: table
 
 {% embed url="https://www.youtube.com/watch?v=UfN2JYWSrD0&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=21&ab_channel=JetAdmin" %}
 
-<figure><img src="../../.gitbook/assets/image (3) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2Fgv9I330sXnAQTMPoybSv%2Fimage.png?alt=media&#x26;token=cb679f91-60ba-4d87-8fab-b54f00bf7a22" alt=""><figcaption></figcaption></figure>
 
 `Data` helps you to connect, manage, and blend data from different [Data Sources](../data-sources/). You can do different operations with your `Data`:
 
@@ -26,6 +26,8 @@ icon: table
 You handle the Data when you add a resource to your component. Collections are visualizations of the data that Jet gets from your resources.
 
 ### Navigating Data Editor
+
+Start with [Navigate the Data Editor](navigate-the-data-editor.md) to open a table, arrange fields, and inspect cells. For files, see [Files & storage](../files-and-storage/).
 
 {% embed url="https://www.youtube.com/watch?v=0nRHFy6oPmw&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=25&ab_channel=JetAdmin" %}
 

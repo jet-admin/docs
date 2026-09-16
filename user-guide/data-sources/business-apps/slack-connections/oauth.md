@@ -4,7 +4,7 @@ description: >-
   communication workflows.
 ---
 
-# Slack
+# Connect Slack with OAuth
 
 The **Slack integration** brings your workspace communication data into JetAdmin. Once connected, you can query channels, users, and messages, and trigger Slack actions such as sending scheduled messages, inviting users to channels, fetching user profiles, and many more.\
 This enables robust internal tools that interface directly with Slack for notifications, automated processes, and workflow management..
@@ -18,7 +18,7 @@ This enables robust internal tools that interface directly with Slack for notifi
 3. **Name your resource (optional):**\
    Enter a custom name such as _Team Slack_ or _Company Communication_.
 4. **Sign in with OAuth:**\
-   Click **Sign in with Google / Slack OAuth**.\
+   Use the OAuth sign-in option.\
    A pop-up will appear choose the Slack workspace you want to connect.
 5. **Add Resource:**\
    JetAdmin will verify your connection. Once successful, your Slack collections and actions will be available immediately.

@@ -26,7 +26,7 @@ To connect a database with **Jet Admin**, choose a database from the list of ava
 ### Other data sources
 
 * [Supabase](../supabase.md)
-* [Airtable](../airtable.md)
+* [Airtable](../../spreadsheets-and-collaborative-databases/airtable.md)
 * [Google Sheets](../../../../classic-app-builder/videos/connecting-data-sources/google-sheet.md)
 * [Firebase](../firebase-firestore/firestore.md)
 * [Xano](../xano.md)
