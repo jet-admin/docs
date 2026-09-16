@@ -31,20 +31,20 @@ There are a variety types of actions that are split into sections:&#x20;
 ### Overlays
 
 * [**Open Actions Dropdown**](actions.md#open-actions-dropdown)**.** Create a sub-menu of actions.
-* [**Open Overlay/Close Overlay**](components/modal.md)**.** Open or close the overlay.
+* [**Open Overlay/Close Overlay**](../design-and-structure/components/modal.md)**.** Open or close the overlay.
 
 ### Interaction
 
-* [**Show Notification**](components/custom-notifications.md)**.** Show custom notification.
+* [**Show Notification**](../design-and-structure/components/custom-notifications.md)**.** Show custom notification.
 * **Copy to Clipboard**. Copy data to your Clipboard.&#x20;
-* [**Run Component Action**](components/component-actions.md)**.** Act on a component, such as updating data or clearing the form after submitting.
+* [**Run Component Action**](../design-and-structure/components/component-actions.md)**.** Act on a component, such as updating data or clearing the form after submitting.
 
 ### Advanced
 
 * [**Set Variable**](../binding-and-values/variables.md#set-a-variable). Set a value to a specific Page Variable or Page Variable .&#x20;
 * [**Run JavaScript**](actions.md#run-javascript). Execute a JavaScript code.&#x20;
 * **Download File.** Download the file from the API call.
-* [Scan QR/Bar Code](components/qr-code.md). To scan a graphic code.
+* [Scan QR/Bar Code](../design-and-structure/components/qr-code.md). To scan a graphic code.
 
 **Run workflow**
 
@@ -128,8 +128,8 @@ You can close the pop-up overlay window. To do so, follow the steps:
 
 {% @arcade/embed flowId="YpWbACsL2fhufqFzWLyY" url="https://app.arcade.software/share/YpWbACsL2fhufqFzWLyY" %}
 
-{% content-ref url="components/modal.md" %}
-[modal.md](components/modal.md)
+{% content-ref url="../design-and-structure/components/modal.md" %}
+[modal.md](../design-and-structure/components/modal.md)
 {% endcontent-ref %}
 
 ### Open Actions Dropdown
@@ -148,16 +148,16 @@ The Open Actions Dropdown feature allow you to create a list of multiple separat
 
 You can act on a component, such as updating data or clearing the form after submitting.
 
-{% content-ref url="components/component-actions.md" %}
-[component-actions.md](components/component-actions.md)
+{% content-ref url="../design-and-structure/components/component-actions.md" %}
+[component-actions.md](../design-and-structure/components/component-actions.md)
 {% endcontent-ref %}
 
 ### Show Notification
 
 You can show custom notifications.
 
-{% content-ref url="components/custom-notifications.md" %}
-[custom-notifications.md](components/custom-notifications.md)
+{% content-ref url="../design-and-structure/components/custom-notifications.md" %}
+[custom-notifications.md](../design-and-structure/components/custom-notifications.md)
 {% endcontent-ref %}
 
 ### Run JavaScript

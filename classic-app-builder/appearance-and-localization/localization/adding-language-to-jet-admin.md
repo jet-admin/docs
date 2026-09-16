@@ -16,7 +16,7 @@ Access the necessary files from the [Jet Admin Localization GitHub Repository](h
 
 In the root folder, you'll find a folder containing files for email templates and individual files for each language. Each language file is named in the format `locale.xx.ts`, where "xx" represents the language code (e.g., `locale.en.ts` for English, `locale.fr.ts` for French).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-14 234434.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-14 234434.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Translating Content:**&#x20;
 
@@ -34,7 +34,7 @@ Simply copy this file, rename it to `locale.xx.ts` (replace "xx" with the langua
 
 Apart from the main localization file, there are additional pages for email templates that need translation. These pages are named "email\_verification", "project\_user\_invitation", and "user\_restore".
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-14 235031.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-14 235031.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Scope of Work:**&#x20;
 

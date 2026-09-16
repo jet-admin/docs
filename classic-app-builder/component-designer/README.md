@@ -5,13 +5,29 @@ icon: pen-ruler
 
 # Component Designer and Figma
 
-Design custom pixel-perfect components using Component Designer. Enabled to create, design, and modify their components with various options: creating components, providing states, giving styles, intuitive event handlers, seamless data connections (REST, GraphQL & Beyond), direct Figma & Sketch Imports.
+Applies to **Classic App Builder**. Screens and recordings in this section show the Classic interface.
+
+Design a custom component, connect its inputs and interactions, and verify it in the app.
+
+## Recommended path
+
+1. [Learn the designer workflow](how-to-work-with-component-designer.md) and [right sidebar](right-sidebar/).
+2. Organize [frames and groups](frames-and-groups.md).
+3. Configure [component and layer states](component-and-layer-states.md).
+4. Add [action components](action-components.md) and bind the required data.
+5. Test different input values, empty states, interaction states, and sizes.
+
+For existing designs, follow [Import Figma Design](import-figma-design/). Verify imported behavior and data connections separately from visual appearance.
+
+## Classic visual reference
+
+The screenshots and demonstration below are retained from the existing Classic documentation. They illustrate the designer interface; available controls may vary with your app version.
 
 <figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FjzfDgWxvFkOrFOQooZhW%2Fcomponent_img.jpg?alt=media&#x26;token=effa4ab6-4938-4b5f-a9fa-a4572c005f69" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://res.cloudinary.com/djpvkoh3s/video/upload/v1701333832/pixelperfect/nmmnwwilex11l6v38mxa.mp4" %}
 
-Explore ready-to-use 40+ components in our Components Marketplace.
+Explore the available components in the Components Marketplace.
 
 <figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2Fgm2nDNK0uGkLjgErbSJu%2Fimage.png?alt=media&#x26;token=5412bf7a-b52f-45bd-8927-4095707e2861" alt=""><figcaption></figcaption></figure>
 

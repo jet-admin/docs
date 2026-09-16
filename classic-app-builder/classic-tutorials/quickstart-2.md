@@ -1,25 +1,20 @@
-# ⚡ Quickstart
+# ⚡ Choose a Classic tutorial
 
-👉Before we jump into the thick of it, there is one thing that needs to be **clarified**:
+Applies to **Classic App Builder**. Screens and recordings in this section show the Classic interface.
 
-### Internal Tools vs Customer Portals
+Choose the tutorial that matches the app's audience and task.
 
-Both **Client Portals** and the **Internal Tools** are the same in their essence - they are just web or mobile apps built on Jet Admin. However, they differ from the usage perspective: `end-users` of the Portal are **external users**, e.g. Vendors, Partners, Merchants, or Individuals, whereas `end-users` of the Internal App are **internal users**, i.e. your organization's employees. They also differ in [pricing](https://www.jetadmin.io/pricing/).
+| Audience                        | Start with                                              | Verify                                                         |
+| ------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------- |
+| Internal staff                  | [Build an internal tool](quickstart/)                   | Role-specific pages and permitted data operations.             |
+| Customers, partners, or vendors | [Create a customer portal](creating-a-customer-portal/) | Each user sees and changes only the records intended for them. |
 
-Typical use-cases for the Client Portal and for the Internal Tool also differ, that's why we've created two **separate quickstart journeys** based on the common use-cases:
+## Before following a tutorial
 
-{% content-ref url="quickstart/" %}
-[quickstart](quickstart/)
-{% endcontent-ref %}
+Identify your data source, record identifiers, and intended user roles. Use synthetic records in a test environment.
 
-{% content-ref url="creating-a-customer-portal/" %}
-[creating-a-customer-portal](creating-a-customer-portal/)
-{% endcontent-ref %}
+If you start from a template, review every resource connection, component binding, and action input. A template's appearance does not prove that it is connected to the correct data.
 
-If you want to save time building your app, you can apply one of the **templates** that you can find on the dashboard. You can preview the templates [**here**](https://www.jetadmin.io/templates).
+Continue with [Data binding and variables](../binding-and-values/) for connections between components and [Test, publish, and maintain](../preview-and-publish/) before releasing the result.
 
-![](../../.gitbook/assets/fykcgj.JPG)
-
-{% hint style="danger" %}
-For the template to become a functional app, It's crucial to **correctly bind** your own data and **set relations** between to UI components composing a template. Learn more about it in the [**Values**](../binding-and-values/parameters.md) section.
-{% endhint %}
+For a new app built from prompts, see [Build your first app with AI](../../getting-started/start-here.md).

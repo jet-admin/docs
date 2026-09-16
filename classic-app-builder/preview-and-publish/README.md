@@ -1,8 +1,27 @@
 ---
-icon: rocket
+icon: circle-check
 ---
 
-# Preview and publish
+# Test, publish, and maintain
+
+Applies to **Classic App Builder**. Screens and recordings in this section show the Classic interface.
+
+Verify a Classic app's bindings, actions, and user access before releasing a change.
+
+## Test an existing app
+
+1. Confirm the app, environment, resource connections, and intended user role.
+2. Check the changed component with populated, empty, and missing values.
+3. Test a second selected record to detect stale bindings.
+4. Run permitted actions on synthetic data and inspect the source result.
+5. Test a restricted user and confirm denied operations leave data unchanged.
+6. Preview the app, then follow its publishing controls and verify the published result.
+
+Use [Troubleshoot a Classic app](troubleshoot-a-classic-app.md) if a check fails. For shared release practices, use [Publish & Deploy](../../jet-bridge-deployment/overview.md); for permissions, use [Access & Governance](../../access-and-sharing/app-and-data-permissions/).
+
+## Classic mode and publishing reference
+
+The following screenshots describe the Classic Builder, User, and Preview modes. These controls differ from the AI builder's Version History panel.
 
 ## Builder/User/Preview modes
 
@@ -10,10 +29,10 @@ There are three operational modes in Jet Admin: the **Builder mode**, the **User
 
 ## **Builder Mode**
 
-**Builder mode** is where people who are building an app can add data sources, drag-and-drop UI components, customize them, bind them to your data, manage environments, and perform all the necessary work to get your app ready.&#x20;
+**Builder mode** is where people who are building an app can add data sources, drag-and-drop UI components, customize them, bind them to your data, manage environments, and perform all the necessary work to get your app ready.
 
 {% hint style="info" %}
-After creating an account, you'll automatically get into the Builder mode with the Administrator permissions.
+Use an account with the builder access required for the app you maintain.
 {% endhint %}
 
 ![](../../.gitbook/assets/mcgnvyn.JPG)
@@ -45,7 +64,7 @@ By clicking on the **"N changes"** label, drill down into the changes history. H
 
 ### Impersonating users
 
-When building an app, it's usually difficult to get the right idea of how page permissions, dynamic filters, or conditional visibility that's been configured will transform into the end-user experience.&#x20;
+When building an app, it's usually difficult to get the right idea of how page permissions, dynamic filters, or conditional visibility that's been configured will transform into the end-user experience.
 
 The impersonation feature allows you to quickly **preview** an app **through the eyes** of a particular user. In the example case below, we've denied access for Michael to the `Customers` page and set the user to see only records where `Customer ID = 1` the `Orders` table.
 

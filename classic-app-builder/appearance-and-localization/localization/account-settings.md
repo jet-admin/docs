@@ -16,11 +16,11 @@ Changes will be applied only to the user mode - the part that the end-users of y
 
 Inside the app builder, go to the top left corner and click on your account logo:
 
-<figure><img src="../../.gitbook/assets/Group 1075.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 1075.png" alt=""><figcaption></figcaption></figure>
 
 Then **scroll down** to the bottom of the page and find the Language dropdown menu. Choose your language from the dropdown:
 
-<figure><img src="../../.gitbook/assets/language_select.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/language_select.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If your language is **not on the list**, please follow the instructions provided on
@@ -50,13 +50,13 @@ After this, when you view your app, it will appear in the language that you sele
 
 Inside the app builder, go to the top left corner and click on your account logo:
 
-<figure><img src="../../.gitbook/assets/Group 1075.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 1075.png" alt=""><figcaption></figcaption></figure>
 
 Then **scroll down** to the bottom of the page and find the Timezone dropdown menu. Choose the preferred timezone for your app using the dropdown:
 
-<figure><img src="../../.gitbook/assets/timezone_menu_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/timezone_menu_2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/timezone_menu_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/timezone_menu_3.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Pick the timezone of your choice
 

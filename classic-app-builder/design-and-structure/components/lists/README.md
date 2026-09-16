@@ -65,6 +65,6 @@ You can enable Search for any of the Lists components:
 
 ![](<../../../../.gitbook/assets/Components8 (1).gif>)
 
-{% content-ref url="../../actions.md" %}
-[actions.md](../../actions.md)
+{% content-ref url="../../../actions-and-logic/actions.md" %}
+[actions.md](../../../actions-and-logic/actions.md)
 {% endcontent-ref %}

@@ -44,7 +44,7 @@ Using Component Values you can pass values such as subject and body to `Send ema
 
 ### Page Values
 
-In the case where you want to create a Detail page with information about the user on that page: name, last name, address, etc. You need to pass the parameter values of these fields from one page to another. To do this, you need to create parameters for this page and pass these parameters to another page using the [Navigate to Page](../design-and-structure/actions.md) action.
+In the case where you want to create a Detail page with information about the user on that page: name, last name, address, etc. You need to pass the parameter values of these fields from one page to another. To do this, you need to create parameters for this page and pass these parameters to another page using the [Navigate to Page](../actions-and-logic/actions.md) action.
 
 #### Create Page Values
 

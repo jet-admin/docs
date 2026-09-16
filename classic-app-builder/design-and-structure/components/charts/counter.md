@@ -84,7 +84,7 @@ You can set up an action that will be executed when the value is clicked.
 
 <figure><img src="../../../../.gitbook/assets/img7.png" alt=""><figcaption></figcaption></figure>
 
-Refer to [this page](../../actions.md) on how to set up actions.
+Refer to [this page](../../../actions-and-logic/actions.md) on how to set up actions.
 
 <br>
 

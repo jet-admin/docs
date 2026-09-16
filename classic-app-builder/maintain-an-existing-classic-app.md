@@ -1,14 +1,37 @@
 ---
-icon: screwdriver-wrench
+icon: compass
 ---
 
-# Maintain an existing Classic app
+# Classic Builder overview
 
-Classic App Builder is the drag-and-drop editor for apps built in the visual workflow. Keep using these guides to fix a page, change a component, update bindings, or publish an existing project.
+Applies to **Classic App Builder**. Screens and recordings in this section show the Classic interface.
 
-1. Identify the page or action you need to change and the data source it uses.
-2. Follow [Pages, components, and design](design-and-structure/) for layout and [Binding, variables, actions, and JavaScript](binding-and-values/) for behavior.
-3. Preview the change with safe data and a representative role. Check permissions before publishing.
-4. Use [Preview and publish](preview-and-publish/) to release the app.
+Maintain and extend an existing app built with the visual, drag-and-drop editor. Start with the page, component, or action you need to change.
 
-If you want to build a new app from a prompt, see [Build your first app with AI](../getting-started/start-here.md). [Move from Classic to AI](../ai-app-builder/move-from-classic-to-ai.md) covers a gradual changeover.
+## Maintain an existing app
+
+1. Identify the affected page, resource, and user task.
+2. Review the current component settings, bindings, and actions.
+3. Make the change in an appropriate test environment using synthetic records.
+4. Check expected behavior and a failure case.
+5. [Test and publish](preview-and-publish/) using the workflow available in your Classic app.
+
+## Find the right guide
+
+| Task                                      | Section                                                                         |
+| ----------------------------------------- | ------------------------------------------------------------------------------- |
+| Organize a page or choose a UI component  | [Pages and components](design-and-structure/)                                   |
+| Pass selected records and other values    | [Data binding and variables](binding-and-values/)                               |
+| Configure buttons, formulas, or workflows | [Actions and logic](actions-and-logic/)                                         |
+| Change styling or language                | [Appearance and localization](appearance-and-localization/)                     |
+| Design a custom component                 | [Component Designer and Figma](component-designer/)                             |
+| Follow a complete example                 | [Practical guides](classic-tutorials/)                                          |
+| Investigate an existing problem           | [Troubleshoot a Classic app](preview-and-publish/troubleshoot-a-classic-app.md) |
+| Learn from recordings                     | [Video tutorials](videos/)                                                      |
+| Assess a move to a prompt-built app       | [Move to AI App Builder](move-to-ai-app-builder.md)                             |
+
+## Identify the builder
+
+These guides describe components on a visual canvas, their settings, and explicit bindings. For the prompt-based workflow, use [AI App Builder](https://app.gitbook.com/s/-LQ08RFAKZvFADEiXKFy/ai-app-builder).
+
+The Legacy label identifies this documentation path. It is not an end-of-support date or a promise of automatic app conversion.
