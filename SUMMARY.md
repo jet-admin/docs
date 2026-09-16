@@ -71,6 +71,8 @@
       * [Firestore](user-guide/data-sources/databases/firebase-firestore/firestore.md)
       * [Realtime DB](user-guide/data-sources/databases/firebase-firestore/realtime-database.md)
     * [MongoDB](user-guide/data-sources/databases/mongodb.md)
+    * [Airtable](user-guide/data-sources/databases/airtable.md)
+    * [Google Sheets](user-guide/data-sources/databases/google-sheets.md)
     * [Amazon Athena (AWS Athena)](user-guide/data-sources/databases/amazon-athena-aws-athena.md)
     * [Databricks](user-guide/data-sources/databases/databricks.md)
     * [CockroachDB](user-guide/data-sources/databases/cockroachdb.md)
@@ -81,9 +83,6 @@
     * [MySQL](user-guide/data-sources/databases/mysql.md)
     * [MariaDB](user-guide/data-sources/databases/mariadb.md)
     * [Snowflake](user-guide/data-sources/databases/snowflake.md)
-  * [Spreadsheets & collaborative databases](user-guide/data-sources/spreadsheets-and-collaborative-databases/README.md)
-    * [Airtable](user-guide/data-sources/databases/airtable.md)
-    * [Google Sheets](user-guide/data-sources/databases/google-sheets.md)
   * [APIs](user-guide/data-sources/apis/README.md)
     * [Rest API](user-guide/data-sources/apis/rest-api/README.md)
       * [Basic Authentication](user-guide/data-sources/apis/rest-api/basic-authentication.md)
@@ -544,14 +543,11 @@
     * [Supabase Auth](classic-app-builder/videos/authentication/supabase-auth.md)
     * [Firebase Auth](classic-app-builder/videos/authentication/firebase-auth.md)
     * [Xano Auth](classic-app-builder/videos/authentication/xano-auth.md)
-
-## Developer Reference
-
-* [Localization](developer-reference/localization/README.md)
-  * [Account Settings](developer-reference/localization/account-settings.md)
-  * [Adding Language to Jet Admin](developer-reference/localization/adding-language-to-jet-admin.md)
-  * [End-user Localization](developer-reference/localization/end-user-localization.md)
-* [Application settings](developer-reference/application-settings.md)
+* [Localization](classic-app-builder/localization/README.md)
+  * [Account Settings](classic-app-builder/localization/account-settings.md)
+  * [Adding Language to Jet Admin](classic-app-builder/localization/adding-language-to-jet-admin.md)
+  * [End-user Localization](classic-app-builder/localization/end-user-localization.md)
+* [Application settings](classic-app-builder/application-settings.md)
 
 ## Account
 

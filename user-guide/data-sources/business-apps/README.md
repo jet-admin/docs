@@ -12,4 +12,4 @@ Connect the services where your team manages customers, payments, support, tasks
 * [Zendesk](zendesk.md)
 * [Slack](slack-connections/)
 
-For Airtable and Google Sheets, see [Spreadsheets & collaborative databases](../spreadsheets-and-collaborative-databases/). Browse the child guides for other business apps, or visit [Jet Admin integrations](https://www.jetadmin.io/integrations).
+For Airtable and Google Sheets, see [Spreadsheets & collaborative databases](/broken/pages/oCqX0DLi6FtGMrQ4EmIr). Browse the child guides for other business apps, or visit [Jet Admin integrations](https://www.jetadmin.io/integrations).

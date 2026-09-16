@@ -12,7 +12,7 @@ Connect the systems your app already uses. Choose the source that owns your reco
 ## Start with your source
 
 * [Databases](databases/)
-* [Spreadsheets & collaborative databases](spreadsheets-and-collaborative-databases/)
+* [Spreadsheets & collaborative databases](/broken/pages/oCqX0DLi6FtGMrQ4EmIr)
 * [Business apps](business-apps/)
 * [REST API and GraphQL](apis/)
 * [Files & storage](storage-and-files/)
