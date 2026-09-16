@@ -12,4 +12,4 @@ Before an agent uses live data or external tools, run a controlled task with saf
 4. Test any workflow trigger or channel that will invoke the agent. Verify the same permissions apply there.
 5. Record the prompt, outcome, and tool calls. Revise instructions or access, then repeat the case.
 
-Use [Audit logs](../access-and-sharing/audit-logs-privacy-and-security/audit-logs.md) and relevant run history when available. For app access, see [Govern AI-generated apps](../access-and-sharing/overview.md).
+Use [Audit logs](../access-and-sharing/audit-logs-privacy-and-security/review-the-audit-trail.md) and relevant run history when available. For app access, see [Govern AI-generated apps](../access-and-sharing/overview/).

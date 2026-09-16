@@ -7,7 +7,7 @@ Say, we want to show two different status change `buttons` depending on the stat
 ![](../../../.gitbook/assets/visibility1.gif)
 
 {% hint style="info" %}
-If standard permissions are not enough and you may want to **restrict access** on the level of **individual UI components**, use [user properties](../../../access-and-sharing/app-and-data-permissions/user-and-team-properties.md) in the visibility logical expression
+If standard permissions are not enough and you may want to **restrict access** on the level of **individual UI components**, use [user properties](../../../access-and-sharing/members-users-and-groups/user-and-team-properties.md) in the visibility logical expression
 {% endhint %}
 
 To achieve that, let's first drop **two buttons**: one that changes the status of a user to "active" and the other that changes it to "inactive":

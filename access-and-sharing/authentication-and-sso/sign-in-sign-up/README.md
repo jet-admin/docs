@@ -5,45 +5,28 @@ icon: shield-keyhole
 
 # App SSO
 
-You don't need to build the Sign-in/Sign-up page in the UI, as Jet already has a **separate Sign-in/Sign-up page builder**.
+Connect your app to an external identity provider using the protocol supported by your organization.
 
-To access it,&#x20;
+## Provider guides
 
-1. Click on the Sign-in & Sign-up icon inside the builder
+| Provider           | Setup guide                                                      |
+| ------------------ | ---------------------------------------------------------------- |
+| Auth0              | [OAuth 2.0](auth0-sso-oauth-2.0.md) or [SAML2](auth0-sso.md)     |
+| Microsoft Azure AD | [OAuth 2.0](auth0-sso-oauth-2.0-1.md)                            |
+| Okta               | [Okta SSO](okta-sso.md)                                          |
+| Google             | [OAuth 2.0](google-oauth-2.0.md) or [SAML2](google-sso-saml2.md) |
+| Custom provider    | [OAuth 2.0](custom-sso-oauth-2.0.md)                             |
 
-{% @arcade/embed flowId="2TvWUQ2KdCQ7ITXe3X1C" url="https://app.arcade.software/share/2TvWUQ2KdCQ7ITXe3X1C" %}
+## Start in the current builder
 
-### Sign-in/Sign-up page
+Open **More → Authentication → Add External Authentication**, then select the appropriate provider. Existing provider tutorials may show earlier navigation and identity-provider screens; use the values displayed in your current configuration.
 
-Sign-in/Sign-up page has three major sections:
+Confirm the app environment, redirect or callback values, identity mapping, and team assignment before rollout. Test successful sign-in and rejection of an unintended account, while retaining a working administrator sign-in path.
 
-* **(1)** **Menu** - configure the appearance, sign-in, and sign-up separately
-* **(2) The preview** - check in real-time changes taking effect
-* **(3)** **Setting** - this is where the configuring happens&#x20;
+If your API needs the authenticated user's token, see [API calls with SSO token](api-calls-with-sso-token.md).
 
-![](../../../.gitbook/assets/rbsdvt.png)
+## Classic sign-in page customization
 
-{% hint style="warning" %}
-To be able to customize the Sign-in/Sign-up, you need to **set up a custom domain first**. See the image below.
-{% endhint %}
+The earlier sign-in page editor offered visual customization for login and signup screens. That workflow is separate from configuring an identity provider. Use the authentication settings above for the current builder.
 
-Learn how to set up a custom domain in the following article:
-
-{% content-ref url="../../../jet-bridge-deployment/overview/configuring-a-custom-domain.md" %}
-[configuring-a-custom-domain.md](../../../jet-bridge-deployment/overview/configuring-a-custom-domain.md)
-{% endcontent-ref %}
-
-#### Appearance
-
-The appearance tab allows you to:
-
-* **(1)** Switch between the **layouts**
-* **(2)** Set the **background picture**
-* **(3)** Set the **color theme**
-* **(4)** Enable the **White label**
-
-![](../../../.gitbook/assets/rndtby.png)
-
-#### Sign-in & Sign-up
-
-The sign-in and sign-up tabs allow you to configure the settings, specific to the sign-in and sign-up, such as Terms of service URL, titles, and customer sign-up flow for the Portal.
+If sign-in or redirects fail, continue with [Troubleshoot sign-in](../troubleshoot-sign-in.md).

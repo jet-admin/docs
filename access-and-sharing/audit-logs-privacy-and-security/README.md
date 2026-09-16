@@ -1,12 +1,22 @@
 ---
-icon: shield-halved
+icon: clipboard-list
 ---
 
-# Audit logs, privacy, and security
+# Audit trail and system logs
 
-Use logs to investigate what happened in an app, and review privacy and security requirements before connecting sensitive data.
+Choose the log view that matches the question you are investigating.
 
-* [Logs](logs.md) and [Audit logs](audit-logs.md) show relevant activity.
-* [Data Privacy & Security](data-privacy-and-security.md) covers protection of connected data.
+| View                                      | Open it from       | Use it for                                                           |
+| ----------------------------------------- | ------------------ | -------------------------------------------------------------------- |
+| [Audit trail](review-the-audit-trail.md)  | More → Audit trail | Review available activity by date, user, and activity type.          |
+| [System logs](investigate-system-logs.md) | More → System logs | Investigate system or integration messages using filters and search. |
 
-Check credential scope, sharing rules, and data retention against your organization’s requirements. When troubleshooting a generated action, record the request, user role, and affected record without exposing secrets in a support report.
+The Audit trail navigation item opens a page headed **Activity trail**. System logs is a separate view.
+
+## Investigate a reported problem
+
+Record the app, environment, time, affected user, and symptom. Start with the relevant view, narrow the filters, and compare the event or message with the action the user reports.
+
+An absent entry can have several causes, including the selected filters, event coverage, or retention. Do not interpret an empty view as proof that an action never occurred.
+
+Confirm available event coverage, retention, and any export requirements for your deployment before relying on these views for a formal audit. See [Security and data handling](../data-privacy-and-security.md) for handling diagnostic information.

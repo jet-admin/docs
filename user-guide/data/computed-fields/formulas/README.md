@@ -82,7 +82,7 @@ The number and type of tabs depend on the context. This allows the user to have 
 
 ### Tabs context
 
-When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](../../../../access-and-sharing/app-and-data-permissions/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
+When you configure the table parameters, the features displayed in the Formulas window will fit the component context, e.g. there will be a new tab with `Filters` to set up filtering for selected table or a tab with [User properties](../../../../access-and-sharing/members-users-and-groups/user-and-team-properties.md) if any exists. Let's walk through the possible context Tabs.
 
 #### Search tab
 
@@ -104,7 +104,7 @@ Here you can access any data from your resources through any component (fields, 
 
 ### User-specific properties
 
-If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](../../../../access-and-sharing/app-and-data-permissions/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
+If you want to restrict access for a User or a Team to data that is relevant for their work within a JetAdmin app, you can quickly access the [User & Team properties](../../../../access-and-sharing/members-users-and-groups/user-and-team-properties.md) in these tabs and assign the user or team ID to the data columns which should be visible for them:&#x20;
 
 ![](../../../../.gitbook/assets/testgif57.gif)
 
