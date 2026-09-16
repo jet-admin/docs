@@ -32,3 +32,11 @@ Use a stable customer ID as the matching key. Two orders with the same customer 
 For a small test, use Customers 1 (Ada) and 2 (Grace), with Orders 101 and 102 linked to customer 1 and Order 103 linked to customer 2. A join should return three order rows. Unexpected extra rows can mean the customer key is not unique.
 
 A Virtual Collection supports SELECT queries and is read-only. It does not write the joined result back to either source.
+
+## Related example: a join within one Jet Tables resource
+
+The following SQL collection joins Tickets and Customers from the **same** Jet Tables resource. It illustrates matching IDs and testing a parameterized join; it is not a cross-source Virtual Collection example.
+
+<figure><img src="../../.gitbook/assets/S23-ticket-customer-join-query.jpg" alt="Parameterized SQL joining Tickets and Customers in Jet Tables"><figcaption><p>Join the two demo tables and filter by the numeric customer_id input. The text cast matches this demo link field's stored type.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/S24-ticket-customer-join-result.jpg" alt="Successful result linking ticket 1 to Ada Gazey"><figcaption><p>With customer_id set to 5, the query returns ticket 1 and its linked customer, Ada Gazey.</p></figcaption></figure>

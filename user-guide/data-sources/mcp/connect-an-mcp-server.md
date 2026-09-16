@@ -12,11 +12,15 @@ description: Step-by-step setup for connecting MCP servers as datasources.
    * Resource Name: Defaults to _MCP_, but you can rename it (e.g., Weather Information _MCP_).
    * Server URL: Example → `https://mcp.example.com/mcp`.
    * Protocol: Options include _Auto_, _Streamable HTTP_, and _SSE_.
-   * Authentication (optional):
+   * Authorization: choose **Automatic** to use the server's sign-in flow, or **Manual** to configure authentication yourself.
+   * Under Manual, Authentication (optional):
      * None
      * API Key
      * Basic Auth
      * OAuth 2.0
+
+<figure><img src="../../../.gitbook/assets/S30-mcp-connection.jpg" alt="MCP connection form with server and authorization settings"><figcaption><p>Enter your provider's real endpoint and required authorization settings. Example URLs are placeholders.</p></figcaption></figure>
+
 4. Click Add Resource.
 
 {% @arcade/embed url="https://app.arcade.software/share/5hbgXqLkwNKN9LhAPkhp" flowId="5hbgXqLkwNKN9LhAPkhp" %}

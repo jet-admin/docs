@@ -33,6 +33,16 @@ The following existing walkthrough uses Customers and Companies to demonstrate t
 
 {% @arcade/embed url="https://app.arcade.software/share/PkoE2rQCX69JW2AfSjYO" flowId="PkoE2rQCX69JW2AfSjYO" %}
 
+## Jet Tables example: link a ticket to a customer
+
+In Jet Tables, add a **Link to record** field named **Customer**, select **Customers** as the related table, and choose **Name** as the display field. This form uses the related table's record identity; it does not show a separate matching-field selector.
+
+<figure><img src="../../../.gitbook/assets/S14-link-record-configuration.jpg" alt="Customer link field targeting Customers with Name as the display field"><figcaption><p>Configure the related table and the label displayed in the grid.</p></figcaption></figure>
+
+Select the related customer on the ticket. In this separate template-data example, ticket 1 is linked to customer 5, **Ada Gazey**. These sample records differ from the Orders example above.
+
+<figure><img src="../../../.gitbook/assets/S15-ticket-linked-customer.jpg" alt="Customer cell displaying Ada Gazey"><figcaption><p>The saved link displays the related customer's name.</p></figcaption></figure>
+
 ## If a record does not link
 
 Check that the target ID exists, both fields use compatible value types, and the target IDs are unique. Check blanks and formatting differences before changing the relationship.

@@ -22,9 +22,19 @@ WHERE customer_id = {{params.customer_id}};
 5. Change the test input to `2` and run it again.
 6. Save the query after verifying both results.
 
+## Jet Tables example
+
+This separate template-data example defines a required numeric **customer\_id** input. The standalone customer lookup uses the actual table identifier shown by Jet Tables and returns customer 5, **Ada Gazey**.
+
+<figure><img src="../../.gitbook/assets/S25-dynamic-sql-input.jpg" alt="Numeric customer_id input, SQL lookup, and result for customer 5"><figcaption><p>Use the table identifiers in your own resource; the template customer in this example has ID 5.</p></figcaption></figure>
+
 ## Verify
 
 Every returned row should have the requested customer ID. An empty result can be valid if that customer has no orders.
+
+<figure><img src="../../.gitbook/assets/S25b-sql-empty-result.jpg" alt="Succeeded SQL request with customer_id 99999 and no returned records"><figcaption><p>The related Tickets–Customers join succeeds but returns no rows for customer_id 99999. Check the input and matching data before treating an empty result as an error.</p></figcaption></figure>
+
+This empty-result screenshot uses the [ticket/customer join example](../synced-tables/join-data-from-multiple-sources.md), rather than the standalone lookup above.
 
 Bind the saved input to an appropriate app value when using the query in a component. A filter is not a substitute for permissions.
 

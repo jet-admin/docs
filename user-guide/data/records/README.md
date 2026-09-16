@@ -20,4 +20,6 @@ A filtered view changes which records you see. It is not an access-control rule.
 
 The Tickets template example below shows the **Create Tickets** button. The table name depends on the collection you selected.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FxXtqhrE5QIRZhqqSwiBM%2F05-new-ticket.png?alt=media" alt="New Record form for Tickets with optional fields, Enable controls, and Create Tickets button"><figcaption><p>Enable the fields you need, enter their values, and create the ticket.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/S10-new-record-form.jpg" alt="New Record form for the Tickets demo"><figcaption><p>Enable the fields you need, enter their values, and select Create Tickets.</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/S11-saved-record.jpg" alt="Saved ticket reopened for verification"><figcaption><p>The saved demo ticket has ID 1, the entered name, and Low priority.</p></figcaption></figure>

@@ -10,7 +10,9 @@ Use a stored field for a value you enter, a computed field for a calculation, or
 4. Set the name and a type that matches the values you will store, then complete the field configuration.
 5. Enter a sample value in a test record. Reopen it and confirm that the value and format are correct.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FnD8tpnrXT4Kc91tmSHGw%2F06-ticket-fields.png?alt=media" alt="Add field menu showing new field, computed field, lookup, rollup, and AI autofill options"><figcaption><p>Extend the Tickets table using the Add field menu.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/S12-add-field-menu.jpg" alt="Add field menu"><figcaption><p>Choose a stored field or one of the available calculated-field options.</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/S13-field-configuration.jpg" alt="Number field configuration named Estimated hours"><figcaption><p>Example configuration for a Number field. This screenshot shows the form before creation.</p></figcaption></figure>
 
 The same menu includes computed fields, lookups, rollups, and AI autofill. See [Computed fields](../computed-fields/) and [Relationships](../relationships/).
 

@@ -22,6 +22,12 @@ Have access to the source and its connection credentials. Follow its [Data Sourc
 
 If **Sync connection** is not offered, use the connector's available connection mode or contact support about sync availability.
 
+## REST API sync setup
+
+For an API collection that offers **Sync to Jet Tables**, review the confirmation dialog. If it reports unpublished resource changes, publish the intended resource configuration before enabling sync: the dialog states that sync uses published resource credentials.
+
+<figure><img src="../../.gitbook/assets/S17b-api-sync-setup.jpg" alt="Enable sync mode dialog for API Users with unpublished-changes warning"><figcaption><p>This setup view shows the publishing prerequisite; it does not show a completed sync.</p></figcaption></figure>
+
 ## Next steps
 
 * Added or changed a source table or field? Follow [Sync schema changes](syncing-schema-and-data.md).

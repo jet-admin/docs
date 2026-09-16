@@ -11,19 +11,19 @@ Open an app where you can add a resource. If your data already exists in a file,
 1. Open **Data** and select **Add Resource**.
 2. Select **New Data — using Jet Tables**.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FN0LO1bKmOWsP9fP9xtDE%2F00-new-data.png?alt=media" alt="Create a Resource dialog with New Data using Jet Tables as the first option"><figcaption><p>Select New Data to start with Jet Tables.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S01-S03-resource-picker.jpg" alt="Resource picker showing New Data using Jet Tables"><figcaption><p>Select New Data using Jet Tables to create a resource.</p></figcaption></figure>
 
 3. Select **New Table**.
 4. Use the pencil icon beside the table name to rename it.
 5. Review the example fields and records, then select **Create**.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2Fm5QnjoRTLFeFP2mirDH4%2F01-new-table.png?alt=media" alt="New Table setup showing the Documentation Demo name, default fields, and sample records"><figcaption><p>Name your table and review the preview before selecting Create.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S04-new-table-setup.jpg" alt="New Table setup and example fields"><figcaption><p>Review the table name, fields, and preview before creating the table.</p></figcaption></figure>
 
 ## Start from a template
 
 Select a template in the setup window to preview its fields and records. Rename it if needed and select **Create**.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FmvNf1V19DFP9mtINEqnx%2F02-template.png?alt=media" alt="Tasks template selected with a preview of its fields and example task records"><figcaption><p>The Tasks template provides a starting structure for tracking work.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S05-template-preview.jpg" alt="Tasks template preview"><figcaption><p>Select a template to preview its starting fields and records.</p></figcaption></figure>
 
 ## Verify the result
 

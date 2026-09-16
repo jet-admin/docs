@@ -14,7 +14,7 @@ Prepare a **CSV, XLS, XLSX, or JSON** file. For tabular files, use clear column 
 4. Review **Advanced settings** if you need to adjust encoding or automation settings.
 5. Select **Import file**.
 
-<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2F95aH852TE8EMM9Pa7Vy9%2F03-import-file.png?alt=media" alt="File import dialog with Choose File, supported formats, Advanced settings, and Import file"><figcaption><p>Upload an existing file to bring your data into Jet Tables.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S06-import-dialog.jpg" alt="Import from File dialog with Choose File and Import file"><figcaption><p>Choose a supported file, review its settings, and import it.</p></figcaption></figure>
 
 ## Verify the import
 
@@ -25,6 +25,8 @@ If text is garbled, review encoding. If numbers or dates are interpreted incorre
 ## Export data
 
 Open the collection you want to export and use its export option. Check which records the export includes, especially when filters are active, and select an available format.
+
+<figure><img src="../../.gitbook/assets/S08-export-formats.jpg" alt="Records Export formats: CSV, Excel, JSON, HTML, and TXT"><figcaption><p>Choose an export format and check which records are included.</p></figcaption></figure>
 
 Open the exported file and compare its columns and record count with the intended selection. A data export is not an export of your entire app configuration.
 

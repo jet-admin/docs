@@ -14,7 +14,9 @@ For a server in a private network, confirm that your Jet Admin environment can r
 
 ## Configure authentication
 
-The MCP connection form offers **None**, **API Key**, **Basic Auth**, and **OAuth 2.0**. Choose the method required by the server and configure its credentials in the connection form.
+The MCP connection form offers **Automatic** and **Manual** authorization. Use Automatic for the server's sign-in flow when supported. Under Manual, choose the authentication method required by the server, such as **None**, **API Key**, **Basic Auth**, or **OAuth 2.0**, and configure its credentials in the connection form.
+
+<figure><img src="../../../.gitbook/assets/S30b-mcp-manual-authentication.jpg" alt="MCP form with manual authentication controls"><figcaption><p>Configure the authentication required by your server. The example form is a setup view, not a connected server.</p></figcaption></figure>
 
 A reachable URL does not establish permission to use every tool. The server and connected account determine the tools and data available.
 

@@ -14,6 +14,9 @@ Make the schema change in your source first. Use an administrator account in Jet
 
 1. Open **Data** and select the resource you changed.
 2. Open the resource's **More** menu and select **Sync Structure**. Some resource interfaces label the schema-refresh control **Sync**.
+
+<figure><img src="../../.gitbook/assets/S18-sync-structure-menu.jpg" alt="HubSpot resource menu with Sync Structure"><figcaption><p>Select Sync Structure from the resource menu. This image shows the command, not a completed refresh.</p></figcaption></figure>
+
 3. After the refresh, open the affected table or collection.
 4. Check that the new table or field appears.
 

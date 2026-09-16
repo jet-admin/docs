@@ -12,6 +12,8 @@ Use [Jet Admin Storage](file-storage-and-uploading/jet-admin-storage.md), or [co
 
 ## Upload a file
 
+<figure><img src="../../.gitbook/assets/S28a-storage-before-upload.jpg" alt="Empty storage folder with Upload File control"><figcaption><p>Before uploading, open the intended storage and select Upload File. This is the empty-folder state.</p></figcaption></figure>
+
 1. Open the **Data Editor** and find the storages section.
 2. Select the storage where you want to upload the file.
 3. Select **Upload File** and choose a file.

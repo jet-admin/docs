@@ -1,49 +1,69 @@
 ---
-description: Transform your JSON response
+description: Select nested records and transform API response fields.
 ---
 
 # Transform API responses
 
 Transform a response when its structure does not match the fields your component needs. Test the original request first, then compare the transformed output.
 
-## Select the response root
+## Example response
 
-For a response containing a list inside an object:
+This guide uses the public [DummyJSON Users API](https://dummyjson.com/docs/users). With the base URL `https://dummyjson.com`, send a GET request to `/users?limit=2&select=id,firstName,lastName`.
+
+The response contains a `users` array alongside pagination metadata. The records used below are:
 
 ```json
-{"customers":[{"id":1,"full_name":"Ada"},{"id":2,"full_name":"Grace"}]}
+{
+  "users": [
+    {"id": 1, "firstName": "Emily", "lastName": "Johnson"},
+    {"id": 2, "firstName": "Michael", "lastName": "Williams"}
+  ]
+}
 ```
 
+<figure><img src="../../../.gitbook/assets/S26a-api-original-response.jpg" alt="Original API response with users, total, skip, and limit"><figcaption><p>Before extracting records, the users array appears inside the response object.</p></figcaption></figure>
+
+## Select the response root
+
 1. Open **Transform**.
-2. Select **customers** as the response root.
-3. Preview the result. It should contain two customer records.
+2. In the preview, open **NEST** on the **users** column and choose **Nested data as result**.
+3. Check that the response root shows **Top Level → users** and that the preview contains two rows.
+
+<figure><img src="../../../.gitbook/assets/S26b-api-response-root.jpg" alt="Users response root and two individual user records"><figcaption><p>Selecting users exposes id, firstName, and lastName as columns.</p></figcaption></figure>
 
 {% @arcade/embed url="https://app.arcade.software/share/CXNncl0iKUKIJ3SaRnyU" flowId="CXNncl0iKUKIJ3SaRnyU" %}
 
-## Rename fields with JavaScript
+## Transform fields with JavaScript
 
-The variable `data` contains the response. For the original JSON object above:
+As an alternative to selecting the nested array, use a JavaScript transform on the original response object. The variable `data` contains the response.
 
-1. Open **Transform → JavaScript Transformation**.
+1. Open **Transform → JavaScript transform**.
 2. Enter this code:
 
 ```javascript
-return data.customers.map(customer => ({
-  id: customer.id,
-  name: customer.full_name
+return data.users.map(user => ({
+  id: user.id,
+  name: user.firstName + " " + user.lastName
 }));
 ```
 
-3. Run the request and inspect the output:
+3. Run **Test Request** and inspect the output:
 
 ```json
-[{"id":1,"name":"Ada"},{"id":2,"name":"Grace"}]
+[
+  {"id": 1, "name": "Emily Johnson"},
+  {"id": 2, "name": "Michael Williams"}
+]
 ```
 
-4. Test an empty list: `{"customers":[]}` should return `[]`.
+<figure><img src="../../../.gitbook/assets/S27-api-javascript-transform.jpg" alt="JavaScript mapping and successful preview with id and name"><figcaption><p>The transform combines firstName and lastName into name while preserving each ID.</p></figcaption></figure>
+
+4. Test an empty list: `{"users":[]}` should return `[]`.
 5. Save after the preview matches the fields your component needs.
 
-This code expects the original object with a `customers` array. If you already selected that array as the root, inspect the value passed to the transformation and adjust the code accordingly.
+This code expects the original object with a `users` array. If you already selected that array as the root, inspect the value passed to the transformation and adjust the code accordingly.
+
+The existing walkthrough below demonstrates another field-mapping example.
 
 {% @arcade/embed url="https://app.arcade.software/share/Ee03QJrhnsvigKOhEqk7" flowId="Ee03QJrhnsvigKOhEqk7" %}
 
