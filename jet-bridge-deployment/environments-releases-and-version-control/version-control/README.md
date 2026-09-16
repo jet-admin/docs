@@ -5,9 +5,11 @@ icon: code-branch
 
 # Version Control
 
+This guide describes the earlier snapshot and release interface. For the current AI App Builder panel with **Preview version**, **Revert version**, and **Show changes**, see [Version History](../../../ai-app-builder/test-and-publish/version-history.md).
+
 By default, any changes made to a Jet app are automatically saved to the current working version and are immediately visible to all users. Enable app versioning or reverting back to a previous state.
 
-Releases enable users to implement app versioning and release changes using a unique version number representing the app's specific state. When a release is published, it becomes the live version for users to interact with, providing a secure way to test and deploy changes without causing any disruptions.&#x20;
+Releases enable users to implement app versioning and release changes using a unique version number representing the app's specific state. When a release is published, it becomes the live version for users to interact with, providing a secure way to test and deploy changes without causing any disruptions.
 
 Jet keeps a detailed record of all modifications made, allowing users to browse the list of versions and revert the app to a previous state if necessary.
 
@@ -35,7 +37,7 @@ The current state of Jet apps can be version-controlled and made available to us
 
 ### Create a new release
 
-Click **Create snapshot** to create a version for release. You can also specify a release name or auto-generate it.&#x20;
+Click **Create snapshot** to create a version for release. You can also specify a release name or auto-generate it.
 
 <figure><img src="../../../.gitbook/assets/sp.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -46,8 +48,6 @@ You have the ability to revert the current working version to a previous state. 
 <figure><img src="../../../.gitbook/assets/re.jpg" alt=""><figcaption></figcaption></figure>
 
 Every time you perform a reversion, this action is also recorded in the history under the label **Reverted changes**. If necessary, you can revert back to a prior historical point to undo the reversion, thereby restoring the changes to the current working version.
-
-
 
 ### Creating a backup version
 
@@ -65,14 +65,10 @@ Then choose the environment you want to save the version from (click the gear ic
 
 After that, you can **download the current configuration** and store it in your local storage
 
-
-
 <figure><img src="../../../.gitbook/assets/Group 7571.png" alt=""><figcaption></figcaption></figure>
 
 ### Restoring a previous version
 
 To rollback to the previously saved version, you'll need to click upload and select the backup file that's been saved. After that, the changes will be pushed automatically
-
-
 
 <figure><img src="../../../.gitbook/assets/Group 7581.png" alt=""><figcaption></figcaption></figure>

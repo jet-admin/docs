@@ -63,6 +63,7 @@
 * [Test and publish](ai-app-builder/test-and-publish/README.md)
   * [Test data actions and user access](ai-app-builder/test-and-publish/check-data-actions-and-user-access.md)
   * [Preview and publish an AI app](ai-app-builder/test-and-publish/preview-and-publish-an-ai-app.md)
+  * [Version History](ai-app-builder/test-and-publish/version-history.md)
 * [Practical guides](ai-app-builder/practical-guides/README.md)
   * [Build a support dashboard](ai-app-builder/practical-guides/build-a-support-dashboard.md)
   * [Build a customer portal](ai-app-builder/practical-guides/build-a-customer-portal.md)

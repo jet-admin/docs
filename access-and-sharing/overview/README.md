@@ -21,3 +21,7 @@ Preview helps reveal differences in the interface. Use actual test sign-ins and 
 Assign an owner for membership reviews, authentication configuration, permission rules, and incident investigation. Recheck access when a person changes responsibilities or leaves, and after changing team or user properties used by rules.
 
 Use [the audit trail](../audit-logs-privacy-and-security/review-the-audit-trail.md) to review available activity and [system logs](../audit-logs-privacy-and-security/investigate-system-logs.md) to investigate errors. Confirm event coverage and retention for your requirements rather than assuming the logs form a complete compliance record.
+
+## Review the app version
+
+Use [Version History](../../ai-app-builder/test-and-publish/version-history.md) to identify the app state being reviewed. Inspect changes before reverting, record the selected version in your review, and repeat permission tests after a revert. Check database records separately: app version history is not a record-level data backup.
