@@ -75,6 +75,8 @@ The following list reflects the model selector as of September 16, 2026. Check t
 
 ### Self-hosted models
 
+Self-hosted models are available only on the **Enterprise plan**.
+
 The **Self-hosted models** section includes **Llama**, **Mistral**, **Qwen**, and **DeepSeek**. Open a family to see its model options.
 
 ## Understanding context windows
@@ -87,4 +89,4 @@ A context window is the amount of information a model can work with in a request
 
 Model choice and task complexity affect AI usage. The selector's context-window numbers are not credit prices. For your remaining allowance, check your account's usage and billing information.
 
-See [How credits work](../account/credits-and-rate-limits/how-credits-work.md) for AI building credits, or [AI Models](../ai-agents/instructions-tools-skills-files-and-models/ai-models.md) for guidance on choosing models for agents.
+See How credits work for AI building credits, or AI Models for guidance on choosing models for agents.
