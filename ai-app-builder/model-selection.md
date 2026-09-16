@@ -2,6 +2,7 @@
 description: >-
   Choose an AI model, switch between quick options, and compare the models
   available in Jet Admin.
+icon: brain-circuit
 ---
 
 # Model selection
