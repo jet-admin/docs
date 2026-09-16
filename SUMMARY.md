@@ -9,6 +9,13 @@
   * [How to restrict input in a text field?](faq-and-troubleshooting/how-to-restrict-input-in-a-text-field.md)
   * [Troubleshooting Django integration](faq-and-troubleshooting/troubleshooting-django-integration.md)
   * [How to Connect to Slack Channel](faq-and-troubleshooting/how-to-connect-to-slack-channel.md)
+  * [AI credits: insufficient balance or usage limit](faq-and-troubleshooting/ai-credit-limit-errors.md)
+  * [Cancel renewal, request a refund, or report an unexpected charge](faq-and-troubleshooting/cancellation-and-unexpected-charges.md)
+  * [Find missing invoices and update billing details](faq-and-troubleshooting/missing-invoices-and-billing-details.md)
+  * [Password-reset or invitation email not received](faq-and-troubleshooting/password-reset-and-invitation-emails.md)
+  * [A user gets 403 or cannot access a page](faq-and-troubleshooting/403-and-user-permission-errors.md)
+  * [Gmail connection blocked by Google](faq-and-troubleshooting/gmail-connection-blocked.md)
+  * [Custom API storage is missing from File Picker](faq-and-troubleshooting/file-picker-custom-api-storage.md)
 * [Community](join-the-community.md)
 
 ## Getting Started
