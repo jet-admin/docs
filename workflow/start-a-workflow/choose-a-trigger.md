@@ -4,24 +4,35 @@ description: In this section you will learn about triggers
 
 # Choose a trigger
 
-A trigger determines when a process starts and what information it receives.
+A trigger defines when a function runs automatically. In the **Workflows** area, choose **Add Automation** to start with a trigger, or use **Add trigger** for an existing function.
 
-| Starting event                        | Use                    | Input to define                                          |
-| ------------------------------------- | ---------------------- | -------------------------------------------------------- |
-| A user clicks a button                | Component workflow     | Selected record ID or form values                        |
-| A user runs a list action             | Component workflow     | The row or selected-record values exposed by that action |
-| A component action succeeds or fails  | Success/error callback | Values available in the component's action context       |
-| A regular interval                    | Scheduled automation   | Query criteria and timing                                |
-| Another service sends an HTTP request | Webhook automation     | Event payload and record identifier                      |
+## Function and automation triggers
 
-## Component or background automation?
+| Trigger                  | Starts work                         |
+| ------------------------ | ----------------------------------- |
+| **At regular intervals** | Repeatedly at a configured interval |
+| **Based on a schedule**  | According to a configured schedule  |
+| **One-time run**         | For a single configured execution   |
+| **When record created**  | When a new record is created        |
+| **When record updated**  | When a record is updated            |
+| **When record deleted**  | When a record is deleted            |
 
-For a component workflow, open the component's **Actions** configuration and choose **Run Workflow**. Follow [Run from a button or list action](run-from-a-button-or-list-action.md).
+Follow [Functions and automations](../functions.md) for screenshots of both menus and the setup sequence. Configure the timing or record source after choosing a type.
 
-For unattended work, open **Automation** and use a [schedule](run-on-a-schedule.md) or [webhook](receive-an-incoming-webhook.md). Read records explicitly instead of relying on an open app page.
+## Component actions
 
-Success/error callbacks belong to component action configuration. They are distinct from conditions inside a workflow; see [Run actions after component success or failure](../handle-outcomes/component-success-and-failure-actions.md).
+An app user can also start a workflow from a button or list action. Open the component's **Actions** configuration and choose **Run Workflow**. Bind the selected record ID or form values as inputs.
 
-## Check the input
+See [Run from a button or list action](run-from-a-button-or-list-action.md). Component success/error callbacks are another entry point; see [Run actions after component success or failure](../handle-outcomes/component-success-and-failure-actions.md).
 
-Before adding actions, identify one value that the process must receive, such as `ticket_id`. Define its type, supply a test value, and inspect it at the first step. See [Pass inputs into a workflow](../build-workflow-steps/pass-inputs-into-a-workflow.md).
+## External HTTP events
+
+The separately documented [webhook setup](receive-an-incoming-webhook.md) covers incoming HTTP events. A webhook option is not shown among the six choices in the supplied Add trigger and Add Automation menus.
+
+## Check the input and result
+
+Identify the values the function needs, inspect the inputs supplied by the trigger, and map the required fields. A record event and an app's selected row may expose different data.
+
+Test both the function and its actual trigger. For update events, check whether the function's writes can cause another event. For deletion events, inspect the payload rather than assuming the deleted record remains queryable.
+
+See [Pass inputs into a workflow](../build-workflow-steps/pass-inputs-into-a-workflow.md) and [Handle failures and prevent duplicate processing](../handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).

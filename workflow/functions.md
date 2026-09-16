@@ -89,16 +89,46 @@ Use this sequence:
 
 Check a normal input, an empty input or lookup, and a failure case. A successful test of the function does not establish that an automation's trigger is configured correctly.
 
-## Turn the function into an automation
+## Add a trigger to a function
 
-After verifying the function, attach the trigger that should start it and configure the values it supplies. The **Add Function** dialog selects the authoring method; it does not configure the trigger.
+To run an existing function automatically, open its **Add trigger** dialog and expand **Choose trigger**. Select the event or timing option that should start the function.
 
-For the trigger concepts and setup guides, see:
+<figure><img src="../.gitbook/assets/function-add-trigger.png" alt="Add trigger dialog listing interval, schedule, one-time, and record-change triggers"><figcaption><p>Attach a trigger to an existing function to define when it runs.</p></figcaption></figure>
 
-* [Run on a schedule](start-a-workflow/run-on-a-schedule.md)
-* [Receive an incoming webhook](start-a-workflow/receive-an-incoming-webhook.md)
-* [Choose a trigger](start-a-workflow/choose-a-trigger.md)
+## Create an automation from a trigger
 
-Test the actual trigger separately, then check the function's execution and resulting data. Account for repeated events and partial completion; see [Handle failures and prevent duplicate processing](handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).
+In the **Workflows** area, click **Add Automation** and select a trigger from the menu. This starts automation setup with the event or timing option already chosen.
+
+<figure><img src="../.gitbook/assets/add-automation-triggers.png" alt="Add Automation menu beside Add Function with six available trigger types"><figcaption><p>Start with Add Function to build the logic first, or Add Automation to choose a trigger first.</p></figcaption></figure>
+
+## Choose the trigger type
+
+Both menus show the same six options:
+
+| Trigger                  | When to use it                              | Example                                    |
+| ------------------------ | ------------------------------------------- | ------------------------------------------ |
+| **At regular intervals** | Repeat work at an interval                  | Check for pending tasks periodically       |
+| **Based on a schedule**  | Run work according to a configured schedule | Prepare a daily summary                    |
+| **One-time run**         | Arrange a single execution                  | Run a one-off maintenance task             |
+| **When record created**  | Respond to a new record                     | Process a newly created task               |
+| **When record updated**  | Respond to a record update                  | Reevaluate a task after its details change |
+| **When record deleted**  | Respond to a record deletion                | Perform related cleanup                    |
+
+After selecting a type, complete the configuration shown for that trigger. For timed runs, check the timing and effective time zone. For record events, select the relevant source and collection where prompted and inspect the event values available to the function.
+
+The menus show the trigger choices, not the completed configuration or a successful run. Do not assume a deleted record can still be fetched from its source; inspect the event data before making later steps depend on it.
+
+## Verify the automation
+
+1. Save the function logic and complete the trigger configuration.
+2. Test the function with representative input.
+3. Exercise the actual trigger using a test record or controlled time setting.
+4. Inspect **Run history** and the resulting data.
+
+For an update-triggered automation that writes to the same collection, check whether its own write can trigger more work. Add conditions or processed markers as needed, and test repeated events.
+
+See [Run on a schedule](start-a-workflow/run-on-a-schedule.md) and [Handle failures and prevent duplicate processing](handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).
+
+The six choices above are the options visible in these menus. For the separately documented HTTP-event setup, see [Receive an incoming webhook](start-a-workflow/receive-an-incoming-webhook.md).
 
 Workflow functions are different from formula functions used in computed fields. For those, see [List of Functions](../user-guide/data/computed-fields/formulas/list-of-functions.md).
