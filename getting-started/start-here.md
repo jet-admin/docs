@@ -4,7 +4,7 @@ icon: wand-magic-sparkles
 
 # Build your first app with AI
 
-Build a small support app that lists tickets, filters them by status, and lets you inspect a selected ticket.
+This walks you through building a working app in Jet Admin, end to end: describe it, connect your data, and publish it. You'll have something running in a few minutes.
 
 ## Before you begin
 
@@ -12,34 +12,40 @@ Use a project where you can build an app and a small test dataset. Prepare a **T
 
 [Download sample ticket records](../.gitbook/assets/sample-tickets.csv). Import them into a test table, then check the field types. The Assigned to values are demo text labels; map them to your own users if your schema uses user references.
 
-## 1. Select your data
+## 1. Describe the app you want
 
-Open the AI Assistant and [select the connected resource](../ai-app-builder/ai-assistant/select-data-sources.md) containing Tickets. Check the table and field names before prompting.
+From your dashboard, type what you want to build into the prompt box. Be specific about the data and the view you need — for example:
 
-## 2. Describe the first version
+```
+Create a customer support ticket management app with a ticket queue and a ticket details panel.
+```
 
-Copy and adapt this prompt:
+Jet generates a working interface from your description: tables, forms, and detail views, already wired to the data model it inferred from your prompt.
 
-> Build a support app using the Tickets table. Create a Tickets page with Name, Status, Priority, and Assigned to columns. Add a Status filter and a detail view for a selected ticket. Start with read-only access. Use the connected records rather than example records embedded in the page.
+{% embed url="https://app.arcade.software/share/65Ipn649dh4jY6XVcAgO" %}
 
-Wait for generation to finish. If the assistant needs more information, answer using your actual schema.
+## 2. Connect your data
 
-## 3. Inspect the result
+Open the AI Assistant and [select the connected resource](../ai-app-builder/ai-assistant/select-data-sources.md) containing Tickets. If you didn't already point Jet at a data source, connect one now — or start on Jet's built-in Postgres database if you don't have one ready. See [Connecting your data](../user-guide/jet-databases/) for the full list of supported sources.
+
+{% embed url="https://app.arcade.software/share/GQxT0CLIq0OIM3t5uuOA" %}
+
+Jet reads your schema and wires the generated tables, forms, and dashboards to read and write your real data — not a copy. Row- and column-level permissions are enforced automatically as part of this step.
+
+## 3. Inspect the result and refine it
 
 Open [the Tickets page in Preview](../ai-app-builder/refine-an-app/select-a-page.md). Confirm all three test tickets appear. Choose Open in the filter and confirm only the two Open tickets remain. Open a ticket and compare its details with the source.
 
-## 4. Make one change
+Keep iterating with follow-up prompts (for example, on the Tickets page: "add a search field for Name, keep the current columns and Status filter"), or switch to the visual editor and click any element — like [selecting it in Preview](../ai-app-builder/refine-an-app/edit-components-in-preview.md) — to change it directly. If you need more control, drop into the code — React, Vue, or Angular — right in the editor.
 
-> On the Tickets page, add a search field for Name. Keep the current columns and Status filter.
+{% embed url="https://app.arcade.software/share/w2kD346m0fJaytY2D6rE" %}
 
-Search for one test ticket by its name. Alternatively, [select an element in Preview](../ai-app-builder/refine-an-app/edit-components-in-preview.md) to request a visual change.
+Along the way, try [Desktop, Tablet, and Mobile](../ai-app-builder/preview-and-troubleshoot/control-app-preview.md), apply [a theme preset](../ai-app-builder/themes-and-appearance/apply-a-theme-template.md) if needed, and use [an invited test user](../ai-app-builder/preview-and-troubleshoot/preview-as-an-invited-user.md) to check the app's access behavior.
 
-## 5. Check appearance and access
+## 4. Publish
 
-Try [Desktop, Tablet, and Mobile](../ai-app-builder/preview-and-troubleshoot/control-app-preview.md). Apply [a theme preset](../ai-app-builder/themes-and-appearance/apply-a-theme-template.md) if needed. Use [an invited test user](../ai-app-builder/preview-and-troubleshoot/preview-as-an-invited-user.md) to inspect the app's access behavior.
+When you're ready, publish your app. You can publish to a Jet Cloud URL or a custom domain (on paid plans) — see [Preview and publish an AI app](../ai-app-builder/test-and-publish/preview-and-publish-an-ai-app.md). Repeat the ticket list, filter, detail, and access checks in the published app.
 
-## 6. Publish when ready
-
-Follow [Preview and publish an AI app](../ai-app-builder/test-and-publish/preview-and-publish-an-ai-app.md). Repeat the ticket list, filter, detail, and access checks in the published app.
+{% embed url="https://app.arcade.software/share/oC3T6s7BGdEUinFRUSSt" %}
 
 If the app fails to load or an interaction fails, inspect [Console and logs](../ai-app-builder/preview-and-troubleshoot/inspect-app-console-and-logs.md). To extend this example with an assignment action, continue with [Build a support dashboard](../ai-app-builder/practical-guides/build-a-support-dashboard.md).
