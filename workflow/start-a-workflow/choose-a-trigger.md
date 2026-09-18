@@ -36,3 +36,9 @@ Identify the values the function needs, inspect the inputs supplied by the trigg
 Test both the function and its actual trigger. For update events, check whether the function's writes can cause another event. For deletion events, inspect the payload rather than assuming the deleted record remains queryable.
 
 See [Pass inputs into a workflow](../build-workflow-steps/pass-inputs-into-a-workflow.md) and [Handle failures and prevent duplicate processing](../handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).
+
+## Record-event scope
+
+In record-trigger setup, choose the resource and collection. The inspected Jet Tables collection selector explicitly says **collections (changes from Jet only)**. Do not assume that a direct write to an external database will start this automation.
+
+Test creation, updates, and deletion separately using a disposable record changed through Jet. Inspect the event values before mapping them; the available fields and delivery behavior must be verified for your configured trigger.

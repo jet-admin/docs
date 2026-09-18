@@ -361,3 +361,48 @@ The prior list of 27 paths was checked in the public browser:
 | `/user-guide/data/fields`                                                  | Existing Fields page; verified public                                                         |
 
 Current handoff visibility remains hidden from navigation and available by direct link.
+
+## Execution update — 18 September 2026: verified corrections and blockers
+
+This update supersedes earlier statements implying that all configured malformed-URL redirects were resolved.
+
+### Completed and published
+
+* Platform change request #1156 corrected seven articles: Version Control, both cross-instance backup guides, Welcome to Jet Admin, Business apps, Customizing Pages, and Fields. Revision: lTToawxTlqBC396M1JaL.
+* Removed unverified claims about immediate deployment, complete rollback and restoration scope. Configuration recovery is distinguished from database records, files and external effects. Existing media retained; recovery has not been execution-tested.
+* Repaired homepage links to the deleted Community and What's New page IDs. Community's existing public route remains redirected to https://docs.jetadmin.io/whats-new-updates.
+* Replaced missing spreadsheet, page-query and field-reference links with existing canonical guides. Corrected phone-number guidance: use text to preserve prefixes and leading zeros.
+* Change request #1157 updates Run on a schedule with verified trigger names, minute intervals, calendar choices, daily UTC label and one-time Run date. Functions and automations and Choose a trigger now document the Jet Tables restriction “changes from Jet only.” This is interface evidence, not a successful trigger test.
+
+### Full public redirect verification
+
+Read all 322 live rules across four API result pages and requested each decoded source using curl HEAD with redirects followed: **127 reached HTTP 200; 195 returned HTTP 404**. One initial timeout was retried and returned 404.
+
+All 195 failures have percent-encoded punctuation in their saved sources. These are malformed incoming URLs, not evidence that 195 canonical articles are missing. The earlier 202-rule batch was only verified as API-created; it must not be reported as fully working. The earlier 27-path audit remains separate: 26 resolved, one punctuation case failed.
+
+Local evidence in /Users/antonsvetlov/Downloads/WhatsNew:
+
+* docs-phase2-redirects.json — all saved live rules.
+* docs-phase2-url-results.json and docs-phase2-url-results.csv — full per-path results.
+* docs\_phase2\_audit.py — audit script.
+* gitbook-redirect-support-report-2026-09-18.md — ready-to-send report, reproduction steps and all 195 failing paths.
+
+No support message has been sent. Next site-owner action: submit the report to GitBook and request a supported literal/encoded punctuation matching strategy. Preserve valid paths; do not add a broad redirect to conceal failures. Repeat the same audit after a routing fix.
+
+### Pages and production work still pending
+
+* Build your first workflow: current worked example remains component/Classic oriented. Rewrite around a tested new visual function, moving the retained component example into Run from a button or list action. Do not remove its existing media.
+* Record-event walkthrough: test created, updated and deleted events through Jet separately; confirm payloads and behavior before publishing an executable tutorial.
+* TypeScript function guide: inspect the generated scaffold, accepted inputs and return values in a disposable app before writing runnable example code.
+* Testing/troubleshooting: capture a successful run, a controlled failure and recovery in current Run history.
+* AI Builder: validate model selection, attachments, dictation, contextual chats, visual edits and preview controls against the actual app. Preserve count-neutral theme wording until current counts are confirmed.
+* Access/Governance and Publish/Deploy: test invitations, allowed/denied access, publish visibility, version recovery and environment backups in an explicitly designated demo.
+* Videos: scripts and some retained Arcades exist; no new walkthrough recording was produced in this pass. Record only after the matching text scenario passes; add captions and transcript.
+* Analytics: existing rolling aggregate versus daily-bucket discrepancy remains unresolved. Keep 3,776 resolved-page views as the earlier non-bot/unclassified snapshot, not a verified human or seven-complete-day baseline.
+* Classic: fresh UI/media acceptance review remains pending.
+
+### Continuation boundary and next steps
+
+The user was asked to identify a disposable demo app/environment and permitted test users. No answer had arrived at publication time. Fleet Management was inspected read-only; no function was created, automation saved, message sent, business record changed, or end-to-end product test run.
+
+Follow docs-phase2-execution-tracker.md for the test matrix, evidence requirements and suggested role ownership. Role owners are proposed, not assigned people. Finish tests and matching media after demo details arrive; keep this handoff hidden from navigation and available through its direct URL.

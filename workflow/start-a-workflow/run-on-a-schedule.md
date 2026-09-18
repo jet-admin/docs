@@ -4,31 +4,39 @@ description: Run an automation at a regular interval and check its results.
 
 # Run on a schedule
 
-Use a scheduled automation for recurring work that does not require an app user to click a button.
+Use **Workflows → Add Automation** to choose when background work starts. Background logic needs explicit inputs and queries; it cannot depend on a row selected in an app.
 
-## Before you start
+## Choose a timing option
 
-Define the interval, the data to query, and how you will recognize completed work. Background steps need explicit inputs and queries; they cannot depend on a selected app row.
+| Option                   | Configuration                                                                    | Use                                |
+| ------------------------ | -------------------------------------------------------------------------------- | ---------------------------------- |
+| **At regular intervals** | **Interval in minutes**                                                          | Repeat a check at a fixed interval |
+| **Based on a schedule**  | **Every day**, **Days of the week**, **Days of the month**, or **Specify dates** | Run according to a calendar        |
+| **One-time run**         | **Run date**                                                                     | Arrange one execution              |
 
-## Configure the schedule
+The inspected interval form initially shows 15 minutes. Set the value needed for your process instead of relying on that initial value.
 
-1. Open **Automation** and add an automation.
-2. Select a schedule or time-interval trigger.
-3. Configure an available interval, such as every minute, hour, day, or month.
-4. Check the timing options shown by the trigger. Confirm the effective time zone before relying on a particular local time.
-5. Add a read action and configure its filters.
-6. Pass its results into conditions or an iterator, then configure the required update or notification.
+## Configure a daily schedule
 
-See [iterators](../build-workflow-steps/process-multiple-records-with-iterators.md) and [inputs](../build-workflow-steps/pass-inputs-into-a-workflow.md).
+1. Open **Workflows** and select **Add Automation**.
+2. Choose **Based on a schedule**.
+3. Choose **Every day** and set **Time**.
+4. The inspected daily form specifies **Time zone is UTC (+0)**. Convert your intended local time to UTC; consider daylight-saving changes when relevant.
+5. Configure the function's logic and required data.
+6. Save the function and complete the trigger configuration shown in your app.
 
-## Test and verify
+The UTC label above was verified for the daily form. Check the labels for other schedule modes and the one-time date picker before assuming they use the same time zone.
 
-Test the individual steps with fictional records, then verify a scheduled execution and its resulting data. Testing an action in the editor does not by itself confirm that the schedule is active.
+For recurring work, start with a query that selects only the records due for processing. Pass those results into [conditions](../build-workflow-steps/add-conditions-and-branches.md) or an [iterator](../build-workflow-steps/process-multiple-records-with-iterators.md).
 
-Check the schedule's enabled state and configured interval. If the interface does not make the effective time zone clear, confirm it through a controlled scheduled test before relying on it.
+## Test the function and the schedule separately
+
+Use fictional records in a test environment. Save and test the function with representative inputs, then check an actual scheduled execution in **Run history** and verify its result. An editor test does not prove that a schedule is active.
+
+Record the configured time, expected execution time, observed run, and result. Check the trigger's saved configuration and any enabled-state control available in your interface if the run does not appear.
 
 ## Keep repeated runs predictable
 
-Exclude records already processed. Store a marker after successful work, and consider what happens if the next run encounters the same record. A marker alone does not guarantee duplicate prevention when runs overlap; see [repeat-safe processing](../handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).
+Exclude records already processed and store a marker after successful work. A marker alone does not prevent duplicate work when executions overlap. See [Handle failures and prevent duplicate processing](../handle-outcomes/handle-failures-and-prevent-duplicate-processing.md).
 
-For an end-to-end example, follow [Send scheduled reminders](../practical-guides/send-scheduled-reminders.md). For other entry points, see [Start a workflow](./).
+For an application example, see [Send scheduled reminders](../practical-guides/send-scheduled-reminders.md). For other entry points, see [Choose a trigger](choose-a-trigger.md).

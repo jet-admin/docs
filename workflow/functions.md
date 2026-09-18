@@ -132,3 +132,9 @@ See [Run on a schedule](start-a-workflow/run-on-a-schedule.md) and [Handle failu
 The six choices above are the options visible in these menus. For the separately documented HTTP-event setup, see [Receive an incoming webhook](start-a-workflow/receive-an-incoming-webhook.md).
 
 Workflow functions are different from formula functions used in computed fields. For those, see [List of Functions](../user-guide/data/computed-fields/formulas/list-of-functions.md).
+
+## Record-event scope
+
+In record-trigger setup, choose the resource and collection. The inspected Jet Tables collection selector explicitly says **collections (changes from Jet only)**. Do not assume that a direct write to an external database will start this automation.
+
+Test creation, updates, and deletion separately using a disposable record changed through Jet. Inspect the event values before mapping them; the available fields and delivery behavior must be verified for your configured trigger.
