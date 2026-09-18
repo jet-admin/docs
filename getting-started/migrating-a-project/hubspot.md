@@ -62,6 +62,8 @@ Confirm Deals resolve to the right Companies before building views that depend o
 {% endstep %}
 {% endstepper %}
 
+{% embed url="https://app.arcade.software/share/MajZ7TWpyyFnYaKG6nzM" %}
+
 ## Troubleshooting
 
 Some objects are missing. Confirm the authorizing HubSpot user can see them. Jet Admin inherits that user's visibility. Only the four objects listed above are part of the standard sync.
