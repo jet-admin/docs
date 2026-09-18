@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Modals and overlays
 
 Applies to **Classic App Builder**. A modal displays content above the current page; a slideout opens from the side, and a dropdown opens near its trigger. Use a modal to show record details or a form without navigating away.
