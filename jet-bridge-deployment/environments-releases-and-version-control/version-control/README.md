@@ -7,21 +7,21 @@ icon: code-branch
 
 This guide describes the earlier snapshot and release interface. For the current AI App Builder panel with **Preview version**, **Revert version**, and **Show changes**, see [Version History](../../../ai-app-builder/test-and-publish/version-history.md).
 
-By default, any changes made to a Jet app are automatically saved to the current working version and are immediately visible to all users. Enable app versioning or reverting back to a previous state.
+Working changes, saved snapshots, and the published app are different states. Confirm the release behavior of your app's builder before making a change. Do not assume an editor save immediately publishes to users.
 
-Releases enable users to implement app versioning and release changes using a unique version number representing the app's specific state. When a release is published, it becomes the live version for users to interact with, providing a secure way to test and deploy changes without causing any disruptions.
+Use a named snapshot to identify the app configuration being reviewed. Test the intended release before publishing, then verify its actual app URL with a representative user. A snapshot does not guarantee disruption-free deployment.
 
-Jet keeps a detailed record of all modifications made, allowing users to browse the list of versions and revert the app to a previous state if necessary.
+The older interface below provides a release/snapshot list. Its screenshots are retained for Classic apps that expose these controls; they do not establish the history retention or coverage of your current deployment.
 
 <figure><img src="../../../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Releases
 
 {% hint style="info" %}
-Releases are only available on paid [Jet plans.](https://www.jetadmin.io/pricing/internal-tool)
+Check the release controls and entitlement available to your app. This historical guide does not establish current plan eligibility.
 {% endhint %}
 
-The current state of Jet apps can be version-controlled and made available to users. Whenever a release is published, it becomes the active version for all users. The published release can be modified at any moment and revert the present working version back to alterations made in a previous version.
+Before selecting a snapshot, confirm the app and environment. Creating a snapshot records a point to review; use the publication controls available in your interface to make a reviewed release available to users.
 
 1. Click on Version History on the right-top bar
 
@@ -43,16 +43,16 @@ Click **Create snapshot** to create a version for release. You can also specify 
 
 ### Revert changes
 
-You have the ability to revert the current working version to a previous state. Simply choose a historical point and hit the **Restore** button. While this action will undo all modifications made post the chosen point, it does not erase them from the historical record.
+In the older snapshot interface, select a historical point and inspect the **Restore** action. Before applying it, record the current configuration and confirm the restore scope. Restoring app configuration is not a guarantee that database writes, messages, or other external effects will be reversed.
 
 <figure><img src="../../../.gitbook/assets/re.jpg" alt=""><figcaption></figcaption></figure>
 
-Every time you perform a reversion, this action is also recorded in the history under the label **Reverted changes**. If necessary, you can revert back to a prior historical point to undo the reversion, thereby restoring the changes to the current working version.
+The earlier interface can display a **Reverted changes** entry. After restoring, inspect the available history and repeat page, data-action, and permission checks. Verify the live app separately before treating recovery as complete.
 
 ### Creating a backup version
 
 {% hint style="info" %}
-At the moment, Jet doesn't have an automated backup system so you should save and store relevant versions manually
+Confirm backup coverage, scheduling, and retention for your deployment. A manually downloaded configuration backup does not establish that connected records and files are included.
 {% endhint %}
 
 To save a stable version, open your app in the builder mode and click on the "App" icon in the top left corner
@@ -69,6 +69,16 @@ After that, you can **download the current configuration** and store it in your 
 
 ### Restoring a previous version
 
-To rollback to the previously saved version, you'll need to click upload and select the backup file that's been saved. After that, the changes will be pushed automatically
+For the earlier upload-based restore interface, choose the intended backup file only after confirming the target environment and compatibility. Review the restored configuration, resource connections, data actions, and user permissions. Use [Environments](../../environments/) for the current Download backup and Restore backup entry points.
 
 <figure><img src="../../../.gitbook/assets/Group 7581.png" alt=""><figcaption></figcaption></figure>
+
+## Recovery acceptance checks
+
+* Confirm the intended version and environment.
+* Verify a representative page and a read-only data query.
+* Check allowed and denied access with test identities.
+* Compare connected records and files independently of app configuration.
+* Confirm the app address used by end users shows the intended state.
+
+The procedures and retained media in this legacy reference were editorially reviewed; a restore was not performed during this update.

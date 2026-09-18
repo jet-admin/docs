@@ -5,9 +5,11 @@ icon: paintbrush
 
 # Customizing Pages
 
+Applies to **Classic App Builder**. The retained video demonstrates the earlier Classic interface.
+
 {% embed url="https://www.youtube.com/watch?v=7382TbvzzRs&list=PLSkzi9eq0vBnUGMnwXrRRVo9TXUjZ7uSj&index=30&ab_channel=JetAdmin" %}
 
-A Page is an interface element that can span across various use cases. Create pages from scratch or generate an Admin Panel to get your application ready in less than 2 minutes.
+A Page is an interface element that can span across various use cases. Create pages from scratch or generate an initial page, then configure and test its components.
 
 ### Create a New page
 
@@ -35,7 +37,7 @@ Once you created a new page, drag and drop any components to the page to succeed
 
 ### Page Values
 
-Page Values allow you to pass data from one page to another.&#x20;
+Page Values allow you to pass data from one page to another.
 
 {% content-ref url="page-values.md" %}
 [page-values.md](page-values.md)
@@ -53,13 +55,13 @@ To pass a value from one page to another, you need to use the Navigate to page a
 
 Page queries allow you to do queries from your page at once, and then use query results for all of the components on the page. In case, you use one Query for several components, Page Queries helps you to load it once and optimize the page loading.
 
-{% content-ref url="/broken/pages/xHsJDAWL5HnJb2bh14C4" %}
-[Broken link](/broken/pages/xHsJDAWL5HnJb2bh14C4)
+{% content-ref url="load-data-page-query.md" %}
+[load-data-page-query.md](load-data-page-query.md)
 {% endcontent-ref %}
 
 ## Load Data (Page Query)
 
-**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../user-guide/data-sources/), [workflow](../../../workflow/overview.md), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](https://docs.jetadmin.io/user-guide/design-and-structure/components/charts), [tables](https://docs.jetadmin.io/user-guide/design-and-structure/components/lists/table), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.&#x20;
+**Load Data** allows you to retrieve data (collection or record) from the [data sources](../../../user-guide/data-sources/), [workflow](../../../workflow/overview.md), or a page component (specify data). Pass variables/parameters, and filter your data. The data can be loaded into components on the current page: such as [charts](../components/charts/), [tables](../components/lists/table/), [select, ](../components/form/select.md)and [multiple select](../components/form/multiple-select.md) components.
 
 {% content-ref url="load-data-page-query.md" %}
 [load-data-page-query.md](load-data-page-query.md)
@@ -67,7 +69,7 @@ Page queries allow you to do queries from your page at once, and then use query 
 
 ## Page Opens Action
 
-**Page Opens Action** fires each time a page is opened to allow you to perform various actions on the page load, such as [Open Modal](https://docs.jetadmin.io/user-guide/design-and-structure/components/modal), Send an [HTTP request](https://docs.jetadmin.io/user-guide/data/make-an-http-request), [Run component action](https://docs.jetadmin.io/user-guide/design-and-structure/actions#run-component-action), [show a notification](https://docs.jetadmin.io/user-guide/design-and-structure/components/custom-notifications) message, Run a [Workflow](https://docs.jetadmin.io/user-guide/workflow), or other actions.
+**Page Opens Action** fires each time a page is opened to allow you to perform various actions on the page load, such as [Open Modal](../components/modal.md), Send an [HTTP request](../../../user-guide/sql-queries-and-api-requests/make-an-http-request.md), [Run component action](../../actions-and-logic/actions.md), [show a notification](../components/custom-notifications.md) message, Run a [Workflow](../../../workflow/overview.md), or other actions.
 
 {% content-ref url="page-opens-action.md" %}
 [page-opens-action.md](page-opens-action.md)
