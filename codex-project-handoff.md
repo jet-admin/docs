@@ -315,3 +315,49 @@ This is the **unclassified/non-bot traffic baseline**, not proof that every visi
 The daily query returned 11–17 September, totaling 3,754 views before excluding unresolved pages; the aggregate total was 4,036. A custom range also returned a partial 18 September bucket, and explicit datetime-bound filters failed with Bad Gateway. Preserve this range/bucketing discrepancy: do not present the rolling aggregate as a reconciled seven-complete-day figure or use it for a precise before/after comparison.
 
 Next analytics pass: verify time-window semantics, repeat the same successful-page/non-bot filter, exclude known internal traffic if supported, and recheck broken URLs after enough new traffic accumulates. Do not infer documentation impact from this snapshot alone.
+
+## Remaining URL audit — 18 September 2026
+
+The prior list of 27 paths was checked in the public browser:
+
+* **26 now resolve**: 23 newly configured redirect paths, two existing pages (Records and Fields), and GitBook's built-in /whats-new redirect.
+* Community (/join-the-community) now redirects to https://docs.jetadmin.io/whats-new-updates as explicitly requested.
+* Restored the missing legacy HTTP requests API guide in the API reference space and repaired its link from Servers & Authentication. API-space change request #12, revision fMA6inSyqq02snulfoDG. Its endpoint has not been execution-tested.
+* Older provider-specific tutorials without a current exact equivalent now lead to the maintained provider/topic guide. These are navigation consolidations, not restored feature guarantees.
+* One malformed URL remains a public 404: `/whats-new-updates/readme.md):`. GitBook rejects literal punctuation in redirect source input. The percent-encoded exact rule exists and points to What's New, but public browser checks of literal and encoded forms still returned 404. Narrow wildcard attempts also failed and were removed. No matching malformed source link was found in the current public documentation repository.
+* This exposes a verification limitation of the earlier 202-rule batch: API creation success does not prove literal punctuation URLs redirect publicly. Recheck those malformed requests before claiming that entire batch resolves in a browser.
+* Next step for this one remaining URL: have the GitBook site owner report the literal-versus-encoded redirect behavior to GitBook support. No support message has been sent.
+
+### Audited path mappings
+
+| Incoming path                                                              | Current destination / disposition                                                             |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `/access-and-sharing/authentication-and-sso/sign-in-sign-up/gb-sel-sykjzm` | Retired opaque authentication URL; consolidated authentication guide — Authentication and SSO |
+| `/user-guide/integrations/jet-tables/storage-and-files`                    | Files and storage — Files & storage                                                           |
+| `/user-guide/integrations/xano/connect-xano-to-jet-admin`                  | Current Xano connection guide — Xano                                                          |
+| `/user-guide/integrations/xano/upload-files-to-xano`                       | Current resource-storage and app-upload guide — Configure resource storage and app uploads    |
+| `/user-guide/project-settings`                                             | Application settings — Application settings                                                   |
+| `/user-guide/integrations/firebase-firestore/import-csv-into-firebase`     | Retired provider-specific tutorial; current Firebase guide — Firebase / Firestore             |
+| `/user-guide/integrations/google-sheets/working-with-data`                 | Current Google Sheets guide — Google Sheets                                                   |
+| `/user-guide/jet-admin-api/http-requests-api`                              | Restored HTTP proxy reference — API reference                                                 |
+| `/join-the-community`                                                      | User requested Community to What's New — What's New                                           |
+| `/pages/ieobslkbunkq8fuspeze`                                              | Restore original case-sensitive page ID — Jet Database                                        |
+| `/user-guide/design-and-structure/templates`                               | Retired Classic templates entry; current practical guides — Practical guides                  |
+| `/pages/3liwevtfq8uz7jg5e8fo`                                              | Restore original case-sensitive page ID — API calls with SSO token                            |
+| `/user-guide/integrations/xano/create-apis-on-top-of-your-xano-database`   | Current Xano integration guide — Xano                                                         |
+| `/user-guide/data/collection`                                              | Collections/records consolidated into Records — Records                                       |
+| `/slack`                                                                   | Support Slack channel guide — How to Connect to Slack Channel                                 |
+| `/user-guide/collaboration`                                                | Current Access & Governance guide — Access & Governance overview                              |
+| `/user-guide/integrations/postgresql-integration`                          | SQL database connection guide — SQL Databases                                                 |
+| `/whats-new-updates/readme.md):`                                           | Still 404 publicly; exact encoded rule configured                                             |
+| `/whats-new`                                                               | GitBook built-in redirect to What's New                                                       |
+| `/changelog`                                                               | Current news landing page — What's New                                                        |
+| `/slack-1`                                                                 | Support Slack channel guide — How to Connect to Slack Channel                                 |
+| `/developer-reference/jet-admin-api`                                       | Current API reference — API reference                                                         |
+| `/user-guide/integrations/firebase-firestore/visualize-subcollection`      | Retired provider-specific tutorial; current Firebase guide — Firebase / Firestore             |
+| `/getting-started/overall-structure`                                       | Current core concepts — Explore core concepts                                                 |
+| `/getting-started/integrations`                                            | Current first data-source guide — Connect your first data source                              |
+| `/user-guide/data/records`                                                 | Existing Records page; verified public                                                        |
+| `/user-guide/data/fields`                                                  | Existing Fields page; verified public                                                         |
+
+Current handoff visibility remains hidden from navigation and available by direct link.
