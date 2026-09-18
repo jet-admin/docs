@@ -29,25 +29,26 @@ Custom objects aren't part of the standard sync. To access them, add a [REST API
 ## Before you start
 
 * A Salesforce account with access to the objects you need
-* Your Salesforce API key
 * If your org has a sandbox, connect that first and switch to production once the app works
 
 ## Connect Salesforce
 
 {% stepper %}
 {% step %}
-#### Get your Salesforce API key
-
-Sign in to Salesforce, then find and copy your API key.
-{% endstep %}
-
-{% step %}
 #### Add Salesforce as a resource
 
-In Jet Admin, open **Data → Add Resource** and select **Salesforce**. Paste your API key.
+In Jet Admin, open **Data → Add Resource** and select **Salesforce**.
 {% endstep %}
 
 {% step %}
+#### Sign in to Salesforce
+
+Click **Sign in to Salesforce** and complete the OAuth prompt. Jet Admin doesn't need an API key — Salesforce handles authentication and permissions for you.
+{% endstep %}
+
+{% step %}
+{% @arcade/embed flowId="Kol8IrH2FwhYCXUemSad" url="https://app.arcade.software/share/Kol8IrH2FwhYCXUemSad" %}
+
 #### Choose your connection mode
 
 Choose **Sync** to blend Salesforce with another source. Choose **Direct** for writes that update Salesforce immediately. See [Choosing a connection mode](https://docs.jetadmin.io/getting-started/migrating-a-project) if you're unsure.
@@ -62,7 +63,7 @@ Click the **More** icon on the resource, then **Sync Structure**. Accounts, Cont
 {% step %}
 #### Check the data
 
-Open each table in the [Data Editor](../../classic-app-builder/videos/data-editor/data-editor-interface.md) and check the records and field types before building your app.
+Open each table in the Data Editor and check the records and field types before building your app.
 {% endstep %}
 {% endstepper %}
 

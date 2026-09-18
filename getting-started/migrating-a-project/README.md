@@ -32,7 +32,7 @@ Sync connections are available for a limited number of integrations. If your sou
 
 Start by adding a resource and choosing which system to connect:
 
-{% embed url="https://app.arcade.software/share/El0LmGjVtJy28rU3ebSD" %}
+{% @arcade/embed %}
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Salesforce</strong></td><td>Accounts, Contacts, Opportunities via API key</td><td></td></tr><tr><td><strong>HubSpot</strong></td><td>Contacts, Companies, Deals, Tickets via OAuth</td><td></td></tr><tr><td><strong>Shopify</strong></td><td>Any Admin API object via a REST resource</td><td></td></tr><tr><td><strong>Stripe</strong></td><td>Charges, invoices, subscriptions, and refunds</td><td></td></tr><tr><td><strong>Airtable</strong></td><td>Any base, with generated CRUD pages</td><td></td></tr></tbody></table>
 
