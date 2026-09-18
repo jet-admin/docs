@@ -292,3 +292,26 @@ Use the connected GitBook tools. Discover operation schemas rather than guessing
 8. Save the publication report and update this page. Do not equate a GitBook merge with product acceptance tests.
 
 This review inspected the full navigation tree and selected current page content, not every paragraph of all 617 entries or all 100 draft diffs. The verification limits above should travel with the project.
+
+## Analytics-driven follow-up — 18 September 2026
+
+Published documentation work in change request #1153:
+
+* Renamed the existing Overlay article to **Modals and overlays**, preserving its page ID and URL.
+* Added complete text for creating a modal, opening it from a row/button, passing selected-record values, testing, and troubleshooting.
+* Expanded **Bind page data to a modal** and linked the retained video and Overlay layout guides to the canonical instructions. Existing media retained and labeled Classic; no new recording or live Classic acceptance test.
+* Created **202 permanent live redirect rules** for observed malformed URLs with clear current equivalents and old API paths. The API reference is a separate space: `XFsHhniyCGLWr64BOU1D`, site-space `sitesp_xHN2m`. The old API-token path now targets Servers & Authentication there.
+* 27 observed URL paths remain for review; some may already resolve now. Do not redirect unknown URLs to an unrelated hub merely to remove a 404. See the local audit report.
+* GitBook confirmed every redirect operation as created. Direct HTTP verification was blocked by HTTP 403 in this environment; external redirect behavior still needs browser verification.
+
+### Reproducible readership baseline
+
+Snapshot queried on 18 September 2026 using GitBook `aggregateSiteEvents`, range `last7Days`. Filter: `eventType = page_view`, `displayContext = site`, `visitorBot in [null, ""]`, and `page not in [null]`.
+
+Result: **3,776 resolved-page views; 1,981 distinct visitors; 2,025 sessions**. Including unresolved pages returned 4,036 views, 2,223 visitors, and 2,266 sessions.
+
+This is the **unclassified/non-bot traffic baseline**, not proof that every visitor is human. Identified bots are excluded; undetected automation and internal reviews may remain. Visitors are not additive across days/pages. The site-wide query includes Platform, API reference, and What's New.
+
+The daily query returned 11–17 September, totaling 3,754 views before excluding unresolved pages; the aggregate total was 4,036. A custom range also returned a partial 18 September bucket, and explicit datetime-bound filters failed with Bad Gateway. Preserve this range/bucketing discrepancy: do not present the rolling aggregate as a reconciled seven-complete-day figure or use it for a precise before/after comparison.
+
+Next analytics pass: verify time-window semantics, repeat the same successful-page/non-bot filter, exclude known internal traffic if supported, and recheck broken URLs after enough new traffic accumulates. Do not infer documentation impact from this snapshot alone.

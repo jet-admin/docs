@@ -2,67 +2,96 @@
 hidden: true
 ---
 
-# Overlay
+# Modals and overlays
 
-Before we get into the nuances of using an overlay in a JetAdmin app, it’s probably worth taking a moment to define what an overlay is in the first place.&#x20;
+Applies to **Classic App Builder**. A modal displays content above the current page; a slideout opens from the side, and a dropdown opens near its trigger. Use a modal to show record details or a form without navigating away.
 
-Overlays are windows - both large and small - that “pop” onto the screen when an action is taken. Sometimes these come in the form of a warning (e.g. “Are you sure you want to delete that?”) and sometimes they can be in the form of something useful (e.g. clicking a "view details" button and seeing the specifics about an object).&#x20;
+This guide uses the existing Classic interface and media. For AI App Builder, use [focused edits in Preview](../../../ai-app-builder/refine-an-app/).
 
-Overlays allow you to both save space as well as present the right information at the right time.
+## Before you start
 
-![](../../../.gitbook/assets/testgif97.gif)
+Have a Classic page with a table and a resource containing a unique record identifier, such as Product ID. Use test records to check your bindings before adding write actions.
 
-### The basics and properties
+## Create a modal
 
-To add an overlay into your application, find one of the components "modal" or "slideout" from the component sidebar on the right and drag it onto the page.
+1. Open **Overlays** in the builder's top bar.
+2. Select **+** beside the modal option. In earlier Classic layouts, drag **modal** or **slideout** from the component sidebar onto the page.
+3. Open the overlay and add the components it needs: a Detail component for viewing a record, or inputs for a form.
+4. Configure its title, width, and display style. A title can be static or use a dynamic value.
+5. Close the overlay editor to return to the page. Reopen it through **Overlays** when you need to edit it.
 
-![](../../../.gitbook/assets/testgif98.gif)
+![Earlier Classic sidebar with modal and slideout components](../../../.gitbook/assets/testgif98.gif)
 
-After closing the overlay, you can open it again in the builder by clicking the "overlays" button on the top-left menu, as shown on the image below.
+![Overlays entry point in the Classic builder](<../../../.gitbook/assets/image (962).png>)
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (962).png" alt=""><figcaption></figcaption></figure></div>
+For the creation walkthrough and display options, see [Overlay layouts](layouts/overlays/) and [Customize an overlay](layouts/overlays/customizing-overlay.md).
 
-{% hint style="info" %}
-An overlay acts as a page does, meaning that you can drag-and-drop other components into it when it’s open in the builder.
-{% endhint %}
+## Open a modal when a table row is clicked
 
-You can change the width of the overlay window and the content will automatically be adjusted:
+1. Select the table on the page.
+2. Configure its **Row click** action.
+3. Choose **Open Overlay** and select the modal you created.
+4. Add a **Detail** component inside that modal and select the relevant resource.
+5. Filter the Detail component by the record's primary key, binding the filter value to the selected table row's primary key.
 
-![](../../../.gitbook/assets/testgif99.gif)
+For example: the table's selected Product ID is 42, so the Detail component must load the product whose ID equals 42. A matching name is not a substitute for a unique identifier.
 
-Overlay windows in Jet Admin have various display styles. You can change it in the settings:
+![Classic table Row click action configured to Open Overlay](../../../.gitbook/assets/testgif102.gif)
 
-![](../../../.gitbook/assets/testgif100.gif)
+![Selecting the target overlay in the Classic action settings](../../../.gitbook/assets/testgif103.gif)
 
-You can also set the title for the Overlay window in different ways. The title can be a **static** value or a **dynamic** value using formulas (e.g., you want to display Update Product # \{{id\}}).&#x20;
+![Detail component added inside a Classic overlay](../../../.gitbook/assets/testgif104.gif)
 
-![](../../../.gitbook/assets/testgif101.gif)
+![Filtering record details using the selected row's primary key](../../../.gitbook/assets/testgif105.gif)
 
-See here for more details on how to use the formula functionality for dynamic values:
+**Expected result:** clicking a row opens the modal with that record's details. To show details only after a click, place the Detail component inside the modal rather than permanently beside the table.
 
-{% content-ref url="../../../user-guide/data/computed-fields/formulas/" %}
-[formulas](../../../user-guide/data/computed-fields/formulas/)
-{% endcontent-ref %}
+## Open a modal from a button
 
-### Open an overlay from a Table
+Select the button, configure its action as **Open Overlay**, and choose the target modal. See [Configure a button action](../../classic-tutorials/configure-a-button-action.md).
 
-You have a table that displays a list of Products. After clicking on the product row (the selected row) you want to see product details - displayed in an overlay. To do this, let's set up a Row click action with the **Open Overlay** type:
+For a button that depends on a selected row, ensure a row is selected before opening the modal. Pass the selected record identifier to the overlay and use it to load the intended record.
 
-![](../../../.gitbook/assets/testgif102.gif)
+## Pass values into a modal or form
 
-Next, you can choose a created and configured overlay or create a new one:
+Use [Overlay Parameters](layouts/overlays/overlay-parameters.md) to pass contextual values from the page. Create a parameter of the appropriate type, supply its value in the action that opens the overlay, and bind the receiving component to it.
 
-![](../../../.gitbook/assets/testgif103.gif)
+For a record-specific form, distinguish the identifier used to choose the record from editable input values. Opening the modal is not the same as submitting the form or updating the record.
 
-Now let's add a Detail component to the overlay window to display detailed information:
+See [Bind page data to a modal](../../binding-and-values/binding-across-overlays.md) for a worked example and the retained Classic video.
 
-![](../../../.gitbook/assets/testgif104.gif)
+## Verify the result
 
-Next, you need to apply filters, namely a data filter on the primary key (in our case it is the product ID). This step is important for the form to display exactly the data you selected in the table (selected row):
+1. Open record A and confirm its identifier and details.
+2. Close the modal, then open record B and confirm the displayed data changes.
+3. Check a row with an empty optional field.
+4. For button-triggered overlays, check the behavior before a row is selected.
+5. If you added a save action, test it separately with a synthetic record and verify the intended record changed.
 
-![](../../../.gitbook/assets/testgif105.gif)
+Test with the intended user's permissions. A modal or hidden component does not itself enforce data access.
 
-{% hint style="info" %}
-Now, when you select a row, the overlay window will open with product details.
-{% endhint %}
+## Troubleshooting
 
+| Problem                              | Check                                                                            |
+| ------------------------------------ | -------------------------------------------------------------------------------- |
+| Modal does not open                  | The trigger has an Open Overlay action and the correct target                    |
+| A page opens instead                 | The trigger is configured for an overlay, not page navigation                    |
+| Wrong record appears                 | The receiving component filters by the selected row's unique identifier          |
+| Data stays the same between rows     | The parameter or filter is bound dynamically rather than to a copied fixed value |
+| Details appear before clicking       | The Detail component is on the page instead of inside the overlay                |
+| Modal opens but contains no data     | Resource, identifier type, empty selection, and user permissions                 |
+| Form opens but changes are not saved | Opening and submitting are separate actions; inspect the form's submit action    |
+
+## Customize the appearance
+
+![Classic overlay width settings](../../../.gitbook/assets/testgif99.gif)
+
+![Classic overlay display styles](../../../.gitbook/assets/testgif100.gif)
+
+![Classic overlay title configuration](../../../.gitbook/assets/testgif101.gif)
+
+For dynamic titles, see [Formulas](../../../user-guide/data/computed-fields/formulas/).
+
+![Example of an overlay in an earlier Classic app](../../../.gitbook/assets/testgif97.gif)
+
+Screenshots are retained Classic reference media. The workflow was not re-executed in a Classic test app during this editorial update.

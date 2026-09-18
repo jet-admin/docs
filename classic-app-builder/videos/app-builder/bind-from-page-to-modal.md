@@ -1,6 +1,10 @@
 # Bind from Page to Modal
 
-In this video, we'll cover binding a **UI element in the Modal to the UI component on the Page**:&#x20;
+Applies to **Classic App Builder**. For complete text instructions and troubleshooting, see [Bind page data to a modal](../../binding-and-values/binding-across-overlays.md) and [Modals and overlays](../../design-and-structure/components/modal.md).
+
+This retained recording shows an earlier Classic interface.
+
+In this video, we'll cover binding a **UI element in the Modal to the UI component on the Page**:
 
 * You have a Table on a Page and an input in a Modal and you want, when you click on the specific row in the table to open up the Modal. Additionally, as the Modal opens up, you want to "pass" a specific value from a selected record in the Table into the input field in the Modal
 

@@ -4,6 +4,8 @@ icon: clone
 
 # Overlays
 
+Applies to **Classic App Builder**. Start with [Modals and overlays](../../modal.md) for a complete table-row or button workflow, expected results, and troubleshooting.
+
 Overlays, also known as Modals are windows — both large and small that “pop” onto the screen when an action is taken. Sometimes these come in the form of a warning (e.g. “Are you sure you want to delete that?”) and sometimes they can be in the form of something useful (e.g. clicking a "view details" button and seeing the specifics about an object).
 
 Jet Admin provides 3 types of overlays:
@@ -19,7 +21,7 @@ To set up an `Overlay`, follow the steps:
 3. Click on the `Customize` button
 4. Choose the Style you want to use
 
-{% @arcade/embed flowId="2lGL2xo2EeysgXzxEf6A" url="https://app.arcade.software/share/2lGL2xo2EeysgXzxEf6A" %}
+{% @arcade/embed url="https://app.arcade.software/share/2lGL2xo2EeysgXzxEf6A" flowId="2lGL2xo2EeysgXzxEf6A" %}
 
 You can customize your Modals by showing a close button and enabling closure when clicking the background overlay.
 
