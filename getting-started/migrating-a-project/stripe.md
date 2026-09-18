@@ -66,6 +66,8 @@ Before publishing your app, restrict refund and cancellation actions with [visib
 {% endstep %}
 {% endstepper %}
 
+{% embed url="https://app.arcade.software/share/A6jvrgZgN1WRx0Ua2leS" %}
+
 ## Troubleshooting
 
 I can see test data but not real customers. You connected a test secret key. Replace it with the live key in the resource settings.
