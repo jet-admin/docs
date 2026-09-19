@@ -59,6 +59,8 @@ When prompted, select the tables for which Jet Admin should generate CRUD pages.
 {% endstep %}
 {% endstepper %}
 
+{% embed url="https://app.arcade.software/share/RebnoSasAPk0ROOXWk8V" %}
+
 ## Switching views later
 
 1. Click **Edit resource** from the resource's settings menu
