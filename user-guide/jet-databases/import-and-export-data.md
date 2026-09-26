@@ -6,7 +6,27 @@ Bring an existing file into Jet Tables and verify the imported records before us
 
 Prepare a **CSV, XLS, XLSX, or JSON** file. For tabular files, use clear column names and consistent values within each column. Keep a copy of the original file so you can compare the result.
 
-## Import a file
+## Import a CSV with the assistant
+
+{% hint style="info" %}
+The assistant's collection import tool is a development preview. Manual import remains available.
+{% endhint %}
+
+1. [Attach the CSV to your prompt](../../ai-app-builder/ai-assistant/upload-images-and-files.md), either when creating an app or in an existing app's chat.
+2. Name the target Jet Tables collection. Say whether the assistant should use an existing collection or create one.
+3. Ask the assistant to import the file and specify how you want existing records handled.
+4. Review the import action details, including the field mapping and the counts of created and failed records.
+5. Check the records in the Data workspace before using them in your app.
+
+> Import the attached tickets.csv into the existing Tickets collection. Map Ticket title to Name and Owner to Assigned to. Add the new rows and keep existing records.
+
+The assistant can inspect the file's columns and map them to collection fields even when their names differ. The import tool processes the file in bulk, avoiding a separate assistant create-record call for every row.
+
+![File-import action showing field mapping and import results](https://250870895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8xy7P3kSppSd57K7pcpL%2Fuploads%2FFBA1Ao7I0EUPss7Tizhh%2Fcollection-import.webp?alt=media)
+
+If the result reports errors, review which rows succeeded before retrying. Ask the assistant to explain the errors and correct the mapping or source values as needed.
+
+## Import a file manually
 
 1. Open the Jet Tables setup window.
 2. Select **Import from File**.

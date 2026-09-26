@@ -14,6 +14,14 @@ Identify whether the problem is the request, generation, Preview, data, or acces
 | A user sees unexpected records      | Authentication, user properties, and record rules    | [Compare user experiences](preview-as-an-invited-user.md) and check enforcement.                                    |
 | Usage is limited                    | Account allowance and usage messages                 | Check [How credits work](../../account/credits-and-rate-limits/how-credits-work.md).                                |
 
+## Preview limit reached
+
+Open an unused app preview, select **… → Stop Preview**, and return to the app you want to work on. See [Control app Preview](control-app-preview.md).
+
+## Recurring request timeouts
+
+A fix for recurring request timeouts has been deployed and is being monitored. If the error continues, record the time, prompt, and visible error for support. Before retrying a request that writes data, check whether any records were already created or changed.
+
 ## Ask for help with a reproducible case
 
 Include the app page, time, relevant prompt, selected resource and model, expected result, actual result, and a sanitized error. State whether the problem also occurs in the published app.

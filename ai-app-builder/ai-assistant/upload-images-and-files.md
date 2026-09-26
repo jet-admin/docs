@@ -2,7 +2,24 @@
 
 Attach an image or file to give the assistant reference material for a request. A screenshot can explain a layout; a document can describe the required behavior.
 
-## Attach reference material
+## Attach files before creating an app
+
+{% hint style="info" %}
+Attachments in the initial app-creation prompt are a development preview.
+{% endhint %}
+
+1. Open the app-creation prompt and describe the app you want.
+2. Use the attachment control to choose files, such as a CSV, a document, or an image.
+3. Wait for the attachments to appear in the prompt box. Remove any files you do not want to include.
+4. Explain how the assistant should use each file, then start generation.
+
+![Files attached to the initial app-creation prompt](https://250870895-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8xy7P3kSppSd57K7pcpL%2Fuploads%2F9pWaYPY4RbE6nEZF6oCj%2Fprompt-attachments.webp?alt=media)
+
+> Build a support dashboard using the attached CSV as starting data in Jet Tables. Use the attached image as a layout reference.
+
+If you want to create records from a file, explicitly ask for an import. See [Import and export data](../../user-guide/jet-databases/import-and-export-data.md) for the assistant import workflow and how to check the result.
+
+## Attach reference material in an existing app
 
 1. Open the chat for your task.
 2. Click the **paperclip** beside the message input.
@@ -18,10 +35,10 @@ Attach an image or file to give the assistant reference material for a request. 
 
 Compare the requested details with Preview. If the assistant misses something, refer to that part of the attachment in a focused follow-up.
 
-An attachment provides context. To use a database or business application as live app data, select a connected data source. To import rows into a table, use the relevant data-import guide.
+An attachment provides context. To use a database or business application as live app data, select a connected data source. To import rows into a table, follow [Import and export data](../../user-guide/jet-databases/import-and-export-data.md).
 
 ## If an upload fails
 
 Check the file picker and any upload error for supported types and size restrictions. Retry one file at a time after checking that the file opens locally. Do not assume that a model's context-window number is an attachment size limit.
 
-Next: Request focused changes.
+Next: [Request focused changes](../refine-an-app/request-focused-changes.md).

@@ -32,6 +32,16 @@ Click the full-screen icon beside the device control to expand Preview. Use the 
 
 Treat unsaved form input and temporary UI state as disposable during a restart. Restarting Preview is not a way to undo changes already saved to a connected data source.
 
+## Free a preview slot
+
+If the builder says you cannot run more previews, open an app preview you are no longer using, including one in another browser tab. Open its **…** menu and select **Stop Preview**, then return to the app you want to work on.
+
+Stopping an unused preview frees a simultaneous preview slot. The Stop Preview control is part of the development-preview updates, so its availability may differ by builder version.
+
+## Preview after importing an app
+
+When importing an app archive, allow the import to finish before expecting Preview to start. The builder now waits for import completion before starting the preview.
+
 ## If Preview does not recover
 
 Capture the error and check [Console and logs](inspect-app-console-and-logs.md). Record the route and the last action. Avoid repeating a write action until you know whether it completed.
