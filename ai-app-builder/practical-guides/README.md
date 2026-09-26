@@ -6,6 +6,7 @@ icon: book-open
 
 Build a complete app around a business task. Each guide includes a suggested schema, copyable prompts, and checks for the result.
 
+* [Turn your spreadsheet into a real app](spreadsheet-to-app.md): import Excel or CSV, connect Google Sheets, and build a customer tracker with forms and access rules.
 * [Build a support dashboard](build-a-support-dashboard.md): ticket list, filters, details, and assignment.
 * [Build a customer portal](build-a-customer-portal.md): customer-specific orders and access tests.
 * [Build an approval app](build-an-approval-app.md): requests, manager decisions, and recorded outcomes.
