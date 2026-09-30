@@ -9,12 +9,16 @@ Invite a specific person and select the team they should join.
 1. Open **Users → Users**.
 2. Select **Invite Member**.
 3. In **Invite with Email**, enter the recipient's email.
-4. Open the team selector and choose the appropriate team. Review [Administrator, Editor, and Read Only](../teams-and-roles/built-in-roles.md) before choosing.
+4. Open the team selector and choose the appropriate team. Review Administrator, Editor, and Read Only before choosing.
 5. Check the email and team, then select **Send Invite**.
 
-![Invite members dialog with separate email and link invitation controls](../../.gitbook/assets/02-invitations.png)
+![Invite members dialog with separate email and link invitation controls](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FXYcixizdTkrBuE9U2wHP%2F02-invitations.png?alt=media)
 
 The screenshot shows Administrator selected. This is an example of the current selection, not a recommendation for every invitation.
+
+## Invitation email appearance
+
+Free projects use the standard built-in invitation email template. Custom built-in email templates are not available on the Free plan.
 
 ## Verify the result
 
@@ -26,4 +30,4 @@ The dialog's unpublished-changes warning means non-builder users will see the pu
 
 If an invitation is missing, check the email spelling and the recipient's spam or quarantine folders. Confirm that they are opening the intended app with the invited account before changing permissions.
 
-If sign-in works but access is incorrect, use [Test access before publishing](../overview/test-access.md).
+If sign-in works but access is incorrect, use Test access before publishing.

@@ -12,9 +12,9 @@ Prepare a **CSV, XLS, XLSX, or JSON** file. For tabular files, use clear column 
 The assistant's collection import tool is a development preview. Manual import remains available.
 {% endhint %}
 
-1. [Attach the CSV to your prompt](../../ai-app-builder/ai-assistant/upload-images-and-files.md), either when creating an app or in an existing app's chat.
+1. Attach the CSV to your prompt, either when creating an app or in an existing app's chat.
 2. Name the target Jet Tables collection. Say whether the assistant should use an existing collection or create one.
-3. Ask the assistant to import the file and specify how you want existing records handled.
+3. Ask the assistant to use bulk file import and specify how you want existing records handled. If the CSV was attached in an earlier message in the same conversation, refer to it by filename.
 4. Review the import action details, including the field mapping and the counts of created and failed records.
 5. Check the records in the Data workspace before using them in your app.
 
@@ -34,7 +34,7 @@ If the result reports errors, review which rows succeeded before retrying. Ask t
 4. Review **Advanced settings** if you need to adjust encoding or automation settings.
 5. Select **Import file**.
 
-<figure><img src="../../.gitbook/assets/S06-import-dialog.jpg" alt="Import from File dialog with Choose File and Import file"><figcaption><p>Choose a supported file, review its settings, and import it.</p></figcaption></figure>
+<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FpfDjNrk1cQ4h18MWVtin%2FS06-import-dialog.jpg?alt=media" alt="Import from File dialog with Choose File and Import file"><figcaption><p>Choose a supported file, review its settings, and import it.</p></figcaption></figure>
 
 ## Verify the import
 
@@ -46,8 +46,8 @@ If text is garbled, review encoding. If numbers or dates are interpreted incorre
 
 Open the collection you want to export and use its export option. Check which records the export includes, especially when filters are active, and select an available format.
 
-<figure><img src="../../.gitbook/assets/S08-export-formats.jpg" alt="Records Export formats: CSV, Excel, JSON, HTML, and TXT"><figcaption><p>Choose an export format and check which records are included.</p></figcaption></figure>
+<figure><img src="https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FPUqeuCr8Qms4D3Oqe8r2%2FS08-export-formats.jpg?alt=media" alt="Records Export formats: CSV, Excel, JSON, HTML, and TXT"><figcaption><p>Choose an export format and check which records are included.</p></figcaption></figure>
 
 Open the exported file and compare its columns and record count with the intended selection. A data export is not an export of your entire app configuration.
 
-Continue with [Field types](../data/fields/field-types.md).
+Continue with Field types.

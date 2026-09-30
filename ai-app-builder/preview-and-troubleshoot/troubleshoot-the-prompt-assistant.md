@@ -2,21 +2,29 @@
 
 Identify whether the problem is the request, generation, Preview, data, or access before making another broad change.
 
-| Symptom                             | What to check                                        | Next step                                                                                                           |
-| ----------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| The assistant uses the wrong source | Selected resource and exact table names              | [Select the intended source](../ai-assistant/select-data-sources.md) and clarify the request.                       |
-| A field is missing                  | Source schema and connection access                  | [Inspect the connection](../create-an-app/connect-existing-data.md) before changing the UI.                         |
-| The wrong page or component changes | Target and scope in the prompt                       | [Request one focused correction](../refine-an-app/request-focused-changes.md).                                      |
-| A file will not attach              | File picker restrictions and upload error            | [Check the attachment workflow](../ai-assistant/upload-images-and-files.md).                                        |
-| Dictation is unavailable            | Browser permission and microphone input              | [Check dictation setup](../ai-assistant/type-or-dictate-a-prompt.md) or type the request.                           |
-| Preview is blank or disconnected    | Session status and recent logs                       | [Inspect Console](inspect-app-console-and-logs.md); use [Restart Preview](control-app-preview.md) when appropriate. |
-| An action fails                     | Inputs, source permissions, and actual source result | [Test once with a safe record](../test-and-publish/check-data-actions-and-user-access.md).                          |
-| A user sees unexpected records      | Authentication, user properties, and record rules    | [Compare user experiences](preview-as-an-invited-user.md) and check enforcement.                                    |
-| Usage is limited                    | Account allowance and usage messages                 | Check [How credits work](../../account/credits-and-rate-limits/how-credits-work.md).                                |
+| Symptom                             | What to check                                        | Next step                                              |
+| ----------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ |
+| The assistant uses the wrong source | Selected resource and exact table names              | Select the intended source and clarify the request.    |
+| A field is missing                  | Source schema and connection access                  | Inspect the connection before changing the UI.         |
+| The wrong page or component changes | Target and scope in the prompt                       | Request one focused correction.                        |
+| A file will not attach              | File picker restrictions and upload error            | Check the attachment workflow.                         |
+| Dictation is unavailable            | Browser permission and microphone input              | Check dictation setup or type the request.             |
+| Preview is blank or disconnected    | Session status and recent logs                       | Inspect Console; use Restart Preview when appropriate. |
+| An action fails                     | Inputs, source permissions, and actual source result | Test once with a safe record.                          |
+| A user sees unexpected records      | Authentication, user properties, and record rules    | Compare user experiences and check enforcement.        |
+| Usage is limited                    | Account allowance and usage messages                 | Check How credits work.                                |
 
 ## Preview limit reached
 
-Open an unused app preview, select **… → Stop Preview**, and return to the app you want to work on. See [Control app Preview](control-app-preview.md).
+Open an unused app preview, select **… → Stop Preview**, and return to the app you want to work on. See Control app Preview.
+
+## The assistant appears idle during a tool call
+
+Long-running actions can show progress while the assistant uses tools. Check the active action and any available details before sending the same request again. If progress stops or an error appears, record the action, time, and error for support.
+
+## Preview is blank during generation
+
+Wait for initial app generation to finish. The builder holds Preview until that step completes. If generation is complete and Preview remains blank, check Console and logs.
 
 ## Recurring request timeouts
 
