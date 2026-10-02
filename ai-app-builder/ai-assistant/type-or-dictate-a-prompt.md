@@ -2,7 +2,7 @@
 
 Enter a request as text or use the microphone in the assistant's message composer.
 
-![AI Assistant message composer with the microphone and send arrow](../../.gitbook/assets/ai-prompt-composer.jpg)
+![AI Assistant message composer with the microphone and send arrow](../../.gitbook/assets/ai-prompt-composer-2x.png)
 
 The microphone is beside the send arrow at the lower right of the composer.
 
@@ -31,4 +31,4 @@ Confirm the request names the correct fields before sending it. After generation
 
 If the microphone does not work, check browser microphone permission and the selected audio input. You can always type the same request. Spell out unusual table or field names in the text input if dictation mishears them.
 
-Next: [Manage chats and context](manage-chats-and-context.md).
+Next: [Manage chats and context](https://docs.jetadmin.io/ai-app-builder/ai-assistant/manage-chats-and-context).
