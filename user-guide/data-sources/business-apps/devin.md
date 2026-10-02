@@ -18,7 +18,11 @@ To connect your Devin account:
 3. Select **Devin** from the list of available resources.
 4. Authenticate your Devin account.
 
-{% @arcade/embed flowId="8QQ8Ynuc5QZgxFbhdhqp" url="https://app.arcade.software/share/8QQ8Ynuc5QZgxFbhdhqp" %}
+![Devin connection form in Jet Admin](../../../.gitbook/assets/devin-connection.jpg)
+
+The connection form shows where to name the resource and start authentication with an API key.
+
+{% @arcade/embed url="https://app.arcade.software/share/8QQ8Ynuc5QZgxFbhdhqp" flowId="8QQ8Ynuc5QZgxFbhdhqp" %}
 
 {% hint style="info" %}
 Once connected, the Devin resource becomes available anywhere JetAdmin supports Data resources.
@@ -120,4 +124,4 @@ List all configured Devin automations and explain what each one does.
 
 This example demonstrates how an AI Agent can generate developer documentation from a codebase using Devin.
 
-{% @arcade/embed flowId="H53kqOjbjVxzs4PdLsuB" url="https://app.arcade.software/share/H53kqOjbjVxzs4PdLsuB" %}
+{% @arcade/embed url="https://app.arcade.software/share/H53kqOjbjVxzs4PdLsuB" flowId="H53kqOjbjVxzs4PdLsuB" %}

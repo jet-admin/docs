@@ -18,7 +18,11 @@ To connect your Ahrefs account:
 3. Select **Ahrefs** from the list of available resources.
 4. Authenticate your Ahrefs account.
 
-{% @arcade/embed flowId="7qRyqzRWsUKBgYNTzner" url="https://app.arcade.software/share/7qRyqzRWsUKBgYNTzner" %}
+![Ahrefs connection form in Jet Admin](../../../.gitbook/assets/ahrefs-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
+
+{% @arcade/embed url="https://app.arcade.software/share/7qRyqzRWsUKBgYNTzner" flowId="7qRyqzRWsUKBgYNTzner" %}
 
 {% hint style="info" %}
 Once connected, the Ahrefs resource becomes available anywhere JetAdmin supports data resources.
@@ -116,4 +120,4 @@ Use Brand Radar to show how often our brand appears in AI chatbot responses and 
 
 This example demonstrates how an AI Agent can analyze a website with Ahrefs and generate an SEO report.
 
-{% @arcade/embed flowId="vYstzWvgcRLxDtZtNDph" url="https://app.arcade.software/share/vYstzWvgcRLxDtZtNDph" %}
+{% @arcade/embed url="https://app.arcade.software/share/vYstzWvgcRLxDtZtNDph" flowId="vYstzWvgcRLxDtZtNDph" %}

@@ -27,4 +27,8 @@ This allows you to query, view, and interact with calendar data just like any ot
    * **Get free/busy information** – check calendar availability for a given time range.
    * **Quick add event** – create new calendar events instantly.
 
-{% @arcade/embed flowId="3FVOJRlU8YrsMEKpAX9S" url="https://app.arcade.software/share/3FVOJRlU8YrsMEKpAX9S" %}
+![Google Calendar connection form in Jet Admin](../../../.gitbook/assets/google-calendar-connection.jpg)
+
+The connection form shows where to name the resource and start authentication before choosing a calendar.
+
+{% @arcade/embed url="https://app.arcade.software/share/3FVOJRlU8YrsMEKpAX9S" flowId="3FVOJRlU8YrsMEKpAX9S" %}

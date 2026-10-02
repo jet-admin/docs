@@ -8,11 +8,11 @@ description: >-
 
 Before connecting AWS Athena with Jet Admin, you need to have the following credential information:
 
-* Host&#x20;
-* Port&#x20;
-* AWS access key&#x20;
-* AWS secret key&#x20;
-* Database name&#x20;
+* Host
+* Port
+* AWS access key
+* AWS secret key
+* Database name
 * S3 staging dir
 
 ## Connect AWS Athena to Jetadmin
@@ -26,6 +26,8 @@ Before connecting AWS Athena with Jet Admin, you need to have the following cred
 7. Click `Choose Tables`
 8. Choose the needed tables and click `Add Resource`
 
+### &#x20;<a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
+![Amazon Athena (AWS Athena) connection setup in Jet Admin with example placeholders and empty credential fields](../../../.gitbook/assets/athena-connection-fields.jpg)
 
-### &#x20; <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
+Use the fields in your own connection form; the screenshot contains empty inputs or example placeholders.

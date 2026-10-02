@@ -18,7 +18,9 @@ To connect your Confluence account:
 3. Select **Confluence** from the list of available resources.
 4. Authenticate your Confluence account.
 
-arcade
+![Confluence connection form in Jet Admin](../../../.gitbook/assets/confluence-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
 
 {% hint style="info" %}
 Once connected, the Confluence resource becomes available anywhere JetAdmin supports external resources.

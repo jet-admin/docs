@@ -16,11 +16,15 @@ Before you begin, ensure you have:
 1. **Log in to Jet Admin**: Open Jet Admin and navigate to your application.
 2. **Add a New Resource**: In the left-side menu, go to the **Data** section and click **Add Resource**.
 3. **Select ClickHouse DB**: From the list of data sources, choose **ClickHouse DB**.
-4. **Provide Connection Details**: Enter the required credentials, including the Host, Port, Username, Password, and Database Name.&#x20;
+4. **Provide Connection Details**: Enter the required credentials, including the Host, Port, Username, Password, and Database Name.
 5. **Test the Connection**: Click **Test Connection** to ensure Jet Admin can successfully connect to your ClickHouse database.
 6. **Select Tables**: Once the connection is established, choose the tables you want to use in Jet Admin.
 
-{% @arcade/embed flowId="DwGTnOClvIRVhPVtMg3B" url="https://app.arcade.software/share/DwGTnOClvIRVhPVtMg3B" %}
+![ClickHouse connection setup in Jet Admin with example placeholders and empty credential fields](../../../.gitbook/assets/clickhouse-connection-fields.jpg)
+
+Use the fields in your own connection form; the screenshot contains empty inputs or example placeholders.
+
+{% @arcade/embed url="https://app.arcade.software/share/DwGTnOClvIRVhPVtMg3B" flowId="DwGTnOClvIRVhPVtMg3B" %}
 
 {% hint style="info" %}
 **Troubleshooting Tips**
@@ -28,7 +32,7 @@ Before you begin, ensure you have:
 1. **Connection Issues**: Double-check the credentials and ensure your ClickHouse instance is accessible.
 2. **Firewall Rules**: If your ClickHouse DB is hosted in a secure environment, confirm that Jet Admin's IP addresses are whitelisted.
 3. **SSL/TLS**: If your database requires encrypted connections, ensure SSL/TLS settings are correctly configured in ClickHouse and Jet Admin.
-4. **Port Issues**: For ClickHouse, you need the **native connection type**. The default port for the native protocol with SSL/TLS is **9440**.&#x20;
+4. **Port Issues**: For ClickHouse, you need the **native connection type**. The default port for the native protocol with SSL/TLS is **9440**.
    * Make sure to use **native protocol SSL/TLS port**.
    * Refer to ClickHouse documentation for more details: [ClickHouse Network Ports](https://clickhouse.com/docs/en/guides/sre/network-ports).
 {% endhint %}

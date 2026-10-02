@@ -10,7 +10,11 @@ This walks you through building a working app in Jet Admin, end to end: describe
 
 Use a project where you can build an app and a small test dataset. Prepare a **Tickets** table with **Name**, **Status**, **Priority**, and **Assigned to** fields. Add three clearly labeled test records: two Open tickets and one Closed ticket. Use [Jet Databases](../user-guide/jet-databases/) or an existing connected source.
 
-[Download sample ticket records](../.gitbook/assets/sample-tickets.csv). Import them into a test table, then check the field types. The Assigned to values are demo text labels; map them to your own users if your schema uses user references.
+[Download sample ticket records](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FGsaJpVZels9y5R5amfGm%2Fsample-tickets.csv?alt=media). Import them into a test table, then check the field types. The Assigned to values are demo text labels; map them to your own users if your schema uses user references.
+
+![New-app prompt with Design, microphone, and Create controls](../.gitbook/assets/ai-create-app-prompt.jpg)
+
+Enter your app description in the dashboard prompt. The Design control is beside the attachment control.
 
 ## 1. Describe the app you want
 

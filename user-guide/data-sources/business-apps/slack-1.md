@@ -30,3 +30,7 @@ This enables robust internal tools that interface directly with Slack for notifi
 • Use the **Schedule Message** action to send automated updates at specific times.\
 • Combine Slack actions with other data sources (like your CRM data or support tool) to notify teams automatically.
 {% endhint %}
+
+![Connect Slack with OAuth connection form in Jet Admin](../../../.gitbook/assets/slack-oauth-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.

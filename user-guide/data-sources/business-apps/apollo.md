@@ -18,7 +18,9 @@ To connect your Apollo account:
 3. Select **Apollo** from the list of available resources.
 4. Authenticate your Apollo account.
 
-arcade
+![Apollo connection form in Jet Admin](../../../.gitbook/assets/apollo-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
 
 {% hint style="info" %}
 Once connected, the Apollo resource becomes available anywhere JetAdmin supports data resources.
@@ -111,4 +113,3 @@ Retrieve current job postings for HubSpot and summarize the departments that are
 This example demonstrates how an AI Agent can use Apollo to find decision-makers and enrich company information for outbound sales.
 
 arcade
-

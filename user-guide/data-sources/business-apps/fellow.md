@@ -18,7 +18,9 @@ To connect your Fellow account:
 3. Select **Fellow** from the list of available resources.
 4. Authenticate your Fellow account.
 
-arcade
+![Fellow connection form in Jet Admin](../../../.gitbook/assets/fellow-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
 
 {% hint style="info" %}
 Once connected, the Fellow resource becomes available anywhere JetAdmin supports Data resources.

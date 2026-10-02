@@ -35,3 +35,7 @@ This allows you to build streamlined workflows, dashboards, and automations base
 • Use **Add Comment** or **Add Followers** actions to keep teams informed without switching to Asana.\
 • If you work across multiple workspaces, you can connect each as a separate resource for clearer organization.
 {% endhint %}
+
+![Asana connection form in Jet Admin](../../../.gitbook/assets/asana-connection.jpg)
+
+The connection form shows where to name the resource and start authentication, with OAuth and personal access token options.

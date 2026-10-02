@@ -17,7 +17,11 @@ To connect your Exa account:
 3. Select **Exa** from the list of available resources.
 4. Authenticate your Exa account.
 
-{% @arcade/embed flowId="SOubhnZ6703uUEweoFkX" url="https://app.arcade.software/share/SOubhnZ6703uUEweoFkX" %}
+![Exa connection form in Jet Admin](../../../.gitbook/assets/exa-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
+
+{% @arcade/embed url="https://app.arcade.software/share/SOubhnZ6703uUEweoFkX" flowId="SOubhnZ6703uUEweoFkX" %}
 
 {% hint style="info" %}
 Once connected, the Exa resource becomes available anywhere JetAdmin supports Data resources.
@@ -108,4 +112,4 @@ Search the web for the latest information about the Model Context Protocol (MCP)
 
 This example demonstrates how an AI Agent can use Exa to research a topic, retrieve relevant webpages, and generate an answer using live web information.
 
-{% @arcade/embed flowId="5hzAPQ4I6g3SVgfxKKDk" url="https://app.arcade.software/share/5hzAPQ4I6g3SVgfxKKDk" %}
+{% @arcade/embed url="https://app.arcade.software/share/5hzAPQ4I6g3SVgfxKKDk" flowId="5hzAPQ4I6g3SVgfxKKDk" %}

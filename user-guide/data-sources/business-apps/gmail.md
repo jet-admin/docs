@@ -22,7 +22,11 @@ This makes it easy to integrate your email workflow directly into your JetAdmin 
 5. **Complete the connection:**\
    After a successful connection, JetAdmin automatically imports four main collections and several inbox-related actions.
 
-{% @arcade/embed flowId="gZZEXloRwF0qSTyXas2R" url="https://app.arcade.software/share/gZZEXloRwF0qSTyXas2R" %}
+![Gmail connection form in Jet Admin](../../../.gitbook/assets/gmail-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
+
+{% @arcade/embed url="https://app.arcade.software/share/gZZEXloRwF0qSTyXas2R" flowId="gZZEXloRwF0qSTyXas2R" %}
 
 {% hint style="info" %}
 **Data & Actions Overview**\

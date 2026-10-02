@@ -16,6 +16,10 @@ Complete [data and access tests](check-data-actions-and-user-access.md). Inspect
 
 For environment configuration, domains, and deployment choices, follow [Publish & Deploy](../../jet-bridge-deployment/overview.md).
 
+![Publish menu showing pending changes, Publish, the published app address, and Connect Custom domain](../../.gitbook/assets/ai-publish-options.jpg)
+
+Review the pending changes before confirming Publish. Use Open published App to check the released version.
+
 ## Check the published app
 
 Sign in as a representative user. Open the critical pages and repeat the main task with test records. Verify the source result of a write action and check a restricted user is still denied.

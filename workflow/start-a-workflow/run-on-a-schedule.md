@@ -27,6 +27,10 @@ The inspected interval form initially shows 15 minutes. Set the value needed for
 
 The UTC label above was verified for the daily form. Check the labels for other schedule modes and the one-time date picker before assuming they use the same time zone.
 
+![Daily schedule setup showing Every day, Time, and Time zone is UTC (+0)](../../.gitbook/assets/workflow-daily-schedule.jpg)
+
+In the daily schedule form, the time zone is UTC (+0). Convert your intended local time before setting Time.
+
 For recurring work, start with a query that selects only the records due for processing. Pass those results into [conditions](../build-workflow-steps/add-conditions-and-branches.md) or an [iterator](../build-workflow-steps/process-multiple-records-with-iterators.md).
 
 ## Test the function and the schedule separately

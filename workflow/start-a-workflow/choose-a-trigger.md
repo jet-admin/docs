@@ -17,6 +17,10 @@ A trigger defines when a function runs automatically. In the **Workflows** area,
 | **When record updated**  | When a record is updated            |
 | **When record deleted**  | When a record is deleted            |
 
+![Add Automation menu with interval, schedule, one-time, and record-event triggers](../../.gitbook/assets/workflow-trigger-menu.jpg)
+
+Open Workflows → Add Automation to choose a trigger type.
+
 Follow [Functions and automations](../functions.md) for screenshots of both menus and the setup sequence. Configure the timing or record source after choosing a type.
 
 ## Component actions

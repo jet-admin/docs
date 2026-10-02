@@ -23,7 +23,11 @@ This is perfect for multilingual apps, content generation workflows, support too
 5. **Add Resource:**\
    JetAdmin will validate your key and complete the setup, making translation actions immediately available.
 
-{% @arcade/embed flowId="zujfQwpMWAeSb05lDgNI" url="https://app.arcade.software/share/zujfQwpMWAeSb05lDgNI" %}
+![Google Translator connection form in Jet Admin](../../../.gitbook/assets/google-translate-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
+
+{% @arcade/embed url="https://app.arcade.software/share/zujfQwpMWAeSb05lDgNI" flowId="zujfQwpMWAeSb05lDgNI" %}
 
 {% hint style="info" %}
 **Actions Overview**\
@@ -32,4 +36,3 @@ Once connected, JetAdmin provides three key translation actions:\
 • **Get Supported Languages:** Retrieve a full list of languages supported by Google Translate.\
 • **Translate Text:** Translate text from one language to another using Google’s neural machine translation.
 {% endhint %}
-

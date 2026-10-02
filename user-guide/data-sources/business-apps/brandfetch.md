@@ -11,7 +11,11 @@ To connect your Brandfetch account:
 3. Select **Brandfetch** from the list of available resources.
 4. Authenticate your Brandfetch account.
 
-{% @arcade/embed flowId="KM3oMulzAv3M8BigGvbI" url="https://app.arcade.software/share/KM3oMulzAv3M8BigGvbI" %}
+![Brandfetch connection form in Jet Admin](../../../.gitbook/assets/brandfetch-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
+
+{% @arcade/embed url="https://app.arcade.software/share/KM3oMulzAv3M8BigGvbI" flowId="KM3oMulzAv3M8BigGvbI" %}
 
 {% hint style="info" %}
 Once connected, the Brandfetch resource becomes available anywhere JetAdmin supports external resources.
@@ -103,4 +107,4 @@ Fetch the primary logo as a Base64 asset for Canva so it can be embedded directl
 
 This example demonstrates how an AI Agent can search for a company, retrieve its branding assets, and use the information to enrich a CRM record.
 
-{% @arcade/embed flowId="rYxEArcBkLniH5VazFIT" url="https://app.arcade.software/share/rYxEArcBkLniH5VazFIT" %}
+{% @arcade/embed url="https://app.arcade.software/share/rYxEArcBkLniH5VazFIT" flowId="rYxEArcBkLniH5VazFIT" %}

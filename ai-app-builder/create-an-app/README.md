@@ -18,6 +18,10 @@ Start with one useful job and a small dataset. Build the first version, check it
 
 You can also attach files to your initial prompt, such as a CSV with starting data or an image showing the intended layout. Ask for a CSV import into Jet Tables when you want the file's rows to become app data. These assistant features are in development preview.
 
+![Jet Admin dashboard prompt for creating an app](../../.gitbook/assets/ai-create-app-prompt.jpg)
+
+The dashboard prompt is the starting point for a new app. Choose a design before submitting your description.
+
 ## Review the plan before building
 
 In the builder preview, planning and generation follow separate steps. For an app based on an existing resource, the assistant requests access and inspects the resource before preparing the plan.

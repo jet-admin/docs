@@ -24,7 +24,11 @@ This is ideal for logistics tools, delivery dashboards, travel apps, or any work
 5. **Add Resource:**\
    JetAdmin will validate the key. After successful connection, all Maps-related actions become available for use.
 
-{% @arcade/embed flowId="OFZRT6pw1l2OtJOLC1vQ" url="https://app.arcade.software/share/OFZRT6pw1l2OtJOLC1vQ" %}
+![Google Maps connection form in Jet Admin](../../../.gitbook/assets/google-maps-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
+
+{% @arcade/embed url="https://app.arcade.software/share/OFZRT6pw1l2OtJOLC1vQ" flowId="OFZRT6pw1l2OtJOLC1vQ" %}
 
 {% hint style="info" %}
 **Actions Overview**\

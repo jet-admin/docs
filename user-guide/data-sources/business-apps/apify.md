@@ -23,7 +23,11 @@ To connect your Apify account:
 3. Select **Apify** from the list of available resources.
 4. Authenticate your Apify account.
 
-{% @arcade/embed flowId="cIWtddJQuVpyDzZDuJeE" url="https://app.arcade.software/share/cIWtddJQuVpyDzZDuJeE" %}
+![Apify connection form in Jet Admin](../../../.gitbook/assets/apify-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
+
+{% @arcade/embed url="https://app.arcade.software/share/cIWtddJQuVpyDzZDuJeE" flowId="cIWtddJQuVpyDzZDuJeE" %}
 
 > ℹ️ Once connected, all available Apify tools can be used inside AI Agents, Workflows, and other JetAdmin features that support resources.
 
@@ -117,4 +121,4 @@ Search the Apify documentation for how to pass input parameters to an Actor and 
 
 This example demonstrates how to use an AI Agent to scrape a website with Apify and summarize the results.
 
-{% @arcade/embed flowId="GaEgu84pDGyC7f2uU9oH" url="https://app.arcade.software/share/GaEgu84pDGyC7f2uU9oH" %}
+{% @arcade/embed url="https://app.arcade.software/share/GaEgu84pDGyC7f2uU9oH" flowId="GaEgu84pDGyC7f2uU9oH" %}

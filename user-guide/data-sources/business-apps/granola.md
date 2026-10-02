@@ -17,7 +17,11 @@ To connect your Granola account:
 3. Select **Granola** from the list of available resources.
 4. Authenticate your Granola account.
 
-{% @arcade/embed flowId="q4G10OxLZL4SSSJYEft5" url="https://app.arcade.software/share/q4G10OxLZL4SSSJYEft5" %}
+![Granola connection form in Jet Admin](../../../.gitbook/assets/granola-connection.jpg)
+
+The connection form shows where to name the resource and start authentication.
+
+{% @arcade/embed url="https://app.arcade.software/share/q4G10OxLZL4SSSJYEft5" flowId="q4G10OxLZL4SSSJYEft5" %}
 
 {% hint style="info" %}
 Once connected, the Granola resource becomes available anywhere JetAdmin supports Data resources.

@@ -16,6 +16,10 @@ Use the app's sign-in page. If the user normally signs in through Google or anot
 
 For setup, see [Custom Domain and Transactional Emails](https://docs.jetadmin.io/classic-app-builder/design-and-structure/core-concept/jet-ui/layouts-and-branding/custom-domain-and-transactional-emails).
 
+![More → Emails with Password restore and User invitation templates visible](../.gitbook/assets/email-settings.jpg)
+
+App administrators can locate the sending address and Password restore and User invitation templates in More → Emails. Availability depends on the app's plan and domain configuration.
+
 ## The user was deleted, but an invitation says the account exists
 
 Check both the app's users and pending invitations. If neither shows the account but the conflict remains, ask support to investigate its state. Avoid repeatedly deleting or recreating accounts to work around the error.

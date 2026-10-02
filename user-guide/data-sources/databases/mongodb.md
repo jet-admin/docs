@@ -19,7 +19,7 @@ Before connecting MongoDB with Jet Admin, ensure you have created a MongoDB data
 4. Copy the provided Connection String
 5. Click `Done`
 
-{% @arcade/embed flowId="E3CB1GzgpsCcikcmwYj2" url="https://app.arcade.software/share/E3CB1GzgpsCcikcmwYj2" %}
+{% @arcade/embed url="https://app.arcade.software/share/E3CB1GzgpsCcikcmwYj2" flowId="E3CB1GzgpsCcikcmwYj2" %}
 
 In the connection string, replace **\<db\_password>** with the password for the **Current User** you were provided before when registering a new user in MongoDB.
 
@@ -34,7 +34,7 @@ If you lost your password, you need to create a new one.
 3. In the next screen, Click on `Edit Password`
 4. Type a new password, Copy, and **save it** in a safe place.
 
-{% @arcade/embed flowId="RtMr5wUEROirAGrZ6ecA" url="https://app.arcade.software/share/RtMr5wUEROirAGrZ6ecA" %}
+{% @arcade/embed url="https://app.arcade.software/share/RtMr5wUEROirAGrZ6ecA" flowId="RtMr5wUEROirAGrZ6ecA" %}
 
 ## Get the Database Name <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
@@ -42,9 +42,7 @@ If you lost your password, you need to create a new one.
 2. Under the `Collections` tab, click to choose the required Database
 3. Copy the Database name.
 
-
-
-{% @arcade/embed flowId="eHZhTWn3VWkj1UyVIj57" url="https://app.arcade.software/share/eHZhTWn3VWkj1UyVIj57" %}
+{% @arcade/embed url="https://app.arcade.software/share/eHZhTWn3VWkj1UyVIj57" flowId="eHZhTWn3VWkj1UyVIj57" %}
 
 ## Connect MongoDB to Jetadmin <a href="#connect-airtable-to-jetadmin" id="connect-airtable-to-jetadmin"></a>
 
@@ -53,9 +51,11 @@ If you lost your password, you need to create a new one.
 3. Choose MongoDB
 4. Choose **Instant Connection** as a setup method
 
+{% @arcade/embed url="https://app.arcade.software/share/K0eGKtQd32FFr8U7xzLi" flowId="K0eGKtQd32FFr8U7xzLi" %}
 
+![MongoDB connection setup in Jet Admin with example placeholders and empty credential fields](../../../.gitbook/assets/mongodb-connection-fields.jpg)
 
-{% @arcade/embed flowId="K0eGKtQd32FFr8U7xzLi" url="https://app.arcade.software/share/K0eGKtQd32FFr8U7xzLi" %}
+Use the fields in your own connection form; the screenshot contains empty inputs or example placeholders.
 
 | Resource Name     | Description                                                                                                                           |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

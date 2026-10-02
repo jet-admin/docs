@@ -23,7 +23,11 @@ Publish after the reviewed app, data connections, and permissions match the inte
 5. Open the published app at its configured address.
 6. [Verify the release](verify-a-release.md) with an intended test user.
 
-![Builder toolbar with separate Share, Version History, and Publish controls](../../.gitbook/assets/publish-toolbar.png)
+![Builder toolbar with separate Share, Version History, and Publish controls](https://3448227606-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LQ08RFAKZvFADEiXKFy%2Fuploads%2FaoHXIlvOavCeV3oYtmyE%2Fpublish-toolbar.png?alt=media)
+
+![Expanded Publish menu showing the pending change count and Open published App](../../.gitbook/assets/ai-publish-options.jpg)
+
+The expanded menu separates publishing pending changes from opening the published app.
 
 Non-builder users see the published app. A change that appears in Preview may still be unpublished.
 

@@ -2,6 +2,10 @@
 
 Enter a request as text or use the microphone in the assistant's message composer.
 
+![AI Assistant message composer with the microphone and send arrow](../../.gitbook/assets/ai-prompt-composer.jpg)
+
+The microphone is beside the send arrow at the lower right of the composer.
+
 ## Type a request
 
 1. Open the relevant chat.

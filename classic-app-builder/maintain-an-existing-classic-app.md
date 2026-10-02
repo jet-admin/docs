@@ -8,6 +8,10 @@ Applies to **Classic App Builder**. Screens and recordings in this section show 
 
 Maintain and extend an existing app built with the visual, drag-and-drop editor. Start with the page, component, or action you need to change.
 
+![Classic builder showing a product table on the visual canvas and the component palette](../.gitbook/assets/classic-builder-overview.jpg)
+
+The Classic builder places the app canvas beside its component palette. Parameters, Actions, Overlays, and Variables are in the top toolbar.
+
 ## Maintain an existing app
 
 1. Identify the affected page, resource, and user task.

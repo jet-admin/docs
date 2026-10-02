@@ -18,7 +18,11 @@ To connect your Parallel account:
 3. Select **Parallel** from the list of available resources.
 4. Authenticate your Parallel account.
 
-{% @arcade/embed flowId="KLYRIZV9nMd2aovMhPPZ" url="https://app.arcade.software/share/KLYRIZV9nMd2aovMhPPZ" %}
+![Parallel connection form in Jet Admin](../../../.gitbook/assets/parallel-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
+
+{% @arcade/embed url="https://app.arcade.software/share/KLYRIZV9nMd2aovMhPPZ" flowId="KLYRIZV9nMd2aovMhPPZ" %}
 
 {% hint style="info" %}
 Once connected, the Parallel resource becomes available anywhere JetAdmin supports external resources.
@@ -107,4 +111,4 @@ Search the web for the latest information about MCP servers and answer the user'
 
 This example demonstrates how an AI Agent can use Parallel to search the web, retrieve relevant webpages, and answer questions using live information.
 
-{% @arcade/embed flowId="mOnFxtYpPq7GpFFLhA6o" url="https://app.arcade.software/share/mOnFxtYpPq7GpFFLhA6o" %}
+{% @arcade/embed url="https://app.arcade.software/share/mOnFxtYpPq7GpFFLhA6o" flowId="mOnFxtYpPq7GpFFLhA6o" %}

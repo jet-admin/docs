@@ -27,7 +27,11 @@ Before starting, ensure you have:
 5. **Test the Connection**: Click **Test Connection** to verify that Jet Admin can successfully connect to your Databricks database.
 6. **Select Tables**: Once the connection is verified, choose the tables you want to access in Jet Admin.
 
-{% @arcade/embed flowId="nyKyR3ZQ9e9hRCA3v7Er" url="https://app.arcade.software/share/nyKyR3ZQ9e9hRCA3v7Er" %}
+![Databricks connection setup in Jet Admin with example placeholders and empty credential fields](../../../.gitbook/assets/databricks-connection-fields.jpg)
+
+Use the fields in your own connection form; the screenshot contains empty inputs or example placeholders.
+
+{% @arcade/embed url="https://app.arcade.software/share/nyKyR3ZQ9e9hRCA3v7Er" flowId="nyKyR3ZQ9e9hRCA3v7Er" %}
 
 ### How to Generate a Personal Access Token (PAT) in Databricks
 

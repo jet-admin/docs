@@ -19,7 +19,9 @@ To connect your Reducto account:
 3. Select **Reducto** from the list of available resources.
 4. Authenticate your Reducto account.
 
-arcade
+![Reducto connection form in Jet Admin](../../../.gitbook/assets/reducto-connection.jpg)
+
+The current connection form shows account options, including Use Jet-managed and Connect Custom. Choose the option appropriate for your setup.
 
 {% hint style="info" %}
 Once connected, the Reducto resource becomes available anywhere JetAdmin supports external resources.
